@@ -1,0 +1,269 @@
+{
+  "id": "museum",
+  "ur": "عجائب گھر",
+  "en": "The Museum",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'عجائب گھر' دو الفاظ سے بنا ہے: 'عجائب' یعنی حیرت انگیز چیزیں اور 'گھر' یعنی جگہ۔",
+    "en": "Did you know? “Ajaibghar” literally combines “ajaib” (wonders) and “ghar” (house) — “house of wonders.”"
+  },
+  "vocab": [
+    {
+      "ur": "عجائب گھر",
+      "en": "museum",
+      "ex_ur": "ہم نے عجائب گھر کی سیر کی۔",
+      "ex_en": "We visited the museum."
+    },
+    {
+      "ur": "نوادرات",
+      "en": "antiques / relics",
+      "ex_ur": "عجائب گھر میں قیمتی نوادرات رکھے ہیں۔",
+      "ex_en": "Valuable relics are kept in the museum."
+    },
+    {
+      "ur": "تاریخ",
+      "en": "history",
+      "ex_ur": "یہ چیزیں ہماری تاریخ بتاتی ہیں۔",
+      "ex_en": "These things tell our history."
+    },
+    {
+      "ur": "سکہ",
+      "en": "coin",
+      "ex_ur": "یہاں پرانے سکے بھی موجود ہیں۔",
+      "ex_en": "Old coins are also present here."
+    },
+    {
+      "ur": "مجسمہ",
+      "en": "statue",
+      "ex_ur": "ایک بڑا مجسمہ دروازے پر لگا ہے۔",
+      "ex_en": "A big statue stands at the door."
+    },
+    {
+      "ur": "نمائش",
+      "en": "exhibition",
+      "ex_ur": "نئی نمائش اگلے ہفتے شروع ہوگی۔",
+      "ex_en": "A new exhibition will begin next week."
+    },
+    {
+      "ur": "محافظ",
+      "en": "guard / keeper",
+      "ex_ur": "محافظ ہر چیز کی حفاظت کرتا ہے۔",
+      "ex_en": "The guard protects everything.",
+      "syn": "نگہبان"
+    },
+    {
+      "ur": "ورثہ",
+      "en": "heritage",
+      "ex_ur": "یہ ہمارا قومی ورثہ ہے۔",
+      "ex_en": "This is our national heritage.",
+      "syn": "میراث"
+    },
+    {
+      "ur": "زائرین",
+      "en": "visitors",
+      "ex_ur": "روزانہ سیکڑوں زائرین آتے ہیں۔",
+      "ex_en": "Hundreds of visitors come daily."
+    },
+    {
+      "ur": "گیلری",
+      "en": "gallery",
+      "ex_ur": "ہر گیلری میں مختلف دور کی چیزیں ہیں۔",
+      "ex_en": "Each gallery has items from a different era."
+    }
+  ],
+  "reading": {
+    "passage": "پچھلے ہفتے ہماری کلاس عجائب گھر گئی۔ وہاں ہم نے مختلف دور کے نوادرات دیکھے جو ہماری تاریخ کی کہانی سناتے ہیں۔ ایک گیلری میں پرانے سکے اور مجسمے رکھے تھے جو صدیوں پرانے تھے۔ محافظ نے ہمیں بتایا کہ یہ سب ہمارا قومی ورثہ ہے۔ روزانہ سیکڑوں زائرین اسے دیکھنے آتے ہیں۔",
+    "questions": [
+      {
+        "q": "ہماری کلاس کہاں گئی؟",
+        "opts": [
+          "بازار",
+          "عجائب گھر",
+          "پارک",
+          "ہسپتال"
+        ],
+        "a": 1
+      },
+      {
+        "q": "گیلری میں کیا رکھا تھا؟",
+        "opts": [
+          "کھلونے",
+          "سکے اور مجسمے",
+          "کپڑے",
+          "کتابیں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "محافظ نے کیا بتایا؟",
+        "opts": [
+          "یہ سب پرانا کباڑ ہے",
+          "یہ ہمارا قومی ورثہ ہے",
+          "یہ نیا سامان ہے",
+          "یہ بیچا جائے گا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "روزانہ کتنے زائرین آتے ہیں؟",
+        "opts": [
+          "دس",
+          "سیکڑوں",
+          "صرف ایک",
+          "کوئی نہیں"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "گئی",
+          "کلاس",
+          "ہماری",
+          "گھر",
+          "عجائب"
+        ],
+        "answer": [
+          "ہماری",
+          "کلاس",
+          "عجائب",
+          "گھر",
+          "گئی"
+        ],
+        "en": "Our class went to the museum."
+      },
+      {
+        "bank": [
+          "ہے",
+          "ورثہ",
+          "قومی",
+          "یہ",
+          "ہمارا"
+        ],
+        "answer": [
+          "یہ",
+          "ہمارا",
+          "قومی",
+          "ورثہ",
+          "ہے"
+        ],
+        "en": "This is our national heritage."
+      },
+      {
+        "bank": [
+          "زائرین",
+          "آتے",
+          "سیکڑوں",
+          "ہیں",
+          "روزانہ"
+        ],
+        "answer": [
+          "روزانہ",
+          "سیکڑوں",
+          "زائرین",
+          "آتے",
+          "ہیں"
+        ],
+        "en": "Hundreds of visitors come daily."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "عجائب گھر میں قیمتی ____ رکھے ہیں۔",
+        "opts": [
+          "نوادرات",
+          "کھلونے",
+          "کپڑے",
+          "برتن"
+        ],
+        "a": 0,
+        "en": "Valuable ___ are kept in the museum."
+      },
+      {
+        "text": "____ نے ہر چیز کی حفاظت کی۔",
+        "opts": [
+          "محافظ",
+          "زائر",
+          "استاد",
+          "ڈاکٹر"
+        ],
+        "a": 0,
+        "en": "The ___ guarded everything."
+      },
+      {
+        "text": "یہ ہمارا قومی ____ ہے۔",
+        "opts": [
+          "ورثہ",
+          "کھانا",
+          "کھیل",
+          "لباس"
+        ],
+        "a": 0,
+        "en": "This is our national ___."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ عجائب گھر جائیں تو کیا دیکھنا چاہیں گے؟ تین جملے لکھیں۔",
+      "en": "If you went to a museum, what would you want to see? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "موصولہ ضمیر 'جو' — The relative pronoun جو",
+    "explain": "جو (\"which/who/that\") links a describing clause to a noun: [noun] جو [description]. It doesn't change for gender, but the verb after it still agrees with what جو refers to.",
+    "rows": [
+      [
+        "نوادرات جو یہاں رکھے ہیں، بہت پرانے ہیں۔",
+        "The relics that are kept here are very old."
+      ],
+      [
+        "وہ لڑکا جو کتاب پڑھ رہا ہے، میرا دوست ہے۔",
+        "The boy who is reading a book is my friend."
+      ],
+      [
+        "یہ سکے جو میں نے دیکھے، صدیوں پرانے تھے۔",
+        "These coins that I saw were centuries old."
+      ],
+      [
+        "وہ عمارت جو سامنے ہے، عجائب گھر ہے۔",
+        "That building which is in front is the museum."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "یہ مجسمہ ____ گیلری میں ہے، بہت خوبصورت ہے۔",
+        "opts": [
+          "جو",
+          "کیونکہ",
+          "تاکہ",
+          "اگر"
+        ],
+        "a": 0,
+        "en": "This statue, which is in the gallery, is very beautiful."
+      },
+      {
+        "q": "وہ زائرین ____ آئے تھے، بہت خوش ہوئے۔",
+        "opts": [
+          "جو",
+          "پھر",
+          "جبکہ",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "The visitors who had come were very happy."
+      },
+      {
+        "q": "یہ کتاب ____ میں پڑھ رہا ہوں، دلچسپ ہے۔",
+        "opts": [
+          "جو",
+          "اگر",
+          "تو",
+          "کیونکہ"
+        ],
+        "a": 0,
+        "en": "This book that I am reading is interesting."
+      }
+    ]
+  }
+}

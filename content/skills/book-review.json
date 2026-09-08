@@ -1,0 +1,71 @@
+{
+  "id": "book-review",
+  "ur": "کتاب پر تبصرہ لکھنا",
+  "en": "How to write a book review",
+  "points": [
+    "کتاب کا نام اور مصنف کا نام لکھیں۔",
+    "کہانی کا مختصر خلاصہ دیں — سب کچھ نہ بتائیں۔",
+    "اپنی رائے دیں اور وجہ بتائیں کہ کتاب کیوں پسند آئی یا نہیں۔",
+    "آخر میں دوسروں کو کتاب پڑھنے کی سفارش کریں یا نہ کریں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Review of 'الف لیلہ' (a classic, public-domain story collection)",
+      "ur": "کتاب: الف لیلہ\n\nالف لیلہ پرانی کہانیوں کا ایک مشہور مجموعہ ہے۔ اس میں سندباد اور علاؤ الدین جیسی دلچسپ کہانیاں شامل ہیں۔ مجھے یہ کتاب بہت پسند آئی کیونکہ اس میں تخیل اور مہم جوئی دونوں ہیں۔ میں اس کتاب کو ہر عمر کے قاری کو پڑھنے کی سفارش کرتا ہوں۔"
+    },
+    {
+      "caption": "Review of an invented children's book \"دانا کوّا\"",
+      "ur": "کتاب: دانا کوّا\n\nیہ کتاب چھوٹے بچوں کے لیے چند سبق آموز کہانیوں پر مشتمل ہے۔ ہر کہانی میں کوئی نہ کوئی اخلاقی سبق چھپا ہوا ہے۔ زبان آسان اور تصویریں خوبصورت ہیں۔ مجھے یہ کتاب اتنی پسند نہیں آئی کیونکہ کہانیاں تھوڑی مختصر تھیں۔"
+    },
+    {
+      "caption": "Review of an invented novel \"روشنی کا سفر\"",
+      "ur": "کتاب: روشنی کا سفر\n\nیہ ایک نوجوان لڑکی کی کہانی ہے جو مشکلات کے باوجود اپنے خواب پورے کرتی ہے۔ کہانی کا انداز دلچسپ اور جذباتی ہے۔ مجھے سب سے زیادہ آخری باب پسند آیا۔ یہ کتاب پڑھنے میں مزہ آتا ہے۔"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A good book review should include the book's title and:",
+      "opts": [
+        "The reviewer's phone number",
+        "The author's name",
+        "The price only",
+        "Nothing else"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Should a review reveal the complete ending of the story?",
+      "opts": [
+        "Yes, always",
+        "No, keep some suspense",
+        "It doesn't matter",
+        "Only the first page"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A review should end with:",
+      "opts": [
+        "A shopping list",
+        "A recommendation",
+        "A weather report",
+        "A song"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "کسی ایسی کتاب پر تبصرہ لکھیں جو آپ نے پڑھی ہو۔",
+      "en": "Write a review of a book you have read."
+    },
+    {
+      "ur": "کسی اردو کہانیوں کی کتاب پر تبصرہ لکھیں جو آپ کو پسند آئی۔",
+      "en": "Write a review of an Urdu story book you enjoyed."
+    },
+    {
+      "ur": "کسی ایسی کتاب پر تبصرہ لکھیں جو آپ کو پسند نہ آئی اور وجہ بتائیں۔",
+      "en": "Write a review of a book you did not enjoy, explaining why."
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "plantation-drive",
+  "ur": "شجرکاری",
+  "en": "The Plantation Drive",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ایک بڑا درخت روزانہ تقریباً 118 کلوگرام آکسیجن پیدا کر سکتا ہے۔",
+    "en": "Did you know? A single large tree can produce roughly 118 kilograms of oxygen a day."
+  },
+  "vocab": [
+    {
+      "ur": "شجرکاری",
+      "en": "plantation / tree-planting",
+      "ex_ur": "ہر سال شجرکاری کی مہم چلائی جاتی ہے۔",
+      "ex_en": "A plantation campaign is run every year."
+    },
+    {
+      "ur": "پودا",
+      "en": "sapling / plant",
+      "ex_ur": "ہم نے سکول میں پودا لگایا۔",
+      "ex_en": "We planted a sapling at school."
+    },
+    {
+      "ur": "جڑ",
+      "en": "root",
+      "ex_ur": "پودے کی جڑیں مضبوط ہونی چاہییں۔",
+      "ex_en": "A plant's roots should be strong."
+    },
+    {
+      "ur": "سایہ",
+      "en": "shade",
+      "ex_ur": "درخت گرمی میں سایہ دیتے ہیں۔",
+      "ex_en": "Trees give shade in the heat."
+    },
+    {
+      "ur": "ماحول",
+      "en": "environment",
+      "ex_ur": "درخت ماحول کو صاف رکھتے ہیں۔",
+      "ex_en": "Trees keep the environment clean.",
+      "syn": "فضا"
+    },
+    {
+      "ur": "نسل",
+      "en": "generation",
+      "ex_ur": "یہ درخت آنے والی نسلوں کے لیے ہیں۔",
+      "ex_en": "These trees are for coming generations."
+    },
+    {
+      "ur": "بیج",
+      "en": "seed",
+      "ex_ur": "ہم نے زمین میں بیج بویا۔",
+      "ex_en": "We sowed a seed in the ground."
+    },
+    {
+      "ur": "کٹائی",
+      "en": "cutting / felling",
+      "ex_ur": "درختوں کی کٹائی روکنی چاہیے۔",
+      "ex_en": "The felling of trees should be stopped."
+    },
+    {
+      "ur": "مہم",
+      "en": "campaign / drive",
+      "ex_ur": "شجرکاری کی مہم میں سب نے حصہ لیا۔",
+      "ex_en": "Everyone took part in the plantation drive.",
+      "syn": "تحریک"
+    },
+    {
+      "ur": "سایہ دار",
+      "en": "shady / leafy",
+      "ex_ur": "یہ سایہ دار درخت بہت پرانا ہے۔",
+      "ex_en": "This shady tree is very old."
+    }
+  ],
+  "reading": {
+    "passage": "ہر سال ہمارے سکول میں شجرکاری کی مہم چلائی جاتی ہے۔ اس سال ہم نے میدان کے کنارے پچاس پودے لگائے۔ استاد نے بتایا کہ درخت ہمیں سایہ دیتے ہیں، ہوا صاف کرتے ہیں اور ماحول کو خوبصورت بناتے ہیں۔ یہ درخت آنے والی نسلوں کے لیے بہت اہم ہیں۔ ہم سب نے وعدہ کیا کہ ہم درختوں کی کٹائی روکیں گے اور زیادہ پودے لگائیں گے۔",
+    "questions": [
+      {
+        "q": "سکول میں کیا چلائی جاتی ہے؟",
+        "opts": [
+          "امتحان کی تیاری",
+          "شجرکاری کی مہم",
+          "کھیلوں کا میلہ",
+          "کتاب میلہ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اس سال کتنے پودے لگائے گئے؟",
+        "opts": [
+          "دس",
+          "پچاس",
+          "سو",
+          "ہزار"
+        ],
+        "a": 1
+      },
+      {
+        "q": "درخت ہمیں کیا فائدہ دیتے ہیں؟",
+        "opts": [
+          "سایہ اور صاف ہوا",
+          "صرف پھل",
+          "صرف لکڑی",
+          "کچھ نہیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "سب نے کیا وعدہ کیا؟",
+        "opts": [
+          "کٹائی جاری رکھیں گے",
+          "کٹائی روکیں گے اور پودے لگائیں گے",
+          "کچھ نہیں کریں گے",
+          "سکول چھوڑ دیں گے"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پودے",
+          "لگائے",
+          "ہم",
+          "نے",
+          "پچاس"
+        ],
+        "answer": [
+          "ہم",
+          "نے",
+          "پچاس",
+          "پودے",
+          "لگائے"
+        ],
+        "en": "We planted fifty saplings."
+      },
+      {
+        "bank": [
+          "دیتے",
+          "سایہ",
+          "ہمیں",
+          "درخت",
+          "ہیں"
+        ],
+        "answer": [
+          "درخت",
+          "ہمیں",
+          "سایہ",
+          "دیتے",
+          "ہیں"
+        ],
+        "en": "Trees give us shade."
+      },
+      {
+        "bank": [
+          "روکیں",
+          "کٹائی",
+          "گے",
+          "ہم",
+          "درختوں",
+          "کی"
+        ],
+        "answer": [
+          "ہم",
+          "درختوں",
+          "کی",
+          "کٹائی",
+          "روکیں",
+          "گے"
+        ],
+        "en": "We will stop the cutting of trees."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "درخت ہمیں ____ اور صاف ہوا دیتے ہیں۔",
+        "opts": [
+          "سایہ",
+          "شور",
+          "دھواں",
+          "کچرا"
+        ],
+        "a": 0,
+        "en": "Trees give us ___ and clean air."
+      },
+      {
+        "text": "یہ درخت آنے والی ____ کے لیے اہم ہیں۔",
+        "opts": [
+          "نسلوں",
+          "دکانوں",
+          "سڑکوں",
+          "عمارتوں"
+        ],
+        "a": 0,
+        "en": "These trees are important for coming ___."
+      },
+      {
+        "text": "ہر سال ____ کی مہم چلائی جاتی ہے۔",
+        "opts": [
+          "شجرکاری",
+          "صفائی",
+          "امتحان",
+          "کھیل"
+        ],
+        "a": 0,
+        "en": "Every year a ___ campaign is run."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اپنے علاقے کو سرسبز بنانے کے لیے کیا کریں گے؟ تین جملے لکھیں۔",
+      "en": "What would you do to make your area greener? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مقصد کا جملہ — Purpose clauses with تاکہ",
+    "explain": "تاکہ (\"so that\") introduces the purpose or goal of an action: [action] تاکہ [purpose].",
+    "rows": [
+      [
+        "ہم نے پودے لگائے تاکہ ہوا صاف رہے۔",
+        "We planted saplings so that the air stays clean."
+      ],
+      [
+        "وہ روزانہ ورزش کرتا ہے تاکہ صحت مند رہے۔",
+        "He exercises daily so that he stays healthy."
+      ],
+      [
+        "استاد نے وضاحت کی تاکہ سب سمجھ جائیں۔",
+        "The teacher explained so that everyone would understand."
+      ],
+      [
+        "ہم جلدی نکلے تاکہ وقت پر پہنچ جائیں۔",
+        "We left early so that we would arrive on time."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہم نے درخت لگائے ____ ماحول صاف رہے۔",
+        "opts": [
+          "تاکہ",
+          "کیونکہ",
+          "جو",
+          "جبکہ"
+        ],
+        "a": 0,
+        "en": "We planted trees so that the environment stays clean."
+      },
+      {
+        "q": "میں روزانہ پڑھتا ہوں ____ امتحان میں کامیاب ہوں۔",
+        "opts": [
+          "تاکہ",
+          "پھر",
+          "اگر",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "I study daily so that I succeed in the exam."
+      },
+      {
+        "q": "اس نے دوا کھائی ____ ٹھیک ہو جائے۔",
+        "opts": [
+          "تاکہ",
+          "چونکہ",
+          "جو",
+          "یا"
+        ],
+        "a": 0,
+        "en": "He took the medicine so that he would get well."
+      }
+    ]
+  }
+}

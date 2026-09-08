@@ -1,0 +1,273 @@
+{
+  "id": "elephants",
+  "ur": "ہاتھیوں کی زندگی",
+  "en": "Life of Elephants",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ہاتھی زمین پر رہنے والا سب سے بڑا جانور ہے۔",
+    "en": "Did you know? The elephant is the largest land animal on Earth."
+  },
+  "vocab": [
+    {
+      "ur": "ہاتھی",
+      "en": "elephant",
+      "ex_ur": "ہاتھی جنگل کا سب سے بڑا جانور ہے۔",
+      "ex_en": "The elephant is the biggest animal of the forest."
+    },
+    {
+      "ur": "سونڈ",
+      "en": "trunk",
+      "ex_ur": "ہاتھی اپنی سونڈ سے پانی پیتا ہے۔",
+      "ex_en": "The elephant drinks water with its trunk."
+    },
+    {
+      "ur": "جنگل",
+      "en": "forest",
+      "ex_ur": "ہاتھی جنگل میں رہتے ہیں۔",
+      "ex_en": "Elephants live in the forest.",
+      "syn": "بن"
+    },
+    {
+      "ur": "وزن",
+      "en": "weight",
+      "ex_ur": "ہاتھی کا وزن بہت زیادہ ہوتا ہے۔",
+      "ex_en": "An elephant's weight is very heavy."
+    },
+    {
+      "ur": "غول",
+      "en": "herd",
+      "ex_ur": "ہاتھی غول میں سفر کرتے ہیں۔",
+      "ex_en": "Elephants travel in a herd."
+    },
+    {
+      "ur": "طاقت",
+      "en": "strength",
+      "ex_ur": "ہاتھی بہت طاقتور ہوتا ہے۔",
+      "ex_en": "The elephant is very strong.",
+      "syn": "زور"
+    },
+    {
+      "ur": "عمر",
+      "en": "age / lifespan",
+      "ex_ur": "ہاتھی کی عمر ساٹھ سال سے زیادہ ہوتی ہے۔",
+      "ex_en": "An elephant's lifespan is more than sixty years."
+    },
+    {
+      "ur": "کان",
+      "en": "ear",
+      "ex_ur": "ہاتھی کے کان بہت بڑے ہوتے ہیں۔",
+      "ex_en": "An elephant's ears are very big."
+    },
+    {
+      "ur": "گھاس",
+      "en": "grass",
+      "ex_ur": "ہاتھی گھاس اور پتے کھاتا ہے۔",
+      "ex_en": "The elephant eats grass and leaves."
+    },
+    {
+      "ur": "ہاتھی دانت",
+      "en": "ivory / tusk",
+      "ex_ur": "ہاتھی دانت بہت قیمتی ہوتا ہے۔",
+      "ex_en": "Ivory is very valuable."
+    }
+  ],
+  "reading": {
+    "passage": "ہاتھی زمین پر رہنے والا سب سے بڑا جانور ہے۔ اس کی سونڈ اتنی طاقتور ہوتی ہے کہ وہ بھاری چیزیں بھی آسانی سے اٹھا لیتا ہے۔ ہاتھی غول کی صورت میں رہتے ہیں اور ایک دوسرے کا خیال رکھتے ہیں۔ یہ جانور گھاس، پتے اور پھل کھاتا ہے۔ ہاتھی کی عمر عام طور پر ساٹھ سے ستر سال ہوتی ہے۔",
+    "questions": [
+      {
+        "q": "زمین پر سب سے بڑا جانور کون ہے؟",
+        "opts": [
+          "شیر",
+          "ہاتھی",
+          "گھوڑا",
+          "بھینس"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ہاتھی بھاری چیزیں کس سے اٹھاتا ہے؟",
+        "opts": [
+          "دانتوں سے",
+          "سونڈ سے",
+          "پاؤں سے",
+          "کانوں سے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ہاتھی کس صورت میں رہتے ہیں؟",
+        "opts": [
+          "تنہا",
+          "غول میں",
+          "جوڑوں میں",
+          "پانی میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ہاتھی کی عمر عام طور پر کتنی ہوتی ہے؟",
+        "opts": [
+          "دس سال",
+          "تیس سال",
+          "ساٹھ سے ستر سال",
+          "سو سال"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "سب",
+          "بڑا",
+          "ہاتھی",
+          "جانور",
+          "ہے",
+          "سے"
+        ],
+        "answer": [
+          "ہاتھی",
+          "سب",
+          "سے",
+          "بڑا",
+          "جانور",
+          "ہے"
+        ],
+        "en": "The elephant is the biggest animal."
+      },
+      {
+        "bank": [
+          "پانی",
+          "سونڈ",
+          "پیتا",
+          "سے",
+          "ہاتھی",
+          "ہے"
+        ],
+        "answer": [
+          "ہاتھی",
+          "سونڈ",
+          "سے",
+          "پانی",
+          "پیتا",
+          "ہے"
+        ],
+        "en": "The elephant drinks water with its trunk."
+      },
+      {
+        "bank": [
+          "میں",
+          "رہتے",
+          "غول",
+          "ہاتھی",
+          "ہیں"
+        ],
+        "answer": [
+          "ہاتھی",
+          "غول",
+          "میں",
+          "رہتے",
+          "ہیں"
+        ],
+        "en": "Elephants live in a herd."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ہاتھی جنگل کا سب سے بڑا ____ ہے۔",
+        "opts": [
+          "جانور",
+          "درخت",
+          "پرندہ",
+          "پھول"
+        ],
+        "a": 0,
+        "en": "The elephant is the biggest ___ of the forest."
+      },
+      {
+        "text": "ہاتھی اپنی ____ سے پانی پیتا ہے۔",
+        "opts": [
+          "سونڈ",
+          "دانت",
+          "کان",
+          "دم"
+        ],
+        "a": 0,
+        "en": "The elephant drinks water with its ___."
+      },
+      {
+        "text": "ہاتھی ____ میں سفر کرتے ہیں۔",
+        "opts": [
+          "غول",
+          "اکیلے",
+          "جوڑے",
+          "خاموشی"
+        ],
+        "a": 0,
+        "en": "Elephants travel in a ___."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے پسندیدہ جنگلی جانور کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about your favourite wild animal."
+    }
+  },
+  "grammar": {
+    "title": "موازنہ کے درجے — Degrees of comparison",
+    "explain": "To compare two things, Urdu uses سے زیادہ (\"more than\"). To show the highest degree among many, it uses سب سے (\"the most / -est\"), placed right before the adjective.",
+    "rows": [
+      [
+        "ہاتھی گھوڑے سے بڑا ہے۔",
+        "The elephant is bigger than the horse. (comparative)"
+      ],
+      [
+        "ہاتھی جنگل کا سب سے بڑا جانور ہے۔",
+        "The elephant is the biggest animal of the forest. (superlative)"
+      ],
+      [
+        "چیتا ہاتھی سے تیز ہے۔",
+        "The cheetah is faster than the elephant."
+      ],
+      [
+        "یہ سب سے طاقتور جانور ہے۔",
+        "This is the strongest animal."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہاتھی چوہے ____ ہے۔ (بڑا)",
+        "opts": [
+          "سے بڑا",
+          "سب سے بڑا",
+          "بڑا سے",
+          "بڑے"
+        ],
+        "a": 0,
+        "en": "The elephant is bigger than the mouse."
+      },
+      {
+        "q": "یہ جنگل کا ____ درخت ہے۔ (بڑا)",
+        "opts": [
+          "سے بڑا",
+          "سب سے بڑا",
+          "بڑا سے",
+          "زیادہ بڑا"
+        ],
+        "a": 1,
+        "en": "This is the biggest tree in the forest."
+      },
+      {
+        "q": "شیر ہاتھی ____ خطرناک ہے۔ (زیادہ)",
+        "opts": [
+          "سے زیادہ",
+          "سب سے",
+          "زیادہ سے",
+          "زیادہ کا"
+        ],
+        "a": 0,
+        "en": "The lion is more dangerous than the elephant."
+      }
+    ]
+  }
+}

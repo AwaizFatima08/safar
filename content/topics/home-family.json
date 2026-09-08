@@ -1,0 +1,277 @@
+{
+  "id": "home-family",
+  "ur": "گھر اور خاندان",
+  "en": "Home & Family",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'خاندان' فارسی زبان سے اردو میں آیا ہے۔",
+    "en": "The word خاندان (“family”) came into Urdu from Persian."
+  },
+  "vocab": [
+    {
+      "ur": "گھر",
+      "en": "house / home",
+      "ex_ur": "ہمارا گھر بہت بڑا ہے۔",
+      "ex_en": "Our house is very big.",
+      "syn": "مکان"
+    },
+    {
+      "ur": "خاندان",
+      "en": "family",
+      "ex_ur": "میرا خاندان چھوٹا ہے۔",
+      "ex_en": "My family is small.",
+      "syn": "گھرانہ"
+    },
+    {
+      "ur": "والدہ",
+      "en": "mother",
+      "ex_ur": "میری والدہ کھانا بناتی ہیں۔",
+      "ex_en": "My mother cooks food.",
+      "syn": "ماں"
+    },
+    {
+      "ur": "والد",
+      "en": "father",
+      "ex_ur": "میرے والد دفتر جاتے ہیں۔",
+      "ex_en": "My father goes to the office.",
+      "syn": "باپ"
+    },
+    {
+      "ur": "بھائی",
+      "en": "brother",
+      "ex_ur": "میرا بھائی سکول جاتا ہے۔",
+      "ex_en": "My brother goes to school.",
+      "syn": "برادر"
+    },
+    {
+      "ur": "بہن",
+      "en": "sister",
+      "ex_ur": "میری بہن کتاب پڑھتی ہے۔",
+      "ex_en": "My sister reads a book.",
+      "syn": "ہمشیرہ"
+    },
+    {
+      "ur": "دادا",
+      "en": "grandfather",
+      "ex_ur": "دادا باغ میں بیٹھتے ہیں۔",
+      "ex_en": "Grandfather sits in the garden."
+    },
+    {
+      "ur": "دادی",
+      "en": "grandmother",
+      "ex_ur": "دادی کہانی سناتی ہیں۔",
+      "ex_en": "Grandmother tells a story."
+    },
+    {
+      "ur": "کمرہ",
+      "en": "room",
+      "ex_ur": "یہ میرا کمرہ ہے۔",
+      "ex_en": "This is my room.",
+      "syn": "حجرہ"
+    },
+    {
+      "ur": "باغ",
+      "en": "garden",
+      "ex_ur": "بچے باغ میں کھیلتے ہیں۔",
+      "ex_en": "Children play in the garden.",
+      "syn": "چمن"
+    }
+  ],
+  "reading": {
+    "passage": "احمد کا خاندان بہت پیارا ہے۔ اس کے گھر میں والدہ، والد، ایک بھائی اور ایک بہن ہیں۔ ان کا گھر ایک بڑے باغ کے قریب ہے۔ ہر اتوار کو سارا خاندان باغ میں کھیلتا ہے۔ احمد اپنے خاندان سے بہت محبت کرتا ہے۔",
+    "questions": [
+      {
+        "q": "احمد کے گھر میں کون کون ہیں؟",
+        "opts": [
+          "صرف والدہ اور والد",
+          "والدہ، والد، بھائی اور بہن",
+          "دادا اور دادی",
+          "صرف دوست"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ان کا گھر کس کے قریب ہے؟",
+        "opts": [
+          "سکول کے",
+          "بازار کے",
+          "باغ کے",
+          "دریا کے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "سارا خاندان اتوار کو کیا کرتا ہے؟",
+        "opts": [
+          "کتاب پڑھتا ہے",
+          "باغ میں کھیلتا ہے",
+          "سوتا ہے",
+          "سفر کرتا ہے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "احمد اپنے خاندان کے بارے میں کیا محسوس کرتا ہے؟",
+        "opts": [
+          "ناراضگی",
+          "بے زاری",
+          "محبت",
+          "خوف"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "گھر",
+          "میں",
+          "کھیلتی",
+          "ہے",
+          "میری",
+          "بہن"
+        ],
+        "answer": [
+          "میری",
+          "بہن",
+          "گھر",
+          "میں",
+          "کھیلتی",
+          "ہے"
+        ],
+        "en": "My sister plays at home."
+      },
+      {
+        "bank": [
+          "جاتے",
+          "دفتر",
+          "والد",
+          "ہیں",
+          "میرے"
+        ],
+        "answer": [
+          "میرے",
+          "والد",
+          "دفتر",
+          "جاتے",
+          "ہیں"
+        ],
+        "en": "My father goes to the office."
+      },
+      {
+        "bank": [
+          "ہے",
+          "بڑا",
+          "بہت",
+          "ہمارا",
+          "گھر"
+        ],
+        "answer": [
+          "ہمارا",
+          "گھر",
+          "بہت",
+          "بڑا",
+          "ہے"
+        ],
+        "en": "Our house is very big."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ہمارا ____ بہت بڑا ہے۔",
+        "opts": [
+          "گھر",
+          "بھائی",
+          "بہن",
+          "دادی"
+        ],
+        "a": 0,
+        "en": "Our ___ is very big."
+      },
+      {
+        "text": "میری ____ کھانا بناتی ہیں۔",
+        "opts": [
+          "دادا",
+          "والدہ",
+          "باغ",
+          "کمرہ"
+        ],
+        "a": 1,
+        "en": "My ___ cooks food."
+      },
+      {
+        "text": "بچے ____ میں کھیلتے ہیں۔",
+        "opts": [
+          "باغ",
+          "کتاب",
+          "قلم",
+          "سوال"
+        ],
+        "a": 0,
+        "en": "Children play in the ___."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے خاندان کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about your own family."
+    }
+  },
+  "grammar": {
+    "title": "فعل میں جنس کا فرق — Gender in verbs",
+    "explain": "Urdu present-tense verbs change their ending to match the gender of the subject: masculine subjects take کرتا ہے / جاتا ہے, feminine subjects take کرتی ہے / جاتی ہے. Family words are a good place to practise this.",
+    "rows": [
+      [
+        "بھائی کھیلتا ہے۔",
+        "brother plays (masc.)"
+      ],
+      [
+        "بہن کھیلتی ہے۔",
+        "sister plays (fem.)"
+      ],
+      [
+        "والد جاتے ہیں۔",
+        "father goes (masc., respectful)"
+      ],
+      [
+        "والدہ جاتی ہیں۔",
+        "mother goes (fem., respectful)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "دادی کہانی ____۔",
+        "opts": [
+          "سناتا ہے",
+          "سناتی ہے",
+          "سنایا",
+          "سنو"
+        ],
+        "a": 1,
+        "en": "Grandmother ___ a story."
+      },
+      {
+        "q": "بھائی سکول ____۔",
+        "opts": [
+          "جاتی ہے",
+          "جاتا ہے",
+          "گئیں",
+          "جاؤ"
+        ],
+        "a": 1,
+        "en": "Brother ___ to school."
+      },
+      {
+        "q": "بہن کتاب ____۔",
+        "opts": [
+          "پڑھتا ہے",
+          "پڑھتی ہے",
+          "پڑھو",
+          "پڑھا"
+        ],
+        "a": 1,
+        "en": "Sister ___ a book."
+      }
+    ]
+  }
+}

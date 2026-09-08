@@ -1,0 +1,277 @@
+{
+  "id": "quaid-e-azam",
+  "ur": "قائدِ اعظم",
+  "en": "Quaid-e-Azam",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ قائدِ اعظم محمد علی جناح کو 'بابائے قوم' کہا جاتا ہے۔",
+    "en": "Did you know? Quaid-e-Azam Muhammad Ali Jinnah is called “Baba-e-Qaum” (Father of the Nation)."
+  },
+  "vocab": [
+    {
+      "ur": "قائد",
+      "en": "leader",
+      "ex_ur": "وہ ایک عظیم قائد تھے۔",
+      "ex_en": "He was a great leader.",
+      "syn": "رہنما"
+    },
+    {
+      "ur": "رہنما",
+      "en": "leader / guide",
+      "ex_ur": "وہ قوم کے سچے رہنما تھے۔",
+      "ex_en": "He was the nation's true leader."
+    },
+    {
+      "ur": "وکیل",
+      "en": "lawyer",
+      "ex_ur": "قائدِ اعظم ایک کامیاب وکیل تھے۔",
+      "ex_en": "Quaid-e-Azam was a successful lawyer."
+    },
+    {
+      "ur": "قوم",
+      "en": "nation",
+      "ex_ur": "انہوں نے قوم کے لیے بہت محنت کی۔",
+      "ex_en": "He worked very hard for the nation."
+    },
+    {
+      "ur": "آزادی",
+      "en": "freedom",
+      "ex_ur": "انہوں نے آزادی کے لیے جدوجہد کی۔",
+      "ex_en": "He struggled for freedom.",
+      "syn": "حریت"
+    },
+    {
+      "ur": "جدوجہد",
+      "en": "struggle",
+      "ex_ur": "یہ ایک طویل جدوجہد تھی۔",
+      "ex_en": "This was a long struggle.",
+      "syn": "کوشش"
+    },
+    {
+      "ur": "بانی",
+      "en": "founder",
+      "ex_ur": "وہ پاکستان کے بانی ہیں۔",
+      "ex_en": "He is the founder of Pakistan."
+    },
+    {
+      "ur": "تقریر",
+      "en": "speech",
+      "ex_ur": "ان کی تقریر بہت مؤثر تھی۔",
+      "ex_en": "His speech was very effective."
+    },
+    {
+      "ur": "دیانت",
+      "en": "honesty",
+      "ex_ur": "وہ اپنی دیانت کی وجہ سے مشہور تھے۔",
+      "ex_en": "He was famous for his honesty."
+    },
+    {
+      "ur": "عزم",
+      "en": "determination",
+      "ex_ur": "ان کا عزم بہت مضبوط تھا۔",
+      "ex_en": "His determination was very strong.",
+      "syn": "ارادہ"
+    }
+  ],
+  "reading": {
+    "passage": "قائدِ اعظم محمد علی جناح پاکستان کے بانی تھے۔ وہ پیشے کے اعتبار سے ایک کامیاب وکیل تھے، مگر انہوں نے اپنی زندگی قوم کی خدمت کے لیے وقف کر دی۔ انہوں نے مسلمانوں کی آزادی کے لیے طویل جدوجہد کی۔ ان کی تقریریں لوگوں کے دلوں میں امید پیدا کرتی تھیں۔ آج بھی انہیں ان کی دیانت اور عزم کی وجہ سے یاد کیا جاتا ہے۔",
+    "questions": [
+      {
+        "q": "قائدِ اعظم پیشے کے اعتبار سے کیا تھے؟",
+        "opts": [
+          "ڈاکٹر",
+          "وکیل",
+          "استاد",
+          "کسان"
+        ],
+        "a": 1
+      },
+      {
+        "q": "انہوں نے اپنی زندگی کس کے لیے وقف کی؟",
+        "opts": [
+          "اپنے کاروبار کے لیے",
+          "قوم کی خدمت کے لیے",
+          "کھیلوں کے لیے",
+          "سفر کے لیے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "انہوں نے کس چیز کے لیے جدوجہد کی؟",
+        "opts": [
+          "دولت کے لیے",
+          "مسلمانوں کی آزادی کے لیے",
+          "شہرت کے لیے",
+          "سفر کے لیے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "آج بھی انہیں کس وجہ سے یاد کیا جاتا ہے؟",
+        "opts": [
+          "دولت کی وجہ سے",
+          "دیانت اور عزم کی وجہ سے",
+          "شکل کی وجہ سے",
+          "عمر کی وجہ سے"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بانی",
+          "اعظم",
+          "تھے",
+          "پاکستان",
+          "کے",
+          "قائدِ"
+        ],
+        "answer": [
+          "قائدِ",
+          "اعظم",
+          "پاکستان",
+          "کے",
+          "بانی",
+          "تھے"
+        ],
+        "en": "Quaid-e-Azam was the founder of Pakistan."
+      },
+      {
+        "bank": [
+          "وکیل",
+          "ایک",
+          "تھے",
+          "کامیاب",
+          "وہ"
+        ],
+        "answer": [
+          "وہ",
+          "ایک",
+          "کامیاب",
+          "وکیل",
+          "تھے"
+        ],
+        "en": "He was a successful lawyer."
+      },
+      {
+        "bank": [
+          "کی",
+          "آزادی",
+          "جدوجہد",
+          "کے",
+          "مسلمانوں",
+          "لیے",
+          "کی"
+        ],
+        "answer": [
+          "مسلمانوں",
+          "کی",
+          "آزادی",
+          "کے",
+          "لیے",
+          "جدوجہد",
+          "کی"
+        ],
+        "en": "He struggled for the freedom of Muslims."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "قائدِ اعظم پاکستان کے ____ تھے۔",
+        "opts": [
+          "بانی",
+          "دشمن",
+          "مہمان",
+          "ہمسایہ"
+        ],
+        "a": 0,
+        "en": "Quaid-e-Azam was the ___ of Pakistan."
+      },
+      {
+        "text": "انہوں نے قوم کی ____ کی۔",
+        "opts": [
+          "خدمت",
+          "تنقید",
+          "مخالفت",
+          "شکایت"
+        ],
+        "a": 0,
+        "en": "He did ___ of the nation."
+      },
+      {
+        "text": "ان کی ____ لوگوں کے دلوں میں امید پیدا کرتی تھیں۔",
+        "opts": [
+          "تقریریں",
+          "خاموشی",
+          "غلطیاں",
+          "کمزوریاں"
+        ],
+        "a": 0,
+        "en": "His ___ created hope in people's hearts."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کے خیال میں ایک اچھے رہنما میں کون سی خوبیاں ہونی چاہییں؟ تین جملے لکھیں۔",
+      "en": "In your opinion, what qualities should a good leader have? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ماضی کا بیان — Narrating the past with تھا / تھی / تھے",
+    "explain": "To describe how someone or something was in the past, Urdu uses تھا (masc. sing.), تھی (fem. sing.), تھے (masc. plural or respectful singular). This is essential for writing a short biography.",
+    "rows": [
+      [
+        "وہ ایک وکیل تھے۔",
+        "He was a lawyer. (respectful)"
+      ],
+      [
+        "یہ جدوجہد طویل تھی۔",
+        "This struggle was long. (fem.)"
+      ],
+      [
+        "ان کی تقریریں مؤثر تھیں۔",
+        "Their speeches were effective. (fem. plural)"
+      ],
+      [
+        "وہ لوگ خوش تھے۔",
+        "Those people were happy. (masc. plural)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "قائدِ اعظم ایک عظیم رہنما ____۔",
+        "opts": [
+          "تھا",
+          "تھی",
+          "تھے",
+          "تھیں"
+        ],
+        "a": 2,
+        "en": "Quaid-e-Azam was a great leader. (respectful)"
+      },
+      {
+        "q": "یہ جدوجہد بہت مشکل ____۔",
+        "opts": [
+          "تھا",
+          "تھی",
+          "تھے",
+          "تھیں"
+        ],
+        "a": 1,
+        "en": "This struggle was very difficult. (fem.)"
+      },
+      {
+        "q": "ان کی باتیں سچی ____۔",
+        "opts": [
+          "تھا",
+          "تھی",
+          "تھے",
+          "تھیں"
+        ],
+        "a": 3,
+        "en": "Their words were true. (fem. plural)"
+      }
+    ]
+  }
+}

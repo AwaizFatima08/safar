@@ -1,0 +1,272 @@
+{
+  "id": "health-body",
+  "ur": "صحت اور جسم",
+  "en": "Health & Body",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'صحت' عربی سے آیا ہے اور اس کا مطلب ہے تن اور من کی اچھی حالت۔",
+    "en": "صحت (“health”) comes from Arabic and means the good state of body and mind together."
+  },
+  "vocab": [
+    {
+      "ur": "صحت",
+      "en": "health",
+      "ex_ur": "صحت بہت ضروری ہے۔",
+      "ex_en": "Health is very important.",
+      "syn": "تندرستی"
+    },
+    {
+      "ur": "جسم",
+      "en": "body",
+      "ex_ur": "جسم کو ورزش کی ضرورت ہے۔",
+      "ex_en": "The body needs exercise.",
+      "syn": "بدن"
+    },
+    {
+      "ur": "ورزش",
+      "en": "exercise",
+      "ex_ur": "روزانہ ورزش کریں۔",
+      "ex_en": "Exercise daily.",
+      "syn": "کسرت"
+    },
+    {
+      "ur": "بیمار",
+      "en": "sick",
+      "ex_ur": "وہ آج بیمار ہے۔",
+      "ex_en": "He is sick today.",
+      "syn": "مریض"
+    },
+    {
+      "ur": "ڈاکٹر",
+      "en": "doctor",
+      "ex_ur": "ڈاکٹر نے دوا دی۔",
+      "ex_en": "The doctor gave medicine.",
+      "syn": "طبیب"
+    },
+    {
+      "ur": "دوا",
+      "en": "medicine",
+      "ex_ur": "یہ دوا میٹھی ہے۔",
+      "ex_en": "This medicine is sweet.",
+      "syn": "دارو"
+    },
+    {
+      "ur": "آنکھ",
+      "en": "eye",
+      "ex_ur": "میری آنکھ میں درد ہے۔",
+      "ex_en": "My eye hurts.",
+      "syn": "چشم"
+    },
+    {
+      "ur": "کان",
+      "en": "ear",
+      "ex_ur": "ہم کان سے سنتے ہیں۔",
+      "ex_en": "We hear with the ear."
+    },
+    {
+      "ur": "غذا",
+      "en": "diet / food",
+      "ex_ur": "اچھی غذا کھائیں۔",
+      "ex_en": "Eat good food.",
+      "syn": "خوراک"
+    },
+    {
+      "ur": "نیند",
+      "en": "sleep",
+      "ex_ur": "بھرپور نیند ضروری ہے۔",
+      "ex_en": "Full sleep is necessary.",
+      "syn": "خواب"
+    }
+  ],
+  "reading": {
+    "passage": "بلال کو کل بخار ہو گیا۔ اس کی امی اسے ڈاکٹر کے پاس لے گئیں۔ ڈاکٹر نے اسے دوا دی اور آرام کرنے کو کہا۔ بلال نے وقت پر دوا کھائی اور بھرپور نیند لی۔ دو دن بعد وہ بالکل ٹھیک ہو گیا۔",
+    "questions": [
+      {
+        "q": "بلال کو کیا ہوا؟",
+        "opts": [
+          "سردرد",
+          "بخار",
+          "چوٹ",
+          "کھانسی"
+        ],
+        "a": 1
+      },
+      {
+        "q": "امی بلال کو کہاں لے گئیں؟",
+        "opts": [
+          "سکول",
+          "بازار",
+          "ڈاکٹر کے پاس",
+          "باغ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ڈاکٹر نے کیا مشورہ دیا؟",
+        "opts": [
+          "کھیلنے کا",
+          "آرام کرنے کا",
+          "سفر کرنے کا",
+          "پڑھنے کا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "بلال کتنے دن میں ٹھیک ہوا؟",
+        "opts": [
+          "ایک دن",
+          "دو دن",
+          "ایک ہفتہ",
+          "ایک مہینہ"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ضروری",
+          "کرنا",
+          "روزانہ",
+          "ورزش",
+          "ہے"
+        ],
+        "answer": [
+          "روزانہ",
+          "ورزش",
+          "کرنا",
+          "ضروری",
+          "ہے"
+        ],
+        "en": "Doing exercise daily is necessary."
+      },
+      {
+        "bank": [
+          "دوا",
+          "دی",
+          "نے",
+          "ڈاکٹر"
+        ],
+        "answer": [
+          "ڈاکٹر",
+          "نے",
+          "دوا",
+          "دی"
+        ],
+        "en": "The doctor gave medicine."
+      },
+      {
+        "bank": [
+          "نیند",
+          "بھرپور",
+          "ہے",
+          "ضروری"
+        ],
+        "answer": [
+          "بھرپور",
+          "نیند",
+          "ضروری",
+          "ہے"
+        ],
+        "en": "Full sleep is necessary."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "____ کو ورزش کی ضرورت ہے۔",
+        "opts": [
+          "جسم",
+          "دوا",
+          "کان",
+          "غذا"
+        ],
+        "a": 0,
+        "en": "The ___ needs exercise."
+      },
+      {
+        "text": "ڈاکٹر نے ____ دی۔",
+        "opts": [
+          "دوا",
+          "نیند",
+          "آنکھ",
+          "صحت"
+        ],
+        "a": 0,
+        "en": "The doctor gave ___."
+      },
+      {
+        "text": "اچھی ____ کھائیں۔",
+        "opts": [
+          "غذا",
+          "دوا",
+          "ورزش",
+          "نیند"
+        ],
+        "a": 0,
+        "en": "Eat good ___."
+      }
+    ],
+    "creative": {
+      "ur": "صحت مند رہنے کے لیے آپ کیا کرتے ہیں؟ تین جملے لکھیں۔",
+      "en": "What do you do to stay healthy? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "حکمیہ فعل — The polite command form",
+    "explain": "To politely tell someone to do something, Urdu verbs often end in ـیں (like کریں, کھائیں, لیں). This is the polite command form, used for advice and instructions.",
+    "rows": [
+      [
+        "ورزش کریں۔",
+        "(Please) exercise."
+      ],
+      [
+        "دوا کھائیں۔",
+        "(Please) take the medicine."
+      ],
+      [
+        "آرام کریں۔",
+        "(Please) rest."
+      ],
+      [
+        "نیند لیں۔",
+        "(Please) sleep."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "روزانہ ورزش ____۔",
+        "opts": [
+          "کریں",
+          "کرتا",
+          "کرتی",
+          "کر"
+        ],
+        "a": 0,
+        "en": "Exercise daily. (polite command)"
+      },
+      {
+        "q": "یہ دوا وقت پر ____۔",
+        "opts": [
+          "کھاتا",
+          "کھائیں",
+          "کھاتی",
+          "کھایا"
+        ],
+        "a": 1,
+        "en": "Take this medicine on time. (polite command)"
+      },
+      {
+        "q": "رات کو بھرپور نیند ____۔",
+        "opts": [
+          "لیں",
+          "لیا",
+          "لیتی",
+          "لے"
+        ],
+        "a": 0,
+        "en": "Get full sleep at night. (polite command)"
+      }
+    ]
+  }
+}

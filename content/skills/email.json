@@ -1,0 +1,72 @@
+{
+  "id": "email",
+  "ur": "ای میل لکھنا",
+  "en": "How to write an email",
+  "points": [
+    "Subject line مختصر اور واضح ہونی چاہیے۔",
+    "آغاز میں مناسب سلام لکھیں — رسمی ای میل میں 'محترم'، غیر رسمی میں دوست کا نام۔",
+    "پہلے پیراگراف میں اپنا مقصد صاف بتائیں۔",
+    "رسمی ای میل میں 'آپ' استعمال کریں، 'تم' نہیں۔",
+    "آخر میں شکریہ اور اپنا نام لکھ کر ختم کریں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Formal — a leave request to the class teacher",
+      "ur": "موضوع: ایک دن کی رخصت کی درخواست\n\nمحترم اُستانی صاحبہ،\n\nالسلام علیکم! میں آپ کو مطلع کرنا چاہتا ہوں کہ کل میری طبیعت ناساز ہے، اس لیے میں سکول نہیں آ سکوں گا۔ براہ کرم مجھے ایک دن کی رخصت دے دیں۔\n\nشکریہ۔\nآپ کا شاگرد،\nاحمد علی"
+    },
+    {
+      "caption": "Informal — inviting a friend for the weekend",
+      "ur": "پیارے بلال،\n\nالسلام علیکم! اس ہفتے کے آخر میں ہم کرکٹ کھیلنے جا رہے ہیں۔ کیا تم بھی ہمارے ساتھ آنا چاہو گے؟ جواب ضرور دینا۔\n\nتمہارا دوست،\nعمر"
+    },
+    {
+      "caption": "Formal — a complaint about a faulty product",
+      "ur": "موضوع: خراب پرزے کی شکایت\n\nمحترم منیجر صاحب،\n\nمیں نے گزشتہ ہفتے آپ کی دکان سے ایک کھلونا خریدا تھا، مگر وہ خراب نکلا۔ براہ کرم اسے تبدیل کریں یا میرے پیسے واپس کریں۔\n\nشکریہ۔\nحنا خان"
+    }
+  ],
+  "practice": [
+    {
+      "q": "Which greeting is correct for a formal email to a teacher?",
+      "opts": [
+        "پیارے دوست",
+        "محترم اُستانی صاحبہ",
+        "ارے بھئی",
+        "ہیلو یار"
+      ],
+      "a": 1
+    },
+    {
+      "q": "What should the first paragraph of an email do?",
+      "opts": [
+        "Describe the weather",
+        "State the purpose clearly",
+        "List unrelated topics",
+        "Repeat the subject line"
+      ],
+      "a": 1
+    },
+    {
+      "q": "In a formal email, which pronoun should you use?",
+      "opts": [
+        "تم",
+        "آپ",
+        "تو",
+        "ہم سب"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "پرنسپل صاحب کو ای میل لکھیں جس میں لائبریری کے کھلنے کے اوقات بڑھانے کی درخواست کریں۔",
+      "en": "Write an email to the principal asking to extend the library's opening hours."
+    },
+    {
+      "ur": "اپنے کزن کو ای میل لکھیں اور اسے اپنی سالگرہ کی تقریب میں مدعو کریں۔",
+      "en": "Write an email to your cousin inviting them to your birthday party."
+    },
+    {
+      "ur": "ایک دکاندار کو ای میل لکھیں اور خراب چیز کی شکایت کریں۔",
+      "en": "Write an email to a shopkeeper complaining about a faulty item."
+    }
+  ]
+}

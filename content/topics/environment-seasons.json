@@ -1,0 +1,276 @@
+{
+  "id": "environment-seasons",
+  "ur": "ماحول اور موسم",
+  "en": "Environment & Seasons",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'موسم' عربی زبان سے آیا اور اصل میں اس کا مطلب 'وقت کا حصہ' تھا۔",
+    "en": "موسم (“season/weather”) is from Arabic and originally meant “a portion of time.”"
+  },
+  "vocab": [
+    {
+      "ur": "موسم",
+      "en": "weather / season",
+      "ex_ur": "آج موسم بہت اچھا ہے۔",
+      "ex_en": "Today the weather is very nice."
+    },
+    {
+      "ur": "بارش",
+      "en": "rain",
+      "ex_ur": "کل بہت بارش ہوئی۔",
+      "ex_en": "It rained a lot yesterday.",
+      "syn": "برسات"
+    },
+    {
+      "ur": "سردی",
+      "en": "cold",
+      "ex_ur": "سردی میں گرم کپڑے پہنیں۔",
+      "ex_en": "Wear warm clothes in the cold.",
+      "syn": "جاڑا"
+    },
+    {
+      "ur": "گرمی",
+      "en": "heat / summer",
+      "ex_ur": "گرمی میں پانی زیادہ پییں۔",
+      "ex_en": "Drink more water in the summer.",
+      "syn": "تپش"
+    },
+    {
+      "ur": "درخت",
+      "en": "tree",
+      "ex_ur": "درخت ہمیں آکسیجن دیتے ہیں۔",
+      "ex_en": "Trees give us oxygen.",
+      "syn": "شجر"
+    },
+    {
+      "ur": "ہوا",
+      "en": "air / wind",
+      "ex_ur": "صاف ہوا صحت کے لیے اچھی ہے۔",
+      "ex_en": "Clean air is good for health."
+    },
+    {
+      "ur": "آسمان",
+      "en": "sky",
+      "ex_ur": "آسمان پر بادل چھائے ہیں۔",
+      "ex_en": "Clouds have covered the sky.",
+      "syn": "فلک"
+    },
+    {
+      "ur": "پانی",
+      "en": "water",
+      "ex_ur": "پانی زندگی کے لیے ضروری ہے۔",
+      "ex_en": "Water is necessary for life.",
+      "syn": "آب"
+    },
+    {
+      "ur": "آلودگی",
+      "en": "pollution",
+      "ex_ur": "شہروں میں آلودگی بڑھ رہی ہے۔",
+      "ex_en": "Pollution is increasing in cities."
+    },
+    {
+      "ur": "سبزہ",
+      "en": "greenery",
+      "ex_ur": "پہاڑوں پر سبزہ خوبصورت لگتا ہے۔",
+      "ex_en": "Greenery looks beautiful on the mountains.",
+      "syn": "ہریالی"
+    }
+  ],
+  "reading": {
+    "passage": "پاکستان میں چار موسم آتے ہیں: گرمی، سردی، بہار اور خزاں۔ ہر موسم کا اپنا حسن ہے۔ لیکن آج کل شہروں میں آلودگی بڑھ رہی ہے اور درخت کم ہو رہے ہیں۔ ہمیں زیادہ درخت لگانے چاہییں تاکہ ہوا صاف رہے۔ صاف ماحول ہر انسان کا حق ہے۔",
+    "questions": [
+      {
+        "q": "پاکستان میں کتنے موسم آتے ہیں؟",
+        "opts": [
+          "دو",
+          "تین",
+          "چار",
+          "پانچ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "شہروں میں کیا بڑھ رہا ہے؟",
+        "opts": [
+          "سبزہ",
+          "آلودگی",
+          "بارش",
+          "سردی"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ہوا صاف رکھنے کے لیے کیا کرنا چاہیے؟",
+        "opts": [
+          "درخت کاٹنا",
+          "درخت لگانا",
+          "پانی بچانا",
+          "کچرا پھینکنا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "صاف ماحول کس کا حق ہے؟",
+        "opts": [
+          "صرف حکومت کا",
+          "صرف بچوں کا",
+          "ہر انسان کا",
+          "صرف کسانوں کا"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ضروری",
+          "زندگی",
+          "لیے",
+          "کے",
+          "پانی",
+          "ہے"
+        ],
+        "answer": [
+          "پانی",
+          "زندگی",
+          "کے",
+          "لیے",
+          "ضروری",
+          "ہے"
+        ],
+        "en": "Water is necessary for life."
+      },
+      {
+        "bank": [
+          "دیتے",
+          "آکسیجن",
+          "ہمیں",
+          "درخت",
+          "ہیں"
+        ],
+        "answer": [
+          "درخت",
+          "ہمیں",
+          "آکسیجن",
+          "دیتے",
+          "ہیں"
+        ],
+        "en": "Trees give us oxygen."
+      },
+      {
+        "bank": [
+          "ہے",
+          "اچھا",
+          "بہت",
+          "موسم",
+          "آج"
+        ],
+        "answer": [
+          "آج",
+          "موسم",
+          "بہت",
+          "اچھا",
+          "ہے"
+        ],
+        "en": "Today the weather is very nice."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "شہروں میں ____ بڑھ رہی ہے۔",
+        "opts": [
+          "آلودگی",
+          "سبزہ",
+          "بارش",
+          "نیند"
+        ],
+        "a": 0,
+        "en": "___ is increasing in cities."
+      },
+      {
+        "text": "____ ہمیں آکسیجن دیتے ہیں۔",
+        "opts": [
+          "درخت",
+          "پانی",
+          "آسمان",
+          "موسم"
+        ],
+        "a": 0,
+        "en": "___ give us oxygen."
+      },
+      {
+        "text": "سردی میں ____ کپڑے پہنیں۔",
+        "opts": [
+          "گرم",
+          "ہلکے",
+          "پرانے",
+          "میلے"
+        ],
+        "a": 0,
+        "en": "Wear ___ clothes in the cold."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے پسندیدہ موسم کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about your favourite season."
+    }
+  },
+  "grammar": {
+    "title": "چاہیے / چاہییں — Expressing “should”",
+    "explain": "چاہیے expresses obligation (“should”). With a singular object it stays چاہیے; with a plural object it becomes چاہییں, agreeing with what is needed — not with the person who should do it.",
+    "rows": [
+      [
+        "ہمیں پانی بچانا چاہیے۔",
+        "We should save water. (singular action)"
+      ],
+      [
+        "ہمیں زیادہ درخت لگانے چاہییں۔",
+        "We should plant more trees. (plural object)"
+      ],
+      [
+        "تمہیں آرام کرنا چاہیے۔",
+        "You should rest."
+      ],
+      [
+        "بچوں کو صاف ہوا میں کھیلنا چاہیے۔",
+        "Children should play in clean air."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہمیں درخت ____۔",
+        "opts": [
+          "لگانا چاہیے",
+          "لگانے چاہییں",
+          "لگاؤ",
+          "لگایا"
+        ],
+        "a": 1,
+        "en": "We should plant trees. (plural object)"
+      },
+      {
+        "q": "تمہیں پانی ____۔",
+        "opts": [
+          "بچانا چاہیے",
+          "بچانے چاہییں",
+          "بچاؤ",
+          "بچایا"
+        ],
+        "a": 0,
+        "en": "You should save water."
+      },
+      {
+        "q": "بچوں کو صاف ہوا میں ____۔",
+        "opts": [
+          "کھیلنا چاہیے",
+          "کھیلنے چاہییں",
+          "کھیلو",
+          "کھیلا"
+        ],
+        "a": 0,
+        "en": "Children should play in clean air."
+      }
+    ]
+  }
+}

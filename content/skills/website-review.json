@@ -1,0 +1,71 @@
+{
+  "id": "website-review",
+  "ur": "ویب سائٹ پر تبصرہ لکھنا",
+  "en": "How to write a website review",
+  "points": [
+    "ویب سائٹ کا نام اور اس کا مقصد بتائیں۔",
+    "استعمال میں آسانی اور ڈیزائن پر رائے دیں۔",
+    "مواد (content) کے معیار کے بارے میں بتائیں۔",
+    "آخر میں مجموعی درجہ بندی اور سفارش دیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Review of an invented learning website \"اردو دنیا\"",
+      "ur": "ویب سائٹ: اردو دنیا\n\nیہ ویب سائٹ اردو سیکھنے کے لیے بنائی گئی ہے۔ اس کا ڈیزائن صاف اور استعمال کرنا آسان ہے۔ اس میں سبق، مشقیں اور آڈیو موجود ہیں۔ مجھے یہ ویب سائٹ بہت پسند آئی اور میں اسے دوسرے طلبہ کو استعمال کرنے کی سفارش کرتا ہوں۔"
+    },
+    {
+      "caption": "Review of an invented online library \"کتاب گھر\"",
+      "ur": "ویب سائٹ: کتاب گھر\n\nیہ ویب سائٹ مختلف اردو کتابیں مفت پڑھنے کے لیے فراہم کرتی ہے۔ کتابیں تلاش کرنا آسان ہے، مگر کچھ صفحات دیر سے کھلتے ہیں۔ مجموعی طور پر یہ ایک اچھی ویب سائٹ ہے۔"
+    },
+    {
+      "caption": "Review of an invented shopping site \"خریداری ڈاٹ کام\"",
+      "ur": "ویب سائٹ: خریداری ڈاٹ کام\n\nاس ویب سائٹ سے آن لائن خریداری کرنا آسان ہے۔ چیزیں جلدی مل جاتی ہیں، مگر قیمتیں تھوڑی زیادہ ہیں۔ گاہکوں کی مدد کی سہولت اچھی ہے۔"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A website review should mention the site's:",
+      "opts": [
+        "Favourite food",
+        "Purpose and ease of use",
+        "Weather forecast",
+        "Nothing specific"
+      ],
+      "a": 1
+    },
+    {
+      "q": "What should a website review end with?",
+      "opts": [
+        "A random joke",
+        "An overall rating/recommendation",
+        "The reviewer's address",
+        "Nothing"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Reviewing content quality means commenting on:",
+      "opts": [
+        "The colour of the reviewer's shirt",
+        "Whether the content is useful and accurate",
+        "The reviewer's mood",
+        "Unrelated topics"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "کسی ایسی ویب سائٹ پر تبصرہ لکھیں جو آپ پڑھائی کے لیے استعمال کرتے ہیں۔",
+      "en": "Write a review of a website you use for studying."
+    },
+    {
+      "ur": "کسی آن لائن خریداری کی ویب سائٹ پر تبصرہ لکھیں۔",
+      "en": "Write a review of an online shopping website."
+    },
+    {
+      "ur": "کسی تفریحی یا ویڈیو ویب سائٹ پر تبصرہ لکھیں۔",
+      "en": "Write a review of an entertainment or video website."
+    }
+  ]
+}

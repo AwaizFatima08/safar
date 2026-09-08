@@ -1,0 +1,71 @@
+{
+  "id": "blog",
+  "ur": "بلاگ لکھنا",
+  "en": "How to write a blog post",
+  "points": [
+    "دلچسپ اور واضح عنوان چنیں۔",
+    "بات چیت جیسا مگر درست انداز اپنائیں۔",
+    "چھوٹے پیراگراف اور آسان جملے استعمال کریں۔",
+    "آخر میں قاری سے سوال پوچھیں تاکہ وہ جواب دیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Blog about learning to ride a bicycle",
+      "ur": "میری پہلی سائیکل\n\nپچھلے سال میں نے سائیکل چلانا سیکھا۔ شروع میں میں کئی بار گرا، مگر میں نے ہمت نہیں ہاری۔ آخرکار ایک دن میں نے بغیر گرے پوری گلی کا چکر لگایا۔ وہ لمحہ میری زندگی کی سب سے خوشی کی یادوں میں سے ایک ہے۔ کیا آپ کو بھی کوئی ایسی یاد ہے؟"
+    },
+    {
+      "caption": "Blog about summer vacation",
+      "ur": "موسم گرما کی تعطیلات\n\nاس سال گرمیوں کی چھٹیوں میں ہم نے پہاڑوں کی سیر کی۔ ہم نے جھیلوں کے کنارے وقت گزارا اور مقامی کھانے کھائے۔ سب سے زیادہ مجھے صاف ہوا اور خاموشی پسند آئی۔ آپ نے اپنی چھٹیاں کیسے گزاری؟"
+    },
+    {
+      "caption": "Blog about the benefits of reading",
+      "ur": "کتابیں پڑھنے کے فائدے\n\nمجھے کتابیں پڑھنا بہت پسند ہے۔ کتابیں پڑھنے سے میری اردو بہتر ہوئی اور مجھے نئی نئی باتیں معلوم ہوئیں۔ ہر کتاب مجھے کسی نئی دنیا میں لے جاتی ہے۔ آپ کی پسندیدہ کتاب کون سی ہے؟"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A blog post's tone is usually:",
+      "opts": [
+        "Very formal, like a legal document",
+        "Personal and conversational",
+        "Only numbers and lists",
+        "Silent"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Blog paragraphs should generally be:",
+      "opts": [
+        "Very long, one giant paragraph",
+        "Short and easy to read",
+        "Written only in English",
+        "Skipped"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A good way to end a blog post is:",
+      "opts": [
+        "Just stop mid-sentence",
+        "Ask readers a question",
+        "Insert an unrelated ad",
+        "Repeat the title ten times"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "اپنے کسی پسندیدہ مشغلے کے بارے میں بلاگ لکھیں۔",
+      "en": "Write a blog post about one of your favourite hobbies."
+    },
+    {
+      "ur": "کسی ایسی جگہ کے بارے میں بلاگ لکھیں جہاں آپ نے سفر کیا۔",
+      "en": "Write a blog post about a place you have travelled to."
+    },
+    {
+      "ur": "کسی ایسے سبق کے بارے میں بلاگ لکھیں جو آپ نے زندگی سے سیکھا۔",
+      "en": "Write a blog post about a lesson you learned in life."
+    }
+  ]
+}

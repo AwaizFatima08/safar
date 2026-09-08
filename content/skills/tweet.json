@@ -1,0 +1,71 @@
+{
+  "id": "tweet",
+  "ur": "ٹویٹر پیغام (ٹویٹ) لکھنا",
+  "en": "How to write a tweet",
+  "points": [
+    "پیغام مختصر اور سیدھا ہونا چاہیے۔",
+    "ایک ٹویٹ میں صرف ایک بات یا خیال بیان کریں۔",
+    "موضوع سے متعلق ہیش ٹیگ (#) استعمال کر سکتے ہیں۔",
+    "مختصر ہونے کے باوجود زبان شائستہ رکھیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Tweet about a cricket win",
+      "ur": "ہماری ٹیم نے آج فائنل جیت لیا! کیا زبردست میچ تھا۔ #کرکٹ #خوشی"
+    },
+    {
+      "caption": "Tweet announcing a school event",
+      "ur": "کل ہمارے سکول میں کتابوں کا میلہ لگ رہا ہے۔ سب دوست ضرور آئیں! #کتابمیلہ"
+    },
+    {
+      "caption": "Tweet reacting to a book",
+      "ur": "یہ کتاب پڑھ کر میری آنکھوں میں آنسو آ گئے۔ کمال کی کہانی ہے۔ #کتاب #پسندیدہ"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A tweet should mainly be:",
+      "opts": [
+        "Very long and detailed",
+        "Short and to the point",
+        "Written in code",
+        "A full essay"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A hashtag (#) is used to:",
+      "opts": [
+        "End the sentence",
+        "Mark the topic of the tweet",
+        "Replace punctuation",
+        "Nothing, it's decoration"
+      ],
+      "a": 1
+    },
+    {
+      "q": "How many main ideas should one tweet usually contain?",
+      "opts": [
+        "Five",
+        "One",
+        "Ten",
+        "None"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "یوم آزادی کی تقریب کے بارے میں ایک ٹویٹ لکھیں۔",
+      "en": "Write a tweet about an Independence Day celebration."
+    },
+    {
+      "ur": "کسی موضوع پر مشورہ مانگنے کے لیے ٹویٹ لکھیں۔",
+      "en": "Write a tweet asking for advice on a topic."
+    },
+    {
+      "ur": "آج آپ نے جو نئی بات سیکھی اس کے بارے میں ٹویٹ لکھیں۔",
+      "en": "Write a tweet sharing something new you learned today."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "report",
+  "ur": "رپورٹ لکھنا",
+  "en": "How to write a report",
+  "points": [
+    "رپورٹ کا عنوان واضح اور مختصر ہونا چاہیے۔",
+    "تاریخ اور مقام لکھیں اگر ضروری ہو۔",
+    "غیر جانبدار اور حقیقت پر مبنی انداز میں لکھیں — رائے نہیں، حقائق۔",
+    "ترتیب: تعارف، تفصیل، نتیجہ یا سفارش۔",
+    "تیسرے شخص (وہ / انہوں نے) میں لکھیں، 'میں' میں نہیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Report on Sports Day",
+      "ur": "رپورٹ: سالانہ کھیلوں کا دن\n\nگزشتہ ہفتے سکول میں سالانہ کھیلوں کا دن بڑی خوشی سے منایا گیا۔ تمام طلبہ نے مختلف مقابلوں میں حصہ لیا۔ دوڑ، رسہ کشی اور کرکٹ کے مقابلے خاص طور پر پسند کیے گئے۔ آخر میں پرنسپل صاحب نے فاتح ٹیموں کو انعامات دیے۔ یہ دن سب کے لیے یادگار رہا۔"
+    },
+    {
+      "caption": "Report on a plantation drive",
+      "ur": "رپورٹ: شجرکاری مہم\n\nاسکول کے طلبہ نے گزشتہ جمعرات کو ایک شجرکاری مہم میں حصہ لیا۔ اس مہم میں کل پچاس پودے لگائے گئے۔ اساتذہ نے طلبہ کو درختوں کی اہمیت بتائی۔ اس سرگرمی سے طلبہ میں ماحول کے تحفظ کا شعور بڑھا۔"
+    },
+    {
+      "caption": "News-style report on a road accident",
+      "ur": "رپورٹ: سڑک پر حادثہ\n\nآج صبح مین روڈ پر دو گاڑیوں کے درمیان حادثہ پیش آیا۔ بروقت مدد کی وجہ سے کسی کو شدید نقصان نہیں پہنچا۔ پولیس فوراً پہنچ گئی اور ٹریفک کو بحال کیا۔ لوگوں نے احتیاط سے گاڑی چلانے کی اپیل کی۔"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A report should be written mainly in which style?",
+      "opts": [
+        "Personal opinion",
+        "Factual and objective",
+        "Poetic",
+        "Argumentative only"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which person (voice) is normally used in a report?",
+      "opts": [
+        "First person (میں)",
+        "Third person (وہ)",
+        "Only questions",
+        "Only commands"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A good report usually ends with:",
+      "opts": [
+        "A joke",
+        "A conclusion or recommendation",
+        "A shopping list",
+        "Nothing"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "سالانہ جلسہ تقسیم انعامات پر ایک رپورٹ لکھیں۔",
+      "en": "Write a report on the annual prize distribution ceremony."
+    },
+    {
+      "ur": "اسکول میں منعقد ہونے والے کتابوں کے میلے پر رپورٹ لکھیں۔",
+      "en": "Write a report on a book fair held at your school."
+    },
+    {
+      "ur": "آپ نے جو سڑک حادثہ دیکھا اس پر ایک رپورٹ لکھیں۔",
+      "en": "Write a report on a road accident you witnessed."
+    }
+  ]
+}

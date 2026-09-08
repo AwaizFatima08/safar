@@ -1,0 +1,71 @@
+{
+  "id": "letters",
+  "ur": "خط کی اقسام اور خط لکھنے کا طریقہ",
+  "en": "Types of letters & how to write a letter",
+  "points": [
+    "خط دو طرح کے ہوتے ہیں: غیر رسمی (ذاتی) خط اور رسمی خط۔",
+    "غیر رسمی خط میں 'پیارے/پیاری' سے آغاز کریں اور دوستانہ انداز رکھیں۔",
+    "رسمی خط میں 'محترم' + عہدہ لکھیں اور واضح مقصد بیان کریں۔",
+    "دونوں اقسام میں تاریخ، سلام، متن اور اختتامیہ شامل کریں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Informal letter to a friend about exam results",
+      "ur": "پیارے فہد،\n\nالسلام علیکم! تمہیں یہ جان کر خوشی ہو گی کہ میں نے امتحان میں اچھے نمبر حاصل کیے ہیں۔ میں نے بہت محنت کی تھی۔ تم نے کیسا کیا؟ جلد جواب دینا۔\n\nتمہارا دوست،\nحمزہ"
+    },
+    {
+      "caption": "Formal letter to a newspaper editor about cleanliness",
+      "ur": "محترم مدیر صاحب،\n\nجناب والا،\n\nمیں آپ کی توجہ اپنے محلے کی صفائی کی طرف مبذول کرانا چاہتا ہوں۔ کچرا کئی دنوں سے نہیں اٹھایا گیا، جس سے بیماریاں پھیلنے کا خطرہ ہے۔ براہ کرم متعلقہ ادارے کو مطلع کریں تاکہ فوری کارروائی ہو سکے۔\n\nشکریہ۔\nایک پریشان شہری"
+    },
+    {
+      "caption": "Informal letter to father while at a camp",
+      "ur": "پیارے ابو،\n\nالسلام علیکم! میں یہاں کیمپ میں ٹھیک ہوں اور نئے دوست بنا رہا ہوں۔ ہم نے پہاڑوں پر چڑھائی بھی کی۔ امی کا خیال رکھیں۔ گھر آ کر سب کچھ تفصیل سے بتاؤں گا۔\n\nآپ کا بیٹا،\nعثمان"
+    }
+  ],
+  "practice": [
+    {
+      "q": "An informal letter usually begins with:",
+      "opts": [
+        "المحترم پرنسپل صاحب",
+        "پیارے/پیاری + name",
+        "To whom it may concern",
+        "A hashtag"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A formal letter to a newspaper editor should be about:",
+      "opts": [
+        "Only personal gossip",
+        "A clear issue or matter of public concern",
+        "Nothing in particular",
+        "A private joke"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which of these is common to BOTH formal and informal letters?",
+      "opts": [
+        "Date and a closing",
+        "Hashtags",
+        "Emojis only",
+        "No greeting at all"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "بیرون ملک مقیم اپنے کزن کو ایک غیر رسمی خط لکھیں۔",
+      "en": "Write an informal letter to your cousin who lives abroad."
+    },
+    {
+      "ur": "شہر کی صفائی کے مسئلے پر اخبار کے مدیر کو ایک رسمی خط لکھیں۔",
+      "en": "Write a formal letter to a newspaper editor about a cleanliness issue in your city."
+    },
+    {
+      "ur": "کیمپ میں گئے ہوئے اپنے والد کو ایک غیر رسمی خط لکھیں اور اسکول کی زندگی بیان کریں۔",
+      "en": "Write an informal letter to your father describing your school life while he is away."
+    }
+  ]
+}

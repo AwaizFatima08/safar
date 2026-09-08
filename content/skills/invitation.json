@@ -1,0 +1,71 @@
+{
+  "id": "invitation",
+  "ur": "دعوت نامہ لکھنا",
+  "en": "How to write an invitation",
+  "points": [
+    "تقریب کا نام واضح بتائیں (کس خوشی میں دعوت ہے)۔",
+    "تاریخ، وقت اور جگہ ضرور لکھیں۔",
+    "زبان گرمجوشی اور شائستگی سے بھری ہونی چاہیے۔",
+    "اگر ضرورت ہو تو جواب دینے کی درخواست (RSVP) لکھیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Birthday party invitation",
+      "ur": "پیارے دوستو،\n\nآپ سب کو میری سالگرہ کی تقریب میں شرکت کی دعوت ہے۔ یہ تقریب اتوار، 15 مارچ کو شام 5 بجے ہمارے گھر پر ہو گی۔ براہ کرم ضرور آئیں اور اپنی آمد کی خبر دیں۔\n\nمنتظر،\nسارہ"
+    },
+    {
+      "caption": "Wedding function invitation",
+      "ur": "محترم مہمانانِ گرامی،\n\nآپ کو ہماری بہن کی شادی کی تقریب میں شرکت کی دعوت دی جاتی ہے۔ یہ تقریب ہفتہ، 20 اپریل کو شام 7 بجے مقامی شادی ہال میں منعقد ہو گی۔ آپ کی موجودگی ہمارے لیے باعثِ عزت ہوگی۔"
+    },
+    {
+      "caption": "School annual function invitation",
+      "ur": "محترم والدین،\n\nآپ کو سکول کے سالانہ فنکشن میں شرکت کی دعوت دی جاتی ہے۔ یہ تقریب جمعہ، 10 مئی کو صبح 10 بجے سکول ہال میں ہو گی۔ آپ کی شرکت بچوں کے لیے حوصلہ افزائی کا باعث ہوگی۔"
+    }
+  ],
+  "practice": [
+    {
+      "q": "An invitation must always include:",
+      "opts": [
+        "Only the sender's favourite colour",
+        "Date, time and place",
+        "A long essay",
+        "Nothing specific"
+      ],
+      "a": 1
+    },
+    {
+      "q": "The tone of an invitation should be:",
+      "opts": [
+        "Cold and rude",
+        "Warm and polite",
+        "Angry",
+        "Silent"
+      ],
+      "a": 1
+    },
+    {
+      "q": "'RSVP' in an invitation is a request to:",
+      "opts": [
+        "Bring a gift only",
+        "Reply and confirm attendance",
+        "Ignore the invitation",
+        "Cancel the event"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "اپنے کسی دوست کو اپنی تعلیمی تقریب (گریجویشن) میں مدعو کرتے ہوئے دعوت نامہ لکھیں۔",
+      "en": "Write an invitation inviting a friend to your graduation ceremony."
+    },
+    {
+      "ur": "عید کی تقریب کے لیے اپنے رشتہ داروں کو دعوت نامہ لکھیں۔",
+      "en": "Write an invitation for relatives to an Eid gathering."
+    },
+    {
+      "ur": "اپنے کلاس فیلوز کو مطالعاتی گروپ میں شامل ہونے کی دعوت دیں۔",
+      "en": "Write an invitation for your classmates to join a study group."
+    }
+  ]
+}

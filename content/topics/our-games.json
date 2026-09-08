@@ -1,0 +1,277 @@
+{
+  "id": "our-games",
+  "ur": "ہمارے کھیل",
+  "en": "Our Games",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ہاکی کو پاکستان کا قومی کھیل کہا جاتا ہے۔",
+    "en": "Did you know? Hockey is officially regarded as Pakistan's national sport."
+  },
+  "vocab": [
+    {
+      "ur": "کھیل",
+      "en": "game / sport",
+      "ex_ur": "ہر کھیل کے اپنے قواعد ہوتے ہیں۔",
+      "ex_en": "Every game has its own rules."
+    },
+    {
+      "ur": "ہاکی",
+      "en": "hockey",
+      "ex_ur": "ہاکی پاکستان کا قومی کھیل ہے۔",
+      "ex_en": "Hockey is Pakistan's national game."
+    },
+    {
+      "ur": "فٹبال",
+      "en": "football",
+      "ex_ur": "بچے میدان میں فٹبال کھیلتے ہیں۔",
+      "ex_en": "Children play football in the field."
+    },
+    {
+      "ur": "بدمنٹن",
+      "en": "badminton",
+      "ex_ur": "ہم شام کو بدمنٹن کھیلتے ہیں۔",
+      "ex_en": "We play badminton in the evening."
+    },
+    {
+      "ur": "ٹیم",
+      "en": "team",
+      "ex_ur": "ہماری ٹیم اگلے ہفتے کھیلے گی۔",
+      "ex_en": "Our team will play next week."
+    },
+    {
+      "ur": "ورزش",
+      "en": "exercise",
+      "ex_ur": "کھیل ایک بہترین ورزش ہے۔",
+      "ex_en": "Sport is an excellent exercise.",
+      "syn": "کسرت"
+    },
+    {
+      "ur": "مقابلہ",
+      "en": "competition",
+      "ex_ur": "سکول میں کھیلوں کا مقابلہ ہوا۔",
+      "ex_en": "A sports competition was held at school."
+    },
+    {
+      "ur": "انعام",
+      "en": "prize",
+      "ex_ur": "جیتنے والی ٹیم کو انعام ملا۔",
+      "ex_en": "The winning team got a prize.",
+      "syn": "تحفہ"
+    },
+    {
+      "ur": "کھلاڑی",
+      "en": "player",
+      "ex_ur": "ہر کھلاڑی نے دل سے کھیلا۔",
+      "ex_en": "Every player played wholeheartedly."
+    },
+    {
+      "ur": "نظم و ضبط",
+      "en": "discipline",
+      "ex_ur": "کھیل ہمیں نظم و ضبط سکھاتا ہے۔",
+      "ex_en": "Sport teaches us discipline."
+    }
+  ],
+  "reading": {
+    "passage": "کھیل ہماری زندگی کا اہم حصہ ہیں۔ ہاکی کو پاکستان کا قومی کھیل کہا جاتا ہے، لیکن فٹبال اور بدمنٹن بھی بہت مقبول ہیں۔ ہر سال ہمارے سکول میں کھیلوں کا مقابلہ ہوتا ہے جس میں مختلف ٹیمیں حصہ لیتی ہیں۔ جیتنے والی ٹیم کو انعام دیا جاتا ہے۔ کھیل ہمیں صحت مند رکھنے کے ساتھ نظم و ضبط بھی سکھاتے ہیں۔",
+    "questions": [
+      {
+        "q": "پاکستان کا قومی کھیل کیا ہے؟",
+        "opts": [
+          "کرکٹ",
+          "ہاکی",
+          "فٹبال",
+          "بدمنٹن"
+        ],
+        "a": 1
+      },
+      {
+        "q": "سکول میں ہر سال کیا ہوتا ہے؟",
+        "opts": [
+          "امتحان",
+          "کھیلوں کا مقابلہ",
+          "چھٹی",
+          "تقریر"
+        ],
+        "a": 1
+      },
+      {
+        "q": "جیتنے والی ٹیم کو کیا ملتا ہے؟",
+        "opts": [
+          "سزا",
+          "انعام",
+          "کتاب",
+          "چھٹی"
+        ],
+        "a": 1
+      },
+      {
+        "q": "کھیل ہمیں کیا سکھاتے ہیں؟",
+        "opts": [
+          "صرف تھکن",
+          "نظم و ضبط",
+          "لڑائی",
+          "کاہلی"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "قومی",
+          "پاکستان",
+          "ہاکی",
+          "ہے",
+          "کا",
+          "کھیل"
+        ],
+        "answer": [
+          "ہاکی",
+          "پاکستان",
+          "کا",
+          "قومی",
+          "کھیل",
+          "ہے"
+        ],
+        "en": "Hockey is Pakistan's national game."
+      },
+      {
+        "bank": [
+          "ملا",
+          "ٹیم",
+          "انعام",
+          "کو",
+          "جیتنے",
+          "والی"
+        ],
+        "answer": [
+          "جیتنے",
+          "والی",
+          "ٹیم",
+          "کو",
+          "انعام",
+          "ملا"
+        ],
+        "en": "The winning team got a prize."
+      },
+      {
+        "bank": [
+          "سکھاتا",
+          "ضبط",
+          "کھیل",
+          "نظم",
+          "ہمیں",
+          "و",
+          "ہے"
+        ],
+        "answer": [
+          "کھیل",
+          "ہمیں",
+          "نظم",
+          "و",
+          "ضبط",
+          "سکھاتا",
+          "ہے"
+        ],
+        "en": "Sport teaches us discipline."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ہر ____ کے اپنے قواعد ہوتے ہیں۔",
+        "opts": [
+          "کھیل",
+          "کھلاڑی",
+          "انعام",
+          "مقابلہ"
+        ],
+        "a": 0,
+        "en": "Every ___ has its own rules."
+      },
+      {
+        "text": "جیتنے والی ٹیم کو ____ دیا گیا۔",
+        "opts": [
+          "انعام",
+          "سزا",
+          "کام",
+          "امتحان"
+        ],
+        "a": 0,
+        "en": "The winning team was given a ___."
+      },
+      {
+        "text": "کھیل ہمیں ____ سکھاتا ہے۔",
+        "opts": [
+          "نظم و ضبط",
+          "کاہلی",
+          "غصہ",
+          "خوف"
+        ],
+        "a": 0,
+        "en": "Sport teaches us ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کو کون سا کھیل پسند ہے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "Which sport do you like and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مستقبل کا زمانہ — The future tense (گا / گی / گے)",
+    "explain": "Urdu marks the future by adding گا (masc. sing.), گی (fem. sing.), or گے (plural / respectful) after the verb stem: کھیلے گا (will play, masc.), کھیلے گی (fem.), کھیلیں گے (plural).",
+    "rows": [
+      [
+        "ہماری ٹیم اگلے ہفتے کھیلے گی۔",
+        "Our team will play next week. (fem. subject: ٹیم)"
+      ],
+      [
+        "وہ کل میچ جیتے گا۔",
+        "He will win the match tomorrow."
+      ],
+      [
+        "ہم مقابلے میں حصہ لیں گے۔",
+        "We will take part in the competition."
+      ],
+      [
+        "کھلاڑی انعام لیں گے۔",
+        "The players will receive prizes."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "کل ہماری ٹیم ____۔",
+        "opts": [
+          "کھیلے گی",
+          "کھیلے گا",
+          "کھیلیں گے",
+          "کھیلا"
+        ],
+        "a": 0,
+        "en": "Our team will play tomorrow. (fem.: ٹیم)"
+      },
+      {
+        "q": "وہ لڑکے مقابلے میں ____۔",
+        "opts": [
+          "حصہ لے گا",
+          "حصہ لیں گے",
+          "حصہ لی گی",
+          "حصہ لیا"
+        ],
+        "a": 1,
+        "en": "Those boys will take part in the competition."
+      },
+      {
+        "q": "میں کل ____۔",
+        "opts": [
+          "کھیلوں گا",
+          "کھیلے گی",
+          "کھیلیں گے",
+          "کھیلا"
+        ],
+        "a": 0,
+        "en": "I will play tomorrow. (masc. speaker)"
+      }
+    ]
+  }
+}

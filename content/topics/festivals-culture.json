@@ -1,0 +1,283 @@
+{
+  "id": "festivals-culture",
+  "ur": "تہوار اور ثقافت",
+  "en": "Festivals & Culture",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'عید' عربی زبان سے آیا ہے اور اس کا مطلب ہے 'واپس آنے والی خوشی'۔",
+    "en": "عید (“Eid”) comes from Arabic and literally means “joy that returns.”"
+  },
+  "vocab": [
+    {
+      "ur": "عید",
+      "en": "Eid",
+      "ex_ur": "عید ہمارا بڑا تہوار ہے۔",
+      "ex_en": "Eid is our big festival."
+    },
+    {
+      "ur": "تہوار",
+      "en": "festival",
+      "ex_ur": "یہ تہوار سب کو پسند ہے۔",
+      "ex_en": "Everyone likes this festival.",
+      "syn": "جشن"
+    },
+    {
+      "ur": "خوشی",
+      "en": "happiness",
+      "ex_ur": "عید پر بہت خوشی ہوتی ہے۔",
+      "ex_en": "There is much happiness on Eid.",
+      "syn": "مسرت"
+    },
+    {
+      "ur": "مہمان",
+      "en": "guest",
+      "ex_ur": "آج ہمارے گھر مہمان آئے۔",
+      "ex_en": "Guests came to our house today."
+    },
+    {
+      "ur": "مبارک",
+      "en": "blessed / congratulations",
+      "ex_ur": "عید مبارک!",
+      "ex_en": "Happy Eid!"
+    },
+    {
+      "ur": "نئے کپڑے",
+      "en": "new clothes",
+      "ex_ur": "ہم عید پر نئے کپڑے پہنتے ہیں۔",
+      "ex_en": "We wear new clothes on Eid."
+    },
+    {
+      "ur": "عیدی",
+      "en": "Eidi (gift money)",
+      "ex_ur": "بچے عیدی لے کر خوش ہوتے ہیں۔",
+      "ex_en": "Children are happy getting Eidi."
+    },
+    {
+      "ur": "دعا",
+      "en": "prayer / blessing",
+      "ex_ur": "دادی نے ہمیں دعا دی۔",
+      "ex_en": "Grandmother gave us a blessing."
+    },
+    {
+      "ur": "میٹھا",
+      "en": "sweet dish",
+      "ex_ur": "گھر میں میٹھا بنا ہے۔",
+      "ex_en": "A sweet dish is made at home.",
+      "syn": "شیریں"
+    },
+    {
+      "ur": "رشتہ دار",
+      "en": "relative",
+      "ex_ur": "ہم رشتہ داروں کے گھر جاتے ہیں۔",
+      "ex_en": "We go to relatives' houses.",
+      "syn": "عزیز"
+    }
+  ],
+  "reading": {
+    "passage": "عید ہمارا سب سے بڑا تہوار ہے۔ عید کے دن ہم نئے کپڑے پہنتے ہیں اور مسجد جاتے ہیں۔ گھر میں میٹھے پکوان بنتے ہیں اور مہمان آتے ہیں۔ بڑے بچوں کو عیدی دیتے ہیں۔ سب لوگ ایک دوسرے کو عید مبارک کہتے ہیں۔",
+    "questions": [
+      {
+        "q": "عید کے دن لوگ کیا پہنتے ہیں؟",
+        "opts": [
+          "پرانے کپڑے",
+          "نئے کپڑے",
+          "یونیفارم",
+          "کچھ نہیں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "گھر میں کیا بنتا ہے؟",
+        "opts": [
+          "میٹھے پکوان",
+          "صرف چائے",
+          "کتابیں",
+          "کھلونے"
+        ],
+        "a": 0
+      },
+      {
+        "q": "بڑے بچوں کو کیا دیتے ہیں؟",
+        "opts": [
+          "کتاب",
+          "عیدی",
+          "قلم",
+          "کھانا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "لوگ ایک دوسرے سے کیا کہتے ہیں؟",
+        "opts": [
+          "الوداع",
+          "شکریہ",
+          "عید مبارک",
+          "معاف کرنا"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پہنتے",
+          "نئے",
+          "ہم",
+          "کپڑے",
+          "عید",
+          "پر",
+          "ہیں"
+        ],
+        "answer": [
+          "ہم",
+          "عید",
+          "پر",
+          "نئے",
+          "کپڑے",
+          "پہنتے",
+          "ہیں"
+        ],
+        "en": "We wear new clothes on Eid."
+      },
+      {
+        "bank": [
+          "خوش",
+          "لے",
+          "بچے",
+          "کر",
+          "عیدی",
+          "ہوتے",
+          "ہیں"
+        ],
+        "answer": [
+          "بچے",
+          "عیدی",
+          "لے",
+          "کر",
+          "خوش",
+          "ہوتے",
+          "ہیں"
+        ],
+        "en": "Children get happy taking Eidi."
+      },
+      {
+        "bank": [
+          "جاتے",
+          "کے",
+          "رشتہ",
+          "ہم",
+          "داروں",
+          "گھر",
+          "ہیں"
+        ],
+        "answer": [
+          "ہم",
+          "رشتہ",
+          "داروں",
+          "کے",
+          "گھر",
+          "جاتے",
+          "ہیں"
+        ],
+        "en": "We go to relatives' houses."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "بچے ____ لے کر بہت خوش ہوتے ہیں۔",
+        "opts": [
+          "عیدی",
+          "کتاب",
+          "باغ",
+          "دوست"
+        ],
+        "a": 0,
+        "en": "Children get happy taking ___."
+      },
+      {
+        "text": "گھر میں ____ پکوان بنتے ہیں۔",
+        "opts": [
+          "میٹھے",
+          "کھٹے",
+          "پرانے",
+          "خالی"
+        ],
+        "a": 0,
+        "en": "___ dishes are made at home."
+      },
+      {
+        "text": "سب لوگ عید ____ کہتے ہیں۔",
+        "opts": [
+          "مبارک",
+          "الوداع",
+          "شکریہ",
+          "دعا"
+        ],
+        "a": 0,
+        "en": "Everyone says Eid ___."
+      }
+    ],
+    "creative": {
+      "ur": "اپنا سب سے یادگار تہوار بیان کریں۔",
+      "en": "Describe your most memorable festival."
+    }
+  },
+  "grammar": {
+    "title": "کا، کی، کے — Possessive agreement",
+    "explain": "The possessive marker کا / کی / کے must agree with the noun that follows it, not the owner: کا before a masculine singular noun, کی before a feminine or plural-feminine noun, کے before a masculine plural or oblique noun.",
+    "rows": [
+      [
+        "میرا گھر",
+        "my house (masc. sing.)"
+      ],
+      [
+        "میری کتاب",
+        "my book (fem. sing.)"
+      ],
+      [
+        "میرے کپڑے",
+        "my clothes (masc. plural)"
+      ],
+      [
+        "احمد کی عیدی",
+        "Ahmed's Eidi (fem. sing.)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "یہ ____ باغ ہے۔ (میرا/میری/میرے)",
+        "opts": [
+          "میرا",
+          "میری",
+          "میرے",
+          "میرا کی"
+        ],
+        "a": 0,
+        "en": "This is ___ garden. (masc. sing.)"
+      },
+      {
+        "q": "یہ ____ عیدی ہے۔ (میرا/میری/میرے)",
+        "opts": [
+          "میرا",
+          "میری",
+          "میرے",
+          "میری کے"
+        ],
+        "a": 1,
+        "en": "This is ___ Eidi. (fem. sing.)"
+      },
+      {
+        "q": "یہ ____ نئے کپڑے ہیں۔ (میرا/میری/میرے)",
+        "opts": [
+          "میرا",
+          "میری",
+          "میرے",
+          "میرے کی"
+        ],
+        "a": 2,
+        "en": "These are ___ new clothes. (masc. plural)"
+      }
+    ]
+  }
+}

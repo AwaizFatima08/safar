@@ -1,0 +1,276 @@
+{
+  "id": "cricket",
+  "ur": "کرکٹ",
+  "en": "Cricket",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستان نے 1992ء میں پہلی بار کرکٹ کا عالمی کپ جیتا۔",
+    "en": "Did you know? Pakistan won the Cricket World Cup for the first time in 1992."
+  },
+  "vocab": [
+    {
+      "ur": "کرکٹ",
+      "en": "cricket",
+      "ex_ur": "کرکٹ پاکستان کا مقبول کھیل ہے۔",
+      "ex_en": "Cricket is Pakistan's popular game."
+    },
+    {
+      "ur": "کھلاڑی",
+      "en": "player",
+      "ex_ur": "ہر ٹیم میں گیارہ کھلاڑی ہوتے ہیں۔",
+      "ex_en": "Every team has eleven players."
+    },
+    {
+      "ur": "بیٹ",
+      "en": "bat",
+      "ex_ur": "بیٹسمین بیٹ سے گیند کو مارتا ہے۔",
+      "ex_en": "The batsman hits the ball with the bat."
+    },
+    {
+      "ur": "گیند",
+      "en": "ball",
+      "ex_ur": "باؤلر گیند پھینکتا ہے۔",
+      "ex_en": "The bowler throws the ball."
+    },
+    {
+      "ur": "میدان",
+      "en": "ground / field",
+      "ex_ur": "میچ ایک بڑے میدان میں کھیلا جاتا ہے۔",
+      "ex_en": "The match is played in a big ground."
+    },
+    {
+      "ur": "ٹیم",
+      "en": "team",
+      "ex_ur": "دونوں ٹیمیں میچ کے لیے تیار ہیں۔",
+      "ex_en": "Both teams are ready for the match."
+    },
+    {
+      "ur": "سکور",
+      "en": "score",
+      "ex_ur": "ہماری ٹیم کا سکور بہت اچھا ہے۔",
+      "ex_en": "Our team's score is very good."
+    },
+    {
+      "ur": "جیت",
+      "en": "victory",
+      "ex_ur": "جیت کی خوشی سب کو ہوئی۔",
+      "ex_en": "Everyone felt the joy of victory.",
+      "syn": "کامیابی"
+    },
+    {
+      "ur": "شکست",
+      "en": "defeat",
+      "ex_ur": "مخالف ٹیم کو شکست ہوئی۔",
+      "ex_en": "The opposing team suffered defeat.",
+      "syn": "ہار"
+    },
+    {
+      "ur": "تماشائی",
+      "en": "spectator",
+      "ex_ur": "میدان میں ہزاروں تماشائی موجود تھے۔",
+      "ex_en": "Thousands of spectators were present in the ground.",
+      "syn": "ناظر"
+    }
+  ],
+  "reading": {
+    "passage": "کل شہر کے بڑے میدان میں کرکٹ کا اہم میچ کھیلا گیا۔ ہزاروں تماشائی میچ دیکھنے کے لیے آئے تھے۔ ہماری ٹیم کے کھلاڑیوں نے بہت اچھی کھیل پیش کی اور مخالف ٹیم کو شکست دی۔ جیت کی خوشی میں سب لوگ خوب ناچے اور گائے۔ یہ میچ سب کے لیے یادگار بن گیا۔",
+    "questions": [
+      {
+        "q": "میچ کہاں کھیلا گیا؟",
+        "opts": [
+          "سکول میں",
+          "بڑے میدان میں",
+          "گھر میں",
+          "پارک میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "میچ دیکھنے کون آیا تھا؟",
+        "opts": [
+          "صرف اہل خانہ",
+          "ہزاروں تماشائی",
+          "چند دوست",
+          "کوئی نہیں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "نتیجہ کیا رہا؟",
+        "opts": [
+          "ہماری ٹیم ہار گئی",
+          "میچ برابر رہا",
+          "ہماری ٹیم جیت گئی",
+          "میچ منسوخ ہوا"
+        ],
+        "a": 2
+      },
+      {
+        "q": "لوگوں نے جیت پر کیا کیا؟",
+        "opts": [
+          "روئے",
+          "خوب ناچے اور گائے",
+          "خاموش رہے",
+          "گھر چلے گئے"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "مقبول",
+          "پاکستان",
+          "کرکٹ",
+          "کھیل",
+          "کا",
+          "ہے"
+        ],
+        "answer": [
+          "کرکٹ",
+          "پاکستان",
+          "کا",
+          "مقبول",
+          "کھیل",
+          "ہے"
+        ],
+        "en": "Cricket is Pakistan's popular game."
+      },
+      {
+        "bank": [
+          "گیارہ",
+          "ٹیم",
+          "ہر",
+          "میں",
+          "کھلاڑی",
+          "ہوتے",
+          "ہیں"
+        ],
+        "answer": [
+          "ہر",
+          "ٹیم",
+          "میں",
+          "گیارہ",
+          "کھلاڑی",
+          "ہوتے",
+          "ہیں"
+        ],
+        "en": "Every team has eleven players."
+      },
+      {
+        "bank": [
+          "دی",
+          "نے",
+          "شکست",
+          "ٹیم",
+          "ہماری"
+        ],
+        "answer": [
+          "ہماری",
+          "ٹیم",
+          "نے",
+          "شکست",
+          "دی"
+        ],
+        "en": "Our team gave [them] a defeat."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "باؤلر ____ پھینکتا ہے۔",
+        "opts": [
+          "گیند",
+          "بیٹ",
+          "میدان",
+          "سکور"
+        ],
+        "a": 0,
+        "en": "The bowler throws the ___."
+      },
+      {
+        "text": "میچ دیکھنے کے لیے ہزاروں ____ آئے۔",
+        "opts": [
+          "تماشائی",
+          "کھلاڑی",
+          "باؤلر",
+          "امپائر"
+        ],
+        "a": 0,
+        "en": "Thousands of ___ came to watch the match."
+      },
+      {
+        "text": "ہماری ٹیم کو ____ ملی۔",
+        "opts": [
+          "جیت",
+          "ہار",
+          "چوٹ",
+          "تھکن"
+        ],
+        "a": 0,
+        "en": "Our team got a ___."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے پسندیدہ کھیل کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about your favourite sport."
+    }
+  },
+  "grammar": {
+    "title": "وجہ بتانے والا جملہ — Clauses of reason with کیونکہ",
+    "explain": "کیونکہ (\"because\") joins two clauses so the second explains the reason for the first: [result] کیونکہ [reason].",
+    "rows": [
+      [
+        "ہماری ٹیم جیت گئی کیونکہ کھلاڑیوں نے اچھی کھیل پیش کی۔",
+        "Our team won because the players played well."
+      ],
+      [
+        "میچ منسوخ ہوا کیونکہ بارش ہو رہی تھی۔",
+        "The match was cancelled because it was raining."
+      ],
+      [
+        "وہ خوش تھا کیونکہ اس کی ٹیم جیت گئی۔",
+        "He was happy because his team won."
+      ],
+      [
+        "تماشائی چلے گئے کیونکہ میچ ختم ہو گیا۔",
+        "The spectators left because the match had ended."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "وہ اداس تھا ____ اس کی ٹیم ہار گئی۔",
+        "opts": [
+          "کیونکہ",
+          "لیکن",
+          "اور",
+          "یا"
+        ],
+        "a": 0,
+        "en": "He was sad because his team lost."
+      },
+      {
+        "q": "ہم گھر چلے گئے ____ بارش شروع ہو گئی۔",
+        "opts": [
+          "کیونکہ",
+          "اگر",
+          "پھر",
+          "تاکہ"
+        ],
+        "a": 0,
+        "en": "We went home because it started raining."
+      },
+      {
+        "q": "میچ یادگار تھا ____ ہماری ٹیم جیت گئی۔",
+        "opts": [
+          "کیونکہ",
+          "مگر",
+          "جب",
+          "کہ"
+        ],
+        "a": 0,
+        "en": "The match was memorable because our team won."
+      }
+    ]
+  }
+}

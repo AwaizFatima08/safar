@@ -1,0 +1,275 @@
+{
+  "id": "margalla-hills",
+  "ur": "مارگلہ کی پہاڑیاں",
+  "en": "The Margalla Hills",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ مارگلہ کی پہاڑیاں اسلام آباد کے شمال میں واقع ہیں اور ہائیکنگ کے لیے مشہور ہیں۔",
+    "en": "Did you know? The Margalla Hills lie to the north of Islamabad and are famous for hiking."
+  },
+  "vocab": [
+    {
+      "ur": "پہاڑ",
+      "en": "mountain",
+      "ex_ur": "مارگلہ کی پہاڑیاں بہت خوبصورت ہیں۔",
+      "ex_en": "The Margalla Hills are very beautiful."
+    },
+    {
+      "ur": "سیر",
+      "en": "excursion / outing",
+      "ex_ur": "ہم نے پہاڑوں کی سیر کی۔",
+      "ex_en": "We went on an excursion to the mountains."
+    },
+    {
+      "ur": "راستہ",
+      "en": "path / trail",
+      "ex_ur": "یہ راستہ چوٹی تک جاتا ہے۔",
+      "ex_en": "This path goes up to the peak."
+    },
+    {
+      "ur": "چوٹی",
+      "en": "peak / summit",
+      "ex_ur": "ہم نے پہاڑ کی چوٹی تک چڑھائی کی۔",
+      "ex_en": "We climbed up to the peak of the mountain."
+    },
+    {
+      "ur": "درخت",
+      "en": "tree",
+      "ex_ur": "پہاڑوں پر گھنے درخت ہیں۔",
+      "ex_en": "There are dense trees on the mountains.",
+      "syn": "شجر"
+    },
+    {
+      "ur": "ہوا",
+      "en": "air",
+      "ex_ur": "یہاں کی ہوا بہت تازہ ہے۔",
+      "ex_en": "The air here is very fresh."
+    },
+    {
+      "ur": "نظارہ",
+      "en": "view / scene",
+      "ex_ur": "چوٹی سے شہر کا نظارہ خوبصورت لگتا ہے۔",
+      "ex_en": "The view of the city from the peak looks beautiful.",
+      "syn": "منظر"
+    },
+    {
+      "ur": "چڑھائی",
+      "en": "climb / ascent",
+      "ex_ur": "چڑھائی تھکا دینے والی تھی۔",
+      "ex_en": "The climb was tiring."
+    },
+    {
+      "ur": "پرندے",
+      "en": "birds",
+      "ex_ur": "پہاڑوں میں مختلف پرندے پائے جاتے ہیں۔",
+      "ex_en": "Various birds are found in the mountains."
+    },
+    {
+      "ur": "قومی پارک",
+      "en": "national park",
+      "ex_ur": "یہ علاقہ ایک قومی پارک ہے۔",
+      "ex_en": "This area is a national park."
+    }
+  ],
+  "reading": {
+    "passage": "مارگلہ کی پہاڑیاں اسلام آباد کے شمال میں واقع ہیں۔ یہاں کے راستے سیر اور چڑھائی کے لیے بہت مشہور ہیں۔ لوگ صبح سویرے چوٹی تک چڑھتے ہیں تاکہ تازہ ہوا میں سانس لے سکیں۔ چوٹی سے شہر کا نظارہ نہایت خوبصورت دکھائی دیتا ہے۔ یہ علاقہ مختلف پرندوں اور جانوروں کا قومی پارک بھی ہے۔",
+    "questions": [
+      {
+        "q": "مارگلہ کی پہاڑیاں کہاں واقع ہیں؟",
+        "opts": [
+          "کراچی کے قریب",
+          "اسلام آباد کے شمال میں",
+          "لاہور کے جنوب میں",
+          "پشاور میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "لوگ صبح سویرے کیوں چڑھتے ہیں؟",
+        "opts": [
+          "کام کے لیے",
+          "تازہ ہوا میں سانس لینے کے لیے",
+          "خریداری کے لیے",
+          "سونے کے لیے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "چوٹی سے کیا دکھائی دیتا ہے؟",
+        "opts": [
+          "سمندر",
+          "شہر کا نظارہ",
+          "صحرا",
+          "دریا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "یہ علاقہ کس چیز کا قومی پارک ہے؟",
+        "opts": [
+          "صرف پھولوں کا",
+          "پرندوں اور جانوروں کا",
+          "مچھلیوں کا",
+          "کیڑوں کا"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "شمال",
+          "اسلام آباد",
+          "میں",
+          "پہاڑیاں",
+          "کے",
+          "واقع",
+          "ہیں",
+          "مارگلہ کی"
+        ],
+        "answer": [
+          "مارگلہ کی",
+          "پہاڑیاں",
+          "اسلام آباد",
+          "کے",
+          "شمال",
+          "میں",
+          "واقع",
+          "ہیں"
+        ],
+        "en": "The Margalla Hills are located to the north of Islamabad."
+      },
+      {
+        "bank": [
+          "ہے",
+          "خوبصورت",
+          "نظارہ",
+          "کا",
+          "شہر"
+        ],
+        "answer": [
+          "شہر",
+          "کا",
+          "نظارہ",
+          "خوبصورت",
+          "ہے"
+        ],
+        "en": "The view of the city is beautiful."
+      },
+      {
+        "bank": [
+          "ہے",
+          "تازہ",
+          "یہاں",
+          "ہوا",
+          "کی"
+        ],
+        "answer": [
+          "یہاں",
+          "کی",
+          "ہوا",
+          "تازہ",
+          "ہے"
+        ],
+        "en": "The air here is fresh."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "یہ راستہ ____ تک جاتا ہے۔",
+        "opts": [
+          "چوٹی",
+          "دریا",
+          "بازار",
+          "سکول"
+        ],
+        "a": 0,
+        "en": "This path goes up to the ___."
+      },
+      {
+        "text": "پہاڑوں پر گھنے ____ ہیں۔",
+        "opts": [
+          "درخت",
+          "پرندے",
+          "راستے",
+          "نظارے"
+        ],
+        "a": 0,
+        "en": "There are dense ___ on the mountains."
+      },
+      {
+        "text": "یہ علاقہ ایک ____ ہے۔",
+        "opts": [
+          "قومی پارک",
+          "بازار",
+          "ہسپتال",
+          "دفتر"
+        ],
+        "a": 0,
+        "en": "This area is a ___."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے کسی پسندیدہ سیر و سفر کے تجربے کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about a favourite trip or outing you've had."
+    }
+  },
+  "grammar": {
+    "title": "مقامی حروفِ اضافت — Postpositions of place",
+    "explain": "Urdu shows location with postpositions placed after the noun, not prepositions before it: کے شمال میں (to the north of), کے قریب (near), کی چوٹی تک (up to the peak of), میں (in).",
+    "rows": [
+      [
+        "اسلام آباد کے شمال میں",
+        "to the north of Islamabad"
+      ],
+      [
+        "پہاڑ کے قریب",
+        "near the mountain"
+      ],
+      [
+        "چوٹی تک",
+        "up to the peak"
+      ],
+      [
+        "جنگل میں",
+        "in the forest"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "مارگلہ کی پہاڑیاں اسلام آباد ____ واقع ہیں۔",
+        "opts": [
+          "کے شمال میں",
+          "شمال کا",
+          "شمال سے",
+          "شمال پر"
+        ],
+        "a": 0,
+        "en": "The Margalla Hills are located to the north of Islamabad."
+      },
+      {
+        "q": "ہم پہاڑ ____ پہنچ گئے۔",
+        "opts": [
+          "کی چوٹی تک",
+          "چوٹی کا",
+          "چوٹی سے",
+          "چوٹی پر سے"
+        ],
+        "a": 0,
+        "en": "We reached up to the peak of the mountain."
+      },
+      {
+        "q": "گاؤں دریا ____ ہے۔",
+        "opts": [
+          "کے قریب",
+          "قریب کا",
+          "قریب سے",
+          "قریب میں سے"
+        ],
+        "a": 0,
+        "en": "The village is near the river."
+      }
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "id": "journey-north",
+  "ur": "شمال کا سفر",
+  "en": "A Journey to Northern Pakistan",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ دنیا کی بلند ترین چوٹیوں میں سے پانچ پاکستان کے شمالی علاقوں میں واقع ہیں۔",
+    "en": "Did you know? Five of the world's highest peaks are located in Pakistan's northern areas."
+  },
+  "vocab": [
+    {
+      "ur": "سفر",
+      "en": "journey",
+      "ex_ur": "ہم نے شمال کا سفر کیا۔",
+      "ex_en": "We journeyed to the north."
+    },
+    {
+      "ur": "وادی",
+      "en": "valley",
+      "ex_ur": "یہ وادی بہت خوبصورت ہے۔",
+      "ex_en": "This valley is very beautiful."
+    },
+    {
+      "ur": "گلیشیئر",
+      "en": "glacier",
+      "ex_ur": "یہاں بڑے بڑے گلیشیئر ہیں۔",
+      "ex_en": "There are huge glaciers here."
+    },
+    {
+      "ur": "جھیل",
+      "en": "lake",
+      "ex_ur": "جھیل کا پانی بہت صاف ہے۔",
+      "ex_en": "The lake's water is very clear."
+    },
+    {
+      "ur": "برف",
+      "en": "snow",
+      "ex_ur": "چوٹیوں پر ہر وقت برف رہتی ہے۔",
+      "ex_en": "There is always snow on the peaks."
+    },
+    {
+      "ur": "قافلہ",
+      "en": "caravan / convoy",
+      "ex_ur": "ہمارا قافلہ صبح روانہ ہوا۔",
+      "ex_en": "Our caravan set off in the morning."
+    },
+    {
+      "ur": "خیمہ",
+      "en": "tent",
+      "ex_ur": "رات کو ہم نے خیمہ لگایا۔",
+      "ex_en": "At night we set up a tent."
+    },
+    {
+      "ur": "مہمان نوازی",
+      "en": "hospitality",
+      "ex_ur": "مقامی لوگوں کی مہمان نوازی بہت مشہور ہے۔",
+      "ex_en": "The local people's hospitality is very famous."
+    },
+    {
+      "ur": "منظر",
+      "en": "scenery / view",
+      "ex_ur": "ہر طرف کا منظر دلکش تھا۔",
+      "ex_en": "The scenery all around was charming.",
+      "syn": "نظارہ"
+    },
+    {
+      "ur": "بلندی",
+      "en": "height / altitude",
+      "ex_ur": "یہ علاقہ بہت بلندی پر ہے۔",
+      "ex_en": "This area is at a very high altitude."
+    }
+  ],
+  "reading": {
+    "passage": "پچھلی گرمیوں میں ہم نے شمالی پاکستان کا سفر کیا۔ ہم پہلے ہنزہ کی وادی پہنچے، پھر وہاں سے ایک خوبصورت جھیل دیکھنے گئے۔ اس کے بعد ہم نے قریب کے گلیشیئر کی سیر کی جہاں ہر طرف برف تھی۔ رات کو ہم نے خیمہ لگایا اور مقامی لوگوں کی مہمان نوازی سے لطف اندوز ہوئے۔ ہر طرف کا منظر اتنا دلکش تھا کہ ہم اسے کبھی نہیں بھولیں گے۔",
+    "questions": [
+      {
+        "q": "سفر کہاں کا تھا؟",
+        "opts": [
+          "جنوبی پاکستان",
+          "شمالی پاکستان",
+          "بیرونِ ملک",
+          "سمندر"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ہم پہلے کہاں پہنچے؟",
+        "opts": [
+          "گلیشیئر",
+          "ہنزہ کی وادی",
+          "خیمہ",
+          "شہر"
+        ],
+        "a": 1
+      },
+      {
+        "q": "رات کو کیا کیا؟",
+        "opts": [
+          "ہوٹل میں رہے",
+          "خیمہ لگایا",
+          "گھر گئے",
+          "سفر جاری رکھا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "مقامی لوگوں کی کیا چیز مشہور تھی؟",
+        "opts": [
+          "بازار",
+          "مہمان نوازی",
+          "کھانا",
+          "لباس"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "کیا",
+          "سفر",
+          "نے",
+          "ہم",
+          "کا",
+          "شمال"
+        ],
+        "answer": [
+          "ہم",
+          "نے",
+          "شمال",
+          "کا",
+          "سفر",
+          "کیا"
+        ],
+        "en": "We journeyed to the north."
+      },
+      {
+        "bank": [
+          "تھا",
+          "دلکش",
+          "بہت",
+          "منظر"
+        ],
+        "answer": [
+          "منظر",
+          "بہت",
+          "دلکش",
+          "تھا"
+        ],
+        "en": "The scenery was very charming."
+      },
+      {
+        "bank": [
+          "لگایا",
+          "خیمہ",
+          "کو",
+          "ہم",
+          "رات",
+          "نے"
+        ],
+        "answer": [
+          "رات",
+          "کو",
+          "ہم",
+          "نے",
+          "خیمہ",
+          "لگایا"
+        ],
+        "en": "At night we set up a tent."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ہر طرف ____ کا نظارہ تھا۔",
+        "opts": [
+          "برف",
+          "ریت",
+          "دھول",
+          "دھوپ"
+        ],
+        "a": 0,
+        "en": "There was a view of ___ everywhere."
+      },
+      {
+        "text": "ہم نے ____ کے کنارے آرام کیا۔",
+        "opts": [
+          "جھیل",
+          "صحرا",
+          "بازار",
+          "سکول"
+        ],
+        "a": 0,
+        "en": "We rested by the shore of the ___."
+      },
+      {
+        "text": "مقامی لوگوں کی ____ بہت مشہور ہے۔",
+        "opts": [
+          "مہمان نوازی",
+          "دشمنی",
+          "کاہلی",
+          "خاموشی"
+        ],
+        "a": 0,
+        "en": "The local people's ___ is very famous."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ شمالی پاکستان جائیں تو کیا دیکھنا چاہیں گے؟ تین جملے لکھیں۔",
+      "en": "If you went to northern Pakistan, what would you want to see? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ترتیب کے الفاظ — Sequencing with پھر اور اس کے بعد",
+    "explain": "To narrate events in order, Urdu uses پھر (\"then\") and اس کے بعد (\"after that\") between clauses, the same way a travelogue moves from one place to the next.",
+    "rows": [
+      [
+        "ہم ہنزہ پہنچے، پھر جھیل دیکھنے گئے۔",
+        "We reached Hunza, then went to see the lake."
+      ],
+      [
+        "پہلے ہم نے ناشتہ کیا، اس کے بعد سفر شروع کیا۔",
+        "First we had breakfast, after that we started the journey."
+      ],
+      [
+        "وہ سکول گیا، پھر گھر واپس آیا۔",
+        "He went to school, then came back home."
+      ],
+      [
+        "پہلے بارش ہوئی، اس کے بعد سورج نکلا۔",
+        "First it rained, after that the sun came out."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہم نے وادی دیکھی، ____ گلیشیئر گئے۔",
+        "opts": [
+          "پھر",
+          "کیونکہ",
+          "اگر",
+          "جبکہ"
+        ],
+        "a": 0,
+        "en": "We saw the valley, then went to the glacier."
+      },
+      {
+        "q": "پہلے قافلہ روانہ ہوا، ____ ہم نے خیمہ لگایا۔",
+        "opts": [
+          "اس کے بعد",
+          "جو",
+          "تاکہ",
+          "چونکہ"
+        ],
+        "a": 0,
+        "en": "First the caravan set off, after that we set up the tent."
+      },
+      {
+        "q": "ہم نے کھانا کھایا، ____ سو گئے۔",
+        "opts": [
+          "پھر",
+          "لیکن",
+          "یا",
+          "کہ"
+        ],
+        "a": 0,
+        "en": "We ate food, then went to sleep."
+      }
+    ]
+  }
+}

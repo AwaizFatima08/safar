@@ -1,0 +1,279 @@
+{
+  "id": "water-conservation",
+  "ur": "آبی وسائل کا درست استعمال",
+  "en": "The Proper Use of Water Resources",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ زمین پر موجود پانی کا صرف تین فیصد حصہ میٹھا پانی ہے۔",
+    "en": "Did you know? Only about three percent of the Earth's water is fresh water."
+  },
+  "vocab": [
+    {
+      "ur": "آبی وسائل",
+      "en": "water resources",
+      "ex_ur": "آبی وسائل کی حفاظت ضروری ہے۔",
+      "ex_en": "Protecting water resources is necessary."
+    },
+    {
+      "ur": "ضیاع",
+      "en": "waste / wastage",
+      "ex_ur": "پانی کا ضیاع نہیں کرنا چاہیے۔",
+      "ex_en": "Water should not be wasted."
+    },
+    {
+      "ur": "نلکا",
+      "en": "tap",
+      "ex_ur": "نلکا استعمال کے بعد بند کر دیں۔",
+      "ex_en": "Close the tap after use."
+    },
+    {
+      "ur": "ذخیرہ",
+      "en": "reserve / storage",
+      "ex_ur": "بارش کے پانی کا ذخیرہ کرنا چاہیے۔",
+      "ex_en": "Rainwater should be stored."
+    },
+    {
+      "ur": "زراعت",
+      "en": "agriculture",
+      "ex_ur": "زراعت میں پانی کا بڑا استعمال ہوتا ہے۔",
+      "ex_en": "A large amount of water is used in agriculture."
+    },
+    {
+      "ur": "قلت",
+      "en": "shortage",
+      "ex_ur": "کچھ علاقوں میں پانی کی قلت ہے۔",
+      "ex_en": "There is a water shortage in some areas.",
+      "syn": "کمی"
+    },
+    {
+      "ur": "بچت",
+      "en": "saving / conservation",
+      "ex_ur": "پانی کی بچت سب کی ذمہ داری ہے۔",
+      "ex_en": "Saving water is everyone's responsibility."
+    },
+    {
+      "ur": "آبادی",
+      "en": "population",
+      "ex_ur": "بڑھتی آبادی سے پانی کی طلب بڑھ رہی ہے۔",
+      "ex_en": "The demand for water is rising with the growing population."
+    },
+    {
+      "ur": "نہر",
+      "en": "canal",
+      "ex_ur": "نہر سے کھیتوں کو پانی ملتا ہے۔",
+      "ex_en": "Fields get water from the canal."
+    },
+    {
+      "ur": "ذمہ داری",
+      "en": "responsibility",
+      "ex_ur": "پانی بچانا ہماری ذمہ داری ہے۔",
+      "ex_en": "Saving water is our responsibility.",
+      "syn": "فرض"
+    }
+  ],
+  "reading": {
+    "passage": "پانی زندگی کے لیے سب سے ضروری چیز ہے، مگر آبی وسائل محدود ہیں۔ بہت سے علاقوں میں پانی کی قلت روز بروز بڑھ رہی ہے۔ اگر ہم نلکے کھلے چھوڑ دیں یا پانی کا ضیاع کریں تو یہ مسئلہ اور بڑھ جائے گا۔ زراعت میں پانی کا سب سے زیادہ استعمال ہوتا ہے، اس لیے نہروں اور بارش کے پانی کا صحیح ذخیرہ ضروری ہے۔ پانی کی بچت ہر شہری کی ذمہ داری ہے۔",
+    "questions": [
+      {
+        "q": "زندگی کے لیے سب سے ضروری چیز کیا ہے؟",
+        "opts": [
+          "پانی",
+          "کھانا",
+          "کپڑے",
+          "پیسہ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کن علاقوں میں مسئلہ بڑھ رہا ہے؟",
+        "opts": [
+          "پانی کی زیادتی",
+          "پانی کی قلت",
+          "ہوا کی قلت",
+          "روشنی کی قلت"
+        ],
+        "a": 1
+      },
+      {
+        "q": "سب سے زیادہ پانی کہاں استعمال ہوتا ہے؟",
+        "opts": [
+          "گھروں میں",
+          "زراعت میں",
+          "سکولوں میں",
+          "دفتروں میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "پانی کی بچت کس کی ذمہ داری ہے؟",
+        "opts": [
+          "صرف حکومت کی",
+          "صرف کسانوں کی",
+          "ہر شہری کی",
+          "کسی کی نہیں"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ضروری",
+          "سب",
+          "پانی",
+          "سے",
+          "چیز",
+          "ہے"
+        ],
+        "answer": [
+          "پانی",
+          "سب",
+          "سے",
+          "ضروری",
+          "چیز",
+          "ہے"
+        ],
+        "en": "Water is the most necessary thing."
+      },
+      {
+        "bank": [
+          "ہے",
+          "بچت",
+          "ذمہ",
+          "کی",
+          "داری",
+          "پانی"
+        ],
+        "answer": [
+          "پانی",
+          "کی",
+          "بچت",
+          "ذمہ",
+          "داری",
+          "ہے"
+        ],
+        "en": "Saving water is a responsibility."
+      },
+      {
+        "bank": [
+          "پانی",
+          "استعمال",
+          "میں",
+          "ہوتا",
+          "زراعت",
+          "ہے",
+          "کا",
+          "زیادہ"
+        ],
+        "answer": [
+          "زراعت",
+          "میں",
+          "پانی",
+          "کا",
+          "زیادہ",
+          "استعمال",
+          "ہوتا",
+          "ہے"
+        ],
+        "en": "Water is used the most in agriculture."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "کچھ علاقوں میں پانی کی ____ ہے۔",
+        "opts": [
+          "قلت",
+          "زیادتی",
+          "صفائی",
+          "فراوانی"
+        ],
+        "a": 0,
+        "en": "There is a ___ of water in some areas."
+      },
+      {
+        "text": "استعمال کے بعد ____ بند کر دیں۔",
+        "opts": [
+          "نلکا",
+          "دروازہ",
+          "کھڑکی",
+          "بستہ"
+        ],
+        "a": 0,
+        "en": "Close the ___ after use."
+      },
+      {
+        "text": "پانی کی بچت ہر شہری کی ____ ہے۔",
+        "opts": [
+          "ذمہ داری",
+          "مجبوری",
+          "خواہش",
+          "عادت"
+        ],
+        "a": 0,
+        "en": "Saving water is every citizen's ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ روزانہ زندگی میں پانی کیسے بچا سکتے ہیں؟ تین جملے لکھیں۔",
+      "en": "How can you save water in your daily life? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "شرطیہ جملہ — Conditional sentences with اگر ... تو",
+    "explain": "اگر (\"if\") introduces a condition, and تو (\"then\") can introduce the result: اگر [condition] تو [result]. تو is often left out in casual speech but is good practice to include in writing.",
+    "rows": [
+      [
+        "اگر ہم پانی ضائع کریں تو قلت بڑھ جائے گی۔",
+        "If we waste water, then the shortage will increase."
+      ],
+      [
+        "اگر تم روزانہ پڑھو تو کامیاب ہو جاؤ گے۔",
+        "If you study daily, then you will succeed."
+      ],
+      [
+        "اگر بارش نہ ہوئی تو فصل خراب ہو جائے گی۔",
+        "If it doesn't rain, then the crop will spoil."
+      ],
+      [
+        "اگر نلکا کھلا رہے تو پانی ضائع ہوتا ہے۔",
+        "If the tap is left open, then water gets wasted."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "____ ہم پانی بچائیں، مسئلہ کم ہو جائے گا۔",
+        "opts": [
+          "اگر",
+          "کیونکہ",
+          "جبکہ",
+          "پھر"
+        ],
+        "a": 0,
+        "en": "If we save water, the problem will decrease."
+      },
+      {
+        "q": "اگر تم جلدی سو جاؤ ____ صبح جلدی اٹھو گے۔",
+        "opts": [
+          "تو",
+          "جو",
+          "کیونکہ",
+          "تاکہ"
+        ],
+        "a": 0,
+        "en": "If you sleep early, then you will wake up early."
+      },
+      {
+        "q": "____ نہر میں پانی نہ ہو تو کھیت سوکھ جائیں گے۔",
+        "opts": [
+          "اگر",
+          "پھر",
+          "اس کے بعد",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "If there is no water in the canal, then the fields will dry up."
+      }
+    ]
+  }
+}

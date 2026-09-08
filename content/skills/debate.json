@@ -1,0 +1,72 @@
+{
+  "id": "debate",
+  "ur": "مباحثہ (ڈیبیٹ) لکھنا",
+  "en": "How to write a debate speech",
+  "points": [
+    "شروع میں اپنا موقف واضح بیان کریں (حق میں یا خلاف)۔",
+    "دو یا تین مضبوط دلائل دیں جو آپ کے موقف کی حمایت کریں۔",
+    "ربط کے الفاظ استعمال کریں، مثلاً 'پہلی بات یہ ہے کہ...'، 'دوسرا...'۔",
+    "مخالف نقطہ نظر کا مختصر ذکر کریں اور جواب دیں۔",
+    "اختتام میں اپنے موقف کو دوبارہ زور دار انداز میں بیان کریں۔"
+  ],
+  "samples": [
+    {
+      "caption": "For — \"Mobile phones are useful for students\"",
+      "ur": "معزز صدر اور ججز! میرا موقف ہے کہ موبائل فون طلبہ کے لیے مفید ہیں۔ پہلی بات یہ ہے کہ اس سے طلبہ کو معلومات فوراً مل جاتی ہیں۔ دوسرا، موبائل فون سے ہم اپنے استادوں اور دوستوں سے رابطہ رکھ سکتے ہیں۔ کچھ لوگ کہتے ہیں کہ یہ توجہ خراب کرتا ہے، مگر صحیح استعمال سے یہ مشکل حل ہو سکتی ہے۔ اس لیے میں سمجھتا ہوں کہ موبائل فون طلبہ کے لیے فائدہ مند ہیں۔"
+    },
+    {
+      "caption": "Against — \"Mobile phones are useful for students\"",
+      "ur": "معزز صدر اور ججز! میرا موقف اس کے برخلاف ہے۔ پہلی بات یہ ہے کہ موبائل فون طلبہ کی توجہ پڑھائی سے ہٹا دیتا ہے۔ دوسرا، اس کے زیادہ استعمال سے صحت پر برا اثر پڑتا ہے۔ کچھ کہتے ہیں کہ اس سے معلومات ملتی ہیں، مگر کتابوں سے بھی یہ کام ہو سکتا ہے۔ اس لیے میں سمجھتا ہوں کہ طلبہ کو موبائل فون سے دور رہنا چاہیے۔"
+    },
+    {
+      "caption": "For — \"Examinations are necessary\"",
+      "ur": "معزز حاضرین! میرا موقف ہے کہ امتحانات ضروری ہیں۔ پہلی بات یہ ہے کہ امتحانات سے ہمیں معلوم ہوتا ہے کہ ہم نے کتنا سیکھا۔ دوسرا، امتحانات محنت اور نظم و ضبط کی عادت ڈالتے ہیں۔ کچھ لوگ کہتے ہیں کہ امتحانات دباؤ بڑھاتے ہیں، مگر مناسب تیاری سے یہ دباؤ کم ہو سکتا ہے۔ اس لیے امتحانات ہمارے لیے ضروری ہیں۔"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A debate speech should begin with:",
+      "opts": [
+        "A joke unrelated to the topic",
+        "A clear statement of your position",
+        "The ending",
+        "Silence"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which connector is used to introduce a second argument?",
+      "opts": [
+        "پہلی بات یہ ہے کہ",
+        "دوسرا",
+        "خدا حافظ",
+        "ہیلو"
+      ],
+      "a": 1
+    },
+    {
+      "q": "A strong debate speech should also:",
+      "opts": [
+        "Ignore the opposing view completely",
+        "Briefly mention and respond to the opposing view",
+        "Only insult the other side",
+        "Repeat the topic ten times"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "'سوشل میڈیا طلبہ کے لیے فائدہ مند ہے' کے حق یا خلاف مباحثہ لکھیں۔",
+      "en": "Write a debate speech for or against 'Social media is beneficial for students'."
+    },
+    {
+      "ur": "'گھر کا کام (ہوم ورک) ضروری ہے' کے حق یا خلاف مباحثہ لکھیں۔",
+      "en": "Write a debate speech for or against 'Homework is necessary'."
+    },
+    {
+      "ur": "'سکول یونیفارم ضروری ہے' کے حق یا خلاف مباحثہ لکھیں۔",
+      "en": "Write a debate speech for or against 'School uniform is necessary'."
+    }
+  ]
+}

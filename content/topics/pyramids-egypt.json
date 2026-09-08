@@ -1,0 +1,270 @@
+{
+  "id": "pyramids-egypt",
+  "ur": "اہرامِ مصر",
+  "en": "The Pyramids of Egypt",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ مصر کے اہرام ہزاروں سال پہلے فرعونوں کے مقبروں کے طور پر بنائے گئے تھے۔",
+    "en": "Did you know? Egypt's pyramids were built thousands of years ago as tombs for the pharaohs."
+  },
+  "vocab": [
+    {
+      "ur": "اہرام",
+      "en": "pyramids",
+      "ex_ur": "اہرامِ مصر بہت قدیم ہیں۔",
+      "ex_en": "The pyramids of Egypt are very ancient."
+    },
+    {
+      "ur": "فرعون",
+      "en": "pharaoh",
+      "ex_ur": "فرعون قدیم مصر کا بادشاہ ہوتا تھا۔",
+      "ex_en": "The pharaoh was the king of ancient Egypt."
+    },
+    {
+      "ur": "مقبرہ",
+      "en": "tomb",
+      "ex_ur": "یہ اہرام ایک مقبرہ ہے۔",
+      "ex_en": "This pyramid is a tomb."
+    },
+    {
+      "ur": "پتھر",
+      "en": "stone",
+      "ex_ur": "اہرام بڑے بڑے پتھروں سے بنے ہیں۔",
+      "ex_en": "The pyramids are made of huge stones."
+    },
+    {
+      "ur": "صحرا",
+      "en": "desert",
+      "ex_ur": "اہرام صحرا میں واقع ہیں۔",
+      "ex_en": "The pyramids are located in the desert."
+    },
+    {
+      "ur": "قدیم",
+      "en": "ancient",
+      "ex_ur": "یہ ایک قدیم عمارت ہے۔",
+      "ex_en": "This is an ancient building.",
+      "syn": "پرانا"
+    },
+    {
+      "ur": "عجوبہ",
+      "en": "wonder",
+      "ex_ur": "اہرامِ مصر دنیا کا ایک عجوبہ ہیں۔",
+      "ex_en": "The pyramids of Egypt are a wonder of the world."
+    },
+    {
+      "ur": "مزدور",
+      "en": "labourer",
+      "ex_ur": "ہزاروں مزدوروں نے اہرام بنائے۔",
+      "ex_en": "Thousands of labourers built the pyramids."
+    },
+    {
+      "ur": "تعمیر",
+      "en": "construction",
+      "ex_ur": "اہرام کی تعمیر میں کئی سال لگے۔",
+      "ex_en": "The construction of the pyramids took many years."
+    },
+    {
+      "ur": "سیاح",
+      "en": "tourist",
+      "ex_ur": "دنیا بھر سے سیاح اہرام دیکھنے آتے ہیں۔",
+      "ex_en": "Tourists from all over the world come to see the pyramids."
+    }
+  ],
+  "reading": {
+    "passage": "اہرامِ مصر ہزاروں سال پہلے قدیم مصر کے فرعونوں نے اپنے مقبروں کے طور پر بنائے تھے۔ یہ اہرام بڑے بڑے پتھروں سے تعمیر کیے گئے اور ان کی تعمیر میں ہزاروں مزدوروں نے کام کیا۔ یہ صحرا میں واقع ہیں اور دنیا کے عجائبات میں شمار ہوتے ہیں۔ آج بھی دنیا بھر سے سیاح انہیں دیکھنے کے لیے مصر آتے ہیں۔",
+    "questions": [
+      {
+        "q": "اہرام کس نے بنائے تھے؟",
+        "opts": [
+          "رومیوں نے",
+          "فرعونوں نے",
+          "یونانیوں نے",
+          "چینیوں نے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اہرام کس چیز سے بنے ہیں؟",
+        "opts": [
+          "لکڑی سے",
+          "مٹی سے",
+          "پتھروں سے",
+          "شیشے سے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "اہرام کہاں واقع ہیں؟",
+        "opts": [
+          "پہاڑوں میں",
+          "صحرا میں",
+          "سمندر میں",
+          "جنگل میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "آج بھی لوگ اہرام دیکھنے کیوں آتے ہیں؟",
+        "opts": [
+          "کاروبار کے لیے",
+          "سیاحت کے لیے",
+          "تعلیم کے لیے",
+          "علاج کے لیے"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پہلے",
+          "سال",
+          "بنے",
+          "اہرام",
+          "ہزاروں",
+          "تھے"
+        ],
+        "answer": [
+          "اہرام",
+          "ہزاروں",
+          "سال",
+          "پہلے",
+          "بنے",
+          "تھے"
+        ],
+        "en": "The pyramids were built thousands of years ago."
+      },
+      {
+        "bank": [
+          "ہیں",
+          "واقع",
+          "میں",
+          "صحرا",
+          "اہرام"
+        ],
+        "answer": [
+          "اہرام",
+          "صحرا",
+          "میں",
+          "واقع",
+          "ہیں"
+        ],
+        "en": "The pyramids are located in the desert."
+      },
+      {
+        "bank": [
+          "دیکھنے",
+          "سیاح",
+          "آتے",
+          "ہیں",
+          "اہرام"
+        ],
+        "answer": [
+          "سیاح",
+          "اہرام",
+          "دیکھنے",
+          "آتے",
+          "ہیں"
+        ],
+        "en": "Tourists come to see the pyramids."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "اہرام بڑے بڑے ____ سے بنے ہیں۔",
+        "opts": [
+          "پتھروں",
+          "کاغذوں",
+          "کپڑوں",
+          "پھولوں"
+        ],
+        "a": 0,
+        "en": "The pyramids are made of huge ___."
+      },
+      {
+        "text": "اہرام ____ میں واقع ہیں۔",
+        "opts": [
+          "صحرا",
+          "جنگل",
+          "سمندر",
+          "پہاڑ"
+        ],
+        "a": 0,
+        "en": "The pyramids are located in the ___."
+      },
+      {
+        "text": "دنیا بھر سے ____ اہرام دیکھنے آتے ہیں۔",
+        "opts": [
+          "سیاح",
+          "مزدور",
+          "فرعون",
+          "کسان"
+        ],
+        "a": 0,
+        "en": "___ from all over the world come to see the pyramids."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ اہرامِ مصر دیکھنے جائیں تو کیسا محسوس کریں گے؟ تین جملے لکھیں۔",
+      "en": "If you visited the Pyramids of Egypt, how would you feel? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مجہول فعل — The passive voice (بنائے گئے)",
+    "explain": "When the doer of an action isn't the focus, Urdu uses the passive voice: verb stem + جانا, in the appropriate tense — بنایا گیا (was built, masc. sing.), بنائے گئے (were built, masc. plural), بنائی گئی (was built, fem. sing.).",
+    "rows": [
+      [
+        "اہرام پتھروں سے بنائے گئے۔",
+        "The pyramids were built of stone. (masc. plural)"
+      ],
+      [
+        "یہ مقبرہ فرعون کے لیے بنایا گیا۔",
+        "This tomb was built for the pharaoh. (masc. sing.)"
+      ],
+      [
+        "یہ عمارت سو سال پہلے بنائی گئی۔",
+        "This building was built a hundred years ago. (fem. sing.)"
+      ],
+      [
+        "یہ کتابیں لکھی گئیں۔",
+        "These books were written. (fem. plural)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اہرام ہزاروں سال پہلے ____۔",
+        "opts": [
+          "بنایا گیا",
+          "بنائے گئے",
+          "بنائی گئی",
+          "بناتے ہیں"
+        ],
+        "a": 1,
+        "en": "The pyramids were built thousands of years ago. (masc. plural)"
+      },
+      {
+        "q": "یہ مسجد بہت پرانی ____۔",
+        "opts": [
+          "بنایا گیا",
+          "بنائے گئے",
+          "بنائی گئی",
+          "بنتی ہے"
+        ],
+        "a": 2,
+        "en": "This mosque was built long ago. (fem. sing.)"
+      },
+      {
+        "q": "یہ مقبرہ فرعون کے لیے ____۔",
+        "opts": [
+          "بنایا گیا",
+          "بنائے گئے",
+          "بنائی گئی",
+          "بناتا ہے"
+        ],
+        "a": 0,
+        "en": "This tomb was built for the pharaoh. (masc. sing.)"
+      }
+    ]
+  }
+}

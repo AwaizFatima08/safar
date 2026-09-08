@@ -1,0 +1,273 @@
+{
+  "id": "technology-communication",
+  "ur": "ٹیکنالوجی اور رابطہ",
+  "en": "Technology & Communication",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'رابطہ' کا مطلب صرف 'رابطہ کرنا' نہیں بلکہ 'جوڑ' یا 'تعلق' بھی ہے۔",
+    "en": "رابطہ doesn’t just mean “to contact” — it can also mean “a link” or “a connection.”"
+  },
+  "vocab": [
+    {
+      "ur": "موبائل فون",
+      "en": "mobile phone",
+      "ex_ur": "میرے پاس نیا موبائل فون ہے۔",
+      "ex_en": "I have a new mobile phone."
+    },
+    {
+      "ur": "انٹرنیٹ",
+      "en": "internet",
+      "ex_ur": "انٹرنیٹ سے معلومات ملتی ہیں۔",
+      "ex_en": "Information is available from the internet."
+    },
+    {
+      "ur": "پیغام",
+      "en": "message",
+      "ex_ur": "مجھے آپ کا پیغام مل گیا۔",
+      "ex_en": "I got your message.",
+      "syn": "پیام"
+    },
+    {
+      "ur": "ویب سائٹ",
+      "en": "website",
+      "ex_ur": "یہ ویب سائٹ مفید ہے۔",
+      "ex_en": "This website is useful."
+    },
+    {
+      "ur": "کمپیوٹر",
+      "en": "computer",
+      "ex_ur": "میں کمپیوٹر پر کام کرتا ہوں۔",
+      "ex_en": "I work on the computer."
+    },
+    {
+      "ur": "تصویر",
+      "en": "picture",
+      "ex_ur": "اس نے خوبصورت تصویر بھیجی۔",
+      "ex_en": "He sent a beautiful picture.",
+      "syn": "عکس"
+    },
+    {
+      "ur": "رابطہ",
+      "en": "contact / communication",
+      "ex_ur": "دوستوں سے رابطہ رکھنا اچھا ہے۔",
+      "ex_en": "Staying in touch with friends is good.",
+      "syn": "تعلق"
+    },
+    {
+      "ur": "سکرین",
+      "en": "screen",
+      "ex_ur": "زیادہ سکرین دیکھنا نقصان دہ ہے۔",
+      "ex_en": "Watching too much screen is harmful."
+    },
+    {
+      "ur": "معلومات",
+      "en": "information",
+      "ex_ur": "کتاب میں مفید معلومات ہیں۔",
+      "ex_en": "There is useful information in the book.",
+      "syn": "اطلاع"
+    },
+    {
+      "ur": "ایپ",
+      "en": "app",
+      "ex_ur": "یہ ایپ سیکھنے میں مدد دیتی ہے۔",
+      "ex_en": "This app helps with learning."
+    }
+  ],
+  "reading": {
+    "passage": "آج کل ہر گھر میں موبائل فون اور انٹرنیٹ موجود ہے۔ بچے اسے پڑھنے اور سیکھنے کے لیے استعمال کر سکتے ہیں، لیکن زیادہ سکرین دیکھنا صحت کے لیے اچھا نہیں۔ والدین کو چاہیے کہ وہ بچوں کا وقت مقرر کریں۔ صحیح استعمال سے ٹیکنالوجی ایک بہترین دوست بن سکتی ہے۔",
+    "questions": [
+      {
+        "q": "آج کل ہر گھر میں کیا موجود ہے؟",
+        "opts": [
+          "صرف کتابیں",
+          "موبائل فون اور انٹرنیٹ",
+          "صرف ریڈیو",
+          "کچھ نہیں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "زیادہ سکرین دیکھنا کیسا ہے؟",
+        "opts": [
+          "اچھا",
+          "صحت کے لیے اچھا نہیں",
+          "ضروری",
+          "مفید"
+        ],
+        "a": 1
+      },
+      {
+        "q": "والدین کو کیا کرنا چاہیے؟",
+        "opts": [
+          "موبائل چھپا دینا",
+          "بچوں کا وقت مقرر کرنا",
+          "کچھ نہ کہنا",
+          "انٹرنیٹ بند کر دینا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "صحیح استعمال سے ٹیکنالوجی کیا بن سکتی ہے؟",
+        "opts": [
+          "دشمن",
+          "بہترین دوست",
+          "بیکار چیز",
+          "خطرہ"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ملتی",
+          "سے",
+          "معلومات",
+          "انٹرنیٹ",
+          "ہیں"
+        ],
+        "answer": [
+          "انٹرنیٹ",
+          "سے",
+          "معلومات",
+          "ملتی",
+          "ہیں"
+        ],
+        "en": "Information is received from the internet."
+      },
+      {
+        "bank": [
+          "دیکھنا",
+          "نہیں",
+          "اچھا",
+          "زیادہ",
+          "سکرین"
+        ],
+        "answer": [
+          "زیادہ",
+          "سکرین",
+          "دیکھنا",
+          "اچھا",
+          "نہیں"
+        ],
+        "en": "Watching too much screen is not good."
+      },
+      {
+        "bank": [
+          "دوست",
+          "ٹیکنالوجی",
+          "بن",
+          "سکتی",
+          "بہترین",
+          "ہے"
+        ],
+        "answer": [
+          "ٹیکنالوجی",
+          "بہترین",
+          "دوست",
+          "بن",
+          "سکتی",
+          "ہے"
+        ],
+        "en": "Technology can become a best friend."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "مجھے آپ کا ____ مل گیا۔",
+        "opts": [
+          "پیغام",
+          "سکرین",
+          "ایپ",
+          "رابطہ"
+        ],
+        "a": 0,
+        "en": "I got your ___."
+      },
+      {
+        "text": "زیادہ ____ دیکھنا نقصان دہ ہے۔",
+        "opts": [
+          "سکرین",
+          "کتاب",
+          "تصویر",
+          "معلومات"
+        ],
+        "a": 0,
+        "en": "Watching too much ___ is harmful."
+      },
+      {
+        "text": "یہ ____ سیکھنے میں مدد دیتی ہے۔",
+        "opts": [
+          "ایپ",
+          "دوا",
+          "بارش",
+          "نیند"
+        ],
+        "a": 0,
+        "en": "This ___ helps with learning."
+      }
+    ],
+    "creative": {
+      "ur": "موبائل فون آپ کی زندگی میں کیسے مدد کرتا ہے؟ تین جملے لکھیں۔",
+      "en": "How does a mobile phone help in your life? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "سکنا — Expressing “can”",
+    "explain": "To say someone “can” do something, add سکنا after the verb stem: بن سکتی ہے (can become), کر سکتے ہیں (can do), دیکھ سکتا ہے (can watch). The ending still agrees with gender and number, like other verbs.",
+    "rows": [
+      [
+        "ٹیکنالوجی دوست بن سکتی ہے۔",
+        "Technology can become a friend. (fem.)"
+      ],
+      [
+        "بچے سیکھ سکتے ہیں۔",
+        "Children can learn. (plural)"
+      ],
+      [
+        "وہ کمپیوٹر چلا سکتا ہے۔",
+        "He can operate a computer. (masc.)"
+      ],
+      [
+        "ہم رابطہ رکھ سکتے ہیں۔",
+        "We can stay in contact."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "بچے انٹرنیٹ سے ____۔",
+        "opts": [
+          "سیکھ سکتے ہیں",
+          "سیکھ سکتی ہے",
+          "سیکھا",
+          "سیکھو"
+        ],
+        "a": 0,
+        "en": "Children can learn from the internet."
+      },
+      {
+        "q": "یہ ایپ اردو ____۔",
+        "opts": [
+          "سکھا سکتی ہے",
+          "سکھا سکتے ہیں",
+          "سکھایا",
+          "سکھاؤ"
+        ],
+        "a": 0,
+        "en": "This app can teach Urdu. (fem. subject: ایپ)"
+      },
+      {
+        "q": "وہ تصویر ____۔",
+        "opts": [
+          "بھیج سکتا ہے",
+          "بھیج سکتی ہیں",
+          "بھیجا",
+          "بھیجو"
+        ],
+        "a": 0,
+        "en": "He can send a picture."
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "id": "village-city-life",
+  "ur": "دیہی اور شہری زندگی",
+  "en": "Village and City Life",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستان کی تقریباً نصف آبادی دیہاتوں میں رہتی ہے۔",
+    "en": "Did you know? Roughly half of Pakistan's population lives in villages."
+  },
+  "vocab": [
+    {
+      "ur": "دیہات",
+      "en": "village",
+      "ex_ur": "دیہات کی زندگی پرسکون ہوتی ہے۔",
+      "ex_en": "Village life is peaceful."
+    },
+    {
+      "ur": "شہر",
+      "en": "city",
+      "ex_ur": "شہر میں سہولتیں زیادہ ہیں۔",
+      "ex_en": "There are more facilities in the city."
+    },
+    {
+      "ur": "کھیت",
+      "en": "field / farm",
+      "ex_ur": "کسان کھیت میں کام کرتا ہے۔",
+      "ex_en": "The farmer works in the field."
+    },
+    {
+      "ur": "سہولت",
+      "en": "facility",
+      "ex_ur": "شہروں میں بہتر سہولتیں ہیں۔",
+      "ex_en": "There are better facilities in cities."
+    },
+    {
+      "ur": "آبادی",
+      "en": "population",
+      "ex_ur": "شہروں کی آبادی بڑھ رہی ہے۔",
+      "ex_en": "The population of cities is increasing."
+    },
+    {
+      "ur": "سادگی",
+      "en": "simplicity",
+      "ex_ur": "دیہاتی زندگی میں سادگی ہوتی ہے۔",
+      "ex_en": "There is simplicity in village life."
+    },
+    {
+      "ur": "شور",
+      "en": "noise",
+      "ex_ur": "شہروں میں بہت شور ہوتا ہے۔",
+      "ex_en": "There is a lot of noise in cities.",
+      "syn": "ہنگامہ"
+    },
+    {
+      "ur": "سکون",
+      "en": "peace",
+      "ex_ur": "دیہات میں سکون ملتا ہے۔",
+      "ex_en": "Peace is found in villages.",
+      "syn": "آرام"
+    },
+    {
+      "ur": "ٹریفک",
+      "en": "traffic",
+      "ex_ur": "شہر میں ٹریفک بہت زیادہ ہے۔",
+      "ex_en": "There is a lot of traffic in the city."
+    },
+    {
+      "ur": "ہمسائے",
+      "en": "neighbours",
+      "ex_ur": "دیہات میں ہمسائے ایک دوسرے کی مدد کرتے ہیں۔",
+      "ex_en": "In villages, neighbours help one another."
+    }
+  ],
+  "reading": {
+    "passage": "دیہات اور شہر کی زندگی میں بہت فرق ہے۔ شہروں میں سہولتیں زیادہ ہیں جبکہ دیہات میں سادگی اور سکون زیادہ ملتا ہے۔ شہروں میں ٹریفک اور شور بہت زیادہ ہوتا ہے، لیکن دیہات میں کھیت اور سرسبز میدان دل کو خوش کرتے ہیں۔ دیہات میں ہمسائے ایک دوسرے کی مدد کرتے ہیں جبکہ شہروں میں لوگ اکثر مصروف رہتے ہیں۔ دونوں جگہوں کی اپنی خوبیاں ہیں۔",
+    "questions": [
+      {
+        "q": "شہروں میں کیا زیادہ ہے؟",
+        "opts": [
+          "سکون",
+          "سہولتیں",
+          "کھیت",
+          "خاموشی"
+        ],
+        "a": 1
+      },
+      {
+        "q": "دیہات میں کیا زیادہ ملتا ہے؟",
+        "opts": [
+          "شور",
+          "ٹریفک",
+          "سادگی اور سکون",
+          "آبادی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "دیہات میں ہمسائے کیا کرتے ہیں؟",
+        "opts": [
+          "لڑتے ہیں",
+          "ایک دوسرے کی مدد کرتے ہیں",
+          "نظرانداز کرتے ہیں",
+          "چلے جاتے ہیں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "شہروں میں لوگ اکثر کیسے رہتے ہیں؟",
+        "opts": [
+          "آرام سے",
+          "مصروف",
+          "خالی",
+          "اداس"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "زیادہ",
+          "سہولتیں",
+          "شہروں",
+          "میں",
+          "ہیں"
+        ],
+        "answer": [
+          "شہروں",
+          "میں",
+          "سہولتیں",
+          "زیادہ",
+          "ہیں"
+        ],
+        "en": "There are more facilities in cities."
+      },
+      {
+        "bank": [
+          "ملتا",
+          "سکون",
+          "دیہات",
+          "میں",
+          "ہے"
+        ],
+        "answer": [
+          "دیہات",
+          "میں",
+          "سکون",
+          "ملتا",
+          "ہے"
+        ],
+        "en": "Peace is found in villages."
+      },
+      {
+        "bank": [
+          "کرتے",
+          "مدد",
+          "کی",
+          "ہمسائے",
+          "ایک",
+          "دوسرے",
+          "ہیں"
+        ],
+        "answer": [
+          "ہمسائے",
+          "ایک",
+          "دوسرے",
+          "کی",
+          "مدد",
+          "کرتے",
+          "ہیں"
+        ],
+        "en": "Neighbours help one another."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "شہروں میں ____ اور شور بہت زیادہ ہوتا ہے۔",
+        "opts": [
+          "ٹریفک",
+          "سکون",
+          "کھیت",
+          "سادگی"
+        ],
+        "a": 0,
+        "en": "There is too much ___ and noise in cities."
+      },
+      {
+        "text": "دیہات میں ____ زیادہ ملتا ہے۔",
+        "opts": [
+          "سکون",
+          "شور",
+          "ٹریفک",
+          "آبادی"
+        ],
+        "a": 0,
+        "en": "More ___ is found in villages."
+      },
+      {
+        "text": "کسان ____ میں کام کرتا ہے۔",
+        "opts": [
+          "کھیت",
+          "دفتر",
+          "دکان",
+          "ہسپتال"
+        ],
+        "a": 0,
+        "en": "The farmer works in the ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ دیہات میں رہنا پسند کریں گے یا شہر میں؟ وجہ کے ساتھ تین جملے لکھیں۔",
+      "en": "Would you prefer to live in a village or a city? Write three sentences with your reason."
+    }
+  },
+  "grammar": {
+    "title": "تضاد کا جملہ — Contrast clauses with جبکہ",
+    "explain": "جبکہ (\"whereas / while\") joins two clauses to show a contrast between them: [one situation] جبکہ [a different or opposite situation].",
+    "rows": [
+      [
+        "شہروں میں سہولتیں زیادہ ہیں جبکہ دیہات میں سکون زیادہ ہے۔",
+        "Cities have more facilities, whereas villages have more peace."
+      ],
+      [
+        "وہ امیر ہے جبکہ اس کا بھائی غریب ہے۔",
+        "He is rich, whereas his brother is poor."
+      ],
+      [
+        "میں چائے پیتا ہوں جبکہ میرا دوست دودھ پیتا ہے۔",
+        "I drink tea, whereas my friend drinks milk."
+      ],
+      [
+        "شہر میں شور ہے جبکہ گاؤں میں خاموشی ہے۔",
+        "There is noise in the city, whereas there is silence in the village."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "شہر میں ٹریفک زیادہ ہے ____ دیہات میں کم ہے۔",
+        "opts": [
+          "جبکہ",
+          "کیونکہ",
+          "تاکہ",
+          "اگر"
+        ],
+        "a": 0,
+        "en": "There is more traffic in the city, whereas it is less in the village."
+      },
+      {
+        "q": "وہ محنتی ہے ____ اس کا دوست کاہل ہے۔",
+        "opts": [
+          "جبکہ",
+          "پھر",
+          "اور",
+          "یا"
+        ],
+        "a": 0,
+        "en": "He is hardworking, whereas his friend is lazy."
+      },
+      {
+        "q": "میں کتاب پڑھتا ہوں ____ وہ ٹی وی دیکھتا ہے۔",
+        "opts": [
+          "جبکہ",
+          "چونکہ",
+          "تاکہ",
+          "لیکن اگر"
+        ],
+        "a": 0,
+        "en": "I read a book, whereas he watches TV."
+      }
+    ]
+  }
+}

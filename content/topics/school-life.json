@@ -1,0 +1,274 @@
+{
+  "id": "school-life",
+  "ur": "سکول کی زندگی",
+  "en": "School Life",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لفظ 'استاد' فارسی زبان کا لفظ ہے اور اس کے معنی 'ماہر شخص' بھی ہیں۔",
+    "en": "استاد (“teacher”) is a Persian word that can also mean “master/expert.”"
+  },
+  "vocab": [
+    {
+      "ur": "سکول",
+      "en": "school",
+      "ex_ur": "میں ہر روز سکول جاتا ہوں۔",
+      "ex_en": "I go to school every day.",
+      "syn": "درس گاہ"
+    },
+    {
+      "ur": "استاد",
+      "en": "teacher (male)",
+      "ex_ur": "استاد سوال پوچھتے ہیں۔",
+      "ex_en": "The teacher asks questions.",
+      "syn": "معلم"
+    },
+    {
+      "ur": "استانی",
+      "en": "teacher (female)",
+      "ex_ur": "استانی نئی کتاب دیتی ہیں۔",
+      "ex_en": "The teacher gives a new book.",
+      "syn": "معلمہ"
+    },
+    {
+      "ur": "کتاب",
+      "en": "book",
+      "ex_ur": "میرا دوست کتاب پڑھتا ہے۔",
+      "ex_en": "My friend reads a book."
+    },
+    {
+      "ur": "قلم",
+      "en": "pen",
+      "ex_ur": "یہ قلم میرا ہے۔",
+      "ex_en": "This pen is mine.",
+      "syn": "خامہ"
+    },
+    {
+      "ur": "کلاس",
+      "en": "class",
+      "ex_ur": "ہماری کلاس بڑی ہے۔",
+      "ex_en": "Our class is big."
+    },
+    {
+      "ur": "سوال",
+      "en": "question",
+      "ex_ur": "یہ سوال آسان ہے۔",
+      "ex_en": "This question is easy.",
+      "syn": "پرسش"
+    },
+    {
+      "ur": "جواب",
+      "en": "answer",
+      "ex_ur": "اس کا جواب صحیح ہے۔",
+      "ex_en": "Its answer is correct."
+    },
+    {
+      "ur": "امتحان",
+      "en": "exam",
+      "ex_ur": "امتحان کل ہے۔",
+      "ex_en": "The exam is tomorrow.",
+      "syn": "آزمائش"
+    },
+    {
+      "ur": "دوست",
+      "en": "friend",
+      "ex_ur": "میرا دوست ذہین ہے۔",
+      "ex_en": "My friend is intelligent.",
+      "syn": "یار"
+    }
+  ],
+  "reading": {
+    "passage": "عائشہ ایک ذہین طالبہ ہے۔ وہ ہر روز صبح سکول جاتی ہے۔ اس کی استانی اسے نئی نئی کتابیں پڑھنے کو دیتی ہیں۔ عائشہ کلاس میں ہر سوال کا جواب دیتی ہے۔ امتحان کے دنوں میں وہ خوب محنت کرتی ہے۔",
+    "questions": [
+      {
+        "q": "عائشہ کیسی طالبہ ہے؟",
+        "opts": [
+          "کمزور",
+          "ذہین",
+          "سست",
+          "بیمار"
+        ],
+        "a": 1
+      },
+      {
+        "q": "استانی عائشہ کو کیا دیتی ہیں؟",
+        "opts": [
+          "قلم",
+          "کھانا",
+          "نئی کتابیں",
+          "پیسے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "عائشہ کلاس میں کیا کرتی ہے؟",
+        "opts": [
+          "سوتی ہے",
+          "سوالوں کے جواب دیتی ہے",
+          "کھیلتی ہے",
+          "باتیں کرتی ہے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "امتحان کے دنوں میں عائشہ کیسی ہوتی ہے؟",
+        "opts": [
+          "لاپرواہ",
+          "محنتی",
+          "خوفزدہ",
+          "اداس"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "جاتا",
+          "سکول",
+          "ہر",
+          "دوست",
+          "روز",
+          "میرا",
+          "ہے"
+        ],
+        "answer": [
+          "میرا",
+          "دوست",
+          "ہر",
+          "روز",
+          "سکول",
+          "جاتا",
+          "ہے"
+        ],
+        "en": "My friend goes to school every day."
+      },
+      {
+        "bank": [
+          "پوچھتے",
+          "سوال",
+          "استاد",
+          "ہیں"
+        ],
+        "answer": [
+          "استاد",
+          "سوال",
+          "پوچھتے",
+          "ہیں"
+        ],
+        "en": "The teacher asks a question."
+      },
+      {
+        "bank": [
+          "ہے",
+          "آسان",
+          "سوال",
+          "یہ"
+        ],
+        "answer": [
+          "یہ",
+          "سوال",
+          "آسان",
+          "ہے"
+        ],
+        "en": "This question is easy."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "استاد کلاس میں ____ پوچھتے ہیں۔",
+        "opts": [
+          "سوال",
+          "کتاب",
+          "قلم",
+          "دوست"
+        ],
+        "a": 0,
+        "en": "The teacher asks ___ in class."
+      },
+      {
+        "text": "میرا ____ کتاب پڑھتا ہے۔",
+        "opts": [
+          "امتحان",
+          "دوست",
+          "سوال",
+          "جواب"
+        ],
+        "a": 1,
+        "en": "My ___ reads a book."
+      },
+      {
+        "text": "____ کل ہے، مجھے پڑھنا ہے۔",
+        "opts": [
+          "امتحان",
+          "باغ",
+          "کمرہ",
+          "دادی"
+        ],
+        "a": 0,
+        "en": "The ___ is tomorrow, I must study."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے پسندیدہ استاد یا مضمون کے بارے میں تین جملے لکھیں۔",
+      "en": "Write three sentences about your favourite teacher or subject."
+    }
+  },
+  "grammar": {
+    "title": "واحد اور جمع — Singular and plural",
+    "explain": "Many Urdu nouns become plural by changing their ending: کتاب (book) becomes کتابیں (books). Some words, like دوست (friend), stay the same in both singular and plural and rely on context or a verb ending to show number.",
+    "rows": [
+      [
+        "کتاب → کتابیں",
+        "book → books"
+      ],
+      [
+        "سوال → سوالات",
+        "question → questions"
+      ],
+      [
+        "دوست → دوست",
+        "friend → friends (same form)"
+      ],
+      [
+        "استاد → استاد لوگ",
+        "teacher → teachers (add لوگ for people)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ایک کتاب، دو ____۔",
+        "opts": [
+          "کتاب",
+          "کتابیں",
+          "کتابی",
+          "کتابوں"
+        ],
+        "a": 1,
+        "en": "One book, two ___."
+      },
+      {
+        "q": "استانی نے تین ____ دیے۔",
+        "opts": [
+          "سوال",
+          "سوالات",
+          "سوالی",
+          "سوالوں"
+        ],
+        "a": 1,
+        "en": "The teacher gave three ___."
+      },
+      {
+        "q": "کلاس میں بہت ____ ہیں۔",
+        "opts": [
+          "دوست",
+          "دوستی",
+          "دوستوں",
+          "دوستانہ"
+        ],
+        "a": 0,
+        "en": "There are many ___ in class."
+      }
+    ]
+  }
+}

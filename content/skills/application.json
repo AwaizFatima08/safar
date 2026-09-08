@@ -1,0 +1,72 @@
+{
+  "id": "application",
+  "ur": "درخواست (خط بہ نام افسر) لکھنا",
+  "en": "How to write an application (Darkhwast)",
+  "points": [
+    "درخواست کا آغاز 'المحترم' اور متعلقہ افسر کے عہدے سے کریں، مثلاً 'المحترم پرنسپل صاحب'۔",
+    "درخواست کا موضوع واضح لکھیں، مثلاً 'درخواست برائے رخصت'۔",
+    "وجہ مختصر، صاف اور شائستہ انداز میں بیان کریں۔",
+    "آخر میں 'امید ہے کہ...' لکھ کر گزارش کریں۔",
+    "اپنا نام، جماعت اور تاریخ ضرور لکھیں۔"
+  ],
+  "samples": [
+    {
+      "caption": "Sick leave application",
+      "ur": "المحترم پرنسپل صاحب،\n\nموضوع: ایک دن کی رخصت کی درخواست\n\nجناب والا،\n\nگزارش ہے کہ مجھے بخار ہے، اس لیے میں کل سکول نہیں آ سکوں گا۔ امید ہے کہ آپ مجھے ایک دن کی رخصت عنایت فرمائیں گے۔\n\nشکریہ۔\nآپ کا فرمانبردار شاگرد،\nبلال احمد\nجماعت نہم\nتاریخ: 12 مارچ"
+    },
+    {
+      "caption": "Fee concession application",
+      "ur": "المحترم پرنسپل صاحب،\n\nموضوع: فیس میں رعایت کی درخواست\n\nجناب والا،\n\nگزارش ہے کہ میرے والد صاحب کی ملازمت ختم ہو گئی ہے، اس لیے گھر کے حالات مشکل ہیں۔ براہ کرم میری ماہانہ فیس میں رعایت دیں۔\n\nامید ہے کہ آپ میری مدد فرمائیں گے۔\nآپ کا شاگرد،\nعمر فاروق\nجماعت دہم"
+    },
+    {
+      "caption": "Library card application",
+      "ur": "المحترم لائبریرین صاحب،\n\nموضوع: لائبریری کارڈ کے اجراء کی درخواست\n\nجناب والا،\n\nگزارش ہے کہ مجھے کتابیں پڑھنے کا بہت شوق ہے۔ براہ کرم مجھے لائبریری کارڈ جاری کر دیں تاکہ میں کتابیں لے کر پڑھ سکوں۔\n\nشکریہ۔\nعائشہ خان\nجماعت آٹھویں"
+    }
+  ],
+  "practice": [
+    {
+      "q": "How should a formal application begin?",
+      "opts": [
+        "پیارے دوست",
+        "المحترم + designation",
+        "ہیلو",
+        "آج کی تاریخ"
+      ],
+      "a": 1
+    },
+    {
+      "q": "What comes right after the greeting in a Darkhwast?",
+      "opts": [
+        "A joke",
+        "The subject (موضوع) of the request",
+        "The weather",
+        "A poem"
+      ],
+      "a": 1
+    },
+    {
+      "q": "Which closing phrase is typical in an application?",
+      "opts": [
+        "بائی بائی",
+        "امید ہے کہ آپ عنایت فرمائیں گے",
+        "پھر ملیں گے",
+        "خدا حافظ دوست"
+      ],
+      "a": 1
+    }
+  ],
+  "prompts": [
+    {
+      "ur": "پرنسپل صاحب کو ایک درخواست لکھیں جس میں ایک دن کی رخصت مانگیں کیونکہ گھر میں تقریب ہے۔",
+      "en": "Write an application to the principal for one day's leave because of a family function."
+    },
+    {
+      "ur": "سکول انتظامیہ کو درخواست لکھیں کہ اسکول میں ایک نیا مضمون شامل کیا جائے۔",
+      "en": "Write an application to the school administration asking for a new subject to be added."
+    },
+    {
+      "ur": "لائبریرین کو درخواست لکھیں کہ آپ کی کتاب گم ہو گئی ہے اور جرمانہ معاف کیا جائے۔",
+      "en": "Write an application to the librarian explaining that your book was lost and asking for the fine to be waived."
+    }
+  ]
+}
