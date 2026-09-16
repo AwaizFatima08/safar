@@ -22,6 +22,7 @@ const DIST_DIR = path.join(ROOT, "dist");
 
 const TOPIC_REQUIRED_FIELDS = ["id", "ur", "en", "vocab", "reading", "writing", "grammar"];
 const SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "points", "samples", "practice", "prompts"];
+const IDIOM_REQUIRED_FIELDS = ["id", "ur", "meaning_ur", "meaning_en", "example_ur", "example_en"];
 
 function loadContent(kind, requiredFields) {
   const dir = path.join(CONTENT_DIR, kind);
@@ -63,11 +64,43 @@ function loadContent(kind, requiredFields) {
   return items;
 }
 
+// Idioms live as one flat JSON array (content/idioms/idioms.json) rather than
+// one-file-per-item — there's no per-idiom structure worth splitting out.
+function loadFlatContent(kind, fileName, requiredFields) {
+  const filePath = path.join(CONTENT_DIR, kind, fileName);
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`[${kind}] ${fileName} does not exist.`);
+  }
+  let items;
+  try {
+    items = JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch (e) {
+    throw new Error(`[${kind}] ${fileName} is not valid JSON: ${e.message}`);
+  }
+  if (!Array.isArray(items)) {
+    throw new Error(`[${kind}] ${fileName} must be a JSON array.`);
+  }
+  const seenIds = new Set();
+  items.forEach((item, i) => {
+    for (const field of requiredFields) {
+      if (!(field in item)) {
+        throw new Error(`[${kind}] entry ${i} (id: ${item.id || "?"}) is missing required field "${field}".`);
+      }
+    }
+    if (seenIds.has(item.id)) {
+      throw new Error(`[${kind}] duplicate id "${item.id}" — every entry needs a unique id.`);
+    }
+    seenIds.add(item.id);
+  });
+  return items;
+}
+
 function main() {
   console.log("Loading content...");
   const topics = loadContent("topics", TOPIC_REQUIRED_FIELDS);
   const skills = loadContent("skills", SKILL_REQUIRED_FIELDS);
-  console.log(`  ${topics.length} topics, ${skills.length} skills`);
+  const idioms = loadFlatContent("idioms", "idioms.json", IDIOM_REQUIRED_FIELDS);
+  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms`);
 
   console.log("Reading source files...");
   const styles = fs.readFileSync(path.join(SRC_DIR, "styles.css"), "utf8");
@@ -76,7 +109,8 @@ function main() {
 
   const contentJs =
     `const TOPICS = ${JSON.stringify(topics)};\n` +
-    `const SKILLS = ${JSON.stringify(skills)};\n`;
+    `const SKILLS = ${JSON.stringify(skills)};\n` +
+    `const IDIOMS = ${JSON.stringify(idioms)};\n`;
 
   const finalJs = appJs.replace("/* __CONTENT_INJECTION_POINT__ */", contentJs);
   if (finalJs === appJs) {

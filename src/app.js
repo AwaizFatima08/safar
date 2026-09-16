@@ -146,7 +146,70 @@ function computeMedalTotals(){
     const m = medalForStars(sectionStars(s.id, "practice"));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   });
+  ["wordquiz","idioms"].forEach(kind=>{
+    const m = medalForStars(vpStars(kind));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  });
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   VOCABULARY PRACTICE — data layer
+   A dedicated, cross-topic practice mode (not tied to any one Essay
+   topic): spaced-repetition flashcards over every topic's vocab (170
+   words, not scored — repetition is the point), a mixed word-match quiz
+   drawn from all topics, and an idiom drill from a new idiom bank. Built
+   first because "concentrate on vocabulary and skills practice" was the
+   top-level ask — see docs/new-categories-design-3248.md. Reuses vocab
+   already authored per topic; only the idiom bank is new content.
+   ====================================================================== */
+function allVocabWords(){
+  const out = [];
+  TOPICS.forEach(t=> t.vocab.forEach(w=> out.push(Object.assign({ topicId:t.id }, w))));
+  return out;
+}
+
+// Leitner-style spaced repetition: box 0-3, each box a longer review gap.
+// "Still learning" resets to box 0 (due immediately); "Got it" advances a
+// box and pushes the next review further out.
+const SRS_KEY = "urdu-safar-vocab-srs-v1";
+const SRS_GAPS_MS = [0, 24*3600e3, 3*24*3600e3, 7*24*3600e3];
+function loadSrs(){
+  try{ const raw = localStorage.getItem(SRS_KEY); if(raw) return JSON.parse(raw); }catch(e){}
+  return {};
+}
+function saveSrs(s){ try{ localStorage.setItem(SRS_KEY, JSON.stringify(s)); }catch(e){} }
+let srs = loadSrs();
+function srsKeyFor(w){ return w.topicId + "|" + w.ur; }
+function srsBox(w){ const e = srs[srsKeyFor(w)]; return e ? e.box : 0; }
+function srsIsDue(w){
+  const e = srs[srsKeyFor(w)];
+  return !e || Date.now() >= e.dueAt;
+}
+function srsMark(w, knewIt){
+  const key = srsKeyFor(w);
+  const prevBox = srs[key] ? srs[key].box : 0;
+  const box = knewIt ? Math.min(prevBox+1, SRS_GAPS_MS.length-1) : 0;
+  srs[key] = { box, dueAt: Date.now() + SRS_GAPS_MS[box] };
+  saveSrs(srs);
+}
+function srsMasteredCount(){
+  return allVocabWords().filter(w=> srsBox(w) >= SRS_GAPS_MS.length-1).length;
+}
+
+// Vocabulary Practice's own progress bucket, separate from the per-topic
+// TOPICS/SECTIONS bookkeeping above since it isn't tied to one topic.
+function vpStars(kind){
+  const p = progress["_vocabpractice"] && progress["_vocabpractice"][kind];
+  return p ? p.stars : 0;
+}
+function setVpResult(kind, correct, total){
+  if(!progress["_vocabpractice"]) progress["_vocabpractice"] = {};
+  const pct = total ? correct/total : 0;
+  const stars = pct >= 0.9 ? 3 : pct >= 0.7 ? 2 : pct >= 0.5 ? 1 : 0;
+  progress["_vocabpractice"][kind] = { correct, total, stars, done:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
 }
 
 const LB_KEY = "urdu-safar-leaderboard-v1";
@@ -263,7 +326,7 @@ function renderSignup(){
   app.innerHTML = `
     <div class="topbar">
       <div class="brand"><span class="en display">Urdu Safar</span><span class="ur-mark ur">سفر</span></div>
-      <div class="tagline">O&nbsp;Level&nbsp;/&nbsp;IGCSE&nbsp;Urdu&nbsp;Practice</div>
+      <div class="tagline">O&nbsp;Level&nbsp;Urdu&nbsp;3248&nbsp;Practice</div>
     </div>
     <div class="card signup-card">
       <div class="rule-title">Welcome! What should we call you?</div>
@@ -370,12 +433,12 @@ async function drawLeaderboard(){
 }
 
 function renderHome(){
-  const tab = route.homeTab === "skills" ? "skills" : "essays";
+  const tab = route.homeTab === "skills" ? "skills" : route.homeTab === "vocab" ? "vocab" : "essays";
 
   app.innerHTML = `
     <div class="topbar">
       <div class="brand"><span class="en display">Urdu Safar</span><span class="ur-mark ur">سفر</span></div>
-      <div class="tagline">O&nbsp;Level&nbsp;/&nbsp;IGCSE&nbsp;Urdu&nbsp;Practice</div>
+      <div class="tagline">O&nbsp;Level&nbsp;Urdu&nbsp;3248&nbsp;Practice</div>
     </div>
 
     <div class="player-row">
@@ -389,6 +452,9 @@ function renderHome(){
       </button>
       <button class="tab ${tab==='skills'?'active':''}" data-hometab="skills">
         <span>Skills <span class="ur">صلاحیت</span></span>
+      </button>
+      <button class="tab ${tab==='vocab'?'active':''}" data-hometab="vocab">
+        <span>Vocabulary <span class="ur">لفظی مشق</span></span>
       </button>
     </div>
 
@@ -413,7 +479,42 @@ function renderHome(){
 
   const host = document.getElementById("homeTabHost");
   if(tab === "essays") drawEssaysGrid(host);
+  else if(tab === "vocab") drawVocabPracticeGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawVocabPracticeGrid(host){
+  const totalWords = allVocabWords().length;
+  const mastered = srsMasteredCount();
+  const dueCount = allVocabWords().filter(srsIsDue).length;
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${mastered}/${totalWords}</span><span class="lab">Words mastered</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-stat"><span class="num">${IDIOMS.length}</span><span class="lab">Idioms</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">Practice vocabulary from every topic in one place — flashcards, a mixed quiz, and idiom drills for Paper 2.</div>
+    </div>
+    <div class="topic-grid">
+      <div class="topic-card" data-vp="flash">
+        <div class="vp-card-title">Flashcard Review</div>
+        <div class="vp-card-desc">${dueCount} word${dueCount===1?'':'s'} due for review right now</div>
+      </div>
+      <div class="topic-card" data-vp="quiz">
+        <div class="vp-card-title">Word Match Quiz</div>
+        <div class="vp-card-desc">Meanings &amp; synonyms mixed from all topics</div>
+        ${starsHtml(vpStars("wordquiz"), 3)}
+      </div>
+      <div class="topic-card" data-vp="idioms">
+        <div class="vp-card-title">Idioms Drill <span class="ur">محاورے</span></div>
+        <div class="vp-card-desc">${IDIOMS.length} common idioms tested in Paper 2</div>
+        ${starsHtml(vpStars("idioms"), 3)}
+      </div>
+    </div>
+  `;
+  host.querySelectorAll("[data-vp]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"vocabpractice", mode: el.dataset.vp }));
+  });
 }
 
 function drawEssaysGrid(host){
@@ -671,6 +772,222 @@ function runSkillPrompt(host, skill, idx){
     markPromptDone(skill.id, idx);
     renderSkill();
   });
+}
+
+/* ======================================================================
+   VOCABULARY PRACTICE VIEW
+   ====================================================================== */
+function renderVocabPractice(){
+  const mode = route.mode || "quiz";
+  const title = mode === "flash" ? "Flashcard Review" : mode === "idioms" ? "Idioms Drill" : "Word Match Quiz";
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Vocabulary</button>
+    </div>
+    <div class="topic-head">
+      <span class="en-title vp-view-title">${title}</span>
+    </div>
+    <div id="vpHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"vocab" }));
+  const host = document.getElementById("vpHost");
+  if(mode === "flash") runVocabFlashcards(host);
+  else if(mode === "idioms") runIdiomsQuiz(host);
+  else runVocabWordQuiz(host);
+}
+
+function runVocabFlashcards(host){
+  const all = allVocabWords();
+  let due = all.filter(srsIsDue).sort((a,b)=> srsBox(a)-srsBox(b));
+  if(due.length === 0) due = all.slice().sort(()=>Math.random()-0.5);
+  const batch = due.slice(0, Math.min(15, due.length));
+  let i = 0, flipped = false;
+
+  function draw(){
+    if(i >= batch.length){
+      host.innerHTML = `
+        <div class="card summary">
+          <h2>Session complete</h2>
+          <p>Reviewed ${batch.length} word${batch.length===1?'':'s'}. ${srsMasteredCount()}/${all.length} words fully mastered so far.</p>
+          <div class="btn-row"><button class="btn primary" id="doneBtn">Back to Vocabulary</button></div>
+        </div>
+      `;
+      document.getElementById("doneBtn").addEventListener("click", ()=> go({ view:"home", homeTab:"vocab" }));
+      return;
+    }
+    const w = batch[i];
+    const topicTitle = (TOPICS.find(t=>t.id===w.topicId) || {}).en || "";
+    host.innerHTML = `
+      ${dotsHtml(batch.length, i)}
+      <div class="flash-wrap">
+        <div class="flashcard" id="card">
+          ${flipped ? `
+            <div class="back-en">${w.en}</div>
+            <div class="example ur">${w.ex_ur}</div>
+            <div class="example-en">${w.ex_en}</div>
+            ${w.syn ? `<div class="syn-line ur"><span class="lab" style="direction:ltr;">Synonym (مترادف)</span>${w.syn}</div>` : ''}
+          ` : `
+            <div class="front-ur ur">${w.ur}</div>
+            <div class="hint">From "${topicTitle}" — tap to reveal</div>
+          `}
+        </div>
+        ${flipped ? `
+          <div class="btn-row">
+            <button class="btn" id="stillLearning">Still learning</button>
+            <button class="btn primary" id="gotIt">Got it &#10003;</button>
+          </div>
+        ` : `<div class="btn-row"><button class="btn primary" id="flip">Flip card</button></div>`}
+      </div>
+    `;
+    document.getElementById("card").addEventListener("click", ()=>{ flipped=!flipped; draw(); });
+    const flipBtn = document.getElementById("flip");
+    if(flipBtn) flipBtn.addEventListener("click", ()=>{ flipped=true; draw(); });
+    const stillBtn = document.getElementById("stillLearning");
+    if(stillBtn) stillBtn.addEventListener("click", ()=>{ srsMark(w,false); i++; flipped=false; draw(); });
+    const gotBtn = document.getElementById("gotIt");
+    if(gotBtn) gotBtn.addEventListener("click", ()=>{ srsMark(w,true); i++; flipped=false; draw(); });
+  }
+  draw();
+}
+
+function drawVpQuizResult(host, kind, correct, total, onRetry){
+  setVpResult(kind, correct, total);
+  const stars = vpStars(kind);
+  const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+  host.innerHTML = `
+    <div class="card summary">
+      <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+      <h2>${correct} / ${total} correct</h2>
+      ${medalHtml(stars)}
+      <p>${line}</p>
+      <div class="btn-row">
+        <button class="btn" id="retryBtn">Try again</button>
+        <button class="btn primary" id="backBtn">Back</button>
+      </div>
+    </div>
+  `;
+  document.getElementById("retryBtn").addEventListener("click", onRetry);
+  document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"home", homeTab:"vocab" }));
+}
+
+function runVocabWordQuiz(host){
+  const pool = allVocabWords();
+  const QUIZ_COUNT = Math.min(12, pool.length);
+  const shuffled = pool.slice().sort(()=>Math.random()-0.5).slice(0, QUIZ_COUNT);
+  const meaningItems = shuffled.map((w,n)=>{
+    const urToEn = n % 2 === 0;
+    const distractors = pool.filter(x=>x.ur!==w.ur).sort(()=>Math.random()-0.5).slice(0,3);
+    const opts = distractors.concat([w]).sort(()=>Math.random()-0.5);
+    return {
+      kind:"meaning", urToEn,
+      prompt: urToEn ? w.ur : w.en,
+      opts: opts.map(o => urToEn ? o.en : o.ur),
+      answer: urToEn ? w.en : w.ur,
+      label: urToEn ? "What does this mean?" : "Which word means this?"
+    };
+  });
+  const synPool = pool.filter(w=>w.syn);
+  const synItems = [];
+  if(synPool.length >= 2){
+    synPool.slice().sort(()=>Math.random()-0.5).slice(0, Math.min(6, synPool.length)).forEach((w,n)=>{
+      const wordToSyn = n % 2 === 0;
+      const distractors = synPool.filter(x=>x.ur!==w.ur).sort(()=>Math.random()-0.5).slice(0,3);
+      const opts = distractors.concat([w]).sort(()=>Math.random()-0.5);
+      synItems.push({
+        kind:"syn", wordToSyn,
+        prompt: wordToSyn ? w.ur : w.syn,
+        opts: opts.map(o => wordToSyn ? o.syn : o.ur),
+        answer: wordToSyn ? w.syn : w.ur,
+        label: wordToSyn ? "Which word is a synonym (مترادف) of this?" : "This is a synonym — which word does it belong to?"
+      });
+    });
+  }
+  const items = meaningItems.concat(synItems);
+  let qi=0, correct=0;
+  function drawQ(){
+    if(qi>=items.length){ drawVpQuizResult(host, "wordquiz", correct, items.length, ()=>runVocabWordQuiz(host)); return; }
+    const it = items[qi];
+    const promptCls = it.kind==="meaning" ? (it.urToEn ? "ur" : "") : "ur";
+    const optCls = it.kind==="meaning" ? (it.urToEn ? "en" : "ur") : "ur";
+    host.innerHTML = `
+      ${dotsHtml(items.length, qi)}
+      <div class="card">
+        <div class="qmeta"><span>Question ${qi+1} of ${items.length}</span><span>${it.kind==='syn' ? 'Synonyms' : 'Meaning'}</span></div>
+        <div class="prompt-ur ${promptCls}">${it.prompt}</div>
+        <div class="translation-hint" style="direction:ltr;">${it.label}</div>
+        <div class="options" id="opts">
+          ${it.opts.map((o,idx)=>`<button class="opt ${optCls}" data-idx="${idx}">${o}</button>`).join("")}
+        </div>
+        <div id="fb"></div>
+      </div>
+    `;
+    host.querySelectorAll("#opts .opt").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        const chosen = it.opts[btn.dataset.idx];
+        const ok = chosen === it.answer;
+        if(ok) correct++;
+        host.querySelectorAll("#opts .opt").forEach(b=>{
+          b.disabled = true;
+          if(b.textContent===it.answer) b.classList.add("correct");
+          else if(b===btn) b.classList.add("wrong");
+        });
+        document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok? 'Correct!' : 'Correct answer: '+it.answer}</div>`;
+        setTimeout(()=>{ qi++; drawQ(); }, 900);
+      });
+    });
+  }
+  drawQ();
+}
+
+function runIdiomsQuiz(host){
+  const pool = IDIOMS;
+  const QUIZ_COUNT = Math.min(10, pool.length);
+  const items = pool.slice().sort(()=>Math.random()-0.5).slice(0, QUIZ_COUNT).map((idm,n)=>{
+    const idiomToMeaning = n % 2 === 0;
+    const distractors = pool.filter(x=>x.id!==idm.id).sort(()=>Math.random()-0.5).slice(0,3);
+    const opts = distractors.concat([idm]).sort(()=>Math.random()-0.5);
+    return {
+      idiomToMeaning,
+      prompt: idiomToMeaning ? idm.ur : idm.meaning_en,
+      opts: opts.map(o => idiomToMeaning ? o.meaning_en : o.ur),
+      answer: idiomToMeaning ? idm.meaning_en : idm.ur,
+      label: idiomToMeaning ? "What does this idiom mean?" : "Which idiom means this?"
+    };
+  });
+  let qi=0, correct=0;
+  function drawQ(){
+    if(qi>=items.length){ drawVpQuizResult(host, "idioms", correct, items.length, ()=>runIdiomsQuiz(host)); return; }
+    const it = items[qi];
+    const promptCls = it.idiomToMeaning ? "ur" : "";
+    const optCls = it.idiomToMeaning ? "" : "ur";
+    host.innerHTML = `
+      ${dotsHtml(items.length, qi)}
+      <div class="card">
+        <div class="qmeta"><span>Question ${qi+1} of ${items.length}</span><span>Idioms</span></div>
+        <div class="prompt-ur ${promptCls}">${it.prompt}</div>
+        <div class="translation-hint" style="direction:ltr;">${it.label}</div>
+        <div class="options" id="opts">
+          ${it.opts.map((o,idx)=>`<button class="opt ${optCls}" data-idx="${idx}">${o}</button>`).join("")}
+        </div>
+        <div id="fb"></div>
+      </div>
+    `;
+    host.querySelectorAll("#opts .opt").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        const chosen = it.opts[btn.dataset.idx];
+        const ok = chosen === it.answer;
+        if(ok) correct++;
+        host.querySelectorAll("#opts .opt").forEach(b=>{
+          b.disabled = true;
+          if(b.textContent===it.answer) b.classList.add("correct");
+          else if(b===btn) b.classList.add("wrong");
+        });
+        document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok? 'Correct!' : 'Correct answer: '+it.answer}</div>`;
+        setTimeout(()=>{ qi++; drawQ(); }, 900);
+      });
+    });
+  }
+  drawQ();
 }
 
 /* ======================================================================
@@ -1107,6 +1424,7 @@ function render(){
   if(route.view === "home") renderHome();
   else if(route.view === "skill") renderSkill();
   else if(route.view === "leaderboard") renderLeaderboard();
+  else if(route.view === "vocabpractice") renderVocabPractice();
   else renderTopic();
 }
 

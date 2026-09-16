@@ -1,1 +1,3 @@
 scripts/backup.log
+.secrets/
+*.key

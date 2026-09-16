@@ -164,6 +164,17 @@
   .tab.active{ color:var(--ink); border-bottom-color:var(--marigold); }
   .tab .tab-stars{ font-size:9px; letter-spacing:1px; direction:ltr; color:var(--marigold); }
 
+  /* home-tabbar scrolls horizontally so more top-level areas can be added
+     later without squeezing every tab down to fit one screen width. */
+  .home-tabbar{ overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+  .home-tabbar::-webkit-scrollbar{ display:none; }
+  .home-tabbar .tab{ flex:0 0 auto; padding-left:16px; padding-right:16px; white-space:nowrap; }
+
+  /* ============ VOCABULARY PRACTICE ============ */
+  .vp-card-title{ font-size:16px; font-weight:700; color:var(--ink); text-align:left; }
+  .vp-card-desc{ font-size:12px; color:var(--ink-soft); text-align:left; letter-spacing:.01em; }
+  .vp-view-title{ font-size:22px; font-weight:700; color:var(--ink); }
+
   .card{
     background:var(--card); border:1px solid var(--rule); border-radius:var(--radius);
     padding:22px; box-shadow:var(--shadow); margin-bottom:16px;

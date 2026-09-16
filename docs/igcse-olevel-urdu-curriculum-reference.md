@@ -2,17 +2,22 @@
 
 Pulled directly from Cambridge International's own syllabus documents (linked at the bottom). This is what a standard, exam-board-aligned redesign of the app would map onto.
 
-## First: which syllabus is your son actually registered for?
+## Confirmed: Cambridge O Level Second Language Urdu, syllabus 3248 (2027–2029)
 
-Cambridge runs **three different Urdu qualifications**, and they're not interchangeable — worth confirming before we redesign around one of them:
+**Locked 2026-09-16, correcting an earlier wrong lock.** A previous session's command board recorded this app's syllabus as IGCSE 0539 — that was wrong. Verified directly against the official Cambridge syllabus PDF (`3248_y27-29_sy.pdf` / `721465-2027-2029-syllabus.pdf`, byte-identical copies): this app targets **3248, O Level Second Language Urdu, for examination series 2027, 2028 and 2029**.
+
+Cambridge runs three different Urdu qualifications — not interchangeable:
 
 | Code | Name | Level | Character |
 |---|---|---|---|
-| **3247** | First Language Urdu | O Level | Literature-heavy — ghazals, nazmein, prose essays by canonical authors. Half the qualification is literary analysis. |
-| **3248** | Second Language Urdu | O Level | Practical/communicative — no literature. Reading, functional writing, grammar, translation. |
-| **0539** | Urdu as a Second Language | IGCSE | Same practical character as 3248, plus a Listening paper and an optional Speaking component. |
+| **3247** | First Language Urdu | O Level | Literature-heavy — ghazals, nazmein, prose essays by canonical authors. Half the qualification is literary analysis. Not a match — this app has no poetry/literary-essay content. |
+| **3248** | Second Language Urdu | O Level | **This app's syllabus.** Practical/communicative — no literature. Reading, functional writing, grammar, translation. No Listening or Speaking component. |
+| **0539** | Urdu as a Second Language | IGCSE | Close cousin of 3248, but adds a required Listening paper and an optional Speaking component, and drops Translation. Not this app — do not build Listening/Speaking. |
 
-**My read:** given what's already built — vocabulary, comprehension, functional writing genres (email, application, report), grammar drills, no poetry or literary essay content — this app lines up closely with **3248 (O Level Second Language Urdu)**, and closely enough with **0539** that most content would transfer either way. It does **not** currently match **3247**, which would need a real content pivot toward poetry and prescribed prose texts. Worth confirming which one his school has him registered for before locking the next design phase around it.
+**What changes from the old (wrong) 0539-based plan:**
+- **Translation (English → Urdu, ~150 words, 15/50 marks on Paper 2)** is a **required** category — it was previously scoped out as "0539 doesn't need it." It does, under 3248.
+- **Listening and Speaking drop out of scope entirely** — 3248 doesn't test either. Nothing to build here; any earlier scoping notes for a Listening category are moot.
+- Paper 2 also has a **sentence transformation** exercise (5 marks) that 0539 doesn't have in the same form.
 
 ## 3248 — O Level Second Language Urdu (most likely match)
 
@@ -33,7 +38,7 @@ Cambridge runs **three different Urdu qualifications**, and they're not intercha
 
 **Grading:** A*, A, B, C, D, E, or Ungraded.
 
-## 0539 — IGCSE Urdu as a Second Language (close cousin)
+## 0539 — IGCSE Urdu as a Second Language (not this app — kept for reference only)
 
 **Assessment objectives:** Reading (AO1), Writing (AO2), Listening (AO3), Speaking (AO4, optional). Weighting: Reading/Writing/Listening roughly equal thirds; Speaking separately endorsed.
 
@@ -45,22 +50,21 @@ Cambridge runs **three different Urdu qualifications**, and they're not intercha
 
 **Grading:** A*–G, or Ungraded.
 
-## What this suggests for "segregating into more categories"
+## Category build plan against 3248 (locked)
 
-Mapped against what's already in the app:
+Mapped against what's already in the app — see `new-categories-design-3248.md` for full exercise-format detail per category:
 
 | Syllabus exercise type | Covered today? | Notes |
 |---|---|---|
-| Short-answer / multiple matching / note-making (Reading) | Partially — Essays' reading comprehension MCQs are close, but not in the exact note-making/matching formats the exam uses | Worth a dedicated **Reading Skills** category matching exam exercise formats exactly |
-| Summary writing (≤100 words) | Not yet built | A real gap — summarizing a passage in your own words is a distinct skill from anything currently in the app |
-| Functional writing (~120–150 words) | **Yes — this is exactly the Skills section already built** (email, application, report, etc.) | Good validation that this category was the right call |
-| Extended writing (~200 words) | Partially — the "Creative Corner" free-writes are close but not scored/structured like an exam composition | Could become its own **Extended Writing / Composition** category, scored against the syllabus's own level descriptors |
-| Grammar (sentence transformation, cloze) | Partially — Essays' grammar drills exist but not in cloze/transformation format | A **Grammar Lab** category in the exact exam formats would directly build exam familiarity |
-| Translation (English→Urdu) | Not built at all | Only relevant if he's on 3248, not 0539 — a real new category if so |
-| Listening | Not built at all | Only relevant if he's on 0539 (IGCSE), not 3248 — would need audio, a genuinely new kind of content, not just new topics |
-| Speaking | Not built at all | Same as above — optional component, needs audio recording/playback, a bigger technical lift |
+| Short-answer / multiple matching / note-making (Reading, Paper 1 Ex.1–3) | Partially — Essays' reading comprehension MCQs are close, but not in the exact note-making/matching formats the exam uses | **Reading Skills** category, exact exam formats |
+| Summary writing, ≤100 words (Paper 1 Ex.4) | Not yet built | New **Summary Writing** category |
+| Functional writing, ~150 words (Paper 1 Ex.5) | **Yes — this is exactly the Skills section already built** (email, application, report, etc.) | Validated — no change needed |
+| Sentence transformation + multiple-choice cloze (Paper 2 Ex.1–2) | Partially — Essays' grammar drills exist but not in cloze/transformation format | New **Grammar Lab** category |
+| Extended writing, ~200 words (Paper 2 Ex.3) | Partially — "Creative Corner" free-writes are close but not scored/structured like an exam composition | New **Extended Writing** category |
+| Translation, English→Urdu, ~150 words (Paper 2 Ex.4) | Not built at all | New **Translation** category — required under 3248 |
+| Listening / Speaking | N/A | **Out of scope — 3248 does not test either** |
 
-That table is a reasonable starting shape for the "more categories" conversation: Reading Skills, Summary Writing, Functional Writing (exists), Extended Writing/Composition, Grammar Lab, and — only if relevant to his actual registration — Translation and Listening.
+Build order locked in `urdu-safar-command-board-v3.md`: **Vocabulary Practice → Reading Skills → Grammar Lab → Translation → Summary Writing → Extended Writing.**
 
 ## Past papers and mark schemes
 
