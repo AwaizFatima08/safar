@@ -166,7 +166,31 @@ function computeMedalTotals(){
     const m = medalForStars(swStars(t.id));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   });
+  EXTENDED_WRITING.forEach(t=>{
+    const m = medalForStars(ewStars(t.id));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  });
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   EXTENDED WRITING — progress data layer
+   Matches 3248 Paper 2, Ex.3 (~200-word composition, 20/50 marks on
+   that paper — the single highest-value exercise in the qualification).
+   Self-assessed via a checklist mapped to the syllabus's AO2 writing
+   objectives (W1-W5) — the design doc's open question (checklist vs.
+   staying unscored like Creative Corner) is resolved in favour of the
+   checklist, now validated by Summary Writing and Translation.
+   ====================================================================== */
+function ewStars(topicId){
+  const p = progress[topicId] && progress[topicId]["ew"];
+  return p ? p.stars : 0;
+}
+function setEwSelfRating(topicId, stars){
+  if(!progress[topicId]) progress[topicId] = {};
+  progress[topicId]["ew"] = { stars, done:true, selfAssessed:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
 }
 
 /* ======================================================================
@@ -562,6 +586,7 @@ function renderHome(){
     : route.homeTab === "grammar-lab" ? "grammar-lab"
     : route.homeTab === "translation" ? "translation"
     : route.homeTab === "summary-writing" ? "summary-writing"
+    : route.homeTab === "extended-writing" ? "extended-writing"
     : "essays";
 
   app.innerHTML = `
@@ -597,6 +622,9 @@ function renderHome(){
       <button class="tab ${tab==='summary-writing'?'active':''}" data-hometab="summary-writing">
         <span>Summary Writing <span class="ur">خلاصہ نویسی</span></span>
       </button>
+      <button class="tab ${tab==='extended-writing'?'active':''}" data-hometab="extended-writing">
+        <span>Extended Writing <span class="ur">توسیعی تحریر</span></span>
+      </button>
     </div>
 
     <div id="homeTabHost"></div>
@@ -625,7 +653,34 @@ function renderHome(){
   else if(tab === "grammar-lab") drawGrammarLabGrid(host);
   else if(tab === "translation") drawTranslationGrid(host);
   else if(tab === "summary-writing") drawSummaryWritingGrid(host);
+  else if(tab === "extended-writing") drawExtendedWritingGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawExtendedWritingGrid(host){
+  const maxStars = EXTENDED_WRITING.length * 3;
+  const stars = EXTENDED_WRITING.reduce((s,t)=> s + ewStars(t.id), 0);
+  const msg = EXTENDED_WRITING.length
+    ? "A ~200-word composition to a given prompt — the highest-value exercise in the whole qualification. Self-assessed."
+    : "More topics are added here over time — this category is still growing.";
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${stars}/${maxStars}</span><span class="lab">Stars</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">${msg}</div>
+    </div>
+    <div class="topic-grid">
+      ${EXTENDED_WRITING.map(t=>`
+        <div class="topic-card" data-ewtopic="${t.id}">
+          <div class="ur-title ur">${t.ur}</div>
+          <div class="en-title">${t.en}</div>
+          ${starsHtml(ewStars(t.id), 3)}
+        </div>`).join("")}
+    </div>
+  `;
+  host.querySelectorAll("[data-ewtopic]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"extendedwriting", topicId: el.dataset.ewtopic }));
+  });
 }
 
 function drawSummaryWritingGrid(host){
@@ -1934,6 +1989,81 @@ function runSummaryWriting(host, topic){
 }
 
 /* ======================================================================
+   EXTENDED WRITING VIEW
+   Matches 3248 Paper 2, Ex.3 — the highest-value single exercise in the
+   qualification. Piloted on one topic, per the locked build order —
+   see docs/new-categories-design-3248.md. Same self-assess pattern as
+   Summary Writing/Translation, with the checklist mapped to AO2's W1-W5.
+   ====================================================================== */
+function renderExtendedWriting(){
+  const topic = EXTENDED_WRITING.find(t=>t.id===route.topicId);
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Extended Writing</button>
+    </div>
+    <div class="topic-head">
+      <span class="ur-title ur">${topic.ur}</span>
+      <span class="en-title">${topic.en}</span>
+    </div>
+    <div id="ewHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"extended-writing" }));
+  runExtendedWriting(document.getElementById("ewHost"), topic);
+}
+
+function runExtendedWriting(host, topic){
+  const { prompt, modelResponse, checklist } = topic;
+  function drawWriting(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Writing task</div>
+        <div class="prompt-ur ur" style="text-align:right;font-size:19px;">${prompt.ur}</div>
+        <div class="prompt-en" style="text-align:left;">${prompt.en}</div>
+        <table class="ex" style="margin-top:10px;">
+          <tr><td class="gloss">Purpose</td><td class="gloss" style="text-align:right;direction:rtl;">${prompt.purpose}</td></tr>
+          <tr><td class="gloss">Format</td><td class="gloss" style="text-align:right;direction:rtl;">${prompt.format}</td></tr>
+          <tr><td class="gloss">Audience</td><td class="gloss" style="text-align:right;direction:rtl;">${prompt.audience}</td></tr>
+        </table>
+      </div>
+      <div class="card">
+        <div class="rule-title">Your composition</div>
+        <p class="rule-explain">About 200 words, in continuous prose.</p>
+        <textarea class="creative-ta" dir="rtl" id="ewInput" placeholder="اپنی تحریر یہاں لکھیں..." style="min-height:220px;"></textarea>
+        <div class="btn-row"><button class="btn primary" id="compareBtn">Compare with model composition</button></div>
+      </div>
+    `;
+    document.getElementById("compareBtn").addEventListener("click", drawCompare);
+  }
+
+  function drawCompare(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Model composition</div>
+        <div class="ur sample-text">${modelResponse.replace(/\n/g,"<br><br>")}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Self-check</div>
+        <ul class="checklist">${checklist.map(c=>`<li class="ur" style="direction:rtl;text-align:right;">${c}</li>`).join("")}</ul>
+        <p class="rule-explain">Rate your own attempt honestly — a composition's quality isn't something the app can auto-grade.</p>
+        <div class="btn-row">
+          <button class="btn" data-rate="1">Needs work</button>
+          <button class="btn" data-rate="2">Good</button>
+          <button class="btn primary" data-rate="3">Excellent</button>
+        </div>
+      </div>
+    `;
+    host.querySelectorAll("[data-rate]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        setEwSelfRating(topic.id, Number(btn.dataset.rate));
+        go({ view:"home", homeTab:"extended-writing" });
+      });
+    });
+  }
+
+  drawWriting();
+}
+
+/* ======================================================================
    SUMMARY (shared)
    ====================================================================== */
 function renderSummary(host, topic, sectionKey, correct, total, onRetry){
@@ -2372,6 +2502,7 @@ function render(){
   else if(route.view === "grammarlab") renderGrammarLab();
   else if(route.view === "translation") renderTranslation();
   else if(route.view === "summarywriting") renderSummaryWriting();
+  else if(route.view === "extendedwriting") renderExtendedWriting();
   else renderTopic();
 }
 

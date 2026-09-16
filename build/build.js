@@ -27,6 +27,7 @@ const READING_SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "shortAnswer", "multipl
 const GRAMMAR_LAB_REQUIRED_FIELDS = ["id", "ur", "en", "grammarPoint", "cloze", "transformation"];
 const TRANSLATION_REQUIRED_FIELDS = ["id", "ur", "en", "warmup", "passage"];
 const SUMMARY_WRITING_REQUIRED_FIELDS = ["id", "ur", "en", "passage", "modelSummary", "checklist"];
+const EXTENDED_WRITING_REQUIRED_FIELDS = ["id", "ur", "en", "prompt", "modelResponse", "checklist"];
 
 function loadContent(kind, requiredFields) {
   const dir = path.join(CONTENT_DIR, kind);
@@ -108,7 +109,8 @@ function main() {
   const grammarLab = loadContent("grammar-lab", GRAMMAR_LAB_REQUIRED_FIELDS);
   const translation = loadContent("translation", TRANSLATION_REQUIRED_FIELDS);
   const summaryWriting = loadContent("summary-writing", SUMMARY_WRITING_REQUIRED_FIELDS);
-  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms, ${readingSkills.length} reading-skills entries, ${grammarLab.length} grammar-lab entries, ${translation.length} translation entries, ${summaryWriting.length} summary-writing entries`);
+  const extendedWriting = loadContent("extended-writing", EXTENDED_WRITING_REQUIRED_FIELDS);
+  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms, ${readingSkills.length} reading-skills entries, ${grammarLab.length} grammar-lab entries, ${translation.length} translation entries, ${summaryWriting.length} summary-writing entries, ${extendedWriting.length} extended-writing entries`);
 
   console.log("Reading source files...");
   const styles = fs.readFileSync(path.join(SRC_DIR, "styles.css"), "utf8");
@@ -122,7 +124,8 @@ function main() {
     `const READING_SKILLS = ${JSON.stringify(readingSkills)};\n` +
     `const GRAMMAR_LAB = ${JSON.stringify(grammarLab)};\n` +
     `const TRANSLATION = ${JSON.stringify(translation)};\n` +
-    `const SUMMARY_WRITING = ${JSON.stringify(summaryWriting)};\n`;
+    `const SUMMARY_WRITING = ${JSON.stringify(summaryWriting)};\n` +
+    `const EXTENDED_WRITING = ${JSON.stringify(extendedWriting)};\n`;
 
   const finalJs = appJs.replace("/* __CONTENT_INJECTION_POINT__ */", contentJs);
   if (finalJs === appJs) {
