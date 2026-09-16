@@ -23,6 +23,7 @@ const DIST_DIR = path.join(ROOT, "dist");
 const TOPIC_REQUIRED_FIELDS = ["id", "ur", "en", "vocab", "reading", "writing", "grammar"];
 const SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "points", "samples", "practice", "prompts"];
 const IDIOM_REQUIRED_FIELDS = ["id", "ur", "meaning_ur", "meaning_en", "example_ur", "example_en"];
+const READING_SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "shortAnswer", "multipleMatching", "noteMaking"];
 
 function loadContent(kind, requiredFields) {
   const dir = path.join(CONTENT_DIR, kind);
@@ -100,7 +101,8 @@ function main() {
   const topics = loadContent("topics", TOPIC_REQUIRED_FIELDS);
   const skills = loadContent("skills", SKILL_REQUIRED_FIELDS);
   const idioms = loadFlatContent("idioms", "idioms.json", IDIOM_REQUIRED_FIELDS);
-  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms`);
+  const readingSkills = loadContent("reading-skills", READING_SKILL_REQUIRED_FIELDS);
+  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms, ${readingSkills.length} reading-skills entries`);
 
   console.log("Reading source files...");
   const styles = fs.readFileSync(path.join(SRC_DIR, "styles.css"), "utf8");
@@ -110,7 +112,8 @@ function main() {
   const contentJs =
     `const TOPICS = ${JSON.stringify(topics)};\n` +
     `const SKILLS = ${JSON.stringify(skills)};\n` +
-    `const IDIOMS = ${JSON.stringify(idioms)};\n`;
+    `const IDIOMS = ${JSON.stringify(idioms)};\n` +
+    `const READING_SKILLS = ${JSON.stringify(readingSkills)};\n`;
 
   const finalJs = appJs.replace("/* __CONTENT_INJECTION_POINT__ */", contentJs);
   if (finalJs === appJs) {

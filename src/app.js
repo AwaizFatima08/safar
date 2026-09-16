@@ -150,7 +150,52 @@ function computeMedalTotals(){
     const m = medalForStars(vpStars(kind));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   });
+  READING_SKILLS.forEach(t=> ["short","matching","notes"].forEach(key=>{
+    const m = medalForStars(rsStars(t.id, key));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  }));
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   READING SKILLS — progress data layer
+   Matches 3248 Paper 1, Ex.1-3 (short-answer, multiple matching,
+   note-making). Short-answer and matching auto-score like the rest of
+   the app; note-making is self-assessed (model notes + checklist, the
+   student rates their own attempt) since there's no single correct set
+   of notes. See docs/new-categories-design-3248.md.
+   ====================================================================== */
+function rsStars(topicId, key){
+  const p = progress[topicId] && progress[topicId]["rs_"+key];
+  return p ? p.stars : 0;
+}
+function setRsResult(topicId, key, correct, total){
+  if(!progress[topicId]) progress[topicId] = {};
+  const pct = total ? correct/total : 0;
+  const stars = pct >= 0.9 ? 3 : pct >= 0.7 ? 2 : pct >= 0.5 ? 1 : 0;
+  progress[topicId]["rs_"+key] = { correct, total, stars, done:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
+}
+function setRsSelfRating(topicId, key, stars){
+  if(!progress[topicId]) progress[topicId] = {};
+  progress[topicId]["rs_"+key] = { stars, done:true, selfAssessed:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
+}
+// Lenient short-answer check: Urdu spelling varies, so accept an exact
+// match after trimming punctuation/whitespace, or either string containing
+// the other (handles "10 بجے" vs "صبح 10 بجے"-style acceptable variants).
+function normalizeAnswer(s){
+  return (s||"").trim().replace(/[۔،؟!.,?]/g,"").replace(/\s+/g," ").toLowerCase();
+}
+function isShortAnswerCorrect(given, acceptable){
+  const g = normalizeAnswer(given);
+  if(!g) return false;
+  return acceptable.some(a=>{
+    const na = normalizeAnswer(a);
+    return g===na || g.includes(na) || na.includes(g);
+  });
 }
 
 /* ======================================================================
@@ -433,7 +478,10 @@ async function drawLeaderboard(){
 }
 
 function renderHome(){
-  const tab = route.homeTab === "skills" ? "skills" : route.homeTab === "vocab" ? "vocab" : "essays";
+  const tab = route.homeTab === "skills" ? "skills"
+    : route.homeTab === "vocab" ? "vocab"
+    : route.homeTab === "reading-skills" ? "reading-skills"
+    : "essays";
 
   app.innerHTML = `
     <div class="topbar">
@@ -455,6 +503,9 @@ function renderHome(){
       </button>
       <button class="tab ${tab==='vocab'?'active':''}" data-hometab="vocab">
         <span>Vocabulary <span class="ur">لفظی مشق</span></span>
+      </button>
+      <button class="tab ${tab==='reading-skills'?'active':''}" data-hometab="reading-skills">
+        <span>Reading Skills <span class="ur">مطالعہ کی مہارت</span></span>
       </button>
     </div>
 
@@ -480,7 +531,37 @@ function renderHome(){
   const host = document.getElementById("homeTabHost");
   if(tab === "essays") drawEssaysGrid(host);
   else if(tab === "vocab") drawVocabPracticeGrid(host);
+  else if(tab === "reading-skills") drawReadingSkillsGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawReadingSkillsGrid(host){
+  const maxStars = READING_SKILLS.length * 9;
+  const stars = READING_SKILLS.reduce((s,t)=> s + ["short","matching","notes"].reduce((s2,k)=> s2 + rsStars(t.id,k), 0), 0);
+  const msg = READING_SKILLS.length
+    ? "Practice the exact exercise formats from Paper 1: short-answer, multiple matching, and note-making."
+    : "More topics are added here over time — this category is still growing.";
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${stars}/${maxStars}</span><span class="lab">Stars</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">${msg}</div>
+    </div>
+    <div class="topic-grid">
+      ${READING_SKILLS.map(t=>{
+        const total = ["short","matching","notes"].reduce((s,k)=> s + rsStars(t.id,k), 0);
+        return `
+        <div class="topic-card" data-rstopic="${t.id}">
+          <div class="ur-title ur">${t.ur}</div>
+          <div class="en-title">${t.en}</div>
+          ${starsHtml(total, 9)}
+        </div>`;
+      }).join("")}
+    </div>
+  `;
+  host.querySelectorAll("[data-rstopic]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"readingskills", topicId: el.dataset.rstopic, mode:"hub" }));
+  });
 }
 
 function drawVocabPracticeGrid(host){
@@ -991,6 +1072,238 @@ function runIdiomsQuiz(host){
 }
 
 /* ======================================================================
+   READING SKILLS VIEW
+   Matches 3248 Paper 1, Ex.1-3. Piloted on one topic first, per the
+   locked build order — see docs/new-categories-design-3248.md.
+   ====================================================================== */
+function renderReadingSkills(){
+  const topic = READING_SKILLS.find(t=>t.id===route.topicId);
+  const mode = route.mode || "hub";
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Reading Skills</button>
+    </div>
+    <div class="topic-head">
+      <span class="ur-title ur">${topic.ur}</span>
+      <span class="en-title">${topic.en}</span>
+    </div>
+    <div id="rsHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"reading-skills" }));
+  const host = document.getElementById("rsHost");
+  if(mode === "short") runShortAnswer(host, topic);
+  else if(mode === "matching") runMultipleMatching(host, topic);
+  else if(mode === "notes") runNoteMaking(host, topic);
+  else drawReadingSkillsHub(host, topic);
+}
+
+function drawReadingSkillsHub(host, topic){
+  host.innerHTML = `
+    <div class="topic-grid">
+      <div class="topic-card" data-rsmode="short">
+        <div class="vp-card-title">Short Answer</div>
+        <div class="vp-card-desc">${topic.shortAnswer.questions.length} questions — read a notice, answer briefly</div>
+        ${starsHtml(rsStars(topic.id,"short"), 3)}
+      </div>
+      <div class="topic-card" data-rsmode="matching">
+        <div class="vp-card-title">Multiple Matching</div>
+        <div class="vp-card-desc">Match each statement to the right paragraph</div>
+        ${starsHtml(rsStars(topic.id,"matching"), 3)}
+      </div>
+      <div class="topic-card" data-rsmode="notes">
+        <div class="vp-card-title">Note-Making</div>
+        <div class="vp-card-desc">Self-assessed — compare your notes to a model answer</div>
+        ${starsHtml(rsStars(topic.id,"notes"), 3)}
+      </div>
+    </div>
+  `;
+  host.querySelectorAll("[data-rsmode]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"readingskills", topicId: topic.id, mode: el.dataset.rsmode }));
+  });
+}
+
+function runShortAnswer(host, topic){
+  const qs = topic.shortAnswer.questions;
+  let qi = 0, correct = 0, showingPassage = true;
+
+  function drawPassage(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="passage-cap">Read the notice</div>
+        <div class="passage ur">${topic.shortAnswer.passage.replace(/\n/g,"<br>")}</div>
+        <div class="btn-row"><button class="btn primary" id="toQ">Answer questions</button></div>
+      </div>
+    `;
+    document.getElementById("toQ").addEventListener("click", ()=>{ showingPassage=false; drawQ(); });
+  }
+
+  function drawQ(){
+    if(qi >= qs.length){
+      setRsResult(topic.id, "short", correct, qs.length);
+      const stars = rsStars(topic.id, "short");
+      const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+      host.innerHTML = `
+        <div class="card summary">
+          <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+          <h2>${correct} / ${qs.length} correct</h2>
+          ${medalHtml(stars)}
+          <p>${line}</p>
+          <div class="btn-row">
+            <button class="btn" id="retryBtn">Try again</button>
+            <button class="btn primary" id="backBtn">Back</button>
+          </div>
+        </div>
+      `;
+      document.getElementById("retryBtn").addEventListener("click", ()=>{ qi=0; correct=0; drawPassage(); });
+      document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"readingskills", topicId:topic.id, mode:"hub" }));
+      return;
+    }
+    const q = qs[qi];
+    host.innerHTML = `
+      ${dotsHtml(qs.length, qi)}
+      <div class="card">
+        <div class="qmeta"><span>Question ${qi+1} of ${qs.length}</span><span>Short Answer</span></div>
+        <div class="passage ur" style="font-size:16px;margin-bottom:14px;opacity:.85;">${topic.shortAnswer.passage.replace(/\n/g,"<br>")}</div>
+        <div class="prompt-ur ur">${q.q}</div>
+        <input type="text" id="saInput" class="nick-input ur" dir="rtl" placeholder="اپنا جواب یہاں لکھیں..." autocomplete="off" />
+        <div class="btn-row"><button class="btn primary" id="checkBtn">Check</button></div>
+        <div id="fb"></div>
+      </div>
+    `;
+    const input = document.getElementById("saInput");
+    input.focus();
+    const check = ()=>{
+      const ok = isShortAnswerCorrect(input.value, q.answers);
+      if(ok) correct++;
+      input.disabled = true;
+      document.getElementById("checkBtn").disabled = true;
+      document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok?'Correct!':'Accepted answer: '+q.answers[0]}</div>`;
+      setTimeout(()=>{ qi++; drawQ(); }, 1100);
+    };
+    document.getElementById("checkBtn").addEventListener("click", check);
+    input.addEventListener("keydown", e=>{ if(e.key==="Enter") check(); });
+  }
+
+  drawPassage();
+}
+
+function runMultipleMatching(host, topic){
+  const { paragraphs, statements } = topic.multipleMatching;
+  const picks = new Array(statements.length).fill(null);
+
+  function draw(){
+    const allPicked = picks.every(p=>p!==null);
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Paragraphs</div>
+        ${paragraphs.map(p=>`<div class="sample-block"><span class="sample-cap" style="direction:rtl;text-align:right;">${p.label}</span><div class="ur sample-text">${p.ur}</div></div>`).join("")}
+      </div>
+      <div class="card">
+        <div class="rule-title">Match each statement to a paragraph</div>
+        ${statements.map((s,i)=>`
+          <div class="sample-block">
+            <div class="ur" style="font-size:18px;margin-bottom:10px;">${s.ur}</div>
+            <div class="bank" style="direction:ltr;justify-content:flex-start;">
+              ${paragraphs.map(p=>`<span class="tile ${picks[i]===p.label?'placed':''}" data-si="${i}" data-label="${p.label}">${p.label}</span>`).join("")}
+            </div>
+          </div>
+        `).join("")}
+        <div class="btn-row"><button class="btn primary" id="checkBtn" ${allPicked?'':'disabled'}>Check</button></div>
+        <div id="fb"></div>
+      </div>
+    `;
+    host.querySelectorAll(".tile[data-si]").forEach(el=>{
+      el.addEventListener("click", ()=>{
+        picks[Number(el.dataset.si)] = el.dataset.label;
+        draw();
+      });
+    });
+    const checkBtn = document.getElementById("checkBtn");
+    if(checkBtn) checkBtn.addEventListener("click", ()=>{
+      const correct = statements.filter((s,i)=> picks[i]===s.match).length;
+      setRsResult(topic.id, "matching", correct, statements.length);
+      const stars = rsStars(topic.id, "matching");
+      const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+      host.innerHTML = `
+        <div class="card summary">
+          <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+          <h2>${correct} / ${statements.length} correct</h2>
+          ${medalHtml(stars)}
+          <p>${line}</p>
+          <div class="btn-row">
+            <button class="btn" id="retryBtn">Try again</button>
+            <button class="btn primary" id="backBtn">Back</button>
+          </div>
+        </div>
+      `;
+      document.getElementById("retryBtn").addEventListener("click", ()=> runMultipleMatching(host, topic));
+      document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"readingskills", topicId:topic.id, mode:"hub" }));
+    });
+  }
+  draw();
+}
+
+function runNoteMaking(host, topic){
+  const { passage, headings, modelNotes, checklist } = topic.noteMaking;
+  let showingModel = false;
+
+  function drawWriting(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="passage-cap">Read the passage</div>
+        <div class="passage ur">${passage}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Make notes under each heading</div>
+        <p class="rule-explain">Jot down key points — short phrases, not full sentences.</p>
+        ${headings.map(h=>`
+          <div style="margin-bottom:14px;">
+            <div class="ur" style="font-weight:700;font-size:17px;margin-bottom:6px;">${h.ur}</div>
+            <textarea class="creative-ta" dir="rtl" data-headingkey="${h.key}" placeholder="نکات یہاں لکھیں..." style="min-height:70px;font-size:16px;"></textarea>
+          </div>
+        `).join("")}
+        <div class="btn-row"><button class="btn primary" id="compareBtn">Compare with model notes</button></div>
+      </div>
+    `;
+    document.getElementById("compareBtn").addEventListener("click", ()=>{ showingModel=true; drawCompare(); });
+  }
+
+  function drawCompare(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Model notes</div>
+        ${headings.map(h=>`
+          <div class="sample-block">
+            <div class="sample-cap" style="direction:rtl;text-align:right;font-size:15px;">${h.ur}</div>
+            <ul class="checklist" style="direction:rtl;text-align:right;padding-inline-start:0;padding-inline-end:20px;">
+              ${(modelNotes[h.key]||[]).map(pt=>`<li class="ur">${pt}</li>`).join("")}
+            </ul>
+          </div>
+        `).join("")}
+      </div>
+      <div class="card">
+        <div class="rule-title">Self-check</div>
+        <ul class="checklist">${checklist.map(c=>`<li class="ur" style="direction:rtl;text-align:right;">${c}</li>`).join("")}</ul>
+        <p class="rule-explain">Rate your own attempt honestly — this isn't auto-scored, since note-making has no single correct answer.</p>
+        <div class="btn-row">
+          <button class="btn" data-rate="1">Needs work</button>
+          <button class="btn" data-rate="2">Good</button>
+          <button class="btn primary" data-rate="3">Excellent</button>
+        </div>
+      </div>
+    `;
+    host.querySelectorAll("[data-rate]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        setRsSelfRating(topic.id, "notes", Number(btn.dataset.rate));
+        go({ view:"readingskills", topicId:topic.id, mode:"hub" });
+      });
+    });
+  }
+
+  drawWriting();
+}
+
+/* ======================================================================
    SUMMARY (shared)
    ====================================================================== */
 function renderSummary(host, topic, sectionKey, correct, total, onRetry){
@@ -1425,6 +1738,7 @@ function render(){
   else if(route.view === "skill") renderSkill();
   else if(route.view === "leaderboard") renderLeaderboard();
   else if(route.view === "vocabpractice") renderVocabPractice();
+  else if(route.view === "readingskills") renderReadingSkills();
   else renderTopic();
 }
 
