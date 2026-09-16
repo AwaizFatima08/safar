@@ -154,7 +154,31 @@ function computeMedalTotals(){
     const m = medalForStars(rsStars(t.id, key));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   }));
+  GRAMMAR_LAB.forEach(t=> ["cloze","transform"].forEach(key=>{
+    const m = medalForStars(glStars(t.id, key));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  }));
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   GRAMMAR LAB — progress data layer
+   Matches 3248 Paper 2, Ex.1-2 (sentence transformation + multiple-choice
+   cloze). Unlike Reading Skills, this DOES get difficulty levels — it's
+   supporting skill-building rather than a fixed exam simulation, per
+   docs/new-categories-design-3248.md. Both exercise types auto-score.
+   ====================================================================== */
+function glStars(topicId, key){
+  const p = progress[topicId] && progress[topicId]["gl_"+key];
+  return p ? p.stars : 0;
+}
+function setGlResult(topicId, key, correct, total){
+  if(!progress[topicId]) progress[topicId] = {};
+  const pct = total ? correct/total : 0;
+  const stars = pct >= 0.9 ? 3 : pct >= 0.7 ? 2 : pct >= 0.5 ? 1 : 0;
+  progress[topicId]["gl_"+key] = { correct, total, stars, done:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
 }
 
 /* ======================================================================
@@ -481,6 +505,7 @@ function renderHome(){
   const tab = route.homeTab === "skills" ? "skills"
     : route.homeTab === "vocab" ? "vocab"
     : route.homeTab === "reading-skills" ? "reading-skills"
+    : route.homeTab === "grammar-lab" ? "grammar-lab"
     : "essays";
 
   app.innerHTML = `
@@ -507,6 +532,9 @@ function renderHome(){
       <button class="tab ${tab==='reading-skills'?'active':''}" data-hometab="reading-skills">
         <span>Reading Skills <span class="ur">مطالعہ کی مہارت</span></span>
       </button>
+      <button class="tab ${tab==='grammar-lab'?'active':''}" data-hometab="grammar-lab">
+        <span>Grammar Lab <span class="ur">قواعد کی مشق</span></span>
+      </button>
     </div>
 
     <div id="homeTabHost"></div>
@@ -532,7 +560,37 @@ function renderHome(){
   if(tab === "essays") drawEssaysGrid(host);
   else if(tab === "vocab") drawVocabPracticeGrid(host);
   else if(tab === "reading-skills") drawReadingSkillsGrid(host);
+  else if(tab === "grammar-lab") drawGrammarLabGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawGrammarLabGrid(host){
+  const maxStars = GRAMMAR_LAB.length * 6;
+  const stars = GRAMMAR_LAB.reduce((s,t)=> s + ["cloze","transform"].reduce((s2,k)=> s2 + glStars(t.id,k), 0), 0);
+  const msg = GRAMMAR_LAB.length
+    ? "Sentence transformation and cloze passages from Paper 2 — pick a difficulty and practise."
+    : "More topics are added here over time — this category is still growing.";
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${stars}/${maxStars}</span><span class="lab">Stars</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">${msg}</div>
+    </div>
+    <div class="topic-grid">
+      ${GRAMMAR_LAB.map(t=>{
+        const total = ["cloze","transform"].reduce((s,k)=> s + glStars(t.id,k), 0);
+        return `
+        <div class="topic-card" data-gltopic="${t.id}">
+          <div class="ur-title ur">${t.ur}</div>
+          <div class="en-title">${t.en}</div>
+          ${starsHtml(total, 6)}
+        </div>`;
+      }).join("")}
+    </div>
+  `;
+  host.querySelectorAll("[data-gltopic]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"grammarlab", topicId: el.dataset.gltopic, mode:"hub", level:"medium" }));
+  });
 }
 
 function drawReadingSkillsGrid(host){
@@ -1304,6 +1362,221 @@ function runNoteMaking(host, topic){
 }
 
 /* ======================================================================
+   GRAMMAR LAB VIEW
+   Matches 3248 Paper 2, Ex.1-2. Piloted on one topic, per the locked
+   build order — see docs/new-categories-design-3248.md. Unlike Reading
+   Skills, this keeps difficulty levels (Easy/Medium/Hard), same as
+   Essay topics, since it's supporting skill-building rather than a
+   fixed exam simulation.
+   ====================================================================== */
+function renderGrammarLab(){
+  const topic = GRAMMAR_LAB.find(t=>t.id===route.topicId);
+  const mode = route.mode || "hub";
+  const level = route.level || "medium";
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Grammar Lab</button>
+    </div>
+    <div class="topic-head">
+      <span class="ur-title ur">${topic.ur}</span>
+      <span class="en-title">${topic.en}</span>
+    </div>
+    <div class="level-row">
+      <span class="level-label">Difficulty</span>
+      <div class="level-bar">
+        ${LEVELS.map(l => `<button class="level-btn ${l.key===level?'active':''}" data-level="${l.key}">${l.en}</button>`).join("")}
+      </div>
+    </div>
+    <div id="glHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"grammar-lab" }));
+  app.querySelectorAll(".level-btn").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"grammarlab", topicId:topic.id, mode, level: el.dataset.level }));
+  });
+  const host = document.getElementById("glHost");
+  if(mode === "cloze") runCloze(host, topic, level);
+  else if(mode === "transform") runTransformation(host, topic, level);
+  else drawGrammarLabHub(host, topic, level);
+}
+
+function drawGrammarLabHub(host, topic, level){
+  host.innerHTML = `
+    <div class="topic-grid">
+      <div class="topic-card" data-glmode="cloze">
+        <div class="vp-card-title">Cloze Passage</div>
+        <div class="vp-card-desc">${topic.cloze.gaps.length} gaps — choose the correct word in context</div>
+        ${starsHtml(glStars(topic.id,"cloze"), 3)}
+      </div>
+      <div class="topic-card" data-glmode="transform">
+        <div class="vp-card-title">Sentence Transformation</div>
+        <div class="vp-card-desc">${topic.transformation.length} sentences — rewrite as instructed</div>
+        ${starsHtml(glStars(topic.id,"transform"), 3)}
+      </div>
+    </div>
+  `;
+  host.querySelectorAll("[data-glmode]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"grammarlab", topicId: topic.id, mode: el.dataset.glmode, level }));
+  });
+}
+
+function runCloze(host, topic, level){
+  const cfg = levelCfg(level);
+  function showPassage(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="passage-cap">Read the passage</div>
+        <div class="passage ur">${topic.cloze.passage}</div>
+        ${cfg.hint ? `<div class="translation-hint" style="direction:rtl;">Hint: ${topic.grammarPoint.ur} — ${topic.grammarPoint.en}</div>` : ''}
+        <div class="btn-row"><button class="btn primary" id="toGaps">Fill in the gaps</button></div>
+      </div>
+    `;
+    document.getElementById("toGaps").addEventListener("click", runGaps);
+  }
+
+  function runGaps(){
+    const gaps = topic.cloze.gaps;
+    let gi = 0, correct = 0, extraDone = false;
+    const total = gaps.length + (cfg.creative ? 1 : 0);
+    function drawQ(){
+      if(gi >= gaps.length){
+        if(cfg.creative && !extraDone){
+          renderCreativeStep(
+            host,
+            "اس قواعد کے اصول کو استعمال کرتے ہوئے اپنا ایک نیا جملہ لکھیں۔",
+            "Using one of this passage's grammar rules, write one new sentence of your own.",
+            ()=>{ extraDone=true; correct++; finish(); }
+          );
+          return;
+        }
+        finish();
+        return;
+      }
+      const g = gaps[gi];
+      const sliced = sliceOptions(g.opts, g.a, cfg.optCount);
+      host.innerHTML = `
+        ${dotsHtml(total, gi)}
+        <div class="card">
+          <div class="qmeta"><span>Gap (${gi+1}) of ${gaps.length}</span><span>Cloze</span></div>
+          <div class="passage ur" style="font-size:16px;margin-bottom:14px;opacity:.85;">${topic.cloze.passage}</div>
+          <div class="translation-hint" style="direction:ltr;">Choose the correct word for gap (${gi+1})</div>
+          <div class="options">
+            ${sliced.opts.map((o,idx)=>`<button class="opt ur" data-idx="${idx}">${o}</button>`).join("")}
+          </div>
+          <div id="fb"></div>
+        </div>
+      `;
+      host.querySelectorAll(".opt").forEach(btn=>{
+        btn.addEventListener("click", ()=>{
+          const idx = Number(btn.dataset.idx);
+          const ok = idx === sliced.a;
+          if(ok) correct++;
+          host.querySelectorAll(".opt").forEach((b,bi)=>{
+            b.disabled = true;
+            if(bi===sliced.a) b.classList.add("correct");
+            else if(bi===idx) b.classList.add("wrong");
+          });
+          document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok?'Correct!':'Correct answer: '+sliced.opts[sliced.a]+' — '+g.en}</div>`;
+          setTimeout(()=>{ gi++; drawQ(); }, 1100);
+        });
+      });
+    }
+    function finish(){
+      setGlResult(topic.id, "cloze", correct, total);
+      const stars = glStars(topic.id, "cloze");
+      const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+      host.innerHTML = `
+        <div class="card summary">
+          <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+          <h2>${correct} / ${total} correct</h2>
+          ${medalHtml(stars)}
+          <p>${line}</p>
+          <div class="btn-row">
+            <button class="btn" id="retryBtn">Try again</button>
+            <button class="btn primary" id="backBtn">Back</button>
+          </div>
+        </div>
+      `;
+      document.getElementById("retryBtn").addEventListener("click", ()=> runCloze(host, topic, level));
+      document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"grammarlab", topicId:topic.id, mode:"hub", level }));
+    }
+    drawQ();
+  }
+
+  showPassage();
+}
+
+function runTransformation(host, topic, level){
+  const cfg = levelCfg(level);
+  const items = topic.transformation;
+  let ti = 0, correct = 0, extraDone = false;
+  const total = items.length + (cfg.creative ? 1 : 0);
+
+  function drawQ(){
+    if(ti >= items.length){
+      if(cfg.creative && !extraDone){
+        renderCreativeStep(
+          host,
+          `${topic.grammarPoint.ur} کے اصول پر مبنی اپنا ایک نیا جملہ لکھیں۔`,
+          `Write one new sentence of your own applying one of this topic's grammar rules (${topic.grammarPoint.en}).`,
+          ()=>{ extraDone=true; correct++; finish(); }
+        );
+        return;
+      }
+      finish();
+      return;
+    }
+    const item = items[ti];
+    host.innerHTML = `
+      ${dotsHtml(total, ti)}
+      <div class="card">
+        <div class="qmeta"><span>Sentence ${ti+1} of ${items.length}</span><span>Transformation</span></div>
+        ${cfg.hint ? `<div class="translation-hint" style="direction:ltr;">Hint: ${topic.grammarPoint.en}</div>` : ''}
+        <div class="translation-hint">"${item.en}"</div>
+        <div class="prompt-ur ur">${item.original}</div>
+        <div class="translation-hint ur" style="font-size:15px;font-weight:600;color:var(--ink);direction:rtl;">${item.instruction_ur} <span style="color:var(--ink-soft);font-weight:400;">(${item.instruction_en})</span></div>
+        <input type="text" id="tInput" class="nick-input ur" dir="rtl" placeholder="اپنا جواب یہاں لکھیں..." autocomplete="off" />
+        <div class="btn-row"><button class="btn primary" id="checkBtn">Check</button></div>
+        <div id="fb"></div>
+      </div>
+    `;
+    const input = document.getElementById("tInput");
+    input.focus();
+    const check = ()=>{
+      const ok = isShortAnswerCorrect(input.value, item.answers);
+      if(ok) correct++;
+      input.disabled = true;
+      document.getElementById("checkBtn").disabled = true;
+      document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok?'Correct!':'Accepted answer: '+item.answers[0]}</div>`;
+      setTimeout(()=>{ ti++; drawQ(); }, 1200);
+    };
+    document.getElementById("checkBtn").addEventListener("click", check);
+    input.addEventListener("keydown", e=>{ if(e.key==="Enter") check(); });
+  }
+
+  function finish(){
+    setGlResult(topic.id, "transform", correct, total);
+    const stars = glStars(topic.id, "transform");
+    const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+    host.innerHTML = `
+      <div class="card summary">
+        <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+        <h2>${correct} / ${total} correct</h2>
+        ${medalHtml(stars)}
+        <p>${line}</p>
+        <div class="btn-row">
+          <button class="btn" id="retryBtn">Try again</button>
+          <button class="btn primary" id="backBtn">Back</button>
+        </div>
+      </div>
+    `;
+    document.getElementById("retryBtn").addEventListener("click", ()=> runTransformation(host, topic, level));
+    document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"grammarlab", topicId:topic.id, mode:"hub", level }));
+  }
+
+  drawQ();
+}
+
+/* ======================================================================
    SUMMARY (shared)
    ====================================================================== */
 function renderSummary(host, topic, sectionKey, correct, total, onRetry){
@@ -1739,6 +2012,7 @@ function render(){
   else if(route.view === "leaderboard") renderLeaderboard();
   else if(route.view === "vocabpractice") renderVocabPractice();
   else if(route.view === "readingskills") renderReadingSkills();
+  else if(route.view === "grammarlab") renderGrammarLab();
   else renderTopic();
 }
 

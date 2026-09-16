@@ -1,0 +1,56 @@
+{
+  "id": "home-family",
+  "ur": "گھر اور خاندان",
+  "en": "Home & Family",
+
+  "grammarPoint": { "ur": "فعل کی مطابقت، زمانہ، اور اضافی حروف", "en": "Verb agreement, tense, and postpositions" },
+
+  "cloze": {
+    "passage": "ہر روز صبح احمد کا خاندان جلدی (1)_____ ہے۔ اس کی والدہ ناشتہ (2)_____ ہیں اور والد اخبار (3)_____ ہیں۔ احمد اپنی بہن (4)_____ زیادہ لمبا ہے۔ وہ اپنے دوستوں کے (5)_____ کرکٹ کھیلتا ہے۔",
+    "gaps": [
+      { "opts": ["جاگتا", "جاگتی", "جاگتے", "جاگا"], "a": 0, "en": "wakes up — agrees with خاندان (masculine singular)" },
+      { "opts": ["بناتا", "بناتی", "بناتے", "بنایا"], "a": 1, "en": "makes — agrees with والدہ (feminine)" },
+      { "opts": ["پڑھتی", "پڑھتا", "پڑھتے", "پڑھو"], "a": 2, "en": "reads — respectful plural form for والد" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" },
+      { "opts": ["ساتھ", "پاس", "لیے", "طرف"], "a": 0, "en": "with — کے ساتھ means \"with\"" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "احمد سکول جاتا ہے۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["احمد سکول نہیں جاتا", "احمد سکول نہیں جاتا۔"],
+      "en": "Ahmed goes to school."
+    },
+    {
+      "original": "میری والدہ ناشتہ بناتی ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["میری والدہ نے ناشتہ بنایا", "میری والدہ نے ناشتہ بنایا۔"],
+      "en": "My mother makes breakfast."
+    },
+    {
+      "original": "بچے باغ میں کھیلتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["بچے باغ میں کھیلیں گے", "بچے باغ میں کھیلیں گے۔"],
+      "en": "The children play in the garden."
+    },
+    {
+      "original": "وہ کتاب پڑھتا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا وہ کتاب پڑھتا ہے", "کیا وہ کتاب پڑھتا ہے؟"],
+      "en": "He reads a book."
+    },
+    {
+      "original": "میں روزانہ ورزش کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["روزانہ ورزش کریں", "روزانہ ورزش کریں۔"],
+      "en": "I exercise daily."
+    }
+  ]
+}
