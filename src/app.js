@@ -162,7 +162,29 @@ function computeMedalTotals(){
     const m = medalForStars(trStars(t.id, key));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   }));
+  SUMMARY_WRITING.forEach(t=>{
+    const m = medalForStars(swStars(t.id));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  });
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   SUMMARY WRITING — progress data layer
+   Matches 3248 Paper 1, Ex.4 (condense a passage to <=100 words, own
+   words). Single self-assessed exercise per entry — no auto-scorable
+   variant, since summarizing is inherently open-ended. See
+   docs/new-categories-design-3248.md.
+   ====================================================================== */
+function swStars(topicId){
+  const p = progress[topicId] && progress[topicId]["sw"];
+  return p ? p.stars : 0;
+}
+function setSwSelfRating(topicId, stars){
+  if(!progress[topicId]) progress[topicId] = {};
+  progress[topicId]["sw"] = { stars, done:true, selfAssessed:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
 }
 
 /* ======================================================================
@@ -539,6 +561,7 @@ function renderHome(){
     : route.homeTab === "reading-skills" ? "reading-skills"
     : route.homeTab === "grammar-lab" ? "grammar-lab"
     : route.homeTab === "translation" ? "translation"
+    : route.homeTab === "summary-writing" ? "summary-writing"
     : "essays";
 
   app.innerHTML = `
@@ -571,6 +594,9 @@ function renderHome(){
       <button class="tab ${tab==='translation'?'active':''}" data-hometab="translation">
         <span>Translation <span class="ur">ترجمہ</span></span>
       </button>
+      <button class="tab ${tab==='summary-writing'?'active':''}" data-hometab="summary-writing">
+        <span>Summary Writing <span class="ur">خلاصہ نویسی</span></span>
+      </button>
     </div>
 
     <div id="homeTabHost"></div>
@@ -598,7 +624,34 @@ function renderHome(){
   else if(tab === "reading-skills") drawReadingSkillsGrid(host);
   else if(tab === "grammar-lab") drawGrammarLabGrid(host);
   else if(tab === "translation") drawTranslationGrid(host);
+  else if(tab === "summary-writing") drawSummaryWritingGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawSummaryWritingGrid(host){
+  const maxStars = SUMMARY_WRITING.length * 3;
+  const stars = SUMMARY_WRITING.reduce((s,t)=> s + swStars(t.id), 0);
+  const msg = SUMMARY_WRITING.length
+    ? "Condense a passage to 100 words or fewer, in your own words — self-assessed against a model summary."
+    : "More topics are added here over time — this category is still growing.";
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${stars}/${maxStars}</span><span class="lab">Stars</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">${msg}</div>
+    </div>
+    <div class="topic-grid">
+      ${SUMMARY_WRITING.map(t=>`
+        <div class="topic-card" data-swtopic="${t.id}">
+          <div class="ur-title ur">${t.ur}</div>
+          <div class="en-title">${t.en}</div>
+          ${starsHtml(swStars(t.id), 3)}
+        </div>`).join("")}
+    </div>
+  `;
+  host.querySelectorAll("[data-swtopic]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"summarywriting", topicId: el.dataset.swtopic }));
+  });
 }
 
 function drawTranslationGrid(host){
@@ -1813,6 +1866,74 @@ function runTranslationPassage(host, topic){
 }
 
 /* ======================================================================
+   SUMMARY WRITING VIEW
+   Matches 3248 Paper 1, Ex.4. Piloted on one topic, per the locked
+   build order — see docs/new-categories-design-3248.md. Only one
+   exercise shape (unlike Reading Skills/Translation), so no hub screen
+   — goes straight into the write -> compare -> self-rate flow.
+   ====================================================================== */
+function renderSummaryWriting(){
+  const topic = SUMMARY_WRITING.find(t=>t.id===route.topicId);
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Summary Writing</button>
+    </div>
+    <div class="topic-head">
+      <span class="ur-title ur">${topic.ur}</span>
+      <span class="en-title">${topic.en}</span>
+    </div>
+    <div id="swHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"summary-writing" }));
+  runSummaryWriting(document.getElementById("swHost"), topic);
+}
+
+function runSummaryWriting(host, topic){
+  function drawWriting(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="passage-cap">Read the passage</div>
+        <div class="passage ur">${topic.passage.replace(/\n/g,"<br><br>")}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Your summary</div>
+        <p class="rule-explain">In your own words, no more than 100 words.</p>
+        <textarea class="creative-ta" dir="rtl" id="swInput" placeholder="اپنا خلاصہ یہاں لکھیں..." style="min-height:120px;"></textarea>
+        <div class="btn-row"><button class="btn primary" id="compareBtn">Compare with model summary</button></div>
+      </div>
+    `;
+    document.getElementById("compareBtn").addEventListener("click", drawCompare);
+  }
+
+  function drawCompare(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Model summary</div>
+        <div class="ur sample-text">${topic.modelSummary}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Self-check</div>
+        <ul class="checklist">${topic.checklist.map(c=>`<li class="ur" style="direction:rtl;text-align:right;">${c}</li>`).join("")}</ul>
+        <p class="rule-explain">Rate your own attempt honestly — summarizing well isn't something the app can auto-grade.</p>
+        <div class="btn-row">
+          <button class="btn" data-rate="1">Needs work</button>
+          <button class="btn" data-rate="2">Good</button>
+          <button class="btn primary" data-rate="3">Excellent</button>
+        </div>
+      </div>
+    `;
+    host.querySelectorAll("[data-rate]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        setSwSelfRating(topic.id, Number(btn.dataset.rate));
+        go({ view:"home", homeTab:"summary-writing" });
+      });
+    });
+  }
+
+  drawWriting();
+}
+
+/* ======================================================================
    SUMMARY (shared)
    ====================================================================== */
 function renderSummary(host, topic, sectionKey, correct, total, onRetry){
@@ -2250,6 +2371,7 @@ function render(){
   else if(route.view === "readingskills") renderReadingSkills();
   else if(route.view === "grammarlab") renderGrammarLab();
   else if(route.view === "translation") renderTranslation();
+  else if(route.view === "summarywriting") renderSummaryWriting();
   else renderTopic();
 }
 
