@@ -1,0 +1,44 @@
+{
+  "id": "home-family",
+  "ur": "گھر اور خاندان",
+  "en": "Home & Family",
+
+  "warmup": [
+    {
+      "en": "My family is very happy.",
+      "bank": ["ہے", "میرا", "خوش", "بہت", "خاندان"],
+      "answer": ["میرا", "خاندان", "بہت", "خوش", "ہے"]
+    },
+    {
+      "en": "Our house has a big garden.",
+      "bank": ["باغ", "میں", "بڑا", "ہمارے", "ایک", "گھر", "ہے"],
+      "answer": ["ہمارے", "گھر", "میں", "ایک", "بڑا", "باغ", "ہے"]
+    },
+    {
+      "en": "My mother cooks food every day.",
+      "bank": ["بناتی", "روزانہ", "میری", "کھانا", "ہیں", "والدہ"],
+      "answer": ["میری", "والدہ", "روزانہ", "کھانا", "بناتی", "ہیں"]
+    },
+    {
+      "en": "My brother goes to school.",
+      "bank": ["جاتا", "سکول", "میرا", "ہے", "بھائی"],
+      "answer": ["میرا", "بھائی", "سکول", "جاتا", "ہے"]
+    },
+    {
+      "en": "We play together in the evening.",
+      "bank": ["اکٹھے", "شام", "ہم", "کھیلتے", "کو", "ہیں"],
+      "answer": ["ہم", "شام", "کو", "اکٹھے", "کھیلتے", "ہیں"]
+    }
+  ],
+
+  "passage": {
+    "en": "Family life plays an important role in every society. In most homes, parents work hard to provide food, education, and comfort for their children. Children, in turn, learn respect and good manners from their elders. Every evening, many families sit together to share a meal and talk about their day. This simple habit helps to strengthen relationships and build trust between parents and children. Grandparents often share stories from the past, teaching young family members about their culture and traditions. During holidays and festivals, family members visit each other and celebrate together. Although modern life keeps people busy with work and studies, spending time with family remains one of the most valuable parts of daily life. A strong family bond gives children confidence and support throughout their lives.",
+    "modelUr": "خاندانی زندگی ہر معاشرے میں اہم کردار ادا کرتی ہے۔ زیادہ تر گھروں میں والدین اپنے بچوں کے لیے کھانا، تعلیم اور آرام فراہم کرنے کے لیے سخت محنت کرتے ہیں۔ بدلے میں بچے اپنے بڑوں سے احترام اور اچھے اخلاق سیکھتے ہیں۔ ہر شام بہت سے خاندان اکٹھے بیٹھ کر کھانا کھاتے ہیں اور اپنے دن کے بارے میں باتیں کرتے ہیں۔ یہ سادہ عادت رشتوں کو مضبوط بنانے اور والدین اور بچوں کے درمیان اعتماد پیدا کرنے میں مدد دیتی ہے۔ دادا دادی اکثر ماضی کی کہانیاں سناتے ہیں اور نوجوان اہلِ خانہ کو اپنی ثقافت اور روایات کے بارے میں سکھاتے ہیں۔ تہواروں اور چھٹیوں کے دوران خاندان کے افراد ایک دوسرے سے ملتے ہیں اور اکٹھے جشن مناتے ہیں۔ اگرچہ جدید زندگی لوگوں کو کام اور پڑھائی میں مصروف رکھتی ہے، خاندان کے ساتھ وقت گزارنا روزمرہ زندگی کے قیمتی ترین حصوں میں سے ایک ہے۔ ایک مضبوط خاندانی رشتہ بچوں کو زندگی بھر اعتماد اور سہارا دیتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

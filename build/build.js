@@ -25,6 +25,7 @@ const SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "points", "samples", "practice"
 const IDIOM_REQUIRED_FIELDS = ["id", "ur", "meaning_ur", "meaning_en", "example_ur", "example_en"];
 const READING_SKILL_REQUIRED_FIELDS = ["id", "ur", "en", "shortAnswer", "multipleMatching", "noteMaking"];
 const GRAMMAR_LAB_REQUIRED_FIELDS = ["id", "ur", "en", "grammarPoint", "cloze", "transformation"];
+const TRANSLATION_REQUIRED_FIELDS = ["id", "ur", "en", "warmup", "passage"];
 
 function loadContent(kind, requiredFields) {
   const dir = path.join(CONTENT_DIR, kind);
@@ -104,7 +105,8 @@ function main() {
   const idioms = loadFlatContent("idioms", "idioms.json", IDIOM_REQUIRED_FIELDS);
   const readingSkills = loadContent("reading-skills", READING_SKILL_REQUIRED_FIELDS);
   const grammarLab = loadContent("grammar-lab", GRAMMAR_LAB_REQUIRED_FIELDS);
-  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms, ${readingSkills.length} reading-skills entries, ${grammarLab.length} grammar-lab entries`);
+  const translation = loadContent("translation", TRANSLATION_REQUIRED_FIELDS);
+  console.log(`  ${topics.length} topics, ${skills.length} skills, ${idioms.length} idioms, ${readingSkills.length} reading-skills entries, ${grammarLab.length} grammar-lab entries, ${translation.length} translation entries`);
 
   console.log("Reading source files...");
   const styles = fs.readFileSync(path.join(SRC_DIR, "styles.css"), "utf8");
@@ -116,7 +118,8 @@ function main() {
     `const SKILLS = ${JSON.stringify(skills)};\n` +
     `const IDIOMS = ${JSON.stringify(idioms)};\n` +
     `const READING_SKILLS = ${JSON.stringify(readingSkills)};\n` +
-    `const GRAMMAR_LAB = ${JSON.stringify(grammarLab)};\n`;
+    `const GRAMMAR_LAB = ${JSON.stringify(grammarLab)};\n` +
+    `const TRANSLATION = ${JSON.stringify(translation)};\n`;
 
   const finalJs = appJs.replace("/* __CONTENT_INJECTION_POINT__ */", contentJs);
   if (finalJs === appJs) {

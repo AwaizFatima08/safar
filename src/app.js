@@ -158,7 +158,39 @@ function computeMedalTotals(){
     const m = medalForStars(glStars(t.id, key));
     if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
   }));
+  TRANSLATION.forEach(t=> ["warmup","passage"].forEach(key=>{
+    const m = medalForStars(trStars(t.id, key));
+    if(m==="gold") gold++; else if(m==="silver") silver++; else if(m==="bronze") bronze++;
+  }));
   return { gold, silver, bronze, score: gold*3 + silver*2 + bronze*1 };
+}
+
+/* ======================================================================
+   TRANSLATION — progress data layer
+   Matches 3248 Paper 2, Ex.4 (English->Urdu) — the exercise the old
+   0539-based plan mistakenly dropped, since 0539 doesn't test
+   translation but 3248 requires it. Warm-up (sentence-builder, auto-
+   scored) is the easier entry point; the full passage is self-assessed,
+   same rationale as Reading Skills' note-making. See
+   docs/new-categories-design-3248.md.
+   ====================================================================== */
+function trStars(topicId, key){
+  const p = progress[topicId] && progress[topicId]["tr_"+key];
+  return p ? p.stars : 0;
+}
+function setTrResult(topicId, key, correct, total){
+  if(!progress[topicId]) progress[topicId] = {};
+  const pct = total ? correct/total : 0;
+  const stars = pct >= 0.9 ? 3 : pct >= 0.7 ? 2 : pct >= 0.5 ? 1 : 0;
+  progress[topicId]["tr_"+key] = { correct, total, stars, done:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
+}
+function setTrSelfRating(topicId, key, stars){
+  if(!progress[topicId]) progress[topicId] = {};
+  progress[topicId]["tr_"+key] = { stars, done:true, selfAssessed:true };
+  saveProgress(progress);
+  refreshPlayerLeaderboardEntry();
 }
 
 /* ======================================================================
@@ -506,6 +538,7 @@ function renderHome(){
     : route.homeTab === "vocab" ? "vocab"
     : route.homeTab === "reading-skills" ? "reading-skills"
     : route.homeTab === "grammar-lab" ? "grammar-lab"
+    : route.homeTab === "translation" ? "translation"
     : "essays";
 
   app.innerHTML = `
@@ -535,6 +568,9 @@ function renderHome(){
       <button class="tab ${tab==='grammar-lab'?'active':''}" data-hometab="grammar-lab">
         <span>Grammar Lab <span class="ur">قواعد کی مشق</span></span>
       </button>
+      <button class="tab ${tab==='translation'?'active':''}" data-hometab="translation">
+        <span>Translation <span class="ur">ترجمہ</span></span>
+      </button>
     </div>
 
     <div id="homeTabHost"></div>
@@ -561,7 +597,37 @@ function renderHome(){
   else if(tab === "vocab") drawVocabPracticeGrid(host);
   else if(tab === "reading-skills") drawReadingSkillsGrid(host);
   else if(tab === "grammar-lab") drawGrammarLabGrid(host);
+  else if(tab === "translation") drawTranslationGrid(host);
   else drawSkillsGrid(host);
+}
+
+function drawTranslationGrid(host){
+  const maxStars = TRANSLATION.length * 6;
+  const stars = TRANSLATION.reduce((s,t)=> s + ["warmup","passage"].reduce((s2,k)=> s2 + trStars(t.id,k), 0), 0);
+  const msg = TRANSLATION.length
+    ? "English to Urdu — sentence warm-ups, then a full passage matching Paper 2's translation exercise."
+    : "More topics are added here over time — this category is still growing.";
+  host.innerHTML = `
+    <div class="overall">
+      <div class="overall-stat"><span class="num">${stars}/${maxStars}</span><span class="lab">Stars</span></div>
+      <div class="overall-div"></div>
+      <div class="overall-msg">${msg}</div>
+    </div>
+    <div class="topic-grid">
+      ${TRANSLATION.map(t=>{
+        const total = ["warmup","passage"].reduce((s,k)=> s + trStars(t.id,k), 0);
+        return `
+        <div class="topic-card" data-trtopic="${t.id}">
+          <div class="ur-title ur">${t.ur}</div>
+          <div class="en-title">${t.en}</div>
+          ${starsHtml(total, 6)}
+        </div>`;
+      }).join("")}
+    </div>
+  `;
+  host.querySelectorAll("[data-trtopic]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"translation", topicId: el.dataset.trtopic, mode:"hub" }));
+  });
 }
 
 function drawGrammarLabGrid(host){
@@ -1577,6 +1643,176 @@ function runTransformation(host, topic, level){
 }
 
 /* ======================================================================
+   TRANSLATION VIEW
+   Matches 3248 Paper 2, Ex.4. Piloted on one topic, per the locked
+   build order — see docs/new-categories-design-3248.md. No difficulty
+   levels: the warm-up/full-passage split already provides the easy-to-
+   hard progression.
+   ====================================================================== */
+function renderTranslation(){
+  const topic = TRANSLATION.find(t=>t.id===route.topicId);
+  const mode = route.mode || "hub";
+  app.innerHTML = `
+    <div class="back-row">
+      <button class="back-btn" id="backHome">&larr; Translation</button>
+    </div>
+    <div class="topic-head">
+      <span class="ur-title ur">${topic.ur}</span>
+      <span class="en-title">${topic.en}</span>
+    </div>
+    <div id="trHost"></div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home", homeTab:"translation" }));
+  const host = document.getElementById("trHost");
+  if(mode === "warmup") runTranslationWarmup(host, topic);
+  else if(mode === "passage") runTranslationPassage(host, topic);
+  else drawTranslationHub(host, topic);
+}
+
+function drawTranslationHub(host, topic){
+  host.innerHTML = `
+    <div class="topic-grid">
+      <div class="topic-card" data-trmode="warmup">
+        <div class="vp-card-title">Sentence Practice</div>
+        <div class="vp-card-desc">${topic.warmup.length} sentences — build the Urdu translation from a word bank</div>
+        ${starsHtml(trStars(topic.id,"warmup"), 3)}
+      </div>
+      <div class="topic-card" data-trmode="passage">
+        <div class="vp-card-title">Passage Translation</div>
+        <div class="vp-card-desc">Self-assessed — translate a full passage, then compare to a model answer</div>
+        ${starsHtml(trStars(topic.id,"passage"), 3)}
+      </div>
+    </div>
+  `;
+  host.querySelectorAll("[data-trmode]").forEach(el=>{
+    el.addEventListener("click", ()=> go({ view:"translation", topicId: topic.id, mode: el.dataset.trmode }));
+  });
+}
+
+function runTranslationWarmup(host, topic){
+  const items = topic.warmup;
+  let ii = 0, correct = 0;
+
+  function drawItem(){
+    if(ii >= items.length){
+      setTrResult(topic.id, "warmup", correct, items.length);
+      const stars = trStars(topic.id, "warmup");
+      const line = stars===3 ? "Excellent work!" : stars===2 ? "Good progress." : stars===1 ? "Keep practising." : "Try again — it will get easier.";
+      host.innerHTML = `
+        <div class="card summary">
+          <div class="big-stars">${'★'.repeat(stars)}${'☆'.repeat(3-stars)}</div>
+          <h2>${correct} / ${items.length} correct</h2>
+          ${medalHtml(stars)}
+          <p>${line}</p>
+          <div class="btn-row">
+            <button class="btn" id="retryBtn">Try again</button>
+            <button class="btn primary" id="backBtn">Back</button>
+          </div>
+        </div>
+      `;
+      document.getElementById("retryBtn").addEventListener("click", ()=> runTranslationWarmup(host, topic));
+      document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"translation", topicId:topic.id, mode:"hub" }));
+      return;
+    }
+    const item = items[ii];
+    const bank = item.bank.map((w,idx)=>({word:w, idx, used:false}));
+    let placed = [];
+
+    function draw(){
+      host.innerHTML = `
+        ${dotsHtml(items.length, ii)}
+        <div class="card">
+          <div class="qmeta"><span>Translate into Urdu</span><span>${ii+1} / ${items.length}</span></div>
+          <div class="translation-hint">"${item.en}"</div>
+          <div class="answer-strip" id="strip">
+            ${placed.length ? placed.map(p=>`<span class="tile placed" data-pos="${p.idx}">${p.word}</span>`).join("") : '<span class="placeholder">Tap the words below in order &rarr;</span>'}
+          </div>
+          <div class="bank" id="bank">
+            ${bank.map(b=>`<span class="tile ${b.used?'used':''}" data-idx="${b.idx}">${b.word}</span>`).join("")}
+          </div>
+          <div class="btn-row">
+            <button class="btn" id="undo" ${placed.length? '' : 'disabled'}>Undo</button>
+            <button class="btn primary" id="check" ${placed.length===item.answer.length?'':'disabled'}>Check</button>
+          </div>
+          <div id="fb"></div>
+        </div>
+      `;
+      host.querySelectorAll("#bank .tile:not(.used)").forEach(el=>{
+        el.addEventListener("click", ()=>{
+          const idx = Number(el.dataset.idx);
+          bank[idx].used = true;
+          placed.push({word:bank[idx].word, idx});
+          draw();
+        });
+      });
+      const undoBtn = document.getElementById("undo");
+      if(undoBtn) undoBtn.addEventListener("click", ()=>{
+        const last = placed.pop();
+        if(last) bank[last.idx].used = false;
+        draw();
+      });
+      const checkBtn = document.getElementById("check");
+      if(checkBtn) checkBtn.addEventListener("click", ()=>{
+        const built = placed.map(p=>p.word);
+        const ok = JSON.stringify(built) === JSON.stringify(item.answer);
+        if(ok) correct++;
+        document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok?'Correct!':'Correct order: '+item.answer.join(' ')}</div>`;
+        host.querySelectorAll("#bank .tile, #undo, #check").forEach(el=> el.style.pointerEvents='none');
+        setTimeout(()=>{ ii++; drawItem(); }, 1200);
+      });
+    }
+    draw();
+  }
+
+  drawItem();
+}
+
+function runTranslationPassage(host, topic){
+  const { en, modelUr, checklist } = topic.passage;
+  function drawWriting(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="passage-cap">Translate this passage into Urdu</div>
+        <div class="passage" style="direction:ltr;text-align:left;font-size:17px;">${en}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Your translation</div>
+        <textarea class="creative-ta" dir="rtl" id="trInput" placeholder="اپنا ترجمہ یہاں لکھیں..." style="min-height:160px;"></textarea>
+        <div class="btn-row"><button class="btn primary" id="compareBtn">Compare with model translation</button></div>
+      </div>
+    `;
+    document.getElementById("compareBtn").addEventListener("click", drawCompare);
+  }
+
+  function drawCompare(){
+    host.innerHTML = `
+      <div class="card">
+        <div class="rule-title">Model translation</div>
+        <div class="ur sample-text">${modelUr}</div>
+      </div>
+      <div class="card">
+        <div class="rule-title">Self-check</div>
+        <ul class="checklist">${checklist.map(c=>`<li class="ur" style="direction:rtl;text-align:right;">${c}</li>`).join("")}</ul>
+        <p class="rule-explain">Rate your own attempt honestly — translation quality isn't something the app can auto-grade.</p>
+        <div class="btn-row">
+          <button class="btn" data-rate="1">Needs work</button>
+          <button class="btn" data-rate="2">Good</button>
+          <button class="btn primary" data-rate="3">Excellent</button>
+        </div>
+      </div>
+    `;
+    host.querySelectorAll("[data-rate]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        setTrSelfRating(topic.id, "passage", Number(btn.dataset.rate));
+        go({ view:"translation", topicId:topic.id, mode:"hub" });
+      });
+    });
+  }
+
+  drawWriting();
+}
+
+/* ======================================================================
    SUMMARY (shared)
    ====================================================================== */
 function renderSummary(host, topic, sectionKey, correct, total, onRetry){
@@ -2013,6 +2249,7 @@ function render(){
   else if(route.view === "vocabpractice") renderVocabPractice();
   else if(route.view === "readingskills") renderReadingSkills();
   else if(route.view === "grammarlab") renderGrammarLab();
+  else if(route.view === "translation") renderTranslation();
   else renderTopic();
 }
 
