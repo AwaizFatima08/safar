@@ -74,7 +74,7 @@ fi
 log "Layer 1: local backup"
 mkdir -p "$LOCAL_BACKUP_ROOT"
 DEST="$LOCAL_BACKUP_ROOT/safar_$TIMESTAMP"
-if rsync -a --exclude 'scripts/backup.log' "$PROJECT_DIR/" "$DEST/"; then
+if rsync -a --exclude 'scripts/backup.log' --exclude-from="$PROJECT_DIR/scripts/backup_exclude.txt" "$PROJECT_DIR/" "$DEST/"; then
   log "  OK — copied to $DEST"
 else
   log "  ERROR — local rsync backup failed"
@@ -102,6 +102,7 @@ else
   if rclone copy "$PROJECT_DIR" "${GDRIVE_REMOTE}:" \
       --drive-root-folder-id "$GDRIVE_FOLDER_ID" \
       --exclude "scripts/backup.log" \
+      --exclude-from "$PROJECT_DIR/scripts/backup_exclude.txt" \
       --update --checksum \
       --log-file="$LOG_FILE" --log-level INFO; then
     log "  OK — synced to Google Drive folder ($GDRIVE_FOLDER_ID)"
