@@ -616,6 +616,7 @@ function renderLeaderboard(){
       <span class="ur-title ur">اسکور بورڈ</span>
       <span class="en-title">Leaderboard</span>
     </div>
+    ${signedIn ? `<div class="btn-row" style="justify-content:flex-end;margin-bottom:10px;"><button class="btn" id="goAccountBtn2" style="font-size:12px;padding:6px 14px;">Account (${fbUser.email})</button></div>` : ""}
     <div class="card group-card">
       <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Friend Group</div>
       ${!signedIn ? `
@@ -637,6 +638,8 @@ function renderLeaderboard(){
   document.getElementById("backHome").addEventListener("click", ()=> go({view:"home", homeTab:backTab}));
   const goAccountBtn = document.getElementById("goAccountBtn");
   if(goAccountBtn) goAccountBtn.addEventListener("click", ()=> go({view:"account", homeTab:backTab}));
+  const goAccountBtn2 = document.getElementById("goAccountBtn2");
+  if(goAccountBtn2) goAccountBtn2.addEventListener("click", ()=> go({view:"account", homeTab:backTab}));
   const createBtn = document.getElementById("createGroupBtn");
   if(createBtn) createBtn.addEventListener("click", async ()=>{
     const name = window.prompt("Name your group (shown to members):", "My Group");
