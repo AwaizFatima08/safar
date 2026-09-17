@@ -1,5 +1,6 @@
 scripts/backup.log
 .secrets/
+.~lock.*#
 *.key
 
 # Node
