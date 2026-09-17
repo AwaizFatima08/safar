@@ -1,0 +1,44 @@
+{
+  "id": "school-life",
+  "ur": "سکول کی زندگی",
+  "en": "School Life",
+
+  "warmup": [
+    {
+      "en": "The teacher teaches us every day.",
+      "bank": ["ہمیں", "روزانہ", "استاد", "پڑھاتے", "ہیں"],
+      "answer": ["استاد", "ہمیں", "روزانہ", "پڑھاتے", "ہیں"]
+    },
+    {
+      "en": "Students study hard for the exam.",
+      "bank": ["محنت", "کے", "طلبہ", "امتحان", "کرتے", "لیے", "سخت", "ہیں"],
+      "answer": ["طلبہ", "امتحان", "کے", "لیے", "سخت", "محنت", "کرتے", "ہیں"]
+    },
+    {
+      "en": "Our school has a big library.",
+      "bank": ["لائبریری", "بڑی", "میں", "ہمارے", "ایک", "سکول", "ہے"],
+      "answer": ["ہمارے", "سکول", "میں", "ایک", "بڑی", "لائبریری", "ہے"]
+    },
+    {
+      "en": "I do my homework every evening.",
+      "bank": ["ہوم", "شام", "ہر", "میں", "کرتا", "ورک", "اپنا", "ہوں"],
+      "answer": ["میں", "ہر", "شام", "اپنا", "ہوم", "ورک", "کرتا", "ہوں"]
+    },
+    {
+      "en": "The class starts at eight o'clock.",
+      "bank": ["بجے", "شروع", "کلاس", "آٹھ", "ہوتی", "ہے"],
+      "answer": ["کلاس", "آٹھ", "بجے", "شروع", "ہوتی", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "School plays a very important part in shaping a young person's character and future. Every day, students attend classes to learn new subjects such as mathematics, science, and languages. Good teachers not only share knowledge but also guide students to develop good habits and values. Besides academic subjects, schools also organize sports, clubs, and cultural activities that help students discover their talents and interests. Working together with classmates on projects teaches children how to cooperate and solve problems as a team. Discipline and punctuality learned at school stay with students throughout their lives. Although studying can sometimes feel difficult or stressful, the friendships and lessons gained during school years remain valuable for a very long time. For this reason, students should make the most of their time at school and respect their teachers and classmates.",
+    "modelUr": "سکول ایک نوجوان کی شخصیت اور مستقبل سنوارنے میں بہت اہم کردار ادا کرتا ہے۔ ہر روز طلبہ ریاضی، سائنس اور زبانوں جیسے نئے مضامین سیکھنے کے لیے کلاسوں میں شرکت کرتے ہیں۔ اچھے اساتذہ نہ صرف علم بانٹتے ہیں بلکہ طلبہ کی اچھی عادات اور اقدار پیدا کرنے میں بھی رہنمائی کرتے ہیں۔ تعلیمی مضامین کے علاوہ، سکول کھیلوں، کلبوں اور ثقافتی سرگرمیوں کا اہتمام بھی کرتے ہیں جو طلبہ کو اپنی صلاحیتوں اور دلچسپیوں کو دریافت کرنے میں مدد دیتے ہیں۔ ساتھی طلبہ کے ساتھ مل کر منصوبوں پر کام کرنا بچوں کو ٹیم کے طور پر تعاون کرنا اور مسائل حل کرنا سکھاتا ہے۔ سکول میں سیکھا گیا نظم و ضبط اور وقت کی پابندی زندگی بھر طلبہ کے ساتھ رہتی ہے۔ اگرچہ پڑھائی کبھی کبھار مشکل یا تھکا دینے والی محسوس ہو سکتی ہے، لیکن سکول کے دنوں کی دوستیاں اور سبق طویل عرصے تک قیمتی رہتے ہیں۔ اسی لیے طلبہ کو اپنے سکول کے وقت سے بھرپور فائدہ اٹھانا چاہیے اور اپنے اساتذہ اور ساتھیوں کا احترام کرنا چاہیے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "school-life",
+  "ur": "سکول کی زندگی",
+  "en": "School Life",
+
+  "grammarPoint": { "ur": "جمع کی صیغہ سازی، سوالیہ حرف، اور اضافی حروف", "en": "Plural agreement, the question particle کیا, and postpositions" },
+
+  "cloze": {
+    "passage": "ہمارا سکول بہت بڑا ہے۔ اس میں پانچ سو طلبہ (1)_____ ہیں۔ ہماری استانی روزانہ نیا سبق (2)_____ ہیں۔ (3)_____ تم نے آج ہوم ورک مکمل کیا؟ ہمیں امتحان کی تیاری کے (4)_____ روزانہ پڑھنا چاہیے۔ ہماری کلاس دوسری کلاسوں (5)_____ زیادہ نظم و ضبط والی ہے۔",
+    "gaps": [
+      { "opts": ["پڑھتا", "پڑھتی", "پڑھتے", "پڑھو"], "a": 2, "en": "study — plural verb agreement with طلبہ (students)" },
+      { "opts": ["پڑھاتا", "پڑھاتی", "پڑھاتے", "پڑھاؤ"], "a": 1, "en": "teaches — feminine respectful agreement with استانی" },
+      { "opts": ["کیا", "کون", "کہاں", "کیوں"], "a": 0, "en": "the question particle کیا turns a statement into a yes/no question" },
+      { "opts": ["لیے", "ساتھ", "پاس", "طرف"], "a": 0, "en": "for — کے لیے means \"for / for the purpose of\"" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "طلبہ سکول جاتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["طلبہ سکول نہیں جاتے", "طلبہ سکول نہیں جاتے۔"],
+      "en": "Students go to school."
+    },
+    {
+      "original": "استانی سبق پڑھاتی ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["استانی نے سبق پڑھایا", "استانی نے سبق پڑھایا۔"],
+      "en": "The teacher teaches the lesson."
+    },
+    {
+      "original": "ہم امتحان دیتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم امتحان دیں گے", "ہم امتحان دیں گے۔"],
+      "en": "We take the exam."
+    },
+    {
+      "original": "تم ہوم ورک کرتے ہو۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم ہوم ورک کرتے ہو", "کیا تم ہوم ورک کرتے ہو؟"],
+      "en": "You do homework."
+    },
+    {
+      "original": "میں روزانہ سکول جاتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["روزانہ سکول جائیں", "روزانہ سکول جائیں۔"],
+      "en": "I go to school daily."
+    }
+  ]
+}
