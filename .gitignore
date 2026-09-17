@@ -10,6 +10,12 @@ www/
 
 # Android build outputs and local machine config (android/app/src, build.gradle etc. ARE tracked)
 android/local.properties
+android/keystore.properties
+
+# Signed release builds (regenerable from source + the keystore in .secrets/;
+# binary build artifacts don't belong in git, but ARE picked up by the
+# local/Drive backup layers since this dir isn't in backup_exclude.txt)
+releases/
 android/.gradle/
 android/app/build/
 android/build/
