@@ -1,0 +1,56 @@
+{
+  "id": "pyramids-egypt",
+  "ur": "مصر کے اہرام",
+  "en": "The Pyramids of Egypt",
+
+  "grammarPoint": { "ur": "فعل مجہول اور مرکب اضافت", "en": "Passive voice and compound postpositions" },
+
+  "cloze": {
+    "passage": "اہرام ہزاروں سال پہلے (1)_____ گئے تھے۔ فرعون کے مقبرے میں قیمتی اشیاء (2)_____ گئی تھیں۔ سیاح ہر سال مصر (3)_____ آتے ہیں۔ اگر آپ مصر جائیں تو اہرام ضرور (4)_____۔ یہ اہرام دنیا کے عجائبات (5)_____ ایک ہے۔",
+    "gaps": [
+      { "opts": ["بنایا", "بنائی", "بنائے", "بناؤ"], "a": 2, "en": "built — passive voice, masculine plural agreement with اہرام" },
+      { "opts": ["دفن کیا", "دفن کی", "دفن کیے", "دفن کرو"], "a": 1, "en": "buried — passive voice, feminine plural agreement with اشیاء" },
+      { "opts": ["دیکھنے", "دیکھا", "دیکھی", "دیکھو"], "a": 0, "en": "to see — infinitive oblique form" },
+      { "opts": ["دیکھیں", "دیکھو", "دیکھا", "دیکھتے"], "a": 0, "en": "see — polite imperative/subjunctive form" },
+      { "opts": ["میں سے", "کے لیے", "کے ساتھ", "پر"], "a": 0, "en": "among — میں سے means \"from among\"" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "اہرام تعمیر ہوتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["اہرام تعمیر نہیں ہوتے", "اہرام تعمیر نہیں ہوتے۔"],
+      "en": "Pyramids are built."
+    },
+    {
+      "original": "مزدور پتھر اٹھاتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["مزدوروں نے پتھر اٹھائے", "مزدوروں نے پتھر اٹھائے۔"],
+      "en": "Workers lift stones."
+    },
+    {
+      "original": "سیاح اہرام دیکھتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["سیاح اہرام دیکھیں گے", "سیاح اہرام دیکھیں گے۔"],
+      "en": "Tourists see the pyramids."
+    },
+    {
+      "original": "تم نے اہرام کی تصویر دیکھی ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے اہرام کی تصویر دیکھی ہے", "کیا تم نے اہرام کی تصویر دیکھی ہے؟"],
+      "en": "You have seen a picture of the pyramids."
+    },
+    {
+      "original": "میں تاریخ کا احترام کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["تاریخ کا احترام کریں", "تاریخ کا احترام کریں۔"],
+      "en": "I respect history."
+    }
+  ]
+}

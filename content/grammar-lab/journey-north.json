@@ -1,0 +1,56 @@
+{
+  "id": "journey-north",
+  "ur": "شمال کا سفر",
+  "en": "A Journey to the North",
+
+  "grammarPoint": { "ur": "فعلِ استمراری اور استطاعت", "en": "The continuous aspect and expressing ability" },
+
+  "cloze": {
+    "passage": "ہم شمالی علاقوں کی طرف سفر (1)_____ رہے تھے۔ راستے میں ہم پہاڑ (2)_____ رہے تھے۔ گائیڈ نے ہمیں بتایا کہ ہم صحیح راستے پر (3)_____ ہیں۔ اگر موسم اچھا ہو تو ہم چوٹی تک (4)_____ سکتے ہیں۔ یہ سفر پچھلے سفر (5)_____ زیادہ یادگار تھا۔",
+    "gaps": [
+      { "opts": ["کر", "کی", "کیا", "کرے"], "a": 0, "en": "doing — continuous aspect stem before رہے تھے" },
+      { "opts": ["دیکھ", "دیکھا", "دیکھی", "دیکھے"], "a": 0, "en": "watching — continuous aspect stem" },
+      { "opts": ["چل رہے", "چلا", "چلی", "چلو"], "a": 0, "en": "are moving — continuous present" },
+      { "opts": ["پہنچ", "پہنچا", "پہنچی", "پہنچو"], "a": 0, "en": "reach — verb stem before سکنا (ability)" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ہم پہاڑوں کی طرف سفر کرتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ہم پہاڑوں کی طرف سفر نہیں کرتے", "ہم پہاڑوں کی طرف سفر نہیں کرتے۔"],
+      "en": "We travel towards the mountains."
+    },
+    {
+      "original": "گائیڈ راستہ دکھاتا ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["گائیڈ نے راستہ دکھایا", "گائیڈ نے راستہ دکھایا۔"],
+      "en": "The guide shows the way."
+    },
+    {
+      "original": "ہم چوٹی تک پہنچتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم چوٹی تک پہنچیں گے", "ہم چوٹی تک پہنچیں گے۔"],
+      "en": "We reach the peak."
+    },
+    {
+      "original": "تم نے یہ منظر دیکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے یہ منظر دیکھا ہے", "کیا تم نے یہ منظر دیکھا ہے؟"],
+      "en": "You have seen this view."
+    },
+    {
+      "original": "میں سفر کی تیاری کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["سفر کی تیاری کریں", "سفر کی تیاری کریں۔"],
+      "en": "I prepare for the trip."
+    }
+  ]
+}

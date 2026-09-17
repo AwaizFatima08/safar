@@ -1,0 +1,44 @@
+{
+  "id": "our-games",
+  "ur": "ہمارے کھیل",
+  "en": "Our Games",
+
+  "warmup": [
+    {
+      "en": "We play traditional games at school.",
+      "bank": ["سکول", "کھیل", "روایتی", "ہم", "کھیلتے", "میں", "ہیں"],
+      "answer": ["ہم", "سکول", "میں", "روایتی", "کھیل", "کھیلتے", "ہیں"]
+    },
+    {
+      "en": "This game teaches teamwork.",
+      "bank": ["سکھاتا", "کھیل", "ورک", "یہ", "ٹیم", "ہے"],
+      "answer": ["یہ", "کھیل", "ٹیم", "ورک", "سکھاتا", "ہے"]
+    },
+    {
+      "en": "Children enjoy playing outdoors.",
+      "bank": ["پسند", "بچے", "کھیلنا", "باہر", "کرتے", "ہیں"],
+      "answer": ["بچے", "باہر", "کھیلنا", "پسند", "کرتے", "ہیں"]
+    },
+    {
+      "en": "Our team won the competition.",
+      "bank": ["مقابلہ", "گئی", "جیت", "ٹیم", "ہماری"],
+      "answer": ["ہماری", "ٹیم", "مقابلہ", "جیت", "گئی"]
+    },
+    {
+      "en": "These games are part of our culture.",
+      "bank": ["ہیں", "حصہ", "کھیل", "ثقافت", "یہ", "کا", "ہماری"],
+      "answer": ["یہ", "کھیل", "ہماری", "ثقافت", "کا", "حصہ", "ہیں"]
+    }
+  ],
+
+  "passage": {
+    "en": "Traditional games have been an important part of childhood in Pakistan for generations, bringing children together in neighborhoods and school playgrounds. Games such as gully danda, kokla chhupaki, and rassa kashi require little to no equipment, yet they teach valuable skills such as teamwork, patience, physical coordination, and social interaction. Unlike modern video games, which are often played alone or online, traditional games encourage face-to-face communication and build strong friendships among players. In recent years, however, these games have started disappearing from streets and playgrounds as children spend increasing amounts of time on smartphones and computer screens. Concerned parents, teachers, and community leaders have begun organizing events specifically to reintroduce traditional games to a new generation. Many schools now dedicate special days to these activities, and children who participate often report that they enjoy the physical activity and social connection just as much as their parents did decades earlier.",
+    "modelUr": "روایتی کھیل نسلوں سے پاکستان میں بچپن کا ایک اہم حصہ رہے ہیں، جو بچوں کو محلوں اور سکول کے کھیل کے میدانوں میں اکٹھا کرتے ہیں۔ گلی ڈنڈا، کوکلا چھپاکی اور رسہ کشی جیسے کھیلوں کے لیے بہت کم یا کوئی سامان درکار نہیں ہوتا، پھر بھی یہ ٹیم ورک، صبر، جسمانی ہم آہنگی اور سماجی میل جول جیسی قیمتی مہارتیں سکھاتے ہیں۔ جدید ویڈیو گیمز کے برعکس، جو اکثر اکیلے یا آن لائن کھیلے جاتے ہیں، روایتی کھیل آمنے سامنے بات چیت کی حوصلہ افزائی کرتے ہیں اور کھلاڑیوں کے درمیان مضبوط دوستیاں بناتے ہیں۔ تاہم، حالیہ برسوں میں یہ کھیل گلیوں اور کھیل کے میدانوں سے غائب ہونا شروع ہو گئے ہیں کیونکہ بچے سمارٹ فونز اور کمپیوٹر سکرینوں پر بڑھتا ہوا وقت گزار رہے ہیں۔ فکرمند والدین، اساتذہ اور کمیونٹی رہنماؤں نے نئی نسل کو روایتی کھیلوں سے دوبارہ متعارف کرانے کے لیے خصوصی طور پر تقریبات کا انعقاد شروع کر دیا ہے۔ بہت سے سکول اب ان سرگرمیوں کے لیے خصوصی دن مختص کرتے ہیں، اور حصہ لینے والے بچے اکثر بتاتے ہیں کہ وہ جسمانی سرگرمی اور سماجی رابطے سے اتنا ہی لطف اندوز ہوتے ہیں جتنا ان کے والدین دہائیوں پہلے ہوتے تھے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

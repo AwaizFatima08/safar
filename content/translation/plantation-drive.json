@@ -1,0 +1,44 @@
+{
+  "id": "plantation-drive",
+  "ur": "شجرکاری مہم",
+  "en": "A Tree Plantation Drive",
+
+  "warmup": [
+    {
+      "en": "We planted trees in the park.",
+      "bank": ["درخت", "پارک", "ہم", "میں", "نے", "لگائے"],
+      "answer": ["ہم", "نے", "پارک", "میں", "درخت", "لگائے"]
+    },
+    {
+      "en": "Trees give us clean air.",
+      "bank": ["صاف", "درخت", "ہمیں", "ہوا", "دیتے", "ہیں"],
+      "answer": ["درخت", "ہمیں", "صاف", "ہوا", "دیتے", "ہیں"]
+    },
+    {
+      "en": "Volunteers watered the young plants.",
+      "bank": ["نے", "پودوں", "کو", "نئے", "رضاکاروں", "پانی", "دیا"],
+      "answer": ["رضاکاروں", "نے", "نئے", "پودوں", "کو", "پانی", "دیا"]
+    },
+    {
+      "en": "Everyone should plant at least one tree.",
+      "bank": ["ایک", "کم", "کو", "از", "درخت", "ہر", "لگانا", "کم", "ایک", "چاہیے"],
+      "answer": ["ہر", "ایک", "کو", "کم", "از", "کم", "ایک", "درخت", "لگانا", "چاہیے"]
+    },
+    {
+      "en": "This campaign was very successful.",
+      "bank": ["کامیاب", "مہم", "بہت", "یہ", "رہی"],
+      "answer": ["یہ", "مہم", "بہت", "کامیاب", "رہی"]
+    }
+  ],
+
+  "passage": {
+    "en": "Tree plantation drives have become an increasingly important activity across Pakistan as communities work to combat pollution, deforestation, and the effects of climate change. These organized events typically bring together students, government employees, and ordinary citizens who volunteer their time to plant thousands of saplings in parks, schools, and along roadsides. Before planting begins, organizers usually provide brief training on proper planting techniques, including digging appropriately sized holes, positioning saplings correctly, and watering them adequately. After the event, responsibility for caring for the young trees is often assigned to schools, neighborhood committees, or individual volunteers who commit to regular watering and monitoring. Successful plantation drives have shown measurable results, including improved air quality and reduced temperatures in previously bare urban areas. Given these clear benefits, many cities have committed to holding plantation drives annually, encouraging citizens to take an active role in protecting their local environment.",
+    "modelUr": "شجرکاری مہمات پاکستان بھر میں ایک تیزی سے اہم سرگرمی بن چکی ہیں کیونکہ کمیونٹیز آلودگی، جنگلات کی کٹائی اور موسمیاتی تبدیلی کے اثرات کا مقابلہ کرنے کے لیے کام کر رہی ہیں۔ یہ منظم تقریبات عام طور پر طلبہ، سرکاری ملازمین اور عام شہریوں کو اکٹھا کرتی ہیں جو پارکوں، سکولوں اور سڑکوں کے کنارے ہزاروں پودے لگانے کے لیے اپنا وقت رضاکارانہ طور پر دیتے ہیں۔ لگانے سے پہلے، منتظمین عام طور پر صحیح طریقہ کار کے بارے میں مختصر تربیت فراہم کرتے ہیں، جس میں مناسب سائز کے گڑھے کھودنا، پودوں کو صحیح طریقے سے رکھنا اور انہیں مناسب پانی دینا شامل ہے۔ تقریب کے بعد، نئے پودوں کی دیکھ بھال کی ذمہ داری اکثر سکولوں، محلہ کمیٹیوں یا انفرادی رضاکاروں کو دی جاتی ہے جو باقاعدہ پانی دینے اور نگرانی کا عہد کرتے ہیں۔ کامیاب شجرکاری مہمات نے قابلِ پیمائش نتائج دکھائے ہیں، جن میں ہوا کے معیار میں بہتری اور پہلے ویران شہری علاقوں میں درجہ حرارت میں کمی شامل ہے۔ ان واضح فوائد کو دیکھتے ہوئے، بہت سے شہروں نے ہر سال شجرکاری مہمات منعقد کرنے کا عہد کیا ہے، جو شہریوں کو اپنے مقامی ماحول کے تحفظ میں فعال کردار ادا کرنے کی ترغیب دیتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

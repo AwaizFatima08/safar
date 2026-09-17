@@ -1,0 +1,44 @@
+{
+  "id": "water-conservation",
+  "ur": "پانی کا تحفظ",
+  "en": "Water Conservation",
+
+  "warmup": [
+    {
+      "en": "We should not waste water.",
+      "bank": ["نہیں", "پانی", "چاہیے", "کرنا", "ہمیں", "ضائع"],
+      "answer": ["ہمیں", "پانی", "ضائع", "نہیں", "کرنا", "چاہیے"]
+    },
+    {
+      "en": "This tap is leaking.",
+      "bank": ["ٹپک", "نلکا", "یہ", "رہا", "ہے"],
+      "answer": ["یہ", "نلکا", "ٹپک", "رہا", "ہے"]
+    },
+    {
+      "en": "Clean water is necessary for life.",
+      "bank": ["زندگی", "ضروری", "صاف", "پانی", "کے", "ہے", "لیے"],
+      "answer": ["صاف", "پانی", "زندگی", "کے", "لیے", "ضروری", "ہے"]
+    },
+    {
+      "en": "We collected rainwater for the garden.",
+      "bank": ["نے", "بارش", "باغ", "کے", "ہم", "پانی", "لیے", "کا", "جمع", "کیا"],
+      "answer": ["ہم", "نے", "باغ", "کے", "لیے", "بارش", "کا", "پانی", "جمع", "کیا"]
+    },
+    {
+      "en": "Every family should save water.",
+      "bank": ["پانی", "چاہیے", "خاندان", "بچانا", "ہر", "کو"],
+      "answer": ["ہر", "خاندان", "کو", "پانی", "بچانا", "چاہیے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Access to clean water is a basic human necessity, yet water scarcity has become an increasingly serious problem in many parts of the world, including Pakistan. Population growth, industrial development, and wasteful daily habits have placed enormous pressure on natural water resources, leaving many communities struggling to access sufficient clean drinking water. Simple household changes can make a significant difference in reducing water waste. Turning off taps while brushing teeth, promptly repairing leaking faucets, and running washing machines only when fully loaded are all effective ways to conserve water without much effort or expense. Collecting rainwater for garden use is another practical method that many families have begun adopting. Beyond individual households, industries must also treat and reuse water responsibly, while governments should enforce water conservation policies and run public awareness campaigns. If every citizen commits to these small changes, future generations can be assured access to this essential resource.",
+    "modelUr": "صاف پانی تک رسائی ایک بنیادی انسانی ضرورت ہے، پھر بھی دنیا کے بہت سے حصوں میں، بشمول پاکستان، پانی کی کمی ایک تیزی سے سنگین مسئلہ بن چکی ہے۔ آبادی میں اضافے، صنعتی ترقی اور فضول خرچ روزمرہ عادات نے قدرتی آبی وسائل پر زبردست دباؤ ڈالا ہے، جس سے بہت سی کمیونٹیز کو کافی صاف پینے کا پانی حاصل کرنے میں مشکلات کا سامنا ہے۔ گھریلو سطح پر سادہ تبدیلیاں پانی کے ضیاع کو کم کرنے میں نمایاں فرق پیدا کر سکتی ہیں۔ دانت صاف کرتے وقت نلکا بند رکھنا، ٹپکتے نلکوں کی فوری مرمت کروانا اور واشنگ مشین کو صرف مکمل بھرے ہونے پر چلانا، یہ سب زیادہ محنت یا خرچے کے بغیر پانی بچانے کے مؤثر طریقے ہیں۔ باغ کے استعمال کے لیے بارش کا پانی جمع کرنا ایک اور عملی طریقہ ہے جسے بہت سے خاندانوں نے اپنانا شروع کر دیا ہے۔ انفرادی گھرانوں کے علاوہ، صنعتوں کو بھی پانی کو ذمہ داری سے صاف اور دوبارہ استعمال کرنا چاہیے، جبکہ حکومتوں کو پانی کے تحفظ کی پالیسیاں نافذ کرنی چاہییں اور عوامی آگاہی مہمات چلانی چاہییں۔ اگر ہر شہری ان چھوٹی تبدیلیوں کا عہد کرے تو آنے والی نسلوں کے لیے اس اہم وسیلے تک رسائی یقینی بنائی جا سکتی ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

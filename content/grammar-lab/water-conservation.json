@@ -1,0 +1,56 @@
+{
+  "id": "water-conservation",
+  "ur": "پانی کا تحفظ",
+  "en": "Water Conservation",
+
+  "grammarPoint": { "ur": "احتیاطی فعل اور مقدار کے الفاظ", "en": "Cautionary phrasing (نہیں چاہیے) and quantity words" },
+
+  "cloze": {
+    "passage": "ہمیں پانی ضائع نہیں (1)_____ چاہیے۔ نلکا ٹپک رہا ہے، اسے (2)_____ کروانا چاہیے۔ ہر گھر میں تھوڑا (3)_____ پانی بچایا جا سکتا ہے۔ اگر ہم پانی بچائیں تو آنے والی نسلیں (4)_____ فائدہ اٹھائیں گی۔ صاف پانی خوراک (5)_____ زیادہ ضروری ہے۔",
+    "gaps": [
+      { "opts": ["کرنا", "کرنی", "کرنے", "کرو"], "a": 0, "en": "to do — infinitive with چاہیے" },
+      { "opts": ["ٹھیک", "صاف", "بند", "کھلا"], "a": 0, "en": "fixed — ٹھیک کروانا means \"to get repaired\"" },
+      { "opts": ["تھوڑا", "بہت", "کم", "زیادہ"], "a": 0, "en": "a little — تھوڑا پانی means \"a little water\"; modest daily savings add up" },
+      { "opts": ["اس سے", "اسے", "اس کو", "اس میں"], "a": 0, "en": "from this — اس سے means \"from this\"" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ہم پانی ضائع کرتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ہم پانی ضائع نہیں کرتے", "ہم پانی ضائع نہیں کرتے۔"],
+      "en": "We waste water."
+    },
+    {
+      "original": "لوگ نلکا کھلا چھوڑتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["لوگوں نے نلکا کھلا چھوڑا", "لوگوں نے نلکا کھلا چھوڑا۔"],
+      "en": "People leave the tap open."
+    },
+    {
+      "original": "ہم پانی بچاتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم پانی بچائیں گے", "ہم پانی بچائیں گے۔"],
+      "en": "We save water."
+    },
+    {
+      "original": "تم نے نلکا بند کیا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے نلکا بند کیا ہے", "کیا تم نے نلکا بند کیا ہے؟"],
+      "en": "You have turned off the tap."
+    },
+    {
+      "original": "میں پانی احتیاط سے استعمال کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["پانی احتیاط سے استعمال کریں", "پانی احتیاط سے استعمال کریں۔"],
+      "en": "I use water carefully."
+    }
+  ]
+}

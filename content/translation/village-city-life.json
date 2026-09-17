@@ -1,0 +1,44 @@
+{
+  "id": "village-city-life",
+  "ur": "دیہات اور شہر کی زندگی",
+  "en": "Village and City Life",
+
+  "warmup": [
+    {
+      "en": "Village life is peaceful and simple.",
+      "bank": ["زندگی", "پرسکون", "دیہاتی", "سادہ", "اور", "ہے"],
+      "answer": ["دیہاتی", "زندگی", "پرسکون", "اور", "سادہ", "ہے"]
+    },
+    {
+      "en": "Many people move to cities for work.",
+      "bank": ["کے", "شہروں", "بہت", "لیے", "کام", "کی", "لوگ", "طرف", "منتقل", "سے", "ہوتے", "ہیں"],
+      "answer": ["بہت", "سے", "لوگ", "کام", "کے", "لیے", "شہروں", "کی", "طرف", "منتقل", "ہوتے", "ہیں"]
+    },
+    {
+      "en": "Farmers work hard in the fields.",
+      "bank": ["محنت", "کھیتوں", "کسان", "سخت", "میں", "کرتے", "ہیں"],
+      "answer": ["کسان", "کھیتوں", "میں", "سخت", "محنت", "کرتے", "ہیں"]
+    },
+    {
+      "en": "Cities offer better schools and hospitals.",
+      "bank": ["بہتر", "ہسپتال", "شہر", "سکول", "اور", "فراہم", "کرتے", "ہیں"],
+      "answer": ["شہر", "بہتر", "سکول", "اور", "ہسپتال", "فراہم", "کرتے", "ہیں"]
+    },
+    {
+      "en": "We should value both village and city life.",
+      "bank": ["اور", "دیہاتی", "شہری", "دونوں", "قدر", "زندگیوں", "ہمیں", "کی", "کرنی", "چاہیے"],
+      "answer": ["ہمیں", "دیہاتی", "اور", "شہری", "دونوں", "زندگیوں", "کی", "قدر", "کرنی", "چاہیے"]
+    }
+  ],
+
+  "passage": {
+    "en": "The contrast between village and city life in Pakistan is significant, with each offering distinct advantages and challenges. Village life tends to be simpler and more peaceful, centered around farming, close family ties, and a strong sense of community, where neighbors often know and support one another. However, villages frequently lack access to quality education, advanced healthcare, and diverse employment opportunities, which pushes many young people toward cities in search of better prospects. City life, on the other hand, offers modern conveniences such as well-equipped hospitals, universities, and a wide range of job opportunities, but it also comes with challenges including pollution, traffic congestion, and a faster, often more stressful pace of life. Many people who move from villages to cities find themselves missing the fresh air and close relationships of their hometowns, even while enjoying the greater opportunities available in urban areas. Ultimately, both lifestyles have important value.",
+    "modelUr": "پاکستان میں دیہاتی اور شہری زندگی کے درمیان فرق نمایاں ہے، ہر ایک اپنے الگ فوائد اور چیلنجز پیش کرتا ہے۔ دیہاتی زندگی زیادہ سادہ اور پرسکون ہوتی ہے، جو کاشتکاری، قریبی خاندانی رشتوں اور کمیونٹی کے مضبوط احساس کے گرد گھومتی ہے، جہاں پڑوسی اکثر ایک دوسرے کو جانتے اور ایک دوسرے کی مدد کرتے ہیں۔ تاہم، دیہاتوں میں اکثر معیاری تعلیم، جدید طبی سہولیات اور متنوع روزگار کے مواقع تک رسائی نہیں ہوتی، جو بہت سے نوجوانوں کو بہتر مواقع کی تلاش میں شہروں کی طرف دھکیلتی ہے۔ دوسری طرف، شہری زندگی جدید سہولیات جیسے اچھی طرح لیس ہسپتال، یونیورسٹیاں اور ملازمت کے وسیع مواقع فراہم کرتی ہے، لیکن اس کے ساتھ آلودگی، ٹریفک جام اور تیز رفتار، اکثر زیادہ تناؤ والی زندگی جیسے چیلنجز بھی آتے ہیں۔ بہت سے لوگ جو دیہاتوں سے شہروں کی طرف منتقل ہوتے ہیں، شہری علاقوں میں دستیاب زیادہ مواقع سے لطف اندوز ہوتے ہوئے بھی اپنے آبائی علاقوں کی تازہ ہوا اور قریبی تعلقات کو یاد کرتے ہیں۔ بالآخر، دونوں طرزِ زندگی کی اپنی اہم قدر ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

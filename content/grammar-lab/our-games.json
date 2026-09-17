@@ -1,0 +1,56 @@
+{
+  "id": "our-games",
+  "ur": "ہمارے کھیل",
+  "en": "Our Games",
+
+  "grammarPoint": { "ur": "مرکب افعال اور مقدار کے الفاظ", "en": "Compound verbs and quantity words" },
+
+  "cloze": {
+    "passage": "بچے روزانہ روایتی کھیل (1)_____ ہیں۔ ہم نے کل رسہ کشی کا مقابلہ (2)_____۔ ہر ٹیم میں کم از کم پانچ (3)_____ ہونے چاہییں۔ اگر ہم مل کر کھیلیں تو ہم (4)_____ جیت سکتے ہیں۔ یہ کھیل موبائل گیمز (5)_____ زیادہ صحت مند ہے۔",
+    "gaps": [
+      { "opts": ["کھیلتا", "کھیلتی", "کھیلتے", "کھیلو"], "a": 2, "en": "play — plural masculine agreement with بچے" },
+      { "opts": ["جیتا", "جیتی", "جیتے", "جیتو"], "a": 0, "en": "won — masculine agreement with مقابلہ (match)" },
+      { "opts": ["کھلاڑی", "کھلاڑیوں", "کھیل", "کھیلوں"], "a": 0, "en": "players — کھلاڑی stays the same in this plural count form" },
+      { "opts": ["ضرور", "شاید", "کبھی", "ہرگز"], "a": 0, "en": "surely / certainly" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ہم روایتی کھیل کھیلتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ہم روایتی کھیل نہیں کھیلتے", "ہم روایتی کھیل نہیں کھیلتے۔"],
+      "en": "We play traditional games."
+    },
+    {
+      "original": "ٹیم مقابلہ جیتتی ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["ٹیم نے مقابلہ جیتا", "ٹیم نے مقابلہ جیتا۔"],
+      "en": "The team wins the match."
+    },
+    {
+      "original": "بچے میدان میں کھیلتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["بچے میدان میں کھیلیں گے", "بچے میدان میں کھیلیں گے۔"],
+      "en": "Children play in the field."
+    },
+    {
+      "original": "تم نے یہ کھیل کھیلا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے یہ کھیل کھیلا ہے", "کیا تم نے یہ کھیل کھیلا ہے؟"],
+      "en": "You have played this game."
+    },
+    {
+      "original": "میں روزانہ کھیلتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["روزانہ کھیلیں", "روزانہ کھیلیں۔"],
+      "en": "I play daily."
+    }
+  ]
+}

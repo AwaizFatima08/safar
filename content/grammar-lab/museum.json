@@ -1,0 +1,56 @@
+{
+  "id": "museum",
+  "ur": "میوزیم",
+  "en": "The Museum",
+
+  "grammarPoint": { "ur": "اسمِ فاعل اور فعل کی جمع مطابقت", "en": "Agentive nouns and plural verb agreement" },
+
+  "cloze": {
+    "passage": "میوزیم میں ایک (1)_____ ہمیں نمائش کے بارے میں بتاتا ہے۔ ہم ہر نمائش کو غور سے (2)_____ ہیں۔ کیا تم نے ڈایناسور کے فوسلز (3)_____؟ ہمیں میوزیم میں خاموشی سے (4)_____ چاہیے۔ یہ نمائش پچھلی نمائش (5)_____ زیادہ دلچسپ ہے۔",
+    "gaps": [
+      { "opts": ["گائیڈ", "سیاح", "طالب علم", "استاد"], "a": 0, "en": "guide — the person who explains exhibits" },
+      { "opts": ["دیکھتا", "دیکھتی", "دیکھتے", "دیکھو"], "a": 2, "en": "watch/see — plural agreement with ہم" },
+      { "opts": ["دیکھا", "دیکھی", "دیکھے", "دیکھو"], "a": 2, "en": "seen — plural masculine agreement with فوسلز (fossils)" },
+      { "opts": ["رہنا", "رہنی", "رہنے", "رہو"], "a": 0, "en": "to remain — infinitive with چاہیے" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "میوزیم نئی نمائش دکھاتا ہے۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["میوزیم نئی نمائش نہیں دکھاتا", "میوزیم نئی نمائش نہیں دکھاتا۔"],
+      "en": "The museum shows a new exhibition."
+    },
+    {
+      "original": "طلبہ نوٹس لیتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["طلبہ نے نوٹس لیے", "طلبہ نے نوٹس لیے۔"],
+      "en": "Students take notes."
+    },
+    {
+      "original": "ہم میوزیم جاتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم میوزیم جائیں گے", "ہم میوزیم جائیں گے۔"],
+      "en": "We go to the museum."
+    },
+    {
+      "original": "تم نے نمائش دیکھی ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے نمائش دیکھی ہے", "کیا تم نے نمائش دیکھی ہے؟"],
+      "en": "You have seen the exhibition."
+    },
+    {
+      "original": "میں تصویر نہیں کھینچتا۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["تصویر نہ کھینچیں", "تصویر نہ کھینچیں۔"],
+      "en": "I don't take pictures."
+    }
+  ]
+}

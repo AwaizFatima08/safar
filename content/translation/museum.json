@@ -1,0 +1,44 @@
+{
+  "id": "museum",
+  "ur": "میوزیم",
+  "en": "The Museum",
+
+  "warmup": [
+    {
+      "en": "We visited the museum yesterday.",
+      "bank": ["کل", "میوزیم", "دورہ", "کیا", "نے", "ہم", "کا"],
+      "answer": ["ہم", "نے", "کل", "میوزیم", "کا", "دورہ", "کیا"]
+    },
+    {
+      "en": "The guide explained the exhibits.",
+      "bank": ["کی", "گائیڈ", "نمائشوں", "وضاحت", "نے", "کی"],
+      "answer": ["گائیڈ", "نے", "نمائشوں", "کی", "وضاحت", "کی"]
+    },
+    {
+      "en": "Photography is not allowed here.",
+      "bank": ["نہیں", "کی", "یہاں", "تصویر", "اجازت", "کشی", "ہے"],
+      "answer": ["یہاں", "تصویر", "کشی", "کی", "اجازت", "نہیں", "ہے"]
+    },
+    {
+      "en": "Students learn a lot from museums.",
+      "bank": ["سے", "میوزیم", "طلبہ", "بہت", "سیکھتے", "کچھ", "ہیں"],
+      "answer": ["طلبہ", "میوزیم", "سے", "بہت", "کچھ", "سیکھتے", "ہیں"]
+    },
+    {
+      "en": "This exhibition is very interesting.",
+      "bank": ["دلچسپ", "یہ", "بہت", "نمائش", "ہے"],
+      "answer": ["یہ", "نمائش", "بہت", "دلچسپ", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Museums serve as important centers of learning, allowing visitors to explore history, science, art, and culture in ways that textbooks alone cannot provide. Walking through a museum's galleries gives students and adults alike the opportunity to see real artifacts, fossils, and works of art up close, making abstract concepts feel more real and memorable. Natural history museums, in particular, help visitors understand the ancient past by displaying dinosaur skeletons, mineral collections, and models of the solar system. Many museums also offer guided tours and interactive workshops designed specifically for young learners, making the experience both educational and enjoyable. Schools frequently organize field trips to museums as part of the curriculum, recognizing that hands-on learning experiences often leave a stronger impression than classroom lessons alone. Despite their educational value, many museums struggle to attract visitors, which is why it is important for communities to support and regularly visit these valuable cultural institutions.",
+    "modelUr": "میوزیم سیکھنے کے اہم مراکز کے طور پر کام کرتے ہیں، جو زائرین کو تاریخ، سائنس، فن اور ثقافت کو ایسے طریقوں سے دریافت کرنے کا موقع دیتے ہیں جو صرف نصابی کتابیں فراہم نہیں کر سکتیں۔ میوزیم کی گیلریوں میں چلنا طلبہ اور بڑوں دونوں کو حقیقی نوادرات، فوسلز اور فن پاروں کو قریب سے دیکھنے کا موقع دیتا ہے، جس سے تجریدی تصورات زیادہ حقیقی اور یادگار محسوس ہوتے ہیں۔ خاص طور پر قدرتی تاریخ کے میوزیم ڈایناسور کے ڈھانچے، معدنیات کے ذخیرے اور نظامِ شمسی کے ماڈل دکھا کر زائرین کو قدیم ماضی سمجھنے میں مدد دیتے ہیں۔ بہت سے میوزیم نوجوان سیکھنے والوں کے لیے خاص طور پر ڈیزائن کیے گئے گائیڈڈ ٹور اور انٹرایکٹو ورکشاپس بھی پیش کرتے ہیں، جس سے تجربہ تعلیمی اور خوشگوار دونوں بن جاتا ہے۔ سکول اکثر نصاب کے حصے کے طور پر میوزیم کے تعلیمی دورے منظم کرتے ہیں، یہ تسلیم کرتے ہوئے کہ عملی سیکھنے کے تجربات اکثر کلاس روم کے اسباق سے زیادہ گہرا اثر چھوڑتے ہیں۔ اپنی تعلیمی اہمیت کے باوجود، بہت سے میوزیم زائرین کو راغب کرنے میں مشکلات کا شکار ہیں، اسی لیے کمیونٹیز کے لیے ان قیمتی ثقافتی اداروں کی حمایت اور باقاعدہ دورہ کرنا ضروری ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

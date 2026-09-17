@@ -1,0 +1,44 @@
+{
+  "id": "journey-north",
+  "ur": "شمال کا سفر",
+  "en": "A Journey to the North",
+
+  "warmup": [
+    {
+      "en": "We travelled to the northern areas.",
+      "bank": ["کی", "علاقوں", "طرف", "شمالی", "ہم", "گئے"],
+      "answer": ["ہم", "شمالی", "علاقوں", "کی", "طرف", "گئے"]
+    },
+    {
+      "en": "The mountains were covered with snow.",
+      "bank": ["برف", "پہاڑ", "سے", "تھے", "ڈھکے", "ہوئے"],
+      "answer": ["پہاڑ", "برف", "سے", "ڈھکے", "ہوئے", "تھے"]
+    },
+    {
+      "en": "We stayed in a small hotel.",
+      "bank": ["ہوٹل", "چھوٹے", "ٹھہرے", "ہم", "ایک", "میں"],
+      "answer": ["ہم", "ایک", "چھوٹے", "ہوٹل", "میں", "ٹھہرے"]
+    },
+    {
+      "en": "The local people were very friendly.",
+      "bank": ["دوستانہ", "لوگ", "بہت", "مقامی", "تھے"],
+      "answer": ["مقامی", "لوگ", "بہت", "دوستانہ", "تھے"]
+    },
+    {
+      "en": "This was an unforgettable journey.",
+      "bank": ["فراموش", "ناقابلِ", "یہ", "سفر", "ایک", "تھا"],
+      "answer": ["یہ", "ایک", "ناقابلِ", "فراموش", "سفر", "تھا"]
+    }
+  ],
+
+  "passage": {
+    "en": "Pakistan's northern areas are widely regarded as some of the most breathtaking landscapes in the world, attracting travelers from across the country and beyond. The journey typically begins along the Karakoram Highway, an engineering marvel that winds through towering mountains, deep valleys, and alongside pristine rivers and lakes. Popular destinations such as Hunza and Skardu offer visitors a chance to experience unique local cultures, taste delicious fresh fruits, and explore historic sites like Altit Fort. Beyond the scenery, travelers often remember the warmth and hospitality of the local communities, who welcome visitors with genuine kindness. Camping under a clear night sky, far from city lights, allows visitors to see thousands of stars, an experience impossible in most urban areas. Despite the long and sometimes challenging journey, most travelers agree that a trip to the northern areas is well worth the effort, creating memories that last a lifetime.",
+    "modelUr": "پاکستان کے شمالی علاقہ جات کو دنیا کے سب سے دلکش مناظر میں سے ایک سمجھا جاتا ہے، جو ملک بھر اور اس سے باہر سے سیاحوں کو اپنی طرف کھینچتے ہیں۔ سفر عام طور پر شاہراہِ قراقرم کے ساتھ شروع ہوتا ہے، جو انجینئرنگ کا ایک شاہکار ہے اور بلند پہاڑوں، گہری وادیوں اور صاف دریاؤں اور جھیلوں کے کنارے سے گزرتی ہے۔ ہنزہ اور سکردو جیسے مقبول مقامات زائرین کو منفرد مقامی ثقافتوں کا تجربہ کرنے، لذیذ تازہ پھلوں کا ذائقہ چکھنے اور التت قلعہ جیسے تاریخی مقامات کی سیر کرنے کا موقع دیتے ہیں۔ مناظر کے علاوہ، سیاح اکثر مقامی برادریوں کی گرمجوشی اور مہمان نوازی کو یاد رکھتے ہیں، جو زائرین کا خلوص کے ساتھ استقبال کرتے ہیں۔ شہر کی روشنیوں سے دور، صاف رات کے آسمان تلے کیمپنگ کرنا زائرین کو ہزاروں ستارے دیکھنے کا موقع دیتا ہے، ایک ایسا تجربہ جو زیادہ تر شہری علاقوں میں ممکن نہیں۔ طویل اور بعض اوقات مشکل سفر کے باوجود، زیادہ تر سیاح متفق ہیں کہ شمالی علاقہ جات کا سفر محنت کے قابل ہے، جو زندگی بھر رہنے والی یادیں بناتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

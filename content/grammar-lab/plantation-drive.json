@@ -1,0 +1,56 @@
+{
+  "id": "plantation-drive",
+  "ur": "شجرکاری مہم",
+  "en": "A Tree Plantation Drive",
+
+  "grammarPoint": { "ur": "اجتماعی فعل اور مقصدیہ جملے (تاکہ)", "en": "Collective verbs and purpose clauses with تاکہ" },
+
+  "cloze": {
+    "passage": "ہم نے مل کر سو پودے (1)_____۔ ہم درخت اس لیے لگاتے ہیں (2)_____ ہوا صاف رہے۔ ہر رضاکار کو ایک پودے کی دیکھ بھال (3)_____ چاہیے۔ اگر ہم پانی دیں تو پودے جلدی (4)_____ گے۔ یہ مہم پچھلی مہم (5)_____ زیادہ کامیاب رہی۔",
+    "gaps": [
+      { "opts": ["لگایا", "لگائی", "لگائے", "لگاؤ"], "a": 2, "en": "planted — plural masculine agreement with پودے" },
+      { "opts": ["تاکہ", "لیکن", "اگر", "جب"], "a": 0, "en": "so that — تاکہ introduces a purpose clause" },
+      { "opts": ["کرنا", "کرنی", "کرنے", "کرو"], "a": 1, "en": "should do — کرنی agrees with the feminine noun دیکھ بھال" },
+      { "opts": ["بڑھیں", "بڑھے", "بڑھی", "بڑھو"], "a": 0, "en": "will grow — future tense agreement with پودے (plural)" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "رضاکار پودے لگاتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["رضاکار پودے نہیں لگاتے", "رضاکار پودے نہیں لگاتے۔"],
+      "en": "Volunteers plant trees."
+    },
+    {
+      "original": "طلبہ درخت لگاتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["طلبہ نے درخت لگائے", "طلبہ نے درخت لگائے۔"],
+      "en": "Students plant trees."
+    },
+    {
+      "original": "ہم پودوں کو پانی دیتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم پودوں کو پانی دیں گے", "ہم پودوں کو پانی دیں گے۔"],
+      "en": "We water the plants."
+    },
+    {
+      "original": "تم نے پودا لگایا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے پودا لگایا ہے", "کیا تم نے پودا لگایا ہے؟"],
+      "en": "You have planted a tree."
+    },
+    {
+      "original": "میں ماحول کی حفاظت کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["ماحول کی حفاظت کریں", "ماحول کی حفاظت کریں۔"],
+      "en": "I protect the environment."
+    }
+  ]
+}

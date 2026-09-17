@@ -1,0 +1,56 @@
+{
+  "id": "village-city-life",
+  "ur": "دیہات اور شہر کی زندگی",
+  "en": "Village and City Life",
+
+  "grammarPoint": { "ur": "موازنہ اور مقامی حروفِ اضافت", "en": "Comparatives and locative postpositions" },
+
+  "cloze": {
+    "passage": "دیہات میں زندگی شہر (1)_____ زیادہ پرسکون ہے۔ شہر میں لوگ کام کی تلاش میں (2)_____ آتے ہیں۔ گاؤں میں کاشتکار کھیتوں (3)_____ کام کرتے ہیں۔ شہری زندگی دیہاتی زندگی (4)_____ زیادہ مصروف ہے۔ ہمیں دونوں جگہوں کا احترام (5)_____ چاہیے۔",
+    "gaps": [
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" },
+      { "opts": ["شہر", "گاؤں", "دیہات", "کھیت"], "a": 0, "en": "the city — people move to the city for work" },
+      { "opts": ["میں", "سے", "کو", "پر"], "a": 0, "en": "in — میں marks location \"in the fields\"" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" },
+      { "opts": ["کرنا", "کرنی", "کرنے", "کرو"], "a": 0, "en": "to do — infinitive with چاہیے, masculine احترام" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "لوگ گاؤں چھوڑتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["لوگ گاؤں نہیں چھوڑتے", "لوگ گاؤں نہیں چھوڑتے۔"],
+      "en": "People leave the village."
+    },
+    {
+      "original": "کسان کھیتوں میں کام کرتا ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["کسان نے کھیتوں میں کام کیا", "کسان نے کھیتوں میں کام کیا۔"],
+      "en": "The farmer works in the fields."
+    },
+    {
+      "original": "خاندان شہر جاتا ہے۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["خاندان شہر جائے گا", "خاندان شہر جائے گا۔"],
+      "en": "The family goes to the city."
+    },
+    {
+      "original": "تم نے شہر دیکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے شہر دیکھا ہے", "کیا تم نے شہر دیکھا ہے؟"],
+      "en": "You have seen the city."
+    },
+    {
+      "original": "میں دیہات کا احترام کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["دیہات کا احترام کریں", "دیہات کا احترام کریں۔"],
+      "en": "I respect the village."
+    }
+  ]
+}

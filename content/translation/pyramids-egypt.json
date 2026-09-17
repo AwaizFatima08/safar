@@ -1,0 +1,44 @@
+{
+  "id": "pyramids-egypt",
+  "ur": "مصر کے اہرام",
+  "en": "The Pyramids of Egypt",
+
+  "warmup": [
+    {
+      "en": "The pyramids are very old.",
+      "bank": ["بہت", "اہرام", "پرانے", "ہیں"],
+      "answer": ["اہرام", "بہت", "پرانے", "ہیں"]
+    },
+    {
+      "en": "Ancient Egyptians built the pyramids.",
+      "bank": ["نے", "مصریوں", "اہرام", "قدیم", "تعمیر", "کیے"],
+      "answer": ["قدیم", "مصریوں", "نے", "اہرام", "تعمیر", "کیے"]
+    },
+    {
+      "en": "Many tourists visit Egypt every year.",
+      "bank": ["سیاح", "ہر", "بہت", "سے", "جاتے", "سال", "مصر", "ہیں"],
+      "answer": ["ہر", "سال", "بہت", "سے", "سیاح", "مصر", "جاتے", "ہیں"]
+    },
+    {
+      "en": "This pyramid is very tall.",
+      "bank": ["بلند", "یہ", "بہت", "اہرام", "ہے"],
+      "answer": ["یہ", "اہرام", "بہت", "بلند", "ہے"]
+    },
+    {
+      "en": "We should respect ancient history.",
+      "bank": ["کا", "تاریخ", "احترام", "قدیم", "ہمیں", "کرنا", "چاہیے"],
+      "answer": ["ہمیں", "قدیم", "تاریخ", "کا", "احترام", "کرنا", "چاہیے"]
+    }
+  ],
+
+  "passage": {
+    "en": "The pyramids of Egypt stand as one of the greatest architectural achievements in human history. Built thousands of years ago as tombs for powerful pharaohs, these massive stone structures continue to amaze historians, engineers, and tourists from around the world. The largest and most famous of these monuments, the Great Pyramid of Giza, was constructed for the Pharaoh Khufu and remained the tallest man-made structure on Earth for thousands of years. Building such enormous structures without modern machinery required extraordinary planning, mathematical precision, and the labor of thousands of skilled workers over many years. Ancient Egyptians believed strongly in life after death, which is why pharaohs were buried alongside valuable treasures meant to accompany them into the afterlife. Today, millions of visitors travel to Egypt each year specifically to witness these incredible monuments in person, making them one of the most important tourist attractions and historical treasures in the entire world.",
+    "modelUr": "مصر کے اہرام انسانی تاریخ کے عظیم ترین تعمیراتی کارناموں میں سے ایک کے طور پر کھڑے ہیں۔ ہزاروں سال پہلے طاقتور فرعونوں کے مقبروں کے طور پر تعمیر کیے گئے یہ عظیم پتھریلے ڈھانچے آج بھی دنیا بھر کے مورخین، انجینئرز اور سیاحوں کو حیران کرتے ہیں۔ ان یادگاروں میں سب سے بڑا اور مشہور، گیزا کا عظیم اہرام، فرعون خوفو کے لیے تعمیر کیا گیا تھا اور ہزاروں سال تک زمین پر سب سے بلند انسانی ساختہ ڈھانچہ رہا۔ جدید مشینری کے بغیر اتنے بڑے ڈھانچے بنانے کے لیے غیر معمولی منصوبہ بندی، ریاضیاتی درستگی اور برسوں تک ہزاروں ہنر مند مزدوروں کی محنت درکار تھی۔ قدیم مصری موت کے بعد زندگی پر شدت سے یقین رکھتے تھے، اسی لیے فرعونوں کو قیمتی خزانوں کے ساتھ دفن کیا جاتا تھا جو بعد کی زندگی میں ان کے ساتھ جانے تھے۔ آج، لاکھوں زائرین خاص طور پر ان حیرت انگیز یادگاروں کو ذاتی طور پر دیکھنے کے لیے ہر سال مصر کا سفر کرتے ہیں، جس سے یہ دنیا بھر میں سب سے اہم سیاحتی مقامات اور تاریخی خزانوں میں سے ایک بن گئے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}
