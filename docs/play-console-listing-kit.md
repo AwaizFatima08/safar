@@ -89,7 +89,7 @@ Answer honestly; expected outcome is **Everyone** / **PEGI 3**:
 
 - **Privacy policy:** https://safar.homilabs.org/privacy-policy.html
 - **Ads:** No ads
-- **App access:** All functionality available without special access — note the optional sign-in for reviewers (any email/password works; there's nothing gated behind a real identity)
+- **App access:** All functionality available without special access — guest mode (no login) already reaches every practice feature. A test account exists anyway so reviewers can also check the sign-in/friend-group leaderboard path — credentials in `.secrets/play-console-test-account.txt` (gitignored, this repo is public; enter them under Play Console → App content → App access → "All or some functionality is restricted" → add instructions, even though strictly nothing requires them).
 - **Target audience:** Recommend 13+ or 16+ given the exam-prep audience (O Level students, typically 14-16) — avoids the stricter Families Policy review that applies to apps primarily aimed at under-13s, and is an honest reflection of who the syllabus is for
 - **News app:** No · **COVID-19 app:** No · **Data safety:** see below
 - **Government app:** No · **Financial features:** No
