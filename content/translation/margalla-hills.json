@@ -1,0 +1,44 @@
+{
+  "id": "margalla-hills",
+  "ur": "مارگلہ کی پہاڑیاں",
+  "en": "The Margalla Hills",
+
+  "warmup": [
+    {
+      "en": "We went hiking in the mountains.",
+      "bank": ["گئے", "میں", "کرنے", "ہائیکنگ", "ہم", "پہاڑوں"],
+      "answer": ["ہم", "پہاڑوں", "میں", "ہائیکنگ", "کرنے", "گئے"]
+    },
+    {
+      "en": "The view from the top was beautiful.",
+      "bank": ["خوبصورت", "سے", "نظارہ", "چوٹی", "تھا"],
+      "answer": ["چوٹی", "سے", "نظارہ", "خوبصورت", "تھا"]
+    },
+    {
+      "en": "We should carry water on the trail.",
+      "bank": ["پانی", "ہمیں", "چاہیے", "پر", "رکھنا", "ٹریل", "ساتھ"],
+      "answer": ["ہمیں", "ٹریل", "پر", "پانی", "ساتھ", "رکھنا", "چاہیے"]
+    },
+    {
+      "en": "The guide showed us the correct path.",
+      "bank": ["دکھایا", "نے", "راستہ", "گائیڈ", "ہمیں", "صحیح"],
+      "answer": ["گائیڈ", "نے", "ہمیں", "صحیح", "راستہ", "دکھایا"]
+    },
+    {
+      "en": "This trail is more difficult than that one.",
+      "bank": ["مشکل", "زیادہ", "ٹریل", "اس", "یہ", "سے", "ہے"],
+      "answer": ["یہ", "ٹریل", "اس", "سے", "زیادہ", "مشکل", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "The Margalla Hills, located on the edge of Islamabad, offer some of the most popular hiking trails in the country. Every weekend, hundreds of people, from young children to elderly citizens, visit these hills to enjoy fresh air and beautiful natural scenery. The trails vary in difficulty, ranging from easy paths suitable for beginners to challenging routes meant only for experienced hikers. Along the way, visitors can spot a variety of birds, trees, and sometimes even wildlife such as monkeys. Many hikers say that reaching the top and seeing the entire city spread out below is one of the most rewarding experiences they have had. However, visitors are encouraged to carry enough water, wear proper hiking shoes, and avoid littering to help preserve the natural beauty of the area. For many families, a weekend hike in the Margalla Hills has become a cherished tradition.",
+    "modelUr": "اسلام آباد کے کنارے واقع مارگلہ کی پہاڑیاں ملک کے سب سے مقبول ہائیکنگ ٹریلز میں سے کچھ پیش کرتی ہیں۔ ہر ہفتے کے آخر میں، چھوٹے بچوں سے لے کر بزرگ شہریوں تک، سینکڑوں لوگ تازہ ہوا اور خوبصورت قدرتی مناظر سے لطف اندوز ہونے کے لیے ان پہاڑیوں کا رخ کرتے ہیں۔ ٹریلز مشکل کے لحاظ سے مختلف ہیں، آسان راستوں سے لے کر جو نئے ہائیکرز کے لیے موزوں ہیں، مشکل راستوں تک جو صرف تجربہ کار ہائیکرز کے لیے ہیں۔ راستے میں، زائرین مختلف پرندے، درخت اور بعض اوقات بندروں جیسی جنگلی حیات بھی دیکھ سکتے ہیں۔ بہت سے ہائیکرز کہتے ہیں کہ چوٹی تک پہنچ کر پورے شہر کو نیچے پھیلا ہوا دیکھنا ان کے سب سے پرلطف تجربات میں سے ایک ہے۔ تاہم، زائرین کو مشورہ دیا جاتا ہے کہ وہ کافی پانی ساتھ رکھیں، مناسب ہائیکنگ جوتے پہنیں اور علاقے کی قدرتی خوبصورتی برقرار رکھنے کے لیے کچرا نہ پھینکیں۔ بہت سے خاندانوں کے لیے، مارگلہ کی پہاڑیوں میں ہفتہ وار سیر ایک پیاری روایت بن چکی ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

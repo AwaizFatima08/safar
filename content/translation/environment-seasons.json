@@ -1,0 +1,44 @@
+{
+  "id": "environment-seasons",
+  "ur": "ماحول اور موسم",
+  "en": "Environment & Seasons",
+
+  "warmup": [
+    {
+      "en": "The weather is very pleasant today.",
+      "bank": ["بہت", "موسم", "آج", "خوشگوار", "ہے"],
+      "answer": ["آج", "موسم", "بہت", "خوشگوار", "ہے"]
+    },
+    {
+      "en": "It rains a lot in the monsoon season.",
+      "bank": ["بارش", "میں", "موسم", "بہت", "مون سون", "کے", "ہوتی", "ہے"],
+      "answer": ["مون سون", "کے", "موسم", "میں", "بہت", "بارش", "ہوتی", "ہے"]
+    },
+    {
+      "en": "We should plant more trees.",
+      "bank": ["زیادہ", "لگانے", "درخت", "ہمیں", "چاہییں"],
+      "answer": ["ہمیں", "زیادہ", "درخت", "لگانے", "چاہییں"]
+    },
+    {
+      "en": "Winter mornings are very cold.",
+      "bank": ["صبحیں", "بہت", "سردیوں", "ہوتی", "سرد", "کی", "ہیں"],
+      "answer": ["سردیوں", "کی", "صبحیں", "بہت", "سرد", "ہوتی", "ہیں"]
+    },
+    {
+      "en": "Spring is the most beautiful season.",
+      "bank": ["خوبصورت", "بہار", "سے", "سب", "موسم", "ہے"],
+      "answer": ["بہار", "سب", "سے", "خوبصورت", "موسم", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Pakistan experiences four distinct seasons, each bringing its own beauty and challenges. Winter brings cold winds and occasional snowfall in the northern areas, while summer arrives with intense heat that can be difficult to bear in many cities. The monsoon season delivers much-needed rainfall for agriculture, though it sometimes causes flooding in low-lying areas. Spring, considered by many to be the most pleasant season, brings blooming flowers and mild, comfortable temperatures. In recent years, however, climate change has begun to disrupt these natural patterns significantly. Summers have become hotter and longer, while rainfall has grown increasingly unpredictable, alternating between severe floods and long dry spells. Scientists warn that if these changes continue without proper action, agriculture, water supplies, and daily life across the country could face serious difficulties. Planting more trees and reducing pollution are two simple steps that can help protect the environment for future generations.",
+    "modelUr": "پاکستان میں چار الگ الگ موسم آتے ہیں، ہر ایک اپنی خوبصورتی اور چیلنجز کے ساتھ۔ سردیوں میں ٹھنڈی ہوائیں چلتی ہیں اور شمالی علاقوں میں کبھی کبھار برف باری بھی ہوتی ہے، جبکہ گرمیوں میں شدید گرمی آتی ہے جسے بہت سے شہروں میں برداشت کرنا مشکل ہو جاتا ہے۔ مون سون کا موسم زراعت کے لیے ضروری بارش لاتا ہے، اگرچہ کبھی کبھار یہ نشیبی علاقوں میں سیلاب کا باعث بھی بنتا ہے۔ بہار، جسے بہت سے لوگ سب سے خوشگوار موسم سمجھتے ہیں، کھلتے پھول اور معتدل، آرام دہ درجہ حرارت لاتی ہے۔ تاہم، حالیہ برسوں میں موسمیاتی تبدیلی نے ان قدرتی نمونوں کو نمایاں طور پر متاثر کرنا شروع کر دیا ہے۔ گرمیاں زیادہ گرم اور طویل ہو گئی ہیں، جبکہ بارشیں غیر متوقع ہوتی جا رہی ہیں، کبھی شدید سیلاب اور کبھی طویل خشک سالی کے درمیان۔ سائنسدانوں کا انتباہ ہے کہ اگر یہ تبدیلیاں مناسب اقدامات کے بغیر جاری رہیں تو ملک بھر میں زراعت، پانی کی فراہمی اور روزمرہ زندگی کو سنگین مشکلات کا سامنا کرنا پڑ سکتا ہے۔ زیادہ درخت لگانا اور آلودگی کم کرنا دو سادہ اقدامات ہیں جو آنے والی نسلوں کے لیے ماحول کے تحفظ میں مدد دے سکتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

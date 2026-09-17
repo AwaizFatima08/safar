@@ -1,0 +1,56 @@
+{
+  "id": "environment-seasons",
+  "ur": "ماحول اور موسم",
+  "en": "Environment & Seasons",
+
+  "grammarPoint": { "ur": "موصوف و صفت کی مطابقت اور شرطیہ جملے", "en": "Adjective-noun agreement and conditional sentences" },
+
+  "cloze": {
+    "passage": "ہوا بہت (1)_____ ہو جاتی ہے۔ اگر بارش ہو تو ہم چھتری (2)_____ لے جاتے ہیں۔ گرمیوں میں دن (3)_____ اور راتیں چھوٹی ہوتی ہیں۔ اگر ہم درخت زیادہ لگائیں تو ماحول (4)_____ رہے گا۔ موسمِ بہار سب موسموں (5)_____ خوبصورت ہے۔",
+    "gaps": [
+      { "opts": ["ٹھنڈا", "ٹھنڈی", "ٹھنڈے", "ٹھنڈوں"], "a": 1, "en": "cold — ٹھنڈی agrees with the feminine noun ہوا" },
+      { "opts": ["ساتھ", "پاس", "طرف", "لیے"], "a": 0, "en": "along — ساتھ لے جانا means \"to take along\"" },
+      { "opts": ["بڑا", "بڑی", "بڑے", "بڑوں"], "a": 2, "en": "long — بڑے agrees with the plural masculine noun دن (days)" },
+      { "opts": ["صاف", "گندا", "خراب", "آلودہ"], "a": 0, "en": "clean — the conditional result of planting more trees" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "سب سے + adjective forms the superlative" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "موسم خوشگوار ہے۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["موسم خوشگوار نہیں ہے", "موسم خوشگوار نہیں ہے۔"],
+      "en": "The weather is pleasant."
+    },
+    {
+      "original": "بارش ہوتی ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["بارش ہوئی", "بارش ہوئی۔"],
+      "en": "It rains."
+    },
+    {
+      "original": "ہم درخت لگاتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم درخت لگائیں گے", "ہم درخت لگائیں گے۔"],
+      "en": "We plant trees."
+    },
+    {
+      "original": "تم نے چھتری لی ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے چھتری لی ہے", "کیا تم نے چھتری لی ہے؟"],
+      "en": "You have taken an umbrella."
+    },
+    {
+      "original": "میں پانی بچاتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["پانی بچائیں", "پانی بچائیں۔"],
+      "en": "I save water."
+    }
+  ]
+}

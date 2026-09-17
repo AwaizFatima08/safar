@@ -1,0 +1,56 @@
+{
+  "id": "quaid-e-azam",
+  "ur": "قائدِ اعظم",
+  "en": "Quaid-e-Azam",
+
+  "grammarPoint": { "ur": "ماضی بعید اور اسمِ ضمیر کا احترام", "en": "Past perfect tense and respectful pronouns" },
+
+  "cloze": {
+    "passage": "قائدِ اعظم نے پاکستان کے قیام کے لیے بہت محنت (1)_____ تھی۔ وہ ایک کامیاب وکیل رہ (2)_____ تھے۔ (3)_____ نے مسلمانوں کو ایک پلیٹ فارم پر اکٹھا کیا۔ ان کی قیادت میں پاکستان آزاد (4)_____۔ ہمیں ان کی قربانیوں (5)_____ سیکھنا چاہیے۔",
+    "gaps": [
+      { "opts": ["کیا", "کی", "کیے", "کرو"], "a": 1, "en": "had done — past perfect, feminine agreement with محنت" },
+      { "opts": ["چکا", "چکی", "چکے", "چکو"], "a": 2, "en": "had been — masculine respectful plural agreement" },
+      { "opts": ["انہوں", "اس", "وہ", "تم"], "a": 0, "en": "he (respectful) — انہوں ہے is the respectful oblique pronoun with نے" },
+      { "opts": ["ہوا", "ہوئی", "ہوئے", "ہوں"], "a": 0, "en": "became — masculine agreement with پاکستان" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "from — سے here means \"from / through\"" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "قائدِ اعظم محنت کرتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["قائدِ اعظم محنت نہیں کرتے", "قائدِ اعظم محنت نہیں کرتے۔"],
+      "en": "Quaid-e-Azam works hard."
+    },
+    {
+      "original": "وہ وکیل بنتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["وہ وکیل بنے", "وہ وکیل بنے۔"],
+      "en": "He becomes a lawyer."
+    },
+    {
+      "original": "ہم ان کی زندگی سے سیکھتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم ان کی زندگی سے سیکھیں گے", "ہم ان کی زندگی سے سیکھیں گے۔"],
+      "en": "We learn from his life."
+    },
+    {
+      "original": "تم نے مزار دیکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے مزار دیکھا ہے", "کیا تم نے مزار دیکھا ہے؟"],
+      "en": "You have seen the mausoleum."
+    },
+    {
+      "original": "میں وطن سے محبت کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["وطن سے محبت کریں", "وطن سے محبت کریں۔"],
+      "en": "I love my homeland."
+    }
+  ]
+}

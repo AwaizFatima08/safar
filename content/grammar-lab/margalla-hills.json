@@ -1,0 +1,56 @@
+{
+  "id": "margalla-hills",
+  "ur": "مارگلہ کی پہاڑیاں",
+  "en": "The Margalla Hills",
+
+  "grammarPoint": { "ur": "امر (حکمیہ) اور فعلِ لازم و متعدی", "en": "The imperative mood and transitive/intransitive verbs" },
+
+  "cloze": {
+    "passage": "ٹریل پر جانے سے پہلے پانی ساتھ (1)_____۔ راستہ تھوڑا مشکل تھا، اس لیے ہم آہستہ آہستہ (2)_____۔ چوٹی پر پہنچ کر ہم نے آرام (3)_____۔ گائیڈ نے ہمیں محتاط رہنے کو (4)_____۔ یہ ٹریل دوسرے ٹریلوں (5)_____ زیادہ خوبصورت ہے۔",
+    "gaps": [
+      { "opts": ["رکھیں", "رکھا", "رکھتا", "رکھنا"], "a": 0, "en": "keep — polite imperative ending in یں" },
+      { "opts": ["چلا", "چلی", "چلے", "چلو"], "a": 2, "en": "walked — plural masculine agreement with ہم" },
+      { "opts": ["کیا", "کی", "کیے", "کرو"], "a": 0, "en": "did — transitive verb agrees with the object آرام (masculine)" },
+      { "opts": ["کہا", "کہی", "کہے", "کہو"], "a": 0, "en": "told — کہا, invariant with a following کو-marked infinitive clause" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ہم ٹریل پر جاتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ہم ٹریل پر نہیں جاتے", "ہم ٹریل پر نہیں جاتے۔"],
+      "en": "We go on the trail."
+    },
+    {
+      "original": "گائیڈ راستہ بتاتا ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["گائیڈ نے راستہ بتایا", "گائیڈ نے راستہ بتایا۔"],
+      "en": "The guide shows the way."
+    },
+    {
+      "original": "ہم چوٹی تک پہنچتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم چوٹی تک پہنچیں گے", "ہم چوٹی تک پہنچیں گے۔"],
+      "en": "We reach the peak."
+    },
+    {
+      "original": "تم نے پانی ساتھ رکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے پانی ساتھ رکھا ہے", "کیا تم نے پانی ساتھ رکھا ہے؟"],
+      "en": "You have kept water with you."
+    },
+    {
+      "original": "میں راستے میں کچرا نہیں پھینکتا۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["راستے میں کچرا نہ پھینکیں", "راستے میں کچرا نہ پھینکیں۔"],
+      "en": "I don't throw litter on the way."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "quaid-e-azam",
+  "ur": "قائدِ اعظم",
+  "en": "Quaid-e-Azam",
+
+  "warmup": [
+    {
+      "en": "Quaid-e-Azam was a great leader.",
+      "bank": ["رہنما", "قائدِ اعظم", "عظیم", "ایک", "تھے"],
+      "answer": ["قائدِ اعظم", "ایک", "عظیم", "رہنما", "تھے"]
+    },
+    {
+      "en": "He worked hard for Pakistan.",
+      "bank": ["نے", "پاکستان", "انہوں", "سخت", "محنت", "کے", "کی", "لیے"],
+      "answer": ["انہوں", "نے", "پاکستان", "کے", "لیے", "سخت", "محنت", "کی"]
+    },
+    {
+      "en": "We respect his sacrifices.",
+      "bank": ["ان", "احترام", "قربانیوں", "کی", "ہم", "کرتے", "کا", "ہیں"],
+      "answer": ["ہم", "ان", "کی", "قربانیوں", "کا", "احترام", "کرتے", "ہیں"]
+    },
+    {
+      "en": "Pakistan became free in 1947.",
+      "bank": ["1947", "پاکستان", "میں", "ہوا", "آزاد"],
+      "answer": ["پاکستان", "1947", "میں", "آزاد", "ہوا"]
+    },
+    {
+      "en": "His life teaches us many lessons.",
+      "bank": ["سکھاتی", "زندگی", "بہت", "ان", "ہمیں", "کی", "سے", "سبق", "ہے"],
+      "answer": ["ان", "کی", "زندگی", "ہمیں", "بہت", "سے", "سبق", "سکھاتی", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Muhammad Ali Jinnah, known respectfully as Quaid-e-Azam, is remembered as one of the most important leaders in the history of South Asia. Born in Karachi in 1876, he trained as a lawyer in England before returning home to practice law successfully. He later became deeply involved in politics, eventually leading the All-India Muslim League and dedicating his life to securing a separate homeland for the Muslims of the subcontinent. His discipline, determination, and honesty earned him deep respect from people across all walks of life. After years of tireless struggle, Pakistan finally came into existence on 14 August 1947, and Jinnah became its first Governor-General. Even though he passed away just over a year later, his vision and leadership continue to inspire millions of Pakistanis today, reminding them that dedication and hard work can achieve even the most difficult goals.",
+    "modelUr": "محمد علی جناح، جنہیں احتراماً قائدِ اعظم کہا جاتا ہے، جنوبی ایشیا کی تاریخ کے اہم ترین رہنماؤں میں سے ایک کے طور پر یاد کیے جاتے ہیں۔ 1876 میں کراچی میں پیدا ہونے والے انہوں نے انگلستان میں وکالت کی تربیت حاصل کی اور واپس آ کر کامیابی سے وکالت کی۔ بعد میں وہ سیاست میں گہرائی سے شامل ہو گئے، بالآخر آل انڈیا مسلم لیگ کی قیادت کی اور برصغیر کے مسلمانوں کے لیے ایک الگ وطن حاصل کرنے کے لیے اپنی زندگی وقف کر دی۔ ان کے نظم و ضبط، عزم اور ایمانداری نے انہیں زندگی کے ہر شعبے کے لوگوں سے گہری عزت دلائی۔ برسوں کی انتھک جدوجہد کے بعد، بالآخر 14 اگست 1947 کو پاکستان معرضِ وجود میں آیا اور جناح اس کے پہلے گورنر جنرل بنے۔ اگرچہ وہ اس کے صرف ایک سال بعد انتقال کر گئے، لیکن ان کا وژن اور قیادت آج بھی لاکھوں پاکستانیوں کو متاثر کرتی ہے، انہیں یاد دلاتی ہے کہ لگن اور محنت سے مشکل ترین اہداف بھی حاصل کیے جا سکتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}
