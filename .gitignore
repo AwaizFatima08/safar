@@ -1,3 +1,19 @@
 scripts/backup.log
 .secrets/
 *.key
+
+# Node
+node_modules/
+
+# Capacitor web assets (generated from dist/app.html — see package.json "build" script)
+www/
+
+# Android build outputs and local machine config (android/app/src, build.gradle etc. ARE tracked)
+android/local.properties
+android/.gradle/
+android/app/build/
+android/build/
+android/captures/
+android/.idea/
+android/*.iml
+android/app/*.iml
