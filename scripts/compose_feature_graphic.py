@@ -66,7 +66,7 @@ def main():
     ur_y = en_bottom - ur_h - ur_bbox[1] - 6
     draw.text((ur_x, ur_y), "سفر", font=nastaliq, fill=MARIGOLD)
 
-    draw.text((en_x + 4, en_bottom + 40), "O LEVEL URDU 3248 PRACTICE", font=karla, fill=INK_SOFT)
+    draw.text((en_x + 4, en_bottom + 40), "O LEVEL & IGCSE URDU PRACTICE", font=karla, fill=INK_SOFT)
 
     out_path = "store-assets/feature-graphic-1024x500.png"
     bg.save(out_path)

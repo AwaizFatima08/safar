@@ -8,7 +8,7 @@ to happen in your own browser — this doc exists so that's fast.
 ## 1. Create the app
 
 Play Console → **Create app**:
-- App name: `Urdu Safar`
+- App name: `Safar: Urdu O Level & IGCSE`
 - Default language: English (United States) — or English (India) if that reads better for your audience
 - App or game: **App**
 - Free or paid: **Free**
@@ -16,50 +16,50 @@ Play Console → **Create app**:
 
 ## 2. Store listing text
 
-**App name** (30 char max): `Urdu Safar`
+**App name** (30 char max): `Safar: Urdu O Level & IGCSE` (27 chars)
 
 **Short description** (80 char max):
 ```
-Practice O Level Urdu (3248): vocabulary, grammar, reading & writing skills
+Learn Urdu as a Second Language for Cambridge O Level and IGCSE exams
 ```
 
 **Full description** (4000 char max):
 ```
-Urdu Safar is a focused practice app for students preparing for Cambridge O Level Urdu — Second Language (syllabus 3248, for the 2027-2029 exams).
+Urdu Safar is a focused practice app for students preparing for Cambridge O Level Urdu (Second Language, 3248) or IGCSE Urdu (Foreign Language, 0539) — the two Cambridge Urdu qualifications share most of the same core vocabulary, topics, and skills, and Urdu Safar practices exactly those.
 
-Instead of another textbook, Urdu Safar turns the whole syllabus into bite-sized, repeatable practice:
+Instead of another textbook, Urdu Safar turns exam prep into bite-sized, repeatable practice:
 
 VOCABULARY PRACTICE
-Spaced-repetition flashcards covering 170+ words across every topic, a mixed word-match quiz, and a 30-idiom drill for Paper 2 — the single most requested skill for this exam.
+Spaced-repetition flashcards covering 170+ words across every topic, a mixed word-match quiz, and a 30-idiom drill — the single most requested skill for these exams.
 
 17 ESSAY TOPICS, FULLY WORKED
-Every topic in the syllabus (Home & Family, School Life, Festivals & Culture, and more) with vocabulary, reading, writing, and grammar practice at three difficulty levels, plus a cultural note for context.
+Every core topic (Home & Family, School Life, Festivals & Culture, and more) with vocabulary, reading, writing, and grammar practice at three difficulty levels, plus a cultural note for context.
 
 10 SKILLS, WITH SAMPLE ANSWERS
 Letter-writing, dialogue, and other functional-writing genres with model answers and guided prompts.
 
-READING SKILLS (Paper 1)
-Short-answer questions, multiple matching, and note-making — the exact exercise types on the real paper, with lenient answer-checking that accepts natural spelling variation.
+READING SKILLS
+Short-answer questions, multiple matching, and note-making, with lenient answer-checking that accepts natural spelling variation.
 
-GRAMMAR LAB (Paper 2)
+GRAMMAR LAB
 Sentence transformation and multiple-choice cloze passages, with difficulty levels to build up from the basics.
 
-TRANSLATION (Paper 2)
+TRANSLATION
 English-to-Urdu sentence-building warm-ups plus full passage translation with a model answer and checklist.
 
 SUMMARY WRITING & EXTENDED WRITING
-Condense a passage to under 100 words, or write a full ~200-word composition with a clear purpose, format, and audience — the highest-value single exercise on the exam — each with a model answer to self-assess against.
+Condense a passage to under 100 words, or write a full ~200-word composition with a clear purpose, format, and audience, each with a model answer to self-assess against.
 
 PROGRESS & MOTIVATION
 Earn gold, silver, and bronze medals as you go. Track your practice with a personal leaderboard, and — if you sign in — create a private friend group to compare progress with classmates, synced across devices.
 
 Works fully offline. No account is ever required — signing in is optional, only needed for the friend-group leaderboard.
 
-Urdu Safar is an independent study aid built around the Cambridge O Level Urdu 3248 syllabus; it is not an official Cambridge publication. Always check the current syllabus and past papers from Cambridge International as your primary reference.
+Urdu Safar is an independent study aid; it is not an official Cambridge publication. The O Level and IGCSE Urdu syllabi differ in some exam components (such as exact paper structure), so always check the current official syllabus and past papers for your specific qualification from Cambridge International as your primary reference.
 ```
 
 **Category:** Education
-**Tags:** exam prep, Urdu, language learning, O Level, Cambridge
+**Tags:** exam prep, Urdu, language learning, O Level, IGCSE, Cambridge
 
 **Contact details:**
 - Email: homi55@gmail.com

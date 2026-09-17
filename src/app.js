@@ -577,7 +577,7 @@ function renderSignup(){
   app.innerHTML = `
     <div class="topbar">
       <div class="brand"><span class="en display">Urdu Safar</span><span class="ur-mark ur">سفر</span></div>
-      <div class="tagline">O&nbsp;Level&nbsp;Urdu&nbsp;3248&nbsp;Practice</div>
+      <div class="tagline">O&nbsp;Level&nbsp;&amp;&nbsp;IGCSE&nbsp;Urdu&nbsp;Practice</div>
     </div>
     <div class="card signup-card">
       <div class="rule-title">Welcome! What should we call you?</div>
@@ -769,7 +769,7 @@ function renderHome(){
   app.innerHTML = `
     <div class="topbar">
       <div class="brand"><span class="en display">Urdu Safar</span><span class="ur-mark ur">سفر</span></div>
-      <div class="tagline">O&nbsp;Level&nbsp;Urdu&nbsp;3248&nbsp;Practice</div>
+      <div class="tagline">O&nbsp;Level&nbsp;&amp;&nbsp;IGCSE&nbsp;Urdu&nbsp;Practice</div>
     </div>
 
     <div class="player-row">
