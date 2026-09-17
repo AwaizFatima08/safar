@@ -1,0 +1,113 @@
+# Play Console listing kit — Urdu Safar
+
+Everything below is ready to copy-paste into Play Console (console.play.google.com,
+under the `homilabs` developer account). This session has no login/payment
+access to Play Console itself, so app-listing creation and submission need
+to happen in your own browser — this doc exists so that's fast.
+
+## 1. Create the app
+
+Play Console → **Create app**:
+- App name: `Urdu Safar`
+- Default language: English (United States) — or English (India) if that reads better for your audience
+- App or game: **App**
+- Free or paid: **Free**
+- Declarations: confirm developer program policies + US export laws (standard checkboxes)
+
+## 2. Store listing text
+
+**App name** (30 char max): `Urdu Safar`
+
+**Short description** (80 char max):
+```
+Practice O Level Urdu (3248): vocabulary, grammar, reading & writing skills
+```
+
+**Full description** (4000 char max):
+```
+Urdu Safar is a focused practice app for students preparing for Cambridge O Level Urdu — Second Language (syllabus 3248, for the 2027-2029 exams).
+
+Instead of another textbook, Urdu Safar turns the whole syllabus into bite-sized, repeatable practice:
+
+VOCABULARY PRACTICE
+Spaced-repetition flashcards covering 170+ words across every topic, a mixed word-match quiz, and a 30-idiom drill for Paper 2 — the single most requested skill for this exam.
+
+17 ESSAY TOPICS, FULLY WORKED
+Every topic in the syllabus (Home & Family, School Life, Festivals & Culture, and more) with vocabulary, reading, writing, and grammar practice at three difficulty levels, plus a cultural note for context.
+
+10 SKILLS, WITH SAMPLE ANSWERS
+Letter-writing, dialogue, and other functional-writing genres with model answers and guided prompts.
+
+READING SKILLS (Paper 1)
+Short-answer questions, multiple matching, and note-making — the exact exercise types on the real paper, with lenient answer-checking that accepts natural spelling variation.
+
+GRAMMAR LAB (Paper 2)
+Sentence transformation and multiple-choice cloze passages, with difficulty levels to build up from the basics.
+
+TRANSLATION (Paper 2)
+English-to-Urdu sentence-building warm-ups plus full passage translation with a model answer and checklist.
+
+SUMMARY WRITING & EXTENDED WRITING
+Condense a passage to under 100 words, or write a full ~200-word composition with a clear purpose, format, and audience — the highest-value single exercise on the exam — each with a model answer to self-assess against.
+
+PROGRESS & MOTIVATION
+Earn gold, silver, and bronze medals as you go. Track your practice with a personal leaderboard, and — if you sign in — create a private friend group to compare progress with classmates, synced across devices.
+
+Works fully offline. No account is ever required — signing in is optional, only needed for the friend-group leaderboard.
+
+Urdu Safar is an independent study aid built around the Cambridge O Level Urdu 3248 syllabus; it is not an official Cambridge publication. Always check the current syllabus and past papers from Cambridge International as your primary reference.
+```
+
+**Category:** Education
+**Tags:** exam prep, Urdu, language learning, O Level, Cambridge
+
+**Contact details:**
+- Email: homi55@gmail.com
+- Website: https://safar.homilabs.org (optional field)
+- Privacy policy URL (required): https://safar.homilabs.org/privacy-policy.html
+
+## 3. Graphics
+
+All already generated in `store-assets/`:
+| Slot | File | Size |
+|---|---|---|
+| App icon | `store-assets/icon-512.png` | 512×512 |
+| Feature graphic | `store-assets/feature-graphic-1024x500.png` | 1024×500 |
+| Phone screenshots (upload all 5, in order) | `store-assets/screenshots/01-home-essays.png` … `05-topic-detail.png` | 1080×2400 |
+
+Play requires at least 2 phone screenshots; these 5 show the home screen, vocabulary practice, a flashcard in use, the leaderboard, and a topic's four-skill structure.
+
+## 4. Content rating questionnaire
+
+Answer honestly; expected outcome is **Everyone** / **PEGI 3**:
+- Violence, sexual content, profanity, drugs/alcohol/gambling: **None** — it's an educational app
+- User-generated content: friend-group display names are user-chosen text, but there is **no chat, messaging, or public content sharing** — groups are private and invite-code-only
+- Shares location: **No**
+- Allows purchases: **No** (free, no IAP, no ads)
+
+## 5. App content declarations
+
+- **Privacy policy:** https://safar.homilabs.org/privacy-policy.html
+- **Ads:** No ads
+- **App access:** All functionality available without special access — note the optional sign-in for reviewers (any email/password works; there's nothing gated behind a real identity)
+- **Target audience:** Recommend 13+ or 16+ given the exam-prep audience (O Level students, typically 14-16) — avoids the stricter Families Policy review that applies to apps primarily aimed at under-13s, and is an honest reflection of who the syllabus is for
+- **News app:** No · **COVID-19 app:** No · **Data safety:** see below
+- **Government app:** No · **Financial features:** No
+
+## 6. Data safety form
+
+Data collected **only if the user chooses to sign in** (clearly state this is optional in the form's description field):
+
+| Data type | Collected? | Shared with 3rd parties? | Purpose | Optional? |
+|---|---|---|---|---|
+| Email address | Yes | No | Account management | Yes — guest mode needs none |
+| User IDs | Yes | No | Account management, app functionality | Yes |
+| App activity (in-app actions / scores) | Yes | No | App functionality (leaderboard) | Yes |
+
+- Data is encrypted in transit: **Yes** (Firebase/HTTPS default)
+- Users can request data deletion: **Yes** — https://safar.homilabs.org/delete-account.html (also in-app, Account screen)
+- Data collection practices reviewed against the actual privacy policy text at https://safar.homilabs.org/privacy-policy.html — keep these two in sync if the app's data handling ever changes
+
+## 7. What's still needed before you can actually publish a release
+
+Play Console will let you fill in everything above right now, but it can't accept a release until there's a **signed release build** (AAB) — that hasn't been generated yet (needs a release signing keystore, which we haven't created). That's a separate, purely local step this session *can* do — say the word and I'll generate the keystore and produce a signed AAB next. Until then, you can complete every step above except actually uploading a release to a testing track.
