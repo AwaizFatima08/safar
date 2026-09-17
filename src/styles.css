@@ -210,6 +210,8 @@
   .btn:hover{ background:var(--rule); }
   .btn.primary{ background:var(--marigold); color:var(--marigold-ink); border-color:var(--marigold); }
   .btn.primary:hover{ filter:brightness(1.06); }
+  .btn.danger{ background:#fff; color:#B3261E; border-color:#B3261E; }
+  .btn.danger:hover{ background:#FBEAE9; }
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
 
   /* ============ MCQ ============ */

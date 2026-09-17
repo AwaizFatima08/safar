@@ -215,6 +215,8 @@
   .btn:hover{ background:var(--rule); }
   .btn.primary{ background:var(--marigold); color:var(--marigold-ink); border-color:var(--marigold); }
   .btn.primary:hover{ filter:brightness(1.06); }
+  .btn.danger{ background:#fff; color:#B3261E; border-color:#B3261E; }
+  .btn.danger:hover{ background:#FBEAE9; }
   .btn:disabled{ opacity:.45; cursor:not-allowed; }
 
   /* ============ MCQ ============ */
@@ -307,6 +309,32 @@
   footer.note{ text-align:center; font-size:11.5px; color:var(--ink-faint); margin-top:36px; line-height:1.6; }
 
 </style>
+
+<!--
+  Firebase (project: urdu-safar) — for the optional real account + friend
+  group leaderboard. This apiKey is a public Web SDK identifier, not a
+  secret (Firebase's model: identifies the project to Google's servers;
+  actual access control is enforced by Firestore/Auth security rules,
+  deployed separately as firestore.rules). See
+  docs/accounts-friends-leaderboard-design.md. Everything else in the app
+  (all practice content, offline guest mode) works with zero network
+  access if these scripts fail to load.
+-->
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script>
+try{
+  firebase.initializeApp({
+    apiKey: "AIzaSyDjpwsYZReaWP5OVuRK6PxRxrsd7d8S0IQ",
+    authDomain: "urdu-safar.firebaseapp.com",
+    projectId: "urdu-safar",
+    storageBucket: "urdu-safar.firebasestorage.app",
+    messagingSenderId: "28423378665",
+    appId: "1:28423378665:web:e1885cd7a8d5e4c1888278"
+  });
+}catch(e){ /* offline preview or blocked network — app falls back to guest mode */ }
+</script>
 
 <div id="app"></div>
 <script>
@@ -423,18 +451,14 @@ function promptsDoneCount(skillId){
 
 /* ======================================================================
    PLAYER + LEADERBOARD
-   No real accounts (no backend to hold Google/Instagram sign-in secrets
-   safely, and Instagram has no general sign-in API for small apps like
-   this) — "sign up" is a nickname, stored on this device. Every finished
-   section earns a medal (gold=3 stars, silver=2, bronze=1). A local
-   leaderboard on this device always works, so more than one learner
-   sharing the same computer can compare medals. If this page is opened
-   by someone signed into the same Claude account/organization as the
-   person who published it, medals also sync to a small shared
-   leaderboard (the `db` capability) so those viewers see each other too
-   — that reach depends on the account, not on this code, so the app
-   quietly falls back to the local-only leaderboard when sharing isn't
-   available.
+   "Sign up" is just a nickname, stored on this device — always available,
+   works fully offline, no account needed. Every finished section earns a
+   medal (gold=3 stars, silver=2, bronze=1); a local leaderboard on this
+   device always works, so more than one learner sharing the same device
+   can compare medals. Signing into a real account (Firebase Auth, see
+   ACCOUNTS + FRIEND GROUPS below) additionally lets someone create or
+   join one real friend group whose members' medals sync through Cloud
+   Firestore, for a leaderboard that works across separate devices.
    ====================================================================== */
 const PLAYER_KEY = "urdu-safar-player-v1";
 function loadPlayer(){
@@ -697,18 +721,141 @@ function upsertLocalLeaderboard(entry){
   saveLocalLeaderboard(list);
 }
 
-// Lazily resolves the shared-database capability. Stays null (silently)
-// when this page isn't running with db access — the app never depends
-// on it being there.
-let db = null;
-async function getDb(){
-  if(db) return db;
+/* ======================================================================
+   ACCOUNTS + FRIEND GROUPS (Firebase Auth + Firestore)
+   Optional layer on top of the always-available local guest mode above.
+   Design + security-rules rationale: docs/accounts-friends-leaderboard-design.md.
+   Signing in is never required to use the app — every practice feature
+   and the on-device leaderboard work fully offline as a guest. Signing
+   in (email + password) additionally lets you create/join ONE real
+   friend group at a time, whose members' medal totals sync through
+   Cloud Firestore so the group leaderboard works across devices.
+   ====================================================================== */
+let fbUser = null;
+function fbAuth(){ try{ return (typeof firebase !== "undefined") ? firebase.auth() : null; }catch(e){ return null; } }
+function fbFirestore(){ try{ return (typeof firebase !== "undefined") ? firebase.firestore() : null; }catch(e){ return null; } }
+
+function initFirebaseAuthListener(){
+  const auth = fbAuth();
+  if(!auth) return;
+  auth.onAuthStateChanged(async (u)=>{
+    fbUser = u;
+    if(u) await loadAccountFromFirestore();
+    if(route.view === "account" || route.view === "leaderboard") render();
+  });
+}
+
+async function loadAccountFromFirestore(){
+  const fs = fbFirestore();
+  if(!fs || !fbUser) return;
   try{
-    if(typeof window !== "undefined" && window.claude && window.claude.use){
-      db = await window.claude.use("db");
-    }
-  }catch(e){ db = null; }
-  return db;
+    const snap = await fs.collection("users").doc(fbUser.uid).get();
+    const data = snap.exists ? snap.data() : {};
+    if(!player) player = { id: fbUser.uid, nickname: data.displayName || (fbUser.email||"").split("@")[0] };
+    player.id = fbUser.uid;
+    if(data.displayName) player.nickname = data.displayName;
+    player.group = data.group || null;
+    savePlayer(player);
+    refreshPlayerLeaderboardEntry();
+  }catch(e){ /* offline — local state stays as-is */ }
+}
+
+async function signUp(email, password, nickname){
+  const auth = fbAuth();
+  if(!auth) throw new Error("offline");
+  const cred = await auth.createUserWithEmailAndPassword(email, password);
+  const fs = fbFirestore();
+  await fs.collection("users").doc(cred.user.uid).set({ email, displayName: nickname, createdAt: Date.now() });
+  player = { id: cred.user.uid, nickname, group: null };
+  savePlayer(player);
+  refreshPlayerLeaderboardEntry();
+}
+async function logIn(email, password){
+  const auth = fbAuth();
+  if(!auth) throw new Error("offline");
+  await auth.signInWithEmailAndPassword(email, password);
+}
+async function logOut(){
+  const auth = fbAuth();
+  if(auth) await auth.signOut();
+  fbUser = null;
+}
+// Firebase requires a *recent* sign-in for account deletion; callers should
+// catch auth/requires-recent-login and re-prompt for the password.
+async function deleteAccountEverywhere(password){
+  const auth = fbAuth();
+  const fs = fbFirestore();
+  if(!auth || !auth.currentUser) throw new Error("not signed in");
+  const cred = firebase.auth.EmailAuthProvider.credential(auth.currentUser.email, password);
+  await auth.currentUser.reauthenticateWithCredential(cred);
+  if(player && player.group && player.group.groupId){
+    await leaveGroup(player.group.groupId).catch(()=>{});
+  }
+  await fs.collection("users").doc(auth.currentUser.uid).delete().catch(()=>{});
+  await auth.currentUser.delete();
+  fbUser = null;
+  if(player){ player.group = null; savePlayer(player); }
+}
+
+const INVITE_ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"; // no 0/O/1/I — easy to read aloud
+function randomInviteCode(){
+  let s = "";
+  for(let i=0;i<6;i++) s += INVITE_ALPHABET[Math.floor(Math.random()*INVITE_ALPHABET.length)];
+  return s;
+}
+async function createGroup(name){
+  const fs = fbFirestore();
+  if(!fs || !fbUser) throw new Error("sign in required");
+  const groupName = (name || "").trim().slice(0,30) || "My Group";
+  const code = randomInviteCode();
+  const groupRef = fs.collection("groups").doc();
+  const totals = computeMedalTotals();
+  await groupRef.set({ name: groupName, ownerUid: fbUser.uid, inviteCode: code, memberUids: [fbUser.uid], createdAt: Date.now() });
+  await fs.collection("groupLookup").doc(code).set({ groupId: groupRef.id, ownerUid: fbUser.uid });
+  await groupRef.collection("members").doc(fbUser.uid).set({
+    displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
+  });
+  player.group = { groupId: groupRef.id, name: groupName, inviteCode: code };
+  savePlayer(player);
+  await fs.collection("users").doc(fbUser.uid).set({ group: player.group }, { merge:true });
+}
+async function joinGroupByCode(rawCode){
+  const code = normalizeGroupCode(rawCode);
+  if(!code) throw new Error("empty");
+  const fs = fbFirestore();
+  if(!fs || !fbUser) throw new Error("sign in required");
+  const lookupSnap = await fs.collection("groupLookup").doc(code).get();
+  if(!lookupSnap.exists) throw new Error("not-found");
+  const { groupId } = lookupSnap.data();
+  const groupRef = fs.collection("groups").doc(groupId);
+  await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayUnion(fbUser.uid) });
+  const totals = computeMedalTotals();
+  await groupRef.collection("members").doc(fbUser.uid).set({
+    displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
+  });
+  let groupName = "Friend Group";
+  try{ const gs = await groupRef.get(); if(gs.exists) groupName = gs.data().name || groupName; }catch(e){}
+  player.group = { groupId, name: groupName, inviteCode: code };
+  savePlayer(player);
+  await fs.collection("users").doc(fbUser.uid).set({ group: player.group }, { merge:true });
+}
+async function leaveGroup(groupId){
+  const fs = fbFirestore();
+  if(!fs || !fbUser || !groupId) return;
+  const groupRef = fs.collection("groups").doc(groupId);
+  await groupRef.collection("members").doc(fbUser.uid).delete().catch(()=>{});
+  await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayRemove(fbUser.uid) }).catch(()=>{});
+  player.group = null;
+  savePlayer(player);
+  await fs.collection("users").doc(fbUser.uid).set({ group: null }, { merge:true }).catch(()=>{});
+}
+async function fetchGroupLeaderboard(groupId){
+  const fs = fbFirestore();
+  if(!fs || !groupId) return [];
+  try{
+    const snap = await fs.collection("groups").doc(groupId).collection("members").get();
+    return snap.docs.map(d=>Object.assign({ id:d.id }, d.data()));
+  }catch(e){ return []; }
 }
 
 function medalHtml(stars){
@@ -722,42 +869,27 @@ function refreshPlayerLeaderboardEntry(){
   if(!player) return;
   const totals = computeMedalTotals();
   const entry = {
-    id: player.id, nickname: player.nickname, group: player.group || null,
+    id: player.id, nickname: player.nickname, group: player.group ? player.group.groupId : null,
     gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score,
     updatedAt: Date.now()
   };
   upsertLocalLeaderboard(entry);
-  (async ()=>{
-    try{
-      const d = await getDb();
-      if(!d) return;
-      await d.doc("leaderboard/" + entry.id).set(entry);
-    }catch(e){ /* shared leaderboard unavailable — local copy already saved */ }
-  })();
+  if(fbUser){
+    const fs = fbFirestore();
+    if(fs){
+      fs.collection("users").doc(fbUser.uid).set({ displayName: player.nickname }, { merge:true }).catch(()=>{});
+      if(player.group && player.group.groupId){
+        fs.collection("groups").doc(player.group.groupId).collection("members").doc(fbUser.uid).set({
+          displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
+        }).catch(()=>{});
+      }
+    }
+  }
 }
 
-async function fetchSharedLeaderboard(){
-  try{
-    const d = await getDb();
-    if(!d) return null;
-    const snap = await d.collection("leaderboard").orderBy("score", "desc").limit(30).get();
-    return snap.docs.map(doc=>doc.data());
-  }catch(e){ return null; }
-}
-
-// A "group" is just a shared code typed into two devices — not an account
-// system. Its members only actually see each other on the leaderboard when
-// they're both viewing this page inside the same Claude account/org (the
-// same reach limit as the leaderboard's shared mode); on this device alone
-// it still narrows the local board to the code, which is at least honest.
+// Invite codes are typed by hand, so be forgiving about case/punctuation.
 function normalizeGroupCode(raw){
   return (raw || "").trim().toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 8);
-}
-function setPlayerGroup(code){
-  if(!player) return;
-  player.group = code || null;
-  savePlayer(player);
-  refreshPlayerLeaderboardEntry();
 }
 
 /* ======================================================================
@@ -823,6 +955,7 @@ function renderSignup(){
    ====================================================================== */
 function renderLeaderboard(){
   const backTab = route.homeTab === "skills" ? "skills" : "essays";
+  const signedIn = !!fbUser;
   app.innerHTML = `
     <div class="back-row">
       <button class="back-btn" id="backHome">&larr; Home</button>
@@ -832,28 +965,47 @@ function renderLeaderboard(){
       <span class="en-title">Leaderboard</span>
     </div>
     <div class="card group-card">
-      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Group</div>
-      ${player.group ? `
-        <p class="rule-explain" style="margin-bottom:10px;">You're in group <strong>${player.group}</strong>. Share this code with a friend so they can join it too.</p>
+      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Friend Group</div>
+      ${!signedIn ? `
+        <p class="rule-explain" style="margin-bottom:10px;">Sign in to create or join a real friend group — it syncs across devices, not just this one.</p>
+        <div class="btn-row"><button class="btn primary" id="goAccountBtn">Sign in / Sign up</button></div>
+      ` : player.group ? `
+        <p class="rule-explain" style="margin-bottom:10px;">You're in <strong>${player.group.name}</strong>. Invite code: <strong>${player.group.inviteCode}</strong> — share it with a friend so they can join.</p>
         <div class="btn-row"><button class="btn" id="leaveGroupBtn">Leave group</button></div>
       ` : `
-        <p class="rule-explain" style="margin-bottom:10px;">Not in a group yet. Create a short code and share it with a friend, or type theirs to join.</p>
-        <div class="btn-row"><button class="btn primary" id="joinGroupBtn">Join or create a group</button></div>
+        <p class="rule-explain" style="margin-bottom:10px;">Not in a group yet. Create one and share the invite code with a friend, or enter theirs to join.</p>
+        <div class="btn-row">
+          <button class="btn primary" id="createGroupBtn">Create a group</button>
+          <button class="btn" id="joinGroupBtn">Join with a code</button>
+        </div>
       `}
-      <p class="rule-explain group-caveat">Heads up: a group code only connects people who open Urdu Safar signed into the same Claude account as whoever published it — it won't reach a friend on their own separate account.</p>
     </div>
     <div id="lbHost"><div class="card"><p class="rule-explain">Loading…</p></div></div>
   `;
   document.getElementById("backHome").addEventListener("click", ()=> go({view:"home", homeTab:backTab}));
+  const goAccountBtn = document.getElementById("goAccountBtn");
+  if(goAccountBtn) goAccountBtn.addEventListener("click", ()=> go({view:"account", homeTab:backTab}));
+  const createBtn = document.getElementById("createGroupBtn");
+  if(createBtn) createBtn.addEventListener("click", async ()=>{
+    const name = window.prompt("Name your group (shown to members):", "My Group");
+    if(name === null) return;
+    createBtn.disabled = true;
+    try{ await createGroup(name); renderLeaderboard(); }
+    catch(e){ window.alert("Couldn't create the group — check your connection and try again."); createBtn.disabled = false; }
+  });
   const joinBtn = document.getElementById("joinGroupBtn");
-  if(joinBtn) joinBtn.addEventListener("click", ()=>{
-    const raw = window.prompt("Enter a group code to join — or make one up to start a new group (letters/numbers, up to 8 characters):", "");
+  if(joinBtn) joinBtn.addEventListener("click", async ()=>{
+    const raw = window.prompt("Enter the group's invite code:", "");
     const code = normalizeGroupCode(raw);
-    if(code){ setPlayerGroup(code); renderLeaderboard(); }
+    if(!code) return;
+    joinBtn.disabled = true;
+    try{ await joinGroupByCode(code); renderLeaderboard(); }
+    catch(e){ window.alert(e && e.message === "not-found" ? "No group has that code — double check it with your friend." : "Couldn't join — check your connection and try again."); joinBtn.disabled = false; }
   });
   const leaveBtn = document.getElementById("leaveGroupBtn");
-  if(leaveBtn) leaveBtn.addEventListener("click", ()=>{
-    setPlayerGroup(null);
+  if(leaveBtn) leaveBtn.addEventListener("click", async ()=>{
+    leaveBtn.disabled = true;
+    await leaveGroup(player.group.groupId);
     renderLeaderboard();
   });
   drawLeaderboard();
@@ -861,28 +1013,13 @@ function renderLeaderboard(){
 
 async function drawLeaderboard(){
   const host = document.getElementById("lbHost");
-  const local = loadLocalLeaderboard();
-  const remote = await fetchSharedLeaderboard();
-  let rows, scopeNote, shared;
-  if(remote && remote.length){
-    const map = new Map();
-    remote.forEach(r=> map.set(r.id, r));
-    local.forEach(l=> { if(!map.has(l.id)) map.set(l.id, l); });
-    rows = Array.from(map.values());
-    shared = true;
+  let rows, scopeNote;
+  if(fbUser && player.group && player.group.groupId){
+    rows = await fetchGroupLeaderboard(player.group.groupId);
+    scopeNote = `Showing "${player.group.name}" — everyone in your friend group.`;
   } else {
-    rows = local;
-    shared = false;
-  }
-  if(player.group){
-    rows = rows.filter(r => r.group === player.group);
-    scopeNote = shared
-      ? `Showing group ${player.group} — everyone in it who can open this with the right account.`
-      : `Showing group ${player.group} on this device only.`;
-  } else {
-    scopeNote = shared
-      ? "Shared leaderboard — everyone who can open this with the right account sees this list."
-      : "This leaderboard is saved on this device — it shows everyone who has used Urdu Safar here.";
+    rows = loadLocalLeaderboard();
+    scopeNote = "This leaderboard is saved on this device — it shows everyone who has used Urdu Safar here.";
   }
   rows.sort((a,b)=> (b.score||0) - (a.score||0));
   host.innerHTML = `
@@ -891,12 +1028,77 @@ async function drawLeaderboard(){
       ${rows.length ? rows.map((r,i)=>`
         <div class="lb-row ${player && r.id===player.id ? 'me':''}">
           <span class="lb-rank">${i+1}</span>
-          <span class="lb-name">${r.nickname}${player && r.id===player.id ? ' (you)' : ''}</span>
+          <span class="lb-name">${r.nickname||r.displayName}${player && r.id===player.id ? ' (you)' : ''}</span>
           <span class="lb-medals">🥇${r.gold||0}&nbsp;🥈${r.silver||0}&nbsp;🥉${r.bronze||0}</span>
         </div>
       `).join("") : `<p class="rule-explain">No medals earned yet — finish a quiz to appear here.</p>`}
     </div>
   `;
+}
+
+/* ======================================================================
+   ACCOUNT — sign up / log in / log out / delete account
+   ====================================================================== */
+function renderAccount(){
+  const backTab = route.homeTab === "skills" ? "skills" : "essays";
+  if(fbUser){
+    app.innerHTML = `
+      <div class="back-row"><button class="back-btn" id="backHome">&larr; Home</button></div>
+      <div class="topic-head"><span class="ur-title ur">اکاؤنٹ</span><span class="en-title">Account</span></div>
+      <div class="card">
+        <p class="rule-explain">Signed in as <strong>${fbUser.email}</strong>.</p>
+        <div class="btn-row"><button class="btn" id="logoutBtn">Log out</button></div>
+      </div>
+      <div class="card">
+        <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Delete account</div>
+        <p class="rule-explain" style="margin-bottom:10px;">Permanently deletes your account, your friend-group membership, and every score synced to it. Your on-device practice progress is not affected. This can't be undone.</p>
+        <div class="btn-row"><button class="btn danger" id="deleteAcctBtn">Delete my account</button></div>
+      </div>
+    `;
+    document.getElementById("logoutBtn").addEventListener("click", async ()=>{ await logOut(); go({view:"leaderboard", homeTab:backTab}); });
+    document.getElementById("deleteAcctBtn").addEventListener("click", async ()=>{
+      if(!window.confirm("Delete your account and all its synced data? This can't be undone.")) return;
+      const password = window.prompt("Re-enter your password to confirm:");
+      if(!password) return;
+      try{
+        await deleteAccountEverywhere(password);
+        window.alert("Your account has been deleted.");
+        go({view:"leaderboard", homeTab:backTab});
+      }catch(e){ window.alert("Couldn't delete the account — check the password and your connection, then try again."); }
+    });
+    return;
+  }
+  app.innerHTML = `
+    <div class="back-row"><button class="back-btn" id="backHome">&larr; Home</button></div>
+    <div class="topic-head"><span class="ur-title ur">اکاؤنٹ</span><span class="en-title">Account</span></div>
+    <div class="card">
+      <p class="rule-explain" style="margin-bottom:10px;">Optional — the app works fully offline as a guest. Sign in only if you want a real friend-group leaderboard that syncs across devices.</p>
+      <input type="email" id="acctEmail" class="nick-input" placeholder="Email" autocomplete="email" />
+      <input type="password" id="acctPassword" class="nick-input" placeholder="Password (6+ characters)" autocomplete="current-password" style="margin-top:8px;" />
+      <p class="rule-explain" id="acctError" style="color:#B3261E;display:none;"></p>
+      <div class="btn-row" style="margin-top:10px;">
+        <button class="btn primary" id="loginBtn">Log in</button>
+        <button class="btn" id="signupBtn">Sign up</button>
+      </div>
+    </div>
+  `;
+  document.getElementById("backHome").addEventListener("click", ()=> go({view:"home", homeTab:backTab}));
+  const errEl = document.getElementById("acctError");
+  const showErr = (msg)=>{ errEl.textContent = msg; errEl.style.display = "block"; };
+  document.getElementById("loginBtn").addEventListener("click", async ()=>{
+    const email = document.getElementById("acctEmail").value.trim();
+    const password = document.getElementById("acctPassword").value;
+    if(!email || !password){ showErr("Enter your email and password."); return; }
+    try{ await logIn(email, password); go({view:"leaderboard", homeTab:backTab}); }
+    catch(e){ showErr("Couldn't log in — check your email and password."); }
+  });
+  document.getElementById("signupBtn").addEventListener("click", async ()=>{
+    const email = document.getElementById("acctEmail").value.trim();
+    const password = document.getElementById("acctPassword").value;
+    if(!email || password.length < 6){ showErr("Enter an email and a password of at least 6 characters."); return; }
+    try{ await signUp(email, password, player ? player.nickname : email.split("@")[0]); go({view:"leaderboard", homeTab:backTab}); }
+    catch(e){ showErr(e && e.code === "auth/email-already-in-use" ? "That email already has an account — try logging in instead." : "Couldn't sign up — check your connection and try again."); }
+  });
 }
 
 function renderHome(){
@@ -2817,6 +3019,7 @@ function render(){
   if(route.view === "home") renderHome();
   else if(route.view === "skill") renderSkill();
   else if(route.view === "leaderboard") renderLeaderboard();
+  else if(route.view === "account") renderAccount();
   else if(route.view === "vocabpractice") renderVocabPractice();
   else if(route.view === "readingskills") renderReadingSkills();
   else if(route.view === "grammarlab") renderGrammarLab();
@@ -2826,6 +3029,7 @@ function render(){
   else renderTopic();
 }
 
+initFirebaseAuthListener();
 render();
 })();
 

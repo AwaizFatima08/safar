@@ -1,0 +1,63 @@
+rules_version = '2';
+
+// Urdu Safar — Firestore security rules for real accounts + friend groups.
+//
+// Design (see docs/accounts-friends-leaderboard-design.md):
+//   users/{uid}                 — one doc per signed-in account, owner-only
+//   groups/{groupId}            — a friend group; readable only by its members
+//   groups/{groupId}/members/{uid} — one member's score snapshot, writable only by that member
+//   groupLookup/{inviteCode}    — invite code -> groupId only, so joining doesn't
+//                                  require the `groups` collection to be publicly queryable
+//
+// No public collection is readable by a non-member: someone who isn't in a
+// group cannot read its member list or scores just by guessing the groupId.
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    match /groupLookup/{inviteCode} {
+      // Anyone signed in can resolve an invite code they were given to a
+      // groupId — that's all this document exposes. Only the creator (at
+      // group-creation time) may write it, and it's immutable after that.
+      allow get: if request.auth != null;
+      allow list: if false;
+      allow create: if request.auth != null
+        && request.resource.data.keys().hasOnly(['groupId', 'ownerUid'])
+        && request.resource.data.ownerUid == request.auth.uid;
+      allow update, delete: if false;
+    }
+
+    match /groups/{groupId} {
+      allow read: if request.auth != null && request.auth.uid in resource.data.memberUids;
+
+      // Create: only as the sole initial member, with yourself as owner.
+      allow create: if request.auth != null
+        && request.resource.data.ownerUid == request.auth.uid
+        && request.resource.data.memberUids == [request.auth.uid];
+
+      // Update: only ever touching memberUids, and only ever adding or
+      // removing exactly your own uid (join or leave) — nothing else about
+      // the group (name, invite code, owner) can be changed this way.
+      allow update: if request.auth != null
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberUids'])
+        && (
+          (!(request.auth.uid in resource.data.memberUids)
+            && request.resource.data.memberUids == resource.data.memberUids.concat([request.auth.uid]))
+          ||
+          (request.auth.uid in resource.data.memberUids
+            && request.resource.data.memberUids == resource.data.memberUids.removeAll([request.auth.uid]))
+        );
+
+      allow delete: if request.auth != null && request.auth.uid == resource.data.ownerUid;
+
+      match /members/{uid} {
+        allow read: if request.auth != null
+          && request.auth.uid in get(/databases/$(database)/documents/groups/$(groupId)).data.memberUids;
+        allow write: if request.auth != null && request.auth.uid == uid;
+      }
+    }
+  }
+}

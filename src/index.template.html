@@ -6,6 +6,32 @@
 /* __STYLES_INJECTION_POINT__ */
 </style>
 
+<!--
+  Firebase (project: urdu-safar) — for the optional real account + friend
+  group leaderboard. This apiKey is a public Web SDK identifier, not a
+  secret (Firebase's model: identifies the project to Google's servers;
+  actual access control is enforced by Firestore/Auth security rules,
+  deployed separately as firestore.rules). See
+  docs/accounts-friends-leaderboard-design.md. Everything else in the app
+  (all practice content, offline guest mode) works with zero network
+  access if these scripts fail to load.
+-->
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
+<script>
+try{
+  firebase.initializeApp({
+    apiKey: "AIzaSyDjpwsYZReaWP5OVuRK6PxRxrsd7d8S0IQ",
+    authDomain: "urdu-safar.firebaseapp.com",
+    projectId: "urdu-safar",
+    storageBucket: "urdu-safar.firebasestorage.app",
+    messagingSenderId: "28423378665",
+    appId: "1:28423378665:web:e1885cd7a8d5e4c1888278"
+  });
+}catch(e){ /* offline preview or blocked network — app falls back to guest mode */ }
+</script>
+
 <div id="app"></div>
 <script>
 /* __SCRIPT_INJECTION_POINT__ */
