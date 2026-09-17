@@ -1,0 +1,44 @@
+{
+  "id": "health-body",
+  "ur": "صحت اور جسم",
+  "en": "Health & Body",
+
+  "warmup": [
+    {
+      "en": "Exercise is good for health.",
+      "bank": ["اچھی", "لیے", "ورزش", "کے", "صحت", "ہے"],
+      "answer": ["ورزش", "صحت", "کے", "لیے", "اچھی", "ہے"]
+    },
+    {
+      "en": "The doctor gave me medicine.",
+      "bank": ["مجھے", "نے", "دی", "ڈاکٹر", "دوا"],
+      "answer": ["ڈاکٹر", "نے", "مجھے", "دوا", "دی"]
+    },
+    {
+      "en": "I drink water every morning.",
+      "bank": ["صبح", "پیتا", "پانی", "ہر", "میں", "ہوں"],
+      "answer": ["میں", "ہر", "صبح", "پانی", "پیتا", "ہوں"]
+    },
+    {
+      "en": "She takes good care of her health.",
+      "bank": ["خیال", "کا", "رکھتی", "صحت", "اپنی", "وہ", "اچھا", "ہے"],
+      "answer": ["وہ", "اپنی", "صحت", "کا", "اچھا", "خیال", "رکھتی", "ہے"]
+    },
+    {
+      "en": "Children need enough sleep.",
+      "bank": ["ضرورت", "کی", "نیند", "کو", "بچوں", "مناسب", "ہے"],
+      "answer": ["بچوں", "کو", "مناسب", "نیند", "کی", "ضرورت", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Good health is one of the greatest blessings a person can have, and taking care of it should be a daily priority. Eating a balanced diet full of fruits, vegetables, and clean water helps the body stay strong and fight off illness. Regular exercise, even something as simple as a daily walk, keeps the heart healthy and improves mood. Getting enough sleep every night allows the body and mind to rest and recover from the day's activities. Doctors also recommend regular medical checkups so that any health problem can be identified and treated early, before it becomes serious. Unfortunately, many people ignore these simple habits because of busy schedules, only to face health problems later in life. Schools and families should teach children from a young age that maintaining good health is far easier than curing a serious illness.",
+    "modelUr": "اچھی صحت ان بڑی نعمتوں میں سے ایک ہے جو انسان کو حاصل ہو سکتی ہیں، اور اس کا خیال رکھنا روزانہ کی ترجیح ہونی چاہیے۔ پھلوں، سبزیوں اور صاف پانی سے بھرپور متوازن غذا کھانا جسم کو مضبوط رکھنے اور بیماریوں سے لڑنے میں مدد دیتا ہے۔ باقاعدہ ورزش، چاہے وہ روزانہ کی سادہ چہل قدمی ہی کیوں نہ ہو، دل کو صحت مند رکھتی ہے اور موڈ بہتر بناتی ہے۔ ہر رات مناسب نیند لینا جسم اور دماغ کو دن بھر کی سرگرمیوں سے آرام اور بحالی کا موقع دیتا ہے۔ ڈاکٹر باقاعدہ طبی معائنے کا مشورہ بھی دیتے ہیں تاکہ کسی بھی صحت کے مسئلے کی بروقت شناخت اور علاج ہو سکے، اس سے پہلے کہ وہ سنگین ہو جائے۔ افسوس کی بات ہے کہ بہت سے لوگ مصروف معمولات کی وجہ سے ان سادہ عادات کو نظرانداز کرتے ہیں اور بعد میں زندگی میں صحت کے مسائل کا سامنا کرتے ہیں۔ سکولوں اور خاندانوں کو بچوں کو بچپن ہی سے سکھانا چاہیے کہ اچھی صحت برقرار رکھنا کسی سنگین بیماری کے علاج سے کہیں زیادہ آسان ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

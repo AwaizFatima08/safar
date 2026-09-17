@@ -1,0 +1,56 @@
+{
+  "id": "festivals-culture",
+  "ur": "تہوار اور ثقافت",
+  "en": "Festivals & Culture",
+
+  "grammarPoint": { "ur": "ماضی کا صیغہ اور مرکب حروفِ اضافت", "en": "Past tense forms and compound postpositions" },
+
+  "cloze": {
+    "passage": "گزشتہ عید پر ہمارا سارا خاندان اکٹھا (1)_____۔ دادی نے ہمیں کہانیاں (2)_____۔ ہم سب مل کر عید کی نماز کے لیے مسجد (3)_____ گئے۔ بچے عیدی لینے کے (4)_____ بہت خوش تھے۔ اس دن کی خوشی دوسرے دنوں (5)_____ زیادہ تھی۔",
+    "gaps": [
+      { "opts": ["ہوا", "ہوئی", "ہوئے", "ہوں"], "a": 0, "en": "was (gathered) — past tense masculine singular, agrees with خاندان" },
+      { "opts": ["سنایا", "سنائی", "سنائیں", "سناؤ"], "a": 2, "en": "told — agrees with the plural feminine noun کہانیاں" },
+      { "opts": ["چلا", "چلی", "چلے", "چلو"], "a": 2, "en": "went — masculine plural agreement with ہم سب" },
+      { "opts": ["لیے", "ساتھ", "بعد", "پاس"], "a": 0, "en": "for — کے لیے means \"for / because of\"" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "بچے عیدی لیتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["بچے عیدی نہیں لیتے", "بچے عیدی نہیں لیتے۔"],
+      "en": "Children take Eidi."
+    },
+    {
+      "original": "دادی کہانی سناتی ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["دادی نے کہانی سنائی", "دادی نے کہانی سنائی۔"],
+      "en": "Grandmother tells a story."
+    },
+    {
+      "original": "ہم مل کر عید مناتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم مل کر عید منائیں گے", "ہم مل کر عید منائیں گے۔"],
+      "en": "We celebrate Eid together."
+    },
+    {
+      "original": "تم نے نئے کپڑے پہنے ہیں۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے نئے کپڑے پہنے ہیں", "کیا تم نے نئے کپڑے پہنے ہیں؟"],
+      "en": "You have worn new clothes."
+    },
+    {
+      "original": "میں سب کو عید مبارک کہتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["سب کو عید مبارک کہیں", "سب کو عید مبارک کہیں۔"],
+      "en": "I wish everyone Eid Mubarak."
+    }
+  ]
+}

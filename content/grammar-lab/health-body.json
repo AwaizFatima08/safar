@@ -1,0 +1,56 @@
+{
+  "id": "health-body",
+  "ur": "صحت اور جسم",
+  "en": "Health & Body",
+
+  "grammarPoint": { "ur": "فعل کی جمع مطابقت اور \"ضرورت\" کا اظہار", "en": "Plural verb agreement and expressing necessity" },
+
+  "cloze": {
+    "passage": "صحت مند رہنے کے لیے ہمیں روزانہ ورزش (1)_____ چاہیے۔ ڈاکٹر نے مجھے دوا (2)_____ کو کہا۔ اگر تمہیں بخار ہو تو تمہیں آرام کی (3)_____ ہے۔ بچے متوازن غذا کھا کر صحت مند (4)_____ ہیں۔ اچھی نیند لینا برے موڈ (5)_____ بہتر ہے۔",
+    "gaps": [
+      { "opts": ["کرنا", "کرنی", "کرنے", "کریں"], "a": 1, "en": "should do — کرنی agrees with the feminine noun ورزش" },
+      { "opts": ["کھانے", "کھانا", "کھا", "کھاؤ"], "a": 0, "en": "to eat — کھانے کو کہا, the infinitive oblique form" },
+      { "opts": ["ضرورت", "خواہش", "کوشش", "امید"], "a": 0, "en": "need — ضرورت ہے means \"there is a need\"" },
+      { "opts": ["رہتا", "رہتی", "رہتے", "رہو"], "a": 2, "en": "remain — plural masculine agreement with بچے" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ڈاکٹر دوا دیتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ڈاکٹر دوا نہیں دیتے", "ڈاکٹر دوا نہیں دیتے۔"],
+      "en": "The doctor gives medicine."
+    },
+    {
+      "original": "میں روزانہ ورزش کرتا ہوں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["میں نے روزانہ ورزش کی", "میں نے روزانہ ورزش کی۔"],
+      "en": "I exercise daily."
+    },
+    {
+      "original": "وہ صحت مند رہتا ہے۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["وہ صحت مند رہے گا", "وہ صحت مند رہے گا۔"],
+      "en": "He stays healthy."
+    },
+    {
+      "original": "تم نے دوا کھائی ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے دوا کھائی ہے", "کیا تم نے دوا کھائی ہے؟"],
+      "en": "You have taken the medicine."
+    },
+    {
+      "original": "میں پانی زیادہ پیتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["پانی زیادہ پییں", "پانی زیادہ پییں۔"],
+      "en": "I drink more water."
+    }
+  ]
+}

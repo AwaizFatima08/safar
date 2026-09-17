@@ -1,0 +1,44 @@
+{
+  "id": "festivals-culture",
+  "ur": "تہوار اور ثقافت",
+  "en": "Festivals & Culture",
+
+  "warmup": [
+    {
+      "en": "We celebrate Eid with our whole family.",
+      "bank": ["عید", "خاندان", "پورے", "اپنے", "ہم", "کے", "ساتھ", "مناتے", "ہیں"],
+      "answer": ["ہم", "اپنے", "پورے", "خاندان", "کے", "ساتھ", "عید", "مناتے", "ہیں"]
+    },
+    {
+      "en": "Children receive Eidi from elders.",
+      "bank": ["سے", "عیدی", "بڑوں", "بچوں", "کو", "ملتی", "ہے"],
+      "answer": ["بچوں", "کو", "بڑوں", "سے", "عیدی", "ملتی", "ہے"]
+    },
+    {
+      "en": "My mother cooks sweet dishes on Eid.",
+      "bank": ["پکوان", "میری", "عید", "بناتی", "پر", "والدہ", "میٹھے", "ہیں"],
+      "answer": ["میری", "والدہ", "عید", "پر", "میٹھے", "پکوان", "بناتی", "ہیں"]
+    },
+    {
+      "en": "We wear new clothes and visit relatives.",
+      "bank": ["ملتے", "پہنتے", "سے", "نئے", "ہم", "ہیں", "کپڑے", "اور", "رشتہ", "داروں"],
+      "answer": ["ہم", "نئے", "کپڑے", "پہنتے", "ہیں", "اور", "رشتہ", "داروں", "سے", "ملتے"]
+    },
+    {
+      "en": "Everyone says Eid Mubarak to each other.",
+      "bank": ["کو", "مبارک", "دوسرے", "ایک", "عید", "سب", "کہتے", "ہیں"],
+      "answer": ["سب", "ایک", "دوسرے", "کو", "عید", "مبارک", "کہتے", "ہیں"]
+    }
+  ],
+
+  "passage": {
+    "en": "Festivals hold a very special place in Pakistani culture, bringing families and communities together in celebration. Eid, one of the most important festivals, is celebrated twice a year with great enthusiasm. Families wake up early, wear new clothes, and visit the mosque for special prayers. Afterwards, relatives and friends gather to share festive meals and sweets. Children eagerly look forward to receiving Eidi, small gifts of money given by elders. Besides Eid, Pakistan also celebrates cultural festivals such as Basant and various regional harvest festivals, each with its own unique traditions and customs. These occasions provide an opportunity for people to set aside their daily worries and enjoy time with loved ones. Festivals also help pass down traditions and values from one generation to the next, strengthening the bonds within families and communities. For many people, these celebrations are the most cherished moments of the year.",
+    "modelUr": "تہوار پاکستانی ثقافت میں بہت خاص مقام رکھتے ہیں اور خاندانوں اور برادریوں کو جشن منانے کے لیے اکٹھا کرتے ہیں۔ عید، جو سب سے اہم تہواروں میں سے ایک ہے، سال میں دو بار بڑے جوش و خروش سے منائی جاتی ہے۔ خاندان صبح سویرے اٹھتے ہیں، نئے کپڑے پہنتے ہیں اور خصوصی نماز کے لیے مسجد جاتے ہیں۔ اس کے بعد رشتہ دار اور دوست اکٹھے ہو کر تہواری کھانے اور مٹھائیاں بانٹتے ہیں۔ بچے بے صبری سے عیدی کا انتظار کرتے ہیں، جو بڑوں کی طرف سے دیے جانے والے چھوٹے تحائف ہیں۔ عید کے علاوہ، پاکستان بسنت اور مختلف علاقائی فصل کے تہوار بھی مناتا ہے، ہر ایک اپنی منفرد روایات اور رسومات کے ساتھ۔ یہ مواقع لوگوں کو روزمرہ کی پریشانیوں کو ایک طرف رکھ کر پیاروں کے ساتھ وقت گزارنے کا موقع فراہم کرتے ہیں۔ تہوار ایک نسل سے دوسری نسل تک روایات اور اقدار منتقل کرنے میں بھی مدد دیتے ہیں، جس سے خاندانوں اور برادریوں کے رشتے مضبوط ہوتے ہیں۔ بہت سے لوگوں کے لیے یہ جشن سال کے سب سے پیارے لمحات ہوتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}
