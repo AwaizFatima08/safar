@@ -8,7 +8,7 @@ to happen in your own browser — this doc exists so that's fast.
 ## 1. Create the app
 
 Play Console → **Create app**:
-- App name: `Safar: Urdu O Level & IGCSE`
+- App name: `Urdu Safar - for O-Level/IGCSE`
 - Default language: English (United States) — or English (India) if that reads better for your audience
 - App or game: **App**
 - Free or paid: **Free**
@@ -16,7 +16,7 @@ Play Console → **Create app**:
 
 ## 2. Store listing text
 
-**App name** (30 char max): `Safar: Urdu O Level & IGCSE` (27 chars)
+**App name** (30 char max): `Urdu Safar - for O-Level/IGCSE` (30 chars — final, accepted by the user)
 
 **Short description** (80 char max):
 ```
@@ -108,6 +108,6 @@ Data collected **only if the user chooses to sign in** (clearly state this is op
 - Users can request data deletion: **Yes** — https://safar.homilabs.org/delete-account.html (also in-app, Account screen)
 - Data collection practices reviewed against the actual privacy policy text at https://safar.homilabs.org/privacy-policy.html — keep these two in sync if the app's data handling ever changes
 
-## 7. What's still needed before you can actually publish a release
+## 7. Release status
 
-Play Console will let you fill in everything above right now, but it can't accept a release until there's a **signed release build** (AAB) — that hasn't been generated yet (needs a release signing keystore, which we haven't created). That's a separate, purely local step this session *can* do — say the word and I'll generate the keystore and produce a signed AAB next. Until then, you can complete every step above except actually uploading a release to a testing track.
+**Submitted and in review as of 2026-09-18** — versionCode 3 (versionName 1.0), signed with `.secrets/urdu-safar-release.keystore`, built targeting SDK 36. AAB: `releases/v1.0-versioncode3/urdu-safar-v1.0-3.aab`.
