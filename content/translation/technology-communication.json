@@ -1,0 +1,44 @@
+{
+  "id": "technology-communication",
+  "ur": "ٹیکنالوجی اور رابطہ",
+  "en": "Technology & Communication",
+
+  "warmup": [
+    {
+      "en": "I use the internet every day.",
+      "bank": ["روزانہ", "استعمال", "میں", "انٹرنیٹ", "کرتا", "ہوں"],
+      "answer": ["میں", "روزانہ", "انٹرنیٹ", "استعمال", "کرتا", "ہوں"]
+    },
+    {
+      "en": "She sent me an important message.",
+      "bank": ["پیغام", "بھیجا", "اس", "مجھے", "اہم", "نے", "ایک"],
+      "answer": ["اس", "نے", "مجھے", "ایک", "اہم", "پیغام", "بھیجا"]
+    },
+    {
+      "en": "This app is very useful for students.",
+      "bank": ["مفید", "طلبہ", "یہ", "بہت", "ایپ", "کے", "لیے", "ہے"],
+      "answer": ["یہ", "ایپ", "طلبہ", "کے", "لیے", "بہت", "مفید", "ہے"]
+    },
+    {
+      "en": "We should keep our password safe.",
+      "bank": ["پاس", "چاہیے", "رکھنا", "اپنا", "محفوظ", "ہمیں", "ورڈ"],
+      "answer": ["ہمیں", "اپنا", "پاس", "ورڈ", "محفوظ", "رکھنا", "چاہیے"]
+    },
+    {
+      "en": "My phone has a lot of useful features.",
+      "bank": ["خصوصیات", "میں", "مفید", "فون", "میرے", "بہت", "سی", "ہیں"],
+      "answer": ["میرے", "فون", "میں", "بہت", "سی", "مفید", "خصوصیات", "ہیں"]
+    }
+  ],
+
+  "passage": {
+    "en": "Modern technology has transformed the way people communicate and share information. With just a smartphone and an internet connection, a person can send a message, make a video call, or search for information from anywhere in the world within seconds. Social media platforms allow people to stay connected with friends and family, even when they live far apart. Businesses also rely heavily on technology to reach customers, advertise products, and manage their daily operations. However, using technology responsibly is extremely important. People should never share personal information with strangers online, and they should always use strong passwords to protect their accounts. Parents and teachers have a duty to guide children about safe internet habits from an early age. When used wisely, technology can be one of the most powerful tools for learning, communication, and progress in the modern world.",
+    "modelUr": "جدید ٹیکنالوجی نے لوگوں کے رابطے اور معلومات کے تبادلے کے انداز کو یکسر بدل دیا ہے۔ صرف ایک سمارٹ فون اور انٹرنیٹ کنکشن کی مدد سے کوئی بھی شخص چند سیکنڈوں میں دنیا کے کسی بھی کونے سے پیغام بھیج سکتا ہے، ویڈیو کال کر سکتا ہے یا معلومات تلاش کر سکتا ہے۔ سوشل میڈیا پلیٹ فارمز لوگوں کو دور رہنے کے باوجود دوستوں اور خاندان سے جڑے رہنے میں مدد دیتے ہیں۔ کاروبار بھی گاہکوں تک پہنچنے، مصنوعات کی تشہیر کرنے اور روزمرہ کے کاموں کو سنبھالنے کے لیے ٹیکنالوجی پر بہت انحصار کرتے ہیں۔ تاہم، ٹیکنالوجی کا ذمہ دارانہ استعمال انتہائی ضروری ہے۔ لوگوں کو کبھی بھی اجنبیوں کے ساتھ آن لائن ذاتی معلومات شیئر نہیں کرنی چاہییں، اور انہیں ہمیشہ اپنے اکاؤنٹس کی حفاظت کے لیے مضبوط پاس ورڈ استعمال کرنے چاہییں۔ والدین اور اساتذہ کی ذمہ داری ہے کہ وہ بچوں کو بچپن ہی سے انٹرنیٹ کی محفوظ عادات کے بارے میں رہنمائی دیں۔ عقلمندی سے استعمال کیا جائے تو ٹیکنالوجی سیکھنے، رابطے اور جدید دنیا میں ترقی کے لیے ایک انتہائی طاقتور ذریعہ بن سکتی ہے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "cricket",
+  "ur": "کرکٹ",
+  "en": "Cricket",
+
+  "warmup": [
+    {
+      "en": "Our team won the match.",
+      "bank": ["میچ", "گئی", "جیت", "ٹیم", "ہماری"],
+      "answer": ["ہماری", "ٹیم", "میچ", "جیت", "گئی"]
+    },
+    {
+      "en": "The players practise every day.",
+      "bank": ["پریکٹس", "کھلاڑی", "روزانہ", "کرتے", "ہیں"],
+      "answer": ["کھلاڑی", "روزانہ", "پریکٹس", "کرتے", "ہیں"]
+    },
+    {
+      "en": "The captain makes good decisions.",
+      "bank": ["فیصلے", "کپتان", "کرتا", "اچھے", "ہے"],
+      "answer": ["کپتان", "اچھے", "فیصلے", "کرتا", "ہے"]
+    },
+    {
+      "en": "Thousands of people watched the final.",
+      "bank": ["دیکھا", "لوگوں", "فائنل", "ہزاروں", "نے"],
+      "answer": ["ہزاروں", "لوگوں", "نے", "فائنل", "دیکھا"]
+    },
+    {
+      "en": "This is the most important match.",
+      "bank": ["اہم", "سب", "یہ", "میچ", "سے", "ہے"],
+      "answer": ["یہ", "سب", "سے", "اہم", "میچ", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "Cricket is one of the most popular sports in Pakistan, followed passionately by millions of fans across the country. The sport requires not only physical skill but also mental strength, teamwork, and strategic thinking. Young cricketers spend years practising their batting, bowling, and fielding techniques before they get a chance to represent their school, city, or country. A good captain plays a vital role in a team's success, making important decisions during the match and keeping the players motivated, especially during difficult situations. Winning a match often depends on how well the players work together as a team rather than relying on individual performance alone. Cricket tournaments, whether at the school level or international level, bring communities together and create a sense of excitement and unity among supporters. For many young players, cricket is not just a game but a dream they hope to pursue as a career.",
+    "modelUr": "کرکٹ پاکستان کے مقبول ترین کھیلوں میں سے ایک ہے، جسے ملک بھر میں لاکھوں شائقین جوش و خروش سے فالو کرتے ہیں۔ اس کھیل کے لیے نہ صرف جسمانی مہارت بلکہ ذہنی مضبوطی، ٹیم ورک اور حکمتِ عملی بھی درکار ہوتی ہے۔ نوجوان کرکٹرز اپنے سکول، شہر یا ملک کی نمائندگی کرنے کا موقع ملنے سے پہلے برسوں تک اپنی بیٹنگ، باؤلنگ اور فیلڈنگ کی تکنیکوں پر مشق کرتے ہیں۔ ایک اچھا کپتان ٹیم کی کامیابی میں اہم کردار ادا کرتا ہے، میچ کے دوران اہم فیصلے کرتا ہے اور خاص طور پر مشکل حالات میں کھلاڑیوں کا حوصلہ بلند رکھتا ہے۔ میچ جیتنا اکثر اس بات پر منحصر ہوتا ہے کہ کھلاڑی ایک ٹیم کے طور پر کتنی اچھی طرح مل کر کام کرتے ہیں، نہ کہ صرف انفرادی کارکردگی پر۔ کرکٹ ٹورنامنٹ، چاہے سکول کی سطح پر ہوں یا بین الاقوامی سطح پر، برادریوں کو اکٹھا کرتے ہیں اور حامیوں میں جوش اور اتحاد کا احساس پیدا کرتے ہیں۔ بہت سے نوجوان کھلاڑیوں کے لیے کرکٹ محض ایک کھیل نہیں بلکہ ایک خواب ہے جسے وہ بطور کیریئر اپنانا چاہتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}

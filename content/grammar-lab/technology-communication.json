@@ -1,0 +1,56 @@
+{
+  "id": "technology-communication",
+  "ur": "ٹیکنالوجی اور رابطہ",
+  "en": "Technology & Communication",
+
+  "grammarPoint": { "ur": "استطاعت (سکنا) اور فعل کی نفی", "en": "Expressing ability (سکنا) and verb negation" },
+
+  "cloze": {
+    "passage": "آج کل ہم انٹرنیٹ سے کوئی بھی معلومات فوراً (1)_____ سکتے ہیں۔ میں نے اپنا پاس ورڈ کسی کو (2)_____ بتایا۔ کیا تم موبائل فون درست طریقے سے (3)_____ سکتے ہو؟ ہمیں اجنبی لنکس پر کلک نہیں کرنا (4)_____۔ یہ ایپ استعمال کرنا اس ایپ (5)_____ زیادہ آسان ہے۔",
+    "gaps": [
+      { "opts": ["حاصل کر", "حاصل کی", "حاصل ہو", "حاصل کیا"], "a": 0, "en": "can obtain — verb stem before سکنا (ability)" },
+      { "opts": ["نہیں", "نہ", "نا", "نہ ہی"], "a": 0, "en": "not — نہیں negates the past-tense verb بتایا" },
+      { "opts": ["چلا", "چلانا", "چلاتے", "چلائے"], "a": 0, "en": "operate — verb stem before سکنا" },
+      { "opts": ["چاہیے", "چاہییں", "چاہتا", "چاہتی"], "a": 0, "en": "should — چاہیے with a singular infinitive action" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "میں انٹرنیٹ استعمال کرتا ہوں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["میں انٹرنیٹ استعمال نہیں کرتا", "میں انٹرنیٹ استعمال نہیں کرتا۔"],
+      "en": "I use the internet."
+    },
+    {
+      "original": "وہ ویڈیو دیکھتی ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["اس نے ویڈیو دیکھی", "اس نے ویڈیو دیکھی۔"],
+      "en": "She watches a video."
+    },
+    {
+      "original": "ہم پیغام بھیجتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم پیغام بھیجیں گے", "ہم پیغام بھیجیں گے۔"],
+      "en": "We send a message."
+    },
+    {
+      "original": "تم نے ایپ ڈاؤن لوڈ کی ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے ایپ ڈاؤن لوڈ کی ہے", "کیا تم نے ایپ ڈاؤن لوڈ کی ہے؟"],
+      "en": "You have downloaded the app."
+    },
+    {
+      "original": "میں پاس ورڈ محفوظ رکھتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["پاس ورڈ محفوظ رکھیں", "پاس ورڈ محفوظ رکھیں۔"],
+      "en": "I keep my password safe."
+    }
+  ]
+}

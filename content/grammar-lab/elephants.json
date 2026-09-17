@@ -1,0 +1,56 @@
+{
+  "id": "elephants",
+  "ur": "ہاتھیوں کی زندگی",
+  "en": "Life of Elephants",
+
+  "grammarPoint": { "ur": "مرکب فعل اور صفتِ تفضیلی", "en": "Compound verbs and comparative adjectives" },
+
+  "cloze": {
+    "passage": "دنیا میں ہاتھیوں کی تعداد (1)_____ کم ہو رہی ہے۔ شکاری ہر سال بہت سے ہاتھی (2)_____ دیتے ہیں۔ ہمیں ہاتھیوں کو بچانے کے (3)_____ اقدامات کرنے چاہییں۔ سینکچوری میں ہاتھی محفوظ ماحول میں (4)_____ ہیں۔ ہاتھی چیتے (5)_____ زیادہ طاقتور ہے۔",
+    "gaps": [
+      { "opts": ["مسلسل", "کبھی", "شاید", "اکثر"], "a": 0, "en": "continuously — مسلسل describes an ongoing decline" },
+      { "opts": ["ہلاک کر", "ہلاک ہو", "ہلاکت", "ہلاک کیا"], "a": 0, "en": "kill — ہلاک کر دیتے ہیں, a compound verb" },
+      { "opts": ["لیے", "ساتھ", "بعد", "پاس"], "a": 0, "en": "for — کے لیے means \"for / in order to\"" },
+      { "opts": ["رہتا", "رہتی", "رہتے", "رہو"], "a": 2, "en": "live — plural masculine agreement with ہاتھی (elephants)" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "شکاری ہاتھیوں کا شکار کرتے ہیں۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["شکاری ہاتھیوں کا شکار نہیں کرتے", "شکاری ہاتھیوں کا شکار نہیں کرتے۔"],
+      "en": "Hunters hunt elephants."
+    },
+    {
+      "original": "حکومت قانون بناتی ہے۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["حکومت نے قانون بنایا", "حکومت نے قانون بنایا۔"],
+      "en": "The government makes a law."
+    },
+    {
+      "original": "ہاتھی سینکچوری میں رہتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہاتھی سینکچوری میں رہیں گے", "ہاتھی سینکچوری میں رہیں گے۔"],
+      "en": "Elephants live in the sanctuary."
+    },
+    {
+      "original": "تم نے ہاتھی دیکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے ہاتھی دیکھا ہے", "کیا تم نے ہاتھی دیکھا ہے؟"],
+      "en": "You have seen an elephant."
+    },
+    {
+      "original": "میں جانوروں کی حفاظت کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["جانوروں کی حفاظت کریں", "جانوروں کی حفاظت کریں۔"],
+      "en": "I protect animals."
+    }
+  ]
+}

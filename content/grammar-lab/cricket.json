@@ -1,0 +1,56 @@
+{
+  "id": "cricket",
+  "ur": "کرکٹ",
+  "en": "Cricket",
+
+  "grammarPoint": { "ur": "استعدادی فعل اور صفتِ تفضیلی", "en": "Ability verbs (سکنا) and superlative adjectives" },
+
+  "cloze": {
+    "passage": "ہماری ٹیم اس سال ٹورنامنٹ (1)_____ سکتی ہے۔ کپتان نے کھلاڑیوں کو بہترین حکمت عملی (2)_____۔ یہ ہمارا سب (3)_____ اہم میچ ہے۔ اگر ہم محنت کریں تو ہم (4)_____ جیت سکتے ہیں۔ ہمارا باؤلر مخالف ٹیم (5)_____ زیادہ تیز گیند کرتا ہے۔",
+    "gaps": [
+      { "opts": ["جیت", "جیتی", "جیتے", "جیتا"], "a": 0, "en": "can win — verb stem before سکنا (ability)" },
+      { "opts": ["بتایا", "بتائی", "بتائے", "بتاؤ"], "a": 1, "en": "told — feminine agreement with حکمت عملی (strategy)" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "سب سے + adjective forms the superlative (\"the most\")" },
+      { "opts": ["ضرور", "شاید", "کبھی", "ہرگز"], "a": 0, "en": "surely / certainly" },
+      { "opts": ["سے", "کو", "میں", "پر"], "a": 0, "en": "than — comparative postposition سے" }
+    ]
+  },
+
+  "transformation": [
+    {
+      "original": "ٹیم میچ جیتتی ہے۔",
+      "instruction_ur": "نفی میں تبدیل کریں",
+      "instruction_en": "Change to negative",
+      "answers": ["ٹیم میچ نہیں جیتتی", "ٹیم میچ نہیں جیتتی۔"],
+      "en": "The team wins the match."
+    },
+    {
+      "original": "کھلاڑی پریکٹس کرتے ہیں۔",
+      "instruction_ur": "ماضی میں تبدیل کریں",
+      "instruction_en": "Change to past tense",
+      "answers": ["کھلاڑیوں نے پریکٹس کی", "کھلاڑیوں نے پریکٹس کی۔"],
+      "en": "The players practise."
+    },
+    {
+      "original": "ہم فائنل کھیلتے ہیں۔",
+      "instruction_ur": "مستقبل میں تبدیل کریں",
+      "instruction_en": "Change to future tense",
+      "answers": ["ہم فائنل کھیلیں گے", "ہم فائنل کھیلیں گے۔"],
+      "en": "We play the final."
+    },
+    {
+      "original": "تم نے میچ دیکھا ہے۔",
+      "instruction_ur": "سوالیہ جملہ بنائیں",
+      "instruction_en": "Change to a question",
+      "answers": ["کیا تم نے میچ دیکھا ہے", "کیا تم نے میچ دیکھا ہے؟"],
+      "en": "You have watched the match."
+    },
+    {
+      "original": "میں روزانہ پریکٹس کرتا ہوں۔",
+      "instruction_ur": "حکمیہ جملہ بنائیں",
+      "instruction_en": "Change to a polite command",
+      "answers": ["روزانہ پریکٹس کریں", "روزانہ پریکٹس کریں۔"],
+      "en": "I practise daily."
+    }
+  ]
+}

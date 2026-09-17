@@ -1,0 +1,44 @@
+{
+  "id": "elephants",
+  "ur": "ہاتھیوں کی زندگی",
+  "en": "Life of Elephants",
+
+  "warmup": [
+    {
+      "en": "The elephant is a very large animal.",
+      "bank": ["بڑا", "ایک", "بہت", "ہاتھی", "جانور", "ہے"],
+      "answer": ["ہاتھی", "ایک", "بہت", "بڑا", "جانور", "ہے"]
+    },
+    {
+      "en": "Elephants live in the forest.",
+      "bank": ["میں", "رہتے", "ہاتھی", "جنگل", "ہیں"],
+      "answer": ["ہاتھی", "جنگل", "میں", "رہتے", "ہیں"]
+    },
+    {
+      "en": "We should protect wild animals.",
+      "bank": ["کرنی", "جنگلی", "چاہیے", "حفاظت", "ہمیں", "جانوروں", "کی"],
+      "answer": ["ہمیں", "جنگلی", "جانوروں", "کی", "حفاظت", "کرنی", "چاہیے"]
+    },
+    {
+      "en": "Hunters kill many elephants every year.",
+      "bank": ["ہاتھی", "بہت", "شکاری", "ہر", "سے", "سال", "ہلاک", "کر", "دیتے", "ہیں"],
+      "answer": ["شکاری", "ہر", "سال", "بہت", "سے", "ہاتھی", "ہلاک", "کر", "دیتے", "ہیں"]
+    },
+    {
+      "en": "This sanctuary is safe for elephants.",
+      "bank": ["محفوظ", "کے", "ہاتھیوں", "سینکچوری", "یہ", "لیے", "ہے"],
+      "answer": ["یہ", "سینکچوری", "ہاتھیوں", "کے", "لیے", "محفوظ", "ہے"]
+    }
+  ],
+
+  "passage": {
+    "en": "The elephant is one of the most magnificent creatures on Earth, admired for its intelligence, strength, and gentle nature. Unfortunately, the world's elephant population has been declining rapidly due to illegal hunting and the destruction of their natural habitats. Poachers kill elephants for their valuable ivory tusks, which are sold illegally in various markets around the world. This cruel practice has pushed several elephant species toward extinction. To address this serious problem, many countries have established wildlife sanctuaries and passed strict laws against poaching. Conservationists work tirelessly to protect elephants, monitor their health, and educate local communities about the importance of preserving these animals. Schools and media campaigns also play an important role in raising public awareness about elephant conservation. If people around the world work together, it may still be possible to save this remarkable species for future generations to admire and enjoy.",
+    "modelUr": "ہاتھی زمین پر پائی جانے والی سب سے شاندار مخلوقات میں سے ایک ہے، جسے اس کی ذہانت، طاقت اور نرم مزاجی کی وجہ سے سراہا جاتا ہے۔ بدقسمتی سے، غیر قانونی شکار اور قدرتی مسکن کی تباہی کی وجہ سے دنیا بھر میں ہاتھیوں کی آبادی تیزی سے کم ہو رہی ہے۔ شکاری ہاتھیوں کو ان کے قیمتی ہاتھی دانت کے لیے ہلاک کرتے ہیں، جنہیں دنیا بھر کی مختلف منڈیوں میں غیر قانونی طور پر فروخت کیا جاتا ہے۔ اس ظالمانہ عمل نے کئی ہاتھیوں کی اقسام کو معدومیت کے قریب پہنچا دیا ہے۔ اس سنگین مسئلے سے نمٹنے کے لیے، بہت سے ممالک نے جنگلی حیات کی سینکچوریز قائم کی ہیں اور شکار کے خلاف سخت قوانین بنائے ہیں۔ ماہرینِ فطرت ہاتھیوں کی حفاظت، ان کی صحت کی نگرانی اور مقامی برادریوں کو ان جانوروں کے تحفظ کی اہمیت کے بارے میں آگاہی دینے کے لیے انتھک محنت کرتے ہیں۔ سکول اور میڈیا مہمات بھی ہاتھیوں کے تحفظ کے بارے میں عوامی شعور اجاگر کرنے میں اہم کردار ادا کرتی ہیں۔ اگر دنیا بھر کے لوگ مل کر کوشش کریں تو ممکن ہے کہ اس شاندار نسل کو آنے والی نسلوں کے لیے بچایا جا سکے۔",
+    "checklist": [
+      "کیا آپ نے ہر جملے کا مفہوم درست طور پر بیان کیا؟",
+      "کیا فعل کی صیغہ سازی (زمانہ اور جنس) درست ہے؟",
+      "کیا آپ نے مناسب الفاظ اور محاورہ استعمال کیا؟",
+      "کیا رموزِ اوقاف اور جملے کی ساخت درست ہیں؟"
+    ]
+  }
+}
