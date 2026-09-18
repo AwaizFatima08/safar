@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Urdu Safar — Cambridge O Level &amp; IGCSE Urdu Practice</title>
+<meta name="description" content="Urdu Safar is a free practice app for Cambridge O Level and IGCSE Urdu: vocabulary, reading, grammar, translation, and writing — plus a friend-group leaderboard.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Karla:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper:#F1E6CC;
+    --paper-dim:#E6D6A9;
+    --card:#F8EFDA;
+    --ink:#1E3A34;
+    --ink-soft:#54685F;
+    --ink-faint:#8A9089;
+    --rule:#C9B679;
+    --marigold:#C97A17;
+    --marigold-ink:#3A2205;
+    --maroon:#8F3232;
+    --emerald:#2F7A54;
+    --shadow: 0 1px 0 rgba(30,58,52,.06), 0 6px 16px -8px rgba(30,58,52,.25);
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: Karla, -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+  a { color: var(--marigold); }
+
+  /* ---- NAV ---- */
+  nav.top {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 18px 0;
+  }
+  .brand { display: flex; align-items: baseline; gap: 8px; }
+  .brand .en { font-family: Fraunces, serif; font-weight: 600; font-size: 22px; color: var(--ink); }
+  .brand .ur { font-family: 'Noto Nastaliq Urdu', serif; font-size: 19px; color: var(--marigold); }
+  nav.top .links { display: flex; gap: 22px; font-size: 14px; font-weight: 600; }
+  nav.top .links a { color: var(--ink-soft); text-decoration: none; }
+  nav.top .links a:hover { color: var(--marigold); }
+
+  /* ---- HERO ---- */
+  .hero { padding: 56px 0 40px; text-align: center; }
+  .hero .tagline {
+    display: inline-block; font-size: 12.5px; font-weight: 700; letter-spacing: .08em;
+    text-transform: uppercase; color: var(--emerald); background: var(--card);
+    border: 1px solid var(--rule); border-radius: 999px; padding: 6px 16px; margin-bottom: 22px;
+  }
+  .hero h1 {
+    font-family: Fraunces, serif; font-weight: 700; font-size: clamp(34px, 6vw, 56px);
+    margin: 0 0 18px; line-height: 1.12; color: var(--ink);
+  }
+  .hero h1 .ur { font-family: 'Noto Nastaliq Urdu', serif; color: var(--marigold); font-weight: 400; }
+  .hero p.pitch {
+    max-width: 620px; margin: 0 auto 32px; font-size: 17.5px; color: var(--ink-soft);
+  }
+  .cta-row { display: flex; justify-content: center; align-items: center; gap: 18px; flex-wrap: wrap; }
+  .play-badge { display: inline-block; }
+  .play-badge img { height: 58px; display: block; }
+  .cta-note { font-size: 13px; color: var(--ink-faint); }
+
+  /* ---- FEATURE GRID ---- */
+  .section { padding: 52px 0; }
+  .section-head { text-align: center; margin-bottom: 36px; }
+  .section-head h2 {
+    font-family: Fraunces, serif; font-weight: 600; font-size: clamp(24px, 4vw, 32px);
+    margin: 0 0 8px; color: var(--ink);
+  }
+  .section-head p { color: var(--ink-soft); margin: 0; font-size: 15.5px; }
+  .grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px;
+  }
+  .card {
+    background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius);
+    padding: 22px 20px; box-shadow: var(--shadow);
+  }
+  .card .icon { font-size: 26px; margin-bottom: 10px; }
+  .card h3 { font-size: 16.5px; margin: 0 0 6px; color: var(--ink); }
+  .card p { font-size: 14px; color: var(--ink-soft); margin: 0; }
+
+  /* ---- SCREENSHOTS ---- */
+  .shots {
+    display: flex; gap: 18px; overflow-x: auto; padding: 8px 4px 20px;
+    scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch;
+  }
+  .shots img {
+    height: 460px; border-radius: 18px; border: 1px solid var(--rule);
+    box-shadow: var(--shadow); scroll-snap-align: start; flex-shrink: 0;
+  }
+
+  /* ---- WHY STRIP ---- */
+  .why { background: var(--card); border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+  .why-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 24px;
+    text-align: center;
+  }
+  .why-grid .item h4 { font-size: 15px; margin: 0 0 4px; color: var(--ink); }
+  .why-grid .item p { font-size: 13.5px; color: var(--ink-soft); margin: 0; }
+  .why-grid .item .num { font-family: Fraunces, serif; font-size: 30px; font-weight: 700; color: var(--marigold); }
+
+  /* ---- FINAL CTA ---- */
+  .final-cta { text-align: center; padding: 60px 0 70px; }
+  .final-cta h2 { font-family: Fraunces, serif; font-size: clamp(24px, 4vw, 34px); margin: 0 0 14px; }
+  .final-cta p { color: var(--ink-soft); margin: 0 0 26px; }
+
+  /* ---- FOOTER ---- */
+  footer { border-top: 1px solid var(--rule); padding: 28px 0 40px; }
+  .foot-row {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;
+  }
+  .foot-links { display: flex; gap: 18px; flex-wrap: wrap; font-size: 13.5px; }
+  .foot-links a { color: var(--ink-soft); text-decoration: none; }
+  .foot-links a:hover { color: var(--marigold); }
+  .foot-note { font-size: 12.5px; color: var(--ink-faint); }
+
+  @media (max-width: 560px) {
+    nav.top .links { display: none; }
+    .shots img { height: 340px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <nav class="top">
+    <div class="brand"><span class="en">Urdu Safar</span><span class="ur">سفر</span></div>
+    <div class="links">
+      <a href="#features">Features</a>
+      <a href="#screenshots">Screenshots</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </div>
+  </nav>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="tagline">Cambridge O Level &amp; IGCSE Urdu</span>
+    <h1>Practice Urdu the way<br>your exam actually tests it <span class="ur">سفر</span></h1>
+    <p class="pitch">Vocabulary, reading, grammar, translation, and writing practice built around the real exam structure — plus an optional friend-group leaderboard to keep you motivated. Free, and works fully offline.</p>
+    <div class="cta-row">
+      <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.homilabs.safar" aria-label="Get it on Google Play">
+        <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+      </a>
+      <span class="cta-note">Free &middot; No account required</span>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Everything the syllabus covers, in one app</h2>
+      <p>Topics and skills common to both Cambridge O Level Urdu (3248) and IGCSE Urdu (0539).</p>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📇</div>
+        <h3>Vocabulary Practice</h3>
+        <p>Spaced-repetition flashcards over 170+ words, a mixed word-match quiz, and a 30-idiom drill.</p>
+      </div>
+      <div class="card">
+        <div class="icon">✍️</div>
+        <h3>17 Essay Topics</h3>
+        <p>Every core topic worked through vocabulary, reading, writing, and grammar at three difficulty levels.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💬</div>
+        <h3>10 Functional Skills</h3>
+        <p>Letter-writing, dialogue, and other genres with model answers and guided prompts.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📖</div>
+        <h3>Reading Skills</h3>
+        <p>Short-answer, multiple matching, and note-making — with lenient, spelling-tolerant checking.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📐</div>
+        <h3>Grammar Lab</h3>
+        <p>Sentence transformation and cloze passages, with difficulty levels to build up from the basics.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🔤</div>
+        <h3>Translation</h3>
+        <p>English-to-Urdu sentence building, plus full passage translation with a model answer.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📝</div>
+        <h3>Summary &amp; Extended Writing</h3>
+        <p>Condense a passage under 100 words, or write a full ~200-word composition — each self-assessed against a model.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🏆</div>
+        <h3>Friend Groups &amp; Leaderboard</h3>
+        <p>Earn medals as you go, and — if you sign in — compare progress with classmates across devices.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="screenshots">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>A look inside</h2>
+      <p>Real practice, real exam structure.</p>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="shots">
+      <img src="screenshots/01-home-essays.png" alt="Home screen with essay topics">
+      <img src="screenshots/02-vocabulary-practice.png" alt="Vocabulary practice hub">
+      <img src="screenshots/03-flashcard-review.png" alt="Flashcard review in progress">
+      <img src="screenshots/05-topic-detail.png" alt="A topic's four-skill breakdown">
+      <img src="screenshots/04-leaderboard.png" alt="Friend group leaderboard">
+    </div>
+  </div>
+</section>
+
+<section class="why">
+  <div class="wrap section">
+    <div class="why-grid">
+      <div class="item"><div class="num">17</div><h4>Essay topics</h4><p>Fully worked, every one</p></div>
+      <div class="item"><div class="num">170+</div><h4>Vocabulary words</h4><p>Spaced-repetition flashcards</p></div>
+      <div class="item"><div class="num">8</div><h4>Practice categories</h4><p>Covering every paper</p></div>
+      <div class="item"><div class="num">0</div><h4>Ads or trackers</h4><p>Free, no analytics</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="wrap">
+    <h2>Start practicing today</h2>
+    <p>Free on Google Play — no account needed to begin.</p>
+    <a class="play-badge" href="https://play.google.com/store/apps/details?id=com.homilabs.safar" aria-label="Get it on Google Play">
+      <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+    </a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="foot-note">&copy; 2026 Homi Labs. Urdu Safar is an independent study aid, not an official Cambridge publication.</div>
+    <div class="foot-links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+      <a href="delete-account.html">Delete Account</a>
+      <a href="mailto:homi55@gmail.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
