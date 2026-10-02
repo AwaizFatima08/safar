@@ -110,4 +110,6 @@ Data collected **only if the user chooses to sign in** (clearly state this is op
 
 ## 7. Release status
 
-**Submitted and in review as of 2026-09-18** — versionCode 3 (versionName 1.0), signed with `.secrets/urdu-safar-release.keystore`, built targeting SDK 36. AAB: `releases/v1.0-versioncode3/urdu-safar-v1.0-3.aab`.
+**Approved and live in production (as of 2026-10-02)** — versionCode 3 (versionName 1.0), signed with `.secrets/urdu-safar-release.keystore`, built targeting SDK 36. AAB: `releases/v1.0-versioncode3/urdu-safar-v1.0-3.aab`.
+
+Plan: let real usage accumulate for about a month, then revisit for a revision/upgrade based on feedback — see `docs/urdu-safar-command-board*.md` or project memory for whatever's decided then.
