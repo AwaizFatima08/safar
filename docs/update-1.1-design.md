@@ -78,6 +78,7 @@ v1.1 makes them a proper flow:
 
 ## Release
 
-versionCode 5 (4 was already used by the v1.0.1 build), versionName 1.1, signed
-with the existing release keystore. Files: releases/v1.1-versioncode5/.
+versionCode 6, versionName 1.1, minSdk 24 (Play automatic protection needs 24+;
+the versionCode 5 bundle with minSdk 23 was refused). Signed
+with the existing release keystore. Files: releases/v1.1-versioncode6/.
 Upload to Play Console is the user's step (no console access from here).
