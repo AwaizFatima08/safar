@@ -1,62 +1,98 @@
 rules_version = '2';
 
-// Urdu Safar — Firestore security rules for real accounts + friend groups.
+// Urdu Safar — Firestore security rules for accounts + friend groups.
 //
-// Design (see docs/accounts-friends-leaderboard-design.md):
-//   users/{uid}                 — one doc per signed-in account, owner-only
-//   groups/{groupId}            — a friend group; readable only by its members
-//   groups/{groupId}/members/{uid} — one member's score snapshot, writable only by that member
-//   groupLookup/{inviteCode}    — invite code -> groupId only, so joining doesn't
-//                                  require the `groups` collection to be publicly queryable
+// Design: docs/accounts-friends-leaderboard-design.md (v1.0) and
+// docs/update-1.1-design.md (multi-group, owner moderation, validation).
+//   users/{uid}                    — one doc per account, owner-only
+//   groups/{groupId}               — a friend group; readable only by its members
+//   groups/{groupId}/members/{uid} — one member's score snapshot
+//   groupLookup/{inviteCode}       — invite code -> groupId only, so joining
+//                                    doesn't need `groups` to be queryable
 //
-// No public collection is readable by a non-member: someone who isn't in a
-// group cannot read its member list or scores just by guessing the groupId.
+// Nothing is publicly listable. A non-member can't read a group's members
+// or scores, even with the groupId.
 service cloud.firestore {
   match /databases/{database}/documents {
 
+    function signedIn() { return request.auth != null; }
+    function groupData(groupId) {
+      return get(/databases/$(database)/documents/groups/$(groupId)).data;
+    }
+    function isMember(groupId) {
+      return request.auth.uid in groupData(groupId).memberUids;
+    }
+
     match /users/{uid} {
-      allow read, write: if request.auth != null && request.auth.uid == uid;
+      allow read, write: if signedIn() && request.auth.uid == uid;
     }
 
     match /groupLookup/{inviteCode} {
-      // Anyone signed in can resolve an invite code they were given to a
-      // groupId — that's all this document exposes. Only the creator (at
-      // group-creation time) may write it, and it's immutable after that.
-      allow get: if request.auth != null;
+      // Resolving a code you were given reveals only its groupId.
+      allow get: if signedIn();
       allow list: if false;
-      allow create: if request.auth != null
+      allow create: if signedIn()
+        && inviteCode.size() == 6
         && request.resource.data.keys().hasOnly(['groupId', 'ownerUid'])
         && request.resource.data.ownerUid == request.auth.uid;
-      allow update, delete: if false;
+      allow delete: if signedIn() && resource.data.ownerUid == request.auth.uid;
+      allow update: if false;
     }
 
     match /groups/{groupId} {
-      allow read: if request.auth != null && request.auth.uid in resource.data.memberUids;
+      allow read: if signedIn() && request.auth.uid in resource.data.memberUids;
 
-      // Create: only as the sole initial member, with yourself as owner.
-      allow create: if request.auth != null
+      // Create: only as the sole initial member and owner, with a sane name.
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly(['name', 'ownerUid', 'inviteCode', 'memberUids', 'createdAt'])
         && request.resource.data.ownerUid == request.auth.uid
-        && request.resource.data.memberUids == [request.auth.uid];
+        && request.resource.data.memberUids == [request.auth.uid]
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 40
+        && request.resource.data.inviteCode is string
+        && request.resource.data.inviteCode.size() == 6;
 
-      // Update: only ever touching memberUids, and only ever adding or
-      // removing exactly your own uid (join or leave) — nothing else about
-      // the group (name, invite code, owner) can be changed this way.
-      allow update: if request.auth != null
+      // Update: only memberUids ever changes, in exactly one of three ways —
+      //   join:   add yourself (groups cap at 100 members)
+      //   leave:  remove yourself
+      //   remove: the owner removes one other member
+      allow update: if signedIn()
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['memberUids'])
         && (
           (!(request.auth.uid in resource.data.memberUids)
+            && resource.data.memberUids.size() < 100
             && request.resource.data.memberUids == resource.data.memberUids.concat([request.auth.uid]))
           ||
           (request.auth.uid in resource.data.memberUids
             && request.resource.data.memberUids == resource.data.memberUids.removeAll([request.auth.uid]))
+          ||
+          (resource.data.ownerUid == request.auth.uid
+            && request.auth.uid in request.resource.data.memberUids
+            && resource.data.memberUids.hasAll(request.resource.data.memberUids)
+            && request.resource.data.memberUids.size() == resource.data.memberUids.size() - 1)
         );
 
-      allow delete: if request.auth != null && request.auth.uid == resource.data.ownerUid;
+      allow delete: if signedIn() && request.auth.uid == resource.data.ownerUid;
 
       match /members/{uid} {
-        allow read: if request.auth != null
-          && request.auth.uid in get(/databases/$(database)/documents/groups/$(groupId)).data.memberUids;
-        allow write: if request.auth != null && request.auth.uid == uid;
+        allow read: if signedIn() && isMember(groupId);
+        // Only your own score doc, only while you're actually a member (so a
+        // removed member can't write themselves back onto the board), and
+        // only the expected fields.
+        allow create, update: if signedIn()
+          && request.auth.uid == uid
+          && isMember(groupId)
+          && request.resource.data.keys().hasOnly(['displayName', 'gold', 'silver', 'bronze', 'score', 'updatedAt'])
+          && request.resource.data.displayName is string
+          && request.resource.data.displayName.size() > 0
+          && request.resource.data.displayName.size() <= 40
+          && request.resource.data.gold is number
+          && request.resource.data.silver is number
+          && request.resource.data.bronze is number
+          && request.resource.data.score is number;
+        allow delete: if signedIn()
+          && (request.auth.uid == uid || request.auth.uid == groupData(groupId).ownerUid);
       }
     }
   }

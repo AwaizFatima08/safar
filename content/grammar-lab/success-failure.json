@@ -1,0 +1,117 @@
+{
+  "id": "success-failure",
+  "ur": "گر کر اٹھنا",
+  "en": "Falling and Rising Again",
+  "grammarPoint": {
+    "ur": "تضاد: ‘اگرچہ… لیکن’، ‘کے باوجود’، ‘حالانکہ’",
+    "en": "Contrast: ‘although’, ‘despite’ and ‘even though’"
+  },
+  "cloze": {
+    "passage": "(1)_____ حمزہ نے سارا سال محنت کی، لیکن اس کے نمبر کم آئے۔ ناکامی کے (2)_____ اس نے ہمت نہیں ہاری۔ اس نے اپنی غلطیوں (3)_____ سیکھا اور نیا ٹائم ٹیبل بنایا۔ وہ روز صبح جلدی اٹھتا (4)_____ تاکہ زیادہ وقت پڑھ سکے۔ اگلے سال وہ اپنی جماعت میں اول (5)_____۔",
+    "gaps": [
+      {
+        "opts": [
+          "اگرچہ",
+          "کیونکہ",
+          "تاکہ",
+          "جب تک"
+        ],
+        "a": 0,
+        "en": "اگرچہ … لیکن = although … but"
+      },
+      {
+        "opts": [
+          "باوجود",
+          "بجائے",
+          "ذریعے",
+          "علاوہ"
+        ],
+        "a": 0,
+        "en": "کے باوجود = despite"
+      },
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "پر",
+          "کا"
+        ],
+        "a": 0,
+        "en": "سیکھنا takes سے: غلطیوں سے سیکھا"
+      },
+      {
+        "opts": [
+          "تھا",
+          "ہے گا",
+          "ہوں",
+          "تھی"
+        ],
+        "a": 0,
+        "en": "Past habitual, masculine: اٹھتا تھا"
+      },
+      {
+        "opts": [
+          "آیا",
+          "آئی",
+          "آئے",
+          "آتا"
+        ],
+        "a": 0,
+        "en": "Intransitive, masculine singular subject: اول آیا"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "اگرچہ بارش ہو رہی تھی، پھر بھی میچ جاری رہا۔",
+      "stem": "بارش کے ____ میچ جاری رہا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "باوجود"
+      ],
+      "en": "Although it was raining, the match continued."
+    },
+    {
+      "original": "اس نے حوصلہ نہیں ہارا۔",
+      "stem": "اس نے ____ نہیں ہاری۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "ہمت"
+      ],
+      "en": "He did not lose heart."
+    },
+    {
+      "original": "وہ امتحان میں ناکام ہو گیا۔",
+      "stem": "وہ امتحان میں ____ نہیں ہوا۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "کامیاب"
+      ],
+      "en": "He failed the exam."
+    },
+    {
+      "original": "اس نے بہت محنت کی، مگر وہ فیل ہو گیا۔",
+      "stem": "وہ فیل ہو گیا، ____ اس نے بہت محنت کی تھی۔",
+      "instruction_ur": "‘حالانکہ’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘even though’",
+      "answers": [
+        "حالانکہ"
+      ],
+      "en": "He worked very hard, but he failed."
+    },
+    {
+      "original": "استاد نے کہا، ‘تم اگلی بار ضرور کامیاب ہو گے۔’",
+      "stem": "استاد نے کہا کہ وہ اگلی بار ضرور کامیاب ____۔",
+      "instruction_ur": "بالواسطہ کلام میں جملہ مکمل کریں",
+      "instruction_en": "Complete in reported speech",
+      "answers": [
+        "ہو گا",
+        "ہوگا"
+      ],
+      "en": "The teacher said, ‘You will surely succeed next time.’"
+    }
+  ]
+}

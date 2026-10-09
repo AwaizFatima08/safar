@@ -1,0 +1,116 @@
+{
+  "id": "indus-dolphin",
+  "ur": "دریا کی حفاظت",
+  "en": "Protecting the River",
+  "grammarPoint": {
+    "ur": "‘کے ذریعے’، مجہول اور ‘اتنا … کہ’",
+    "en": "‘By means of’, the passive, and ‘so … that’"
+  },
+  "cloze": {
+    "passage": "دریائے سندھ کی ڈولفن آواز کے (1)_____ راستہ تلاش کرتی ہے۔ پچھلے سال ایک ڈولفن نہر میں (2)_____ گئی تھی۔ ریسکیو ٹیم نے اسے بڑی احتیاط سے (3)_____ ۔ دریا کا پانی اتنا آلودہ ہو گیا ہے (4)_____ مچھلیاں کم ہو رہی ہیں۔ ہمیں دریا میں کچرا (5)_____ پھینکنا چاہیے۔",
+    "gaps": [
+      {
+        "opts": [
+          "ذریعے",
+          "بغیر",
+          "علاوہ",
+          "خلاف"
+        ],
+        "a": 0,
+        "en": "آواز کے ذریعے = by means of sound"
+      },
+      {
+        "opts": [
+          "پھنس",
+          "پھنسا",
+          "پھنسی",
+          "پھنسے"
+        ],
+        "a": 0,
+        "en": "compound verb: پھنس جانا → پھنس گئی تھی"
+      },
+      {
+        "opts": [
+          "بچایا",
+          "بچائی",
+          "بچائے",
+          "بچتا"
+        ],
+        "a": 0,
+        "en": "transitive past with نے agrees with the object (اسے → بچایا)"
+      },
+      {
+        "opts": [
+          "کہ",
+          "جو",
+          "تو",
+          "اگر"
+        ],
+        "a": 0,
+        "en": "اتنا … کہ = so … that"
+      },
+      {
+        "opts": [
+          "نہیں",
+          "نہ کبھی",
+          "مت تم",
+          "بالکل"
+        ],
+        "a": 0,
+        "en": "نہیں before the infinitive with چاہیے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ڈولفن آواز سے مچھلیاں ڈھونڈتی ہے۔",
+      "stem": "ڈولفن آواز کے ____ مچھلیاں ڈھونڈتی ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "ذریعے"
+      ],
+      "en": "The dolphin finds fish using sound."
+    },
+    {
+      "original": "رضاکاروں نے ڈولفن کو نہر سے نکالا۔",
+      "stem": "رضاکاروں کے ذریعے ڈولفن کو نہر سے ____ گیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "نکالا"
+      ],
+      "en": "The volunteers took the dolphin out of the canal."
+    },
+    {
+      "original": "یہ ڈولفن تقریباً اندھی ہوتی ہے۔",
+      "stem": "یہ ڈولفن تقریباً ____ ہوتی ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "نابینا"
+      ],
+      "en": "This dolphin is almost blind."
+    },
+    {
+      "original": "دریا بہت آلودہ ہے، اس لیے مچھلیاں مر رہی ہیں۔",
+      "stem": "دریا اتنا آلودہ ہے ____ مچھلیاں مر رہی ہیں۔",
+      "instruction_ur": "‘اتنا … کہ’ کی ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘so … that’",
+      "answers": [
+        "کہ"
+      ],
+      "en": "The river is very polluted, so the fish are dying."
+    },
+    {
+      "original": "آج کل ڈولفنوں کی تعداد بڑھ رہی ہے۔",
+      "stem": "آج کل ڈولفنوں کی تعداد میں ____ ہو رہا ہے۔",
+      "instruction_ur": "فعل کی جگہ اسم استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using a noun instead of the verb",
+      "answers": [
+        "اضافہ"
+      ],
+      "en": "These days the number of dolphins is increasing."
+    }
+  ]
+}

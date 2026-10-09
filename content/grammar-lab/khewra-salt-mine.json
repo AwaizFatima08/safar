@@ -1,0 +1,118 @@
+{
+  "id": "khewra-salt-mine",
+  "ur": "زمین کے نیچے",
+  "en": "Underground",
+  "grammarPoint": {
+    "ur": "‘کہا جاتا ہے کہ’، مجہول اور ظرفِ مکان",
+    "en": "‘It is said that’, the passive, and words of place"
+  },
+  "cloze": {
+    "passage": "کھیوڑہ کی کان کوہِ نمک کے (1)_____ واقع ہے۔ کہا جاتا ہے (2)_____ یہاں کا نمک گھوڑوں نے دریافت کیا۔ کان سے ہر سال لاکھوں ٹن نمک (3)_____ جاتا ہے۔ کان کے اندر درجہ حرارت سارا سال ایک جیسا (4)_____ ہے۔ دمے کے مریض یہاں (5)_____ کے لیے آتے ہیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "دامن میں",
+          "اوپر سے",
+          "پیچھے کو",
+          "سامنے سے"
+        ],
+        "a": 0,
+        "en": "کے دامن میں = at the foot of"
+      },
+      {
+        "opts": [
+          "کہ",
+          "جو",
+          "تو",
+          "جب"
+        ],
+        "a": 0,
+        "en": "کہا جاتا ہے کہ = it is said that"
+      },
+      {
+        "opts": [
+          "نکالا",
+          "نکالی",
+          "نکالے",
+          "نکلتا"
+        ],
+        "a": 0,
+        "en": "نمک is masculine: نکالا جاتا ہے (passive)"
+      },
+      {
+        "opts": [
+          "رہتا",
+          "رہتی",
+          "رہتے",
+          "رہا"
+        ],
+        "a": 0,
+        "en": "درجہ حرارت is masculine: رہتا ہے"
+      },
+      {
+        "opts": [
+          "علاج",
+          "سیر",
+          "کام",
+          "کھیل"
+        ],
+        "a": 0,
+        "en": "patients come for treatment — علاج"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "لوگ کہتے ہیں کہ گھوڑوں نے یہ نمک دریافت کیا۔",
+      "stem": "____ جاتا ہے کہ گھوڑوں نے یہ نمک دریافت کیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive (‘it is said …’)",
+      "answers": [
+        "کہا"
+      ],
+      "en": "People say that horses discovered this salt."
+    },
+    {
+      "original": "کان کن ہر سال لاکھوں ٹن نمک نکالتے ہیں۔",
+      "stem": "ہر سال لاکھوں ٹن نمک ____ جاتا ہے۔",
+      "instruction_ur": "فعلِ معروف کو مجہول میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by changing active to passive",
+      "answers": [
+        "نکالا"
+      ],
+      "en": "Miners extract millions of tonnes of salt every year."
+    },
+    {
+      "original": "ہم سرنگ میں داخل ہوئے۔",
+      "stem": "ہم سرنگ کے ____ گئے۔",
+      "instruction_ur": "ظرفِ مکان لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a word of place",
+      "answers": [
+        "اندر"
+      ],
+      "en": "We entered the tunnel."
+    },
+    {
+      "original": "کان کا منظر بہت عجیب و غریب تھا۔",
+      "stem": "کان کا منظر بہت ____ تھا۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "حیرت انگیز",
+        "انوکھا"
+      ],
+      "en": "The sight of the mine was very strange and wonderful."
+    },
+    {
+      "original": "ستون اس لیے چھوڑے جاتے ہیں تاکہ چھت نہ گرے۔",
+      "stem": "ستون نہ چھوڑے جائیں ____ چھت گر سکتی ہے۔",
+      "instruction_ur": "مناسب حرفِ ربط لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a suitable linking word (‘otherwise’)",
+      "answers": [
+        "تو",
+        "ورنہ"
+      ],
+      "en": "Pillars are left so that the roof does not fall."
+    }
+  ]
+}

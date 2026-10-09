@@ -1,0 +1,116 @@
+{
+  "id": "lahore-fort",
+  "ur": "مغل فنِ تعمیر",
+  "en": "Mughal Architecture",
+  "grammarPoint": {
+    "ur": "فعلِ متعدی بالواسطہ (بنوانا) اور اسم سے صفت بنانا",
+    "en": "Causative verbs (بنوانا) and turning nouns into adjectives"
+  },
+  "cloze": {
+    "passage": "شاہی قلعہ مغل بادشاہوں نے (1)_____ تھا۔ اس کی دیواریں اتنی مضبوط ہیں (2)_____ صدیاں گزرنے کے باوجود کھڑی ہیں۔ شیش محل کی خوبصورتی دیکھ کر سیاح (3)_____ رہ جاتے ہیں۔ آج کل حکومت قلعے کی مرمت (4)_____ رہی ہے۔ ہمیں اپنے تاریخی ورثے کو نقصان (5)_____ بچانا چاہیے۔",
+    "gaps": [
+      {
+        "opts": [
+          "بنوایا",
+          "بنا",
+          "بنتا",
+          "بنی"
+        ],
+        "a": 0,
+        "en": "had built — causative بنوایا, since emperors had others build it"
+      },
+      {
+        "opts": [
+          "کہ",
+          "جو",
+          "اگر",
+          "تاکہ"
+        ],
+        "a": 0,
+        "en": "اتنی … کہ = so … that"
+      },
+      {
+        "opts": [
+          "دنگ",
+          "خوش",
+          "تنگ",
+          "سست"
+        ],
+        "a": 0,
+        "en": "دنگ رہ جانا = to be astonished (idiom)"
+      },
+      {
+        "opts": [
+          "کروا",
+          "ہو",
+          "کرا کے",
+          "کی"
+        ],
+        "a": 0,
+        "en": "مرمت کروا رہی ہے = is having it repaired"
+      },
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "میں",
+          "پر"
+        ],
+        "a": 0,
+        "en": "نقصان سے بچانا = to save from harm"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "مزدوروں نے شہنشاہ کے حکم پر قلعہ بنایا۔",
+      "stem": "شہنشاہ نے مزدوروں سے قلعہ ____ ۔",
+      "instruction_ur": "فعلِ متعدی بالواسطہ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with the causative form of the verb",
+      "answers": [
+        "بنوایا"
+      ],
+      "en": "The workers built the fort on the emperor's orders."
+    },
+    {
+      "original": "اس عمارت میں بہت خوبصورتی ہے۔",
+      "stem": "یہ عمارت بہت ____ ہے۔",
+      "instruction_ur": "اسم کو صفت میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by turning the noun into an adjective",
+      "answers": [
+        "خوبصورت"
+      ],
+      "en": "There is great beauty in this building."
+    },
+    {
+      "original": "قلعے میں داخل ہونے سے پہلے ٹکٹ لینا ضروری ہے۔",
+      "stem": "ٹکٹ لیے ____ قلعے میں داخل ہونا منع ہے۔",
+      "instruction_ur": "‘بغیر’ لگا کر جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete using ‘without’, keeping the meaning",
+      "answers": [
+        "بغیر"
+      ],
+      "en": "It is necessary to buy a ticket before entering the fort."
+    },
+    {
+      "original": "شیش محل دیکھ کر ہم بہت حیران ہوئے۔",
+      "stem": "شیش محل دیکھ کر ہم دنگ ____ گئے۔",
+      "instruction_ur": "محاورہ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using the idiom دنگ رہ جانا",
+      "answers": [
+        "رہ"
+      ],
+      "en": "We were very surprised to see the Sheesh Mahal."
+    },
+    {
+      "original": "یہ قلعہ چار سو سال سے زیادہ پرانا ہے۔",
+      "stem": "اس قلعے کی ____ چار سو سال سے زیادہ ہے۔",
+      "instruction_ur": "صفت کو اسم میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by using a noun instead of the adjective",
+      "answers": [
+        "عمر"
+      ],
+      "en": "This fort is more than four hundred years old."
+    }
+  ]
+}

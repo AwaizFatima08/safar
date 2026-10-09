@@ -1,0 +1,269 @@
+{
+  "id": "patras-bokhari",
+  "ur": "پطرس بخاری — مزاح کے بادشاہ",
+  "en": "Patras Bokhari — The King of Humour",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پطرس بخاری کا اصل نام سید احمد شاہ بخاری تھا اور وہ اقوامِ متحدہ میں پاکستان کے مستقل مندوب بھی رہے۔",
+    "en": "Did you know? Patras Bokhari's real name was Syed Ahmed Shah Bokhari, and he also served as Pakistan's Permanent Representative to the United Nations."
+  },
+  "vocab": [
+    {
+      "ur": "مزاح",
+      "en": "humour",
+      "ex_ur": "پطرس کی تحریروں میں بہت مزاح ہے۔",
+      "ex_en": "There is a lot of humour in Patras's writing.",
+      "syn": "ظرافت"
+    },
+    {
+      "ur": "مضمون",
+      "en": "essay",
+      "ex_ur": "‘کتے’ ان کا مشہور مضمون ہے۔",
+      "ex_en": "‘Dogs’ is his famous essay."
+    },
+    {
+      "ur": "مصنف",
+      "en": "author / writer",
+      "ex_ur": "پطرس ایک مشہور مصنف تھے۔",
+      "ex_en": "Patras was a famous writer.",
+      "syn": "ادیب"
+    },
+    {
+      "ur": "قہقہہ",
+      "en": "loud laughter",
+      "ex_ur": "مضمون پڑھ کر ہم قہقہے لگانے لگے۔",
+      "ex_en": "Reading the essay, we burst out laughing."
+    },
+    {
+      "ur": "انداز",
+      "en": "style",
+      "ex_ur": "ان کا لکھنے کا انداز بہت سادہ ہے۔",
+      "ex_en": "His writing style is very simple."
+    },
+    {
+      "ur": "پروفیسر",
+      "en": "professor",
+      "ex_ur": "وہ گورنمنٹ کالج لاہور میں پروفیسر رہے۔",
+      "ex_en": "He was a professor at Government College Lahore."
+    },
+    {
+      "ur": "سائیکل",
+      "en": "bicycle",
+      "ex_ur": "ان کی پرانی سائیکل ہر قدم پر شور مچاتی تھی۔",
+      "ex_en": "His old bicycle made a noise at every step."
+    },
+    {
+      "ur": "مبالغہ",
+      "en": "exaggeration",
+      "ex_ur": "مزاح نگار اکثر مبالغے سے کام لیتے ہیں۔",
+      "ex_en": "Humorists often use exaggeration."
+    },
+    {
+      "ur": "مندوب",
+      "en": "representative (diplomat)",
+      "ex_ur": "وہ اقوامِ متحدہ میں پاکستان کے مندوب تھے۔",
+      "ex_en": "He was Pakistan's representative at the United Nations."
+    },
+    {
+      "ur": "ادب",
+      "en": "literature",
+      "ex_ur": "اردو ادب میں پطرس کا مقام بلند ہے۔",
+      "ex_en": "Patras holds a high place in Urdu literature."
+    }
+  ],
+  "reading": {
+    "passage": "پطرس بخاری اردو کے مشہور مزاح نگار تھے۔ وہ 1898ء میں پشاور میں پیدا ہوئے۔ انہوں نے گورنمنٹ کالج لاہور میں انگریزی پڑھائی اور بعد میں اسی کالج کے پرنسپل بنے۔ ان کی کتاب ‘پطرس کے مضامین’ چند ہی مضامین پر مشتمل ہے، لیکن اردو ادب میں اس کا مقام بہت بلند ہے۔ ان کے مضمون ‘مرحوم کی یاد میں’ میں ایک پرانی سائیکل کا ایسا مزاحیہ حال بیان ہوا ہے کہ پڑھنے والا قہقہے لگائے بغیر نہیں رہ سکتا۔",
+    "questions": [
+      {
+        "q": "پطرس بخاری کہاں پیدا ہوئے؟",
+        "opts": [
+          "پشاور",
+          "لاہور",
+          "کراچی",
+          "ملتان"
+        ],
+        "a": 0
+      },
+      {
+        "q": "وہ کالج میں کون سا مضمون پڑھاتے تھے؟",
+        "opts": [
+          "اردو",
+          "انگریزی",
+          "تاریخ",
+          "ریاضی"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ان کی مشہور کتاب کا نام کیا ہے؟",
+        "opts": [
+          "بانگِ درا",
+          "آبِ حیات",
+          "پطرس کے مضامین",
+          "زندگی کی کہانی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "‘مرحوم کی یاد میں’ کس چیز کے بارے میں ہے؟",
+        "opts": [
+          "ایک کتا",
+          "ایک گھوڑا",
+          "ایک دوست",
+          "ایک پرانی سائیکل"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "تھے",
+          "مزاح نگار",
+          "مشہور",
+          "پطرس",
+          "ایک"
+        ],
+        "answer": [
+          "پطرس",
+          "ایک",
+          "مشہور",
+          "مزاح نگار",
+          "تھے"
+        ],
+        "en": "Patras was a famous humorist."
+      },
+      {
+        "bank": [
+          "ہے",
+          "سادہ",
+          "انداز",
+          "ان کا",
+          "بہت"
+        ],
+        "answer": [
+          "ان کا",
+          "انداز",
+          "بہت",
+          "سادہ",
+          "ہے"
+        ],
+        "en": "His style is very simple."
+      },
+      {
+        "bank": [
+          "لگے",
+          "قہقہے",
+          "پڑھ کر",
+          "ہم",
+          "لگانے"
+        ],
+        "answer": [
+          "پڑھ کر",
+          "ہم",
+          "قہقہے",
+          "لگانے",
+          "لگے"
+        ],
+        "en": "Reading it, we started laughing loudly."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "پطرس کی تحریروں میں بہت ____ ہے۔",
+        "opts": [
+          "مزاح",
+          "غم",
+          "خوف",
+          "غصہ"
+        ],
+        "a": 0,
+        "en": "There is a lot of ___ in Patras's writing."
+      },
+      {
+        "text": "مزاح نگار اکثر ____ سے کام لیتے ہیں۔",
+        "opts": [
+          "مبالغے",
+          "خاموشی",
+          "سختی",
+          "سچائی"
+        ],
+        "a": 0,
+        "en": "Humorists often make use of ___."
+      },
+      {
+        "text": "وہ اقوامِ متحدہ میں پاکستان کے ____ تھے۔",
+        "opts": [
+          "مندوب",
+          "مہمان",
+          "طالب علم",
+          "کھلاڑی"
+        ],
+        "a": 0,
+        "en": "He was Pakistan's ___ at the United Nations."
+      }
+    ],
+    "creative": {
+      "ur": "اپنی کسی پرانی چیز (سائیکل، بستہ، جوتے) کے بارے میں تین مزاحیہ جملے لکھیں۔",
+      "en": "Write three funny sentences about an old thing of yours (bicycle, school bag, shoes)."
+    }
+  },
+  "grammar": {
+    "title": "تشبیہ — Similes with ‘کی طرح’، ‘جیسا/جیسی’، ‘گویا’",
+    "explain": "Humorists love comparisons. Use [noun] کی طرح (like …): وہ شیر کی طرح دھاڑا. جیسا/جیسی/جیسے agrees with the noun described: ہاتھی جیسا جسم، پھول جیسی بچی. گویا means ‘as if’: سائیکل یوں چیخی گویا اسے درد ہو رہا ہو.",
+    "rows": [
+      [
+        "سائیکل بوڑھے آدمی کی طرح کراہ رہی تھی۔",
+        "The bicycle was groaning like an old man."
+      ],
+      [
+        "اس کی آواز بادل جیسی گرج دار تھی۔",
+        "His voice was as thunderous as a cloud."
+      ],
+      [
+        "کتا یوں بھونکا گویا ساری گلی اسی کی ہو۔",
+        "The dog barked as if the whole street belonged to it."
+      ],
+      [
+        "وہ بجلی کی طرح تیز دوڑا۔",
+        "He ran as fast as lightning."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "وہ ہرن کی ____ تیز دوڑتی ہے۔",
+        "opts": [
+          "طرح",
+          "وجہ",
+          "جگہ",
+          "بجائے"
+        ],
+        "a": 0,
+        "en": "She runs as fast as a deer."
+      },
+      {
+        "q": "اس بچی کا چہرہ چاند ____ ہے۔",
+        "opts": [
+          "جیسا",
+          "جیسی",
+          "جیسے",
+          "جیسوں"
+        ],
+        "a": 0,
+        "en": "That girl's face is like the moon. (چہرہ is masculine)"
+      },
+      {
+        "q": "پرانی سائیکل ایسے چیخی ____ اسے چوٹ لگی ہو۔",
+        "opts": [
+          "گویا",
+          "تاکہ",
+          "ورنہ",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "The old bicycle screeched as if it were hurt."
+      }
+    ]
+  }
+}

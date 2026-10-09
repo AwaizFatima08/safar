@@ -1,0 +1,269 @@
+{
+  "id": "helen-keller",
+  "ur": "ہیلن کیلر — ہمت کی مثال",
+  "en": "Helen Keller — A Model of Courage",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ہیلن کیلر نہ دیکھ سکتی تھیں نہ سن سکتی تھیں، پھر بھی انہوں نے کالج سے ڈگری حاصل کی اور کئی کتابیں لکھیں۔",
+    "en": "Did you know? Helen Keller could neither see nor hear, yet she earned a college degree and wrote several books."
+  },
+  "vocab": [
+    {
+      "ur": "معذوری",
+      "en": "disability",
+      "ex_ur": "معذوری انسان کی ہمت کو نہیں روک سکتی۔",
+      "ex_en": "Disability cannot stop a person's courage."
+    },
+    {
+      "ur": "بینائی",
+      "en": "eyesight",
+      "ex_ur": "بیماری نے اس کی بینائی چھین لی۔",
+      "ex_en": "The illness took away her eyesight."
+    },
+    {
+      "ur": "سماعت",
+      "en": "hearing",
+      "ex_ur": "وہ سماعت سے بھی محروم ہو گئیں۔",
+      "ex_en": "She also lost her hearing."
+    },
+    {
+      "ur": "استانی",
+      "en": "female teacher",
+      "ex_ur": "ان کی استانی بہت صبر والی تھیں۔",
+      "ex_en": "Her teacher was very patient.",
+      "syn": "معلمہ"
+    },
+    {
+      "ur": "صبر",
+      "en": "patience",
+      "ex_ur": "سیکھنے کے لیے صبر ضروری ہے۔",
+      "ex_en": "Patience is necessary for learning."
+    },
+    {
+      "ur": "حوصلہ",
+      "en": "courage / determination",
+      "ex_ur": "ہیلن کا حوصلہ بہت بلند تھا۔",
+      "ex_en": "Helen's determination was very strong.",
+      "syn": "ہمت"
+    },
+    {
+      "ur": "لمس",
+      "en": "touch",
+      "ex_ur": "وہ لمس کے ذریعے الفاظ سمجھتی تھیں۔",
+      "ex_en": "She understood words through touch."
+    },
+    {
+      "ur": "بریل",
+      "en": "Braille",
+      "ex_ur": "نابینا لوگ بریل کے ذریعے پڑھتے ہیں۔",
+      "ex_en": "Blind people read through Braille."
+    },
+    {
+      "ur": "کامیابی",
+      "en": "success",
+      "ex_ur": "محنت سے کامیابی ملتی ہے۔",
+      "ex_en": "Success comes through hard work."
+    },
+    {
+      "ur": "ناممکن",
+      "en": "impossible",
+      "ex_ur": "ہیلن نے ثابت کیا کہ کچھ بھی ناممکن نہیں۔",
+      "ex_en": "Helen proved that nothing is impossible."
+    }
+  ],
+  "reading": {
+    "passage": "ہیلن کیلر 1880ء میں امریکہ میں پیدا ہوئیں۔ جب وہ صرف ڈیڑھ سال کی تھیں تو ایک بیماری نے ان کی بینائی اور سماعت دونوں چھین لیں۔ سات سال کی عمر میں ان کی استانی این سلیوان ان کی زندگی میں آئیں۔ استانی نے ان کی ہتھیلی پر انگلی سے حروف لکھ کر انہیں الفاظ سکھائے۔ بعد میں ہیلن نے بریل کے ذریعے پڑھنا سیکھا اور کالج سے ڈگری حاصل کی۔ انہوں نے ساری زندگی معذور افراد کے حقوق کے لیے کام کیا۔",
+    "questions": [
+      {
+        "q": "ہیلن کیلر کس ملک میں پیدا ہوئیں؟",
+        "opts": [
+          "امریکہ",
+          "برطانیہ",
+          "فرانس",
+          "کینیڈا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "بیماری کے وقت ہیلن کی عمر کتنی تھی؟",
+        "opts": [
+          "سات سال",
+          "ڈیڑھ سال",
+          "دس سال",
+          "پانچ سال"
+        ],
+        "a": 1
+      },
+      {
+        "q": "استانی نے ہیلن کو الفاظ کیسے سکھائے؟",
+        "opts": [
+          "تصویریں دکھا کر",
+          "اونچی آواز میں بول کر",
+          "ہتھیلی پر حروف لکھ کر",
+          "گانے سنا کر"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ہیلن نے ساری زندگی کس کے لیے کام کیا؟",
+        "opts": [
+          "کسانوں کے لیے",
+          "فوجیوں کے لیے",
+          "سائنس دانوں کے لیے",
+          "معذور افراد کے حقوق کے لیے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بلند",
+          "حوصلہ",
+          "تھا",
+          "ہیلن کا",
+          "بہت"
+        ],
+        "answer": [
+          "ہیلن کا",
+          "حوصلہ",
+          "بہت",
+          "بلند",
+          "تھا"
+        ],
+        "en": "Helen's determination was very strong."
+      },
+      {
+        "bank": [
+          "پڑھنا",
+          "بریل",
+          "انہوں نے",
+          "سیکھا",
+          "کے ذریعے"
+        ],
+        "answer": [
+          "انہوں نے",
+          "بریل",
+          "کے ذریعے",
+          "پڑھنا",
+          "سیکھا"
+        ],
+        "en": "She learned to read through Braille."
+      },
+      {
+        "bank": [
+          "نہیں",
+          "ناممکن",
+          "بھی",
+          "ہے",
+          "کچھ"
+        ],
+        "answer": [
+          "کچھ",
+          "بھی",
+          "ناممکن",
+          "نہیں",
+          "ہے"
+        ],
+        "en": "Nothing is impossible."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "بیماری نے ہیلن کی ____ اور سماعت چھین لی۔",
+        "opts": [
+          "بینائی",
+          "دولت",
+          "زبان",
+          "طاقت"
+        ],
+        "a": 0,
+        "en": "The illness took away Helen's ___ and hearing."
+      },
+      {
+        "text": "سیکھنے کے لیے ____ ضروری ہے۔",
+        "opts": [
+          "صبر",
+          "غصہ",
+          "شور",
+          "جلدی"
+        ],
+        "a": 0,
+        "en": "___ is necessary for learning."
+      },
+      {
+        "text": "وہ ____ کے ذریعے الفاظ سمجھتی تھیں۔",
+        "opts": [
+          "لمس",
+          "رنگ",
+          "خوشبو",
+          "ذائقے"
+        ],
+        "a": 0,
+        "en": "She understood words through ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ ہیلن کیلر کی زندگی سے کون سا سبق سیکھتے ہیں؟ تین جملے لکھیں۔",
+      "en": "What lesson do you learn from Helen Keller's life? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ماضی بعید — Past perfect (‘had done’): سیکھ چکی تھی / سیکھ لیا تھا",
+    "explain": "For an action completed before another past event, use the verb stem + چکا/چکی/چکے تھا, or the past participle + تھا: جب استانی آئیں، ہیلن بینائی کھو چکی تھی (when the teacher came, Helen had already lost her sight). With transitive verbs the نے form is common: اس نے پانچ زبانیں سیکھ لی تھیں.",
+    "rows": [
+      [
+        "جب این آئیں تو ہیلن بینائی کھو چکی تھی۔",
+        "When Anne came, Helen had already lost her sight."
+      ],
+      [
+        "کالج جانے سے پہلے وہ بریل سیکھ چکی تھیں۔",
+        "Before going to college she had already learned Braille."
+      ],
+      [
+        "ہم پہنچے تو تقریب شروع ہو چکی تھی۔",
+        "When we arrived, the ceremony had already begun."
+      ],
+      [
+        "اس نے دس سال کی عمر تک کئی کتابیں پڑھ لی تھیں۔",
+        "By the age of ten she had read many books."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "جب ڈاکٹر آیا تو بیماری بہت بڑھ ____ تھی۔",
+        "opts": [
+          "چکی",
+          "چکا",
+          "چکے",
+          "رہا"
+        ],
+        "a": 0,
+        "en": "When the doctor came, the illness had become much worse."
+      },
+      {
+        "q": "امتحان سے پہلے میں سارا سبق یاد کر ____ تھا۔",
+        "opts": [
+          "چکا",
+          "چکی",
+          "رہی",
+          "گئی"
+        ],
+        "a": 0,
+        "en": "Before the exam I had memorised the whole lesson."
+      },
+      {
+        "q": "ہم اسٹیشن پہنچے تو گاڑی جا ____ تھی۔",
+        "opts": [
+          "چکی",
+          "چکا",
+          "چکے",
+          "رہا"
+        ],
+        "a": 0,
+        "en": "When we reached the station, the train had already left."
+      }
+    ]
+  }
+}

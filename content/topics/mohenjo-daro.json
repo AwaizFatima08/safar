@@ -1,0 +1,272 @@
+{
+  "id": "mohenjo-daro",
+  "ur": "موئن جو دڑو",
+  "en": "Mohenjo-daro",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ‘موئن جو دڑو’ کا مطلب ہے ‘مُردوں کا ٹیلہ’، اور یہ شہر تقریباً ساڑھے چار ہزار سال پرانا ہے۔",
+    "en": "Did you know? ‘Mohenjo-daro’ means ‘mound of the dead’, and the city is about 4,500 years old."
+  },
+  "vocab": [
+    {
+      "ur": "تہذیب",
+      "en": "civilisation",
+      "ex_ur": "وادیٔ سندھ کی تہذیب بہت قدیم ہے۔",
+      "ex_en": "The Indus Valley civilisation is very ancient."
+    },
+    {
+      "ur": "کھنڈرات",
+      "en": "ruins",
+      "ex_ur": "ہم نے پرانے شہر کے کھنڈرات دیکھے۔",
+      "ex_en": "We saw the ruins of the old city."
+    },
+    {
+      "ur": "قدیم",
+      "en": "ancient",
+      "ex_ur": "یہ ایک قدیم شہر ہے۔",
+      "ex_en": "This is an ancient city.",
+      "syn": "پرانا"
+    },
+    {
+      "ur": "کھدائی",
+      "en": "excavation / digging",
+      "ex_ur": "کھدائی سے بہت سی چیزیں ملیں۔",
+      "ex_en": "Many objects were found during the excavation."
+    },
+    {
+      "ur": "اینٹ",
+      "en": "brick",
+      "ex_ur": "گھر پکی اینٹوں سے بنائے گئے تھے۔",
+      "ex_en": "The houses were built of baked bricks."
+    },
+    {
+      "ur": "نالی",
+      "en": "drain",
+      "ex_ur": "ہر گلی میں ڈھکی ہوئی نالیاں تھیں۔",
+      "ex_en": "Every street had covered drains."
+    },
+    {
+      "ur": "مہر",
+      "en": "seal (stamp)",
+      "ex_ur": "کھدائی میں جانوروں کی تصویروں والی مہریں ملیں۔",
+      "ex_en": "Seals with pictures of animals were found in the excavation."
+    },
+    {
+      "ur": "منصوبہ بندی",
+      "en": "planning",
+      "ex_ur": "شہر کی منصوبہ بندی بہت اچھی تھی۔",
+      "ex_en": "The city was very well planned."
+    },
+    {
+      "ur": "ورثہ",
+      "en": "heritage",
+      "ex_ur": "موئن جو دڑو عالمی ورثہ ہے۔",
+      "ex_en": "Mohenjo-daro is a world heritage site.",
+      "syn": "میراث"
+    },
+    {
+      "ur": "تحفظ",
+      "en": "protection / preservation",
+      "ex_ur": "کھنڈرات کا تحفظ ضروری ہے۔",
+      "ex_en": "Protecting the ruins is necessary.",
+      "syn": "حفاظت"
+    }
+  ],
+  "reading": {
+    "passage": "موئن جو دڑو صوبہ سندھ کے ضلع لاڑکانہ میں دریائے سندھ کے کنارے واقع ہے۔ یہ وادیٔ سندھ کی قدیم تہذیب کا ایک بڑا شہر تھا۔ اس کے کھنڈرات 1922ء میں کھدائی کے دوران دریافت ہوئے۔ شہر کی منصوبہ بندی حیرت انگیز تھی: سیدھی گلیاں، پکی اینٹوں کے گھر اور ڈھکی ہوئی نالیاں۔ یہاں ایک بہت بڑا تالاب بھی ملا ہے جسے ‘عظیم حمام’ کہا جاتا ہے۔ آج یہ شہر عالمی ورثہ ہے اور اس کا تحفظ ہم سب کی ذمہ داری ہے۔",
+    "questions": [
+      {
+        "q": "موئن جو دڑو کس ضلع میں واقع ہے؟",
+        "opts": [
+          "لاڑکانہ",
+          "حیدرآباد",
+          "سکھر",
+          "ٹھٹھہ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "اس شہر کے کھنڈرات کب دریافت ہوئے؟",
+        "opts": [
+          "1857ء",
+          "1922ء",
+          "1947ء",
+          "1980ء"
+        ],
+        "a": 1
+      },
+      {
+        "q": "شہر کے گھر کس چیز سے بنے تھے؟",
+        "opts": [
+          "لکڑی",
+          "پتھر",
+          "پکی اینٹوں",
+          "شیشے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "‘عظیم حمام’ کیا ہے؟",
+        "opts": [
+          "ایک بازار",
+          "ایک قلعہ",
+          "ایک مندر",
+          "ایک بڑا تالاب"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ہے",
+          "قدیم",
+          "یہ",
+          "شہر",
+          "ایک"
+        ],
+        "answer": [
+          "یہ",
+          "ایک",
+          "قدیم",
+          "شہر",
+          "ہے"
+        ],
+        "en": "This is an ancient city."
+      },
+      {
+        "bank": [
+          "تھیں",
+          "نالیاں",
+          "گلی",
+          "میں",
+          "ہر",
+          "ڈھکی ہوئی"
+        ],
+        "answer": [
+          "ہر",
+          "گلی",
+          "میں",
+          "ڈھکی ہوئی",
+          "نالیاں",
+          "تھیں"
+        ],
+        "en": "Every street had covered drains."
+      },
+      {
+        "bank": [
+          "ضروری",
+          "تحفظ",
+          "کا",
+          "ہے",
+          "کھنڈرات"
+        ],
+        "answer": [
+          "کھنڈرات",
+          "کا",
+          "تحفظ",
+          "ضروری",
+          "ہے"
+        ],
+        "en": "Protecting the ruins is necessary."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ہم نے پرانے شہر کے ____ دیکھے۔",
+        "opts": [
+          "کھنڈرات",
+          "کھلونے",
+          "کپڑے",
+          "پرندے"
+        ],
+        "a": 0,
+        "en": "We saw the ___ of the old city."
+      },
+      {
+        "text": "گھر پکی ____ سے بنائے گئے تھے۔",
+        "opts": [
+          "اینٹوں",
+          "رسیوں",
+          "کتابوں",
+          "پتوں"
+        ],
+        "a": 0,
+        "en": "The houses were built of baked ___."
+      },
+      {
+        "text": "کھدائی میں جانوروں کی تصویروں والی ____ ملیں۔",
+        "opts": [
+          "مہریں",
+          "گاڑیاں",
+          "سڑکیں",
+          "کشتیاں"
+        ],
+        "a": 0,
+        "en": "___ with pictures of animals were found in the excavation."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ ساڑھے چار ہزار سال پہلے موئن جو دڑو میں رہتے تو آپ کی زندگی کیسی ہوتی؟ تین جملے لکھیں۔",
+      "en": "If you had lived in Mohenjo-daro 4,500 years ago, what would your life have been like? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "فعلِ مجہول — Passive voice with ‘جانا’ (بنایا گیا، دریافت کیا گیا)",
+    "explain": "When the doer is unknown or unimportant, Urdu uses the past participle + a form of جانا: شہر بنایا گیا (the city was built). The participle and جانا agree with the object: گھر بنائے گئے (m. pl.), مہریں ملیں / بنائی گئیں (f. pl.). The doer, if mentioned, takes کے ذریعے.",
+    "rows": [
+      [
+        "لوگوں نے شہر بنایا۔ → شہر بنایا گیا۔",
+        "People built the city. → The city was built."
+      ],
+      [
+        "ماہرین نے کھنڈرات دریافت کیے۔ → کھنڈرات دریافت کیے گئے۔",
+        "Experts discovered the ruins. → The ruins were discovered."
+      ],
+      [
+        "کاریگر مہریں بناتے تھے۔ → مہریں بنائی جاتی تھیں۔",
+        "Craftsmen used to make seals. → Seals used to be made."
+      ],
+      [
+        "حکومت شہر کی حفاظت کرتی ہے۔ → شہر کی حفاظت کی جاتی ہے۔",
+        "The government protects the city. → The city is protected."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "یہ شہر ہزاروں سال پہلے ____ گیا۔",
+        "opts": [
+          "بنایا",
+          "بنائی",
+          "بنائے",
+          "بناتا"
+        ],
+        "a": 0,
+        "en": "This city was built thousands of years ago."
+      },
+      {
+        "q": "کھدائی میں بہت سی مہریں ____ گئیں۔",
+        "opts": [
+          "پائی",
+          "پایا",
+          "پائے",
+          "پاتی"
+        ],
+        "a": 0,
+        "en": "Many seals were found in the excavation."
+      },
+      {
+        "q": "گلیوں میں نالیاں ڈھک کر ____ جاتی تھیں۔",
+        "opts": [
+          "رکھی",
+          "رکھا",
+          "رکھے",
+          "رکھو"
+        ],
+        "a": 0,
+        "en": "The drains in the streets used to be kept covered."
+      }
+    ]
+  }
+}

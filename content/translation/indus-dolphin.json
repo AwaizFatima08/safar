@@ -1,0 +1,104 @@
+{
+  "id": "indus-dolphin",
+  "ur": "دریائے سندھ کی ڈولفن",
+  "en": "The Indus River Dolphin",
+  "warmup": [
+    {
+      "en": "The dolphin lives in the river.",
+      "bank": [
+        "رہتی",
+        "میں",
+        "ڈولفن",
+        "ہے",
+        "دریا"
+      ],
+      "answer": [
+        "ڈولفن",
+        "دریا",
+        "میں",
+        "رہتی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "It cannot see well.",
+      "bank": [
+        "سکتی",
+        "نہیں",
+        "یہ",
+        "دیکھ",
+        "ٹھیک سے"
+      ],
+      "answer": [
+        "یہ",
+        "ٹھیک سے",
+        "نہیں",
+        "دیکھ",
+        "سکتی"
+      ]
+    },
+    {
+      "en": "The team rescued the dolphin.",
+      "bank": [
+        "بچایا",
+        "نے",
+        "کو",
+        "ٹیم",
+        "ڈولفن"
+      ],
+      "answer": [
+        "ٹیم",
+        "نے",
+        "ڈولفن",
+        "کو",
+        "بچایا"
+      ]
+    },
+    {
+      "en": "Do not throw rubbish in the river.",
+      "bank": [
+        "کچرا",
+        "پھینکیں",
+        "میں",
+        "نہ",
+        "دریا"
+      ],
+      "answer": [
+        "دریا",
+        "میں",
+        "کچرا",
+        "نہ",
+        "پھینکیں"
+      ]
+    },
+    {
+      "en": "Their number is increasing slowly.",
+      "bank": [
+        "ہے",
+        "تعداد",
+        "آہستہ آہستہ",
+        "ان کی",
+        "رہی",
+        "بڑھ"
+      ],
+      "answer": [
+        "ان کی",
+        "تعداد",
+        "آہستہ آہستہ",
+        "بڑھ",
+        "رہی",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Indus river dolphin is found nowhere else in the world except Pakistan. Because it lives in muddy water, it has almost lost its eyesight, and instead it finds fish by sending out sounds and listening for their echoes. Like all dolphins, it must come to the surface regularly to breathe. Over the past century its numbers fell sharply. Barrages divided the river into separate sections, pollution from farms and factories entered the water, and many dolphins became trapped in irrigation canals. In recent years, however, there has been some good news. Part of the river has been declared a protected reserve, and teams of volunteers rescue dolphins from the canals and return them to the river. If people continue to support these efforts, this unique animal may survive for generations to come.",
+    "modelUr": "دریائے سندھ کی ڈولفن پاکستان کے سوا دنیا میں کہیں اور نہیں پائی جاتی۔ چونکہ یہ گدلے پانی میں رہتی ہے، اس لیے اس کی بینائی تقریباً ختم ہو چکی ہے، اور اس کے بجائے یہ آوازیں نکال کر اور ان کی گونج سن کر مچھلیاں تلاش کرتی ہے۔ دوسری تمام ڈولفنوں کی طرح اسے بھی سانس لینے کے لیے باقاعدگی سے سطح پر آنا پڑتا ہے۔ گزشتہ صدی کے دوران اس کی تعداد میں تیزی سے کمی آئی۔ بیراجوں نے دریا کو الگ الگ حصوں میں تقسیم کر دیا، کھیتوں اور فیکٹریوں کی آلودگی پانی میں شامل ہوئی، اور بہت سی ڈولفنیں آبپاشی کی نہروں میں پھنس گئیں۔ تاہم حالیہ برسوں میں کچھ اچھی خبریں بھی آئی ہیں۔ دریا کے ایک حصے کو محفوظ علاقہ قرار دیا گیا ہے، اور رضاکاروں کی ٹیمیں نہروں سے ڈولفنوں کو بچا کر واپس دریا میں چھوڑتی ہیں۔ اگر لوگ ان کوششوں کی حمایت جاری رکھیں تو یہ منفرد جانور آنے والی کئی نسلوں تک زندہ رہ سکتا ہے۔",
+    "checklist": [
+      "کیا ‘found nowhere else … except’ کا ترجمہ ‘کے سوا کہیں اور نہیں’ جیسی ساخت سے ہوا؟",
+      "کیا ‘irrigation canals’ اور ‘protected reserve’ کے لیے مناسب الفاظ (آبپاشی کی نہریں، محفوظ علاقہ) استعمال کیے؟",
+      "کیا ‘however’ کا ترجمہ ‘تاہم’ یا ‘البتہ’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

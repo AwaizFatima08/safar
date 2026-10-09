@@ -1,0 +1,118 @@
+{
+  "id": "cholistan-desert",
+  "ur": "صحرا کی زندگی",
+  "en": "Life in the Desert",
+  "grammarPoint": {
+    "ur": "ماضی استمراری، ‘جب تک … تب تک’ اور متضاد الفاظ",
+    "en": "Habitual past, ‘as long as / until’, and antonyms"
+  },
+  "cloze": {
+    "passage": "پہلے زمانے میں لوگ اونٹوں پر سفر (1)_____ تھے۔ صحرا میں دن بہت گرم (2)_____ راتیں ٹھنڈی ہوتی ہیں۔ جب تک ٹوبے میں پانی رہتا ہے، لوگ وہیں (3)_____ ہیں۔ پانی ختم ہونے (4)_____ وہ نہری علاقوں کی طرف چلے جاتے ہیں۔ چولستان کی خواتین کی دستکاری بہت (5)_____ ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "کرتے",
+          "کیا",
+          "کریں",
+          "کرے گا"
+        ],
+        "a": 0,
+        "en": "habitual past: سفر کرتے تھے"
+      },
+      {
+        "opts": [
+          "جبکہ",
+          "تاکہ",
+          "ورنہ",
+          "کیونکہ"
+        ],
+        "a": 0,
+        "en": "جبکہ = whereas — contrasting hot days and cold nights"
+      },
+      {
+        "opts": [
+          "رہتے",
+          "رہا",
+          "رہی",
+          "رہو"
+        ],
+        "a": 0,
+        "en": "لوگ is masculine plural: وہیں رہتے ہیں"
+      },
+      {
+        "opts": [
+          "پر",
+          "کو",
+          "کا",
+          "میں"
+        ],
+        "a": 0,
+        "en": "ختم ہونے پر = when (it) runs out"
+      },
+      {
+        "opts": [
+          "مشہور",
+          "مشہوری",
+          "شہرت",
+          "مشہورہ"
+        ],
+        "a": 0,
+        "en": "an adjective is needed: بہت مشہور ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "صحرا میں دن کو بہت گرمی ہوتی ہے۔",
+      "stem": "صحرا میں دن بہت ____ ہوتے ہیں۔",
+      "instruction_ur": "اسم کو صفت میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by changing the noun into an adjective",
+      "answers": [
+        "گرم"
+      ],
+      "en": "It is very hot during the day in the desert."
+    },
+    {
+      "original": "میرے دادا ہر شام کہانی سناتے تھے۔",
+      "stem": "میرے دادا ہر شام کہانی سنایا ____ تھے۔",
+      "instruction_ur": "‘کیا کرنا’ والی ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete with the ‘used to’ form (… کیا کرتے تھے)",
+      "answers": [
+        "کرتے"
+      ],
+      "en": "My grandfather used to tell a story every evening."
+    },
+    {
+      "original": "ٹوبے میں پانی ختم ہوا تو وہ ہجرت کر گئے۔",
+      "stem": "جب ____ ٹوبے میں پانی رہا، وہ وہیں رہے۔",
+      "instruction_ur": "مفہوم کو برقرار رکھتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete with ‘as long as’ (جب تک), keeping the meaning",
+      "answers": [
+        "تک"
+      ],
+      "en": "When the water in the pond ran out, they migrated."
+    },
+    {
+      "original": "صحرا میں بارش زیادہ نہیں ہوتی۔",
+      "stem": "صحرا میں بارش بہت ____ ہوتی ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملے کو مثبت بنائیں",
+      "instruction_en": "Use the opposite word to make the sentence positive",
+      "answers": [
+        "کم"
+      ],
+      "en": "It doesn't rain much in the desert."
+    },
+    {
+      "original": "اونٹ پانی پیے بغیر کئی دن گزار سکتا ہے۔",
+      "stem": "اونٹ کئی دن تک ____ رہ سکتا ہے۔",
+      "instruction_ur": "متبادل الفاظ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using different words with the same meaning",
+      "answers": [
+        "پیاسا",
+        "پانی کے بغیر",
+        "بغیر پانی کے"
+      ],
+      "en": "A camel can spend several days without drinking water."
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "id": "road-safety",
+  "ur": "سڑک پر حفاظت",
+  "en": "Road Safety",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لاہور اور اسلام آباد کو ملانے والی موٹروے ایم ٹو 1997ء میں کھلی تھی۔ یہ جنوبی ایشیا کی ابتدائی موٹرویز میں سے ایک ہے۔",
+    "en": "Did you know? The M-2 motorway linking Lahore and Islamabad opened in 1997. It was one of the first motorways in South Asia."
+  },
+  "vocab": [
+    {
+      "ur": "ٹریفک",
+      "en": "traffic",
+      "ex_ur": "صبح کے وقت ٹریفک بہت ہوتا ہے۔",
+      "ex_en": "There is a lot of traffic in the morning."
+    },
+    {
+      "ur": "حادثہ",
+      "en": "accident",
+      "ex_ur": "تیز رفتاری حادثے کی بڑی وجہ ہے۔",
+      "ex_en": "Speeding is a major cause of accidents."
+    },
+    {
+      "ur": "ہیلمٹ",
+      "en": "helmet",
+      "ex_ur": "موٹر سائیکل پر ہیلمٹ ضرور پہنیں۔",
+      "ex_en": "Always wear a helmet on a motorbike."
+    },
+    {
+      "ur": "سیٹ بیلٹ",
+      "en": "seat belt",
+      "ex_ur": "گاڑی میں سیٹ بیلٹ باندھیں۔",
+      "ex_en": "Fasten your seat belt in the car."
+    },
+    {
+      "ur": "رفتار",
+      "en": "speed",
+      "ex_ur": "اسکول کے قریب رفتار کم رکھیں۔",
+      "ex_en": "Keep the speed low near schools."
+    },
+    {
+      "ur": "قانون",
+      "en": "law",
+      "ex_ur": "ٹریفک کے قانون کی پابندی کریں۔",
+      "ex_en": "Obey the traffic law."
+    },
+    {
+      "ur": "پیدل چلنے والا",
+      "en": "pedestrian",
+      "ex_ur": "پیدل چلنے والوں کو زیبرا کراسنگ استعمال کرنی چاہیے۔",
+      "ex_en": "Pedestrians should use the zebra crossing."
+    },
+    {
+      "ur": "اشارہ",
+      "en": "signal",
+      "ex_ur": "سرخ اشارے پر رک جائیں۔",
+      "ex_en": "Stop at the red signal."
+    },
+    {
+      "ur": "لاپروائی",
+      "en": "carelessness",
+      "ex_ur": "ذرا سی لاپروائی جان لے سکتی ہے۔",
+      "ex_en": "A little carelessness can cost a life.",
+      "syn": "بے احتیاطی"
+    },
+    {
+      "ur": "جرمانہ",
+      "en": "fine (penalty)",
+      "ex_ur": "اسے تیز رفتاری پر جرمانہ ہوا۔",
+      "ex_en": "He was fined for speeding."
+    }
+  ],
+  "reading": {
+    "passage": "پاکستان میں ہر سال ہزاروں لوگ سڑک کے حادثات میں زخمی ہوتے ہیں۔ ان حادثات کی بڑی وجوہات تیز رفتاری، موبائل فون کا استعمال اور ٹریفک قوانین کی خلاف ورزی ہیں۔ موٹروے پولیس کو ایک ایماندار اور منظم ادارہ مانا جاتا ہے جو قانون توڑنے والوں کو جرمانہ کرتا ہے۔ ماہرین کہتے ہیں کہ ہیلمٹ اور سیٹ بیلٹ کے استعمال سے بہت سی جانیں بچ سکتی ہیں۔ پیدل چلنے والوں کو بھی چاہیے کہ سڑک ہمیشہ زیبرا کراسنگ سے پار کریں۔",
+    "questions": [
+      {
+        "q": "حادثات کی ایک بڑی وجہ کیا ہے؟",
+        "opts": [
+          "تیز رفتاری",
+          "بارش نہ ہونا",
+          "اچھی سڑکیں",
+          "کم گاڑیاں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "موٹروے پولیس کو کیسا ادارہ مانا جاتا ہے؟",
+        "opts": [
+          "سست",
+          "ایماندار اور منظم",
+          "نیا اور چھوٹا",
+          "غیر ضروری"
+        ],
+        "a": 1
+      },
+      {
+        "q": "کن چیزوں کے استعمال سے جانیں بچ سکتی ہیں؟",
+        "opts": [
+          "ہارن اور لائٹ",
+          "ریڈیو اور فون",
+          "ہیلمٹ اور سیٹ بیلٹ",
+          "چشمہ اور ٹوپی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "پیدل چلنے والوں کو سڑک کہاں سے پار کرنی چاہیے؟",
+        "opts": [
+          "موڑ سے",
+          "پل کے نیچے سے",
+          "گاڑیوں کے درمیان سے",
+          "زیبرا کراسنگ سے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "باندھیں",
+          "بیلٹ",
+          "ہمیشہ",
+          "سیٹ"
+        ],
+        "answer": [
+          "ہمیشہ",
+          "سیٹ",
+          "بیلٹ",
+          "باندھیں"
+        ],
+        "en": "Always fasten your seat belt."
+      },
+      {
+        "bank": [
+          "رک",
+          "اشارے",
+          "جائیں",
+          "سرخ",
+          "پر"
+        ],
+        "answer": [
+          "سرخ",
+          "اشارے",
+          "پر",
+          "رک",
+          "جائیں"
+        ],
+        "en": "Stop at the red signal."
+      },
+      {
+        "bank": [
+          "فون",
+          "نہ",
+          "کریں",
+          "ڈرائیونگ کے دوران",
+          "استعمال"
+        ],
+        "answer": [
+          "ڈرائیونگ کے دوران",
+          "فون",
+          "استعمال",
+          "نہ",
+          "کریں"
+        ],
+        "en": "Do not use the phone while driving."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "موٹر سائیکل چلاتے وقت ____ پہنیں۔",
+        "opts": [
+          "ہیلمٹ",
+          "عینک",
+          "دستانے",
+          "جوتے"
+        ],
+        "a": 0,
+        "en": "Wear a ___ when riding a motorbike."
+      },
+      {
+        "text": "اسکول کے قریب ____ کم رکھیں۔",
+        "opts": [
+          "رفتار",
+          "آواز",
+          "روشنی",
+          "قیمت"
+        ],
+        "a": 0,
+        "en": "Keep the ___ low near schools."
+      },
+      {
+        "text": "ذرا سی ____ بڑے حادثے کا سبب بن سکتی ہے۔",
+        "opts": [
+          "لاپروائی",
+          "احتیاط",
+          "محنت",
+          "خوشی"
+        ],
+        "a": 0,
+        "en": "A little ___ can cause a big accident."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اسکول آتے جاتے سڑک پر اپنی حفاظت کیسے کرتے ہیں؟ تین جملے لکھیں۔",
+      "en": "How do you keep yourself safe on the road going to and from school? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "شرطیہ جملے — ‘اگر… تو’ (Conditionals)",
+    "explain": "Use اگر … تو for real conditions: ‘اگر آپ ہیلمٹ پہنیں گے تو محفوظ رہیں گے’. For unreal or past conditions use the habitual/past form: ‘اگر اس نے سیٹ بیلٹ باندھی ہوتی تو وہ زخمی نہ ہوتا’ (if he had worn a seat belt, he would not have been hurt). جب تک … نہ means ‘until’.",
+    "rows": [
+      [
+        "اگر آپ تیز چلائیں گے تو حادثہ ہو سکتا ہے۔",
+        "If you drive fast, an accident may happen."
+      ],
+      [
+        "اگر اس نے ہیلمٹ پہنا ہوتا تو وہ زخمی نہ ہوتا۔",
+        "If he had worn a helmet, he would not have been hurt."
+      ],
+      [
+        "جب تک اشارہ سبز نہ ہو، رکے رہیں۔",
+        "Stay stopped until the signal turns green."
+      ],
+      [
+        "قانون توڑیں گے تو جرمانہ ہو گا۔",
+        "If you break the law, you will be fined."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اگر بارش ہو ____ آہستہ چلائیں۔",
+        "opts": [
+          "تو",
+          "کہ",
+          "اور",
+          "مگر"
+        ],
+        "a": 0,
+        "en": "If it rains, drive slowly."
+      },
+      {
+        "q": "اگر اس نے سیٹ بیلٹ باندھی ____ تو وہ بچ جاتا۔",
+        "opts": [
+          "ہوتی",
+          "ہے",
+          "ہو گی",
+          "تھا"
+        ],
+        "a": 0,
+        "en": "If he had fastened his seat belt, he would have survived."
+      },
+      {
+        "q": "جب تک اشارہ سبز ____ ہو، سڑک پار نہ کریں۔",
+        "opts": [
+          "نہ",
+          "تو",
+          "ہی",
+          "بھی"
+        ],
+        "a": 0,
+        "en": "Do not cross until the signal is green."
+      }
+    ]
+  }
+}

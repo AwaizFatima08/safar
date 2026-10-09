@@ -1,0 +1,281 @@
+{
+  "id": "karakoram-highway",
+  "ur": "شاہراہِ قراقرم",
+  "en": "The Karakoram Highway",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ شاہراہِ قراقرم پر واقع درۂ خنجراب تقریباً 4700 میٹر بلند ہے اور دنیا کی بلند ترین پکی سرحدی گزرگاہوں میں سے ایک ہے۔",
+    "en": "Did you know? The Khunjerab Pass on the Karakoram Highway is about 4,700 metres high — one of the highest paved border crossings in the world."
+  },
+  "vocab": [
+    {
+      "ur": "شاہراہ",
+      "en": "highway",
+      "ex_ur": "یہ شاہراہ پاکستان کو چین سے ملاتی ہے۔",
+      "ex_en": "This highway connects Pakistan with China.",
+      "syn": "بڑی سڑک"
+    },
+    {
+      "ur": "درہ",
+      "en": "mountain pass",
+      "ex_ur": "درۂ خنجراب بہت بلند ہے۔",
+      "ex_en": "The Khunjerab Pass is very high."
+    },
+    {
+      "ur": "بلندی",
+      "en": "height / altitude",
+      "ex_ur": "اتنی بلندی پر سانس لینا مشکل ہوتا ہے۔",
+      "ex_en": "It is hard to breathe at such an altitude.",
+      "syn": "اونچائی"
+    },
+    {
+      "ur": "سرحد",
+      "en": "border",
+      "ex_ur": "خنجراب پاکستان اور چین کی سرحد پر ہے۔",
+      "ex_en": "Khunjerab is on the border of Pakistan and China."
+    },
+    {
+      "ur": "تعمیر",
+      "en": "construction",
+      "ex_ur": "اس سڑک کی تعمیر میں کئی سال لگے۔",
+      "ex_en": "The construction of this road took many years."
+    },
+    {
+      "ur": "مزدور",
+      "en": "labourer / worker",
+      "ex_ur": "ہزاروں مزدوروں نے دن رات کام کیا۔",
+      "ex_en": "Thousands of workers worked day and night."
+    },
+    {
+      "ur": "لینڈ سلائیڈ",
+      "en": "landslide",
+      "ex_ur": "بارش کے بعد لینڈ سلائیڈ سے سڑک بند ہو گئی۔",
+      "ex_en": "The road was blocked by a landslide after the rain."
+    },
+    {
+      "ur": "دشوار",
+      "en": "difficult / hard",
+      "ex_ur": "پہاڑوں میں سفر دشوار ہوتا ہے۔",
+      "ex_en": "Travelling in the mountains is difficult.",
+      "syn": "مشکل"
+    },
+    {
+      "ur": "تجارت",
+      "en": "trade",
+      "ex_ur": "اس شاہراہ سے دونوں ملکوں میں تجارت بڑھی۔",
+      "ex_en": "Trade between the two countries grew because of this highway."
+    },
+    {
+      "ur": "نظارہ",
+      "en": "view / scene",
+      "ex_ur": "راستے کے نظارے بہت حسین ہیں۔",
+      "ex_en": "The views along the way are very beautiful.",
+      "syn": "منظر"
+    }
+  ],
+  "reading": {
+    "passage": "شاہراہِ قراقرم پاکستان کو چین سے ملاتی ہے۔ یہ سڑک حسن ابدال سے شروع ہو کر گلگت اور ہنزہ سے گزرتی ہوئی درۂ خنجراب تک جاتی ہے۔ اس کی تعمیر پاکستان اور چین نے مل کر کی اور اس میں تقریباً بیس سال لگے۔ سخت پہاڑوں میں کام کرنا اتنا دشوار تھا کہ سینکڑوں مزدور اپنی جانیں گنوا بیٹھے۔ آج یہ شاہراہ تجارت اور سیاحت کا اہم راستہ ہے، اور اس کے حسین نظاروں کی وجہ سے اسے ‘دنیا کا آٹھواں عجوبہ’ بھی کہا جاتا ہے۔",
+    "questions": [
+      {
+        "q": "شاہراہِ قراقرم پاکستان کو کس ملک سے ملاتی ہے؟",
+        "opts": [
+          "چین",
+          "افغانستان",
+          "ایران",
+          "بھارت"
+        ],
+        "a": 0
+      },
+      {
+        "q": "یہ سڑک کس جگہ سے شروع ہوتی ہے؟",
+        "opts": [
+          "گلگت",
+          "حسن ابدال",
+          "ہنزہ",
+          "خنجراب"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اس کی تعمیر میں تقریباً کتنا عرصہ لگا؟",
+        "opts": [
+          "دو سال",
+          "پانچ سال",
+          "بیس سال",
+          "پچاس سال"
+        ],
+        "a": 2
+      },
+      {
+        "q": "اس شاہراہ کو کیا کہا جاتا ہے؟",
+        "opts": [
+          "سونے کی سڑک",
+          "سب سے لمبی سڑک",
+          "پہاڑوں کا دریا",
+          "دنیا کا آٹھواں عجوبہ"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ملاتی",
+          "سے",
+          "یہ",
+          "ہے",
+          "شاہراہ",
+          "چین",
+          "پاکستان",
+          "کو"
+        ],
+        "answer": [
+          "یہ",
+          "شاہراہ",
+          "پاکستان",
+          "کو",
+          "چین",
+          "سے",
+          "ملاتی",
+          "ہے"
+        ],
+        "en": "This highway connects Pakistan with China."
+      },
+      {
+        "bank": [
+          "سفر",
+          "میں",
+          "ہے",
+          "دشوار",
+          "پہاڑوں",
+          "ہوتا"
+        ],
+        "answer": [
+          "پہاڑوں",
+          "میں",
+          "سفر",
+          "دشوار",
+          "ہوتا",
+          "ہے"
+        ],
+        "en": "Travelling in the mountains is difficult."
+      },
+      {
+        "bank": [
+          "حسین",
+          "نظارے",
+          "ہیں",
+          "بہت",
+          "کے",
+          "راستے"
+        ],
+        "answer": [
+          "راستے",
+          "کے",
+          "نظارے",
+          "بہت",
+          "حسین",
+          "ہیں"
+        ],
+        "en": "The views along the way are very beautiful."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "درۂ خنجراب پاکستان اور چین کی ____ پر ہے۔",
+        "opts": [
+          "سرحد",
+          "چھت",
+          "دیوار",
+          "کتاب"
+        ],
+        "a": 0,
+        "en": "Khunjerab is on the ___ of Pakistan and China."
+      },
+      {
+        "text": "بارش کے بعد ____ سے سڑک بند ہو گئی۔",
+        "opts": [
+          "لینڈ سلائیڈ",
+          "دھوپ",
+          "ہوا",
+          "خوشبو"
+        ],
+        "a": 0,
+        "en": "After the rain the road was blocked by a ___."
+      },
+      {
+        "text": "اتنی ____ پر سانس لینا مشکل ہوتا ہے۔",
+        "opts": [
+          "بلندی",
+          "گہرائی",
+          "گرمی",
+          "خاموشی"
+        ],
+        "a": 0,
+        "en": "It is hard to breathe at such a ___."
+      }
+    ],
+    "creative": {
+      "ur": "شاہراہِ قراقرم پر سفر کرتے ہوئے آپ اپنے ساتھ کون سی تین چیزیں ضرور رکھیں گے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "Which three things would you be sure to take on a journey along the Karakoram Highway, and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "جب … تو — Time clauses (‘when … then’)",
+    "explain": "جب introduces the time or condition, and تو (or تب) begins the main clause: جب ہم ہنزہ پہنچے تو برف گر رہی تھی (When we reached Hunza, snow was falling). جب جب means ‘whenever’. Don't confuse جب (when — time) with اگر (if — condition).",
+    "rows": [
+      [
+        "جب ہم گلگت پہنچے تو شام ہو چکی تھی۔",
+        "When we reached Gilgit, evening had already fallen."
+      ],
+      [
+        "جب بارش ہوتی ہے تو لینڈ سلائیڈ کا خطرہ بڑھ جاتا ہے۔",
+        "When it rains, the danger of landslides increases."
+      ],
+      [
+        "جب سڑک کھلی تب ہم آگے روانہ ہوئے۔",
+        "When the road opened, then we set off again."
+      ],
+      [
+        "جب جب میں یہ تصویر دیکھتا ہوں، مجھے وہ سفر یاد آتا ہے۔",
+        "Whenever I see this photo, I remember that journey."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "____ ہم خنجراب پہنچے تو بہت سردی تھی۔",
+        "opts": [
+          "جب",
+          "اگر",
+          "کیونکہ",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "When we reached Khunjerab, it was very cold."
+      },
+      {
+        "q": "جب سورج نکلا ____ برف چمکنے لگی۔",
+        "opts": [
+          "تو",
+          "جو",
+          "کہ",
+          "پر"
+        ],
+        "a": 0,
+        "en": "When the sun came out, the snow began to sparkle."
+      },
+      {
+        "q": "____ میں پہاڑ دیکھتا ہوں، مجھے سکون ملتا ہے۔",
+        "opts": [
+          "جب جب",
+          "اگر چہ",
+          "تاکہ",
+          "ورنہ"
+        ],
+        "a": 0,
+        "en": "Whenever I see mountains, I feel at peace."
+      }
+    ]
+  }
+}

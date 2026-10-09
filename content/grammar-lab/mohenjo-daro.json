@@ -1,0 +1,117 @@
+{
+  "id": "mohenjo-daro",
+  "ur": "وادیٔ سندھ کی تہذیب",
+  "en": "The Indus Valley Civilisation",
+  "grammarPoint": {
+    "ur": "فعلِ مجہول، زمانے کی تبدیلی اور متضاد الفاظ",
+    "en": "Passive voice, changing tense, and antonyms"
+  },
+  "cloze": {
+    "passage": "موئن جو دڑو کے کھنڈرات 1922ء میں دریافت (1)_____ گئے۔ یہ شہر بہت منظم طریقے سے (2)_____ گیا تھا۔ ہر گھر میں پانی کے لیے کنواں (3)_____ تھا۔ کھدائی میں ملنے والی مہروں کی تحریر آج (4)_____ پڑھی نہیں جا سکی۔ اس ورثے کی حفاظت (5)_____ بہت ضروری ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "کیے",
+          "کیا",
+          "کی",
+          "کرے"
+        ],
+        "a": 0,
+        "en": "کھنڈرات is masculine plural, so دریافت کیے گئے"
+      },
+      {
+        "opts": [
+          "بسایا",
+          "بسائی",
+          "بسائے",
+          "بستا"
+        ],
+        "a": 0,
+        "en": "شہر is masculine singular: بسایا گیا تھا (had been settled)"
+      },
+      {
+        "opts": [
+          "ہوتا",
+          "ہوتی",
+          "ہوتے",
+          "ہوئی"
+        ],
+        "a": 0,
+        "en": "کنواں is masculine singular — habitual past ہوتا تھا"
+      },
+      {
+        "opts": [
+          "تک",
+          "سے",
+          "پر",
+          "میں"
+        ],
+        "a": 0,
+        "en": "آج تک means ‘until today’"
+      },
+      {
+        "opts": [
+          "کرنا",
+          "کرتا",
+          "کرو",
+          "کرتے"
+        ],
+        "a": 0,
+        "en": "infinitive کرنا before ضروری ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ماہرین نے 1922ء میں یہ کھنڈرات دریافت کیے۔",
+      "stem": "یہ کھنڈرات 1922ء میں ____ گئے۔",
+      "instruction_ur": "فعلِ معروف کو فعلِ مجہول میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by changing active to passive",
+      "answers": [
+        "دریافت کیے"
+      ],
+      "en": "Experts discovered these ruins in 1922."
+    },
+    {
+      "original": "لوگوں نے تقریباً 2500 قبل مسیح میں یہاں رہنا شروع کیا۔",
+      "stem": "لوگ تقریباً 2500 قبل مسیح سے یہاں ____ تھے۔",
+      "instruction_ur": "زمانہ بدل کر جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete by changing the tense, keeping the meaning",
+      "answers": [
+        "رہ رہے",
+        "رہتے"
+      ],
+      "en": "People began living here around 2500 BC."
+    },
+    {
+      "original": "اس شہر کی گلیاں ٹیڑھی نہیں تھیں۔",
+      "stem": "اس شہر کی گلیاں ____ تھیں۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملے کو مثبت بنائیں",
+      "instruction_en": "Use the antonym to turn the negative into a positive",
+      "answers": [
+        "سیدھی"
+      ],
+      "en": "The streets of this city were not crooked."
+    },
+    {
+      "original": "مہروں کی تحریر کوئی بھی نہیں پڑھ سکا۔",
+      "stem": "مہروں کی تحریر آج تک ____ نہیں جا سکی۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "پڑھی"
+      ],
+      "en": "Nobody has been able to read the writing on the seals."
+    },
+    {
+      "original": "یہ شہر بہت پرانا ہے۔",
+      "stem": "یہ شہر بہت ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "قدیم"
+      ],
+      "en": "This city is very old."
+    }
+  ]
+}

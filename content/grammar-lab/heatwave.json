@@ -1,0 +1,116 @@
+{
+  "id": "heatwave",
+  "ur": "گرمی کا موسم",
+  "en": "The Hot Season",
+  "grammarPoint": {
+    "ur": "‘چاہیے’ سے مشورہ، اور ‘چاہے… نہ’ (even if)",
+    "en": "Advice with ‘chahiye’, and ‘even if’ with ‘chahe’"
+  },
+  "cloze": {
+    "passage": "گرمی کی لہر میں ہمیں بہت احتیاط (1)_____ چاہیے۔ پانی پیتے رہیں، (2)_____ پیاس نہ لگی ہو۔ دوپہر کو دھوپ میں (3)_____ نکلیں۔ بچوں کو ہلکے کپڑے پہننے (4)_____۔ اگر کسی کو چکر آئیں (5)_____ فوراً 1122 پر کال کریں۔",
+    "gaps": [
+      {
+        "opts": [
+          "کرنی",
+          "کرتا",
+          "کیا",
+          "کریں"
+        ],
+        "a": 0,
+        "en": "احتیاط is feminine: احتیاط کرنی چاہیے"
+      },
+      {
+        "opts": [
+          "چاہے",
+          "کیونکہ",
+          "تاکہ",
+          "جب"
+        ],
+        "a": 0,
+        "en": "چاہے … نہ = even if … not"
+      },
+      {
+        "opts": [
+          "نہ",
+          "نا",
+          "نہیں ہے",
+          "مت ہو"
+        ],
+        "a": 0,
+        "en": "Polite negative imperative: نہ نکلیں"
+      },
+      {
+        "opts": [
+          "چاہییں",
+          "چاہیے تھا",
+          "چاہتے",
+          "چاہا"
+        ],
+        "a": 0,
+        "en": "Plural object (کپڑے) → چاہییں"
+      },
+      {
+        "opts": [
+          "تو",
+          "کہ",
+          "پر",
+          "سے"
+        ],
+        "a": 0,
+        "en": "اگر … تو = if … then"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "آپ کے لیے ضروری ہے کہ زیادہ پانی پئیں۔",
+      "stem": "آپ کو زیادہ پانی پینا ____۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "چاہیے"
+      ],
+      "en": "It is necessary for you to drink more water."
+    },
+    {
+      "original": "آج سخت گرمی ہے۔",
+      "stem": "آج ____ گرمی ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "شدید"
+      ],
+      "en": "It is intensely hot today."
+    },
+    {
+      "original": "پیاس نہ بھی لگی ہو تب بھی پانی پیتے رہیں۔",
+      "stem": "پانی پیتے رہیں، ____ پیاس نہ لگی ہو۔",
+      "instruction_ur": "‘چاہے’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘even if’",
+      "answers": [
+        "چاہے"
+      ],
+      "en": "Keep drinking water even if you are not thirsty."
+    },
+    {
+      "original": "دوپہر کو باہر نکلنا خطرناک ہے۔",
+      "stem": "دوپہر کو باہر نکلنا ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "محفوظ"
+      ],
+      "en": "Going out at midday is dangerous."
+    },
+    {
+      "original": "محکمۂ صحت نے گرمی کی ہدایات جاری کیں۔",
+      "stem": "محکمۂ صحت کی طرف سے گرمی کی ہدایات جاری ____ گئیں۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کی"
+      ],
+      "en": "The health department issued heat guidance."
+    }
+  ]
+}

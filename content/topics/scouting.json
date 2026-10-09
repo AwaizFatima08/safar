@@ -1,0 +1,260 @@
+{
+  "id": "scouting",
+  "ur": "اسکاؤٹنگ",
+  "en": "Scouting",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستان بوائے اسکاؤٹس ایسوسی ایشن 1947ء میں قائم ہوئی، اور قائداعظم محمد علی جناح اس کے پہلے سرپرستِ اعلیٰ تھے۔",
+    "en": "Did you know? The Pakistan Boy Scouts Association was founded in 1947, and Quaid-e-Azam Muhammad Ali Jinnah was its first Patron-in-Chief."
+  },
+  "vocab": [
+    {
+      "ur": "اسکاؤٹ",
+      "en": "scout",
+      "ex_ur": "میرا بھائی اسکاؤٹ ہے۔",
+      "ex_en": "My brother is a scout."
+    },
+    {
+      "ur": "کیمپ",
+      "en": "camp",
+      "ex_ur": "ہم نے جنگل میں کیمپ لگایا۔",
+      "ex_en": "We set up camp in the forest."
+    },
+    {
+      "ur": "خیمہ",
+      "en": "tent",
+      "ex_ur": "سب نے مل کر خیمہ لگایا۔",
+      "ex_en": "Everyone pitched the tent together."
+    },
+    {
+      "ur": "نظم و ضبط",
+      "en": "discipline",
+      "ex_ur": "اسکاؤٹنگ نظم و ضبط سکھاتی ہے۔",
+      "ex_en": "Scouting teaches discipline."
+    },
+    {
+      "ur": "خدمتِ خلق",
+      "en": "public service",
+      "ex_ur": "اسکاؤٹ خدمتِ خلق کو اپنا فرض سمجھتے ہیں۔",
+      "ex_en": "Scouts see public service as their duty."
+    },
+    {
+      "ur": "رضاکار",
+      "en": "volunteer",
+      "ex_ur": "سیلاب میں رضاکاروں نے مدد کی۔",
+      "ex_en": "Volunteers helped during the flood."
+    },
+    {
+      "ur": "گرہ",
+      "en": "knot",
+      "ex_ur": "اسکاؤٹ کئی طرح کی گرہیں باندھنا جانتے ہیں۔",
+      "ex_en": "Scouts know how to tie many kinds of knots."
+    },
+    {
+      "ur": "اجازت",
+      "en": "permission",
+      "ex_ur": "کیمپ میں جانے کے لیے والدین کی اجازت ضروری ہے۔",
+      "ex_en": "Parents' permission is needed to go to camp."
+    },
+    {
+      "ur": "خود انحصاری",
+      "en": "self-reliance",
+      "ex_ur": "کیمپ میں بچے خود انحصاری سیکھتے ہیں۔",
+      "ex_en": "Children learn self-reliance at camp."
+    },
+    {
+      "ur": "ٹولی",
+      "en": "patrol / group",
+      "ex_ur": "ہماری ٹولی میں آٹھ اسکاؤٹ ہیں۔",
+      "ex_en": "There are eight scouts in our patrol.",
+      "syn": "گروہ"
+    }
+  ],
+  "reading": {
+    "passage": "اسکاؤٹنگ کی تحریک 1907ء میں برطانیہ میں لارڈ بیڈن پاول نے شروع کی۔ انہوں نے بیس لڑکوں کے ساتھ ایک جزیرے پر پہلا کیمپ لگایا۔ آج دنیا کے تقریباً ہر ملک میں کروڑوں اسکاؤٹ موجود ہیں۔ اسکاؤٹ کا نعرہ ہے ‘تیار رہو’، یعنی ہر مشکل کے لیے ہر وقت تیار رہنا۔ اسکاؤٹ خیمہ لگانا، گرہیں باندھنا، نقشہ پڑھنا اور ابتدائی طبی امداد دینا سیکھتے ہیں۔ پاکستان میں اسکاؤٹ سیلاب اور زلزلے جیسی آفات میں لوگوں کی مدد کرتے ہیں۔",
+    "questions": [
+      {
+        "q": "اسکاؤٹنگ کی تحریک کس نے شروع کی؟",
+        "opts": [
+          "لارڈ بیڈن پاول نے",
+          "قائداعظم نے",
+          "ایک استاد نے",
+          "ایک فوجی نے"
+        ],
+        "a": 0
+      },
+      {
+        "q": "پہلا کیمپ کہاں لگایا گیا؟",
+        "opts": [
+          "پہاڑ پر",
+          "ایک جزیرے پر",
+          "صحرا میں",
+          "شہر میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اسکاؤٹ کا نعرہ کیا ہے؟",
+        "opts": [
+          "آگے بڑھو",
+          "محنت کرو",
+          "تیار رہو",
+          "سچ بولو"
+        ],
+        "a": 2
+      },
+      {
+        "q": "پاکستان میں اسکاؤٹ آفات میں کیا کرتے ہیں؟",
+        "opts": [
+          "کھیلتے ہیں",
+          "سفر کرتے ہیں",
+          "گھر رہتے ہیں",
+          "لوگوں کی مدد کرتے ہیں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "لگایا",
+          "خیمہ",
+          "نے",
+          "ہم"
+        ],
+        "answer": [
+          "ہم",
+          "نے",
+          "خیمہ",
+          "لگایا"
+        ],
+        "en": "We pitched the tent."
+      },
+      {
+        "bank": [
+          "ہے",
+          "تیار رہو",
+          "نعرہ",
+          "اسکاؤٹ کا"
+        ],
+        "answer": [
+          "اسکاؤٹ کا",
+          "نعرہ",
+          "تیار رہو",
+          "ہے"
+        ],
+        "en": "The scout motto is ‘Be Prepared’."
+      },
+      {
+        "bank": [
+          "سکھاتی ہے",
+          "نظم و ضبط",
+          "اسکاؤٹنگ"
+        ],
+        "answer": [
+          "اسکاؤٹنگ",
+          "نظم و ضبط",
+          "سکھاتی ہے"
+        ],
+        "en": "Scouting teaches discipline."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "کیمپ میں جانے کے لیے والدین کی ____ ضروری ہے۔",
+        "opts": [
+          "اجازت",
+          "تصویر",
+          "دعوت",
+          "کتاب"
+        ],
+        "a": 0,
+        "en": "Parents' ___ is needed to go to camp."
+      },
+      {
+        "text": "ہماری ____ میں آٹھ اسکاؤٹ ہیں۔",
+        "opts": [
+          "ٹولی",
+          "سڑک",
+          "کرسی",
+          "دیوار"
+        ],
+        "a": 0,
+        "en": "There are eight scouts in our ___."
+      },
+      {
+        "text": "سیلاب کے دنوں میں ____ نے لوگوں کی مدد کی۔",
+        "opts": [
+          "رضاکاروں",
+          "مسافروں",
+          "دکانوں",
+          "درختوں"
+        ],
+        "a": 0,
+        "en": "During the floods, ___ helped people."
+      }
+    ],
+    "creative": {
+      "ur": "اسکاؤٹ کیمپ میں آپ کون سی تین مہارتیں سیکھنا چاہیں گے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "Which three skills would you like to learn at a scout camp, and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "درخواست اور مقصد — ‘براہِ کرم’، ‘اجازت دی جائے’، ‘تاکہ’",
+    "explain": "Formal requests in an application use polite set phrases: ‘گزارش ہے کہ…’ (I request that…), ‘براہِ کرم / مہربانی فرما کر’ (kindly), and the passive subjunctive ‘مجھے اجازت دی جائے’ (I may be given permission). To give a purpose, use تاکہ + subjunctive (‘تاکہ میں سیکھ سکوں’) or infinitive + کے لیے (‘سیکھنے کے لیے’).",
+    "rows": [
+      [
+        "گزارش ہے کہ مجھے کیمپ میں جانے کی اجازت دی جائے۔",
+        "I request that I be given permission to go to the camp."
+      ],
+      [
+        "براہِ کرم میری درخواست منظور فرمائیں۔",
+        "Kindly approve my application."
+      ],
+      [
+        "میں کیمپ میں جانا چاہتا ہوں تاکہ نئی مہارتیں سیکھ سکوں۔",
+        "I want to go to camp so that I can learn new skills."
+      ],
+      [
+        "ہم ابتدائی طبی امداد سیکھنے کے لیے تربیت لیں گے۔",
+        "We will take training to learn first aid."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "مجھے تین دن کی چھٹی ____ جائے۔",
+        "opts": [
+          "دی",
+          "دیا",
+          "دیے",
+          "دیتی"
+        ],
+        "a": 0,
+        "en": "May I be given three days' leave. (چھٹی is feminine)"
+      },
+      {
+        "q": "ہم جلدی اٹھیں گے ____ وقت پر روانہ ہو سکیں۔",
+        "opts": [
+          "تاکہ",
+          "کیونکہ",
+          "لیکن",
+          "اگرچہ"
+        ],
+        "a": 0,
+        "en": "We will get up early so that we can leave on time."
+      },
+      {
+        "q": "____ میری درخواست پر غور فرمائیں۔",
+        "opts": [
+          "براہِ کرم",
+          "بالکل",
+          "شاید",
+          "ہرگز"
+        ],
+        "a": 0,
+        "en": "Kindly consider my application."
+      }
+    ]
+  }
+}

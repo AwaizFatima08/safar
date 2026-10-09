@@ -1,0 +1,271 @@
+{
+  "id": "markhor",
+  "ur": "مارخور — ہمارا قومی جانور",
+  "en": "The Markhor — Our National Animal",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ فارسی میں ‘مارخور’ کا مطلب ہے ‘سانپ کھانے والا’، اگرچہ حقیقت میں یہ گھاس اور پتے کھاتا ہے۔",
+    "en": "Did you know? In Persian ‘markhor’ means ‘snake-eater’ — although in reality it eats grass and leaves."
+  },
+  "vocab": [
+    {
+      "ur": "قومی جانور",
+      "en": "national animal",
+      "ex_ur": "مارخور پاکستان کا قومی جانور ہے۔",
+      "ex_en": "The markhor is Pakistan's national animal."
+    },
+    {
+      "ur": "سینگ",
+      "en": "horn",
+      "ex_ur": "مارخور کے سینگ بل کھائے ہوئے ہوتے ہیں۔",
+      "ex_en": "The markhor's horns are twisted."
+    },
+    {
+      "ur": "پہاڑی بکرا",
+      "en": "wild mountain goat",
+      "ex_ur": "مارخور ایک بڑا پہاڑی بکرا ہے۔",
+      "ex_en": "The markhor is a large mountain goat."
+    },
+    {
+      "ur": "نایاب",
+      "en": "rare",
+      "ex_ur": "یہ جانور اب نایاب ہو گیا ہے۔",
+      "ex_en": "This animal has now become rare.",
+      "syn": "کمیاب"
+    },
+    {
+      "ur": "شکاری",
+      "en": "hunter",
+      "ex_ur": "غیر قانونی شکاریوں نے بہت سے جانور مار ڈالے۔",
+      "ex_en": "Illegal hunters killed many animals."
+    },
+    {
+      "ur": "معدومی",
+      "en": "extinction",
+      "ex_ur": "کئی جانور معدومی کے خطرے سے دوچار ہیں۔",
+      "ex_en": "Many animals face the danger of extinction."
+    },
+    {
+      "ur": "مسکن",
+      "en": "habitat",
+      "ex_ur": "پہاڑ مارخور کا قدرتی مسکن ہیں۔",
+      "ex_en": "Mountains are the markhor's natural habitat."
+    },
+    {
+      "ur": "مقامی آبادی",
+      "en": "local community",
+      "ex_ur": "مقامی آبادی نے جانوروں کی حفاظت کی۔",
+      "ex_en": "The local community protected the animals."
+    },
+    {
+      "ur": "تعداد",
+      "en": "number / population",
+      "ex_ur": "مارخوروں کی تعداد بڑھ رہی ہے۔",
+      "ex_en": "The number of markhors is increasing."
+    },
+    {
+      "ur": "تحفظ",
+      "en": "conservation",
+      "ex_ur": "جنگلی حیات کا تحفظ ہمارا فرض ہے۔",
+      "ex_en": "Conserving wildlife is our duty.",
+      "syn": "حفاظت"
+    }
+  ],
+  "reading": {
+    "passage": "مارخور پاکستان کا قومی جانور ہے۔ یہ ایک بڑا پہاڑی بکرا ہے جس کے لمبے سینگ پیچ دار ہوتے ہیں۔ مارخور چترال، گلگت بلتستان اور بلوچستان کے اونچے پہاڑوں میں رہتا ہے۔ کچھ سال پہلے غیر قانونی شکار کی وجہ سے یہ معدومی کے قریب پہنچ گیا تھا۔ پھر مقامی آبادی نے حکومت کے ساتھ مل کر اس کی حفاظت شروع کی۔ اب مارخوروں کی تعداد دوبارہ بڑھ رہی ہے، اور یہ دنیا بھر میں تحفظ کی ایک کامیاب مثال سمجھی جاتی ہے۔",
+    "questions": [
+      {
+        "q": "مارخور کس قسم کا جانور ہے؟",
+        "opts": [
+          "پہاڑی بکرا",
+          "جنگلی بلی",
+          "پرندہ",
+          "ہرن"
+        ],
+        "a": 0
+      },
+      {
+        "q": "مارخور کے سینگ کیسے ہوتے ہیں؟",
+        "opts": [
+          "سیدھے",
+          "پیچ دار",
+          "چھوٹے",
+          "گول"
+        ],
+        "a": 1
+      },
+      {
+        "q": "مارخور معدومی کے قریب کیوں پہنچ گیا تھا؟",
+        "opts": [
+          "بیماری سے",
+          "سیلاب سے",
+          "غیر قانونی شکار سے",
+          "خوراک کی کمی سے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "مارخوروں کی تعداد بڑھنے کی وجہ کیا ہے؟",
+        "opts": [
+          "چڑیا گھر",
+          "نئے پہاڑ",
+          "زیادہ بارشیں",
+          "مقامی آبادی اور حکومت کی کوششیں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "قومی",
+          "ہے",
+          "مارخور",
+          "جانور",
+          "ہمارا"
+        ],
+        "answer": [
+          "مارخور",
+          "ہمارا",
+          "قومی",
+          "جانور",
+          "ہے"
+        ],
+        "en": "The markhor is our national animal."
+      },
+      {
+        "bank": [
+          "ہیں",
+          "سینگ",
+          "لمبے",
+          "کے",
+          "اس"
+        ],
+        "answer": [
+          "اس",
+          "کے",
+          "سینگ",
+          "لمبے",
+          "ہیں"
+        ],
+        "en": "Its horns are long."
+      },
+      {
+        "bank": [
+          "بڑھ",
+          "تعداد",
+          "ہے",
+          "رہی",
+          "کی",
+          "مارخوروں"
+        ],
+        "answer": [
+          "مارخوروں",
+          "کی",
+          "تعداد",
+          "بڑھ",
+          "رہی",
+          "ہے"
+        ],
+        "en": "The number of markhors is increasing."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "مارخور کے ____ بل کھائے ہوئے ہوتے ہیں۔",
+        "opts": [
+          "سینگ",
+          "پر",
+          "دانت",
+          "پنجے"
+        ],
+        "a": 0,
+        "en": "The markhor's ___ are twisted."
+      },
+      {
+        "text": "غیر قانونی ____ نے بہت سے جانور مار ڈالے۔",
+        "opts": [
+          "شکاریوں",
+          "کسانوں",
+          "استادوں",
+          "ڈاکٹروں"
+        ],
+        "a": 0,
+        "en": "Illegal ___ killed many animals."
+      },
+      {
+        "text": "پہاڑ مارخور کا قدرتی ____ ہیں۔",
+        "opts": [
+          "مسکن",
+          "کھانا",
+          "دشمن",
+          "کھیل"
+        ],
+        "a": 0,
+        "en": "Mountains are the markhor's natural ___."
+      }
+    ],
+    "creative": {
+      "ur": "ہمیں جنگلی جانوروں کی حفاظت کیوں کرنی چاہیے؟ تین وجوہات لکھیں۔",
+      "en": "Why should we protect wild animals? Write three reasons."
+    }
+  },
+  "grammar": {
+    "title": "جمع مغیرہ — Oblique plural (جانور → جانوروں)",
+    "explain": "Before a postposition (کا، کی، کے، کو، سے، میں، پر، نے), plural nouns take the oblique ending ـوں: جانور → جانوروں کی حفاظت، پہاڑ → پہاڑوں میں. Masculine nouns ending in ا change ا to وں: بکرا → بکروں. Feminine nouns ending in ی take یوں: لڑکی → لڑکیوں.",
+    "rows": [
+      [
+        "جانور نایاب ہیں۔ → جانوروں کی حفاظت کریں۔",
+        "The animals are rare. → Protect the animals."
+      ],
+      [
+        "پہاڑ اونچے ہیں۔ → مارخور پہاڑوں میں رہتا ہے۔",
+        "The mountains are high. → The markhor lives in the mountains."
+      ],
+      [
+        "بکرے چر رہے ہیں۔ → بکروں کے سینگ لمبے ہیں۔",
+        "The goats are grazing. → The goats' horns are long."
+      ],
+      [
+        "لڑکیاں آئیں۔ → لڑکیوں نے پوسٹر بنائے۔",
+        "The girls came. → The girls made posters."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "مارخور اونچے ____ میں رہتا ہے۔",
+        "opts": [
+          "پہاڑوں",
+          "پہاڑ",
+          "پہاڑے",
+          "پہاڑیں"
+        ],
+        "a": 0,
+        "en": "The markhor lives in the high mountains."
+      },
+      {
+        "q": "غیر قانونی ____ کو سزا ملنی چاہیے۔",
+        "opts": [
+          "شکاریوں",
+          "شکاری",
+          "شکاریاں",
+          "شکارے"
+        ],
+        "a": 0,
+        "en": "Illegal hunters should be punished."
+      },
+      {
+        "q": "ان ____ کی تعداد بڑھ رہی ہے۔",
+        "opts": [
+          "جانوروں",
+          "جانور",
+          "جانورے",
+          "جانوریں"
+        ],
+        "a": 0,
+        "en": "The number of these animals is increasing."
+      }
+    ]
+  }
+}

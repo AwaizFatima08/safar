@@ -1,0 +1,279 @@
+{
+  "id": "kalash-valley",
+  "ur": "کیلاش کی وادیاں",
+  "en": "The Kalash Valleys",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ کیلاش لوگ چترال کی تین وادیوں — بمبوریت، رمبور اور بریر — میں رہتے ہیں۔",
+    "en": "Did you know? The Kalash people live in three valleys of Chitral — Bumburet, Rumbur and Birir."
+  },
+  "vocab": [
+    {
+      "ur": "وادی",
+      "en": "valley",
+      "ex_ur": "کیلاش کی وادی بہت سرسبز ہے۔",
+      "ex_en": "The Kalash valley is very green."
+    },
+    {
+      "ur": "ثقافت",
+      "en": "culture",
+      "ex_ur": "ہر قوم کی اپنی ثقافت ہوتی ہے۔",
+      "ex_en": "Every nation has its own culture.",
+      "syn": "تہذیب"
+    },
+    {
+      "ur": "روایت",
+      "en": "tradition",
+      "ex_ur": "یہ تہوار ایک پرانی روایت ہے۔",
+      "ex_en": "This festival is an old tradition.",
+      "syn": "رواج"
+    },
+    {
+      "ur": "لباس",
+      "en": "dress / clothing",
+      "ex_ur": "کیلاش خواتین کا لباس رنگین ہوتا ہے۔",
+      "ex_en": "The dress of Kalash women is colourful."
+    },
+    {
+      "ur": "کڑھائی",
+      "en": "embroidery",
+      "ex_ur": "ان کے کپڑوں پر خوبصورت کڑھائی ہوتی ہے۔",
+      "ex_en": "There is beautiful embroidery on their clothes."
+    },
+    {
+      "ur": "جشن",
+      "en": "celebration / festival",
+      "ex_ur": "بہار کی آمد پر جشن منایا جاتا ہے۔",
+      "ex_en": "A festival is celebrated when spring arrives."
+    },
+    {
+      "ur": "سیاح",
+      "en": "tourist",
+      "ex_ur": "ہر سال ہزاروں سیاح یہاں آتے ہیں۔",
+      "ex_en": "Thousands of tourists come here every year."
+    },
+    {
+      "ur": "ڈھلوان",
+      "en": "slope / hillside",
+      "ex_ur": "گھر پہاڑی ڈھلوان پر بنے ہوئے ہیں۔",
+      "ex_en": "The houses are built on the hillside."
+    },
+    {
+      "ur": "منفرد",
+      "en": "unique",
+      "ex_ur": "کیلاش کی زبان منفرد ہے۔",
+      "ex_en": "The Kalash language is unique.",
+      "syn": "انوکھا"
+    },
+    {
+      "ur": "احترام",
+      "en": "respect",
+      "ex_ur": "ہمیں دوسروں کی ثقافت کا احترام کرنا چاہیے۔",
+      "ex_en": "We should respect other people's culture.",
+      "syn": "عزت"
+    }
+  ],
+  "reading": {
+    "passage": "کیلاش کی وادیاں صوبہ خیبر پختونخوا کے ضلع چترال میں واقع ہیں۔ یہاں کے لوگ اپنی منفرد ثقافت اور قدیم روایات کی وجہ سے مشہور ہیں۔ کیلاش خواتین کالے رنگ کا لباس پہنتی ہیں جس پر رنگ برنگی کڑھائی ہوتی ہے۔ ان کے لکڑی کے گھر پہاڑی ڈھلوانوں پر ایک دوسرے کے اوپر بنے ہوتے ہیں۔ بہار کے موسم میں یہاں ‘چلم جوشٹ’ کا جشن منایا جاتا ہے جسے دیکھنے کے لیے سیاح دور دور سے آتے ہیں۔ سیاحوں کو چاہیے کہ وہ مقامی لوگوں کی ثقافت کا احترام کریں۔",
+    "questions": [
+      {
+        "q": "کیلاش کی وادیاں کس ضلع میں ہیں؟",
+        "opts": [
+          "چترال",
+          "سوات",
+          "گلگت",
+          "ہنزہ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کیلاش خواتین کا لباس کس رنگ کا ہوتا ہے؟",
+        "opts": [
+          "سفید",
+          "کالا",
+          "سبز",
+          "نیلا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "کیلاش کے گھر کس چیز سے بنے ہوتے ہیں؟",
+        "opts": [
+          "پتھر",
+          "اینٹ",
+          "لکڑی",
+          "مٹی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "‘چلم جوشٹ’ کس موسم میں منایا جاتا ہے؟",
+        "opts": [
+          "سردی",
+          "گرمی",
+          "خزاں",
+          "بہار"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "منفرد",
+          "ہے",
+          "کیلاش",
+          "ثقافت",
+          "کی"
+        ],
+        "answer": [
+          "کیلاش",
+          "کی",
+          "ثقافت",
+          "منفرد",
+          "ہے"
+        ],
+        "en": "The culture of the Kalash is unique."
+      },
+      {
+        "bank": [
+          "سیر",
+          "ہیں",
+          "وادی",
+          "سیاح",
+          "کرتے",
+          "کی"
+        ],
+        "answer": [
+          "سیاح",
+          "وادی",
+          "کی",
+          "سیر",
+          "کرتے",
+          "ہیں"
+        ],
+        "en": "Tourists visit the valley."
+      },
+      {
+        "bank": [
+          "احترام",
+          "ہمیں",
+          "چاہیے",
+          "کی",
+          "روایات",
+          "کرنا",
+          "ان",
+          "کا"
+        ],
+        "answer": [
+          "ہمیں",
+          "ان",
+          "کی",
+          "روایات",
+          "کا",
+          "احترام",
+          "کرنا",
+          "چاہیے"
+        ],
+        "en": "We should respect their traditions."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "کیلاش خواتین کے لباس پر رنگین ____ ہوتی ہے۔",
+        "opts": [
+          "کڑھائی",
+          "مٹی",
+          "لکیر",
+          "سیاہی"
+        ],
+        "a": 0,
+        "en": "There is colourful ___ on the Kalash women's dress."
+      },
+      {
+        "text": "کیلاش کے گھر پہاڑی ____ پر بنے ہیں۔",
+        "opts": [
+          "ڈھلوانوں",
+          "دریاؤں",
+          "صحراؤں",
+          "سمندروں"
+        ],
+        "a": 0,
+        "en": "Kalash houses are built on mountain ___."
+      },
+      {
+        "text": "ہر سال ہزاروں ____ یہاں آتے ہیں۔",
+        "opts": [
+          "سیاح",
+          "کسان",
+          "سپاہی",
+          "مریض"
+        ],
+        "a": 0,
+        "en": "Every year thousands of ___ come here."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کیلاش جائیں تو وہاں کیا دیکھنا چاہیں گے؟ تین جملے لکھیں۔",
+      "en": "If you went to Kalash, what would you like to see there? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "اسمِ نسبت — ‘ی’ لگا کر جگہ سے صفت بنانا (Adjectives of origin)",
+    "explain": "Adding ی to the name of a place makes a word meaning ‘from that place’: چترال → چترالی (from Chitral), پاکستان → پاکستانی. A few names change their ending: دہلی → دہلوی، لکھنؤ → لکھنوی.",
+    "rows": [
+      [
+        "کیلاش کی ثقافت → کیلاشی ثقافت",
+        "Kalash culture"
+      ],
+      [
+        "چترال کے لوگ → چترالی لوگ",
+        "the people of Chitral → Chitrali people"
+      ],
+      [
+        "پنجاب کا کھانا → پنجابی کھانا",
+        "food from Punjab → Punjabi food"
+      ],
+      [
+        "دہلی کا شاعر → دہلوی شاعر",
+        "a poet from Delhi"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "چترال کی ٹوپی کو ____ ٹوپی کہتے ہیں۔",
+        "opts": [
+          "چترالی",
+          "چترالا",
+          "چترالو",
+          "چترالے"
+        ],
+        "a": 0,
+        "en": "A cap from Chitral is called a Chitrali cap."
+      },
+      {
+        "q": "پاکستان کے رہنے والے ____ کہلاتے ہیں۔",
+        "opts": [
+          "پاکستانی",
+          "پاکستانا",
+          "پاکستانو",
+          "پاکستانیں"
+        ],
+        "a": 0,
+        "en": "People who live in Pakistan are called Pakistanis."
+      },
+      {
+        "q": "لکھنؤ کی تہذیب کو ____ تہذیب کہا جاتا ہے۔",
+        "opts": [
+          "لکھنوی",
+          "لکھنؤی",
+          "لکھنوا",
+          "لکھنوو"
+        ],
+        "a": 0,
+        "en": "The culture of Lucknow is called Lucknawi culture."
+      }
+    ]
+  }
+}

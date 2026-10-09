@@ -1,0 +1,88 @@
+{
+  "id": "truck-art",
+  "ur": "ٹرک آرٹ",
+  "en": "Truck Art",
+  "warmup": [
+    {
+      "en": "The truck is very colourful.",
+      "bank": [
+        "ہے",
+        "رنگین",
+        "بہت",
+        "ٹرک"
+      ],
+      "answer": [
+        "ٹرک",
+        "بہت",
+        "رنگین",
+        "ہے"
+      ]
+    },
+    {
+      "en": "A peacock is painted on it.",
+      "bank": [
+        "بنا ہے",
+        "مور",
+        "اس پر"
+      ],
+      "answer": [
+        "اس پر",
+        "مور",
+        "بنا ہے"
+      ]
+    },
+    {
+      "en": "The craftsman is skilful.",
+      "bank": [
+        "ہے",
+        "ہنرمند",
+        "کاریگر"
+      ],
+      "answer": [
+        "کاریگر",
+        "ہنرمند",
+        "ہے"
+      ]
+    },
+    {
+      "en": "We went to the exhibition.",
+      "bank": [
+        "گئے",
+        "نمائش",
+        "ہم",
+        "میں"
+      ],
+      "answer": [
+        "ہم",
+        "نمائش",
+        "میں",
+        "گئے"
+      ]
+    },
+    {
+      "en": "These pictures are beautiful.",
+      "bank": [
+        "ہیں",
+        "خوبصورت",
+        "تصویریں",
+        "یہ"
+      ],
+      "answer": [
+        "یہ",
+        "تصویریں",
+        "خوبصورت",
+        "ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Anyone who travels on the highways of Pakistan is sure to notice the brightly decorated trucks. Every surface is covered with paintings of peacocks, flowers, mountains and famous faces, and the back often carries a witty line of poetry. For the drivers, who spend weeks away from home, the truck is a second home, so they spend a great deal of money to make it beautiful. Decorating a single truck can take several weeks and involves carpenters, metalworkers and painters. In recent years, Pakistani truck art has been displayed in museums abroad, and its designs now appear on clothes and furniture. Sadly, many young people no longer wish to learn this skill, so the craft needs our support to survive.",
+    "modelUr": "جو بھی پاکستان کی شاہراہوں پر سفر کرتا ہے، وہ چمکدار انداز میں سجے ہوئے ٹرکوں کو ضرور دیکھتا ہے۔ ان کا ہر حصہ موروں، پھولوں، پہاڑوں اور مشہور چہروں کی تصویروں سے ڈھکا ہوتا ہے، اور پیچھے اکثر کوئی دلچسپ شعر لکھا ہوتا ہے۔ ڈرائیوروں کے لیے، جو ہفتوں گھر سے دور رہتے ہیں، ٹرک دوسرا گھر ہے، اس لیے وہ اسے خوبصورت بنانے پر کافی رقم خرچ کرتے ہیں۔ ایک ٹرک کو سجانے میں کئی ہفتے لگ سکتے ہیں اور اس میں بڑھئی، دھات کا کام کرنے والے اور مصور سب شامل ہوتے ہیں۔ حالیہ برسوں میں پاکستانی ٹرک آرٹ کی بیرونِ ملک عجائب گھروں میں نمائش ہو چکی ہے، اور اب اس کے نقش و نگار کپڑوں اور فرنیچر پر بھی نظر آتے ہیں۔ افسوس کہ بہت سے نوجوان اب یہ ہنر سیکھنا نہیں چاہتے، اس لیے اس فن کو زندہ رہنے کے لیے ہماری مدد کی ضرورت ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘Anyone who…’ کا ترجمہ ‘جو بھی… وہ…’ کی ساخت سے کیا؟",
+      "کیا صفات (سجے ہوئے ٹرک، دلچسپ شعر) کی مطابقت درست ہے؟",
+      "کیا ‘has been displayed’ کا ترجمہ ‘نمائش ہو چکی ہے’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "id": "patras-bokhari",
+  "ur": "پطرس بخاری",
+  "en": "Patras Bokhari",
+  "warmup": [
+    {
+      "en": "Patras was a famous writer.",
+      "bank": [
+        "مصنف",
+        "تھے",
+        "پطرس",
+        "مشہور",
+        "ایک"
+      ],
+      "answer": [
+        "پطرس",
+        "ایک",
+        "مشہور",
+        "مصنف",
+        "تھے"
+      ]
+    },
+    {
+      "en": "His essays are very funny.",
+      "bank": [
+        "مزاحیہ",
+        "مضامین",
+        "ہیں",
+        "ان کے",
+        "بہت"
+      ],
+      "answer": [
+        "ان کے",
+        "مضامین",
+        "بہت",
+        "مزاحیہ",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "He taught English at college.",
+      "bank": [
+        "پڑھائی",
+        "انگریزی",
+        "انہوں نے",
+        "میں",
+        "کالج"
+      ],
+      "answer": [
+        "انہوں نے",
+        "کالج",
+        "میں",
+        "انگریزی",
+        "پڑھائی"
+      ]
+    },
+    {
+      "en": "The old bicycle made a lot of noise.",
+      "bank": [
+        "شور",
+        "سائیکل",
+        "پرانی",
+        "تھی",
+        "بہت",
+        "کرتی"
+      ],
+      "answer": [
+        "پرانی",
+        "سائیکل",
+        "بہت",
+        "شور",
+        "کرتی",
+        "تھی"
+      ]
+    },
+    {
+      "en": "We laughed while reading.",
+      "bank": [
+        "ہنسے",
+        "پڑھتے ہوئے",
+        "ہم"
+      ],
+      "answer": [
+        "ہم",
+        "پڑھتے ہوئے",
+        "ہنسے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Patras Bokhari is remembered as one of the greatest humorists in Urdu literature, even though he wrote surprisingly little. Born in Peshawar in 1898, he studied in Lahore and at Cambridge, and later taught English at Government College Lahore, where he eventually became principal. His only collection of humorous writing contains just a handful of essays, yet readers still laugh at them almost a century later. In one essay he describes an old bicycle that rattles, squeaks and groans so loudly that the whole street turns to look. What makes his humour special is that he usually laughs at himself rather than at others. Patras was also a talented broadcaster and diplomat, and after the creation of Pakistan he represented his country at the United Nations.",
+    "modelUr": "پطرس بخاری کو اردو ادب کے عظیم ترین مزاح نگاروں میں سے ایک کے طور پر یاد کیا جاتا ہے، حالانکہ انہوں نے حیرت انگیز حد تک کم لکھا۔ 1898ء میں پشاور میں پیدا ہونے والے پطرس نے لاہور اور کیمبرج میں تعلیم حاصل کی، اور بعد میں گورنمنٹ کالج لاہور میں انگریزی پڑھائی، جہاں آخرکار وہ پرنسپل بنے۔ ان کی مزاحیہ تحریروں کے واحد مجموعے میں صرف چند مضامین ہیں، پھر بھی تقریباً ایک صدی بعد بھی قارئین انہیں پڑھ کر ہنستے ہیں۔ ایک مضمون میں وہ ایک پرانی سائیکل کا حال بیان کرتے ہیں جو اتنی زور سے کھڑکھڑاتی، چوں چوں کرتی اور کراہتی ہے کہ پوری گلی مڑ کر دیکھنے لگتی ہے۔ ان کے مزاح کی خاص بات یہ ہے کہ وہ عموماً دوسروں کے بجائے اپنا ہی مذاق اڑاتے ہیں۔ پطرس ایک باصلاحیت براڈکاسٹر اور سفارت کار بھی تھے، اور قیامِ پاکستان کے بعد انہوں نے اقوامِ متحدہ میں اپنے ملک کی نمائندگی کی۔",
+    "checklist": [
+      "کیا آپ نے ‘even though’ اور ‘yet’ کا ترجمہ ‘حالانکہ’ اور ‘پھر بھی’ سے کیا؟",
+      "کیا ‘rattles, squeaks and groans’ کے لیے مناسب آوازوں والے الفاظ (کھڑکھڑانا، چوں چوں کرنا، کراہنا) چنے؟",
+      "کیا ‘rather than’ کا ترجمہ ‘کے بجائے’ ہوا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

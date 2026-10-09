@@ -1,0 +1,265 @@
+{
+  "id": "olympic-games",
+  "ur": "اولمپک کھیل",
+  "en": "The Olympic Games",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پیرس اولمپکس 2024ء میں ارشد ندیم نے 92.97 میٹر نیزہ پھینک کر سونے کا تمغہ جیتا اور نیا اولمپک ریکارڈ بنایا۔",
+    "en": "Did you know? At the Paris 2024 Olympics, Arshad Nadeem threw the javelin 92.97 m, winning gold and setting a new Olympic record."
+  },
+  "vocab": [
+    {
+      "ur": "کھلاڑی",
+      "en": "player / athlete",
+      "ex_ur": "ہر کھلاڑی محنت سے تیاری کرتا ہے۔",
+      "ex_en": "Every athlete prepares with hard work."
+    },
+    {
+      "ur": "مقابلہ",
+      "en": "competition",
+      "ex_ur": "دوڑ کا مقابلہ صبح ہوا۔",
+      "ex_en": "The race competition was held in the morning."
+    },
+    {
+      "ur": "تمغہ",
+      "en": "medal",
+      "ex_ur": "اسے سونے کا تمغہ ملا۔",
+      "ex_en": "She received a gold medal."
+    },
+    {
+      "ur": "نیزہ",
+      "en": "javelin / spear",
+      "ex_ur": "ارشد ندیم نے نیزہ بہت دور پھینکا۔",
+      "ex_en": "Arshad Nadeem threw the javelin very far."
+    },
+    {
+      "ur": "ریکارڈ",
+      "en": "record",
+      "ex_ur": "اس نے نیا ریکارڈ قائم کیا۔",
+      "ex_en": "He set a new record."
+    },
+    {
+      "ur": "مشعل",
+      "en": "torch",
+      "ex_ur": "اولمپک مشعل یونان سے روشن کی جاتی ہے۔",
+      "ex_en": "The Olympic torch is lit in Greece."
+    },
+    {
+      "ur": "فتح",
+      "en": "victory",
+      "ex_ur": "ٹیم کی فتح پر سب خوش تھے۔",
+      "ex_en": "Everyone was happy at the team's victory.",
+      "syn": "جیت"
+    },
+    {
+      "ur": "شکست",
+      "en": "defeat",
+      "ex_ur": "شکست کے بعد بھی کھلاڑی نے ہمت نہ ہاری۔",
+      "ex_en": "Even after defeat, the player did not lose heart.",
+      "syn": "ہار"
+    },
+    {
+      "ur": "قومی پرچم",
+      "en": "national flag",
+      "ex_ur": "جیت کے بعد قومی پرچم لہرایا گیا۔",
+      "ex_en": "The national flag was raised after the win."
+    },
+    {
+      "ur": "کھیل کا جذبہ",
+      "en": "sportsmanship",
+      "ex_ur": "اولمپکس کھیل کے جذبے کی علامت ہیں۔",
+      "ex_en": "The Olympics are a symbol of sportsmanship."
+    }
+  ],
+  "reading": {
+    "passage": "اولمپک کھیل دنیا کے سب سے بڑے کھیلوں کے مقابلے ہیں۔ جدید اولمپکس 1896ء میں یونان کے شہر ایتھنز میں شروع ہوئے۔ یہ کھیل ہر چار سال بعد ہوتے ہیں۔ اولمپک پرچم پر پانچ رنگین دائرے ہیں جو پانچ براعظموں کی دوستی کی علامت ہیں۔ پاکستان نے ہاکی میں تین بار سونے کا تمغہ جیتا۔ 2024ء میں ارشد ندیم نے نیزہ بازی میں سونے کا تمغہ جیت کر پوری قوم کو خوشی دی۔",
+    "questions": [
+      {
+        "q": "جدید اولمپکس کہاں شروع ہوئے؟",
+        "opts": [
+          "ایتھنز میں",
+          "لندن میں",
+          "پیرس میں",
+          "روم میں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "اولمپک کھیل کتنے سال بعد ہوتے ہیں؟",
+        "opts": [
+          "ہر سال",
+          "ہر چار سال بعد",
+          "ہر دو سال بعد",
+          "ہر دس سال بعد"
+        ],
+        "a": 1
+      },
+      {
+        "q": "پانچ دائرے کس چیز کی علامت ہیں؟",
+        "opts": [
+          "پانچ کھیلوں کی",
+          "پانچ شہروں کی",
+          "پانچ براعظموں کی دوستی کی",
+          "پانچ تمغوں کی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ارشد ندیم نے کس کھیل میں تمغہ جیتا؟",
+        "opts": [
+          "ہاکی",
+          "کرکٹ",
+          "دوڑ",
+          "نیزہ بازی"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "جیتا",
+          "تمغہ",
+          "نے",
+          "سونے کا",
+          "ارشد"
+        ],
+        "answer": [
+          "ارشد",
+          "نے",
+          "سونے کا",
+          "تمغہ",
+          "جیتا"
+        ],
+        "en": "Arshad won a gold medal."
+      },
+      {
+        "bank": [
+          "ہوتے ہیں",
+          "بعد",
+          "ہر چار سال",
+          "اولمپکس"
+        ],
+        "answer": [
+          "اولمپکس",
+          "ہر چار سال",
+          "بعد",
+          "ہوتے ہیں"
+        ],
+        "en": "The Olympics happen every four years."
+      },
+      {
+        "bank": [
+          "تھے",
+          "خوش",
+          "سب",
+          "فتح پر"
+        ],
+        "answer": [
+          "فتح پر",
+          "سب",
+          "خوش",
+          "تھے"
+        ],
+        "en": "Everyone was happy at the victory."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "جیتنے والے کو سونے کا ____ ملتا ہے۔",
+        "opts": [
+          "تمغہ",
+          "کھانا",
+          "کپڑا",
+          "خط"
+        ],
+        "a": 0,
+        "en": "The winner gets a gold ___."
+      },
+      {
+        "text": "اس نے دوڑ میں نیا ____ قائم کیا۔",
+        "opts": [
+          "ریکارڈ",
+          "گھر",
+          "دوست",
+          "سوال"
+        ],
+        "a": 0,
+        "en": "She set a new ___ in the race."
+      },
+      {
+        "text": "اولمپک ____ یونان سے روشن کی جاتی ہے۔",
+        "opts": [
+          "مشعل",
+          "سڑک",
+          "کتاب",
+          "کرسی"
+        ],
+        "a": 0,
+        "en": "The Olympic ___ is lit in Greece."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ اولمپکس میں حصہ لیں تو کون سا کھیل کھیلیں گے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "If you took part in the Olympics, which sport would you play and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ماضی مطلق اور ‘نے’ (Past tense with ‘ne’)",
+    "explain": "In the simple past, a transitive verb takes نے after the subject, and the verb agrees with the object, not the subject: ‘ارشد نے نیزہ پھینکا’ (masc. object), ‘ٹیم نے ٹرافی جیتی’ (fem. object). Intransitive verbs (آنا، جانا، دوڑنا) take no نے and agree with the subject: ‘لڑکیاں دوڑیں’.",
+    "rows": [
+      [
+        "ارشد نے نیزہ پھینکا۔",
+        "Arshad threw the javelin."
+      ],
+      [
+        "ٹیم نے ٹرافی جیتی۔",
+        "The team won the trophy."
+      ],
+      [
+        "کھلاڑیوں نے قومی پرچم لہرایا۔",
+        "The players raised the national flag."
+      ],
+      [
+        "لڑکیاں تیزی سے دوڑیں۔",
+        "The girls ran fast. (no نے — intransitive)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "عائشہ ____ دوڑ جیتی۔",
+        "opts": [
+          "نے",
+          "کو",
+          "سے",
+          "میں"
+        ],
+        "a": 0,
+        "en": "Ayesha won the race."
+      },
+      {
+        "q": "ہماری ٹیم نے دو تمغے ____۔",
+        "opts": [
+          "جیتے",
+          "جیتا",
+          "جیتی",
+          "جیتیں"
+        ],
+        "a": 0,
+        "en": "Our team won two medals."
+      },
+      {
+        "q": "کھلاڑی میدان میں ____۔",
+        "opts": [
+          "آئے",
+          "نے آئے",
+          "کو آیا",
+          "آیا نے"
+        ],
+        "a": 0,
+        "en": "The players came onto the field."
+      }
+    ]
+  }
+}

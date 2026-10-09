@@ -1,0 +1,264 @@
+{
+  "id": "khewra-salt-mine",
+  "ur": "کھیوڑہ کی نمک کی کان",
+  "en": "The Khewra Salt Mine",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ کھیوڑہ کی کان کے اندر نمک کی اینٹوں سے ایک خوبصورت مسجد بنائی گئی ہے۔",
+    "en": "Did you know? Inside the Khewra mine there is a beautiful mosque built from bricks of salt."
+  },
+  "vocab": [
+    {
+      "ur": "کان",
+      "en": "mine",
+      "ex_ur": "کھیوڑہ میں نمک کی بہت بڑی کان ہے۔",
+      "ex_en": "There is a very large salt mine at Khewra."
+    },
+    {
+      "ur": "نمک",
+      "en": "salt",
+      "ex_ur": "یہاں کا نمک گلابی رنگ کا ہوتا ہے۔",
+      "ex_en": "The salt here is pink."
+    },
+    {
+      "ur": "سرنگ",
+      "en": "tunnel",
+      "ex_ur": "کان کے اندر لمبی سرنگیں ہیں۔",
+      "ex_en": "There are long tunnels inside the mine."
+    },
+    {
+      "ur": "کان کن",
+      "en": "miner",
+      "ex_ur": "کان کن صبح سویرے کام شروع کرتے ہیں۔",
+      "ex_en": "The miners start work early in the morning."
+    },
+    {
+      "ur": "چٹان",
+      "en": "rock",
+      "ex_ur": "نمک کی چٹانیں چمکتی ہیں۔",
+      "ex_en": "The salt rocks shine."
+    },
+    {
+      "ur": "روایت",
+      "en": "legend / tradition",
+      "ex_ur": "روایت ہے کہ گھوڑوں نے یہ نمک دریافت کیا۔",
+      "ex_en": "Legend has it that horses discovered this salt."
+    },
+    {
+      "ur": "مریض",
+      "en": "patient",
+      "ex_ur": "دمے کے مریض یہاں علاج کے لیے آتے ہیں۔",
+      "ex_en": "Asthma patients come here for treatment."
+    },
+    {
+      "ur": "پیداوار",
+      "en": "production / output",
+      "ex_ur": "اس کان کی پیداوار بہت زیادہ ہے۔",
+      "ex_en": "The output of this mine is very high."
+    },
+    {
+      "ur": "اندھیرا",
+      "en": "darkness",
+      "ex_ur": "سرنگ میں اندھیرا تھا مگر روشنیاں لگی تھیں۔",
+      "ex_en": "It was dark in the tunnel but lights had been put up."
+    },
+    {
+      "ur": "حیرت انگیز",
+      "en": "amazing",
+      "ex_ur": "کان کا منظر حیرت انگیز تھا۔",
+      "ex_en": "The sight of the mine was amazing.",
+      "syn": "عجیب و غریب"
+    }
+  ],
+  "reading": {
+    "passage": "کھیوڑہ کی نمک کی کان ضلع جہلم میں کوہِ نمک کے دامن میں واقع ہے۔ اسے دنیا کی دوسری بڑی نمک کی کان کہا جاتا ہے۔ روایت ہے کہ سکندرِ اعظم کی فوج کے گھوڑے یہاں کی چٹانیں چاٹتے تھے، اور یوں یہ نمک دریافت ہوا۔ کان کے اندر کئی کلومیٹر لمبی سرنگیں ہیں۔ سیاحوں کے لیے یہاں نمک کی اینٹوں سے بنی ایک مسجد اور چھوٹی سی ریل گاڑی بھی ہے۔ یہاں کا گلابی نمک دنیا بھر میں برآمد کیا جاتا ہے۔",
+    "questions": [
+      {
+        "q": "کھیوڑہ کی کان کس ضلع میں ہے؟",
+        "opts": [
+          "جہلم",
+          "چکوال",
+          "اٹک",
+          "میانوالی"
+        ],
+        "a": 0
+      },
+      {
+        "q": "روایت کے مطابق یہ نمک کس نے دریافت کیا؟",
+        "opts": [
+          "کسانوں نے",
+          "سکندر کی فوج کے گھوڑوں نے",
+          "انگریزوں نے",
+          "مغل بادشاہوں نے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "کان کے اندر کیا بنایا گیا ہے؟",
+        "opts": [
+          "ایک اسکول",
+          "ایک بازار",
+          "نمک کی اینٹوں سے مسجد",
+          "ایک قلعہ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "یہاں کا نمک کس رنگ کا ہے؟",
+        "opts": [
+          "سفید",
+          "کالا",
+          "نیلا",
+          "گلابی"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ہیں",
+          "لمبی",
+          "سرنگیں",
+          "کان کے اندر"
+        ],
+        "answer": [
+          "کان کے اندر",
+          "لمبی",
+          "سرنگیں",
+          "ہیں"
+        ],
+        "en": "There are long tunnels inside the mine."
+      },
+      {
+        "bank": [
+          "گلابی",
+          "نمک",
+          "یہاں کا",
+          "ہے"
+        ],
+        "answer": [
+          "یہاں کا",
+          "نمک",
+          "گلابی",
+          "ہے"
+        ],
+        "en": "The salt here is pink."
+      },
+      {
+        "bank": [
+          "کرتے",
+          "کان کن",
+          "محنت",
+          "ہیں",
+          "بہت"
+        ],
+        "answer": [
+          "کان کن",
+          "بہت",
+          "محنت",
+          "کرتے",
+          "ہیں"
+        ],
+        "en": "The miners work very hard."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "کان کے اندر کئی کلومیٹر لمبی ____ ہیں۔",
+        "opts": [
+          "سرنگیں",
+          "سڑکیں",
+          "نہریں",
+          "دیواریں"
+        ],
+        "a": 0,
+        "en": "There are tunnels several kilometres long inside the ___."
+      },
+      {
+        "text": "دمے کے ____ یہاں علاج کے لیے آتے ہیں۔",
+        "opts": [
+          "مریض",
+          "طالب علم",
+          "کھلاڑی",
+          "مسافر"
+        ],
+        "a": 0,
+        "en": "Asthma ___ come here for treatment."
+      },
+      {
+        "text": "____ ہے کہ گھوڑوں نے یہ نمک دریافت کیا۔",
+        "opts": [
+          "روایت",
+          "خبر",
+          "سوال",
+          "حکم"
+        ],
+        "a": 0,
+        "en": "___ has it that horses discovered this salt."
+      }
+    ],
+    "creative": {
+      "ur": "تصور کریں کہ آپ زمین کے نیچے ایک سرنگ میں ہیں۔ آپ کیا دیکھتے، سنتے اور محسوس کرتے ہیں؟ تین جملے لکھیں۔",
+      "en": "Imagine you are in a tunnel deep underground. What do you see, hear and feel? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ظرفِ مکان — Words of place with کے (کے اندر، کے نیچے، کے اوپر)",
+    "explain": "Place words like اندر (inside), باہر (outside), نیچے (below), اوپر (above), پاس (near) and سامنے (in front) follow a noun with کے: کان کے اندر (inside the mine), پہاڑ کے نیچے (under the mountain). With a pronoun the possessive is used: اس کے اندر، ہمارے سامنے.",
+    "rows": [
+      [
+        "کان کے اندر بہت ٹھنڈک تھی۔",
+        "It was very cool inside the mine."
+      ],
+      [
+        "پہاڑ کے نیچے نمک کی تہیں ہیں۔",
+        "There are layers of salt under the mountain."
+      ],
+      [
+        "مسجد کے سامنے ایک چھوٹا سا تالاب ہے۔",
+        "There is a small pool in front of the mosque."
+      ],
+      [
+        "ریل گاڑی سرنگ کے باہر رکی۔",
+        "The train stopped outside the tunnel."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہم کان کے ____ گئے تو اندھیرا تھا۔",
+        "opts": [
+          "اندر",
+          "اوپر",
+          "پیچھے",
+          "ساتھ"
+        ],
+        "a": 0,
+        "en": "When we went inside the mine, it was dark."
+      },
+      {
+        "q": "نمک کی تہیں زمین کے ____ ہیں۔",
+        "opts": [
+          "نیچے",
+          "اوپر",
+          "سامنے",
+          "باہر"
+        ],
+        "a": 0,
+        "en": "The layers of salt are under the ground."
+      },
+      {
+        "q": "گائیڈ ہمارے ____ چل رہا تھا۔",
+        "opts": [
+          "آگے",
+          "اندر",
+          "نیچے",
+          "اوپر"
+        ],
+        "a": 0,
+        "en": "The guide was walking ahead of us."
+      }
+    ]
+  }
+}

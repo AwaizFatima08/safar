@@ -1,0 +1,116 @@
+{
+  "id": "road-safety",
+  "ur": "سڑک کے اصول",
+  "en": "Rules of the Road",
+  "grammarPoint": {
+    "ur": "شرطیہ جملے: ‘اگر… تو’ اور ‘جب تک… نہ’",
+    "en": "Conditionals: ‘if… then’ and ‘until’"
+  },
+  "cloze": {
+    "passage": "اگر آپ موٹر سائیکل چلاتے ہیں (1)_____ ہیلمٹ ضرور پہنیں۔ جب تک اشارہ سبز (2)_____ ہو، آگے نہ بڑھیں۔ تیز رفتاری (3)_____ بچیں کیونکہ یہ حادثات کی بڑی وجہ ہے۔ اگر اس نے سیٹ بیلٹ باندھی (4)_____ تو وہ زخمی نہ ہوتا۔ قانون توڑنے والوں کو جرمانہ (5)_____ جاتا ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "تو",
+          "کہ",
+          "اور",
+          "لیکن"
+        ],
+        "a": 0,
+        "en": "اگر … تو = if … then"
+      },
+      {
+        "opts": [
+          "نہ",
+          "تو",
+          "بھی",
+          "ہی"
+        ],
+        "a": 0,
+        "en": "جب تک … نہ = until"
+      },
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "پر",
+          "کا"
+        ],
+        "a": 0,
+        "en": "بچنا takes سے: … سے بچیں"
+      },
+      {
+        "opts": [
+          "ہوتی",
+          "ہے",
+          "ہو گی",
+          "تھی"
+        ],
+        "a": 0,
+        "en": "Unreal past condition: باندھی ہوتی"
+      },
+      {
+        "opts": [
+          "کیا",
+          "کی",
+          "کیے",
+          "کرتا"
+        ],
+        "a": 0,
+        "en": "جرمانہ is masculine: جرمانہ کیا جاتا ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ہیلمٹ پہنیں ورنہ آپ کو چوٹ لگ سکتی ہے۔",
+      "stem": "اگر آپ ہیلمٹ نہیں پہنیں گے ____ آپ کو چوٹ لگ سکتی ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "تو"
+      ],
+      "en": "Wear a helmet or you may get hurt."
+    },
+    {
+      "original": "اشارہ سبز ہونے سے پہلے آگے نہ بڑھیں۔",
+      "stem": "جب تک اشارہ سبز ____ ہو، آگے نہ بڑھیں۔",
+      "instruction_ur": "‘جب تک… نہ’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘until’",
+      "answers": [
+        "نہ"
+      ],
+      "en": "Do not move forward before the signal turns green."
+    },
+    {
+      "original": "ذرا سی بے احتیاطی حادثے کا سبب بن سکتی ہے۔",
+      "stem": "ذرا سی ____ حادثے کا سبب بن سکتی ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "لاپروائی"
+      ],
+      "en": "A little carelessness can cause an accident."
+    },
+    {
+      "original": "سرخ بتی پر رکنا ضروری ہے۔",
+      "stem": "سرخ بتی پر رکنا ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "غیر ضروری"
+      ],
+      "en": "Stopping at a red light is necessary."
+    },
+    {
+      "original": "پولیس نے اسے تیز رفتاری پر جرمانہ کیا۔",
+      "stem": "اسے تیز رفتاری پر جرمانہ ____ گیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کیا"
+      ],
+      "en": "The police fined him for speeding."
+    }
+  ]
+}

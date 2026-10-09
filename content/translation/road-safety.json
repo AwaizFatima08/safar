@@ -1,0 +1,90 @@
+{
+  "id": "road-safety",
+  "ur": "سڑک پر حفاظت",
+  "en": "Road Safety",
+  "warmup": [
+    {
+      "en": "Wear a helmet on a motorbike.",
+      "bank": [
+        "پہنیں",
+        "ہیلمٹ",
+        "پر",
+        "موٹر سائیکل"
+      ],
+      "answer": [
+        "موٹر سائیکل",
+        "پر",
+        "ہیلمٹ",
+        "پہنیں"
+      ]
+    },
+    {
+      "en": "Stop at the red light.",
+      "bank": [
+        "رکیں",
+        "پر",
+        "بتی",
+        "سرخ"
+      ],
+      "answer": [
+        "سرخ",
+        "بتی",
+        "پر",
+        "رکیں"
+      ]
+    },
+    {
+      "en": "Speeding is dangerous.",
+      "bank": [
+        "ہے",
+        "خطرناک",
+        "تیز رفتاری"
+      ],
+      "answer": [
+        "تیز رفتاری",
+        "خطرناک",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Cross at the zebra crossing.",
+      "bank": [
+        "کریں",
+        "سڑک پار",
+        "سے",
+        "زیبرا کراسنگ"
+      ],
+      "answer": [
+        "زیبرا کراسنگ",
+        "سے",
+        "سڑک پار",
+        "کریں"
+      ]
+    },
+    {
+      "en": "He was fined.",
+      "bank": [
+        "گیا",
+        "کیا",
+        "جرمانہ",
+        "اسے"
+      ],
+      "answer": [
+        "اسے",
+        "جرمانہ",
+        "کیا",
+        "گیا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Road accidents are one of the leading causes of death among young people in Pakistan. Most of these accidents are not caused by bad luck but by human mistakes such as speeding, using a mobile phone while driving and ignoring traffic signals. Many motorcyclists still ride without a helmet, although a helmet can reduce the risk of a serious head injury by more than half. If every driver fastened a seat belt and respected the speed limit, thousands of lives could be saved each year. The Motorway Police has shown that when laws are enforced fairly and strictly, people's behaviour on the road changes. Road safety should also be taught in schools, because good habits learnt in childhood last a lifetime.",
+    "modelUr": "سڑک کے حادثات پاکستان میں نوجوانوں کی اموات کی بڑی وجوہات میں سے ایک ہیں۔ ان میں سے زیادہ تر حادثات بدقسمتی سے نہیں بلکہ انسانی غلطیوں سے ہوتے ہیں، جیسے تیز رفتاری، ڈرائیونگ کے دوران موبائل فون کا استعمال اور ٹریفک اشاروں کو نظر انداز کرنا۔ بہت سے موٹر سائیکل سوار اب بھی ہیلمٹ کے بغیر سفر کرتے ہیں، حالانکہ ہیلمٹ سر کی شدید چوٹ کا خطرہ آدھے سے بھی زیادہ کم کر سکتا ہے۔ اگر ہر ڈرائیور سیٹ بیلٹ باندھے اور رفتار کی حد کا احترام کرے تو ہر سال ہزاروں جانیں بچائی جا سکتی ہیں۔ موٹروے پولیس نے ثابت کیا ہے کہ جب قوانین منصفانہ اور سختی سے نافذ کیے جائیں تو سڑک پر لوگوں کا رویہ بدل جاتا ہے۔ اسکولوں میں بھی روڈ سیفٹی کی تعلیم دی جانی چاہیے، کیونکہ بچپن میں سیکھی ہوئی اچھی عادتیں عمر بھر ساتھ رہتی ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘not … but …’ کا ترجمہ ‘نہیں بلکہ’ سے کیا؟",
+      "کیا ‘although’ کے لیے ‘حالانکہ’ استعمال کیا؟",
+      "کیا شرطیہ جملہ ‘If every driver…’ ‘اگر… تو’ کی ساخت میں ترجمہ ہوا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

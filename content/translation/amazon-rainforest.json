@@ -1,0 +1,102 @@
+{
+  "id": "amazon-rainforest",
+  "ur": "ایمیزون کا جنگل",
+  "en": "The Amazon Rainforest",
+  "warmup": [
+    {
+      "en": "The Amazon is a very big forest.",
+      "bank": [
+        "جنگل",
+        "ہے",
+        "ایمیزون",
+        "بڑا",
+        "بہت"
+      ],
+      "answer": [
+        "ایمیزون",
+        "بہت",
+        "بڑا",
+        "جنگل",
+        "ہے"
+      ]
+    },
+    {
+      "en": "It rains here all year.",
+      "bank": [
+        "سال بھر",
+        "ہوتی",
+        "بارش",
+        "یہاں",
+        "ہے"
+      ],
+      "answer": [
+        "یہاں",
+        "سال بھر",
+        "بارش",
+        "ہوتی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Millions of animals live here.",
+      "bank": [
+        "رہتے",
+        "یہاں",
+        "جانور",
+        "ہیں",
+        "لاکھوں"
+      ],
+      "answer": [
+        "یہاں",
+        "لاکھوں",
+        "جانور",
+        "رہتے",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "We must save the forests.",
+      "bank": [
+        "چاہییں",
+        "جنگلات",
+        "بچانے",
+        "ہمیں"
+      ],
+      "answer": [
+        "ہمیں",
+        "جنگلات",
+        "بچانے",
+        "چاہییں"
+      ]
+    },
+    {
+      "en": "Fires destroy many trees.",
+      "bank": [
+        "ہے",
+        "کر دیتی",
+        "آگ",
+        "درختوں کو",
+        "تباہ",
+        "بہت سے"
+      ],
+      "answer": [
+        "آگ",
+        "بہت سے",
+        "درختوں کو",
+        "تباہ",
+        "کر دیتی",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Amazon is the largest tropical rainforest on Earth, covering parts of nine countries in South America. It is home to an astonishing variety of life: scientists believe that about one in ten of all known species lives there. Its billions of trees absorb huge amounts of carbon dioxide, which helps to slow down global warming, and many important medicines have been developed from its plants. Sadly, the forest is shrinking. Large areas are cleared every year to make room for cattle, crops, mines and roads, and fires destroy even more. As a result, animals are losing their homes and indigenous tribes are being forced off their land. Experts warn that if the destruction continues, the effects will be felt by everyone on the planet, not only by the people of South America.",
+    "modelUr": "ایمیزون زمین کا سب سے بڑا استوائی برساتی جنگل ہے، جو جنوبی امریکہ کے نو ممالک کے کچھ حصوں پر پھیلا ہوا ہے۔ یہ زندگی کی حیرت انگیز اقسام کا گھر ہے: سائنس دانوں کا خیال ہے کہ تمام معلوم انواع میں سے تقریباً ہر دس میں سے ایک یہاں رہتی ہے۔ اس کے اربوں درخت بہت بڑی مقدار میں کاربن ڈائی آکسائیڈ جذب کرتے ہیں، جو عالمی حدت کی رفتار کم کرنے میں مدد دیتی ہے، اور اس کے پودوں سے بہت سی اہم دوائیں تیار کی گئی ہیں۔ افسوس کہ یہ جنگل سکڑ رہا ہے۔ ہر سال بڑے بڑے رقبے مویشیوں، فصلوں، کانوں اور سڑکوں کے لیے صاف کیے جاتے ہیں، اور آگ اس سے بھی زیادہ تباہی پھیلاتی ہے۔ نتیجتاً جانور اپنے گھروں سے محروم ہو رہے ہیں اور مقامی قبائل کو ان کی زمینوں سے بے دخل کیا جا رہا ہے۔ ماہرین خبردار کرتے ہیں کہ اگر یہ تباہی جاری رہی تو اس کے اثرات صرف جنوبی امریکہ کے لوگ ہی نہیں بلکہ زمین پر بسنے والا ہر شخص محسوس کرے گا۔",
+    "checklist": [
+      "کیا آپ نے ‘one in ten’ کا ترجمہ ‘ہر دس میں سے ایک’ کیا؟",
+      "کیا ‘global warming’ اور ‘indigenous tribes’ کے لیے درست اصطلاحات (عالمی حدت، مقامی قبائل) استعمال کیں؟",
+      "کیا ‘As a result’ اور ‘not only … but’ کا ترجمہ ‘نتیجتاً’ اور ‘نہ صرف … بلکہ’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

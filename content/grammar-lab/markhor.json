@@ -1,0 +1,117 @@
+{
+  "id": "markhor",
+  "ur": "جنگلی حیات کا تحفظ",
+  "en": "Wildlife Conservation",
+  "grammarPoint": {
+    "ur": "جمع مغیرہ، فعل سے اسم (شکار کرنا → شکاری) اور مجہول",
+    "en": "Oblique plurals, nouns from verbs (شکار → شکاری), and the passive"
+  },
+  "cloze": {
+    "passage": "مارخور پاکستان کے شمالی (1)_____ میں پایا جاتا ہے۔ ماضی میں شکاریوں نے اس کا بے دریغ شکار (2)_____ ۔ اب مقامی لوگ اس کی حفاظت کرتے ہیں (3)_____ انہیں اس سے فائدہ ہوتا ہے۔ تحفظ کی کوششوں (4)_____ اس کی تعداد بڑھ گئی ہے۔ ہمیں اپنے قومی جانور پر (5)_____ ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "پہاڑوں",
+          "پہاڑ",
+          "پہاڑی",
+          "پہاڑے"
+        ],
+        "a": 0,
+        "en": "oblique plural before میں: پہاڑوں میں"
+      },
+      {
+        "opts": [
+          "کیا",
+          "کی",
+          "کیے",
+          "کرتا"
+        ],
+        "a": 0,
+        "en": "شکار is masculine: شکار کیا"
+      },
+      {
+        "opts": [
+          "کیونکہ",
+          "لیکن",
+          "ورنہ",
+          "اگرچہ"
+        ],
+        "a": 0,
+        "en": "کیونکہ gives the reason"
+      },
+      {
+        "opts": [
+          "کی بدولت",
+          "کے بغیر",
+          "کے خلاف",
+          "کے برعکس"
+        ],
+        "a": 0,
+        "en": "کی بدولت = thanks to"
+      },
+      {
+        "opts": [
+          "فخر",
+          "شرم",
+          "غصہ",
+          "افسوس"
+        ],
+        "a": 0,
+        "en": "فخر ہونا = to be proud"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "جو لوگ غیر قانونی شکار کرتے ہیں انہیں سزا ملنی چاہیے۔",
+      "stem": "غیر قانونی ____ کو سزا ملنی چاہیے۔",
+      "instruction_ur": "فعل سے اسم بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete by forming a noun from the verb",
+      "answers": [
+        "شکاریوں"
+      ],
+      "en": "People who hunt illegally should be punished."
+    },
+    {
+      "original": "شکاریوں نے بہت سے مارخور مار ڈالے۔",
+      "stem": "شکاریوں کے ہاتھوں بہت سے مارخور ____ گئے۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "مارے"
+      ],
+      "en": "Hunters killed many markhors."
+    },
+    {
+      "original": "یہ جانور اب بہت کم ملتا ہے۔",
+      "stem": "یہ جانور اب ____ ہو گیا ہے۔",
+      "instruction_ur": "متبادل لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a word meaning the same",
+      "answers": [
+        "نایاب",
+        "کمیاب"
+      ],
+      "en": "This animal is now very hard to find."
+    },
+    {
+      "original": "مقامی لوگوں کی کوششوں سے مارخور بچ گیا۔",
+      "stem": "مقامی لوگ کوشش نہ کرتے ____ مارخور ختم ہو جاتا۔",
+      "instruction_ur": "شرطیہ ساخت میں جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete as an ‘if … not’ sentence, keeping the meaning",
+      "answers": [
+        "تو"
+      ],
+      "en": "The markhor survived thanks to the efforts of local people."
+    },
+    {
+      "original": "مارخوروں کی تعداد کم ہو رہی تھی۔",
+      "stem": "مارخوروں کی تعداد ____ رہی ہے۔",
+      "instruction_ur": "متضاد فعل لگا کر آج کی صورتحال بیان کریں",
+      "instruction_en": "Use the opposite verb to describe the situation today",
+      "answers": [
+        "بڑھ"
+      ],
+      "en": "The number of markhors was decreasing."
+    }
+  ]
+}

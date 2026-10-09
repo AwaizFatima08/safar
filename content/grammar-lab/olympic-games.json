@@ -1,0 +1,119 @@
+{
+  "id": "olympic-games",
+  "ur": "میدان کی کہانی",
+  "en": "Stories from the Field",
+  "grammarPoint": {
+    "ur": "ماضی مطلق میں ‘نے’ اور فعل کی مطابقت",
+    "en": "Simple past with ‘ne’ and verb agreement"
+  },
+  "cloze": {
+    "passage": "2024ء میں ارشد ندیم (1)_____ پیرس میں تاریخ رقم کی۔ انہوں نے اپنی دوسری کوشش میں نیزہ (2)_____۔ پورے ملک میں لوگوں نے خوشی (3)_____۔ وطن واپسی پر ہزاروں لوگ ایئرپورٹ (4)_____۔ حکومت کی طرف سے انہیں انعام (5)_____ گیا۔",
+    "gaps": [
+      {
+        "opts": [
+          "نے",
+          "کو",
+          "سے",
+          "کا"
+        ],
+        "a": 0,
+        "en": "Transitive past (رقم کی) → subject + نے"
+      },
+      {
+        "opts": [
+          "پھینکا",
+          "پھینکی",
+          "پھینکے",
+          "پھینکیں"
+        ],
+        "a": 0,
+        "en": "Verb agrees with the masculine object نیزہ"
+      },
+      {
+        "opts": [
+          "منائی",
+          "منایا",
+          "منائے",
+          "مناتا"
+        ],
+        "a": 0,
+        "en": "خوشی is feminine → منائی"
+      },
+      {
+        "opts": [
+          "پہنچے",
+          "نے پہنچے",
+          "پہنچا",
+          "پہنچی"
+        ],
+        "a": 0,
+        "en": "Intransitive: no نے; agrees with plural لوگ"
+      },
+      {
+        "opts": [
+          "دیا",
+          "دی",
+          "دیے",
+          "دیتا"
+        ],
+        "a": 0,
+        "en": "انعام is masculine → دیا گیا"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ٹیم ٹرافی جیت گئی۔",
+      "stem": "ٹیم نے ٹرافی ____۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "جیتی",
+        "جیت لی"
+      ],
+      "en": "The team won the trophy."
+    },
+    {
+      "original": "ٹیم کی جیت پر سب خوش تھے۔",
+      "stem": "ٹیم کی ____ پر سب خوش تھے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "فتح",
+        "کامیابی"
+      ],
+      "en": "Everyone was happy at the team's victory."
+    },
+    {
+      "original": "ہماری ٹیم میچ ہار گئی۔",
+      "stem": "ہماری ٹیم میچ نہیں ____۔",
+      "instruction_ur": "متضاد فعل لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using the opposite verb",
+      "answers": [
+        "جیتی",
+        "جیت سکی"
+      ],
+      "en": "Our team lost the match."
+    },
+    {
+      "original": "منتظمین نے اولمپک مشعل روشن کی۔",
+      "stem": "اولمپک مشعل روشن ____ گئی۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کی"
+      ],
+      "en": "The organisers lit the Olympic torch."
+    },
+    {
+      "original": "کوچ نے کہا، ‘میں تم سب پر فخر کرتا ہوں۔’",
+      "stem": "کوچ نے کہا کہ وہ ان سب پر فخر ____ ہے۔",
+      "instruction_ur": "بالواسطہ کلام میں جملہ مکمل کریں",
+      "instruction_en": "Complete in reported speech",
+      "answers": [
+        "کرتا"
+      ],
+      "en": "The coach said, ‘I am proud of you all.’"
+    }
+  ]
+}

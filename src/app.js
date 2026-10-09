@@ -285,7 +285,10 @@ function setRsSelfRating(topicId, key, stars){
 // match after trimming punctuation/whitespace, or either string containing
 // the other (handles "10 بجے" vs "صبح 10 بجے"-style acceptable variants).
 function normalizeAnswer(s){
-  return (s||"").trim().replace(/[۔،؟!.,?]/g,"").replace(/\s+/g," ").toLowerCase();
+  return (s||"").trim()
+    .replace(/[ً-ٰٟ​-‏]/g,"") // diacritics (zer/zabar/pesh…) and zero-width joiners
+    .replace(/ي/g,"ی").replace(/ك/g,"ک")              // Arabic-keyboard yeh/kaf → Urdu forms
+    .replace(/[۔،؟!.,?]/g,"").replace(/\s+/g," ").toLowerCase();
 }
 function isShortAnswerCorrect(given, acceptable){
   const g = normalizeAnswer(given);
@@ -376,24 +379,59 @@ function upsertLocalLeaderboard(entry){
 /* ======================================================================
    ACCOUNTS + FRIEND GROUPS (Firebase Auth + Firestore)
    Optional layer on top of the always-available local guest mode above.
-   Design + security-rules rationale: docs/accounts-friends-leaderboard-design.md.
-   Signing in is never required to use the app — every practice feature
-   and the on-device leaderboard work fully offline as a guest. Signing
-   in (email + password) additionally lets you create/join ONE real
-   friend group at a time, whose members' medal totals sync through
-   Cloud Firestore so the group leaderboard works across devices.
+   Design: docs/accounts-friends-leaderboard-design.md (v1.0) and
+   docs/update-1.1-design.md (multi-group, moderation, reset flow).
+   Signing in is never required — every practice feature and the
+   on-device leaderboard work offline as a guest. Signing in (email +
+   password) lets you create or join up to MAX_GROUPS friend groups whose
+   members' medal totals sync through Cloud Firestore.
    ====================================================================== */
+const MAX_GROUPS = 5;
+const PLAY_URL = "https://play.google.com/store/apps/details?id=com.homilabs.safar";
 let fbUser = null;
 function fbAuth(){ try{ return (typeof firebase !== "undefined") ? firebase.auth() : null; }catch(e){ return null; } }
 function fbFirestore(){ try{ return (typeof firebase !== "undefined") ? firebase.firestore() : null; }catch(e){ return null; } }
 
+// Names typed by other group members end up on this screen, so every piece
+// of user-supplied text goes through escapeHtml before touching innerHTML.
+function escapeHtml(s){
+  return String(s == null ? "" : s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function cleanName(s, max){
+  return String(s || "").replace(/[\u0000-\u001f\u007f<>]/g, "").replace(/\s+/g, " ").trim().slice(0, max || 30);
+}
+
+// v1.0 stored a single `player.group`; v1.1 keeps a list.
+function playerGroups(){
+  if(!player) return [];
+  if(!Array.isArray(player.groups)){
+    player.groups = (player.group && player.group.groupId) ? [player.group] : [];
+    delete player.group;
+    savePlayer(player);
+  }
+  return player.groups;
+}
+function setPlayerGroups(list){
+  player.groups = list.filter(g => g && g.groupId).slice(0, MAX_GROUPS);
+  delete player.group;
+  savePlayer(player);
+  if(fbUser){
+    const fs = fbFirestore();
+    if(fs) fs.collection("users").doc(fbUser.uid).set({ groups: player.groups }, { merge:true }).catch(()=>{});
+  }
+}
+function dropPlayerGroup(groupId){
+  setPlayerGroups(playerGroups().filter(g => g.groupId !== groupId));
+}
+
+const AUTH_VIEWS = ["home", "account", "leaderboard", "group", "groupCreate", "groupJoin"];
 function initFirebaseAuthListener(){
   const auth = fbAuth();
   if(!auth) return;
   auth.onAuthStateChanged(async (u)=>{
     fbUser = u;
     if(u) await loadAccountFromFirestore();
-    if(route.view === "account" || route.view === "leaderboard") render();
+    if(player && AUTH_VIEWS.includes(route.view)) render();
   });
 }
 
@@ -401,24 +439,35 @@ async function loadAccountFromFirestore(){
   const fs = fbFirestore();
   if(!fs || !fbUser) return;
   try{
-    const snap = await fs.collection("users").doc(fbUser.uid).get();
+    const ref = fs.collection("users").doc(fbUser.uid);
+    const snap = await ref.get();
     const data = snap.exists ? snap.data() : {};
-    if(!player) player = { id: fbUser.uid, nickname: data.displayName || (fbUser.email||"").split("@")[0] };
+    if(!player) player = { id: fbUser.uid, nickname: data.displayName || fbUser.displayName || (fbUser.email||"").split("@")[0] };
     player.id = fbUser.uid;
     if(data.displayName) player.nickname = data.displayName;
-    player.group = data.group || null;
+    const legacy = (data.group && data.group.groupId) ? [data.group] : [];
+    player.groups = (Array.isArray(data.groups) ? data.groups : legacy).filter(g => g && g.groupId).slice(0, MAX_GROUPS);
+    delete player.group;
     savePlayer(player);
+    if(!Array.isArray(data.groups)){
+      ref.set({ groups: player.groups, group: firebase.firestore.FieldValue.delete() }, { merge:true }).catch(()=>{});
+    }
     refreshPlayerLeaderboardEntry();
   }catch(e){ /* offline — local state stays as-is */ }
 }
 
-async function signUp(email, password, nickname){
+async function signUp(email, password, displayName){
   const auth = fbAuth();
   if(!auth) throw new Error("offline");
+  const name = cleanName(displayName, 20) || email.split("@")[0];
   const cred = await auth.createUserWithEmailAndPassword(email, password);
-  const fs = fbFirestore();
-  await fs.collection("users").doc(cred.user.uid).set({ email, displayName: nickname, createdAt: Date.now() });
-  player = { id: cred.user.uid, nickname, group: null };
+  try{ await cred.user.updateProfile({ displayName: name }); }catch(e){}
+  await fbFirestore().collection("users").doc(cred.user.uid).set({ email, displayName: name, createdAt: Date.now(), groups: [] });
+  if(!player) player = { id: cred.user.uid, nickname: name };
+  player.id = cred.user.uid;
+  player.nickname = name;
+  player.groups = [];
+  delete player.group;
   savePlayer(player);
   refreshPlayerLeaderboardEntry();
 }
@@ -426,27 +475,43 @@ async function logIn(email, password){
   const auth = fbAuth();
   if(!auth) throw new Error("offline");
   await auth.signInWithEmailAndPassword(email, password);
+  // onAuthStateChanged runs loadAccountFromFirestore, but callers navigate
+  // straight away — load here too so the next screen has the groups list.
+  fbUser = auth.currentUser;
+  await loadAccountFromFirestore();
+}
+async function sendReset(email){
+  const auth = fbAuth();
+  if(!auth) throw new Error("offline");
+  await auth.sendPasswordResetEmail(email);
 }
 async function logOut(){
   const auth = fbAuth();
   if(auth) await auth.signOut();
   fbUser = null;
+  if(player){ player.groups = []; delete player.group; savePlayer(player); }
 }
-// Firebase requires a *recent* sign-in for account deletion; callers should
-// catch auth/requires-recent-login and re-prompt for the password.
+function updateDisplayName(name){
+  const clean = cleanName(name, 20);
+  if(clean.length < 2) return false;
+  player.nickname = clean;
+  savePlayer(player);
+  refreshPlayerLeaderboardEntry();
+  return true;
+}
+// Firebase requires a *recent* sign-in for account deletion, so the
+// password is always re-checked first.
 async function deleteAccountEverywhere(password){
   const auth = fbAuth();
   const fs = fbFirestore();
   if(!auth || !auth.currentUser) throw new Error("not signed in");
   const cred = firebase.auth.EmailAuthProvider.credential(auth.currentUser.email, password);
   await auth.currentUser.reauthenticateWithCredential(cred);
-  if(player && player.group && player.group.groupId){
-    await leaveGroup(player.group.groupId).catch(()=>{});
-  }
+  await Promise.all(playerGroups().slice().map(g => leaveGroup(g.groupId).catch(()=>{})));
   await fs.collection("users").doc(auth.currentUser.uid).delete().catch(()=>{});
   await auth.currentUser.delete();
   fbUser = null;
-  if(player){ player.group = null; savePlayer(player); }
+  if(player){ player.groups = []; savePlayer(player); }
 }
 
 const INVITE_ALPHABET = "ABCDEFGHJKMNPQRSTUVWXYZ23456789"; // no 0/O/1/I — easy to read aloud
@@ -455,59 +520,128 @@ function randomInviteCode(){
   for(let i=0;i<6;i++) s += INVITE_ALPHABET[Math.floor(Math.random()*INVITE_ALPHABET.length)];
   return s;
 }
+function memberDoc(){
+  const t = computeMedalTotals();
+  return { displayName: cleanName(player.nickname, 20) || "Player", gold: t.gold, silver: t.silver, bronze: t.bronze, score: t.score, updatedAt: Date.now() };
+}
 async function createGroup(name){
   const fs = fbFirestore();
-  if(!fs || !fbUser) throw new Error("sign in required");
-  const groupName = (name || "").trim().slice(0,30) || "My Group";
-  const code = randomInviteCode();
+  if(!fs || !fbUser) throw new Error("signin");
+  if(playerGroups().length >= MAX_GROUPS) throw new Error("limit");
+  const groupName = cleanName(name, 30) || "My Group";
   const groupRef = fs.collection("groups").doc();
-  const totals = computeMedalTotals();
+  let code = randomInviteCode();
+  for(let tries=0; tries<4; tries++){
+    const taken = await fs.collection("groupLookup").doc(code).get();
+    if(!taken.exists) break;
+    code = randomInviteCode();
+  }
   await groupRef.set({ name: groupName, ownerUid: fbUser.uid, inviteCode: code, memberUids: [fbUser.uid], createdAt: Date.now() });
   await fs.collection("groupLookup").doc(code).set({ groupId: groupRef.id, ownerUid: fbUser.uid });
-  await groupRef.collection("members").doc(fbUser.uid).set({
-    displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
-  });
-  player.group = { groupId: groupRef.id, name: groupName, inviteCode: code };
-  savePlayer(player);
-  await fs.collection("users").doc(fbUser.uid).set({ group: player.group }, { merge:true });
+  await groupRef.collection("members").doc(fbUser.uid).set(memberDoc());
+  const g = { groupId: groupRef.id, name: groupName, inviteCode: code };
+  setPlayerGroups(playerGroups().concat([g]));
+  return g;
 }
 async function joinGroupByCode(rawCode){
   const code = normalizeGroupCode(rawCode);
-  if(!code) throw new Error("empty");
+  if(code.length !== 6) throw new Error("format");
   const fs = fbFirestore();
-  if(!fs || !fbUser) throw new Error("sign in required");
+  if(!fs || !fbUser) throw new Error("signin");
+  const existing = playerGroups().find(g => g.inviteCode === code);
+  if(existing) return existing;
+  if(playerGroups().length >= MAX_GROUPS) throw new Error("limit");
   const lookupSnap = await fs.collection("groupLookup").doc(code).get();
   if(!lookupSnap.exists) throw new Error("not-found");
   const { groupId } = lookupSnap.data();
   const groupRef = fs.collection("groups").doc(groupId);
-  await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayUnion(fbUser.uid) });
-  const totals = computeMedalTotals();
-  await groupRef.collection("members").doc(fbUser.uid).set({
-    displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
-  });
+  try{
+    await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayUnion(fbUser.uid) });
+  }catch(e){ throw new Error("not-found"); }
+  await groupRef.collection("members").doc(fbUser.uid).set(memberDoc());
   let groupName = "Friend Group";
   try{ const gs = await groupRef.get(); if(gs.exists) groupName = gs.data().name || groupName; }catch(e){}
-  player.group = { groupId, name: groupName, inviteCode: code };
-  savePlayer(player);
-  await fs.collection("users").doc(fbUser.uid).set({ group: player.group }, { merge:true });
+  const g = { groupId, name: groupName, inviteCode: code };
+  setPlayerGroups(playerGroups().concat([g]));
+  return g;
 }
 async function leaveGroup(groupId){
   const fs = fbFirestore();
   if(!fs || !fbUser || !groupId) return;
   const groupRef = fs.collection("groups").doc(groupId);
+  let data = null;
+  try{ const s = await groupRef.get(); if(s.exists) data = s.data(); }catch(e){}
+  if(data && data.ownerUid === fbUser.uid && (data.memberUids||[]).length <= 1){
+    await deleteGroup(groupId, data).catch(()=>{});
+    return;
+  }
   await groupRef.collection("members").doc(fbUser.uid).delete().catch(()=>{});
   await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayRemove(fbUser.uid) }).catch(()=>{});
-  player.group = null;
-  savePlayer(player);
-  await fs.collection("users").doc(fbUser.uid).set({ group: null }, { merge:true }).catch(()=>{});
+  dropPlayerGroup(groupId);
 }
-async function fetchGroupLeaderboard(groupId){
+// Owner only. Member docs go first: the rule that lets the owner delete
+// them looks the owner up on the group doc, which must still exist.
+async function deleteGroup(groupId, known){
   const fs = fbFirestore();
-  if(!fs || !groupId) return [];
+  if(!fs || !fbUser) return;
+  const groupRef = fs.collection("groups").doc(groupId);
+  let data = known;
+  if(!data){ const s = await groupRef.get(); data = s.exists ? s.data() : null; }
+  if(!data || data.ownerUid !== fbUser.uid) throw new Error("not-owner");
+  const members = await groupRef.collection("members").get();
+  await Promise.all(members.docs.map(d => d.ref.delete().catch(()=>{})));
+  if(data.inviteCode) await fs.collection("groupLookup").doc(data.inviteCode).delete().catch(()=>{});
+  await groupRef.delete();
+  dropPlayerGroup(groupId);
+}
+async function removeMember(groupId, uid){
+  const fs = fbFirestore();
+  if(!fs || !fbUser || uid === fbUser.uid) return;
+  const groupRef = fs.collection("groups").doc(groupId);
+  await groupRef.collection("members").doc(uid).delete();
+  await groupRef.update({ memberUids: firebase.firestore.FieldValue.arrayRemove(uid) });
+}
+// Returns { group, members } or null when the group is gone or this user
+// was removed from it (both look like a permission error to the client).
+async function fetchGroup(groupId){
+  const fs = fbFirestore();
+  if(!fs || !groupId) return null;
   try{
-    const snap = await fs.collection("groups").doc(groupId).collection("members").get();
-    return snap.docs.map(d=>Object.assign({ id:d.id }, d.data()));
-  }catch(e){ return []; }
+    const ref = fs.collection("groups").doc(groupId);
+    const gs = await ref.get();
+    if(!gs.exists) return null;
+    const ms = await ref.collection("members").get();
+    const members = ms.docs.map(d => Object.assign({ id:d.id }, d.data()))
+      .sort((a,b) => (b.score||0) - (a.score||0) || (b.gold||0) - (a.gold||0));
+    return { group: Object.assign({ groupId }, gs.data()), members };
+  }catch(e){
+    if(e && e.code === "permission-denied") return null;
+    throw e;
+  }
+}
+
+async function copyText(text){
+  try{ await navigator.clipboard.writeText(text); return true; }catch(e){}
+  try{
+    const ta = document.createElement("textarea");
+    ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+    document.body.appendChild(ta); ta.select();
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    return ok;
+  }catch(e){ return false; }
+}
+async function shareInvite(g){
+  const text = `Join my Urdu Safar group "${g.name}"!\nOpen Urdu Safar → Leaderboard → Join with a code, and enter: ${g.inviteCode}\n${PLAY_URL}`;
+  const plugin = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.Share;
+  if(plugin){
+    try{ await plugin.share({ title: "Urdu Safar group invite", text, dialogTitle: "Share invite code" }); return "shared"; }
+    catch(e){ if(/cancel/i.test((e && e.message) || "")) return "cancelled"; }
+  }
+  if(navigator.share){
+    try{ await navigator.share({ title: "Urdu Safar group invite", text }); return "shared"; }catch(e){}
+  }
+  return (await copyText(text)) ? "copied" : "failed";
 }
 
 function medalHtml(stars){
@@ -520,23 +654,19 @@ function medalHtml(stars){
 function refreshPlayerLeaderboardEntry(){
   if(!player) return;
   const totals = computeMedalTotals();
-  const entry = {
-    id: player.id, nickname: player.nickname, group: player.group ? player.group.groupId : null,
+  upsertLocalLeaderboard({
+    id: player.id, nickname: player.nickname,
     gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score,
     updatedAt: Date.now()
-  };
-  upsertLocalLeaderboard(entry);
-  if(fbUser){
-    const fs = fbFirestore();
-    if(fs){
-      fs.collection("users").doc(fbUser.uid).set({ displayName: player.nickname }, { merge:true }).catch(()=>{});
-      if(player.group && player.group.groupId){
-        fs.collection("groups").doc(player.group.groupId).collection("members").doc(fbUser.uid).set({
-          displayName: player.nickname, gold: totals.gold, silver: totals.silver, bronze: totals.bronze, score: totals.score, updatedAt: Date.now()
-        }).catch(()=>{});
-      }
-    }
-  }
+  });
+  if(!fbUser) return;
+  const fs = fbFirestore();
+  if(!fs) return;
+  fs.collection("users").doc(fbUser.uid).set({ displayName: player.nickname }, { merge:true }).catch(()=>{});
+  const doc = memberDoc();
+  playerGroups().forEach(g=>{
+    fs.collection("groups").doc(g.groupId).collection("members").doc(fbUser.uid).set(doc).catch(()=>{});
+  });
 }
 
 // Invite codes are typed by hand, so be forgiving about case/punctuation.
@@ -550,7 +680,65 @@ function normalizeGroupCode(raw){
 let route = { view:"home" };
 const app = document.getElementById("app");
 
-function go(next){ route = next; render(); window.scrollTo({top:0}); }
+/* Android back button: each screen gets a browser-history entry, and the
+   backButton listener below walks that history (closing the app from home).
+   Tab/level switches on the same screen replace the entry, and forms you
+   leave on success (sign-in, create/join group) are replaced too, so Back
+   never lands on a stale form. Navigating to a screen that is already further
+   down the history (Home, the in-app back links, Leaderboard after deleting a
+   group) rewinds to it instead of stacking a duplicate. If the History API is
+   unavailable (some sandboxed web frames), navigation just renders in place. */
+const NAV_REPLACE_FROM = ["signin", "signup", "forgot", "groupCreate", "groupJoin"];
+let navStack = [route], pendingNav = null, historyOk = true;
+function hist(fn){
+  if(!historyOk) return false;
+  try { fn(); return true; } catch(e){ historyOk = false; return false; }
+}
+function sameScreen(a, b){
+  return a.view === b.view && ["topicId","skillId","groupId","mode"].every(k => (a[k]||"") === (b[k]||""));
+}
+function showRoute(next){ route = next; render(); window.scrollTo({top:0}); }
+function go(next){
+  const cur = navStack.length - 1;
+  for(let i = cur - 1; i >= 0; i--){
+    if(sameScreen(navStack[i], next)){
+      pendingNav = { next, idx: i };
+      if(hist(() => history.go(i - cur))) return;
+      pendingNav = null;
+      break;
+    }
+  }
+  if(sameScreen(route, next) || NAV_REPLACE_FROM.includes(route.view)){
+    navStack[cur] = next;
+    hist(() => history.replaceState({ r: next, d: cur }, ""));
+  } else {
+    navStack.push(next);
+    hist(() => history.pushState({ r: next, d: cur + 1 }, ""));
+  }
+  showRoute(next);
+}
+window.addEventListener("popstate", e => {
+  if(pendingNav){
+    const { next, idx } = pendingNav; pendingNav = null;
+    navStack.length = idx + 1; navStack[idx] = next;
+    hist(() => history.replaceState({ r: next, d: idx }, ""));
+    showRoute(next);
+    return;
+  }
+  const s = e.state || { r: { view:"home" }, d: 0 };
+  navStack.length = Math.min(navStack.length, s.d + 1);
+  navStack[s.d] = s.r;
+  showRoute(s.r);
+});
+// The plugin's built-in handler does nothing once history runs out, so take
+// over: step back while there is history, close the app from home.
+(function(){
+  const AppPlugin = window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.App;
+  if(!AppPlugin || !AppPlugin.addListener) return;
+  AppPlugin.addListener("backButton", ({ canGoBack }) => {
+    if(canGoBack) history.back(); else AppPlugin.exitApp();
+  });
+})();
 
 function starsHtml(n, max){
   max = max || 3;
@@ -571,189 +759,428 @@ function skillsOverallStats(){
 }
 
 /* ======================================================================
-   SIGN UP  (nickname only — see the note above PLAYER + LEADERBOARD)
+   WELCOME — start as a guest (nickname only) or use an account
    ====================================================================== */
-function renderSignup(){
-  app.innerHTML = `
+function brandHtml(){
+  return `
     <div class="topbar">
       <div class="brand"><span class="en display">Urdu Safar</span><span class="ur-mark ur">سفر</span></div>
       <div class="tagline">O&nbsp;Level&nbsp;&amp;&nbsp;IGCSE&nbsp;Urdu&nbsp;Practice</div>
-    </div>
+    </div>`;
+}
+function renderSignup(){
+  app.innerHTML = `
+    ${brandHtml()}
     <div class="card signup-card">
       <div class="rule-title">Welcome! What should we call you?</div>
-      <p class="rule-explain">Pick a nickname to track your progress and appear on the leaderboard. No email or password needed — this stays on your device.</p>
+      <p class="rule-explain">Pick a nickname and start practising straight away. No email or password needed — your progress stays on this device.</p>
       <input type="text" id="nickInput" class="nick-input" placeholder="Your nickname" maxlength="20" autocomplete="off" />
-      <div class="btn-row"><button class="btn primary" id="startBtn" disabled>Start learning</button></div>
+      <div class="btn-row"><button class="btn primary" id="startBtn" disabled>Start as guest</button></div>
+    </div>
+    <div class="card signup-card">
+      <div class="rule-title" style="font-size:15px;">Want to compete with friends?</div>
+      <p class="rule-explain">An account lets you create or join friend groups and compare medals across devices. You can also add one later from the Leaderboard.</p>
+      <div class="btn-row">
+        <button class="btn" id="welcomeSignIn">Sign in</button>
+        <button class="btn" id="welcomeSignUp">Create account</button>
+      </div>
     </div>
   `;
   const input = document.getElementById("nickInput");
   const btn = document.getElementById("startBtn");
-  input.addEventListener("input", ()=>{ btn.disabled = input.value.trim().length < 2; });
+  input.addEventListener("input", ()=>{ btn.disabled = cleanName(input.value, 20).length < 2; });
   input.addEventListener("keydown", e=>{ if(e.key === "Enter" && !btn.disabled) btn.click(); });
   btn.addEventListener("click", ()=>{
-    const nickname = input.value.trim().slice(0,20);
+    const nickname = cleanName(input.value, 20);
     if(nickname.length < 2) return;
-    player = { id: newPlayerId(), nickname };
+    player = { id: newPlayerId(), nickname, groups: [] };
     savePlayer(player);
     refreshPlayerLeaderboardEntry();
-    route = { view:"home" };
-    render();
+    go({ view:"home" });
   });
-  input.focus();
+  document.getElementById("welcomeSignIn").addEventListener("click", ()=> go({ view:"signin", next:{ view:"home" } }));
+  document.getElementById("welcomeSignUp").addEventListener("click", ()=> go({ view:"signup", next:{ view:"home" } }));
 }
 
 /* ======================================================================
-   LEADERBOARD
+   SIGN IN / CREATE ACCOUNT / FORGOT PASSWORD
    ====================================================================== */
-function renderLeaderboard(){
-  const backTab = route.homeTab === "skills" ? "skills" : "essays";
-  const signedIn = !!fbUser;
+function authErrorText(e, mode){
+  const code = (e && e.code) || "";
+  if(e && e.message === "offline") return "Can't reach the sign-in service — check your internet connection.";
+  if(code === "auth/email-already-in-use") return "That email already has an account — try signing in instead.";
+  if(code === "auth/invalid-email") return "That doesn't look like a valid email address.";
+  if(code === "auth/weak-password") return "Choose a stronger password (at least 6 characters).";
+  if(code === "auth/too-many-requests") return "Too many attempts — wait a few minutes and try again.";
+  if(code === "auth/network-request-failed") return "No internet connection — try again when you're online.";
+  if(mode === "signin") return "Couldn't sign in — check your email and password.";
+  return "Something went wrong — check your connection and try again.";
+}
+function renderAuth(mode){
+  const next = route.next || { view:"leaderboard" };
+  const back = player ? { view:"leaderboard" } : { view:"home" };
+  const title = mode === "signup" ? "Create account" : mode === "forgot" ? "Reset password" : "Sign in";
+  const ur = mode === "signup" ? "نیا اکاؤنٹ" : mode === "forgot" ? "پاس ورڈ ری سیٹ" : "سائن اِن";
+  let form = "";
+  if(mode === "signup"){
+    form = `
+      <label class="field-label" for="fName">Display name <span class="hint">(shown to your group)</span></label>
+      <input type="text" id="fName" class="nick-input" maxlength="20" autocomplete="nickname" value="${escapeHtml(player ? player.nickname : "")}" />
+      <label class="field-label" for="fEmail">Email</label>
+      <input type="email" id="fEmail" class="nick-input" autocomplete="email" />
+      <label class="field-label" for="fPass">Password <span class="hint">(6+ characters)</span></label>
+      <input type="password" id="fPass" class="nick-input" autocomplete="new-password" />
+      <label class="field-label" for="fPass2">Confirm password</label>
+      <input type="password" id="fPass2" class="nick-input" autocomplete="new-password" />
+      <p class="rule-explain small">By creating an account you agree to the <a href="https://safar.homilabs.org/terms-and-conditions.html" target="_blank" rel="noopener">Terms</a> and <a href="https://safar.homilabs.org/privacy-policy.html" target="_blank" rel="noopener">Privacy Policy</a>. Your practice progress on this device is kept.</p>
+      <div class="btn-row"><button class="btn primary" id="submitBtn">Create account</button></div>
+      <p class="auth-switch">Already have an account? <button class="link-btn" id="toSignIn">Sign in</button></p>`;
+  } else if(mode === "forgot"){
+    form = `
+      <p class="rule-explain">Enter the email you signed up with and we'll send you a link to choose a new password.</p>
+      <label class="field-label" for="fEmail">Email</label>
+      <input type="email" id="fEmail" class="nick-input" autocomplete="email" />
+      <div class="btn-row"><button class="btn primary" id="submitBtn">Send reset link</button></div>
+      <p class="auth-switch"><button class="link-btn" id="toSignIn">Back to sign in</button></p>`;
+  } else {
+    form = `
+      <label class="field-label" for="fEmail">Email</label>
+      <input type="email" id="fEmail" class="nick-input" autocomplete="email" />
+      <label class="field-label" for="fPass">Password</label>
+      <input type="password" id="fPass" class="nick-input" autocomplete="current-password" />
+      <p class="auth-switch" style="text-align:right;margin-top:6px;"><button class="link-btn" id="toForgot">Forgot password?</button></p>
+      <div class="btn-row"><button class="btn primary" id="submitBtn">Sign in</button></div>
+      <p class="auth-switch">New here? <button class="link-btn" id="toSignUp">Create an account</button></p>`;
+  }
   app.innerHTML = `
-    <div class="back-row">
-      <button class="back-btn" id="backHome">&larr; Home</button>
+    <div class="back-row"><button class="back-btn" id="backBtn">&larr; Back</button></div>
+    <div class="topic-head"><span class="ur-title ur">${ur}</span><span class="en-title">${title}</span></div>
+    <div class="card auth-card">
+      ${form}
+      <p class="form-msg" id="formMsg" role="alert"></p>
     </div>
+  `;
+  const msg = document.getElementById("formMsg");
+  const say = (text, good)=>{ msg.textContent = text; msg.className = "form-msg " + (good ? "good" : "bad"); };
+  document.getElementById("backBtn").addEventListener("click", ()=> go(back));
+  const sw = (id, view)=>{ const el = document.getElementById(id); if(el) el.addEventListener("click", ()=> go({ view, next })); };
+  sw("toSignIn", "signin"); sw("toSignUp", "signup"); sw("toForgot", "forgot");
+  const submit = document.getElementById("submitBtn");
+  const val = id => { const el = document.getElementById(id); return el ? el.value : ""; };
+  const run = async ()=>{
+    const email = val("fEmail").trim();
+    if(!email){ say("Enter your email address."); return; }
+    if(mode === "signup"){
+      const name = cleanName(val("fName"), 20);
+      const p1 = val("fPass"), p2 = val("fPass2");
+      if(name.length < 2){ say("Choose a display name of at least 2 characters."); return; }
+      if(p1.length < 6){ say("Your password needs at least 6 characters."); return; }
+      if(p1 !== p2){ say("The two passwords don't match."); return; }
+      submit.disabled = true; say("Creating your account…", true);
+      try{ await signUp(email, p1, name); go(next); }
+      catch(e){ submit.disabled = false; say(authErrorText(e, mode)); }
+    } else if(mode === "forgot"){
+      submit.disabled = true;
+      try{ await sendReset(email); }catch(e){ if(e && e.code === "auth/invalid-email"){ submit.disabled = false; say(authErrorText(e, mode)); return; } }
+      // Same message whether or not the account exists, so the form can't
+      // be used to discover which emails are registered.
+      say("If an account exists for that email, a reset link is on its way. Check your inbox (and spam folder).", true);
+    } else {
+      const pass = val("fPass");
+      if(!pass){ say("Enter your password."); return; }
+      submit.disabled = true; say("Signing in…", true);
+      try{ await logIn(email, pass); go(next); }
+      catch(e){ submit.disabled = false; say(authErrorText(e, mode)); }
+    }
+  };
+  submit.addEventListener("click", run);
+  app.querySelectorAll(".auth-card input").forEach(el => el.addEventListener("keydown", e=>{ if(e.key === "Enter") run(); }));
+}
+
+/* ======================================================================
+   ACCOUNT — display name, log out, delete account
+   ====================================================================== */
+function renderAccount(){
+  if(!fbUser){ go({ view:"signin", next:{ view:"account" } }); return; }
+  app.innerHTML = `
+    <div class="back-row"><button class="back-btn" id="backBtn">&larr; Leaderboard</button></div>
+    <div class="topic-head"><span class="ur-title ur">اکاؤنٹ</span><span class="en-title">Account</span></div>
+    <div class="card">
+      <p class="rule-explain">Signed in as <strong>${escapeHtml(fbUser.email)}</strong></p>
+      <label class="field-label" for="fName">Display name <span class="hint">(shown to your groups)</span></label>
+      <input type="text" id="fName" class="nick-input" maxlength="20" value="${escapeHtml(player.nickname)}" />
+      <div class="btn-row"><button class="btn" id="saveNameBtn">Save name</button><button class="btn" id="logoutBtn">Log out</button></div>
+      <p class="form-msg" id="formMsg" role="alert"></p>
+    </div>
+    <div class="card">
+      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Delete account</div>
+      <p class="rule-explain" style="margin-bottom:10px;">Permanently deletes your account, removes you from every group, and erases the scores synced to it. Practice progress on this device is not affected. This can't be undone.</p>
+      <div class="btn-row"><button class="btn danger" id="deleteAcctBtn">Delete my account</button></div>
+    </div>
+  `;
+  const msg = document.getElementById("formMsg");
+  document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"leaderboard" }));
+  document.getElementById("saveNameBtn").addEventListener("click", ()=>{
+    const ok = updateDisplayName(document.getElementById("fName").value);
+    msg.textContent = ok ? "Saved — your groups will see the new name." : "Use at least 2 characters.";
+    msg.className = "form-msg " + (ok ? "good" : "bad");
+  });
+  document.getElementById("logoutBtn").addEventListener("click", async ()=>{ await logOut(); go({ view:"leaderboard" }); });
+  document.getElementById("deleteAcctBtn").addEventListener("click", async ()=>{
+    if(!window.confirm("Delete your account and all its synced data? This can't be undone.")) return;
+    const password = window.prompt("Re-enter your password to confirm:");
+    if(!password) return;
+    const btn = document.getElementById("deleteAcctBtn");
+    btn.disabled = true; btn.textContent = "Deleting… please wait";
+    try{
+      await deleteAccountEverywhere(password);
+      window.alert("Your account has been deleted.");
+      go({ view:"leaderboard" });
+    }catch(e){
+      btn.disabled = false; btn.textContent = "Delete my account";
+      window.alert("Couldn't delete the account — check the password and your connection, then try again.");
+    }
+  });
+}
+
+/* ======================================================================
+   LEADERBOARD — your groups (signed in) + this device's board
+   ====================================================================== */
+function lbRowHtml(r, i, opts){
+  const me = player && r.id === player.id;
+  const name = escapeHtml(r.nickname || r.displayName || "Player");
+  const tags = (opts && opts.ownerUid === r.id) ? ` <span class="owner-tag">owner</span>` : "";
+  const remove = (opts && opts.canRemove && !me) ? `<button class="link-btn danger-link" data-remove="${escapeHtml(r.id)}" data-name="${name}">remove</button>` : "";
+  return `
+    <div class="lb-row ${me ? 'me' : ''}">
+      <span class="lb-rank">${i+1}</span>
+      <span class="lb-name">${name}${me ? ' (you)' : ''}${tags}</span>
+      <span class="lb-medals">🥇${r.gold||0}&nbsp;🥈${r.silver||0}&nbsp;🥉${r.bronze||0}</span>
+      ${remove}
+    </div>`;
+}
+function renderLeaderboard(){
+  const signedIn = !!fbUser;
+  const groups = signedIn ? playerGroups() : [];
+  const full = groups.length >= MAX_GROUPS;
+  app.innerHTML = `
+    <div class="back-row"><button class="back-btn" id="backHome">&larr; Home</button></div>
     <div class="topic-head">
       <span class="ur-title ur">اسکور بورڈ</span>
       <span class="en-title">Leaderboard</span>
     </div>
-    ${signedIn ? `<div class="btn-row" style="justify-content:flex-end;margin-bottom:10px;"><button class="btn" id="goAccountBtn2" style="font-size:12px;padding:6px 14px;">Account (${fbUser.email})</button></div>` : ""}
-    <div class="card group-card">
-      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Friend Group</div>
-      ${!signedIn ? `
-        <p class="rule-explain" style="margin-bottom:10px;">Sign in to create or join a real friend group — it syncs across devices, not just this one.</p>
-        <div class="btn-row"><button class="btn primary" id="goAccountBtn">Sign in / Sign up</button></div>
-      ` : player.group ? `
-        <p class="rule-explain" style="margin-bottom:10px;">You're in <strong>${player.group.name}</strong>. Invite code: <strong>${player.group.inviteCode}</strong> — share it with a friend so they can join.</p>
-        <div class="btn-row"><button class="btn" id="leaveGroupBtn">Leave group</button></div>
-      ` : `
-        <p class="rule-explain" style="margin-bottom:10px;">Not in a group yet. Create one and share the invite code with a friend, or enter theirs to join.</p>
+    ${signedIn ? `
+      <div class="account-chip-row"><button class="btn chip" id="goAccount">👤 ${escapeHtml(player.nickname)} · Account</button></div>
+      <div class="card group-card">
+        <div class="rule-title" style="font-size:15px;margin-bottom:6px;">My groups <span class="hint">(${groups.length}/${MAX_GROUPS})</span></div>
+        ${groups.length ? `<div class="group-list">${groups.map(g=>`
+          <button class="group-row" data-group="${escapeHtml(g.groupId)}">
+            <span class="group-name">👥 ${escapeHtml(g.name)}</span>
+            <span class="group-rank" data-rank="${escapeHtml(g.groupId)}">…</span>
+            <span class="chev">›</span>
+          </button>`).join("")}</div>`
+        : `<p class="rule-explain">No groups yet. Create one for your class or friends and share the invite code, or join with a code someone sent you.</p>`}
         <div class="btn-row">
-          <button class="btn primary" id="createGroupBtn">Create a group</button>
-          <button class="btn" id="joinGroupBtn">Join with a code</button>
+          <button class="btn primary" id="createGroupBtn" ${full ? "disabled" : ""}>Create a group</button>
+          <button class="btn" id="joinGroupBtn" ${full ? "disabled" : ""}>Join with a code</button>
         </div>
-      `}
-    </div>
-    <div id="lbHost"><div class="card"><p class="rule-explain">Loading…</p></div></div>
+        ${full ? `<p class="rule-explain small">You're in the maximum of ${MAX_GROUPS} groups — leave one to join another.</p>` : ""}
+      </div>
+    ` : `
+      <div class="card group-card">
+        <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Compete with friends</div>
+        <p class="rule-explain" style="margin-bottom:10px;">Sign in to create or join friend groups — group leaderboards sync across everyone's phones. Practice never requires an account.</p>
+        <div class="btn-row">
+          <button class="btn primary" id="goSignIn">Sign in</button>
+          <button class="btn" id="goSignUp">Create account</button>
+        </div>
+      </div>
+    `}
+    <div id="lbHost"></div>
   `;
-  document.getElementById("backHome").addEventListener("click", ()=> go({view:"home", homeTab:backTab}));
-  const goAccountBtn = document.getElementById("goAccountBtn");
-  if(goAccountBtn) goAccountBtn.addEventListener("click", ()=> go({view:"account", homeTab:backTab}));
-  const goAccountBtn2 = document.getElementById("goAccountBtn2");
-  if(goAccountBtn2) goAccountBtn2.addEventListener("click", ()=> go({view:"account", homeTab:backTab}));
-  const createBtn = document.getElementById("createGroupBtn");
-  if(createBtn) createBtn.addEventListener("click", async ()=>{
-    const name = window.prompt("Name your group (shown to members):", "My Group");
-    if(name === null) return;
-    createBtn.disabled = true;
-    try{ await createGroup(name); renderLeaderboard(); }
-    catch(e){ window.alert("Couldn't create the group — check your connection and try again."); createBtn.disabled = false; }
-  });
-  const joinBtn = document.getElementById("joinGroupBtn");
-  if(joinBtn) joinBtn.addEventListener("click", async ()=>{
-    const raw = window.prompt("Enter the group's invite code:", "");
-    const code = normalizeGroupCode(raw);
-    if(!code) return;
-    joinBtn.disabled = true;
-    try{ await joinGroupByCode(code); renderLeaderboard(); }
-    catch(e){ window.alert(e && e.message === "not-found" ? "No group has that code — double check it with your friend." : "Couldn't join — check your connection and try again."); joinBtn.disabled = false; }
-  });
-  const leaveBtn = document.getElementById("leaveGroupBtn");
-  if(leaveBtn) leaveBtn.addEventListener("click", async ()=>{
-    leaveBtn.disabled = true;
-    await leaveGroup(player.group.groupId);
-    renderLeaderboard();
-  });
-  drawLeaderboard();
-}
+  document.getElementById("backHome").addEventListener("click", ()=> go({ view:"home" }));
+  const on = (id, fn)=>{ const el = document.getElementById(id); if(el) el.addEventListener("click", fn); };
+  on("goAccount", ()=> go({ view:"account" }));
+  on("goSignIn", ()=> go({ view:"signin", next:{ view:"leaderboard" } }));
+  on("goSignUp", ()=> go({ view:"signup", next:{ view:"leaderboard" } }));
+  on("createGroupBtn", ()=> go({ view:"groupCreate" }));
+  on("joinGroupBtn", ()=> go({ view:"groupJoin" }));
+  app.querySelectorAll("[data-group]").forEach(el => el.addEventListener("click", ()=> go({ view:"group", groupId: el.dataset.group })));
 
-async function drawLeaderboard(){
-  const host = document.getElementById("lbHost");
-  let rows, scopeNote;
-  if(fbUser && player.group && player.group.groupId){
-    rows = await fetchGroupLeaderboard(player.group.groupId);
-    scopeNote = `Showing "${player.group.name}" — everyone in your friend group.`;
-  } else {
-    rows = loadLocalLeaderboard();
-    scopeNote = "This leaderboard is saved on this device — it shows everyone who has used Urdu Safar here.";
-  }
-  rows.sort((a,b)=> (b.score||0) - (a.score||0));
-  host.innerHTML = `
+  const local = loadLocalLeaderboard().slice().sort((a,b)=> (b.score||0) - (a.score||0));
+  document.getElementById("lbHost").innerHTML = `
     <div class="card">
-      <p class="rule-explain">${scopeNote}</p>
-      ${rows.length ? rows.map((r,i)=>`
-        <div class="lb-row ${player && r.id===player.id ? 'me':''}">
-          <span class="lb-rank">${i+1}</span>
-          <span class="lb-name">${r.nickname||r.displayName}${player && r.id===player.id ? ' (you)' : ''}</span>
-          <span class="lb-medals">🥇${r.gold||0}&nbsp;🥈${r.silver||0}&nbsp;🥉${r.bronze||0}</span>
-        </div>
-      `).join("") : `<p class="rule-explain">No medals earned yet — finish a quiz to appear here.</p>`}
-    </div>
-  `;
+      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">On this device</div>
+      <p class="rule-explain">Everyone who has practised with Urdu Safar on this phone.</p>
+      ${local.length ? local.map((r,i)=> lbRowHtml(r, i)).join("") : `<p class="rule-explain">No medals earned yet — finish a quiz to appear here.</p>`}
+    </div>`;
+
+  // Fill in "your rank" for each group in the background.
+  groups.forEach(async g=>{
+    const el = app.querySelector(`[data-rank="${CSS.escape(g.groupId)}"]`);
+    try{
+      const res = await fetchGroup(g.groupId);
+      if(!el || !el.isConnected) return;
+      if(!res){ el.textContent = "no longer available"; return; }
+      const members = res.members.filter(m => (res.group.memberUids||[]).includes(m.id));
+      const rank = members.findIndex(m => m.id === player.id) + 1;
+      el.textContent = rank ? `#${rank} of ${members.length}` : `${members.length} members`;
+    }catch(e){ if(el && el.isConnected) el.textContent = "offline"; }
+  });
 }
 
 /* ======================================================================
-   ACCOUNT — sign up / log in / log out / delete account
+   GROUP PAGE — invite code, ranked members, leave / remove / delete
    ====================================================================== */
-function renderAccount(){
-  const backTab = route.homeTab === "skills" ? "skills" : "essays";
-  if(fbUser){
-    app.innerHTML = `
-      <div class="back-row"><button class="back-btn" id="backHome">&larr; Home</button></div>
-      <div class="topic-head"><span class="ur-title ur">اکاؤنٹ</span><span class="en-title">Account</span></div>
-      <div class="card">
-        <p class="rule-explain">Signed in as <strong>${fbUser.email}</strong>.</p>
-        <div class="btn-row"><button class="btn" id="logoutBtn">Log out</button></div>
+function renderGroup(){
+  const groupId = route.groupId;
+  const known = playerGroups().find(g => g.groupId === groupId);
+  if(!fbUser || !known){ go({ view:"leaderboard" }); return; }
+  app.innerHTML = `
+    <div class="back-row"><button class="back-btn" id="backBtn">&larr; Leaderboard</button></div>
+    <div class="topic-head"><span class="ur-title ur">گروپ</span><span class="en-title">${escapeHtml(known.name)}</span></div>
+    ${route.fresh ? `<div class="card notice good">🎉 Group created! Share the invite code below so friends can join.</div>` : ""}
+    <div class="card invite-card">
+      <div class="rule-title" style="font-size:15px;">Invite code</div>
+      <div class="invite-code" id="inviteCode">${escapeHtml(known.inviteCode)}</div>
+      <p class="rule-explain small">Friends open Urdu Safar → Leaderboard → Join with a code.</p>
+      <div class="btn-row">
+        <button class="btn" id="copyBtn">Copy code</button>
+        <button class="btn primary" id="shareBtn">Share invite</button>
       </div>
-      <div class="card">
-        <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Delete account</div>
-        <p class="rule-explain" style="margin-bottom:10px;">Permanently deletes your account, your friend-group membership, and every score synced to it. Your on-device practice progress is not affected. This can't be undone.</p>
-        <div class="btn-row"><button class="btn danger" id="deleteAcctBtn">Delete my account</button></div>
-      </div>
-    `;
-    document.getElementById("logoutBtn").addEventListener("click", async ()=>{ await logOut(); go({view:"leaderboard", homeTab:backTab}); });
-    document.getElementById("deleteAcctBtn").addEventListener("click", async ()=>{
-      if(!window.confirm("Delete your account and all its synced data? This can't be undone.")) return;
-      const password = window.prompt("Re-enter your password to confirm:");
-      if(!password) return;
-      try{
-        await deleteAccountEverywhere(password);
-        window.alert("Your account has been deleted.");
-        go({view:"leaderboard", homeTab:backTab});
-      }catch(e){ window.alert("Couldn't delete the account — check the password and your connection, then try again."); }
-    });
+      <p class="form-msg" id="shareMsg" role="status"></p>
+    </div>
+    <div id="memberHost"><div class="card"><p class="rule-explain">Loading members…</p></div></div>
+  `;
+  document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"leaderboard" }));
+  const shareMsg = document.getElementById("shareMsg");
+  document.getElementById("copyBtn").addEventListener("click", async ()=>{
+    const ok = await copyText(known.inviteCode);
+    shareMsg.textContent = ok ? "Code copied." : "Couldn't copy — read the code out instead.";
+    shareMsg.className = "form-msg " + (ok ? "good" : "bad");
+  });
+  document.getElementById("shareBtn").addEventListener("click", async ()=>{
+    const r = await shareInvite(known);
+    if(r === "copied"){ shareMsg.textContent = "Invite message copied — paste it into WhatsApp or SMS."; shareMsg.className = "form-msg good"; }
+    else if(r === "failed"){ shareMsg.textContent = "Sharing isn't available — use Copy code instead."; shareMsg.className = "form-msg bad"; }
+  });
+  drawGroupMembers(groupId, known);
+}
+async function drawGroupMembers(groupId, known){
+  const host = document.getElementById("memberHost");
+  let res;
+  try{ res = await fetchGroup(groupId); }
+  catch(e){
+    if(host.isConnected) host.innerHTML = `<div class="card"><p class="rule-explain">Couldn't load the group — check your internet connection.</p><div class="btn-row"><button class="btn" id="retryBtn">Try again</button></div></div>`;
+    const rb = document.getElementById("retryBtn");
+    if(rb) rb.addEventListener("click", ()=> drawGroupMembers(groupId, known));
     return;
   }
-  app.innerHTML = `
-    <div class="back-row"><button class="back-btn" id="backHome">&larr; Home</button></div>
-    <div class="topic-head"><span class="ur-title ur">اکاؤنٹ</span><span class="en-title">Account</span></div>
+  if(!host.isConnected) return;
+  if(!res){
+    dropPlayerGroup(groupId);
+    host.innerHTML = `<div class="card"><p class="rule-explain">This group is no longer available — it was deleted, or the owner removed you. It's been taken off your list.</p><div class="btn-row"><button class="btn primary" id="okBtn">OK</button></div></div>`;
+    document.getElementById("okBtn").addEventListener("click", ()=> go({ view:"leaderboard" }));
+    return;
+  }
+  const { group } = res;
+  if(group.name && group.name !== known.name){
+    setPlayerGroups(playerGroups().map(g => g.groupId === groupId ? Object.assign({}, g, { name: group.name }) : g));
+  }
+  const isOwner = group.ownerUid === fbUser.uid;
+  const members = res.members.filter(m => (group.memberUids||[]).includes(m.id));
+  host.innerHTML = `
     <div class="card">
-      <p class="rule-explain" style="margin-bottom:10px;">Optional — the app works fully offline as a guest. Sign in only if you want a real friend-group leaderboard that syncs across devices.</p>
-      <input type="email" id="acctEmail" class="nick-input" placeholder="Email" autocomplete="email" />
-      <input type="password" id="acctPassword" class="nick-input" placeholder="Password (6+ characters)" autocomplete="current-password" style="margin-top:8px;" />
-      <p class="rule-explain" id="acctError" style="color:#B3261E;display:none;"></p>
-      <div class="btn-row" style="margin-top:10px;">
-        <button class="btn primary" id="loginBtn">Log in</button>
-        <button class="btn" id="signupBtn">Sign up</button>
+      <div class="rule-title" style="font-size:15px;margin-bottom:6px;">Members <span class="hint">(${members.length})</span></div>
+      ${members.map((m,i)=> lbRowHtml(m, i, { ownerUid: group.ownerUid, canRemove: isOwner })).join("")}
+      <div class="btn-row"><button class="btn" id="refreshBtn">Refresh</button></div>
+    </div>
+    <div class="card">
+      <div class="btn-row">
+        <button class="btn" id="leaveBtn">Leave group</button>
+        ${isOwner ? `<button class="btn danger" id="deleteGroupBtn">Delete group</button>` : ""}
       </div>
+      ${isOwner ? `<p class="rule-explain small">You're the owner: you can remove members, or delete the group for everyone.</p>` : ""}
     </div>
   `;
-  document.getElementById("backHome").addEventListener("click", ()=> go({view:"home", homeTab:backTab}));
-  const errEl = document.getElementById("acctError");
-  const showErr = (msg)=>{ errEl.textContent = msg; errEl.style.display = "block"; };
-  document.getElementById("loginBtn").addEventListener("click", async ()=>{
-    const email = document.getElementById("acctEmail").value.trim();
-    const password = document.getElementById("acctPassword").value;
-    if(!email || !password){ showErr("Enter your email and password."); return; }
-    try{ await logIn(email, password); go({view:"leaderboard", homeTab:backTab}); }
-    catch(e){ showErr("Couldn't log in — check your email and password."); }
+  document.getElementById("refreshBtn").addEventListener("click", ()=> drawGroupMembers(groupId, known));
+  document.getElementById("leaveBtn").addEventListener("click", async ()=>{
+    const msg = isOwner && members.length > 1
+      ? `Leave "${group.name}"? You're the owner — the group will carry on without an owner, so nobody will be able to remove members. To close it instead, use Delete group.`
+      : `Leave "${group.name}"?`;
+    if(!window.confirm(msg)) return;
+    const lb = document.getElementById("leaveBtn"); lb.disabled = true; lb.textContent = "Leaving…";
+    await leaveGroup(groupId);
+    go({ view:"leaderboard" });
   });
-  document.getElementById("signupBtn").addEventListener("click", async ()=>{
-    const email = document.getElementById("acctEmail").value.trim();
-    const password = document.getElementById("acctPassword").value;
-    if(!email || password.length < 6){ showErr("Enter an email and a password of at least 6 characters."); return; }
-    try{ await signUp(email, password, player ? player.nickname : email.split("@")[0]); go({view:"leaderboard", homeTab:backTab}); }
-    catch(e){ showErr(e && e.code === "auth/email-already-in-use" ? "That email already has an account — try logging in instead." : "Couldn't sign up — check your connection and try again."); }
+  const del = document.getElementById("deleteGroupBtn");
+  if(del) del.addEventListener("click", async ()=>{
+    if(!window.confirm(`Delete "${group.name}" for everyone? Members' scores in this group will be removed. This can't be undone.`)) return;
+    del.disabled = true; del.textContent = "Deleting…";
+    try{ await deleteGroup(groupId); go({ view:"leaderboard" }); }
+    catch(e){ del.disabled = false; del.textContent = "Delete group"; window.alert("Couldn't delete the group — check your connection and try again."); }
   });
+  host.querySelectorAll("[data-remove]").forEach(btn => btn.addEventListener("click", async ()=>{
+    if(!window.confirm(`Remove ${btn.dataset.name} from the group?`)) return;
+    btn.disabled = true; btn.textContent = "removing…";
+    try{ await removeMember(groupId, btn.dataset.remove); drawGroupMembers(groupId, known); }
+    catch(e){ window.alert("Couldn't remove the member — check your connection and try again."); }
+  }));
+}
+
+function renderGroupForm(mode){
+  if(!fbUser){ go({ view:"signin", next:{ view: mode === "create" ? "groupCreate" : "groupJoin" } }); return; }
+  const create = mode === "create";
+  app.innerHTML = `
+    <div class="back-row"><button class="back-btn" id="backBtn">&larr; Leaderboard</button></div>
+    <div class="topic-head"><span class="ur-title ur">${create ? "نیا گروپ" : "گروپ میں شامل ہوں"}</span><span class="en-title">${create ? "Create a group" : "Join a group"}</span></div>
+    <div class="card auth-card">
+      ${create ? `
+        <label class="field-label" for="fGroup">Group name <span class="hint">(members will see this)</span></label>
+        <input type="text" id="fGroup" class="nick-input" maxlength="30" placeholder="e.g. Class 10-B Urdu" autocomplete="off" />
+        <p class="rule-explain small">You'll get a 6-letter invite code to share. Groups are private — only people with the code can join, and there's no chat.</p>
+        <div class="btn-row"><button class="btn primary" id="submitBtn">Create group</button></div>
+      ` : `
+        <label class="field-label" for="fCode">Invite code</label>
+        <input type="text" id="fCode" class="nick-input invite-input" maxlength="8" placeholder="ABC123" autocomplete="off" autocapitalize="characters" />
+        <p class="rule-explain small">Ask the person who created the group for their 6-character code.</p>
+        <div class="btn-row"><button class="btn primary" id="submitBtn">Join group</button></div>
+      `}
+      <p class="form-msg" id="formMsg" role="alert"></p>
+    </div>
+  `;
+  document.getElementById("backBtn").addEventListener("click", ()=> go({ view:"leaderboard" }));
+  const msg = document.getElementById("formMsg");
+  const say = (t, good)=>{ msg.textContent = t; msg.className = "form-msg " + (good ? "good" : "bad"); };
+  const input = document.getElementById(create ? "fGroup" : "fCode");
+  if(!create) input.addEventListener("input", ()=>{ input.value = normalizeGroupCode(input.value); });
+  input.focus();
+  const submit = document.getElementById("submitBtn");
+  const run = async ()=>{
+    submit.disabled = true;
+    try{
+      if(create){
+        const name = cleanName(input.value, 30);
+        if(name.length < 2){ submit.disabled = false; say("Give the group a name of at least 2 characters."); return; }
+        say("Creating…", true);
+        const g = await createGroup(name);
+        go({ view:"group", groupId: g.groupId, fresh: true });
+      } else {
+        say("Joining…", true);
+        const g = await joinGroupByCode(input.value);
+        go({ view:"group", groupId: g.groupId });
+      }
+    }catch(e){
+      submit.disabled = false;
+      const m = e && e.message;
+      say(m === "limit" ? `You're already in ${MAX_GROUPS} groups — leave one first.`
+        : m === "not-found" ? "No group has that code — double-check it with your friend."
+        : m === "format" ? "Invite codes are 6 letters/numbers."
+        : "Couldn't reach the server — check your internet connection.");
+    }
+  };
+  submit.addEventListener("click", run);
+  input.addEventListener("keydown", e=>{ if(e.key === "Enter") run(); });
 }
 
 function renderHome(){
@@ -773,7 +1200,7 @@ function renderHome(){
     </div>
 
     <div class="player-row">
-      <span class="player-name">👤 ${player.nickname} <button class="link-btn" id="editNameBtn">edit</button>${player.group ? ` · 👥 ${player.group}` : ''}</span>
+      <span class="player-name">👤 ${escapeHtml(player.nickname)} <button class="link-btn" id="editNameBtn">edit</button>${fbUser ? (playerGroups().length ? ` · 👥 ${playerGroups().length} group${playerGroups().length>1?'s':''}` : ` · signed in`) : ` · <button class="link-btn" id="homeSignIn">sign in</button>`}</span>
       <button class="btn lb-btn" id="lbBtn">🏆 Leaderboard</button>
     </div>
 
@@ -806,7 +1233,7 @@ function renderHome(){
 
     <div id="homeTabHost"></div>
 
-    <footer class="note">More content from the Kawish course books will be added here over time — this is version 1.</footer>
+    <footer class="note">Version 1.1 — 37 topics. More practice will be added over time.</footer>
   `;
 
   app.querySelectorAll("[data-hometab]").forEach(el=>{
@@ -815,13 +1242,10 @@ function renderHome(){
   document.getElementById("lbBtn").addEventListener("click", ()=> go({ view:"leaderboard", homeTab: tab }));
   document.getElementById("editNameBtn").addEventListener("click", ()=>{
     const nn = window.prompt("Update your nickname:", player.nickname);
-    if(nn && nn.trim()){
-      player.nickname = nn.trim().slice(0,20);
-      savePlayer(player);
-      refreshPlayerLeaderboardEntry();
-      render();
-    }
+    if(nn && updateDisplayName(nn)) render();
   });
+  const homeSignIn = document.getElementById("homeSignIn");
+  if(homeSignIn) homeSignIn.addEventListener("click", ()=> go({ view:"signin", next:{ view:"home", homeTab: tab } }));
 
   const host = document.getElementById("homeTabHost");
   if(tab === "essays") drawEssaysGrid(host);
@@ -1877,15 +2301,19 @@ function runTransformation(host, topic, level){
       return;
     }
     const item = items[ti];
+    // Exam format (3248 Paper 2, Ex.1): a half-written second sentence with
+    // a gap — the student supplies only the missing words.
+    const stem = item.stem ? item.stem.replace("____", `<span class="stem-gap" id="stemGap">______</span>`) : "";
     host.innerHTML = `
       ${dotsHtml(total, ti)}
       <div class="card">
-        <div class="qmeta"><span>Sentence ${ti+1} of ${items.length}</span><span>Transformation</span></div>
+        <div class="qmeta"><span>Sentence ${ti+1} of ${items.length}</span><span>${item.stem ? "Complete the sentence" : "Transformation"}</span></div>
         ${cfg.hint ? `<div class="translation-hint" style="direction:ltr;">Hint: ${topic.grammarPoint.en}</div>` : ''}
         <div class="translation-hint">"${item.en}"</div>
         <div class="prompt-ur ur">${item.original}</div>
-        <div class="translation-hint ur" style="font-size:15px;font-weight:600;color:var(--ink);direction:rtl;">${item.instruction_ur} <span style="color:var(--ink-soft);font-weight:400;">(${item.instruction_en})</span></div>
-        <input type="text" id="tInput" class="nick-input ur" dir="rtl" placeholder="اپنا جواب یہاں لکھیں..." autocomplete="off" />
+        <div class="translation-hint ur" style="font-size:15px;font-weight:600;color:var(--ink);direction:rtl;">${item.instruction_ur} <bdi dir="ltr" style="color:var(--ink-soft);font-weight:400;font-family:'Karla',sans-serif;font-size:13px;">(${item.instruction_en})</bdi></div>
+        ${item.stem ? `<div class="prompt-ur ur stem-line">${stem}</div>` : ''}
+        <input type="text" id="tInput" class="nick-input ur" dir="rtl" placeholder="${item.stem ? 'خالی جگہ کے الفاظ لکھیں...' : 'اپنا جواب یہاں لکھیں...'}" autocomplete="off" />
         <div class="btn-row"><button class="btn primary" id="checkBtn">Check</button></div>
         <div id="fb"></div>
       </div>
@@ -1893,12 +2321,18 @@ function runTransformation(host, topic, level){
     const input = document.getElementById("tInput");
     input.focus();
     const check = ()=>{
-      const ok = isShortAnswerCorrect(input.value, item.answers);
+      // A gap answer is a word or two, so the lenient substring match used for
+      // free rewrites would accept far too much — require an exact match.
+      const ok = item.stem
+        ? item.answers.some(a => normalizeAnswer(a) === normalizeAnswer(input.value))
+        : isShortAnswerCorrect(input.value, item.answers);
       if(ok) correct++;
       input.disabled = true;
       document.getElementById("checkBtn").disabled = true;
+      const gap = document.getElementById("stemGap");
+      if(gap){ gap.textContent = item.answers[0]; gap.classList.add(ok ? "good" : "bad"); }
       document.getElementById("fb").innerHTML = `<div class="feedback ${ok?'good':'bad'}">${ok?'Correct!':'Accepted answer: '+item.answers[0]}</div>`;
-      setTimeout(()=>{ ti++; drawQ(); }, 1200);
+      setTimeout(()=>{ ti++; drawQ(); }, item.stem ? 1800 : 1200);
     };
     document.getElementById("checkBtn").addEventListener("click", check);
     input.addEventListener("keydown", e=>{ if(e.key==="Enter") check(); });
@@ -2196,6 +2630,7 @@ function runExtendedWriting(host, topic){
         <div class="rule-title">Writing task</div>
         <div class="prompt-ur ur" style="text-align:right;font-size:19px;">${prompt.ur}</div>
         <div class="prompt-en" style="text-align:left;">${prompt.en}</div>
+        ${prompt.points ? `<ul class="task-points ur">${prompt.points.map(p=>`<li>${p}</li>`).join("")}</ul>` : ''}
         <table class="ex" style="margin-top:10px;">
           <tr><td class="gloss">Purpose</td><td class="gloss" style="text-align:right;direction:rtl;">${prompt.purpose}</td></tr>
           <tr><td class="gloss">Format</td><td class="gloss" style="text-align:right;direction:rtl;">${prompt.format}</td></tr>
@@ -2204,19 +2639,25 @@ function runExtendedWriting(host, topic){
       </div>
       <div class="card">
         <div class="rule-title">Your composition</div>
-        <p class="rule-explain">About 200 words, in continuous prose.</p>
+        <p class="rule-explain">About ${prompt.words || 200} words${prompt.points ? ", covering every point above" : ", in continuous prose"}. <span id="ewCount" class="word-count">0 words</span></p>
         <textarea class="creative-ta" dir="rtl" id="ewInput" placeholder="اپنی تحریر یہاں لکھیں..." style="min-height:220px;"></textarea>
         <div class="btn-row"><button class="btn primary" id="compareBtn">Compare with model composition</button></div>
       </div>
     `;
     document.getElementById("compareBtn").addEventListener("click", drawCompare);
+    const ta = document.getElementById("ewInput");
+    const counter = document.getElementById("ewCount");
+    ta.addEventListener("input", ()=>{
+      const n = (ta.value.trim().match(/\S+/g) || []).length;
+      counter.textContent = `${n} word${n===1?'':'s'}`;
+    });
   }
 
   function drawCompare(){
     host.innerHTML = `
       <div class="card">
-        <div class="rule-title">Model composition</div>
-        <div class="ur sample-text">${modelResponse.replace(/\n/g,"<br><br>")}</div>
+        <div class="rule-title">Model ${prompt.format && /email|ای میل|letter|خط/i.test(prompt.format) ? "answer" : "composition"}</div>
+        <div class="ur sample-text">${modelResponse.split(/\n{2,}/).map(par=>par.replace(/\n/g,"<br>")).join("<br><br>")}</div>
       </div>
       <div class="card">
         <div class="rule-title">Self-check</div>
@@ -2669,12 +3110,17 @@ function renderGrammar(host, topic, level){
 /* ======================================================================
    MAIN RENDER
    ====================================================================== */
+const AUTH_FORMS = ["signin", "signup", "forgot"];
 function render(){
+  if(AUTH_FORMS.includes(route.view)){ renderAuth(route.view); return; }
   if(!player){ renderSignup(); return; }
   if(route.view === "home") renderHome();
   else if(route.view === "skill") renderSkill();
   else if(route.view === "leaderboard") renderLeaderboard();
   else if(route.view === "account") renderAccount();
+  else if(route.view === "group") renderGroup();
+  else if(route.view === "groupCreate") renderGroupForm("create");
+  else if(route.view === "groupJoin") renderGroupForm("join");
   else if(route.view === "vocabpractice") renderVocabPractice();
   else if(route.view === "readingskills") renderReadingSkills();
   else if(route.view === "grammarlab") renderGrammarLab();
@@ -2685,5 +3131,6 @@ function render(){
 }
 
 initFirebaseAuthListener();
+hist(() => history.replaceState({ r: route, d: 0 }, ""));
 render();
 })();

@@ -1,0 +1,116 @@
+{
+  "id": "deosai-plains",
+  "ur": "قدرتی جنت",
+  "en": "A Natural Paradise",
+  "grammarPoint": {
+    "ur": "ممانعت کے مختلف انداز (منع ہے / اجازت نہیں / پابندی ہے)",
+    "en": "Different ways of saying something is forbidden"
+  },
+  "cloze": {
+    "passage": "دیوسائی میں شکار کرنا سختی سے منع (1)_____ ۔ اگر آپ کو ریچھ نظر آئے تو اس کے قریب (2)_____ جائیں۔ یہاں سال کے آٹھ مہینے برف (3)_____ رہتی ہے۔ جون (4)_____ ستمبر تک ہی یہاں جانا ممکن ہے۔ ہمیں اس خوبصورت جگہ کو صاف (5)_____ چاہیے۔",
+    "gaps": [
+      {
+        "opts": [
+          "ہے",
+          "ہیں",
+          "تھا",
+          "ہو"
+        ],
+        "a": 0,
+        "en": "شکار کرنا (an infinitive) takes the singular ہے"
+      },
+      {
+        "opts": [
+          "نہ",
+          "نہیں",
+          "مت کرو",
+          "کبھی"
+        ],
+        "a": 0,
+        "en": "polite prohibition: نہ جائیں"
+      },
+      {
+        "opts": [
+          "جمی",
+          "جما",
+          "جمے",
+          "جمتا"
+        ],
+        "a": 0,
+        "en": "برف is feminine: برف جمی رہتی ہے"
+      },
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "پر",
+          "میں"
+        ],
+        "a": 0,
+        "en": "سے … تک = from … until"
+      },
+      {
+        "opts": [
+          "رکھنا",
+          "رکھتا",
+          "رکھو",
+          "رکھی"
+        ],
+        "a": 0,
+        "en": "infinitive before چاہیے: صاف رکھنا چاہیے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "پارک میں شکار کرنا منع ہے۔",
+      "stem": "پارک میں شکار کرنے کی ____ نہیں ہے۔",
+      "instruction_ur": "دوسرا جملہ اس طرح مکمل کریں کہ مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "اجازت"
+      ],
+      "en": "Hunting is forbidden in the park."
+    },
+    {
+      "original": "رات کو یہاں گاڑی چلانے کی اجازت نہیں۔",
+      "stem": "رات کو یہاں گاڑی چلانے پر ____ ہے۔",
+      "instruction_ur": "متبادل لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with an alternative word",
+      "answers": [
+        "پابندی"
+      ],
+      "en": "Driving here at night is not allowed."
+    },
+    {
+      "original": "اگر سیاح کچرا پھینکیں گے تو پارک گندا ہو جائے گا۔",
+      "stem": "سیاح کچرا نہ پھینکیں ____ پارک گندا ہو جائے گا۔",
+      "instruction_ur": "مناسب حرفِ ربط لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a suitable linking word (‘otherwise’)",
+      "answers": [
+        "ورنہ"
+      ],
+      "en": "If tourists throw litter, the park will become dirty."
+    },
+    {
+      "original": "یہ میدان بہت کشادہ ہے۔",
+      "stem": "یہ میدان بہت ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "وسیع"
+      ],
+      "en": "This plain is very spacious."
+    },
+    {
+      "original": "سردیوں میں دیوسائی جانا ممکن نہیں ہوتا۔",
+      "stem": "سردیوں میں دیوسائی جانا ____ ہوتا ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملے کو مثبت بنائیں",
+      "instruction_en": "Use the opposite word to turn the negative into a positive",
+      "answers": [
+        "ناممکن"
+      ],
+      "en": "It is not possible to go to Deosai in winter."
+    }
+  ]
+}

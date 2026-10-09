@@ -1,0 +1,88 @@
+{
+  "id": "scouting",
+  "ur": "اسکاؤٹنگ",
+  "en": "Scouting",
+  "warmup": [
+    {
+      "en": "We pitched a tent.",
+      "bank": [
+        "لگایا",
+        "خیمہ",
+        "نے",
+        "ہم"
+      ],
+      "answer": [
+        "ہم",
+        "نے",
+        "خیمہ",
+        "لگایا"
+      ]
+    },
+    {
+      "en": "Scouts help others.",
+      "bank": [
+        "کرتے ہیں",
+        "مدد",
+        "دوسروں کی",
+        "اسکاؤٹ"
+      ],
+      "answer": [
+        "اسکاؤٹ",
+        "دوسروں کی",
+        "مدد",
+        "کرتے ہیں"
+      ]
+    },
+    {
+      "en": "Bring a warm jacket.",
+      "bank": [
+        "لائیں",
+        "جیکٹ",
+        "گرم"
+      ],
+      "answer": [
+        "گرم",
+        "جیکٹ",
+        "لائیں"
+      ]
+    },
+    {
+      "en": "Phones are not allowed.",
+      "bank": [
+        "نہیں",
+        "اجازت",
+        "فون کی",
+        "ہے"
+      ],
+      "answer": [
+        "فون کی",
+        "اجازت",
+        "نہیں",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Always be prepared.",
+      "bank": [
+        "رہو",
+        "تیار",
+        "ہمیشہ"
+      ],
+      "answer": [
+        "ہمیشہ",
+        "تیار",
+        "رہو"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Scouting began in 1907, when Robert Baden-Powell took a group of boys camping on a small island in England. He believed that young people learn best by doing things for themselves in the open air. Today there are tens of millions of scouts around the world. At camp, scouts learn to pitch tents, cook their own food, read maps and give first aid, but the most important lessons are teamwork, discipline and service to others. The scout motto, ‘Be Prepared’, reminds them to be ready to help at any moment. In Pakistan, scouts have worked as volunteers during earthquakes and floods, carrying supplies and caring for families who lost their homes.",
+    "modelUr": "اسکاؤٹنگ کا آغاز 1907ء میں ہوا، جب رابرٹ بیڈن پاول لڑکوں کے ایک گروہ کو انگلینڈ کے ایک چھوٹے سے جزیرے پر کیمپ کے لیے لے گئے۔ ان کا خیال تھا کہ نوجوان کھلی فضا میں اپنے کام خود کر کے سب سے بہتر سیکھتے ہیں۔ آج دنیا بھر میں کروڑوں اسکاؤٹ موجود ہیں۔ کیمپ میں اسکاؤٹ خیمے لگانا، اپنا کھانا خود پکانا، نقشے پڑھنا اور ابتدائی طبی امداد دینا سیکھتے ہیں، لیکن سب سے اہم سبق ٹیم ورک، نظم و ضبط اور دوسروں کی خدمت ہیں۔ اسکاؤٹ کا نعرہ ‘تیار رہو’ انہیں یاد دلاتا ہے کہ وہ ہر لمحے مدد کے لیے تیار رہیں۔ پاکستان میں اسکاؤٹس نے زلزلوں اور سیلابوں کے دوران رضاکاروں کے طور پر کام کیا ہے، امدادی سامان پہنچایا ہے اور ان خاندانوں کی دیکھ بھال کی ہے جن کے گھر تباہ ہو گئے تھے۔",
+    "checklist": [
+      "کیا آپ نے ‘tens of millions’ کا ترجمہ ‘کروڑوں’ سے کیا؟",
+      "کیا ‘learn best by doing things for themselves’ کا مفہوم درست ادا ہوا؟",
+      "کیا ‘families who lost their homes’ کے لیے ‘جن کے… ’ والی ساخت استعمال کی؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

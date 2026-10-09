@@ -1,0 +1,98 @@
+{
+  "id": "helen-keller",
+  "ur": "ہیلن کیلر",
+  "en": "Helen Keller",
+  "warmup": [
+    {
+      "en": "Helen could not see.",
+      "bank": [
+        "سکتی",
+        "دیکھ",
+        "ہیلن",
+        "تھیں",
+        "نہیں"
+      ],
+      "answer": [
+        "ہیلن",
+        "دیکھ",
+        "نہیں",
+        "سکتی",
+        "تھیں"
+      ]
+    },
+    {
+      "en": "Her teacher was very patient.",
+      "bank": [
+        "صابر",
+        "استانی",
+        "تھیں",
+        "ان کی",
+        "بہت"
+      ],
+      "answer": [
+        "ان کی",
+        "استانی",
+        "بہت",
+        "صابر",
+        "تھیں"
+      ]
+    },
+    {
+      "en": "She learned through touch.",
+      "bank": [
+        "سیکھا",
+        "لمس",
+        "انہوں نے",
+        "کے ذریعے"
+      ],
+      "answer": [
+        "انہوں نے",
+        "لمس",
+        "کے ذریعے",
+        "سیکھا"
+      ]
+    },
+    {
+      "en": "She wrote many books.",
+      "bank": [
+        "لکھیں",
+        "کتابیں",
+        "کئی",
+        "انہوں نے"
+      ],
+      "answer": [
+        "انہوں نے",
+        "کئی",
+        "کتابیں",
+        "لکھیں"
+      ]
+    },
+    {
+      "en": "Nothing is impossible.",
+      "bank": [
+        "ناممکن",
+        "ہے",
+        "کچھ",
+        "نہیں",
+        "بھی"
+      ],
+      "answer": [
+        "کچھ",
+        "بھی",
+        "ناممکن",
+        "نہیں",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Helen Keller was born in the United States in 1880. When she was a baby, a serious illness left her unable to see or hear. For several years she lived in a silent, dark world and could not communicate with anyone. Everything changed when a young teacher called Anne Sullivan came to live with her family. Anne spelled words into Helen's hand with her fingers, and one day, as cold water poured over Helen's other hand, she suddenly understood that the letters meant ‘water’. From that moment Helen was eager to learn the name of everything. She went on to learn Braille, to speak and to graduate from college. Later she travelled around the world, encouraging people to give disabled children the same chances as everyone else.",
+    "modelUr": "ہیلن کیلر 1880ء میں امریکہ میں پیدا ہوئیں۔ جب وہ ابھی بچی تھیں تو ایک سنگین بیماری کی وجہ سے وہ دیکھنے اور سننے کے قابل نہ رہیں۔ کئی سال تک وہ ایک خاموش اور اندھیری دنیا میں رہیں اور کسی سے بات چیت نہیں کر سکتی تھیں۔ سب کچھ اس وقت بدل گیا جب این سلیوان نامی ایک نوجوان استانی ان کے خاندان کے ساتھ رہنے آئیں۔ این انگلیوں سے ہیلن کے ہاتھ پر الفاظ کے ہجے کرتیں، اور ایک دن جب ہیلن کے دوسرے ہاتھ پر ٹھنڈا پانی بہہ رہا تھا تو انہیں اچانک سمجھ آ گیا کہ ان حروف کا مطلب ‘پانی’ ہے۔ اس لمحے سے ہیلن ہر چیز کا نام جاننے کے لیے بے تاب ہو گئیں۔ آگے چل کر انہوں نے بریل سیکھی، بولنا سیکھا اور کالج سے ڈگری حاصل کی۔ بعد میں انہوں نے دنیا بھر کا سفر کیا اور لوگوں کو ترغیب دی کہ وہ معذور بچوں کو بھی دوسروں جیسے مواقع دیں۔",
+    "checklist": [
+      "کیا ‘left her unable to see or hear’ کا مفہوم ‘دیکھنے اور سننے کے قابل نہ رہیں’ جیسی ساخت سے ادا ہوا؟",
+      "کیا ‘spelled words into Helen's hand’ کا ترجمہ فطری انداز میں ہوا؟",
+      "کیا آپ نے ہیلن کے لیے احتراماً جمع کا صیغہ (رہیں، سیکھی، کیا) مستقل استعمال کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

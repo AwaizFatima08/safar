@@ -1,0 +1,116 @@
+{
+  "id": "solar-energy",
+  "ur": "سورج کی طاقت",
+  "en": "The Power of the Sun",
+  "grammarPoint": {
+    "ur": "موازنہ: ‘سے زیادہ / سے کم / سب سے’ اور ‘جتنا… اتنا’",
+    "en": "Comparison: ‘more / less than’, superlatives and ‘the more… the more’"
+  },
+  "cloze": {
+    "passage": "شمسی توانائی کوئلے (1)_____ کہیں زیادہ صاف ہے۔ سورج توانائی کا (2)_____ بڑا ذریعہ ہے۔ آج کل سولر پینل پہلے سے (3)_____ مہنگے ہیں، اس لیے زیادہ لوگ انہیں لگوا رہے ہیں۔ جتنی دھوپ تیز ہو، (4)_____ ہی زیادہ بجلی بنتی ہے۔ ہمارے گاؤں میں پچھلے سال سولر پینل (5)_____ گئے۔",
+    "gaps": [
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "میں",
+          "کا"
+        ],
+        "a": 0,
+        "en": "Comparison with سے: کوئلے سے زیادہ صاف"
+      },
+      {
+        "opts": [
+          "سب سے",
+          "سے کم",
+          "بہت کم",
+          "جتنا"
+        ],
+        "a": 0,
+        "en": "Superlative: سب سے بڑا"
+      },
+      {
+        "opts": [
+          "کم",
+          "زیادہ",
+          "بہت",
+          "سب"
+        ],
+        "a": 0,
+        "en": "Context: cheaper now, so more people buy"
+      },
+      {
+        "opts": [
+          "اتنی",
+          "جتنی",
+          "کتنی",
+          "ایسی"
+        ],
+        "a": 0,
+        "en": "جتنی … اتنی = the more … the more"
+      },
+      {
+        "opts": [
+          "لگائے",
+          "لگایا",
+          "لگائی",
+          "لگاتے"
+        ],
+        "a": 0,
+        "en": "Plural masculine passive: پینل لگائے گئے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "کوئلہ شمسی توانائی سے زیادہ آلودگی پھیلاتا ہے۔",
+      "stem": "شمسی توانائی کوئلے سے ____ آلودگی پھیلاتی ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "کم"
+      ],
+      "en": "Coal causes more pollution than solar energy."
+    },
+    {
+      "original": "شروع میں سولر سسٹم قیمتی لگتا ہے۔",
+      "stem": "شروع میں سولر سسٹم ____ لگتا ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "مہنگا"
+      ],
+      "en": "At first a solar system seems expensive."
+    },
+    {
+      "original": "کوئی بھی ذریعہ سورج جتنا بڑا نہیں۔",
+      "stem": "سورج توانائی کا ____ بڑا ذریعہ ہے۔",
+      "instruction_ur": "صفتِ تفضیلِ کل استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using the superlative",
+      "answers": [
+        "سب سے"
+      ],
+      "en": "No source is as big as the sun."
+    },
+    {
+      "original": "شمسی توانائی سستی ہے۔",
+      "stem": "شمسی توانائی ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "مہنگی"
+      ],
+      "en": "Solar energy is cheap."
+    },
+    {
+      "original": "انجینئروں نے اسکول کی چھت پر پینل لگائے۔",
+      "stem": "اسکول کی چھت پر پینل ____ گئے۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "لگائے"
+      ],
+      "en": "Engineers installed panels on the school roof."
+    }
+  ]
+}

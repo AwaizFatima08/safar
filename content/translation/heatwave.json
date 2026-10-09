@@ -1,0 +1,92 @@
+{
+  "id": "heatwave",
+  "ur": "گرمی کی لہر",
+  "en": "Heatwave",
+  "warmup": [
+    {
+      "en": "It is very hot today.",
+      "bank": [
+        "گرمی",
+        "ہے",
+        "آج",
+        "بہت"
+      ],
+      "answer": [
+        "آج",
+        "بہت",
+        "گرمی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Drink water every hour.",
+      "bank": [
+        "پئیں",
+        "گھنٹے",
+        "پانی",
+        "ہر"
+      ],
+      "answer": [
+        "ہر",
+        "گھنٹے",
+        "پانی",
+        "پئیں"
+      ]
+    },
+    {
+      "en": "Do not go out in the sun.",
+      "bank": [
+        "نکلیں",
+        "میں",
+        "نہ",
+        "دھوپ"
+      ],
+      "answer": [
+        "دھوپ",
+        "میں",
+        "نہ",
+        "نکلیں"
+      ]
+    },
+    {
+      "en": "Wear light cotton clothes.",
+      "bank": [
+        "پہنیں",
+        "کپڑے",
+        "سوتی",
+        "ہلکے"
+      ],
+      "answer": [
+        "ہلکے",
+        "سوتی",
+        "کپڑے",
+        "پہنیں"
+      ]
+    },
+    {
+      "en": "Trees keep the city cool.",
+      "bank": [
+        "رکھتے ہیں",
+        "ٹھنڈا",
+        "شہر کو",
+        "درخت"
+      ],
+      "answer": [
+        "درخت",
+        "شہر کو",
+        "ٹھنڈا",
+        "رکھتے ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Every summer, large parts of Pakistan suffer from heatwaves, and temperatures in some cities rise above 45 degrees. In June 2015, a severe heatwave in Karachi took hundreds of lives, most of them elderly people and labourers. Doctors say that the greatest danger in such weather is dehydration. People should drink water regularly, even if they do not feel thirsty, and they should avoid going out between noon and four o'clock. Light, loose cotton clothes help the body stay cool. If someone feels dizzy or stops sweating, they should be moved into the shade at once and given first aid. In the long run, planting trees and building parks can make our cities cooler and safer.",
+    "modelUr": "ہر سال گرمیوں میں پاکستان کے بڑے حصے گرمی کی لہروں کا شکار ہوتے ہیں، اور بعض شہروں میں درجۂ حرارت 45 ڈگری سے بھی اوپر چلا جاتا ہے۔ جون 2015ء میں کراچی میں گرمی کی ایک شدید لہر نے سینکڑوں جانیں لے لیں، جن میں زیادہ تر بزرگ اور مزدور تھے۔ ڈاکٹروں کا کہنا ہے کہ ایسے موسم میں سب سے بڑا خطرہ پانی کی کمی ہے۔ لوگوں کو باقاعدگی سے پانی پینا چاہیے، چاہے انہیں پیاس محسوس نہ ہو، اور دوپہر بارہ سے چار بجے تک باہر نکلنے سے پرہیز کرنا چاہیے۔ ہلکے اور ڈھیلے سوتی کپڑے جسم کو ٹھنڈا رکھنے میں مدد دیتے ہیں۔ اگر کسی کو چکر آئیں یا اس کا پسینہ رک جائے تو اسے فوراً سائے میں لے جانا چاہیے اور ابتدائی طبی امداد دینی چاہیے۔ طویل مدت میں درخت لگا کر اور پارک بنا کر ہم اپنے شہروں کو زیادہ ٹھنڈا اور محفوظ بنا سکتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘should’ کا ترجمہ ‘چاہیے’ سے کیا؟",
+      "کیا ‘even if they do not feel thirsty’ کے لیے ‘چاہے… نہ’ استعمال کیا؟",
+      "کیا ‘took hundreds of lives’ کا محاورہ دار ترجمہ (جانیں لے لیں) کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

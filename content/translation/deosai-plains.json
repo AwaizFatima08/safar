@@ -1,0 +1,102 @@
+{
+  "id": "deosai-plains",
+  "ur": "دیوسائی",
+  "en": "Deosai",
+  "warmup": [
+    {
+      "en": "Deosai is very high.",
+      "bank": [
+        "ہے",
+        "بلند",
+        "دیوسائی",
+        "بہت"
+      ],
+      "answer": [
+        "دیوسائی",
+        "بہت",
+        "بلند",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Do not feed the animals.",
+      "bank": [
+        "کھانا",
+        "دیں",
+        "جانوروں",
+        "نہ",
+        "کو"
+      ],
+      "answer": [
+        "جانوروں",
+        "کو",
+        "کھانا",
+        "نہ",
+        "دیں"
+      ]
+    },
+    {
+      "en": "Flowers bloom in summer.",
+      "bank": [
+        "کھلتے",
+        "میں",
+        "پھول",
+        "گرمیوں",
+        "ہیں"
+      ],
+      "answer": [
+        "گرمیوں",
+        "میں",
+        "پھول",
+        "کھلتے",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "We saw a brown bear.",
+      "bank": [
+        "ریچھ",
+        "دیکھا",
+        "ہم نے",
+        "بھورا",
+        "ایک"
+      ],
+      "answer": [
+        "ہم نے",
+        "ایک",
+        "بھورا",
+        "ریچھ",
+        "دیکھا"
+      ]
+    },
+    {
+      "en": "The road is closed in winter.",
+      "bank": [
+        "رہتا",
+        "بند",
+        "راستہ",
+        "میں",
+        "ہے",
+        "سردیوں"
+      ],
+      "answer": [
+        "سردیوں",
+        "میں",
+        "راستہ",
+        "بند",
+        "رہتا",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Deosai is a high plateau in Gilgit-Baltistan, lying between Skardu and Astore. For most of the year it is buried under deep snow, and the road is open only from June to September. During these few months the plain turns green, and millions of wildflowers cover the ground in shades of yellow, purple and white. Deosai is best known as the home of the Himalayan brown bear. Because the bears were once hunted almost to extinction here, the area was made a national park in 1993, and their number has slowly increased since then. Visitors can camp beside the clear streams or by Sheosar Lake, but they must follow the park rules: they should not hunt, light fires or leave any rubbish behind.",
+    "modelUr": "دیوسائی گلگت بلتستان میں سکردو اور استور کے درمیان واقع ایک بلند سطح مرتفع ہے۔ سال کے بیشتر حصے میں یہ گہری برف تلے دبا رہتا ہے، اور راستہ صرف جون سے ستمبر تک کھلتا ہے۔ ان چند مہینوں میں میدان سرسبز ہو جاتا ہے اور لاکھوں جنگلی پھول پیلے، جامنی اور سفید رنگوں میں زمین کو ڈھانپ لیتے ہیں۔ دیوسائی سب سے زیادہ ہمالیائی بھورے ریچھ کے مسکن کے طور پر مشہور ہے۔ چونکہ کبھی یہاں ریچھوں کا اتنا شکار کیا گیا کہ وہ تقریباً ختم ہو گئے تھے، اس لیے 1993ء میں اس علاقے کو قومی پارک بنا دیا گیا، اور تب سے ان کی تعداد آہستہ آہستہ بڑھی ہے۔ سیاح صاف شفاف ندیوں کے کنارے یا شیوسر جھیل کے پاس خیمے لگا سکتے ہیں، لیکن انہیں پارک کے قواعد کی پابندی کرنی چاہیے: وہ نہ شکار کریں، نہ آگ جلائیں اور نہ ہی کوئی کچرا پیچھے چھوڑیں۔",
+    "checklist": [
+      "کیا آپ نے ‘plateau’ اور ‘national park’ کے لیے درست اصطلاحات (سطح مرتفع، قومی پارک) استعمال کیں؟",
+      "کیا ‘hunted almost to extinction’ کا مفہوم رواں اردو میں ادا ہوا؟",
+      "کیا آخری جملے میں ممانعت کو ‘نہ … نہ …’ یا اسی طرح کی ساخت سے ظاہر کیا؟",
+      "کیا ترجمہ مکمل اور فطری اردو میں ہے؟"
+    ]
+  }
+}

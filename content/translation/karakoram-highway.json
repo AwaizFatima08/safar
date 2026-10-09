@@ -1,0 +1,108 @@
+{
+  "id": "karakoram-highway",
+  "ur": "شاہراہِ قراقرم",
+  "en": "The Karakoram Highway",
+  "warmup": [
+    {
+      "en": "The road goes through the mountains.",
+      "bank": [
+        "ہے",
+        "سے",
+        "گزرتی",
+        "سڑک",
+        "پہاڑوں"
+      ],
+      "answer": [
+        "سڑک",
+        "پہاڑوں",
+        "سے",
+        "گزرتی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "It was very cold at Khunjerab.",
+      "bank": [
+        "سردی",
+        "پر",
+        "بہت",
+        "تھی",
+        "خنجراب"
+      ],
+      "answer": [
+        "خنجراب",
+        "پر",
+        "بہت",
+        "سردی",
+        "تھی"
+      ]
+    },
+    {
+      "en": "The road was closed because of the rain.",
+      "bank": [
+        "تھی",
+        "سے",
+        "بند",
+        "وجہ",
+        "سڑک",
+        "کی",
+        "بارش"
+      ],
+      "answer": [
+        "بارش",
+        "کی",
+        "وجہ",
+        "سے",
+        "سڑک",
+        "بند",
+        "تھی"
+      ]
+    },
+    {
+      "en": "We saw a beautiful lake.",
+      "bank": [
+        "دیکھی",
+        "جھیل",
+        "ہم",
+        "خوبصورت",
+        "ایک",
+        "نے"
+      ],
+      "answer": [
+        "ہم",
+        "نے",
+        "ایک",
+        "خوبصورت",
+        "جھیل",
+        "دیکھی"
+      ]
+    },
+    {
+      "en": "Trade between the two countries increased.",
+      "bank": [
+        "بڑھی",
+        "میں",
+        "تجارت",
+        "ملکوں",
+        "دونوں"
+      ],
+      "answer": [
+        "دونوں",
+        "ملکوں",
+        "میں",
+        "تجارت",
+        "بڑھی"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Karakoram Highway is one of the most remarkable roads in the world. It links Pakistan with China and climbs through some of the highest mountains on Earth before crossing the border at the Khunjerab Pass. Building it was extremely dangerous: workers had to cut through solid rock in freezing temperatures, and hundreds of them lost their lives. Today the highway is busy with trucks carrying goods between the two countries, as well as tourists who come to enjoy the breathtaking scenery. Travellers should be prepared, however, because landslides often block the road after heavy rain. Before setting off, it is wise to check the weather, carry warm clothes and keep enough fuel, since petrol stations are few and far between in the higher valleys.",
+    "modelUr": "شاہراہِ قراقرم دنیا کی سب سے حیرت انگیز سڑکوں میں سے ایک ہے۔ یہ پاکستان کو چین سے ملاتی ہے اور درۂ خنجراب پر سرحد عبور کرنے سے پہلے زمین کے بلند ترین پہاڑوں میں سے کچھ کے بیچ سے گزرتی ہوئی اوپر چڑھتی ہے۔ اس کی تعمیر انتہائی خطرناک تھی: مزدوروں کو جما دینے والی سردی میں ٹھوس چٹانیں کاٹنی پڑیں، اور ان میں سے سینکڑوں نے اپنی جانیں گنوا دیں۔ آج یہ شاہراہ دونوں ملکوں کے درمیان سامان لے جانے والے ٹرکوں کے ساتھ ساتھ اُن سیاحوں سے بھی آباد رہتی ہے جو یہاں کے دم بخود کر دینے والے مناظر سے لطف اندوز ہونے آتے ہیں۔ البتہ مسافروں کو تیار رہنا چاہیے، کیونکہ تیز بارش کے بعد اکثر لینڈ سلائیڈ سے سڑک بند ہو جاتی ہے۔ روانگی سے پہلے موسم معلوم کر لینا، گرم کپڑے ساتھ رکھنا اور مناسب ایندھن رکھنا عقلمندی ہے، کیونکہ اونچی وادیوں میں پیٹرول پمپ بہت کم اور ایک دوسرے سے دور ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘remarkable’ اور ‘breathtaking scenery’ کے لیے موزوں اردو الفاظ چنے؟",
+      "کیا ‘lost their lives’ کا ترجمہ مناسب محاورے (جانیں گنوانا / جاں بحق ہونا) سے کیا؟",
+      "کیا ‘however’ اور ‘since’ جیسے ربط کے الفاظ کا درست ترجمہ ہوا (البتہ، کیونکہ)؟",
+      "کیا ترجمہ رواں ہے اور انگریزی جملوں کی ترتیب کی نقل نہیں؟"
+    ]
+  }
+}

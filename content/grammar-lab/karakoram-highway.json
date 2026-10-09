@@ -1,0 +1,119 @@
+{
+  "id": "karakoram-highway",
+  "ur": "پہاڑوں کا راستہ",
+  "en": "The Road Through the Mountains",
+  "grammarPoint": {
+    "ur": "مترادف الفاظ، ‘کی وجہ سے’ اور ‘اگرچہ … لیکن’",
+    "en": "Synonyms, ‘because of’, and ‘although … but’"
+  },
+  "cloze": {
+    "passage": "شاہراہِ قراقرم دنیا کی (1)_____ ترین سڑکوں میں سے ایک ہے۔ (2)_____ ہم ہنزہ پہنچے تو راکاپوشی برف سے ڈھکی ہوئی تھی۔ بارش (3)_____ وجہ سے کئی جگہ سڑک بند تھی۔ اگرچہ سفر لمبا تھا (4)_____ نظارے اتنے حسین تھے کہ تھکاوٹ کا احساس نہ ہوا۔ ہم نے سوست میں رات (5)_____ ۔",
+    "gaps": [
+      {
+        "opts": [
+          "بلند",
+          "بلندی",
+          "بلندیاں",
+          "بلند سے"
+        ],
+        "a": 0,
+        "en": "ترین attaches to the adjective: بلند ترین (highest)"
+      },
+      {
+        "opts": [
+          "جب",
+          "اگر",
+          "کیونکہ",
+          "تاکہ"
+        ],
+        "a": 0,
+        "en": "جب … تو for a time clause"
+      },
+      {
+        "opts": [
+          "کی",
+          "کا",
+          "کے",
+          "کو"
+        ],
+        "a": 0,
+        "en": "وجہ is feminine: بارش کی وجہ سے"
+      },
+      {
+        "opts": [
+          "لیکن",
+          "اور",
+          "کیونکہ",
+          "تو"
+        ],
+        "a": 0,
+        "en": "اگرچہ … لیکن = although … (but)"
+      },
+      {
+        "opts": [
+          "گزاری",
+          "گزارا",
+          "گزارے",
+          "گزرتی"
+        ],
+        "a": 0,
+        "en": "رات is feminine: رات گزاری"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "پہاڑوں میں یہ سڑک بنانا بہت مشکل تھا۔",
+      "stem": "پہاڑوں میں یہ سڑک بنانا بہت ____ تھا۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "دشوار",
+        "کٹھن"
+      ],
+      "en": "Building this road in the mountains was very difficult."
+    },
+    {
+      "original": "سڑک بند تھی کیونکہ لینڈ سلائیڈ ہوئی تھی۔",
+      "stem": "لینڈ سلائیڈ کی ____ سے سڑک بند تھی۔",
+      "instruction_ur": "‘کیونکہ’ کو ‘کی وجہ سے’ میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by changing ‘because’ to ‘because of’",
+      "answers": [
+        "وجہ"
+      ],
+      "en": "The road was closed because there had been a landslide."
+    },
+    {
+      "original": "سفر لمبا تھا مگر ہم تھکے نہیں۔",
+      "stem": "____ سفر لمبا تھا، لیکن ہم تھکے نہیں۔",
+      "instruction_ur": "مناسب حرفِ ربط لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a suitable conjunction",
+      "answers": [
+        "اگرچہ",
+        "حالانکہ"
+      ],
+      "en": "The journey was long, but we didn't get tired."
+    },
+    {
+      "original": "ہم نے 2019ء میں پہلی بار ہنزہ دیکھا۔",
+      "stem": "ہم نے 2019ء سے پہلے کبھی ہنزہ ____ دیکھا تھا۔",
+      "instruction_ur": "منفی ساخت میں جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete in the negative, keeping the meaning",
+      "answers": [
+        "نہیں"
+      ],
+      "en": "We saw Hunza for the first time in 2019."
+    },
+    {
+      "original": "خنجراب کی بلندی تقریباً 4700 میٹر ہے۔",
+      "stem": "خنجراب تقریباً 4700 میٹر ____ ہے۔",
+      "instruction_ur": "اسم کو صفت میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete by turning the noun into an adjective",
+      "answers": [
+        "بلند",
+        "اونچا"
+      ],
+      "en": "The height of Khunjerab is about 4,700 metres."
+    }
+  ]
+}

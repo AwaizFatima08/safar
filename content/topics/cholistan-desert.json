@@ -1,0 +1,269 @@
+{
+  "id": "cholistan-desert",
+  "ur": "صحرائے چولستان",
+  "en": "The Cholistan Desert",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ چولستان کے لوگ بارش کا پانی ‘ٹوبوں’ یعنی کچے تالابوں میں جمع کرتے ہیں اور مہینوں تک اسی پانی سے گزارا کرتے ہیں۔",
+    "en": "Did you know? The people of Cholistan collect rainwater in ‘tobas’ (earthen ponds) and live on that water for months."
+  },
+  "vocab": [
+    {
+      "ur": "صحرا",
+      "en": "desert",
+      "ex_ur": "چولستان پاکستان کا ایک بڑا صحرا ہے۔",
+      "ex_en": "Cholistan is a large desert in Pakistan.",
+      "syn": "ریگستان"
+    },
+    {
+      "ur": "ریت کے ٹیلے",
+      "en": "sand dunes",
+      "ex_ur": "ہوا ریت کے ٹیلوں کی شکل بدل دیتی ہے۔",
+      "ex_en": "The wind changes the shape of the sand dunes."
+    },
+    {
+      "ur": "اونٹ",
+      "en": "camel",
+      "ex_ur": "اونٹ کئی دن پانی کے بغیر رہ سکتا ہے۔",
+      "ex_en": "A camel can go many days without water."
+    },
+    {
+      "ur": "پانی کی قلت",
+      "en": "water shortage",
+      "ex_ur": "صحرا میں پانی کی قلت ایک بڑا مسئلہ ہے۔",
+      "ex_en": "Water shortage is a big problem in the desert."
+    },
+    {
+      "ur": "خانہ بدوش",
+      "en": "nomad",
+      "ex_ur": "خانہ بدوش لوگ اپنے جانوروں کے ساتھ جگہ بدلتے رہتے ہیں۔",
+      "ex_en": "Nomadic people keep moving with their animals."
+    },
+    {
+      "ur": "مویشی",
+      "en": "livestock",
+      "ex_ur": "چولستان کے لوگ مویشی پالتے ہیں۔",
+      "ex_en": "The people of Cholistan raise livestock."
+    },
+    {
+      "ur": "قلعہ",
+      "en": "fort",
+      "ex_ur": "دراوڑ کا قلعہ صحرا کے بیچ کھڑا ہے۔",
+      "ex_en": "Derawar Fort stands in the middle of the desert."
+    },
+    {
+      "ur": "تپش",
+      "en": "heat (intense)",
+      "ex_ur": "گرمیوں میں دن کی تپش ناقابلِ برداشت ہوتی ہے۔",
+      "ex_en": "The daytime heat in summer is unbearable.",
+      "syn": "گرمی"
+    },
+    {
+      "ur": "دستکاری",
+      "en": "handicraft",
+      "ex_ur": "چولستانی خواتین خوبصورت دستکاری کرتی ہیں۔",
+      "ex_en": "Cholistani women make beautiful handicrafts."
+    },
+    {
+      "ur": "مقابلہ",
+      "en": "competition / race",
+      "ex_ur": "ہر سال یہاں جیپ ریلی کا مقابلہ ہوتا ہے۔",
+      "ex_en": "Every year a jeep rally race is held here."
+    }
+  ],
+  "reading": {
+    "passage": "صحرائے چولستان جنوبی پنجاب میں بہاولپور کے قریب واقع ہے۔ مقامی لوگ اسے ‘روہی’ بھی کہتے ہیں۔ یہاں پانی کی شدید قلت ہے، اس لیے لوگ بارش کا پانی ٹوبوں میں جمع کرتے ہیں۔ چولستان کے زیادہ تر لوگ مویشی پالتے ہیں اور اونٹ ان کا سب سے قیمتی جانور ہے۔ صحرا کے بیچ دراوڑ کا عظیم قلعہ کھڑا ہے جس کے چالیس برج دور سے نظر آتے ہیں۔ ہر سال فروری میں یہاں جیپ ریلی ہوتی ہے جسے دیکھنے ہزاروں لوگ آتے ہیں۔",
+    "questions": [
+      {
+        "q": "چولستان کس شہر کے قریب ہے؟",
+        "opts": [
+          "بہاولپور",
+          "لاہور",
+          "پشاور",
+          "کوئٹہ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "مقامی لوگ چولستان کو کیا کہتے ہیں؟",
+        "opts": [
+          "تھر",
+          "روہی",
+          "تھل",
+          "خاران"
+        ],
+        "a": 1
+      },
+      {
+        "q": "چولستان کے لوگوں کا سب سے قیمتی جانور کون سا ہے؟",
+        "opts": [
+          "گھوڑا",
+          "بکری",
+          "اونٹ",
+          "گائے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "جیپ ریلی کس مہینے میں ہوتی ہے؟",
+        "opts": [
+          "جون",
+          "اگست",
+          "دسمبر",
+          "فروری"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "صحرا",
+          "ہے",
+          "بڑا",
+          "چولستان",
+          "ایک"
+        ],
+        "answer": [
+          "چولستان",
+          "ایک",
+          "بڑا",
+          "صحرا",
+          "ہے"
+        ],
+        "en": "Cholistan is a big desert."
+      },
+      {
+        "bank": [
+          "پالتے",
+          "لوگ",
+          "ہیں",
+          "مویشی",
+          "یہاں کے"
+        ],
+        "answer": [
+          "یہاں کے",
+          "لوگ",
+          "مویشی",
+          "پالتے",
+          "ہیں"
+        ],
+        "en": "The people here raise livestock."
+      },
+      {
+        "bank": [
+          "قلت",
+          "ہے",
+          "کی",
+          "پانی",
+          "صحرا میں"
+        ],
+        "answer": [
+          "صحرا میں",
+          "پانی",
+          "کی",
+          "قلت",
+          "ہے"
+        ],
+        "en": "There is a shortage of water in the desert."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "____ کئی دن پانی کے بغیر رہ سکتا ہے۔",
+        "opts": [
+          "اونٹ",
+          "مچھلی",
+          "طوطا",
+          "مینڈک"
+        ],
+        "a": 0,
+        "en": "A ___ can go many days without water."
+      },
+      {
+        "text": "لوگ بارش کا پانی ____ میں جمع کرتے ہیں۔",
+        "opts": [
+          "ٹوبوں",
+          "بادلوں",
+          "پہاڑوں",
+          "کتابوں"
+        ],
+        "a": 0,
+        "en": "People collect rainwater in ___."
+      },
+      {
+        "text": "ہوا ریت کے ____ کی شکل بدل دیتی ہے۔",
+        "opts": [
+          "ٹیلوں",
+          "درختوں",
+          "دریاؤں",
+          "گھروں"
+        ],
+        "a": 0,
+        "en": "The wind changes the shape of the sand ___."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ ایک دن صحرا میں گزاریں تو سب سے مشکل کام کیا ہوگا؟ تین جملے لکھیں۔",
+      "en": "If you spent a day in the desert, what would be the hardest thing? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ماضی استمراری — Habitual past (‘used to’): کیا کرتے تھے",
+    "explain": "For things that happened regularly in the past, use the present participle + تھا/تھی/تھے: لوگ اونٹوں پر سفر کرتے تھے (people used to travel on camels). For emphasis, Urdu also uses the ‘کیا کرنا’ form: وہ روز کنویں پر جایا کرتی تھی (she used to go to the well every day).",
+    "rows": [
+      [
+        "پرانے زمانے میں لوگ اونٹوں پر سفر کرتے تھے۔",
+        "In the old days, people used to travel on camels."
+      ],
+      [
+        "عورتیں دور سے پانی لاتی تھیں۔",
+        "Women used to fetch water from far away."
+      ],
+      [
+        "قافلے دراوڑ کے قلعے پر رکا کرتے تھے۔",
+        "Caravans used to stop at Derawar Fort."
+      ],
+      [
+        "دادا جان ہمیں صحرا کی کہانیاں سنایا کرتے تھے۔",
+        "Grandfather used to tell us stories of the desert."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "پرانے زمانے میں لوگ کنویں سے پانی ____ تھے۔",
+        "opts": [
+          "نکالتے",
+          "نکالا",
+          "نکالیں",
+          "نکالے گا"
+        ],
+        "a": 0,
+        "en": "In the old days, people used to draw water from wells."
+      },
+      {
+        "q": "میری نانی ہر شام کہانی سنایا ____ تھیں۔",
+        "opts": [
+          "کرتی",
+          "کرتا",
+          "کیا",
+          "کرو"
+        ],
+        "a": 0,
+        "en": "My grandmother used to tell a story every evening."
+      },
+      {
+        "q": "بچپن میں ہم صحرا میں پتنگ ____ تھے۔",
+        "opts": [
+          "اڑاتے",
+          "اڑایا",
+          "اڑائیں",
+          "اڑائی"
+        ],
+        "a": 0,
+        "en": "As children, we used to fly kites in the desert."
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "earthquake-safety",
+  "ur": "آفت کے وقت",
+  "en": "In Times of Disaster",
+  "grammarPoint": {
+    "ur": "‘کے دوران / سے پہلے / کے بعد’ اور ‘کے بجائے’",
+    "en": "‘During / before / after’ and ‘instead of’"
+  },
+  "cloze": {
+    "passage": "زلزلے کے (1)_____ لفٹ کا استعمال خطرناک ہے۔ جھٹکے رکنے کے (2)_____ ہی عمارت سے باہر نکلیں۔ گھبراہٹ کے (3)_____ سکون سے کام لیں۔ ہمیں زلزلے سے (4)_____ ہی تیاری کر لینی چاہیے۔ اسکول میں ہر سال مشق (5)_____ جاتی ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "دوران",
+          "بعد",
+          "پہلے",
+          "آخر"
+        ],
+        "a": 0,
+        "en": "کے دوران = during"
+      },
+      {
+        "opts": [
+          "بعد",
+          "دوران",
+          "اندر",
+          "ساتھ"
+        ],
+        "a": 0,
+        "en": "رکنے کے بعد = after (they) stop"
+      },
+      {
+        "opts": [
+          "بجائے",
+          "باوجود",
+          "علاوہ",
+          "خلاف"
+        ],
+        "a": 0,
+        "en": "کے بجائے = instead of"
+      },
+      {
+        "opts": [
+          "پہلے",
+          "بعد",
+          "دوران",
+          "اوپر"
+        ],
+        "a": 0,
+        "en": "زلزلے سے پہلے = before the earthquake"
+      },
+      {
+        "opts": [
+          "کی",
+          "کیا",
+          "کیے",
+          "کرتی"
+        ],
+        "a": 0,
+        "en": "مشق is feminine: مشق کی جاتی ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "جب زلزلہ آ رہا ہو تو لفٹ استعمال نہ کریں۔",
+      "stem": "زلزلے کے ____ لفٹ استعمال نہ کریں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "دوران"
+      ],
+      "en": "Do not use the lift while an earthquake is happening."
+    },
+    {
+      "original": "گھبرائیں نہیں، بلکہ سکون سے کام لیں۔",
+      "stem": "گھبرانے کے ____ سکون سے کام لیں۔",
+      "instruction_ur": "‘کے بجائے’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘instead of’",
+      "answers": [
+        "بجائے"
+      ],
+      "en": "Don't panic — stay calm instead."
+    },
+    {
+      "original": "جھٹکے رکے، پھر ہم باہر نکلے۔",
+      "stem": "جھٹکے رکنے کے ____ ہم باہر نکلے۔",
+      "instruction_ur": "دو جملوں کو ملا کر ایک جملہ مکمل کریں",
+      "instruction_en": "Combine into one sentence using ‘after’",
+      "answers": [
+        "بعد"
+      ],
+      "en": "The tremors stopped; then we went outside."
+    },
+    {
+      "original": "زلزلے میں بوکھلاہٹ سے نقصان بڑھ جاتا ہے۔",
+      "stem": "زلزلے میں ____ سے نقصان بڑھ جاتا ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "گھبراہٹ"
+      ],
+      "en": "Panic increases the harm in an earthquake."
+    },
+    {
+      "original": "اسکول نے پچھلے ماہ زلزلے کی مشق کروائی۔",
+      "stem": "پچھلے ماہ اسکول میں زلزلے کی مشق ____ گئی۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کروائی",
+        "کی"
+      ],
+      "en": "The school held an earthquake drill last month."
+    }
+  ]
+}

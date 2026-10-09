@@ -1,0 +1,119 @@
+{
+  "id": "kalash-valley",
+  "ur": "کیلاش کی ثقافت",
+  "en": "Kalash Culture",
+  "grammarPoint": {
+    "ur": "مترادف الفاظ، موازنہ اور ‘کے بغیر’ کی ساخت",
+    "en": "Synonyms, comparison and the ‘…کے بغیر’ (without) construction"
+  },
+  "cloze": {
+    "passage": "کیلاش کی وادیاں اپنی خوبصورتی (1)_____ مشہور ہیں۔ یہاں کے لوگ ہر سال کئی تہوار (2)_____ ہیں۔ سیاحوں کو مقامی لوگوں کی تصویر اجازت کے (3)_____ نہیں لینی چاہیے۔ کیلاش خواتین کا لباس (4)_____ رنگین ہوتا ہے کہ دور سے پہچانا جاتا ہے۔ ہمیں ان کی ثقافت (5)_____ احترام کرنا چاہیے۔",
+    "gaps": [
+      {
+        "opts": [
+          "کی وجہ سے",
+          "کے لیے",
+          "کے ساتھ",
+          "کے پاس"
+        ],
+        "a": 0,
+        "en": "because of — کی وجہ سے gives the reason"
+      },
+      {
+        "opts": [
+          "مناتے",
+          "مناتی",
+          "منایا",
+          "منائے"
+        ],
+        "a": 0,
+        "en": "celebrate — لوگ is masculine plural, so مناتے ہیں"
+      },
+      {
+        "opts": [
+          "بغیر",
+          "ساتھ",
+          "بعد",
+          "لیے"
+        ],
+        "a": 0,
+        "en": "without — اجازت کے بغیر means ‘without permission’"
+      },
+      {
+        "opts": [
+          "اتنا",
+          "جتنا",
+          "کتنا",
+          "اتنی"
+        ],
+        "a": 0,
+        "en": "so — اتنا … کہ means ‘so … that’; لباس is masculine"
+      },
+      {
+        "opts": [
+          "کا",
+          "کی",
+          "کے",
+          "کو"
+        ],
+        "a": 0,
+        "en": "احترام is masculine, so ثقافت کا احترام"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "کیلاش کی ثقافت دنیا میں سب سے الگ ہے۔",
+      "stem": "کیلاش کی ثقافت دنیا میں ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete with a synonym, keeping the meaning",
+      "answers": [
+        "منفرد",
+        "انوکھی",
+        "نرالی"
+      ],
+      "en": "Kalash culture is unlike any other in the world."
+    },
+    {
+      "original": "اس نے تصویر کھینچی لیکن اجازت نہیں لی۔",
+      "stem": "اس نے اجازت ____ تصویر کھینچ لی۔",
+      "instruction_ur": "‘بغیر’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘without’",
+      "answers": [
+        "لیے بغیر",
+        "کے بغیر"
+      ],
+      "en": "He took the photo but didn't ask permission."
+    },
+    {
+      "original": "سیاح پچھلے سال پہلی بار بمبوریت آئے تھے۔",
+      "stem": "سیاح پچھلے سال سے پہلے کبھی بمبوریت ____ آئے تھے۔",
+      "instruction_ur": "مثبت جملے کو منفی ساخت میں بدل کر مکمل کریں",
+      "instruction_en": "Complete by turning ‘for the first time’ into a negative",
+      "answers": [
+        "نہیں"
+      ],
+      "en": "The tourists came to Bumburet for the first time last year."
+    },
+    {
+      "original": "کیلاش کے لوگ مہمانوں کی بہت عزت کرتے ہیں۔",
+      "stem": "کیلاش کے لوگ مہمانوں کا بہت ____ کرتے ہیں۔",
+      "instruction_ur": "مترادف لفظ لگائیں — دھیان رہے کہ ‘کی’ اب ‘کا’ ہو گیا ہے",
+      "instruction_en": "Use a synonym — note that کی has become کا",
+      "answers": [
+        "احترام"
+      ],
+      "en": "The Kalash people greatly respect their guests."
+    },
+    {
+      "original": "بمبوریت تینوں وادیوں میں سب سے بڑی ہے۔",
+      "stem": "رمبور اور بریر، بمبوریت سے ____ ہیں۔",
+      "instruction_ur": "موازنہ الٹ کر جملہ مکمل کریں",
+      "instruction_en": "Complete by reversing the comparison",
+      "answers": [
+        "چھوٹی"
+      ],
+      "en": "Bumburet is the largest of the three valleys."
+    }
+  ]
+}

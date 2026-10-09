@@ -1,0 +1,106 @@
+{
+  "id": "mohenjo-daro",
+  "ur": "موئن جو دڑو",
+  "en": "Mohenjo-daro",
+  "warmup": [
+    {
+      "en": "Mohenjo-daro is in Sindh.",
+      "bank": [
+        "میں",
+        "سندھ",
+        "موئن جو دڑو",
+        "ہے"
+      ],
+      "answer": [
+        "موئن جو دڑو",
+        "سندھ",
+        "میں",
+        "ہے"
+      ]
+    },
+    {
+      "en": "The city was very well planned.",
+      "bank": [
+        "بہت",
+        "منصوبہ بندی",
+        "کی",
+        "شہر",
+        "اچھی",
+        "تھی"
+      ],
+      "answer": [
+        "شہر",
+        "کی",
+        "منصوبہ بندی",
+        "بہت",
+        "اچھی",
+        "تھی"
+      ]
+    },
+    {
+      "en": "The houses were made of bricks.",
+      "bank": [
+        "تھے",
+        "اینٹوں",
+        "گھر",
+        "بنے",
+        "سے"
+      ],
+      "answer": [
+        "گھر",
+        "اینٹوں",
+        "سے",
+        "بنے",
+        "تھے"
+      ]
+    },
+    {
+      "en": "Many seals were found here.",
+      "bank": [
+        "ملیں",
+        "مہریں",
+        "سی",
+        "یہاں",
+        "بہت"
+      ],
+      "answer": [
+        "یہاں",
+        "بہت",
+        "سی",
+        "مہریں",
+        "ملیں"
+      ]
+    },
+    {
+      "en": "We must protect our heritage.",
+      "bank": [
+        "حفاظت",
+        "ہمیں",
+        "کی",
+        "ورثے",
+        "اپنے",
+        "چاہیے",
+        "کرنی"
+      ],
+      "answer": [
+        "ہمیں",
+        "اپنے",
+        "ورثے",
+        "کی",
+        "حفاظت",
+        "کرنی",
+        "چاہیے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Mohenjo-daro, in the Larkana district of Sindh, was one of the largest cities of the ancient world. It was built about 4,500 years ago by the people of the Indus Valley civilisation. What surprises visitors most is how carefully the city was planned. Its streets were straight, its houses were made of baked bricks, and almost every home was connected to a system of covered drains. Archaeologists have found pottery, jewellery and hundreds of small stone seals, but nobody has yet been able to read the writing on them. In 1980 the site was declared a World Heritage Site. Today salt and rising groundwater are slowly damaging the walls, and experts warn that the ruins must be protected before it is too late.",
+    "modelUr": "سندھ کے ضلع لاڑکانہ میں واقع موئن جو دڑو قدیم دنیا کے سب سے بڑے شہروں میں سے ایک تھا۔ یہ تقریباً ساڑھے چار ہزار سال پہلے وادیٔ سندھ کی تہذیب کے لوگوں نے تعمیر کیا تھا۔ سیاحوں کو سب سے زیادہ حیرت اس بات پر ہوتی ہے کہ یہ شہر کتنی احتیاط سے منصوبہ بندی کے ساتھ بنایا گیا تھا۔ اس کی گلیاں سیدھی تھیں، گھر پکی اینٹوں سے بنے تھے، اور تقریباً ہر گھر ڈھکی ہوئی نالیوں کے نظام سے جڑا ہوا تھا۔ ماہرینِ آثارِ قدیمہ کو یہاں سے مٹی کے برتن، زیورات اور پتھر کی سینکڑوں چھوٹی مہریں ملی ہیں، لیکن ان پر لکھی تحریر ابھی تک کوئی نہیں پڑھ سکا۔ 1980ء میں اس مقام کو عالمی ورثہ قرار دیا گیا۔ آج نمک اور زیرِ زمین پانی کی بلند ہوتی سطح دیواروں کو آہستہ آہستہ نقصان پہنچا رہی ہے، اور ماہرین خبردار کرتے ہیں کہ دیر ہونے سے پہلے ان کھنڈرات کی حفاظت ضروری ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘was built’ اور ‘was declared’ جیسی مجہول ساختوں کا درست ترجمہ کیا (تعمیر کیا گیا، قرار دیا گیا)؟",
+      "کیا ‘archaeologists’ اور ‘World Heritage Site’ کے لیے مناسب اردو اصطلاحات استعمال کیں؟",
+      "کیا ‘nobody has yet been able to read’ کا مفہوم درست منتقل ہوا؟",
+      "کیا جملے رواں اردو میں ہیں اور انگریزی ترتیب کی نقل نہیں؟"
+    ]
+  }
+}

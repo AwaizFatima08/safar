@@ -1,0 +1,94 @@
+{
+  "id": "earthquake-safety",
+  "ur": "زلزلے سے بچاؤ",
+  "en": "Earthquake Safety",
+  "warmup": [
+    {
+      "en": "Stay calm during an earthquake.",
+      "bank": [
+        "رہیں",
+        "زلزلے",
+        "پرسکون",
+        "کے دوران"
+      ],
+      "answer": [
+        "زلزلے",
+        "کے دوران",
+        "پرسکون",
+        "رہیں"
+      ]
+    },
+    {
+      "en": "Hide under a strong table.",
+      "bank": [
+        "چھپ جائیں",
+        "کے نیچے",
+        "میز",
+        "مضبوط"
+      ],
+      "answer": [
+        "مضبوط",
+        "میز",
+        "کے نیچے",
+        "چھپ جائیں"
+      ]
+    },
+    {
+      "en": "Do not use the lift.",
+      "bank": [
+        "استعمال",
+        "لفٹ",
+        "نہ",
+        "کریں"
+      ],
+      "answer": [
+        "لفٹ",
+        "استعمال",
+        "نہ",
+        "کریں"
+      ]
+    },
+    {
+      "en": "Keep an emergency bag ready.",
+      "bank": [
+        "رکھیں",
+        "بیگ",
+        "تیار",
+        "ہنگامی"
+      ],
+      "answer": [
+        "ہنگامی",
+        "بیگ",
+        "تیار",
+        "رکھیں"
+      ]
+    },
+    {
+      "en": "Many buildings fell in 2005.",
+      "bank": [
+        "گریں",
+        "عمارتیں",
+        "میں",
+        "2005ء",
+        "بہت سی"
+      ],
+      "answer": [
+        "2005ء",
+        "میں",
+        "بہت سی",
+        "عمارتیں",
+        "گریں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Earthquakes cannot be predicted, but their damage can be reduced if people know what to do. Pakistan lies in an area where earthquakes are common, and the disaster of October 2005 showed how dangerous weak buildings can be. During an earthquake, the safest thing to do is to drop to the ground, take cover under a strong table and hold on until the shaking stops. People should stay away from windows and heavy furniture, and they should never use a lift. Once the tremors are over, everyone should leave the building calmly by the stairs and move to an open space, because smaller shocks often follow. Every family should keep an emergency bag with water, a torch, medicine and important documents, and schools should practise earthquake drills regularly.",
+    "modelUr": "زلزلوں کی پیش گوئی نہیں کی جا سکتی، لیکن اگر لوگ جانتے ہوں کہ کیا کرنا ہے تو ان سے ہونے والا نقصان کم کیا جا سکتا ہے۔ پاکستان ایسے علاقے میں واقع ہے جہاں زلزلے عام ہیں، اور اکتوبر 2005ء کی تباہی نے دکھا دیا کہ کمزور عمارتیں کتنی خطرناک ہو سکتی ہیں۔ زلزلے کے دوران سب سے محفوظ طریقہ یہ ہے کہ زمین پر جھک جائیں، کسی مضبوط میز کے نیچے پناہ لیں اور جھٹکے رکنے تک اسے تھامے رہیں۔ لوگوں کو کھڑکیوں اور بھاری فرنیچر سے دور رہنا چاہیے، اور لفٹ ہرگز استعمال نہیں کرنی چاہیے۔ جھٹکے ختم ہونے کے بعد سب کو سیڑھیوں کے ذریعے سکون سے عمارت سے نکل کر کسی کھلی جگہ پر چلے جانا چاہیے، کیونکہ اکثر چھوٹے جھٹکے بعد میں بھی آتے ہیں۔ ہر خاندان کو پانی، ٹارچ، دواؤں اور اہم کاغذات پر مشتمل ہنگامی بیگ رکھنا چاہیے، اور اسکولوں کو باقاعدگی سے زلزلے کی مشقیں کروانی چاہییں۔",
+    "checklist": [
+      "کیا آپ نے ‘cannot be predicted’ کا ترجمہ مجہول ساخت (پیش گوئی نہیں کی جا سکتی) سے کیا؟",
+      "کیا ‘drop, take cover and hold on’ کے تینوں مراحل درست ترتیب میں ترجمہ ہوئے؟",
+      "کیا ‘never use a lift’ میں ‘ہرگز’ جیسا تاکیدی لفظ استعمال کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

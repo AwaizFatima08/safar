@@ -1,0 +1,269 @@
+{
+  "id": "indus-dolphin",
+  "ur": "دریائے سندھ کی نابینا ڈولفن",
+  "en": "The Blind Indus River Dolphin",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ دریائے سندھ کی ڈولفن تقریباً نابینا ہوتی ہے اور آواز کی گونج کے ذریعے راستہ اور شکار تلاش کرتی ہے۔",
+    "en": "Did you know? The Indus river dolphin is almost blind and finds its way and its food through echoes of sound."
+  },
+  "vocab": [
+    {
+      "ur": "ڈولفن",
+      "en": "dolphin",
+      "ex_ur": "دریائے سندھ میں ایک خاص قسم کی ڈولفن رہتی ہے۔",
+      "ex_en": "A special kind of dolphin lives in the Indus River."
+    },
+    {
+      "ur": "نابینا",
+      "en": "blind",
+      "ex_ur": "یہ ڈولفن تقریباً نابینا ہوتی ہے۔",
+      "ex_en": "This dolphin is almost blind.",
+      "syn": "اندھا"
+    },
+    {
+      "ur": "گونج",
+      "en": "echo",
+      "ex_ur": "ڈولفن آواز کی گونج سے راستہ تلاش کرتی ہے۔",
+      "ex_en": "The dolphin finds its way by the echo of sound."
+    },
+    {
+      "ur": "بیراج",
+      "en": "barrage",
+      "ex_ur": "دریا پر کئی بیراج بنائے گئے ہیں۔",
+      "ex_en": "Several barrages have been built on the river."
+    },
+    {
+      "ur": "نہر",
+      "en": "canal",
+      "ex_ur": "کبھی کبھی ڈولفن نہر میں پھنس جاتی ہے۔",
+      "ex_en": "Sometimes a dolphin gets trapped in a canal."
+    },
+    {
+      "ur": "آلودگی",
+      "en": "pollution",
+      "ex_ur": "آلودگی دریا کے جانوروں کو نقصان پہنچاتی ہے۔",
+      "ex_en": "Pollution harms the animals of the river."
+    },
+    {
+      "ur": "خطرے سے دوچار",
+      "en": "endangered",
+      "ex_ur": "یہ ڈولفن خطرے سے دوچار جانوروں میں شامل ہے۔",
+      "ex_en": "This dolphin is among endangered animals."
+    },
+    {
+      "ur": "ریسکیو",
+      "en": "rescue",
+      "ex_ur": "ٹیم نے نہر سے ڈولفن کو ریسکیو کیا۔",
+      "ex_en": "The team rescued the dolphin from the canal."
+    },
+    {
+      "ur": "سانس",
+      "en": "breath",
+      "ex_ur": "ڈولفن سانس لینے کے لیے سطح پر آتی ہے۔",
+      "ex_en": "The dolphin comes to the surface to breathe."
+    },
+    {
+      "ur": "آگاہی",
+      "en": "awareness",
+      "ex_ur": "لوگوں میں آگاہی پیدا کرنا ضروری ہے۔",
+      "ex_en": "Creating awareness among people is necessary.",
+      "syn": "شعور"
+    }
+  ],
+  "reading": {
+    "passage": "دریائے سندھ کی ڈولفن دنیا میں صرف پاکستان میں پائی جاتی ہے۔ مقامی لوگ اسے ‘بُلھن’ کہتے ہیں۔ یہ ڈولفن تقریباً نابینا ہوتی ہے اور آواز کی گونج کے ذریعے مچھلیاں تلاش کرتی ہے۔ اسے سانس لینے کے لیے بار بار پانی کی سطح پر آنا پڑتا ہے۔ دریا پر بنے بیراجوں، آلودگی اور پانی کی کمی کی وجہ سے یہ خطرے سے دوچار ہے۔ کبھی کبھی یہ نہروں میں پھنس جاتی ہے، جہاں سے ریسکیو ٹیمیں اسے واپس دریا میں چھوڑتی ہیں۔",
+    "questions": [
+      {
+        "q": "مقامی لوگ اس ڈولفن کو کیا کہتے ہیں؟",
+        "opts": [
+          "بُلھن",
+          "مچھلی",
+          "مہاشیر",
+          "کچھوا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "یہ ڈولفن مچھلیاں کیسے تلاش کرتی ہے؟",
+        "opts": [
+          "آنکھوں سے",
+          "آواز کی گونج سے",
+          "سونگھ کر",
+          "روشنی سے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ڈولفن بار بار سطح پر کیوں آتی ہے؟",
+        "opts": [
+          "کھیلنے کے لیے",
+          "دھوپ کے لیے",
+          "سانس لینے کے لیے",
+          "سونے کے لیے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ریسکیو ٹیمیں کیا کرتی ہیں؟",
+        "opts": [
+          "ڈولفن پکڑ کر بیچتی ہیں",
+          "نہریں بند کرتی ہیں",
+          "نئی ڈولفن لاتی ہیں",
+          "پھنسی ڈولفن کو دریا میں واپس چھوڑتی ہیں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ہے",
+          "نابینا",
+          "ڈولفن",
+          "تقریباً",
+          "یہ"
+        ],
+        "answer": [
+          "یہ",
+          "ڈولفن",
+          "تقریباً",
+          "نابینا",
+          "ہے"
+        ],
+        "en": "This dolphin is almost blind."
+      },
+      {
+        "bank": [
+          "گئی",
+          "ڈولفن",
+          "میں",
+          "پھنس",
+          "نہر"
+        ],
+        "answer": [
+          "ڈولفن",
+          "نہر",
+          "میں",
+          "پھنس",
+          "گئی"
+        ],
+        "en": "The dolphin got trapped in the canal."
+      },
+      {
+        "bank": [
+          "ہے",
+          "نقصان",
+          "آلودگی",
+          "پہنچاتی",
+          "جانوروں کو"
+        ],
+        "answer": [
+          "آلودگی",
+          "جانوروں کو",
+          "نقصان",
+          "پہنچاتی",
+          "ہے"
+        ],
+        "en": "Pollution harms animals."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ڈولفن آواز کی ____ سے راستہ تلاش کرتی ہے۔",
+        "opts": [
+          "گونج",
+          "خوشبو",
+          "روشنی",
+          "گرمی"
+        ],
+        "a": 0,
+        "en": "The dolphin finds its way by the ___ of sound."
+      },
+      {
+        "text": "ڈولفن ____ لینے کے لیے سطح پر آتی ہے۔",
+        "opts": [
+          "سانس",
+          "کھانا",
+          "پانی",
+          "آرام"
+        ],
+        "a": 0,
+        "en": "The dolphin comes to the surface to take a ___."
+      },
+      {
+        "text": "لوگوں میں ____ پیدا کرنا ضروری ہے۔",
+        "opts": [
+          "آگاہی",
+          "غصہ",
+          "ڈر",
+          "تھکاوٹ"
+        ],
+        "a": 0,
+        "en": "It is necessary to create ___ among people."
+      }
+    ],
+    "creative": {
+      "ur": "دریا کو صاف رکھنے کے لیے عام لوگ کیا کر سکتے ہیں؟ تین جملے لکھیں۔",
+      "en": "What can ordinary people do to keep rivers clean? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "کے ذریعے / کی مدد سے — ‘by means of / with the help of’",
+    "explain": "To say how something is done, Urdu uses کے ذریعے (by means of) or کی مدد سے (with the help of) after the noun: آواز کے ذریعے (by means of sound), جال کی مدد سے (with the help of a net). Simple سے can also show the instrument: آنکھوں سے دیکھنا (to see with the eyes).",
+    "rows": [
+      [
+        "ڈولفن آواز کے ذریعے راستہ تلاش کرتی ہے۔",
+        "The dolphin finds its way by means of sound."
+      ],
+      [
+        "ٹیم نے جال کی مدد سے ڈولفن کو نکالا۔",
+        "The team took the dolphin out with the help of a net."
+      ],
+      [
+        "یہ پیغام موبائل فون کے ذریعے بھیجا گیا۔",
+        "This message was sent by mobile phone."
+      ],
+      [
+        "ہم کشتی کے ذریعے دریا پار کرتے ہیں۔",
+        "We cross the river by boat."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ڈولفن آواز کے ____ شکار تلاش کرتی ہے۔",
+        "opts": [
+          "ذریعے",
+          "بغیر",
+          "خلاف",
+          "بعد"
+        ],
+        "a": 0,
+        "en": "The dolphin finds its prey by means of sound."
+      },
+      {
+        "q": "ماہرین نے کشتی کی ____ سے ڈولفنوں کو گنا۔",
+        "opts": [
+          "مدد",
+          "وجہ",
+          "طرح",
+          "جگہ"
+        ],
+        "a": 0,
+        "en": "Experts counted the dolphins with the help of a boat."
+      },
+      {
+        "q": "ہمیں یہ خبر اخبار ____ ملی۔",
+        "opts": [
+          "کے ذریعے",
+          "کے بغیر",
+          "کے خلاف",
+          "کے برعکس"
+        ],
+        "a": 0,
+        "en": "We got this news through the newspaper."
+      }
+    ]
+  }
+}

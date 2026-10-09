@@ -1,0 +1,116 @@
+{
+  "id": "scouting",
+  "ur": "تیار رہو!",
+  "en": "Be Prepared!",
+  "grammarPoint": {
+    "ur": "رسمی درخواست کی زبان اور ‘تاکہ’ سے مقصد",
+    "en": "Formal request language and purpose with ‘taake’"
+  },
+  "cloze": {
+    "passage": "بخدمت جناب پرنسپل صاحب! گزارش ہے کہ مجھے اسکاؤٹ کیمپ میں جانے کی اجازت (1)_____ جائے۔ میں یہ کیمپ اس لیے جانا چاہتا ہوں (2)_____ ابتدائی طبی امداد سیکھ سکوں۔ کیمپ میں ہم خیمہ لگانا اور نقشہ پڑھنا بھی (3)_____۔ میرے والدین نے اجازت نامے پر دستخط کر (4)_____ ہیں۔ براہِ کرم میری درخواست منظور (5)_____۔",
+    "gaps": [
+      {
+        "opts": [
+          "دی",
+          "دیا",
+          "دیے",
+          "دینا"
+        ],
+        "a": 0,
+        "en": "اجازت is feminine → اجازت دی جائے"
+      },
+      {
+        "opts": [
+          "تاکہ",
+          "کیونکہ",
+          "اگر",
+          "جب"
+        ],
+        "a": 0,
+        "en": "تاکہ introduces purpose"
+      },
+      {
+        "opts": [
+          "سیکھیں گے",
+          "سیکھا تھا",
+          "سیکھتا تھا",
+          "سیکھ چکے"
+        ],
+        "a": 0,
+        "en": "Future: سیکھیں گے"
+      },
+      {
+        "opts": [
+          "دیے",
+          "دیا",
+          "دی",
+          "دیں"
+        ],
+        "a": 0,
+        "en": "دستخط is plural masculine → کر دیے ہیں"
+      },
+      {
+        "opts": [
+          "فرمائیں",
+          "کرو",
+          "کرتا",
+          "کیا"
+        ],
+        "a": 0,
+        "en": "Respectful request: منظور فرمائیں"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "میں کیمپ جانا چاہتا ہوں کیونکہ مجھے نئی مہارتیں سیکھنی ہیں۔",
+      "stem": "میں کیمپ جانا چاہتا ہوں ____ نئی مہارتیں سیکھ سکوں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "تاکہ"
+      ],
+      "en": "I want to go to camp because I want to learn new skills."
+    },
+    {
+      "original": "ہمارے گروہ میں آٹھ اسکاؤٹ ہیں۔",
+      "stem": "ہماری ____ میں آٹھ اسکاؤٹ ہیں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "ٹولی"
+      ],
+      "en": "There are eight scouts in our group."
+    },
+    {
+      "original": "مجھے اجازت دیجیے۔",
+      "stem": "مجھے اجازت دی ____۔",
+      "instruction_ur": "رسمی مجہول درخواست میں جملہ مکمل کریں",
+      "instruction_en": "Complete as a formal passive request",
+      "answers": [
+        "جائے"
+      ],
+      "en": "Please give me permission."
+    },
+    {
+      "original": "کیمپ میں موبائل فون لانا منع ہے۔",
+      "stem": "کیمپ میں موبائل فون لانے کی ____ نہیں ہے۔",
+      "instruction_ur": "منفی جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete as a negative without changing the meaning",
+      "answers": [
+        "اجازت"
+      ],
+      "en": "Bringing mobile phones to camp is forbidden."
+    },
+    {
+      "original": "اسکاؤٹ ماسٹر نے کہا، ‘کل صبح چھ بجے پہنچ جانا۔’",
+      "stem": "اسکاؤٹ ماسٹر نے کہا کہ ہم کل صبح چھ بجے ____ جائیں۔",
+      "instruction_ur": "بالواسطہ کلام میں جملہ مکمل کریں",
+      "instruction_en": "Complete in reported speech",
+      "answers": [
+        "پہنچ"
+      ],
+      "en": "The scout master said, ‘Arrive at six tomorrow morning.’"
+    }
+  ]
+}

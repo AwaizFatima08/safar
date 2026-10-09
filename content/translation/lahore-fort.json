@@ -1,0 +1,102 @@
+{
+  "id": "lahore-fort",
+  "ur": "شاہی قلعہ لاہور",
+  "en": "The Lahore Fort",
+  "warmup": [
+    {
+      "en": "The fort is in Lahore.",
+      "bank": [
+        "میں",
+        "ہے",
+        "قلعہ",
+        "لاہور"
+      ],
+      "answer": [
+        "قلعہ",
+        "لاہور",
+        "میں",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Emperor Akbar had it built.",
+      "bank": [
+        "اسے",
+        "اکبر",
+        "بنوایا",
+        "نے",
+        "شہنشاہ"
+      ],
+      "answer": [
+        "شہنشاہ",
+        "اکبر",
+        "نے",
+        "اسے",
+        "بنوایا"
+      ]
+    },
+    {
+      "en": "The walls are very strong.",
+      "bank": [
+        "مضبوط",
+        "دیواریں",
+        "ہیں",
+        "بہت"
+      ],
+      "answer": [
+        "دیواریں",
+        "بہت",
+        "مضبوط",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "We visited the Sheesh Mahal.",
+      "bank": [
+        "سیر",
+        "شیش محل",
+        "کی",
+        "نے",
+        "ہم",
+        "کی"
+      ],
+      "answer": [
+        "ہم",
+        "نے",
+        "شیش محل",
+        "کی",
+        "سیر",
+        "کی"
+      ]
+    },
+    {
+      "en": "The fort is being repaired.",
+      "bank": [
+        "رہی",
+        "مرمت",
+        "ہے",
+        "کی",
+        "قلعے",
+        "کی جا"
+      ],
+      "answer": [
+        "قلعے",
+        "کی",
+        "مرمت",
+        "کی جا",
+        "رہی",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Lahore Fort stands in the north-western corner of the old walled city. Although a fort existed here long before the Mughals, most of what visitors see today was built on the orders of Emperor Akbar in the sixteenth century. Later emperors added palaces, gardens and halls, each trying to make the fort more magnificent than before. The most famous of these is the Sheesh Mahal, or Palace of Mirrors, whose walls are covered with thousands of tiny pieces of glass. When a single candle is lit inside, the whole room seems to sparkle like the night sky. In 1981 the fort was declared a World Heritage Site. Today experts are working hard to repair its old walls, but they need the help of visitors, who must not touch or damage these fragile buildings.",
+    "modelUr": "شاہی قلعہ لاہور کے پرانے فصیل بند شہر کے شمال مغربی کونے میں واقع ہے۔ اگرچہ یہاں مغلوں سے بہت پہلے بھی ایک قلعہ موجود تھا، لیکن آج سیاح جو کچھ دیکھتے ہیں اس کا بیشتر حصہ سولہویں صدی میں شہنشاہ اکبر کے حکم پر تعمیر کیا گیا تھا۔ بعد کے بادشاہوں نے اس میں محلات، باغات اور ایوان شامل کیے، اور ہر ایک نے قلعے کو پہلے سے زیادہ شاندار بنانے کی کوشش کی۔ ان میں سب سے مشہور شیش محل ہے، جس کی دیواریں شیشے کے ہزاروں ننھے ٹکڑوں سے ڈھکی ہوئی ہیں۔ جب اس کے اندر ایک موم بتی جلائی جاتی ہے تو پورا کمرہ رات کے آسمان کی طرح جگمگانے لگتا ہے۔ 1981ء میں اس قلعے کو عالمی ورثہ قرار دیا گیا۔ آج ماہرین اس کی پرانی دیواروں کی مرمت کے لیے سخت محنت کر رہے ہیں، لیکن انہیں سیاحوں کے تعاون کی بھی ضرورت ہے، جنہیں ان نازک عمارتوں کو نہ چھونا چاہیے اور نہ ہی نقصان پہنچانا چاہیے۔",
+    "checklist": [
+      "کیا آپ نے ‘was built on the orders of’ کا ترجمہ مجہول یا بالواسطہ ساخت (حکم پر تعمیر کیا گیا / بنوایا) سے کیا؟",
+      "کیا ‘walled city’ اور ‘Palace of Mirrors’ کے لیے مناسب الفاظ (فصیل بند شہر، شیش محل) استعمال کیے؟",
+      "کیا ‘sparkle like the night sky’ والی تشبیہ رواں اردو میں ادا ہوئی؟",
+      "کیا ترجمہ مکمل ہے اور کوئی جملہ چھوٹا نہیں؟"
+    ]
+  }
+}

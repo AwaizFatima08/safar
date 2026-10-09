@@ -1,0 +1,102 @@
+{
+  "id": "cholistan-desert",
+  "ur": "صحرائے چولستان",
+  "en": "The Cholistan Desert",
+  "warmup": [
+    {
+      "en": "The desert is very hot.",
+      "bank": [
+        "ہے",
+        "گرم",
+        "صحرا",
+        "بہت"
+      ],
+      "answer": [
+        "صحرا",
+        "بہت",
+        "گرم",
+        "ہے"
+      ]
+    },
+    {
+      "en": "People keep camels here.",
+      "bank": [
+        "پالتے",
+        "اونٹ",
+        "یہاں",
+        "لوگ",
+        "ہیں"
+      ],
+      "answer": [
+        "یہاں",
+        "لوگ",
+        "اونٹ",
+        "پالتے",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "They used to collect rainwater.",
+      "bank": [
+        "کرتے",
+        "جمع",
+        "وہ",
+        "پانی",
+        "تھے",
+        "بارش کا"
+      ],
+      "answer": [
+        "وہ",
+        "بارش کا",
+        "پانی",
+        "جمع",
+        "کرتے",
+        "تھے"
+      ]
+    },
+    {
+      "en": "The fort has forty towers.",
+      "bank": [
+        "برج",
+        "ہیں",
+        "کے",
+        "قلعے",
+        "چالیس"
+      ],
+      "answer": [
+        "قلعے",
+        "کے",
+        "چالیس",
+        "برج",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "Thousands of people watch the rally.",
+      "bank": [
+        "ہیں",
+        "لوگ",
+        "ریلی",
+        "دیکھتے",
+        "ہزاروں"
+      ],
+      "answer": [
+        "ہزاروں",
+        "لوگ",
+        "ریلی",
+        "دیکھتے",
+        "ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Cholistan Desert stretches across the south of Punjab, near the city of Bahawalpur. Life here has never been easy. Summer temperatures can reach almost fifty degrees, and it rains only a few times a year. For centuries the people of Cholistan have depended on their animals, especially camels, which can survive for days without water. Families collect rainwater in shallow ponds called tobas, and when these dry up they move with their herds towards the canal areas. In the middle of the desert stands Derawar Fort, whose forty towers can be seen from miles away. Every February the area comes alive with the famous jeep rally, when thousands of visitors arrive to watch the race, enjoy folk music and buy colourful local handicrafts.",
+    "modelUr": "صحرائے چولستان جنوبی پنجاب میں بہاولپور شہر کے قریب پھیلا ہوا ہے۔ یہاں کی زندگی کبھی آسان نہیں رہی۔ گرمیوں میں درجہ حرارت تقریباً پچاس ڈگری تک پہنچ سکتا ہے، اور سال میں صرف چند بار بارش ہوتی ہے۔ صدیوں سے چولستان کے لوگ اپنے جانوروں، خاص طور پر اونٹوں پر انحصار کرتے آئے ہیں، جو کئی دن تک پانی کے بغیر زندہ رہ سکتے ہیں۔ گھرانے بارش کا پانی کم گہرے تالابوں میں جمع کرتے ہیں جنہیں ٹوبے کہا جاتا ہے، اور جب یہ خشک ہو جاتے ہیں تو وہ اپنے ریوڑوں کے ساتھ نہری علاقوں کی طرف چلے جاتے ہیں۔ صحرا کے بیچ دراوڑ کا قلعہ کھڑا ہے، جس کے چالیس برج میلوں دور سے دیکھے جا سکتے ہیں۔ ہر سال فروری میں مشہور جیپ ریلی کے موقع پر یہ علاقہ جاگ اٹھتا ہے، جب ہزاروں سیاح ریس دیکھنے، لوک موسیقی سے لطف اٹھانے اور رنگ برنگی مقامی دستکاریاں خریدنے آتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘have depended on’ کا ترجمہ ‘انحصار کرتے آئے ہیں’ جیسی ساخت سے کیا؟",
+      "کیا ‘herds’ اور ‘handicrafts’ کے لیے مناسب اردو الفاظ (ریوڑ، دستکاریاں) استعمال کیے؟",
+      "کیا ‘comes alive’ کا مفہوم (جاگ اٹھنا / رونق آ جانا) فطری انداز میں ادا ہوا؟",
+      "کیا ترجمہ مکمل ہے اور جملے رواں ہیں؟"
+    ]
+  }
+}

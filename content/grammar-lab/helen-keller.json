@@ -1,0 +1,118 @@
+{
+  "id": "helen-keller",
+  "ur": "ہمت اور حوصلہ",
+  "en": "Courage and Determination",
+  "grammarPoint": {
+    "ur": "‘کے باوجود’، ماضی بعید اور متضاد الفاظ",
+    "en": "‘Despite’, the past perfect, and antonyms"
+  },
+  "cloze": {
+    "passage": "ہیلن کیلر معذوری کے (1)_____ کامیاب ہوئیں۔ جب ان کی استانی آئیں تو ہیلن بینائی کھو (2)_____ تھیں۔ استانی نے بڑے (3)_____ سے انہیں پڑھایا۔ ہیلن نے ثابت کیا کہ محنت سے کچھ بھی (4)_____ نہیں۔ آج بھی لوگ ان کی زندگی سے (5)_____ لیتے ہیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "باوجود",
+          "بغیر",
+          "بدلے",
+          "سبب"
+        ],
+        "a": 0,
+        "en": "کے باوجود = despite"
+      },
+      {
+        "opts": [
+          "چکی",
+          "چکا",
+          "چکے",
+          "رہی"
+        ],
+        "a": 0,
+        "en": "past perfect, feminine: کھو چکی تھیں"
+      },
+      {
+        "opts": [
+          "صبر",
+          "غصے",
+          "شور",
+          "جلدی"
+        ],
+        "a": 0,
+        "en": "بڑے صبر سے = with great patience"
+      },
+      {
+        "opts": [
+          "ناممکن",
+          "ممکن",
+          "آسان",
+          "ضروری"
+        ],
+        "a": 0,
+        "en": "کچھ بھی ناممکن نہیں = nothing is impossible"
+      },
+      {
+        "opts": [
+          "سبق",
+          "سفر",
+          "سوال",
+          "سزا"
+        ],
+        "a": 0,
+        "en": "سبق لینا = to learn a lesson"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ہیلن دیکھ اور سن نہیں سکتی تھیں، پھر بھی انہوں نے ڈگری حاصل کی۔",
+      "stem": "ہیلن نے معذوری کے ____ ڈگری حاصل کی۔",
+      "instruction_ur": "‘کے باوجود’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘despite’",
+      "answers": [
+        "باوجود"
+      ],
+      "en": "Helen could not see or hear, yet she earned a degree."
+    },
+    {
+      "original": "محنت سے ہر کام ممکن ہے۔",
+      "stem": "محنت سے کوئی کام ____ نہیں۔",
+      "instruction_ur": "متضاد لفظ لگا کر مثبت جملے کو منفی بنائیں، مفہوم نہ بدلے",
+      "instruction_en": "Use the opposite word in a negative sentence, keeping the meaning",
+      "answers": [
+        "ناممکن"
+      ],
+      "en": "With hard work, every task is possible."
+    },
+    {
+      "original": "استانی آئیں، اور اس سے پہلے ہیلن بینائی کھو بیٹھی تھیں۔",
+      "stem": "جب استانی آئیں تو ہیلن بینائی کھو ____ تھیں۔",
+      "instruction_ur": "ماضی بعید میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the past perfect",
+      "answers": [
+        "چکی"
+      ],
+      "en": "The teacher came; before that, Helen had already lost her sight."
+    },
+    {
+      "original": "ہیلن کی ہمت بہت زیادہ تھی۔",
+      "stem": "ہیلن کا ____ بہت بلند تھا۔",
+      "instruction_ur": "مترادف لفظ لگائیں — دھیان رہے کہ ‘کی’ اب ‘کا’ ہو گیا ہے",
+      "instruction_en": "Use a synonym — note کی has become کا",
+      "answers": [
+        "حوصلہ"
+      ],
+      "en": "Helen's courage was very great."
+    },
+    {
+      "original": "وہ اپنی استانی کے بغیر یہ سب نہ سیکھ پاتیں۔",
+      "stem": "اپنی استانی کی ____ سے ہی وہ یہ سب سیکھ پائیں۔",
+      "instruction_ur": "مثبت ساخت میں جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete in a positive structure, keeping the meaning",
+      "answers": [
+        "مدد",
+        "بدولت",
+        "وجہ"
+      ],
+      "en": "She could not have learned all this without her teacher."
+    }
+  ]
+}

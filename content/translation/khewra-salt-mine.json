@@ -1,0 +1,102 @@
+{
+  "id": "khewra-salt-mine",
+  "ur": "کھیوڑہ کی کان",
+  "en": "The Khewra Mine",
+  "warmup": [
+    {
+      "en": "The mine is very old.",
+      "bank": [
+        "ہے",
+        "پرانی",
+        "کان",
+        "بہت"
+      ],
+      "answer": [
+        "کان",
+        "بہت",
+        "پرانی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "It was cold inside the tunnel.",
+      "bank": [
+        "ٹھنڈ",
+        "تھی",
+        "کے اندر",
+        "سرنگ"
+      ],
+      "answer": [
+        "سرنگ",
+        "کے اندر",
+        "ٹھنڈ",
+        "تھی"
+      ]
+    },
+    {
+      "en": "We rode the small train.",
+      "bank": [
+        "سواری",
+        "کی",
+        "ریل گاڑی",
+        "ہم نے",
+        "کی",
+        "چھوٹی"
+      ],
+      "answer": [
+        "ہم نے",
+        "چھوٹی",
+        "ریل گاڑی",
+        "کی",
+        "سواری",
+        "کی"
+      ]
+    },
+    {
+      "en": "The salt is sent abroad.",
+      "bank": [
+        "بھیجا",
+        "نمک",
+        "بیرونِ ملک",
+        "ہے",
+        "جاتا"
+      ],
+      "answer": [
+        "نمک",
+        "بیرونِ ملک",
+        "بھیجا",
+        "جاتا",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Patients breathe the salty air.",
+      "bank": [
+        "سانس",
+        "ہوا میں",
+        "مریض",
+        "لیتے",
+        "نمکین",
+        "ہیں"
+      ],
+      "answer": [
+        "مریض",
+        "نمکین",
+        "ہوا میں",
+        "سانس",
+        "لیتے",
+        "ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Khewra Salt Mine, in the Jhelum district, is said to be the second-largest salt mine in the world. According to a well-known legend, it was discovered more than two thousand years ago when the horses of Alexander the Great's army began licking the rocks. Today the mine stretches for many kilometres beneath the hills, and millions of tonnes of salt are taken out of it every year. Much of this pink salt is exported to other countries. The mine has also become a popular tourist attraction. Visitors ride a small train into the tunnels, where they can see a mosque made entirely of salt bricks and a bridge over a pool of salty water. Because the air inside is believed to be good for breathing, a clinic for asthma patients has been set up there too.",
+    "modelUr": "ضلع جہلم میں واقع کھیوڑہ کی نمک کی کان کے بارے میں کہا جاتا ہے کہ یہ دنیا کی دوسری سب سے بڑی نمک کی کان ہے۔ ایک مشہور روایت کے مطابق یہ دو ہزار سال سے بھی زیادہ پہلے اس وقت دریافت ہوئی جب سکندرِ اعظم کی فوج کے گھوڑوں نے چٹانیں چاٹنا شروع کر دیں۔ آج یہ کان پہاڑیوں کے نیچے کئی کلومیٹر تک پھیلی ہوئی ہے، اور ہر سال اس سے لاکھوں ٹن نمک نکالا جاتا ہے۔ اس گلابی نمک کا بڑا حصہ دوسرے ممالک کو برآمد کیا جاتا ہے۔ یہ کان سیاحوں کی ایک مقبول جگہ بھی بن چکی ہے۔ سیاح ایک چھوٹی ریل گاڑی میں بیٹھ کر سرنگوں کے اندر جاتے ہیں، جہاں وہ مکمل طور پر نمک کی اینٹوں سے بنی ایک مسجد اور نمکین پانی کے تالاب پر بنا ایک پل دیکھ سکتے ہیں۔ چونکہ اندر کی ہوا سانس کے لیے مفید سمجھی جاتی ہے، اس لیے وہاں دمے کے مریضوں کے لیے ایک کلینک بھی قائم کیا گیا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘is said to be’ اور ‘is believed to be’ کا ترجمہ ‘کہا جاتا ہے / سمجھی جاتی ہے’ سے کیا؟",
+      "کیا ‘according to a legend’ کا ترجمہ ‘ایک روایت کے مطابق’ ہوا؟",
+      "کیا مجہول جملے درست ہیں (نکالا جاتا ہے، برآمد کیا جاتا ہے، قائم کیا گیا ہے)؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

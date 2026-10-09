@@ -1,0 +1,118 @@
+{
+  "id": "patras-bokhari",
+  "ur": "اردو مزاح",
+  "en": "Urdu Humour",
+  "grammarPoint": {
+    "ur": "تشبیہ، محاورے اور مترادف الفاظ",
+    "en": "Similes, idioms and synonyms"
+  },
+  "cloze": {
+    "passage": "پطرس بخاری کے مضامین پڑھ کر ہنسی (1)_____ نہیں رکتی۔ ان کی سائیکل بوڑھے آدمی کی (2)_____ کراہتی تھی۔ وہ دوسروں کے بجائے اپنا (3)_____ اڑاتے تھے۔ ان کا انداز اتنا سادہ ہے (4)_____ ہر کوئی آسانی سے سمجھ لیتا ہے۔ اردو ادب میں پطرس کا (5)_____ بہت بلند ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "روکے",
+          "روکا",
+          "روکی",
+          "روکتا"
+        ],
+        "a": 0,
+        "en": "روکے نہیں رکتی = can't be held back (idiom)"
+      },
+      {
+        "opts": [
+          "طرح",
+          "وجہ",
+          "جگہ",
+          "بجائے"
+        ],
+        "a": 0,
+        "en": "کی طرح = like"
+      },
+      {
+        "opts": [
+          "مذاق",
+          "سامان",
+          "پتنگ",
+          "حصہ"
+        ],
+        "a": 0,
+        "en": "مذاق اڑانا = to make fun of"
+      },
+      {
+        "opts": [
+          "کہ",
+          "جو",
+          "تو",
+          "جب"
+        ],
+        "a": 0,
+        "en": "اتنا … کہ = so … that"
+      },
+      {
+        "opts": [
+          "مقام",
+          "مکان",
+          "مقابلہ",
+          "معاملہ"
+        ],
+        "a": 0,
+        "en": "مقام = standing, place"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "پطرس کی تحریروں میں بہت ظرافت ہے۔",
+      "stem": "پطرس کی تحریروں میں بہت ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "مزاح"
+      ],
+      "en": "There is a lot of wit in Patras's writing."
+    },
+    {
+      "original": "اس کا مضمون پڑھ کر ہم بہت زور سے ہنسے۔",
+      "stem": "اس کا مضمون پڑھ کر ہم ____ لگانے لگے۔",
+      "instruction_ur": "محاورہ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using an idiom (قہقہے لگانا)",
+      "answers": [
+        "قہقہے"
+      ],
+      "en": "Reading his essay, we laughed very loudly."
+    },
+    {
+      "original": "سائیکل یوں آواز نکال رہی تھی جیسے بیمار ہو۔",
+      "stem": "سائیکل یوں آواز نکال رہی تھی ____ بیمار ہو۔",
+      "instruction_ur": "تشبیہ کا دوسرا لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with another word meaning ‘as if’",
+      "answers": [
+        "گویا",
+        "جیسے کہ"
+      ],
+      "en": "The bicycle was making noises as if it were ill."
+    },
+    {
+      "original": "پطرس ایک مشہور لکھنے والے تھے۔",
+      "stem": "پطرس ایک مشہور ____ تھے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a one-word synonym",
+      "answers": [
+        "مصنف",
+        "ادیب"
+      ],
+      "en": "Patras was a famous writer."
+    },
+    {
+      "original": "وہ کبھی دوسروں کا مذاق نہیں اڑاتے تھے، بلکہ اپنا۔",
+      "stem": "وہ دوسروں کے ____ اپنا مذاق اڑاتے تھے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete with ‘instead of’, keeping the meaning",
+      "answers": [
+        "بجائے"
+      ],
+      "en": "He never made fun of others — only of himself."
+    }
+  ]
+}

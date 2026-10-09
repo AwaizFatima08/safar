@@ -1,0 +1,262 @@
+{
+  "id": "solar-energy",
+  "ur": "شمسی توانائی",
+  "en": "Solar Energy",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ بہاولپور کے قریب قائداعظم سولر پارک پاکستان کے ابتدائی بڑے شمسی بجلی گھروں میں سے ایک ہے۔",
+    "en": "Did you know? The Quaid-e-Azam Solar Park near Bahawalpur is one of Pakistan's first large solar power plants."
+  },
+  "vocab": [
+    {
+      "ur": "توانائی",
+      "en": "energy",
+      "ex_ur": "سورج توانائی کا سب سے بڑا ذریعہ ہے۔",
+      "ex_en": "The sun is the biggest source of energy."
+    },
+    {
+      "ur": "شمسی",
+      "en": "solar",
+      "ex_ur": "ہمارے گھر کی چھت پر شمسی پینل لگے ہیں۔",
+      "ex_en": "There are solar panels on our roof."
+    },
+    {
+      "ur": "بجلی",
+      "en": "electricity",
+      "ex_ur": "شمسی پینل دن میں بجلی بناتے ہیں۔",
+      "ex_en": "Solar panels make electricity during the day."
+    },
+    {
+      "ur": "بل",
+      "en": "bill",
+      "ex_ur": "سولر لگانے سے بجلی کا بل کم ہو گیا۔",
+      "ex_en": "Installing solar lowered the electricity bill."
+    },
+    {
+      "ur": "ماحول دوست",
+      "en": "environment-friendly",
+      "ex_ur": "شمسی توانائی ماحول دوست ہے۔",
+      "ex_en": "Solar energy is environment-friendly."
+    },
+    {
+      "ur": "آلودگی",
+      "en": "pollution",
+      "ex_ur": "کوئلے سے بجلی بنانے میں آلودگی ہوتی ہے۔",
+      "ex_en": "Making electricity from coal causes pollution."
+    },
+    {
+      "ur": "سرمایہ کاری",
+      "en": "investment",
+      "ex_ur": "سولر پینل ایک اچھی سرمایہ کاری ہے۔",
+      "ex_en": "Solar panels are a good investment."
+    },
+    {
+      "ur": "لوڈ شیڈنگ",
+      "en": "load-shedding (power cuts)",
+      "ex_ur": "سولر کی وجہ سے لوڈ شیڈنگ کا اثر کم ہوا۔",
+      "ex_en": "Solar reduced the effect of load-shedding."
+    },
+    {
+      "ur": "قابلِ تجدید",
+      "en": "renewable",
+      "ex_ur": "سورج اور ہوا قابلِ تجدید ذرائع ہیں۔",
+      "ex_en": "Sun and wind are renewable sources."
+    },
+    {
+      "ur": "مہنگا",
+      "en": "expensive",
+      "ex_ur": "شروع میں سولر سسٹم مہنگا لگتا ہے۔",
+      "ex_en": "At first a solar system seems expensive.",
+      "syn": "قیمتی"
+    }
+  ],
+  "reading": {
+    "passage": "پاکستان میں سال کے بیشتر دنوں میں تیز دھوپ رہتی ہے، اس لیے یہاں شمسی توانائی کے بہت امکانات ہیں۔ پچھلے چند برسوں میں ہزاروں گھروں، دکانوں اور کھیتوں میں سولر پینل لگائے گئے ہیں۔ کسان شمسی ٹیوب ویل سے کھیتوں کو پانی دیتے ہیں اور ڈیزل کا خرچ بچاتے ہیں۔ شمسی توانائی ماحول دوست ہے کیونکہ اس سے دھواں یا آلودگی پیدا نہیں ہوتی۔ اس کی واحد خامی یہ ہے کہ رات کو یا بادلوں میں بجلی کم بنتی ہے۔",
+    "questions": [
+      {
+        "q": "پاکستان میں شمسی توانائی کے امکانات کیوں زیادہ ہیں؟",
+        "opts": [
+          "زیادہ تر دن تیز دھوپ رہتی ہے",
+          "یہاں بارش زیادہ ہوتی ہے",
+          "یہاں ہوا تیز چلتی ہے",
+          "یہاں دریا زیادہ ہیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کسان شمسی ٹیوب ویل سے کیا بچاتے ہیں؟",
+        "opts": [
+          "بیج",
+          "ڈیزل کا خرچ",
+          "کھاد",
+          "وقت"
+        ],
+        "a": 1
+      },
+      {
+        "q": "شمسی توانائی ماحول دوست کیوں ہے؟",
+        "opts": [
+          "یہ سستی ہے",
+          "یہ نئی ہے",
+          "اس سے آلودگی نہیں ہوتی",
+          "یہ رات کو چلتی ہے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "شمسی توانائی کی خامی کیا ہے؟",
+        "opts": [
+          "شور بہت ہوتا ہے",
+          "دھواں نکلتا ہے",
+          "پینل جلد ٹوٹ جاتے ہیں",
+          "رات کو بجلی کم بنتی ہے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بناتے ہیں",
+          "بجلی",
+          "پینل",
+          "شمسی"
+        ],
+        "answer": [
+          "شمسی",
+          "پینل",
+          "بجلی",
+          "بناتے ہیں"
+        ],
+        "en": "Solar panels make electricity."
+      },
+      {
+        "bank": [
+          "ہے",
+          "ماحول دوست",
+          "توانائی",
+          "شمسی"
+        ],
+        "answer": [
+          "شمسی",
+          "توانائی",
+          "ماحول دوست",
+          "ہے"
+        ],
+        "en": "Solar energy is environment-friendly."
+      },
+      {
+        "bank": [
+          "ہو گیا",
+          "کم",
+          "بل",
+          "ہمارا"
+        ],
+        "answer": [
+          "ہمارا",
+          "بل",
+          "کم",
+          "ہو گیا"
+        ],
+        "en": "Our bill went down."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "سورج اور ہوا ____ ذرائع ہیں۔",
+        "opts": [
+          "قابلِ تجدید",
+          "پرانے",
+          "خطرناک",
+          "مہنگے"
+        ],
+        "a": 0,
+        "en": "Sun and wind are ___ sources."
+      },
+      {
+        "text": "کوئلے سے بجلی بنانے میں ____ ہوتی ہے۔",
+        "opts": [
+          "آلودگی",
+          "صفائی",
+          "خوشبو",
+          "ٹھنڈک"
+        ],
+        "a": 0,
+        "en": "Making electricity from coal causes ___."
+      },
+      {
+        "text": "سولر کی وجہ سے ____ کا اثر کم ہو گیا۔",
+        "opts": [
+          "لوڈ شیڈنگ",
+          "بارش",
+          "دھوپ",
+          "سردی"
+        ],
+        "a": 0,
+        "en": "Thanks to solar, the effect of ___ fell."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کے گھر میں سولر سسٹم لگ جائے تو آپ کی زندگی میں کیا فرق آئے گا؟ تین جملے لکھیں۔",
+      "en": "If a solar system were installed at your home, what difference would it make to your life? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "موازنہ — ‘سے زیادہ / سے کم / سب سے’ (Comparison)",
+    "explain": "Urdu compares with سے: ‘سولر کوئلے سے سستا ہے’ (solar is cheaper than coal). Add زیادہ or کم for more/less: ‘سے زیادہ مفید’، ‘سے کم مہنگا’. For the superlative use سب سے: ‘سب سے صاف ذریعہ’ (the cleanest source). جتنا … اتنا means ‘the more … the more’.",
+    "rows": [
+      [
+        "شمسی بجلی کوئلے کی بجلی سے صاف ہے۔",
+        "Solar power is cleaner than coal power."
+      ],
+      [
+        "سولر پینل پہلے سے کم مہنگے ہیں۔",
+        "Solar panels are less expensive than before."
+      ],
+      [
+        "سورج توانائی کا سب سے بڑا ذریعہ ہے۔",
+        "The sun is the biggest source of energy."
+      ],
+      [
+        "جتنی دھوپ زیادہ ہو، اتنی بجلی زیادہ بنتی ہے۔",
+        "The more sunshine, the more electricity is made."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "شمسی توانائی ڈیزل ____ سستی ہے۔",
+        "opts": [
+          "سے",
+          "کو",
+          "میں",
+          "پر"
+        ],
+        "a": 0,
+        "en": "Solar energy is cheaper than diesel."
+      },
+      {
+        "q": "سورج ____ بڑا توانائی کا ذریعہ ہے۔",
+        "opts": [
+          "سب سے",
+          "سے کم",
+          "جتنا",
+          "بہت کم"
+        ],
+        "a": 0,
+        "en": "The sun is the biggest energy source."
+      },
+      {
+        "q": "جتنی دھوپ تیز ہو گی، ____ بجلی زیادہ بنے گی۔",
+        "opts": [
+          "اتنی",
+          "جتنی",
+          "کتنی",
+          "کیونکہ"
+        ],
+        "a": 0,
+        "en": "The stronger the sun, the more electricity."
+      }
+    ]
+  }
+}

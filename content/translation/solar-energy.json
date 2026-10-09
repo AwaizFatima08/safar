@@ -1,0 +1,94 @@
+{
+  "id": "solar-energy",
+  "ur": "شمسی توانائی",
+  "en": "Solar Energy",
+  "warmup": [
+    {
+      "en": "The sun gives us energy.",
+      "bank": [
+        "دیتا ہے",
+        "توانائی",
+        "ہمیں",
+        "سورج"
+      ],
+      "answer": [
+        "سورج",
+        "ہمیں",
+        "توانائی",
+        "دیتا ہے"
+      ]
+    },
+    {
+      "en": "Solar power is clean.",
+      "bank": [
+        "ہے",
+        "صاف",
+        "بجلی",
+        "شمسی"
+      ],
+      "answer": [
+        "شمسی",
+        "بجلی",
+        "صاف",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Our bill is lower now.",
+      "bank": [
+        "ہے",
+        "کم",
+        "اب",
+        "ہمارا بل"
+      ],
+      "answer": [
+        "ہمارا بل",
+        "اب",
+        "کم",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Clean the panels regularly.",
+      "bank": [
+        "کریں",
+        "صاف",
+        "باقاعدگی سے",
+        "پینل"
+      ],
+      "answer": [
+        "پینل",
+        "باقاعدگی سے",
+        "صاف",
+        "کریں"
+      ]
+    },
+    {
+      "en": "Solar is cheaper than diesel.",
+      "bank": [
+        "ہے",
+        "سستا",
+        "سے",
+        "ڈیزل",
+        "سولر"
+      ],
+      "answer": [
+        "سولر",
+        "ڈیزل",
+        "سے",
+        "سستا",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Pakistan receives strong sunshine for most of the year, which makes it an ideal country for solar energy. In recent years, the price of solar panels has fallen sharply, and many families have installed them on their roofs to reduce their electricity bills and escape load-shedding. Farmers are also using solar tube wells instead of diesel pumps, which saves them a great deal of money. Unlike coal and oil, the sun does not produce smoke or harmful gases, so solar energy helps to protect the environment. However, a complete system with batteries is still too expensive for many poor households. If the government offered easy loans, even more people could benefit from this clean and free source of power.",
+    "modelUr": "پاکستان میں سال کے بیشتر حصے میں تیز دھوپ رہتی ہے، جو اسے شمسی توانائی کے لیے ایک مثالی ملک بناتی ہے۔ حالیہ برسوں میں سولر پینلز کی قیمت میں تیزی سے کمی آئی ہے، اور بہت سے خاندانوں نے بجلی کے بل کم کرنے اور لوڈ شیڈنگ سے بچنے کے لیے انہیں اپنی چھتوں پر لگوا لیا ہے۔ کسان بھی ڈیزل پمپوں کے بجائے شمسی ٹیوب ویل استعمال کر رہے ہیں، جس سے ان کی کافی رقم بچ جاتی ہے۔ کوئلے اور تیل کے برعکس سورج سے دھواں یا نقصان دہ گیسیں پیدا نہیں ہوتیں، اس لیے شمسی توانائی ماحول کے تحفظ میں مدد دیتی ہے۔ تاہم بیٹریوں سمیت مکمل نظام اب بھی بہت سے غریب گھرانوں کے لیے بہت مہنگا ہے۔ اگر حکومت آسان قرضے فراہم کرے تو اس صاف اور مفت ذریعۂ توانائی سے اور بھی زیادہ لوگ فائدہ اٹھا سکتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘unlike coal and oil’ کا ترجمہ ‘کے برعکس’ سے کیا؟",
+      "کیا ‘instead of’ کے لیے ‘کے بجائے’ استعمال کیا؟",
+      "کیا ‘However’ کا ترجمہ ‘تاہم’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "kalash-valley",
+  "ur": "کیلاش کی وادیاں",
+  "en": "The Kalash Valleys",
+  "warmup": [
+    {
+      "en": "The Kalash valleys are in Chitral.",
+      "bank": [
+        "چترال",
+        "ہیں",
+        "وادیاں",
+        "کیلاش",
+        "میں",
+        "کی"
+      ],
+      "answer": [
+        "کیلاش",
+        "کی",
+        "وادیاں",
+        "چترال",
+        "میں",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "Tourists come here every year.",
+      "bank": [
+        "آتے",
+        "یہاں",
+        "ہر",
+        "ہیں",
+        "سیاح",
+        "سال"
+      ],
+      "answer": [
+        "ہر",
+        "سال",
+        "سیاح",
+        "یہاں",
+        "آتے",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "Their dresses are very colourful.",
+      "bank": [
+        "رنگین",
+        "لباس",
+        "ہیں",
+        "ان",
+        "بہت",
+        "کے"
+      ],
+      "answer": [
+        "ان",
+        "کے",
+        "لباس",
+        "بہت",
+        "رنگین",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "We should respect other cultures.",
+      "bank": [
+        "احترام",
+        "ہمیں",
+        "چاہیے",
+        "ثقافتوں",
+        "کرنا",
+        "دوسری",
+        "کا"
+      ],
+      "answer": [
+        "ہمیں",
+        "دوسری",
+        "ثقافتوں",
+        "کا",
+        "احترام",
+        "کرنا",
+        "چاہیے"
+      ]
+    },
+    {
+      "en": "This festival is celebrated in spring.",
+      "bank": [
+        "منایا",
+        "بہار",
+        "ہے",
+        "یہ",
+        "جاتا",
+        "تہوار",
+        "میں"
+      ],
+      "answer": [
+        "یہ",
+        "تہوار",
+        "بہار",
+        "میں",
+        "منایا",
+        "جاتا",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Kalash people live in three small valleys in the Chitral district of Khyber Pakhtunkhwa. Their culture, language and festivals are very different from those of the surrounding areas, which is why visitors from Pakistan and abroad travel there every year. The women wear long black dresses decorated with bright embroidery, and on special occasions they wear headdresses covered in shells and beads. The Kalash celebrate several festivals during the year; the spring festival, held in May, is the most famous. Tourism has brought jobs to the valleys, but it has also created problems such as litter. Visitors should always ask before taking photographs and should treat local customs with respect, so that this unique culture can be preserved for future generations.",
+    "modelUr": "کیلاش لوگ خیبر پختونخوا کے ضلع چترال کی تین چھوٹی وادیوں میں رہتے ہیں۔ ان کی ثقافت، زبان اور تہوار اردگرد کے علاقوں سے بہت مختلف ہیں، یہی وجہ ہے کہ پاکستان اور بیرونِ ملک سے سیاح ہر سال وہاں جاتے ہیں۔ خواتین لمبے کالے لباس پہنتی ہیں جن پر شوخ رنگوں کی کڑھائی ہوتی ہے، اور خاص مواقع پر وہ سیپیوں اور موتیوں سے ڈھکی ٹوپیاں پہنتی ہیں۔ کیلاش لوگ سال بھر میں کئی تہوار مناتے ہیں؛ مئی میں منایا جانے والا بہار کا تہوار سب سے مشہور ہے۔ سیاحت نے وادیوں میں روزگار تو پیدا کیا ہے، لیکن اس سے کچرے جیسے مسائل بھی پیدا ہوئے ہیں۔ سیاحوں کو چاہیے کہ تصویر لینے سے پہلے ہمیشہ اجازت لیں اور مقامی رسم و رواج کا احترام کریں، تاکہ یہ منفرد ثقافت آنے والی نسلوں کے لیے محفوظ رہ سکے۔",
+    "checklist": [
+      "کیا آپ نے خیبر پختونخوا، چترال اور تین وادیوں کا ذکر درست ترجمہ کیا؟",
+      "کیا ‘embroidery’ اور ‘headdresses’ کے لیے مناسب اردو الفاظ (کڑھائی، ٹوپیاں) استعمال کیے؟",
+      "کیا فعل کی جنس اور تعداد درست ہے (خواتین پہنتی ہیں، تہوار مناتے ہیں)؟",
+      "کیا ترجمہ لفظ بہ لفظ کے بجائے رواں اور فطری اردو میں ہے؟"
+    ]
+  }
+}

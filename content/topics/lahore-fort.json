@@ -1,0 +1,271 @@
+{
+  "id": "lahore-fort",
+  "ur": "شاہی قلعہ لاہور",
+  "en": "The Lahore Fort",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ شاہی قلعے میں ایسی چوڑی سیڑھیاں ہیں جن پر شاہی ہاتھی چڑھ سکتے تھے؛ انہیں ‘ہاتھی پیر’ کہا جاتا ہے۔",
+    "en": "Did you know? The Lahore Fort has stairs wide enough for royal elephants to climb; they are called the ‘Hathi Pair’ (elephant steps)."
+  },
+  "vocab": [
+    {
+      "ur": "قلعہ",
+      "en": "fort",
+      "ex_ur": "شاہی قلعہ لاہور کی پہچان ہے۔",
+      "ex_en": "The royal fort is Lahore's landmark."
+    },
+    {
+      "ur": "شہنشاہ",
+      "en": "emperor",
+      "ex_ur": "شہنشاہ اکبر نے یہ قلعہ بنوایا۔",
+      "ex_en": "Emperor Akbar had this fort built.",
+      "syn": "بادشاہ"
+    },
+    {
+      "ur": "عمارت",
+      "en": "building",
+      "ex_ur": "یہ عمارت چار سو سال پرانی ہے۔",
+      "ex_en": "This building is four hundred years old."
+    },
+    {
+      "ur": "فنِ تعمیر",
+      "en": "architecture",
+      "ex_ur": "مغل فنِ تعمیر دنیا بھر میں مشہور ہے۔",
+      "ex_en": "Mughal architecture is famous all over the world."
+    },
+    {
+      "ur": "دروازہ",
+      "en": "gate / door",
+      "ex_ur": "عالمگیری دروازہ بہت بلند ہے۔",
+      "ex_en": "The Alamgiri Gate is very tall."
+    },
+    {
+      "ur": "آئینہ",
+      "en": "mirror",
+      "ex_ur": "شیش محل کی دیواروں پر ہزاروں آئینے لگے ہیں۔",
+      "ex_en": "Thousands of mirrors are set into the walls of the Sheesh Mahal.",
+      "syn": "شیشہ"
+    },
+    {
+      "ur": "نقش و نگار",
+      "en": "decorative designs",
+      "ex_ur": "دیواروں پر خوبصورت نقش و نگار بنے ہیں۔",
+      "ex_en": "Beautiful designs are made on the walls."
+    },
+    {
+      "ur": "دربار",
+      "en": "royal court",
+      "ex_ur": "بادشاہ دیوانِ عام میں دربار لگاتا تھا۔",
+      "ex_en": "The king held court in the Hall of Public Audience."
+    },
+    {
+      "ur": "شان و شوکت",
+      "en": "grandeur / splendour",
+      "ex_ur": "قلعے کی شان و شوکت دیکھنے والوں کو حیران کر دیتی ہے۔",
+      "ex_en": "The fort's grandeur amazes visitors."
+    },
+    {
+      "ur": "مرمت",
+      "en": "repair / restoration",
+      "ex_ur": "قلعے کی دیواروں کی مرمت کی جا رہی ہے۔",
+      "ex_en": "The fort's walls are being repaired."
+    }
+  ],
+  "reading": {
+    "passage": "شاہی قلعہ لاہور کے پرانے شہر کے شمال مغربی کونے میں واقع ہے۔ موجودہ قلعہ زیادہ تر مغل شہنشاہ اکبر نے سولہویں صدی میں بنوایا۔ بعد میں جہانگیر اور شاہ جہاں نے اس میں کئی خوبصورت عمارتیں شامل کیں۔ شاہ جہاں کا بنوایا ہوا ‘شیش محل’ اپنے ہزاروں چھوٹے آئینوں کی وجہ سے مشہور ہے۔ قلعے کا بڑا دروازہ ‘عالمگیری دروازہ’ کہلاتا ہے جو اورنگزیب عالمگیر نے بنوایا تھا۔ 1981ء میں یونیسکو نے اسے عالمی ورثہ قرار دیا۔",
+    "questions": [
+      {
+        "q": "شاہی قلعہ کس شہر میں ہے؟",
+        "opts": [
+          "لاہور",
+          "ملتان",
+          "پشاور",
+          "کراچی"
+        ],
+        "a": 0
+      },
+      {
+        "q": "موجودہ قلعہ زیادہ تر کس نے بنوایا؟",
+        "opts": [
+          "بابر",
+          "اکبر",
+          "ہمایوں",
+          "شیر شاہ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "شیش محل کس وجہ سے مشہور ہے؟",
+        "opts": [
+          "سونے کے دروازے",
+          "بڑے باغ",
+          "ہزاروں آئینے",
+          "اونچے مینار"
+        ],
+        "a": 2
+      },
+      {
+        "q": "عالمگیری دروازہ کس نے بنوایا تھا؟",
+        "opts": [
+          "جہانگیر",
+          "شاہ جہاں",
+          "اکبر",
+          "اورنگزیب عالمگیر"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بنوایا",
+          "نے",
+          "قلعہ",
+          "اکبر",
+          "یہ"
+        ],
+        "answer": [
+          "اکبر",
+          "نے",
+          "یہ",
+          "قلعہ",
+          "بنوایا"
+        ],
+        "en": "Akbar had this fort built."
+      },
+      {
+        "bank": [
+          "ہیں",
+          "آئینے",
+          "لگے",
+          "ہزاروں",
+          "میں",
+          "شیش محل"
+        ],
+        "answer": [
+          "شیش محل",
+          "میں",
+          "ہزاروں",
+          "آئینے",
+          "لگے",
+          "ہیں"
+        ],
+        "en": "Thousands of mirrors are set in the Sheesh Mahal."
+      },
+      {
+        "bank": [
+          "مشہور",
+          "فنِ تعمیر",
+          "ہے",
+          "مغل",
+          "بہت"
+        ],
+        "answer": [
+          "مغل",
+          "فنِ تعمیر",
+          "بہت",
+          "مشہور",
+          "ہے"
+        ],
+        "en": "Mughal architecture is very famous."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "شہنشاہ اکبر نے یہ ____ بنوایا۔",
+        "opts": [
+          "قلعہ",
+          "دریا",
+          "پہاڑ",
+          "جنگل"
+        ],
+        "a": 0,
+        "en": "Emperor Akbar had this ___ built."
+      },
+      {
+        "text": "شیش محل کی دیواروں پر ہزاروں ____ لگے ہیں۔",
+        "opts": [
+          "آئینے",
+          "درخت",
+          "پنکھے",
+          "بادل"
+        ],
+        "a": 0,
+        "en": "Thousands of ___ are set into the walls of the Sheesh Mahal."
+      },
+      {
+        "text": "قلعے کی پرانی دیواروں کی ____ کی جا رہی ہے۔",
+        "opts": [
+          "مرمت",
+          "تعریف",
+          "تصویر",
+          "دعوت"
+        ],
+        "a": 0,
+        "en": "The old walls of the fort are being ___."
+      }
+    ],
+    "creative": {
+      "ur": "تصور کریں کہ آپ مغل دور میں قلعے کے ایک ملازم ہیں۔ اپنے ایک دن کے بارے میں تین جملے لکھیں۔",
+      "en": "Imagine you are a servant in the fort in Mughal times. Write three sentences about your day."
+    }
+  },
+  "grammar": {
+    "title": "فعلِ متعدی بالواسطہ — Causative verbs (بنانا → بنوانا)",
+    "explain": "When someone has a job done by others, Urdu adds وا to the verb: بنانا (to make) → بنوانا (to have made), لکھنا → لکھوانا, کرنا → کروانا. Emperors didn't lay bricks themselves, so we say اکبر نے قلعہ بنوایا (Akbar had the fort built), not بنایا.",
+    "rows": [
+      [
+        "مزدوروں نے دیوار بنائی۔ / بادشاہ نے دیوار بنوائی۔",
+        "The workers built the wall. / The king had the wall built."
+      ],
+      [
+        "میں نے خط لکھا۔ / میں نے خط لکھوایا۔",
+        "I wrote the letter. / I had the letter written."
+      ],
+      [
+        "امی نے کھانا پکایا۔ / امی نے کھانا پکوایا۔",
+        "Mum cooked the food. / Mum had the food cooked."
+      ],
+      [
+        "ہم نے گاڑی ٹھیک کی۔ / ہم نے گاڑی ٹھیک کروائی۔",
+        "We fixed the car. / We had the car fixed."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "شاہ جہاں نے شیش محل ____ ۔",
+        "opts": [
+          "بنوایا",
+          "بنا",
+          "بنتا",
+          "بنی"
+        ],
+        "a": 0,
+        "en": "Shah Jahan had the Sheesh Mahal built."
+      },
+      {
+        "q": "ہم نے درزی سے نئی قمیض ____ ۔",
+        "opts": [
+          "سلوائی",
+          "سلائی",
+          "سلی",
+          "سلتی"
+        ],
+        "a": 0,
+        "en": "We had a new shirt stitched by the tailor."
+      },
+      {
+        "q": "حکومت قلعے کی مرمت ____ رہی ہے۔",
+        "opts": [
+          "کروا",
+          "کر",
+          "ہو",
+          "کرا کے"
+        ],
+        "a": 0,
+        "en": "The government is having the fort repaired."
+      }
+    ]
+  }
+}

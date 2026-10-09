@@ -1,0 +1,269 @@
+{
+  "id": "amazon-rainforest",
+  "ur": "ایمیزون کا جنگل",
+  "en": "The Amazon Rainforest",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ایمیزون کا جنگل نو ملکوں میں پھیلا ہوا ہے، اور اس کا تقریباً ساٹھ فیصد حصہ برازیل میں ہے۔",
+    "en": "Did you know? The Amazon rainforest spreads across nine countries, and about sixty percent of it is in Brazil."
+  },
+  "vocab": [
+    {
+      "ur": "برساتی جنگل",
+      "en": "rainforest",
+      "ex_ur": "ایمیزون دنیا کا سب سے بڑا برساتی جنگل ہے۔",
+      "ex_en": "The Amazon is the world's largest rainforest."
+    },
+    {
+      "ur": "حیاتیاتی تنوع",
+      "en": "biodiversity",
+      "ex_ur": "اس جنگل میں حیاتیاتی تنوع بہت زیادہ ہے۔",
+      "ex_en": "This forest has enormous biodiversity."
+    },
+    {
+      "ur": "انواع",
+      "en": "species",
+      "ex_ur": "یہاں جانوروں کی لاکھوں انواع پائی جاتی ہیں۔",
+      "ex_en": "Millions of animal species are found here.",
+      "syn": "اقسام"
+    },
+    {
+      "ur": "جنگلات کی کٹائی",
+      "en": "deforestation",
+      "ex_ur": "جنگلات کی کٹائی ایک سنگین مسئلہ ہے۔",
+      "ex_en": "Deforestation is a serious problem."
+    },
+    {
+      "ur": "آکسیجن",
+      "en": "oxygen",
+      "ex_ur": "درخت آکسیجن پیدا کرتے ہیں۔",
+      "ex_en": "Trees produce oxygen."
+    },
+    {
+      "ur": "مقامی قبائل",
+      "en": "indigenous tribes",
+      "ex_ur": "جنگل میں کئی مقامی قبائل رہتے ہیں۔",
+      "ex_en": "Many indigenous tribes live in the forest."
+    },
+    {
+      "ur": "آب و ہوا",
+      "en": "climate",
+      "ex_ur": "جنگلات زمین کی آب و ہوا کو متوازن رکھتے ہیں۔",
+      "ex_en": "Forests keep the Earth's climate balanced."
+    },
+    {
+      "ur": "آگ",
+      "en": "fire",
+      "ex_ur": "ہر سال جنگل میں آگ لگنے کے واقعات ہوتے ہیں۔",
+      "ex_en": "Every year there are cases of fire in the forest."
+    },
+    {
+      "ur": "گھنا",
+      "en": "dense / thick",
+      "ex_ur": "جنگل اتنا گھنا ہے کہ دھوپ زمین تک نہیں پہنچتی۔",
+      "ex_en": "The forest is so dense that sunlight doesn't reach the ground."
+    },
+    {
+      "ur": "تباہی",
+      "en": "destruction",
+      "ex_ur": "جنگل کی تباہی سے جانور بے گھر ہو جاتے ہیں۔",
+      "ex_en": "The destruction of the forest leaves animals homeless.",
+      "syn": "بربادی"
+    }
+  ],
+  "reading": {
+    "passage": "ایمیزون جنوبی امریکہ میں واقع دنیا کا سب سے بڑا برساتی جنگل ہے۔ یہ اتنا گھنا ہے کہ کئی جگہوں پر دھوپ زمین تک نہیں پہنچتی۔ یہاں جانوروں، پرندوں اور پودوں کی لاکھوں انواع پائی جاتی ہیں۔ یہ جنگل بہت زیادہ آکسیجن پیدا کرتا ہے، اس لیے اسے ‘زمین کے پھیپھڑے’ کہا جاتا ہے۔ افسوس کی بات یہ ہے کہ کھیتی باڑی اور لکڑی کے لیے اس کے درخت تیزی سے کاٹے جا رہے ہیں۔ ماہرین کا کہنا ہے کہ اس تباہی سے پوری دنیا کی آب و ہوا متاثر ہوگی۔",
+    "questions": [
+      {
+        "q": "ایمیزون کا جنگل کس براعظم میں ہے؟",
+        "opts": [
+          "جنوبی امریکہ",
+          "افریقہ",
+          "ایشیا",
+          "یورپ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کئی جگہوں پر دھوپ زمین تک کیوں نہیں پہنچتی؟",
+        "opts": [
+          "بارش کی وجہ سے",
+          "جنگل بہت گھنا ہے",
+          "پہاڑوں کی وجہ سے",
+          "دھند کی وجہ سے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ایمیزون کو ‘زمین کے پھیپھڑے’ کیوں کہا جاتا ہے؟",
+        "opts": [
+          "یہ بہت بڑا ہے",
+          "یہاں بارش ہوتی ہے",
+          "یہ بہت زیادہ آکسیجن پیدا کرتا ہے",
+          "یہاں جانور رہتے ہیں"
+        ],
+        "a": 2
+      },
+      {
+        "q": "درخت کیوں کاٹے جا رہے ہیں؟",
+        "opts": [
+          "سڑکوں کے لیے",
+          "شہر بسانے کے لیے",
+          "آگ سے بچنے کے لیے",
+          "کھیتی باڑی اور لکڑی کے لیے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "گھنا",
+          "جنگل",
+          "ہے",
+          "بہت",
+          "یہ"
+        ],
+        "answer": [
+          "یہ",
+          "جنگل",
+          "بہت",
+          "گھنا",
+          "ہے"
+        ],
+        "en": "This forest is very dense."
+      },
+      {
+        "bank": [
+          "ہیں",
+          "پیدا",
+          "درخت",
+          "آکسیجن",
+          "کرتے"
+        ],
+        "answer": [
+          "درخت",
+          "آکسیجن",
+          "پیدا",
+          "کرتے",
+          "ہیں"
+        ],
+        "en": "Trees produce oxygen."
+      },
+      {
+        "bank": [
+          "کاٹے",
+          "رہے",
+          "درخت",
+          "ہیں",
+          "جا"
+        ],
+        "answer": [
+          "درخت",
+          "کاٹے",
+          "جا",
+          "رہے",
+          "ہیں"
+        ],
+        "en": "Trees are being cut down."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ایمیزون دنیا کا سب سے بڑا ____ جنگل ہے۔",
+        "opts": [
+          "برساتی",
+          "صحرائی",
+          "برفانی",
+          "پہاڑی"
+        ],
+        "a": 0,
+        "en": "The Amazon is the world's largest ___ forest."
+      },
+      {
+        "text": "جنگل میں کئی مقامی ____ رہتے ہیں۔",
+        "opts": [
+          "قبائل",
+          "ملک",
+          "شہر",
+          "دفتر"
+        ],
+        "a": 0,
+        "en": "Many indigenous ___ live in the forest."
+      },
+      {
+        "text": "جنگل کی ____ سے جانور بے گھر ہو جاتے ہیں۔",
+        "opts": [
+          "تباہی",
+          "خوبصورتی",
+          "حفاظت",
+          "صفائی"
+        ],
+        "a": 0,
+        "en": "The ___ of the forest leaves animals homeless."
+      }
+    ],
+    "creative": {
+      "ur": "اگر دنیا کے سارے جنگل ختم ہو جائیں تو کیا ہوگا؟ تین جملے لکھیں۔",
+      "en": "What would happen if all the world's forests disappeared? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "بڑے اعداد — Large numbers: ہزار، لاکھ، کروڑ، ارب اور فیصد",
+    "explain": "Urdu groups large numbers differently from English: 1,000 = ایک ہزار, 100,000 = ایک لاکھ, 10,000,000 = ایک کروڑ, 1,000,000,000 = ایک ارب. So ‘one million’ is دس لاکھ and ‘ten million’ is ایک کروڑ. Percent is فیصد: ساٹھ فیصد (60%).",
+    "rows": [
+      [
+        "یہاں پودوں کی ہزاروں قسمیں ہیں۔",
+        "There are thousands of kinds of plants here."
+      ],
+      [
+        "جنگل کا رقبہ تقریباً پچپن لاکھ مربع کلومیٹر ہے۔",
+        "The forest covers about 5.5 million square kilometres."
+      ],
+      [
+        "دنیا کی آبادی آٹھ ارب سے زیادہ ہے۔",
+        "The world's population is more than eight billion."
+      ],
+      [
+        "جنگل کا ساٹھ فیصد حصہ برازیل میں ہے۔",
+        "Sixty percent of the forest is in Brazil."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ایک لاکھ میں سو ____ ہوتے ہیں۔",
+        "opts": [
+          "ہزار",
+          "کروڑ",
+          "ارب",
+          "سو"
+        ],
+        "a": 0,
+        "en": "There are a hundred thousands in one lakh."
+      },
+      {
+        "q": "دس لاکھ کو انگریزی میں ایک ____ کہتے ہیں۔",
+        "opts": [
+          "ملین",
+          "بلین",
+          "ہنڈرڈ",
+          "تھاؤزنڈ"
+        ],
+        "a": 0,
+        "en": "Ten lakh is called one million in English."
+      },
+      {
+        "q": "سو میں سے ساٹھ کو ساٹھ ____ کہتے ہیں۔",
+        "opts": [
+          "فیصد",
+          "گنا",
+          "حصے دار",
+          "درجن"
+        ],
+        "a": 0,
+        "en": "Sixty out of a hundred is called sixty percent."
+      }
+    ]
+  }
+}

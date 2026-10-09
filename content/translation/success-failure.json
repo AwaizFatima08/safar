@@ -1,0 +1,90 @@
+{
+  "id": "success-failure",
+  "ur": "کامیابی اور ناکامی",
+  "en": "Success and Failure",
+  "warmup": [
+    {
+      "en": "Hard work is never wasted.",
+      "bank": [
+        "جاتی",
+        "ضائع نہیں",
+        "کبھی",
+        "محنت"
+      ],
+      "answer": [
+        "محنت",
+        "کبھی",
+        "ضائع نہیں",
+        "جاتی"
+      ]
+    },
+    {
+      "en": "Don't be afraid of failure.",
+      "bank": [
+        "ڈریں",
+        "سے",
+        "نہ",
+        "ناکامی"
+      ],
+      "answer": [
+        "ناکامی",
+        "سے",
+        "نہ",
+        "ڈریں"
+      ]
+    },
+    {
+      "en": "Learn from mistakes.",
+      "bank": [
+        "سیکھیں",
+        "سے",
+        "غلطیوں"
+      ],
+      "answer": [
+        "غلطیوں",
+        "سے",
+        "سیکھیں"
+      ]
+    },
+    {
+      "en": "Despite the rain, we played.",
+      "bank": [
+        "کھیلے",
+        "ہم",
+        "کے باوجود",
+        "بارش"
+      ],
+      "answer": [
+        "بارش",
+        "کے باوجود",
+        "ہم",
+        "کھیلے"
+      ]
+    },
+    {
+      "en": "Keep your goal clear.",
+      "bank": [
+        "رکھیں",
+        "واضح",
+        "مقصد",
+        "اپنا"
+      ],
+      "answer": [
+        "اپنا",
+        "مقصد",
+        "واضح",
+        "رکھیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Nobody likes to fail, but failure is a part of every successful life. Many famous scientists, writers and sportsmen faced rejection again and again before they achieved their goals. What made them different was not luck but their refusal to give up. When we fail, we discover our weaknesses, and that knowledge helps us to do better next time. Although it is natural to feel disappointed, we should not let one bad result decide our future. Instead, we should look calmly at what went wrong, ask for help when we need it and make a new plan. Parents and teachers can help by praising effort rather than only results, so that young people are not afraid to try.",
+    "modelUr": "کوئی بھی ناکام ہونا پسند نہیں کرتا، لیکن ناکامی ہر کامیاب زندگی کا حصہ ہے۔ بہت سے مشہور سائنس دانوں، ادیبوں اور کھلاڑیوں کو اپنے مقاصد حاصل کرنے سے پہلے بار بار رد کیا گیا۔ جس چیز نے انہیں دوسروں سے مختلف بنایا وہ قسمت نہیں بلکہ ان کا ہار نہ ماننا تھا۔ جب ہم ناکام ہوتے ہیں تو ہمیں اپنی کمزوریوں کا پتا چلتا ہے، اور یہی علم اگلی بار بہتر کارکردگی دکھانے میں ہماری مدد کرتا ہے۔ اگرچہ مایوس ہونا فطری بات ہے، لیکن ہمیں ایک برے نتیجے کو اپنے مستقبل کا فیصلہ نہیں کرنے دینا چاہیے۔ اس کے بجائے ہمیں ٹھنڈے دل سے دیکھنا چاہیے کہ کہاں غلطی ہوئی، ضرورت ہو تو مدد مانگنی چاہیے اور نیا منصوبہ بنانا چاہیے۔ والدین اور اساتذہ صرف نتائج کے بجائے کوشش کی تعریف کر کے مدد کر سکتے ہیں، تاکہ نوجوان کوشش کرنے سے نہ ڈریں۔",
+    "checklist": [
+      "کیا آپ نے ‘Although…’ کا ترجمہ ‘اگرچہ… لیکن’ سے کیا؟",
+      "کیا ‘not luck but…’ کا ترجمہ ‘قسمت نہیں بلکہ…’ کیا؟",
+      "کیا ‘rather than’ کے لیے ‘کے بجائے’ استعمال کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

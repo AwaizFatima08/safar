@@ -1,0 +1,265 @@
+{
+  "id": "earthquake-safety",
+  "ur": "زلزلے سے بچاؤ",
+  "en": "Earthquake Safety",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستان کے شمالی علاقے زمین کی دو بڑی پلیٹوں کے ملاپ پر واقع ہیں، اسی لیے یہاں زلزلے زیادہ آتے ہیں۔",
+    "en": "Did you know? Northern Pakistan lies where two of the Earth's great plates meet, which is why earthquakes happen there often."
+  },
+  "vocab": [
+    {
+      "ur": "زلزلہ",
+      "en": "earthquake",
+      "ex_ur": "کل رات زلزلہ آیا۔",
+      "ex_en": "There was an earthquake last night."
+    },
+    {
+      "ur": "جھٹکا",
+      "en": "tremor / jolt",
+      "ex_ur": "زلزلے کے جھٹکے کئی سیکنڈ تک محسوس ہوئے۔",
+      "ex_en": "The tremors were felt for several seconds."
+    },
+    {
+      "ur": "عمارت",
+      "en": "building",
+      "ex_ur": "مضبوط عمارتیں زلزلے میں محفوظ رہتی ہیں۔",
+      "ex_en": "Strong buildings stay safe in an earthquake."
+    },
+    {
+      "ur": "پناہ",
+      "en": "shelter / refuge",
+      "ex_ur": "میز کے نیچے پناہ لیں۔",
+      "ex_en": "Take shelter under a table."
+    },
+    {
+      "ur": "کھلی جگہ",
+      "en": "open space",
+      "ex_ur": "زلزلے کے بعد کھلی جگہ پر چلے جائیں۔",
+      "ex_en": "After the earthquake, go to an open space."
+    },
+    {
+      "ur": "احتیاط",
+      "en": "caution / precaution",
+      "ex_ur": "احتیاط سے جانیں بچائی جا سکتی ہیں۔",
+      "ex_en": "Lives can be saved with precautions.",
+      "syn": "بچاؤ کی تدبیر"
+    },
+    {
+      "ur": "ابتدائی طبی امداد",
+      "en": "first aid",
+      "ex_ur": "ہر گھر میں ابتدائی طبی امداد کا سامان ہونا چاہیے۔",
+      "ex_en": "Every home should have a first-aid kit."
+    },
+    {
+      "ur": "مشق",
+      "en": "drill / practice",
+      "ex_ur": "اسکول میں زلزلے کی مشق کی گئی۔",
+      "ex_en": "An earthquake drill was held at school."
+    },
+    {
+      "ur": "گھبراہٹ",
+      "en": "panic",
+      "ex_ur": "زلزلے میں گھبراہٹ سے نقصان بڑھ سکتا ہے۔",
+      "ex_en": "Panic can increase the harm during an earthquake.",
+      "syn": "بوکھلاہٹ"
+    },
+    {
+      "ur": "تباہی",
+      "en": "destruction",
+      "ex_ur": "2005ء کے زلزلے نے بہت تباہی مچائی۔",
+      "ex_en": "The 2005 earthquake caused great destruction."
+    }
+  ],
+  "reading": {
+    "passage": "زلزلہ ایک قدرتی آفت ہے جو اچانک آتی ہے۔ 8 اکتوبر 2005ء کو کشمیر اور خیبر پختونخوا میں ایک شدید زلزلہ آیا جس میں ہزاروں لوگ جاں بحق ہوئے۔ زلزلے کے دوران گھبراہٹ کے بجائے احتیاط ضروری ہے۔ اگر آپ کمرے میں ہوں تو مضبوط میز کے نیچے پناہ لیں اور کھڑکیوں سے دور رہیں۔ جھٹکے رکنے کے بعد آہستہ آہستہ کھلی جگہ پر چلے جائیں۔ اسکولوں میں باقاعدہ مشق کر کے بچوں کو یہ طریقے سکھائے جاتے ہیں۔",
+    "questions": [
+      {
+        "q": "2005ء کا زلزلہ کس مہینے میں آیا؟",
+        "opts": [
+          "اکتوبر",
+          "جنوری",
+          "مئی",
+          "دسمبر"
+        ],
+        "a": 0
+      },
+      {
+        "q": "زلزلے کے دوران کمرے میں کہاں پناہ لینی چاہیے؟",
+        "opts": [
+          "کھڑکی کے پاس",
+          "مضبوط میز کے نیچے",
+          "سیڑھیوں پر",
+          "الماری کے اوپر"
+        ],
+        "a": 1
+      },
+      {
+        "q": "جھٹکے رکنے کے بعد کیا کرنا چاہیے؟",
+        "opts": [
+          "سو جانا چاہیے",
+          "لفٹ استعمال کرنی چاہیے",
+          "کھلی جگہ پر جانا چاہیے",
+          "کمرے میں رہنا چاہیے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "اسکولوں میں بچوں کو یہ طریقے کیسے سکھائے جاتے ہیں؟",
+        "opts": [
+          "فلموں سے",
+          "کتابوں سے",
+          "گانوں سے",
+          "باقاعدہ مشق سے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پناہ",
+          "میز",
+          "لیں",
+          "نیچے",
+          "کے"
+        ],
+        "answer": [
+          "میز",
+          "کے",
+          "نیچے",
+          "پناہ",
+          "لیں"
+        ],
+        "en": "Take shelter under the table."
+      },
+      {
+        "bank": [
+          "رہیں",
+          "دور",
+          "کھڑکیوں",
+          "سے"
+        ],
+        "answer": [
+          "کھڑکیوں",
+          "سے",
+          "دور",
+          "رہیں"
+        ],
+        "en": "Stay away from the windows."
+      },
+      {
+        "bank": [
+          "ضروری",
+          "احتیاط",
+          "ہے",
+          "زلزلے میں"
+        ],
+        "answer": [
+          "زلزلے میں",
+          "احتیاط",
+          "ضروری",
+          "ہے"
+        ],
+        "en": "Caution is necessary in an earthquake."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "زلزلے کے بعد ____ جگہ پر چلے جائیں۔",
+        "opts": [
+          "کھلی",
+          "تنگ",
+          "اندھیری",
+          "بند"
+        ],
+        "a": 0,
+        "en": "After the earthquake, go to an ___ space."
+      },
+      {
+        "text": "اسکول میں زلزلے کی ____ کی گئی۔",
+        "opts": [
+          "مشق",
+          "دعوت",
+          "تصویر",
+          "صفائی"
+        ],
+        "a": 0,
+        "en": "An earthquake ___ was held at school."
+      },
+      {
+        "text": "ہر گھر میں ابتدائی طبی ____ کا سامان ہونا چاہیے۔",
+        "opts": [
+          "امداد",
+          "تعلیم",
+          "کھیل",
+          "سفر"
+        ],
+        "a": 0,
+        "en": "Every home should have a first-___ kit."
+      }
+    ],
+    "creative": {
+      "ur": "زلزلے کی صورت میں آپ اپنے گھر والوں کی حفاظت کے لیے کیا کریں گے؟ تین جملے لکھیں۔",
+      "en": "What would you do to keep your family safe in an earthquake? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ترتیب کے الفاظ — Sequence words: پہلے، پھر، اس کے بعد، آخر میں",
+    "explain": "Instructions are easier to follow when the steps are ordered: سب سے پہلے (first of all), پھر / اس کے بعد (then / after that), آخر میں (finally). کے دوران means ‘during’, سے پہلے ‘before’ and کے بعد ‘after’.",
+    "rows": [
+      [
+        "سب سے پہلے زمین پر جھک جائیں۔",
+        "First of all, drop to the ground."
+      ],
+      [
+        "پھر کسی مضبوط میز کے نیچے پناہ لیں۔",
+        "Then take shelter under a strong table."
+      ],
+      [
+        "جھٹکوں کے دوران اسے مضبوطی سے پکڑے رکھیں۔",
+        "During the tremors, hold on to it firmly."
+      ],
+      [
+        "آخر میں آہستہ آہستہ کھلی جگہ پر جائیں۔",
+        "Finally, go slowly to an open space."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "____ میں سب گھر والوں کی گنتی کریں۔",
+        "opts": [
+          "آخر",
+          "دوران",
+          "پہلے سے",
+          "بعد سے"
+        ],
+        "a": 0,
+        "en": "Finally, count all the family members."
+      },
+      {
+        "q": "زلزلے کے ____ لفٹ استعمال نہ کریں۔",
+        "opts": [
+          "دوران",
+          "پہلے",
+          "آخر",
+          "سب سے"
+        ],
+        "a": 0,
+        "en": "Do not use the lift during an earthquake."
+      },
+      {
+        "q": "جھٹکے رکنے کے ____ باہر نکلیں۔",
+        "opts": [
+          "بعد",
+          "دوران",
+          "اندر",
+          "اوپر"
+        ],
+        "a": 0,
+        "en": "Go outside after the tremors stop."
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "heatwave",
+  "ur": "شدید گرمی کی لہر",
+  "en": "Heatwave",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ جیکب آباد کا شمار دنیا کے گرم ترین شہروں میں ہوتا ہے، جہاں گرمیوں میں درجۂ حرارت پچاس ڈگری سے بھی اوپر چلا جاتا ہے۔",
+    "en": "Did you know? Jacobabad is counted among the hottest cities in the world; in summer the temperature can rise above 50°C."
+  },
+  "vocab": [
+    {
+      "ur": "گرمی کی لہر",
+      "en": "heatwave",
+      "ex_ur": "اس ہفتے گرمی کی لہر جاری رہے گی۔",
+      "ex_en": "The heatwave will continue this week."
+    },
+    {
+      "ur": "درجۂ حرارت",
+      "en": "temperature",
+      "ex_ur": "آج درجۂ حرارت 45 ڈگری تھا۔",
+      "ex_en": "Today the temperature was 45 degrees."
+    },
+    {
+      "ur": "لُو",
+      "en": "hot wind / heatstroke",
+      "ex_ur": "دوپہر کو لُو چلتی ہے۔",
+      "ex_en": "A hot wind blows in the afternoon."
+    },
+    {
+      "ur": "پانی کی کمی",
+      "en": "dehydration",
+      "ex_ur": "پانی کی کمی سے چکر آ سکتے ہیں۔",
+      "ex_en": "Dehydration can make you dizzy."
+    },
+    {
+      "ur": "سایہ",
+      "en": "shade",
+      "ex_ur": "دوپہر میں سائے میں رہیں۔",
+      "ex_en": "Stay in the shade in the afternoon."
+    },
+    {
+      "ur": "ہدایت",
+      "en": "guidance / instruction",
+      "ex_ur": "محکمۂ صحت نے ہدایات جاری کیں۔",
+      "ex_en": "The health department issued guidance."
+    },
+    {
+      "ur": "بزرگ",
+      "en": "elderly people",
+      "ex_ur": "گرمی میں بزرگوں کا خاص خیال رکھیں۔",
+      "ex_en": "Take special care of the elderly in the heat.",
+      "syn": "بڑی عمر کے لوگ"
+    },
+    {
+      "ur": "شدید",
+      "en": "severe / intense",
+      "ex_ur": "آج شدید گرمی ہے۔",
+      "ex_en": "It is intensely hot today.",
+      "syn": "سخت"
+    },
+    {
+      "ur": "بجلی کی بندش",
+      "en": "power cut",
+      "ex_ur": "گرمی میں بجلی کی بندش سے مشکل بڑھ جاتی ہے۔",
+      "ex_en": "Power cuts make the heat harder to bear."
+    },
+    {
+      "ur": "شجرکاری",
+      "en": "tree planting",
+      "ex_ur": "شجرکاری سے شہر ٹھنڈے رہتے ہیں۔",
+      "ex_en": "Tree planting keeps cities cooler."
+    }
+  ],
+  "reading": {
+    "passage": "پاکستان میں مئی اور جون کے مہینوں میں اکثر شدید گرمی کی لہر آتی ہے۔ 2015ء میں کراچی میں گرمی کی لہر سے سینکڑوں لوگ جاں بحق ہو گئے تھے۔ ماہرین کہتے ہیں کہ گرمی میں سب سے بڑا خطرہ پانی کی کمی ہے۔ اس لیے دن بھر پانی پیتے رہنا چاہیے، چاہے پیاس نہ لگی ہو۔ دوپہر بارہ سے تین بجے تک دھوپ میں نکلنے سے پرہیز کرنا چاہیے۔ شہروں میں زیادہ درخت لگا کر بھی گرمی کم کی جا سکتی ہے۔",
+    "questions": [
+      {
+        "q": "پاکستان میں گرمی کی لہر عموماً کب آتی ہے؟",
+        "opts": [
+          "مئی اور جون میں",
+          "دسمبر میں",
+          "مارچ میں",
+          "اکتوبر میں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "2015ء میں گرمی کی لہر کس شہر میں آئی؟",
+        "opts": [
+          "لاہور",
+          "کراچی",
+          "پشاور",
+          "کوئٹہ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ماہرین کے مطابق گرمی میں سب سے بڑا خطرہ کیا ہے؟",
+        "opts": [
+          "بارش",
+          "سردی",
+          "پانی کی کمی",
+          "آندھی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "شہروں میں گرمی کیسے کم کی جا سکتی ہے؟",
+        "opts": [
+          "سڑکیں بنا کر",
+          "گاڑیاں بڑھا کر",
+          "عمارتیں اونچی کر کے",
+          "زیادہ درخت لگا کر"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پئیں",
+          "پانی",
+          "زیادہ",
+          "گرمی میں"
+        ],
+        "answer": [
+          "گرمی میں",
+          "زیادہ",
+          "پانی",
+          "پئیں"
+        ],
+        "en": "Drink more water in the heat."
+      },
+      {
+        "bank": [
+          "رہیں",
+          "میں",
+          "سائے",
+          "دوپہر کو"
+        ],
+        "answer": [
+          "دوپہر کو",
+          "سائے",
+          "میں",
+          "رہیں"
+        ],
+        "en": "Stay in the shade at midday."
+      },
+      {
+        "bank": [
+          "خیال",
+          "کا",
+          "رکھیں",
+          "بزرگوں"
+        ],
+        "answer": [
+          "بزرگوں",
+          "کا",
+          "خیال",
+          "رکھیں"
+        ],
+        "en": "Look after the elderly."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "آج ____ 45 ڈگری تک پہنچ گیا۔",
+        "opts": [
+          "درجۂ حرارت",
+          "بارش",
+          "ہوا",
+          "سایہ"
+        ],
+        "a": 0,
+        "en": "Today the ___ reached 45 degrees."
+      },
+      {
+        "text": "پانی کی ____ سے چکر آ سکتے ہیں۔",
+        "opts": [
+          "کمی",
+          "زیادتی",
+          "ٹھنڈک",
+          "صفائی"
+        ],
+        "a": 0,
+        "en": "___ of water can cause dizziness."
+      },
+      {
+        "text": "دوپہر کو گرم ہوا یعنی ____ چلتی ہے۔",
+        "opts": [
+          "لُو",
+          "بادل",
+          "برف",
+          "شبنم"
+        ],
+        "a": 0,
+        "en": "In the afternoon a hot wind, ___, blows."
+      }
+    ],
+    "creative": {
+      "ur": "گرمیوں کی ایک دوپہر آپ اپنے آپ کو ٹھنڈا رکھنے کے لیے کیا کرتے ہیں؟ تین جملے لکھیں۔",
+      "en": "What do you do to keep cool on a summer afternoon? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مشورہ اور ہدایت — ‘چاہیے’ اور امر (Advice and instructions)",
+    "explain": "For advice use the infinitive + چاہیے with کو: ‘آپ کو پانی پینا چاہیے’ (you should drink water). For polite instructions use the آپ imperative: پئیں، رہیں، کریں. For ‘should not’ add نہیں (… نہیں کرنا چاہیے) or use نہ with the imperative (نہ نکلیں).",
+    "rows": [
+      [
+        "آپ کو دن بھر پانی پینا چاہیے۔",
+        "You should drink water all day."
+      ],
+      [
+        "دوپہر کو دھوپ میں نہ نکلیں۔",
+        "Do not go out in the sun at midday."
+      ],
+      [
+        "بچوں کو ہلکے کپڑے پہننے چاہییں۔",
+        "Children should wear light clothes."
+      ],
+      [
+        "بند گاڑی میں کسی کو نہیں چھوڑنا چاہیے۔",
+        "No one should be left in a closed car."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "گرمی میں ہمیں زیادہ پانی پینا ____۔",
+        "opts": [
+          "چاہیے",
+          "چاہتا",
+          "چاہا",
+          "چاہیں"
+        ],
+        "a": 0,
+        "en": "We should drink more water in the heat."
+      },
+      {
+        "q": "بزرگوں کو دھوپ میں ____ نکلنا چاہیے۔",
+        "opts": [
+          "نہیں",
+          "نہ کہ",
+          "مت کیا",
+          "کبھی کبھی"
+        ],
+        "a": 0,
+        "en": "The elderly should not go out in the sun."
+      },
+      {
+        "q": "مہربانی کر کے سائے میں ____۔",
+        "opts": [
+          "بیٹھیں",
+          "بیٹھا",
+          "بیٹھنا چاہیے تھا",
+          "بیٹھے گا"
+        ],
+        "a": 0,
+        "en": "Please sit in the shade."
+      }
+    ]
+  }
+}

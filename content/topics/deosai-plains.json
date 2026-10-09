@@ -1,0 +1,269 @@
+{
+  "id": "deosai-plains",
+  "ur": "دیوسائی کے میدان",
+  "en": "The Deosai Plains",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ دیوسائی کی اوسط بلندی تقریباً 4000 میٹر سے زیادہ ہے، اسی لیے اسے ‘دنیا کی چھت’ کا ایک حصہ بھی کہا جاتا ہے۔",
+    "en": "Did you know? Deosai's average height is over about 4,000 metres, which is why it is called part of the ‘roof of the world’."
+  },
+  "vocab": [
+    {
+      "ur": "میدان",
+      "en": "plain / open land",
+      "ex_ur": "دیوسائی ایک وسیع میدان ہے۔",
+      "ex_en": "Deosai is a vast plain."
+    },
+    {
+      "ur": "سطح مرتفع",
+      "en": "plateau",
+      "ex_ur": "دیوسائی دنیا کی بلند ترین سطح مرتفع میں سے ایک ہے۔",
+      "ex_en": "Deosai is one of the highest plateaus in the world."
+    },
+    {
+      "ur": "ریچھ",
+      "en": "bear",
+      "ex_ur": "یہاں ہمالیائی بھورا ریچھ پایا جاتا ہے۔",
+      "ex_en": "The Himalayan brown bear is found here."
+    },
+    {
+      "ur": "جنگلی حیات",
+      "en": "wildlife",
+      "ex_ur": "جنگلی حیات کی حفاظت ضروری ہے۔",
+      "ex_en": "Protecting wildlife is necessary."
+    },
+    {
+      "ur": "جھیل",
+      "en": "lake",
+      "ex_ur": "شیوسر جھیل کا پانی نیلا ہے۔",
+      "ex_en": "The water of Sheosar Lake is blue."
+    },
+    {
+      "ur": "جنگلی پھول",
+      "en": "wildflowers",
+      "ex_ur": "گرمیوں میں ہر طرف جنگلی پھول کھلتے ہیں۔",
+      "ex_en": "In summer, wildflowers bloom everywhere."
+    },
+    {
+      "ur": "قومی پارک",
+      "en": "national park",
+      "ex_ur": "دیوسائی کو قومی پارک کا درجہ دیا گیا ہے۔",
+      "ex_en": "Deosai has been made a national park."
+    },
+    {
+      "ur": "خیمہ",
+      "en": "tent",
+      "ex_ur": "ہم نے جھیل کے پاس خیمہ لگایا۔",
+      "ex_en": "We put up a tent near the lake."
+    },
+    {
+      "ur": "ممنوع",
+      "en": "forbidden",
+      "ex_ur": "پارک میں شکار ممنوع ہے۔",
+      "ex_en": "Hunting is forbidden in the park.",
+      "syn": "منع"
+    },
+    {
+      "ur": "وسیع",
+      "en": "vast / wide",
+      "ex_ur": "سامنے ایک وسیع سبزہ زار تھا۔",
+      "ex_en": "In front of us was a vast meadow.",
+      "syn": "کشادہ"
+    }
+  ],
+  "reading": {
+    "passage": "دیوسائی گلگت بلتستان میں سکردو اور استور کے درمیان ایک وسیع سطح مرتفع ہے۔ اس کا نام ‘دیو سائی’ یعنی ‘دیو کا سایہ’ سے نکلا ہے۔ سال کے آٹھ مہینے یہ علاقہ برف سے ڈھکا رہتا ہے، اور صرف گرمیوں میں یہاں جانا ممکن ہوتا ہے۔ ان دنوں ہر طرف رنگ برنگے جنگلی پھول کھل اٹھتے ہیں۔ یہاں ہمالیائی بھورا ریچھ پایا جاتا ہے جس کی حفاظت کے لیے دیوسائی کو قومی پارک بنایا گیا۔ پارک میں شکار اور کچرا پھینکنا ممنوع ہے۔",
+    "questions": [
+      {
+        "q": "دیوسائی کس علاقے میں واقع ہے؟",
+        "opts": [
+          "گلگت بلتستان",
+          "سوات",
+          "بلوچستان",
+          "سندھ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "‘دیو سائی’ کا مطلب کیا ہے؟",
+        "opts": [
+          "پھولوں کا میدان",
+          "دیو کا سایہ",
+          "نیلی جھیل",
+          "اونچا پہاڑ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "سال کے کتنے مہینے یہاں برف رہتی ہے؟",
+        "opts": [
+          "دو",
+          "چار",
+          "آٹھ",
+          "بارہ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "دیوسائی کو قومی پارک کیوں بنایا گیا؟",
+        "opts": [
+          "پھولوں کے لیے",
+          "جھیل کے لیے",
+          "سیاحوں کے لیے",
+          "بھورے ریچھ کی حفاظت کے لیے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "میدان",
+          "ہے",
+          "وسیع",
+          "ایک",
+          "دیوسائی"
+        ],
+        "answer": [
+          "دیوسائی",
+          "ایک",
+          "وسیع",
+          "میدان",
+          "ہے"
+        ],
+        "en": "Deosai is a vast plain."
+      },
+      {
+        "bank": [
+          "ممنوع",
+          "شکار",
+          "پارک",
+          "ہے",
+          "میں"
+        ],
+        "answer": [
+          "پارک",
+          "میں",
+          "شکار",
+          "ممنوع",
+          "ہے"
+        ],
+        "en": "Hunting is forbidden in the park."
+      },
+      {
+        "bank": [
+          "لگایا",
+          "خیمہ",
+          "کے پاس",
+          "جھیل",
+          "ہم نے"
+        ],
+        "answer": [
+          "ہم نے",
+          "جھیل",
+          "کے پاس",
+          "خیمہ",
+          "لگایا"
+        ],
+        "en": "We put up a tent near the lake."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "گرمیوں میں ہر طرف جنگلی ____ کھلتے ہیں۔",
+        "opts": [
+          "پھول",
+          "پتھر",
+          "پرندے",
+          "بادل"
+        ],
+        "a": 0,
+        "en": "In summer, wild ___ bloom everywhere."
+      },
+      {
+        "text": "یہاں ہمالیائی بھورا ____ پایا جاتا ہے۔",
+        "opts": [
+          "ریچھ",
+          "اونٹ",
+          "مگرمچھ",
+          "ہاتھی"
+        ],
+        "a": 0,
+        "en": "The Himalayan brown ___ is found here."
+      },
+      {
+        "text": "پارک میں کچرا پھینکنا ____ ہے۔",
+        "opts": [
+          "ممنوع",
+          "ضروری",
+          "آسان",
+          "مفید"
+        ],
+        "a": 0,
+        "en": "Throwing litter in the park is ___."
+      }
+    ],
+    "creative": {
+      "ur": "قومی پارک کی حفاظت کے لیے سیاحوں کو کون سی تین باتوں کا خیال رکھنا چاہیے؟ تین جملے لکھیں۔",
+      "en": "Which three things should tourists keep in mind to protect a national park? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "امر اور نہی — Polite instructions and prohibitions (کریں / نہ کریں)",
+    "explain": "Signs and rules use the polite imperative ending ـیں: کچرا ڈبے میں ڈالیں (put litter in the bin). To forbid, put نہ before the verb: شکار نہ کریں (do not hunt). مت is stronger and more informal; formal notices also use … منع ہے or … کی اجازت نہیں.",
+    "rows": [
+      [
+        "کچرا ساتھ واپس لے جائیں۔",
+        "Take your litter back with you."
+      ],
+      [
+        "جانوروں کو کھانا نہ دیں۔",
+        "Do not feed the animals."
+      ],
+      [
+        "پارک میں آگ جلانا منع ہے۔",
+        "Lighting fires in the park is forbidden."
+      ],
+      [
+        "رات کو گاڑی چلانے کی اجازت نہیں۔",
+        "Driving at night is not allowed."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "جنگلی جانوروں کے قریب ____ جائیں۔",
+        "opts": [
+          "نہ",
+          "مت کر",
+          "نہیں ہے",
+          "کبھی"
+        ],
+        "a": 0,
+        "en": "Do not go near wild animals."
+      },
+      {
+        "q": "جھیل میں پلاسٹک کی بوتلیں نہ ____ ۔",
+        "opts": [
+          "پھینکیں",
+          "پھینکا",
+          "پھینکتا",
+          "پھینکی"
+        ],
+        "a": 0,
+        "en": "Do not throw plastic bottles into the lake."
+      },
+      {
+        "q": "پارک میں شکار کرنا ____ ہے۔",
+        "opts": [
+          "منع",
+          "اجازت",
+          "ممکن",
+          "پسند"
+        ],
+        "a": 0,
+        "en": "Hunting in the park is forbidden."
+      }
+    ]
+  }
+}

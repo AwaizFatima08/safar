@@ -1,0 +1,104 @@
+{
+  "id": "markhor",
+  "ur": "مارخور",
+  "en": "The Markhor",
+  "warmup": [
+    {
+      "en": "The markhor lives in the mountains.",
+      "bank": [
+        "میں",
+        "رہتا",
+        "مارخور",
+        "ہے",
+        "پہاڑوں"
+      ],
+      "answer": [
+        "مارخور",
+        "پہاڑوں",
+        "میں",
+        "رہتا",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Its horns are twisted.",
+      "bank": [
+        "سینگ",
+        "ہیں",
+        "کے",
+        "پیچ دار",
+        "اس"
+      ],
+      "answer": [
+        "اس",
+        "کے",
+        "سینگ",
+        "پیچ دار",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "Hunting is now forbidden.",
+      "bank": [
+        "ہے",
+        "شکار",
+        "ممنوع",
+        "اب"
+      ],
+      "answer": [
+        "اب",
+        "شکار",
+        "ممنوع",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Local people protect the animals.",
+      "bank": [
+        "کرتے",
+        "مقامی",
+        "کی",
+        "حفاظت",
+        "جانوروں",
+        "لوگ",
+        "ہیں"
+      ],
+      "answer": [
+        "مقامی",
+        "لوگ",
+        "جانوروں",
+        "کی",
+        "حفاظت",
+        "کرتے",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "The markhor is our national animal.",
+      "bank": [
+        "جانور",
+        "ہے",
+        "ہمارا",
+        "مارخور",
+        "قومی"
+      ],
+      "answer": [
+        "مارخور",
+        "ہمارا",
+        "قومی",
+        "جانور",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The markhor, Pakistan's national animal, is a large wild goat famous for its long, spiral horns. It lives on steep, rocky mountainsides in the north of the country and in parts of Balochistan. By the end of the last century the markhor was in serious danger, because hunters were killing it for its horns and its habitat was shrinking. Instead of simply banning all hunting, Pakistan tried a different approach. A small number of old males could be hunted each year by people who paid a very high fee, and most of that money went to the villages nearby. With these funds, communities built schools and water supplies, and they began guarding the animals themselves. Thanks to this plan, the number of markhors has increased, and conservationists around the world now study Pakistan's success.",
+    "modelUr": "مارخور، جو پاکستان کا قومی جانور ہے، ایک بڑا جنگلی بکرا ہے جو اپنے لمبے اور پیچ دار سینگوں کی وجہ سے مشہور ہے۔ یہ ملک کے شمال میں اور بلوچستان کے کچھ حصوں میں کھڑی اور پتھریلی پہاڑی ڈھلوانوں پر رہتا ہے۔ پچھلی صدی کے آخر تک مارخور شدید خطرے میں تھا، کیونکہ شکاری اس کے سینگوں کے لیے اسے مار رہے تھے اور اس کا مسکن سکڑ رہا تھا۔ ہر قسم کے شکار پر صرف پابندی لگانے کے بجائے پاکستان نے ایک مختلف طریقہ آزمایا۔ ہر سال چند بوڑھے نر مارخوروں کا شکار وہ لوگ کر سکتے تھے جو بہت زیادہ فیس ادا کرتے، اور اس رقم کا بیشتر حصہ قریبی دیہات کو ملتا۔ ان فنڈز سے مقامی آبادیوں نے اسکول اور پانی کی سہولتیں بنائیں، اور خود جانوروں کی نگرانی شروع کر دی۔ اس منصوبے کی بدولت مارخوروں کی تعداد بڑھ گئی ہے، اور اب دنیا بھر کے ماہرینِ تحفظ پاکستان کی اس کامیابی کا مطالعہ کرتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘spiral horns’ اور ‘habitat’ کے لیے درست الفاظ (پیچ دار سینگ، مسکن) استعمال کیے؟",
+      "کیا ‘Instead of simply banning’ کا مفہوم ‘صرف پابندی لگانے کے بجائے’ جیسی ساخت سے ادا ہوا؟",
+      "کیا آپ نے جمع مغیرہ درست استعمال کی (مارخوروں، دیہات، جانوروں)؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

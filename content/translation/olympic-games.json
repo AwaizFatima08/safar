@@ -1,0 +1,90 @@
+{
+  "id": "olympic-games",
+  "ur": "اولمپک کھیل",
+  "en": "The Olympic Games",
+  "warmup": [
+    {
+      "en": "She won a gold medal.",
+      "bank": [
+        "جیتا",
+        "سونے کا تمغہ",
+        "نے",
+        "اس"
+      ],
+      "answer": [
+        "اس",
+        "نے",
+        "سونے کا تمغہ",
+        "جیتا"
+      ]
+    },
+    {
+      "en": "The Olympics began in 1896.",
+      "bank": [
+        "شروع ہوئے",
+        "میں",
+        "اولمپکس",
+        "1896ء"
+      ],
+      "answer": [
+        "اولمپکس",
+        "1896ء",
+        "میں",
+        "شروع ہوئے"
+      ]
+    },
+    {
+      "en": "The players ran fast.",
+      "bank": [
+        "دوڑے",
+        "تیز",
+        "کھلاڑی"
+      ],
+      "answer": [
+        "کھلاڑی",
+        "تیز",
+        "دوڑے"
+      ]
+    },
+    {
+      "en": "He set a new record.",
+      "bank": [
+        "قائم کیا",
+        "ریکارڈ",
+        "نیا",
+        "نے",
+        "اس"
+      ],
+      "answer": [
+        "اس",
+        "نے",
+        "نیا",
+        "ریکارڈ",
+        "قائم کیا"
+      ]
+    },
+    {
+      "en": "The flag was raised.",
+      "bank": [
+        "گیا",
+        "لہرایا",
+        "پرچم"
+      ],
+      "answer": [
+        "پرچم",
+        "لہرایا",
+        "گیا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "The Olympic Games bring together athletes from more than two hundred countries every four years. The modern Games began in Athens in 1896, inspired by the ancient festival held at Olympia in Greece. The five interlocking rings on the Olympic flag stand for the friendship of the world's continents. Pakistan has a proud Olympic history, especially in hockey, in which it won three gold medals. In 2024, Arshad Nadeem, a young man from a small village in Punjab, won the javelin gold in Paris with an Olympic record throw. His success showed that talent can come from anywhere, and that hard work and determination matter more than wealth or facilities.",
+    "modelUr": "اولمپک کھیل ہر چار سال بعد دو سو سے زیادہ ملکوں کے کھلاڑیوں کو اکٹھا کرتے ہیں۔ جدید کھیلوں کا آغاز 1896ء میں ایتھنز میں ہوا، جو یونان کے مقام اولمپیا میں منعقد ہونے والے قدیم میلے سے متاثر تھے۔ اولمپک پرچم پر ایک دوسرے میں پیوست پانچ دائرے دنیا کے براعظموں کی دوستی کی نمائندگی کرتے ہیں۔ پاکستان کی اولمپک تاریخ قابلِ فخر ہے، خاص طور پر ہاکی میں، جس میں اس نے سونے کے تین تمغے جیتے۔ 2024ء میں پنجاب کے ایک چھوٹے سے گاؤں کے نوجوان ارشد ندیم نے پیرس میں اولمپک ریکارڈ تھرو کے ساتھ نیزہ بازی کا طلائی تمغہ جیتا۔ ان کی کامیابی نے ثابت کیا کہ ہنر کہیں سے بھی ابھر سکتا ہے، اور محنت اور عزم دولت یا سہولتوں سے زیادہ اہم ہیں۔",
+    "checklist": [
+      "کیا آپ نے ماضی کے جملوں میں ‘نے’ اور فعل کی مطابقت درست رکھی (اس نے… تمغے جیتے)؟",
+      "کیا ‘stand for’ کا ترجمہ ‘نمائندگی کرتے ہیں / علامت ہیں’ سے کیا؟",
+      "کیا ‘matter more than’ کا ترجمہ ‘سے زیادہ اہم ہیں’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

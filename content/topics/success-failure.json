@@ -1,0 +1,263 @@
+{
+  "id": "success-failure",
+  "ur": "کامیابی اور ناکامی",
+  "en": "Success and Failure",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ کہا جاتا ہے کہ تھامس ایڈیسن نے بلب بنانے سے پہلے ہزاروں تجربات کیے، اور ہر ناکام تجربے سے کچھ نیا سیکھا۔",
+    "en": "Did you know? Thomas Edison is said to have carried out thousands of experiments before making the light bulb, learning something new from each failure."
+  },
+  "vocab": [
+    {
+      "ur": "کامیابی",
+      "en": "success",
+      "ex_ur": "محنت کامیابی کی کنجی ہے۔",
+      "ex_en": "Hard work is the key to success."
+    },
+    {
+      "ur": "ناکامی",
+      "en": "failure",
+      "ex_ur": "ناکامی سے گھبرانا نہیں چاہیے۔",
+      "ex_en": "One should not fear failure."
+    },
+    {
+      "ur": "ہمت",
+      "en": "courage",
+      "ex_ur": "اس نے ہمت نہیں ہاری۔",
+      "ex_en": "She did not lose courage.",
+      "syn": "حوصلہ"
+    },
+    {
+      "ur": "محنت",
+      "en": "hard work",
+      "ex_ur": "محنت کبھی ضائع نہیں جاتی۔",
+      "ex_en": "Hard work is never wasted."
+    },
+    {
+      "ur": "مقصد",
+      "en": "goal / aim",
+      "ex_ur": "اپنا مقصد واضح رکھیں۔",
+      "ex_en": "Keep your goal clear.",
+      "syn": "ہدف"
+    },
+    {
+      "ur": "تجربہ",
+      "en": "experience / experiment",
+      "ex_ur": "ہر ناکامی ایک نیا تجربہ ہے۔",
+      "ex_en": "Every failure is a new experience."
+    },
+    {
+      "ur": "مایوس",
+      "en": "disappointed / hopeless",
+      "ex_ur": "نتیجہ دیکھ کر وہ مایوس ہو گیا۔",
+      "ex_en": "He was disappointed when he saw the result."
+    },
+    {
+      "ur": "حوصلہ افزائی",
+      "en": "encouragement",
+      "ex_ur": "استاد نے میری حوصلہ افزائی کی۔",
+      "ex_en": "The teacher encouraged me."
+    },
+    {
+      "ur": "ثابت قدمی",
+      "en": "perseverance",
+      "ex_ur": "ثابت قدمی سے منزل ملتی ہے۔",
+      "ex_en": "Perseverance brings you to your goal."
+    },
+    {
+      "ur": "غلطی",
+      "en": "mistake",
+      "ex_ur": "غلطی سے سیکھنا عقلمندی ہے۔",
+      "ex_en": "Learning from mistakes is wise."
+    }
+  ],
+  "reading": {
+    "passage": "ہر انسان زندگی میں کبھی نہ کبھی ناکام ہوتا ہے۔ کوئی امتحان میں فیل ہوتا ہے تو کوئی کھیل کا مقابلہ ہار جاتا ہے۔ ناکامی کے بعد مایوس ہونا فطری بات ہے، لیکن عقلمند لوگ اپنی غلطیوں سے سیکھتے ہیں۔ دنیا کے بہت سے کامیاب لوگ کئی بار ناکام ہوئے، مگر انہوں نے ہمت نہیں ہاری۔ اصل ناکامی گرنا نہیں بلکہ گر کر دوبارہ نہ اٹھنا ہے۔ اگر ہم ثابت قدمی سے محنت کرتے رہیں تو کامیابی ضرور ملتی ہے۔",
+    "questions": [
+      {
+        "q": "عقلمند لوگ ناکامی کے بعد کیا کرتے ہیں؟",
+        "opts": [
+          "اپنی غلطیوں سے سیکھتے ہیں",
+          "دوسروں کو الزام دیتے ہیں",
+          "کام چھوڑ دیتے ہیں",
+          "رونے لگتے ہیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کامیاب لوگوں کے بارے میں کیا کہا گیا ہے؟",
+        "opts": [
+          "وہ کبھی ناکام نہیں ہوئے",
+          "وہ کئی بار ناکام ہوئے مگر ہمت نہیں ہاری",
+          "وہ امیر تھے",
+          "وہ خوش قسمت تھے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اصل ناکامی کیا ہے؟",
+        "opts": [
+          "امتحان میں فیل ہونا",
+          "مقابلہ ہارنا",
+          "گر کر دوبارہ نہ اٹھنا",
+          "غلطی کرنا"
+        ],
+        "a": 2
+      },
+      {
+        "q": "کامیابی کس طرح ملتی ہے؟",
+        "opts": [
+          "قسمت سے",
+          "دوستوں سے",
+          "آرام سے",
+          "ثابت قدمی سے محنت کر کے"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "کنجی",
+          "کامیابی کی",
+          "ہے",
+          "محنت"
+        ],
+        "answer": [
+          "محنت",
+          "کامیابی کی",
+          "کنجی",
+          "ہے"
+        ],
+        "en": "Hard work is the key to success."
+      },
+      {
+        "bank": [
+          "ہاری",
+          "نہیں",
+          "ہمت",
+          "اس نے"
+        ],
+        "answer": [
+          "اس نے",
+          "ہمت",
+          "نہیں",
+          "ہاری"
+        ],
+        "en": "She did not lose heart."
+      },
+      {
+        "bank": [
+          "سیکھیں",
+          "سے",
+          "غلطیوں",
+          "اپنی"
+        ],
+        "answer": [
+          "اپنی",
+          "غلطیوں",
+          "سے",
+          "سیکھیں"
+        ],
+        "en": "Learn from your mistakes."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "نتیجہ دیکھ کر وہ بہت ____ ہوا۔",
+        "opts": [
+          "مایوس",
+          "مضبوط",
+          "مصروف",
+          "مشہور"
+        ],
+        "a": 0,
+        "en": "He was very ___ when he saw the result."
+      },
+      {
+        "text": "استاد نے میری ____ کی۔",
+        "opts": [
+          "حوصلہ افزائی",
+          "ناکامی",
+          "غلطی",
+          "شکایت"
+        ],
+        "a": 0,
+        "en": "The teacher ___ me."
+      },
+      {
+        "text": "____ سے منزل ملتی ہے۔",
+        "opts": [
+          "ثابت قدمی",
+          "سستی",
+          "مایوسی",
+          "غصے"
+        ],
+        "a": 0,
+        "en": "___ brings you to your goal."
+      }
+    ],
+    "creative": {
+      "ur": "کسی ایسے وقت کے بارے میں لکھیں جب آپ کو ناکامی ہوئی اور آپ نے اس سے کیا سیکھا۔ تین جملے لکھیں۔",
+      "en": "Write about a time you failed at something and what you learned from it. Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "تضاد کا اظہار — ‘اگرچہ… لیکن’، ‘کے باوجود’، ‘حالانکہ’",
+    "explain": "To show contrast or concession use: اگرچہ … لیکن/پھر بھی (although … still), noun/infinitive + کے باوجود (despite), and حالانکہ (even though) in the second clause. Do not use both اگرچہ and حالانکہ in the same sentence.",
+    "rows": [
+      [
+        "اگرچہ وہ ناکام ہوا، لیکن اس نے ہمت نہیں ہاری۔",
+        "Although he failed, he did not lose heart."
+      ],
+      [
+        "محنت کے باوجود اس کے نمبر کم آئے۔",
+        "Despite hard work, her marks were low."
+      ],
+      [
+        "وہ مسکرا رہا تھا، حالانکہ وہ اداس تھا۔",
+        "He was smiling, even though he was sad."
+      ],
+      [
+        "بار بار ہارنے کے باوجود ٹیم نے کوشش جاری رکھی۔",
+        "Despite losing again and again, the team kept trying."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "____ وہ بیمار تھی، پھر بھی امتحان دینے آئی۔",
+        "opts": [
+          "اگرچہ",
+          "کیونکہ",
+          "تاکہ",
+          "جب تک"
+        ],
+        "a": 0,
+        "en": "Although she was ill, she still came to sit the exam."
+      },
+      {
+        "q": "بارش کے ____ میچ جاری رہا۔",
+        "opts": [
+          "باوجود",
+          "بجائے",
+          "علاوہ",
+          "ذریعے"
+        ],
+        "a": 0,
+        "en": "Despite the rain, the match continued."
+      },
+      {
+        "q": "وہ فیل ہو گیا، ____ اس نے بہت محنت کی تھی۔",
+        "opts": [
+          "حالانکہ",
+          "اس لیے",
+          "تاکہ",
+          "یعنی"
+        ],
+        "a": 0,
+        "en": "He failed, even though he had worked very hard."
+      }
+    ]
+  }
+}

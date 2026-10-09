@@ -1,0 +1,267 @@
+{
+  "id": "truck-art",
+  "ur": "ٹرک آرٹ",
+  "en": "Truck Art",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستانی ٹرک آرٹ دنیا بھر میں مشہور ہے۔ اس کے رنگین نقش و نگار اب کپڑوں، برتنوں اور فرنیچر پر بھی بنائے جاتے ہیں۔",
+    "en": "Did you know? Pakistani truck art is famous worldwide. Its colourful designs now also appear on clothes, crockery and furniture."
+  },
+  "vocab": [
+    {
+      "ur": "نقش و نگار",
+      "en": "designs / patterns",
+      "ex_ur": "ٹرک پر خوبصورت نقش و نگار بنے ہیں۔",
+      "ex_en": "There are beautiful designs on the truck."
+    },
+    {
+      "ur": "رنگین",
+      "en": "colourful",
+      "ex_ur": "یہ ٹرک بہت رنگین ہے۔",
+      "ex_en": "This truck is very colourful."
+    },
+    {
+      "ur": "کاریگر",
+      "en": "craftsman / artisan",
+      "ex_ur": "کاریگر دن رات محنت کرتا ہے۔",
+      "ex_en": "The craftsman works day and night.",
+      "syn": "دستکار"
+    },
+    {
+      "ur": "ثقافت",
+      "en": "culture",
+      "ex_ur": "ٹرک آرٹ ہماری ثقافت کا حصہ ہے۔",
+      "ex_en": "Truck art is part of our culture."
+    },
+    {
+      "ur": "نمائش",
+      "en": "exhibition",
+      "ex_ur": "شہر میں ٹرک آرٹ کی نمائش لگی ہے۔",
+      "ex_en": "There is a truck art exhibition in the city."
+    },
+    {
+      "ur": "مور",
+      "en": "peacock",
+      "ex_ur": "ٹرک کے پیچھے مور کی تصویر بنی ہے۔",
+      "ex_en": "There is a picture of a peacock on the back of the truck."
+    },
+    {
+      "ur": "شعر",
+      "en": "couplet / verse",
+      "ex_ur": "ٹرکوں پر دلچسپ شعر لکھے ہوتے ہیں۔",
+      "ex_en": "Interesting verses are written on trucks."
+    },
+    {
+      "ur": "ہنر",
+      "en": "skill / craft",
+      "ex_ur": "یہ ہنر باپ سے بیٹے کو منتقل ہوتا ہے۔",
+      "ex_en": "This skill passes from father to son."
+    },
+    {
+      "ur": "منفرد",
+      "en": "unique",
+      "ex_ur": "ہر ٹرک کا ڈیزائن منفرد ہوتا ہے۔",
+      "ex_en": "Every truck's design is unique.",
+      "syn": "انوکھا"
+    },
+    {
+      "ur": "سجاوٹ",
+      "en": "decoration",
+      "ex_ur": "ٹرک کی سجاوٹ میں کئی ہفتے لگتے ہیں۔",
+      "ex_en": "Decorating a truck takes several weeks."
+    }
+  ],
+  "reading": {
+    "passage": "پاکستان کی سڑکوں پر چلتے ہوئے رنگین ٹرک کسی چلتی پھرتی تصویر سے کم نہیں۔ ان ٹرکوں پر مور، پھول، پہاڑ اور مشہور شخصیات کی تصویریں بنی ہوتی ہیں۔ پیچھے کی طرف اکثر کوئی دلچسپ شعر یا جملہ لکھا ہوتا ہے۔ ڈرائیور اپنے ٹرک کو گھر کی طرح سجاتے ہیں کیونکہ وہ کئی کئی ہفتے اسی میں سفر کرتے ہیں۔ یہ فن کراچی، راولپنڈی اور پشاور کے کاریگروں نے زندہ رکھا ہے۔ آج یہ پاکستانی ثقافت کی پہچان بن چکا ہے۔",
+    "questions": [
+      {
+        "q": "ٹرکوں پر کون سا پرندہ اکثر بنا ہوتا ہے؟",
+        "opts": [
+          "مور",
+          "کوا",
+          "چڑیا",
+          "طوطا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "ٹرک کے پیچھے اکثر کیا لکھا ہوتا ہے؟",
+        "opts": [
+          "فون نمبر",
+          "کوئی دلچسپ شعر یا جملہ",
+          "قیمت",
+          "سڑک کا نام"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ڈرائیور ٹرک کو گھر کی طرح کیوں سجاتے ہیں؟",
+        "opts": [
+          "انعام کے لیے",
+          "پولیس کے لیے",
+          "وہ کئی ہفتے اسی میں سفر کرتے ہیں",
+          "ٹرک نیا ہوتا ہے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "آج ٹرک آرٹ کس چیز کی پہچان ہے؟",
+        "opts": [
+          "کھیلوں کی",
+          "سائنس کی",
+          "تجارت کی",
+          "پاکستانی ثقافت کی"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ہے",
+          "رنگین",
+          "بہت",
+          "ٹرک",
+          "یہ"
+        ],
+        "answer": [
+          "یہ",
+          "ٹرک",
+          "بہت",
+          "رنگین",
+          "ہے"
+        ],
+        "en": "This truck is very colourful."
+      },
+      {
+        "bank": [
+          "کا حصہ",
+          "ہماری",
+          "ہے",
+          "ٹرک آرٹ",
+          "ثقافت"
+        ],
+        "answer": [
+          "ٹرک آرٹ",
+          "ہماری",
+          "ثقافت",
+          "کا حصہ",
+          "ہے"
+        ],
+        "en": "Truck art is part of our culture."
+      },
+      {
+        "bank": [
+          "کرتا ہے",
+          "محنت",
+          "کاریگر",
+          "دن رات"
+        ],
+        "answer": [
+          "کاریگر",
+          "دن رات",
+          "محنت",
+          "کرتا ہے"
+        ],
+        "en": "The craftsman works day and night."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "شہر میں ٹرک آرٹ کی ____ لگی ہے۔",
+        "opts": [
+          "نمائش",
+          "بارش",
+          "دکان",
+          "سڑک"
+        ],
+        "a": 0,
+        "en": "A truck art ___ is on in the city."
+      },
+      {
+        "text": "ٹرک کے پیچھے ایک خوبصورت ____ کی تصویر ہے۔",
+        "opts": [
+          "مور",
+          "میز",
+          "سکہ",
+          "بادل"
+        ],
+        "a": 0,
+        "en": "There is a picture of a beautiful ___ on the back."
+      },
+      {
+        "text": "یہ ____ باپ سے بیٹے کو منتقل ہوتا ہے۔",
+        "opts": [
+          "ہنر",
+          "ٹرک",
+          "رنگ",
+          "راستہ"
+        ],
+        "a": 0,
+        "en": "This ___ passes from father to son."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کو ایک ٹرک سجانے کا موقع ملے تو آپ اس پر کیا بنائیں گے؟ تین جملے لکھیں۔",
+      "en": "If you could decorate a truck, what would you paint on it? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "صفت کی مطابقت — Adjective agreement",
+    "explain": "Adjectives ending in ـا change to match the noun: اچھا ٹرک (masc. sing.), اچھے ٹرک (masc. pl.), اچھی تصویر / تصویریں (fem.). Adjectives that do not end in ـا never change: رنگین ٹرک، رنگین تصویریں، خوبصورت مور. Before a noun with کا/کی/کے or other postpositions, masculine ـا adjectives become ـے: بڑے ٹرک پر.",
+    "rows": [
+      [
+        "یہ بڑا ٹرک ہے۔ / یہ بڑے ٹرک ہیں۔",
+        "This is a big truck. / These are big trucks."
+      ],
+      [
+        "دیوار پر پیاری تصویر بنی ہے۔",
+        "A lovely picture is painted on the wall."
+      ],
+      [
+        "رنگین ٹرک اور رنگین گاڑیاں",
+        "colourful trucks and colourful cars (no change)"
+      ],
+      [
+        "بڑے ٹرک پر شعر لکھا ہے۔",
+        "A verse is written on the big truck. (ـا → ـے before پر)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ٹرک پر ____ تصویریں بنی ہیں۔",
+        "opts": [
+          "اچھی",
+          "اچھا",
+          "اچھے",
+          "اچھوں"
+        ],
+        "a": 0,
+        "en": "Nice pictures are painted on the truck."
+      },
+      {
+        "q": "یہ ____ ٹرک پشاور سے آئے ہیں۔",
+        "opts": [
+          "سجے ہوئے",
+          "سجا ہوا",
+          "سجی ہوئی",
+          "سجی ہوئیں"
+        ],
+        "a": 0,
+        "en": "These decorated trucks have come from Peshawar."
+      },
+      {
+        "q": "کاریگر نے ____ رنگ استعمال کیے۔",
+        "opts": [
+          "چمکیلے",
+          "چمکیلا",
+          "چمکیلی",
+          "چمکیلیاں"
+        ],
+        "a": 0,
+        "en": "The craftsman used bright colours."
+      }
+    ]
+  }
+}

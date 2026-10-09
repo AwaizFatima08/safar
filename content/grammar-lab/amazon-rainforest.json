@@ -1,0 +1,119 @@
+{
+  "id": "amazon-rainforest",
+  "ur": "جنگل اور ہماری دنیا",
+  "en": "Forests and Our World",
+  "grammarPoint": {
+    "ur": "سبب اور نتیجہ: ‘کی وجہ سے’، ‘نتیجتاً’، ‘اس لیے’",
+    "en": "Cause and effect: ‘because of’, ‘as a result’, ‘therefore’"
+  },
+  "cloze": {
+    "passage": "ایمیزون کا جنگل بہت (1)_____ ہے۔ یہاں سال بھر بارش ہوتی ہے (2)_____ پودے تیزی سے اُگتے ہیں۔ لیکن انسان کھیتوں کے لیے درخت کاٹ (3)_____ ہیں۔ جنگل کی تباہی کی (4)_____ سے جانور بے گھر ہو رہے ہیں۔ ہمیں جنگلات بچانے کے لیے فوری (5)_____ کرنا چاہیے۔",
+    "gaps": [
+      {
+        "opts": [
+          "گھنا",
+          "گھنی",
+          "گھنے",
+          "گھنا پن"
+        ],
+        "a": 0,
+        "en": "جنگل is masculine: گھنا"
+      },
+      {
+        "opts": [
+          "اس لیے",
+          "لیکن",
+          "اگرچہ",
+          "ورنہ"
+        ],
+        "a": 0,
+        "en": "اس لیے introduces the result"
+      },
+      {
+        "opts": [
+          "رہے",
+          "رہا",
+          "رہی",
+          "رہو"
+        ],
+        "a": 0,
+        "en": "انسان (plural sense) … کاٹ رہے ہیں"
+      },
+      {
+        "opts": [
+          "وجہ",
+          "جگہ",
+          "طرح",
+          "بجائے"
+        ],
+        "a": 0,
+        "en": "کی وجہ سے = because of"
+      },
+      {
+        "opts": [
+          "اقدام",
+          "آرام",
+          "انتظار",
+          "مذاق"
+        ],
+        "a": 0,
+        "en": "فوری اقدام = immediate action"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "درخت کٹ رہے ہیں، اس لیے جانور بے گھر ہو رہے ہیں۔",
+      "stem": "درختوں کی کٹائی کی وجہ ____ جانور بے گھر ہو رہے ہیں۔",
+      "instruction_ur": "‘کی وجہ سے’ کی ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘because of’",
+      "answers": [
+        "سے"
+      ],
+      "en": "Trees are being cut down, so animals are becoming homeless."
+    },
+    {
+      "original": "جنگل میں آگ لگی اور بہت سے درخت جل گئے۔",
+      "stem": "جنگل میں آگ لگی؛ ____ بہت سے درخت جل گئے۔",
+      "instruction_ur": "نتیجہ ظاہر کرنے والا لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a word showing the result",
+      "answers": [
+        "نتیجتاً",
+        "نتیجے میں",
+        "جس سے"
+      ],
+      "en": "A fire started in the forest and many trees burned."
+    },
+    {
+      "original": "یہاں جانوروں کی بہت سی اقسام پائی جاتی ہیں۔",
+      "stem": "یہاں جانوروں کی بہت سی ____ پائی جاتی ہیں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "انواع",
+        "قسمیں"
+      ],
+      "en": "Many kinds of animals are found here."
+    },
+    {
+      "original": "لوگ کھیتوں کے لیے جنگل کاٹ رہے ہیں۔",
+      "stem": "کھیتوں کے لیے جنگل ____ جا رہا ہے۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کاٹا"
+      ],
+      "en": "People are cutting down the forest for farms."
+    },
+    {
+      "original": "اگر ہم نے جنگل نہ بچائے تو زمین گرم ہو جائے گی۔",
+      "stem": "ہمیں جنگل بچانے چاہییں ____ زمین گرم ہو جائے گی۔",
+      "instruction_ur": "مناسب حرفِ ربط لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with ‘otherwise’",
+      "answers": [
+        "ورنہ"
+      ],
+      "en": "If we don't save the forests, the Earth will get hotter."
+    }
+  ]
+}

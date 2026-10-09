@@ -1,0 +1,119 @@
+{
+  "id": "truck-art",
+  "ur": "سڑک کی تصویریں",
+  "en": "Paintings on the Road",
+  "grammarPoint": {
+    "ur": "صفت کی مطابقت (اچھا/اچھی/اچھے) اور ‘سے’ کے ساتھ موازنہ",
+    "en": "Adjective agreement and comparison with ‘se’"
+  },
+  "cloze": {
+    "passage": "ہمارے شہر میں ٹرک آرٹ کی ایک (1)_____ نمائش لگی۔ وہاں بہت سے (2)_____ ٹرک کھڑے تھے۔ ایک ٹرک پر نہایت (3)_____ مور بنا ہوا تھا۔ سب سے (4)_____ ٹرک پشاور سے آیا تھا۔ ایک بوڑھے کاریگر (5)_____ ہمیں بتایا کہ یہ کام انہوں نے اپنے والد سے سیکھا۔",
+    "gaps": [
+      {
+        "opts": [
+          "بڑی",
+          "بڑا",
+          "بڑے",
+          "بڑوں"
+        ],
+        "a": 0,
+        "en": "نمائش is feminine → بڑی"
+      },
+      {
+        "opts": [
+          "سجے ہوئے",
+          "سجا ہوا",
+          "سجی ہوئی",
+          "سجنا"
+        ],
+        "a": 0,
+        "en": "Plural masculine (ٹرک) → سجے ہوئے"
+      },
+      {
+        "opts": [
+          "خوبصورت",
+          "خوبصورتی",
+          "خوبصورتا",
+          "خوبصورتے"
+        ],
+        "a": 0,
+        "en": "خوبصورت does not change"
+      },
+      {
+        "opts": [
+          "اونچا",
+          "اونچی",
+          "اونچے",
+          "اونچیاں"
+        ],
+        "a": 0,
+        "en": "Masculine singular ٹرک → اونچا"
+      },
+      {
+        "opts": [
+          "نے",
+          "کو",
+          "سے",
+          "کا"
+        ],
+        "a": 0,
+        "en": "Transitive past (بتایا) → نے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "کوئی دو ٹرک ایک جیسے نہیں ہوتے۔",
+      "stem": "ہر ٹرک کا ڈیزائن ____ ہوتا ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "منفرد",
+        "الگ",
+        "مختلف"
+      ],
+      "en": "No two trucks are alike."
+    },
+    {
+      "original": "یہ دستکار بہت محنتی ہے۔",
+      "stem": "یہ ____ بہت محنتی ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "کاریگر",
+        "ہنرمند"
+      ],
+      "en": "This craftsman is very hard-working."
+    },
+    {
+      "original": "یہ ٹرک پرانا ہے۔",
+      "stem": "یہ ٹرک ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "نیا"
+      ],
+      "en": "This truck is old."
+    },
+    {
+      "original": "یہ تصویر اچھی ہے۔",
+      "stem": "یہ تصویریں ____ ہیں۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "اچھی"
+      ],
+      "en": "This picture is nice."
+    },
+    {
+      "original": "کاریگروں نے ٹرک کو تین ہفتوں میں سجایا۔",
+      "stem": "ٹرک کو تین ہفتوں میں ____ گیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "سجایا"
+      ],
+      "en": "The craftsmen decorated the truck in three weeks."
+    }
+  ]
+}
