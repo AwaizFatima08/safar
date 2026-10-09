@@ -3112,6 +3112,29 @@ function renderGrammar(host, topic, level){
    ====================================================================== */
 const AUTH_FORMS = ["signin", "signup", "forgot"];
 function render(){
+  renderView();
+  enhanceTabbars();
+}
+// Re-rendering resets a tab bar's scroll, so bring the active tab back into
+// view and mark which edges have more tabs hidden behind them.
+function enhanceTabbars(){
+  document.querySelectorAll(".tabbar").forEach(bar => {
+    const active = bar.querySelector(".tab.active");
+    if(active && bar.scrollWidth > bar.clientWidth){
+      const left = active.offsetLeft - bar.offsetLeft;
+      if(left < bar.scrollLeft || left + active.offsetWidth > bar.scrollLeft + bar.clientWidth){
+        bar.scrollLeft = left - (bar.clientWidth - active.offsetWidth) / 2;
+      }
+    }
+    const mark = () => {
+      bar.classList.toggle("more-left", bar.scrollLeft > 4);
+      bar.classList.toggle("more-right", bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
+    };
+    mark();
+    bar.addEventListener("scroll", mark, { passive:true });
+  });
+}
+function renderView(){
   if(AUTH_FORMS.includes(route.view)){ renderAuth(route.view); return; }
   if(!player){ renderSignup(); return; }
   if(route.view === "home") renderHome();

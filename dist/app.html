@@ -216,9 +216,19 @@
 
   /* home-tabbar scrolls horizontally so more top-level areas can be added
      later without squeezing every tab down to fit one screen width. */
-  .home-tabbar{ overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
-  .home-tabbar::-webkit-scrollbar{ display:none; }
   .home-tabbar .tab{ flex:0 0 auto; padding-left:16px; padding-right:16px; white-space:nowrap; }
+  /* Any tab bar that doesn't fit (large system fonts) scrolls sideways; the
+     left fade and right chevron (classes set by enhanceTabbars) show there
+     is more to swipe. */
+  .tabbar{ overflow-x:auto; -webkit-overflow-scrolling:touch; scrollbar-width:none; }
+  .tabbar::-webkit-scrollbar{ display:none; }
+  .tabbar .tab{ flex-shrink:0; white-space:nowrap; }
+  .tabbar.more-left{ -webkit-mask-image:linear-gradient(to left, #000 calc(100% - 40px), transparent); mask-image:linear-gradient(to left, #000 calc(100% - 40px), transparent); }
+  .tabbar.more-right::after{
+    content:"›"; position:sticky; right:0; flex:0 0 auto; margin-left:-36px; padding:0 4px 0 22px;
+    display:flex; align-items:center; font-size:24px; font-weight:700; color:var(--marigold);
+    background:linear-gradient(to right, transparent, var(--paper) 55%); pointer-events:none;
+  }
 
   /* ============ VOCABULARY PRACTICE ============ */
   .vp-card-title{ font-size:16px; font-weight:700; color:var(--ink); text-align:left; }
@@ -324,7 +334,7 @@
   .qmeta{ display:flex; justify-content:space-between; font-size:11.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.05em; margin-bottom:10px; direction:ltr; }
 
   /* ============ LEVEL SELECTOR ============ */
-  .level-row{ display:flex; align-items:center; gap:10px; margin-bottom:18px; }
+  .level-row{ display:flex; align-items:center; flex-wrap:wrap; gap:8px 10px; margin-bottom:18px; }
   .level-label{ font-size:11.5px; color:var(--ink-faint); text-transform:uppercase; letter-spacing:.06em; }
   .level-bar{ display:flex; gap:5px; background:var(--paper-dim); border:1px solid var(--rule); border-radius:10px; padding:3px; }
   .level-btn{
@@ -3505,6 +3515,29 @@ function renderGrammar(host, topic, level){
    ====================================================================== */
 const AUTH_FORMS = ["signin", "signup", "forgot"];
 function render(){
+  renderView();
+  enhanceTabbars();
+}
+// Re-rendering resets a tab bar's scroll, so bring the active tab back into
+// view and mark which edges have more tabs hidden behind them.
+function enhanceTabbars(){
+  document.querySelectorAll(".tabbar").forEach(bar => {
+    const active = bar.querySelector(".tab.active");
+    if(active && bar.scrollWidth > bar.clientWidth){
+      const left = active.offsetLeft - bar.offsetLeft;
+      if(left < bar.scrollLeft || left + active.offsetWidth > bar.scrollLeft + bar.clientWidth){
+        bar.scrollLeft = left - (bar.clientWidth - active.offsetWidth) / 2;
+      }
+    }
+    const mark = () => {
+      bar.classList.toggle("more-left", bar.scrollLeft > 4);
+      bar.classList.toggle("more-right", bar.scrollLeft + bar.clientWidth < bar.scrollWidth - 4);
+    };
+    mark();
+    bar.addEventListener("scroll", mark, { passive:true });
+  });
+}
+function renderView(){
   if(AUTH_FORMS.includes(route.view)){ renderAuth(route.view); return; }
   if(!player){ renderSignup(); return; }
   if(route.view === "home") renderHome();
