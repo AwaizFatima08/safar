@@ -24,3 +24,6 @@ android/captures/
 android/.idea/
 android/*.iml
 android/app/*.iml
+
+# local preview config
+.claude/launch.json

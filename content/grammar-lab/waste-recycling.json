@@ -1,0 +1,119 @@
+{
+  "id": "waste-recycling",
+  "ur": "صاف گلی، صحت مند زندگی",
+  "en": "Clean Streets, Healthy Lives",
+  "grammarPoint": {
+    "ur": "امر (حکم) اور ‘چاہیے’",
+    "en": "Imperatives and ‘should’ (چاہیے)"
+  },
+  "cloze": {
+    "passage": "(1)_____ کرم کچرا گلی میں نہ پھینکیں۔ ہمیں پلاسٹک کی تھیلیوں کا استعمال کم (2)_____ چاہیے۔ پرانی کاپیاں نیلے ڈبے میں (3)_____۔ بچو، کھانے کے بعد اپنا کچرا خود (4)_____۔ ہم سب کو اپنی گلی صاف رکھنی (5)_____۔",
+    "gaps": [
+      {
+        "opts": [
+          "براہِ",
+          "بہت",
+          "سب",
+          "کچھ"
+        ],
+        "a": 0,
+        "en": "براہِ کرم = please (used on notices)"
+      },
+      {
+        "opts": [
+          "کرو",
+          "کرنا",
+          "کریں",
+          "کرتا"
+        ],
+        "a": 1,
+        "en": "Infinitive + چاہیے: کم کرنا چاہیے"
+      },
+      {
+        "opts": [
+          "ڈالنا",
+          "ڈالا",
+          "ڈالیں",
+          "ڈالتی"
+        ],
+        "a": 2,
+        "en": "Polite imperative: ڈالیں"
+      },
+      {
+        "opts": [
+          "اٹھایا",
+          "اٹھاتا",
+          "اٹھانا",
+          "اٹھاؤ"
+        ],
+        "a": 3,
+        "en": "With children (بچو) use the تم form: اٹھاؤ"
+      },
+      {
+        "opts": [
+          "چاہتی",
+          "چاہییں",
+          "چاہیے",
+          "چاہا"
+        ],
+        "a": 2,
+        "en": "گلی is singular, so چاہیے (not چاہییں)"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "کچرا جلانا منع ہے۔",
+      "stem": "کچرا نہ ____۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "جلائیں",
+        "جلائیے",
+        "جلاؤ"
+      ],
+      "en": "Burning rubbish is not allowed."
+    },
+    {
+      "original": "کچرا الگ کریں۔",
+      "stem": "ہمیں کچرا الگ ____ چاہیے۔",
+      "instruction_ur": "‘چاہیے’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘چاہیے’",
+      "answers": [
+        "کرنا"
+      ],
+      "en": "Separate the rubbish."
+    },
+    {
+      "original": "اپنی گلی صاف رکھو۔",
+      "stem": "ہمیں اپنی گلی صاف ____ چاہیے۔",
+      "instruction_ur": "‘چاہیے’ کے ساتھ جملہ مکمل کریں (مؤنث مطابقت کا خیال رکھیں)",
+      "instruction_en": "Complete with ‘چاہیے’ (mind the feminine agreement)",
+      "answers": [
+        "رکھنی"
+      ],
+      "en": "Keep your street clean."
+    },
+    {
+      "original": "تم بوتلیں دھو کر ڈبے میں ڈالو۔",
+      "stem": "آپ بوتلیں دھو کر ڈبے میں ____۔",
+      "instruction_ur": "مؤدبانہ امر میں جملہ مکمل کریں",
+      "instruction_en": "Complete as a polite imperative",
+      "answers": [
+        "ڈالیں",
+        "ڈالیے"
+      ],
+      "en": "Wash the bottles and put them in the bin."
+    },
+    {
+      "original": "کوڑا کوڑے دان میں ڈالیں۔",
+      "stem": "____ کوڑے دان میں ڈالیں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "کچرا"
+      ],
+      "en": "Put the rubbish in the dustbin."
+    }
+  ]
+}

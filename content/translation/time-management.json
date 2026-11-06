@@ -1,0 +1,88 @@
+{
+  "id": "time-management",
+  "ur": "وقت کا انتظام",
+  "en": "Time Management",
+  "warmup": [
+    {
+      "en": "Time is precious.",
+      "bank": [
+        "قیمتی",
+        "ہے",
+        "وقت"
+      ],
+      "answer": [
+        "وقت",
+        "قیمتی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "First make a list.",
+      "bank": [
+        "بنائیں",
+        "پہلے",
+        "فہرست"
+      ],
+      "answer": [
+        "پہلے",
+        "فہرست",
+        "بنائیں"
+      ]
+    },
+    {
+      "en": "Then take a short break.",
+      "bank": [
+        "وقفہ",
+        "لیں",
+        "پھر",
+        "مختصر"
+      ],
+      "answer": [
+        "پھر",
+        "مختصر",
+        "وقفہ",
+        "لیں"
+      ]
+    },
+    {
+      "en": "Do not waste time.",
+      "bank": [
+        "نہ",
+        "وقت",
+        "کریں",
+        "ضائع"
+      ],
+      "answer": [
+        "وقت",
+        "ضائع",
+        "نہ",
+        "کریں"
+      ]
+    },
+    {
+      "en": "The sooner, the better.",
+      "bank": [
+        "بہتر",
+        "اتنا",
+        "جتنا جلد",
+        "ہی"
+      ],
+      "answer": [
+        "جتنا جلد",
+        "اتنا",
+        "ہی",
+        "بہتر"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Many students feel that there are not enough hours in the day. In reality, the problem is often not a lack of time but poor planning. A good way to start is to write a list of tasks every evening and decide which ones are the most important. Large assignments should be divided into small steps, each with its own deadline. While studying, it helps to keep the phone in another room and to take a short break every forty-five minutes. Students should also leave time for sleep, exercise and family, because a tired mind cannot work well. Finally, it is useful to look back at the end of each week and see what has been achieved. The sooner these habits are adopted, the easier life becomes.",
+    "modelUr": "بہت سے طلبہ محسوس کرتے ہیں کہ دن میں گھنٹے کافی نہیں ہیں۔ حقیقت میں مسئلہ اکثر وقت کی کمی نہیں بلکہ ناقص منصوبہ بندی ہوتا ہے۔ آغاز کا ایک اچھا طریقہ یہ ہے کہ ہر شام کاموں کی فہرست لکھی جائے اور طے کیا جائے کہ ان میں سب سے اہم کون سے ہیں۔ بڑے کاموں کو چھوٹے مرحلوں میں تقسیم کرنا چاہیے اور ہر مرحلے کی اپنی آخری تاریخ ہونی چاہیے۔ پڑھائی کے دوران فون کو دوسرے کمرے میں رکھنا اور ہر پینتالیس منٹ بعد مختصر وقفہ لینا مددگار ہوتا ہے۔ طلبہ کو نیند، ورزش اور گھر والوں کے لیے بھی وقت رکھنا چاہیے، کیونکہ تھکا ہوا دماغ اچھی طرح کام نہیں کر سکتا۔ آخر میں ہر ہفتے کے اختتام پر پیچھے مڑ کر دیکھنا مفید ہے کہ کیا حاصل ہوا۔ یہ عادتیں جتنی جلدی اپنائی جائیں، زندگی اتنی ہی آسان ہو جاتی ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘not a lack of time but poor planning’ کا ترجمہ ‘نہیں بلکہ’ سے کیا؟",
+      "کیا ‘should be divided’ کا ترجمہ ‘تقسیم کرنا چاہیے’ یا مجہول ساخت سے کیا؟",
+      "کیا آخری جملے میں ‘جتنی جلدی… اتنی ہی’ کی ساخت استعمال ہوئی؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

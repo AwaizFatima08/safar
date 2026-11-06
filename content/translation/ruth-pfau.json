@@ -1,0 +1,90 @@
+{
+  "id": "ruth-pfau",
+  "ur": "ڈاکٹر روتھ فاؤ",
+  "en": "Dr Ruth Pfau",
+  "warmup": [
+    {
+      "en": "She was a German doctor.",
+      "bank": [
+        "ڈاکٹر",
+        "تھیں",
+        "ایک جرمن",
+        "وہ"
+      ],
+      "answer": [
+        "وہ",
+        "ایک جرمن",
+        "ڈاکٹر",
+        "تھیں"
+      ]
+    },
+    {
+      "en": "Leprosy can be treated.",
+      "bank": [
+        "ممکن",
+        "جذام کا",
+        "ہے",
+        "علاج"
+      ],
+      "answer": [
+        "جذام کا",
+        "علاج",
+        "ممکن",
+        "ہے"
+      ]
+    },
+    {
+      "en": "She treated many patients.",
+      "bank": [
+        "مریضوں کا",
+        "علاج کیا",
+        "انہوں نے",
+        "بہت سے"
+      ],
+      "answer": [
+        "انہوں نے",
+        "بہت سے",
+        "مریضوں کا",
+        "علاج کیا"
+      ]
+    },
+    {
+      "en": "The doctor who helped me was kind.",
+      "bank": [
+        "وہ",
+        "مہربان تھیں",
+        "میری مدد کی",
+        "جس ڈاکٹر نے"
+      ],
+      "answer": [
+        "جس ڈاکٹر نے",
+        "میری مدد کی",
+        "وہ",
+        "مہربان تھیں"
+      ]
+    },
+    {
+      "en": "Wash your hands before going in.",
+      "bank": [
+        "ہاتھ",
+        "دھوئیں",
+        "اندر جانے سے پہلے"
+      ],
+      "answer": [
+        "اندر جانے سے پہلے",
+        "ہاتھ",
+        "دھوئیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Dr Ruth Pfau was a German doctor who came to Karachi in 1960. At that time, people with leprosy were often feared and kept away from their families, even though the disease can be treated. Dr Pfau decided to stay and help them. Through the Marie Adelaide Leprosy Centre, she and her team treated patients, cared for their wounds and explained to families that leprosy is curable. Their hard work continued for many years, and in 1996 Pakistan declared leprosy under control. Dr Pfau died in 2017 and was given a state funeral, an honour that showed how much the people of Pakistan loved and respected her. Her life reminds us that kindness has no borders. Today, students can still learn a great deal from her patience and hard work.",
+    "modelUr": "ڈاکٹر روتھ فاؤ ایک جرمن ڈاکٹر تھیں جو 1960ء میں کراچی آئیں۔ اس زمانے میں لوگ جذام کے مریضوں سے اکثر ڈرتے تھے اور انہیں ان کے گھر والوں سے دور رکھا جاتا تھا، حالانکہ اس بیماری کا علاج ممکن ہے۔ ڈاکٹر فاؤ نے یہاں رک کر ان کی مدد کرنے کا فیصلہ کیا۔ میری ایڈیلیڈ لیپروسی سینٹر کے ذریعے انہوں نے اور ان کی ٹیم نے مریضوں کا علاج کیا، ان کے زخموں کی دیکھ بھال کی اور گھر والوں کو سمجھایا کہ جذام قابلِ علاج ہے۔ ان کی محنت کئی برسوں تک جاری رہی، اور 1996ء میں پاکستان نے جذام کو قابو میں قرار دے دیا۔ ڈاکٹر فاؤ کا انتقال 2017ء میں ہوا اور انہیں سرکاری اعزاز کے ساتھ رخصت کیا گیا۔ یہ ایک ایسا اعزاز تھا جس سے ظاہر ہوا کہ پاکستان کے لوگ ان سے کتنی محبت کرتے اور ان کا کتنا احترام کرتے تھے۔ ان کی زندگی ہمیں یاد دلاتی ہے کہ مہربانی کی کوئی سرحد نہیں ہوتی۔ آج بھی طلبہ ان کے صبر اور محنت سے بہت کچھ سیکھ سکتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘a German doctor who came…’ کا ترجمہ موصولہ جملے (جو… آئیں) سے کیا؟",
+      "کیا ‘were often feared and kept away’ کا ترجمہ ماضی عادی یا مجہول ساخت (دور رکھا جاتا تھا) سے کیا؟",
+      "کیا ‘was given a state funeral’ کے لیے ‘سرکاری اعزاز کے ساتھ رخصت کیا گیا’ جیسا مناسب جملہ لکھا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

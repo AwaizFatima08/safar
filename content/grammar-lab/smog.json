@@ -1,0 +1,117 @@
+{
+  "id": "smog",
+  "ur": "صاف ہوا کی تلاش",
+  "en": "In Search of Clean Air",
+  "grammarPoint": {
+    "ur": "سبب اور نتیجہ: کی وجہ سے، اس لیے، چونکہ… اس لیے",
+    "en": "Cause and effect: because of, so, since… so"
+  },
+  "cloze": {
+    "passage": "کل رات شدید اسموگ (1)_____ وجہ سے کئی پروازیں منسوخ ہو گئیں۔ (2)_____ ہوا بہت آلودہ تھی، اس لیے آج اسکول بند رہے۔ امی کو کھانسی تھی، (3)_____ وہ ڈاکٹر کے پاس گئیں۔ ڈاکٹر نے بتایا کہ ان کی طبیعت دھوئیں کی (4)_____ سے خراب ہوئی ہے۔ ہم نے کھڑکیاں بند رکھیں (5)_____ دھواں اندر نہ آئے۔",
+    "gaps": [
+      {
+        "opts": [
+          "کی",
+          "کا",
+          "کے",
+          "کو"
+        ],
+        "a": 0,
+        "en": "وجہ is feminine: اسموگ کی وجہ سے"
+      },
+      {
+        "opts": [
+          "اس لیے",
+          "کیونکہ",
+          "چونکہ",
+          "تاکہ"
+        ],
+        "a": 2,
+        "en": "چونکہ… اس لیے = since… so"
+      },
+      {
+        "opts": [
+          "چونکہ",
+          "اس لیے",
+          "کی وجہ سے",
+          "تاکہ"
+        ],
+        "a": 1,
+        "en": "اس لیے introduces the result"
+      },
+      {
+        "opts": [
+          "لیے",
+          "تاکہ",
+          "وجہ",
+          "سبب سے"
+        ],
+        "a": 2,
+        "en": "دھوئیں کی وجہ سے = because of the smoke"
+      },
+      {
+        "opts": [
+          "چونکہ",
+          "تاکہ",
+          "کیونکہ",
+          "اس لیے"
+        ],
+        "a": 1,
+        "en": "تاکہ = so that (purpose)"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ہوا آلودہ تھی، اس لیے ہم باہر نہیں گئے۔",
+      "stem": "ہوا آلودہ ہونے کی ____ سے ہم باہر نہیں گئے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "وجہ"
+      ],
+      "en": "The air was polluted, so we did not go out."
+    },
+    {
+      "original": "چونکہ اسموگ زیادہ تھی، اس لیے اسکول بند رہے۔",
+      "stem": "اسموگ زیادہ تھی، ____ اسکول بند رہے۔",
+      "instruction_ur": "‘چونکہ’ کے بغیر جملہ مکمل کریں",
+      "instruction_en": "Complete the sentence without ‘چونکہ’",
+      "answers": [
+        "اس لیے",
+        "لہٰذا"
+      ],
+      "en": "Since the smog was heavy, the schools stayed closed."
+    },
+    {
+      "original": "دھوئیں کی وجہ سے میری آنکھوں میں جلن ہے۔",
+      "stem": "میری آنکھوں میں جلن ہے ____ دھواں بہت ہے۔",
+      "instruction_ur": "سبب بتانے والا لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a word that introduces the reason",
+      "answers": [
+        "کیونکہ"
+      ],
+      "en": "My eyes are burning because of the smoke."
+    },
+    {
+      "original": "حدِ نگاہ کم تھی۔ ڈرائیور نے رفتار کم کر دی۔",
+      "stem": "____ حدِ نگاہ کم تھی، اس لیے ڈرائیور نے رفتار کم کر دی۔",
+      "instruction_ur": "دو جملوں کو ملا کر ایک جملہ مکمل کریں",
+      "instruction_en": "Combine the two sentences into one",
+      "answers": [
+        "چونکہ"
+      ],
+      "en": "Visibility was low. The driver slowed down."
+    },
+    {
+      "original": "شہر کی فضا میں زہریلا دھواں ہے۔",
+      "stem": "شہر کی ____ میں زہریلا دھواں ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "ہوا"
+      ],
+      "en": "There is poisonous smoke in the city's air."
+    }
+  ]
+}

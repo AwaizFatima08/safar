@@ -1,0 +1,264 @@
+{
+  "id": "abdus-salam",
+  "ur": "ڈاکٹر عبدالسلام اور سائنس",
+  "en": "Dr Abdus Salam and Science",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ڈاکٹر عبدالسلام نے 1979 میں طبیعیات کا نوبیل انعام جیتا۔ وہ سائنس میں نوبیل انعام پانے والے پہلے پاکستانی تھے۔",
+    "en": "Did you know? Dr Abdus Salam won the Nobel Prize in Physics in 1979. He was the first Pakistani to win a Nobel Prize in science."
+  },
+  "vocab": [
+    {
+      "ur": "سائنس دان",
+      "en": "scientist",
+      "ex_ur": "ڈاکٹر عبدالسلام ایک عظیم سائنس دان تھے۔",
+      "ex_en": "Dr Abdus Salam was a great scientist."
+    },
+    {
+      "ur": "طبیعیات",
+      "en": "physics",
+      "ex_ur": "طبیعیات میں ہم روشنی، حرکت اور بجلی کے بارے میں پڑھتے ہیں۔",
+      "ex_en": "In physics we study light, motion and electricity."
+    },
+    {
+      "ur": "تحقیق",
+      "en": "research",
+      "ex_ur": "سائنس دان نئی دوائیں بنانے کے لیے تحقیق کرتے ہیں۔",
+      "ex_en": "Scientists do research to make new medicines."
+    },
+    {
+      "ur": "نوبیل انعام",
+      "en": "Nobel Prize",
+      "ex_ur": "نوبیل انعام دنیا کے سب سے بڑے انعامات میں سے ایک ہے۔",
+      "ex_en": "The Nobel Prize is one of the biggest prizes in the world."
+    },
+    {
+      "ur": "تجربہ گاہ",
+      "en": "laboratory",
+      "ex_ur": "ہم نے تجربہ گاہ میں پانی کو گرم کر کے دیکھا۔",
+      "ex_en": "We heated water in the laboratory to see what happened.",
+      "syn": "لیبارٹری"
+    },
+    {
+      "ur": "دریافت",
+      "en": "discovery",
+      "ex_ur": "یہ دریافت سائنس کی دنیا میں بہت اہم تھی۔",
+      "ex_en": "This discovery was very important in the world of science."
+    },
+    {
+      "ur": "ذہین",
+      "en": "intelligent / bright",
+      "ex_ur": "وہ اپنی جماعت کا سب سے ذہین طالب علم تھا۔",
+      "ex_en": "He was the brightest student in his class.",
+      "syn": "قابل"
+    },
+    {
+      "ur": "ترقی پذیر ملک",
+      "en": "developing country",
+      "ex_ur": "ترقی پذیر ملکوں میں تحقیق کی سہولتیں کم ہوتی ہیں۔",
+      "ex_en": "Developing countries have fewer research facilities."
+    },
+    {
+      "ur": "مرکز",
+      "en": "centre",
+      "ex_ur": "انہوں نے سائنس دانوں کے لیے ایک تحقیقی مرکز قائم کیا۔",
+      "ex_en": "He set up a research centre for scientists."
+    },
+    {
+      "ur": "تجسس",
+      "en": "curiosity",
+      "ex_ur": "تجسس ہی ہر سائنسی دریافت کی پہلی سیڑھی ہے۔",
+      "ex_en": "Curiosity is the first step of every scientific discovery.",
+      "syn": "جستجو"
+    }
+  ],
+  "reading": {
+    "passage": "ڈاکٹر عبدالسلام 1926 میں ضلع جھنگ میں پیدا ہوئے۔ وہ بچپن ہی سے بہت ذہین تھے اور ریاضی ان کا پسندیدہ مضمون تھا۔ بڑے ہو کر وہ طبیعیات کے مشہور سائنس دان بنے۔ 1979 میں انہیں طبیعیات کا نوبیل انعام ملا، اور وہ سائنس میں یہ انعام پانے والے پہلے پاکستانی تھے۔ وہ چاہتے تھے کہ ترقی پذیر ملکوں کے سائنس دان بھی تحقیق کر سکیں، اس لیے انہوں نے اٹلی کے شہر تریستے میں نظریاتی طبیعیات کا ایک مرکز قائم کیا۔ ان کا انتقال 1996 میں ہوا۔",
+    "questions": [
+      {
+        "q": "ڈاکٹر عبدالسلام کہاں پیدا ہوئے؟",
+        "opts": [
+          "لاہور میں",
+          "کراچی میں",
+          "تریستے میں",
+          "ضلع جھنگ میں"
+        ],
+        "a": 3
+      },
+      {
+        "q": "انہیں نوبیل انعام کس مضمون میں ملا؟",
+        "opts": [
+          "کیمیا",
+          "طبیعیات",
+          "طب",
+          "ادب"
+        ],
+        "a": 1
+      },
+      {
+        "q": "انہوں نے تریستے میں مرکز کیوں قائم کیا؟",
+        "opts": [
+          "تاکہ ترقی پذیر ملکوں کے سائنس دان بھی تحقیق کر سکیں",
+          "تاکہ وہ وہاں چھٹیاں گزار سکیں",
+          "تاکہ وہاں ایک عجائب گھر بنے",
+          "تاکہ کھیلوں کے مقابلے ہو سکیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "ڈاکٹر عبدالسلام کا انتقال کب ہوا؟",
+        "opts": [
+          "1979 میں",
+          "1926 میں",
+          "1996 میں",
+          "1969 میں"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بہت ذہین",
+          "تھے",
+          "وہ",
+          "بچپن ہی سے"
+        ],
+        "answer": [
+          "وہ",
+          "بچپن ہی سے",
+          "بہت ذہین",
+          "تھے"
+        ],
+        "en": "He was very bright from childhood."
+      },
+      {
+        "bank": [
+          "نوبیل انعام",
+          "ملا",
+          "انہیں",
+          "1979 میں"
+        ],
+        "answer": [
+          "انہیں",
+          "1979 میں",
+          "نوبیل انعام",
+          "ملا"
+        ],
+        "en": "He received the Nobel Prize in 1979."
+      },
+      {
+        "bank": [
+          "تحقیق",
+          "کرتے ہیں",
+          "سائنس دان",
+          "تجربہ گاہ میں"
+        ],
+        "answer": [
+          "سائنس دان",
+          "تجربہ گاہ میں",
+          "تحقیق",
+          "کرتے ہیں"
+        ],
+        "en": "Scientists do research in the laboratory."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "سائنس دان ____ میں تجربے کرتے ہیں۔",
+        "opts": [
+          "باورچی خانے",
+          "تجربہ گاہ",
+          "بازار",
+          "باغ"
+        ],
+        "a": 1,
+        "en": "Scientists do experiments in the ___."
+      },
+      {
+        "text": "ڈاکٹر عبدالسلام طبیعیات کے ایک بڑے ____ تھے۔",
+        "opts": [
+          "کھلاڑی",
+          "گلوکار",
+          "سائنس دان",
+          "تاجر"
+        ],
+        "a": 2,
+        "en": "Dr Abdus Salam was a great ___ of physics."
+      },
+      {
+        "text": "اچھے طالب علم کے اندر سیکھنے کا ____ ہوتا ہے۔",
+        "opts": [
+          "کرسی",
+          "دیوار",
+          "سڑک",
+          "تجسس"
+        ],
+        "a": 3,
+        "en": "A good student has a ___ to learn."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ سائنس دان ہوتے تو کس مسئلے کو حل کرنے کے لیے تحقیق کرتے؟ تین جملے لکھیں۔",
+      "en": "If you were a scientist, which problem would you research to solve? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "موازنہ اور تفضیلِ کل — Comparison and superlatives",
+    "explain": "Urdu compares with سے: سورج زمین سے بڑا ہے = the Sun is bigger than the Earth. Add زیادہ or کم for 'more' or 'less': یہ سوال اُس سے زیادہ مشکل ہے. For the superlative use سب سے before the adjective: سب سے ذہین طالب علم = the most intelligent student. The adjective still agrees with the noun: سب سے بڑی تجربہ گاہ، سب سے بڑے سائنس دان. Use کہیں or بہت for 'much': کہیں زیادہ تیز.",
+    "rows": [
+      [
+        "سورج زمین سے بہت بڑا ہے۔",
+        "The Sun is much bigger than the Earth."
+      ],
+      [
+        "یہ سوال پہلے سوال سے زیادہ مشکل ہے۔",
+        "This question is harder than the first question."
+      ],
+      [
+        "وہ اپنی جماعت کی سب سے ذہین طالبہ ہے۔",
+        "She is the most intelligent student in her class."
+      ],
+      [
+        "روشنی آواز سے کہیں زیادہ تیز چلتی ہے۔",
+        "Light travels much faster than sound."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "عبدالسلام اپنی جماعت کے ____ ذہین طالب علم تھے۔",
+        "opts": [
+          "سب سے",
+          "سے",
+          "زیادہ",
+          "کم"
+        ],
+        "a": 0,
+        "en": "Abdus Salam was the brightest student in his class."
+      },
+      {
+        "q": "مشتری زمین ____ بڑا سیارہ ہے۔",
+        "opts": [
+          "کو",
+          "سے",
+          "کا",
+          "میں"
+        ],
+        "a": 1,
+        "en": "Jupiter is a bigger planet than the Earth."
+      },
+      {
+        "q": "یہ ہمارے شہر کی سب سے ____ تجربہ گاہ ہے۔",
+        "opts": [
+          "بڑا",
+          "بڑے",
+          "بڑی",
+          "بڑوں"
+        ],
+        "a": 2,
+        "en": "This is the biggest laboratory in our city."
+      }
+    ]
+  }
+}

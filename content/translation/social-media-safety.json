@@ -1,0 +1,94 @@
+{
+  "id": "social-media-safety",
+  "ur": "آن لائن حفاظت",
+  "en": "Online Safety",
+  "warmup": [
+    {
+      "en": "Do not share your password.",
+      "bank": [
+        "شیئر",
+        "نہ کریں",
+        "اپنا",
+        "پاس ورڈ"
+      ],
+      "answer": [
+        "اپنا",
+        "پاس ورڈ",
+        "شیئر",
+        "نہ کریں"
+      ]
+    },
+    {
+      "en": "This message is a trick.",
+      "bank": [
+        "دھوکا",
+        "ہے",
+        "یہ",
+        "پیغام"
+      ],
+      "answer": [
+        "یہ",
+        "پیغام",
+        "دھوکا",
+        "ہے"
+      ]
+    },
+    {
+      "en": "If a stranger calls, tell your parents.",
+      "bank": [
+        "تو",
+        "والدین کو بتائیں",
+        "اگر",
+        "فون کرے",
+        "کوئی اجنبی"
+      ],
+      "answer": [
+        "اگر",
+        "کوئی اجنبی",
+        "فون کرے",
+        "تو",
+        "والدین کو بتائیں"
+      ]
+    },
+    {
+      "en": "Think before you post.",
+      "bank": [
+        "سوچیں",
+        "پوسٹ کرنے سے",
+        "پہلے"
+      ],
+      "answer": [
+        "پوسٹ کرنے سے",
+        "پہلے",
+        "سوچیں"
+      ]
+    },
+    {
+      "en": "Keep your account private, otherwise strangers can see it.",
+      "bank": [
+        "ورنہ",
+        "اسے دیکھ سکتے ہیں",
+        "اپنا اکاؤنٹ",
+        "اجنبی",
+        "پرائیویٹ رکھیں"
+      ],
+      "answer": [
+        "اپنا اکاؤنٹ",
+        "پرائیویٹ رکھیں",
+        "ورنہ",
+        "اجنبی",
+        "اسے دیکھ سکتے ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Social media helps young people stay in touch with friends, learn new things and share their talents. However, it also has dangers that every student should know about. Some people create fake accounts to make friends with teenagers and collect their personal information. Others send messages about prizes that do not exist, hoping that someone will click on a harmful link. If you receive such a message, delete it at once. Never share your password, even with a close friend, and keep your account private. If someone bullies you online, do not reply; instead, take a screenshot, block the person and tell an adult you trust. Remember that a photo posted online can stay there for ever, so think carefully before you share anything.",
+    "modelUr": "سوشل میڈیا نوجوانوں کو دوستوں سے رابطے میں رہنے، نئی چیزیں سیکھنے اور اپنی صلاحیتیں دکھانے میں مدد دیتا ہے۔ تاہم اس کے کچھ خطرات بھی ہیں جن کے بارے میں ہر طالب علم کو معلوم ہونا چاہیے۔ کچھ لوگ نوعمروں سے دوستی کرنے اور ان کی ذاتی معلومات جمع کرنے کے لیے جعلی اکاؤنٹ بناتے ہیں۔ کچھ اور لوگ ایسے انعامات کے پیغامات بھیجتے ہیں جن کا کوئی وجود نہیں ہوتا، اس امید پر کہ کوئی کسی نقصان دہ لنک پر کلک کر دے گا۔ اگر آپ کو ایسا پیغام ملے تو اسے فوراً ڈیلیٹ کر دیں۔ اپنا پاس ورڈ کبھی کسی کو نہ بتائیں، چاہے وہ آپ کا قریبی دوست ہی کیوں نہ ہو، اور اپنا اکاؤنٹ پرائیویٹ رکھیں۔ اگر کوئی آپ کو آن لائن تنگ کرے تو جواب نہ دیں، بلکہ اسکرین شاٹ لیں، اس شخص کو بلاک کریں اور کسی ایسے بڑے کو بتائیں جس پر آپ بھروسہ کرتے ہیں۔ یاد رکھیں کہ آن لائن لگائی گئی تصویر ہمیشہ کے لیے وہاں رہ سکتی ہے، اس لیے کچھ بھی شیئر کرنے سے پہلے اچھی طرح سوچ لیں۔",
+    "checklist": [
+      "کیا آپ نے ‘If you receive such a message’ کا ترجمہ ‘اگر… تو’ کی ساخت سے کیا؟",
+      "کیا ‘even with a close friend’ کا ترجمہ ‘چاہے… ہی کیوں نہ ہو’ سے کیا؟",
+      "کیا ‘fake accounts / harmful link / block’ کے لیے عام فہم الفاظ (جعلی اکاؤنٹ، نقصان دہ لنک، بلاک) استعمال کیے؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

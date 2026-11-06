@@ -1,0 +1,98 @@
+{
+  "id": "libraries",
+  "ur": "کتب خانے اور مطالعہ",
+  "en": "Libraries and Reading",
+  "warmup": [
+    {
+      "en": "I go to the library every week.",
+      "bank": [
+        "جاتا ہوں",
+        "کتب خانے",
+        "میں",
+        "ہر ہفتے"
+      ],
+      "answer": [
+        "میں",
+        "ہر ہفتے",
+        "کتب خانے",
+        "جاتا ہوں"
+      ]
+    },
+    {
+      "en": "The librarian issued me two books.",
+      "bank": [
+        "جاری کیں",
+        "مجھے",
+        "کتاب دار",
+        "دو کتابیں",
+        "نے"
+      ],
+      "answer": [
+        "کتاب دار",
+        "نے",
+        "مجھے",
+        "دو کتابیں",
+        "جاری کیں"
+      ]
+    },
+    {
+      "en": "The teacher had us read a story.",
+      "bank": [
+        "ایک کہانی",
+        "پڑھوائی",
+        "استاد",
+        "ہم سے",
+        "نے"
+      ],
+      "answer": [
+        "استاد",
+        "نے",
+        "ہم سے",
+        "ایک کہانی",
+        "پڑھوائی"
+      ]
+    },
+    {
+      "en": "Reading increases knowledge.",
+      "bank": [
+        "علم",
+        "بڑھتا ہے",
+        "مطالعے",
+        "سے"
+      ],
+      "answer": [
+        "مطالعے",
+        "سے",
+        "علم",
+        "بڑھتا ہے"
+      ]
+    },
+    {
+      "en": "The school had a new library built.",
+      "bank": [
+        "بنوایا",
+        "نیا",
+        "اسکول",
+        "کتب خانہ",
+        "نے"
+      ],
+      "answer": [
+        "اسکول",
+        "نے",
+        "نیا",
+        "کتب خانہ",
+        "بنوایا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "A good library is the heart of a school. It is a place where students can find books on every subject, from science and history to poetry and adventure stories. Reading for pleasure improves vocabulary, writing and imagination, and it also helps young people understand other points of view. Sadly, many school libraries in our country have old books and very little space. Some schools have even turned their library into a classroom. If schools add new books, comfortable chairs and a few computers, students will want to spend their free time there. Teachers can also encourage reading by starting book clubs and asking students to write short reviews of the books they have read. A busy, well-used library shows that a school truly values learning, and it gives every student, rich or poor, the same chance to explore the world of books.",
+    "modelUr": "ایک اچھا کتب خانہ اسکول کا دل ہوتا ہے۔ یہ ایسی جگہ ہے جہاں طلبہ کو ہر مضمون پر کتابیں مل سکتی ہیں، سائنس اور تاریخ سے لے کر شاعری اور مہم جوئی کی کہانیوں تک۔ شوق سے پڑھنے سے ذخیرۂ الفاظ، تحریر اور تخیل بہتر ہوتے ہیں، اور اس سے نوجوانوں کو دوسروں کا نقطۂ نظر سمجھنے میں بھی مدد ملتی ہے۔ افسوس کی بات ہے کہ ہمارے ملک کے بہت سے اسکولوں کے کتب خانوں میں پرانی کتابیں ہیں اور جگہ بہت کم ہے۔ کچھ اسکولوں نے تو اپنی لائبریری کو جماعت کا کمرہ بنا دیا ہے۔ اگر اسکول نئی کتابیں، آرام دہ کرسیاں اور چند کمپیوٹر مہیا کریں تو طلبہ اپنا فارغ وقت وہاں گزارنا چاہیں گے۔ اساتذہ بھی کتاب کلب شروع کر کے اور طلبہ سے پڑھی ہوئی کتابوں پر مختصر تبصرے لکھوا کر مطالعے کی حوصلہ افزائی کر سکتے ہیں۔ ایک آباد اور زیرِ استعمال کتب خانہ اس بات کا ثبوت ہے کہ اسکول واقعی علم کی قدر کرتا ہے، اور یہ ہر طالب علم کو، چاہے امیر ہو یا غریب، کتابوں کی دنیا دریافت کرنے کا یکساں موقع دیتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘from… to…’ کا ترجمہ ‘سے لے کر… تک’ سے کیا؟",
+      "کیا ‘asking students to write’ کے لیے سببی فعل (لکھوا کر) استعمال کیا؟",
+      "کیا ‘points of view’ کا موزوں ترجمہ (نقطۂ نظر) کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

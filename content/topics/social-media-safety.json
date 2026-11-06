@@ -1,0 +1,264 @@
+{
+  "id": "social-media-safety",
+  "ur": "سوشل میڈیا اور آن لائن حفاظت",
+  "en": "Social Media and Online Safety",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ انٹرنیٹ پر شیئر کی گئی تصویر کو ڈیلیٹ کرنے کے بعد بھی ہو سکتا ہے کہ کوئی اس کا اسکرین شاٹ پہلے ہی محفوظ کر چکا ہو، اس لیے پوسٹ کرنے سے پہلے سوچیں۔",
+    "en": "Did you know? Even after you delete a photo you shared online, someone may already have saved a screenshot of it — so think before you post."
+  },
+  "vocab": [
+    {
+      "ur": "پاس ورڈ",
+      "en": "password",
+      "ex_ur": "اپنا پاس ورڈ کسی کو نہ بتائیں۔",
+      "ex_en": "Don't tell anyone your password."
+    },
+    {
+      "ur": "ذاتی معلومات",
+      "en": "personal information",
+      "ex_ur": "اپنی ذاتی معلومات آن لائن شیئر نہ کریں۔",
+      "ex_en": "Don't share your personal information online."
+    },
+    {
+      "ur": "اجنبی",
+      "en": "stranger",
+      "ex_ur": "کسی اجنبی کی فرینڈ ریکویسٹ قبول نہ کریں۔",
+      "ex_en": "Don't accept a friend request from a stranger."
+    },
+    {
+      "ur": "دھوکا",
+      "en": "fraud / trick",
+      "ex_ur": "جعلی انعام کا پیغام ایک دھوکا تھا۔",
+      "ex_en": "The fake prize message was a trick.",
+      "syn": "فریب"
+    },
+    {
+      "ur": "جعلی",
+      "en": "fake",
+      "ex_ur": "یہ اکاؤنٹ جعلی ہے۔",
+      "ex_en": "This account is fake.",
+      "syn": "نقلی"
+    },
+    {
+      "ur": "رازداری",
+      "en": "privacy",
+      "ex_ur": "اپنے اکاؤنٹ کی رازداری کی ترتیبات چیک کریں۔",
+      "ex_en": "Check your account's privacy settings."
+    },
+    {
+      "ur": "تنگ کرنا",
+      "en": "to harass / bully",
+      "ex_ur": "کسی کو آن لائن تنگ کرنا بہت بری بات ہے۔",
+      "ex_en": "Bullying someone online is very wrong.",
+      "syn": "ستانا"
+    },
+    {
+      "ur": "اطلاع دینا",
+      "en": "to report / inform",
+      "ex_ur": "نامناسب پوسٹ کی فوراً اطلاع دیں۔",
+      "ex_en": "Report an inappropriate post at once."
+    },
+    {
+      "ur": "مشکوک",
+      "en": "suspicious",
+      "ex_ur": "مشکوک لنک پر کلک نہ کریں۔",
+      "ex_en": "Don't click on a suspicious link."
+    },
+    {
+      "ur": "محتاط",
+      "en": "careful / cautious",
+      "ex_ur": "انٹرنیٹ پر ہمیشہ محتاط رہیں۔",
+      "ex_en": "Always be careful on the internet."
+    }
+  ],
+  "reading": {
+    "passage": "سوشل میڈیا نے دنیا کو ایک دوسرے کے قریب کر دیا ہے، لیکن اس کے کچھ خطرات بھی ہیں۔ بہت سے لوگ جعلی اکاؤنٹ بنا کر دوسروں کو دھوکا دیتے ہیں۔ اس لیے کسی اجنبی کی فرینڈ ریکویسٹ قبول نہ کریں اور اپنا پتا، فون نمبر یا اسکول کا نام آن لائن شیئر نہ کریں۔ اگر کوئی پیغام کہے کہ آپ نے انعام جیتا ہے تو سمجھ لیں کہ یہ دھوکا ہو سکتا ہے۔ اگر کوئی آپ کو تنگ کرے تو اسے بلاک کریں اور فوراً والدین یا استاد کو بتائیں۔",
+    "questions": [
+      {
+        "q": "بعض لوگ دوسروں کو دھوکا کیسے دیتے ہیں؟",
+        "opts": [
+          "جعلی اکاؤنٹ بنا کر",
+          "کتابیں لکھ کر",
+          "کھیل کھیل کر",
+          "خط بھیج کر"
+        ],
+        "a": 0
+      },
+      {
+        "q": "کون سی معلومات آن لائن شیئر نہیں کرنی چاہییں؟",
+        "opts": [
+          "پسندیدہ رنگ",
+          "پتا اور فون نمبر",
+          "پسندیدہ کھانا",
+          "موسم کا حال"
+        ],
+        "a": 1
+      },
+      {
+        "q": "انعام جیتنے کا پیغام کیا ہو سکتا ہے؟",
+        "opts": [
+          "خوشخبری",
+          "سبق",
+          "دھوکا",
+          "دعوت نامہ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "اگر کوئی تنگ کرے تو کیا کرنا چاہیے؟",
+        "opts": [
+          "جواب میں برا بھلا کہیں",
+          "اپنا پاس ورڈ بتا دیں",
+          "خاموش رہیں",
+          "بلاک کر کے والدین یا استاد کو بتائیں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "کسی کو",
+          "نہ بتائیں",
+          "اپنا",
+          "پاس ورڈ"
+        ],
+        "answer": [
+          "اپنا",
+          "پاس ورڈ",
+          "کسی کو",
+          "نہ بتائیں"
+        ],
+        "en": "Don't tell anyone your password."
+      },
+      {
+        "bank": [
+          "نہ",
+          "کلک",
+          "کریں",
+          "مشکوک لنک پر"
+        ],
+        "answer": [
+          "مشکوک لنک پر",
+          "کلک",
+          "نہ",
+          "کریں"
+        ],
+        "en": "Don't click on a suspicious link."
+      },
+      {
+        "bank": [
+          "محتاط",
+          "رہیں",
+          "انٹرنیٹ پر",
+          "ہمیشہ"
+        ],
+        "answer": [
+          "انٹرنیٹ پر",
+          "ہمیشہ",
+          "محتاط",
+          "رہیں"
+        ],
+        "en": "Always be careful on the internet."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "یہ اکاؤنٹ ____ ہے، اسے بلاک کر دیں۔",
+        "opts": [
+          "جعلی",
+          "محفوظ",
+          "مفید",
+          "سرکاری"
+        ],
+        "a": 0,
+        "en": "This account is ___, block it."
+      },
+      {
+        "text": "کسی ____ کی فرینڈ ریکویسٹ قبول نہ کریں۔",
+        "opts": [
+          "استاد",
+          "اجنبی",
+          "بھائی",
+          "سہیلی"
+        ],
+        "a": 1,
+        "en": "Don't accept a friend request from a ___."
+      },
+      {
+        "text": "نامناسب پوسٹ کی فوراً ____ دیں۔",
+        "opts": [
+          "مبارک",
+          "دعوت",
+          "اطلاع",
+          "تعریف"
+        ],
+        "a": 2,
+        "en": "___ an inappropriate post at once."
+      }
+    ],
+    "creative": {
+      "ur": "آن لائن محفوظ رہنے کے لیے آپ اپنے چھوٹے بھائی یا بہن کو کون سے تین مشورے دیں گے؟ تین جملے لکھیں۔",
+      "en": "What three pieces of advice would you give your younger brother or sister about staying safe online? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "شرطیہ جملے اور تنبیہ — Conditionals and warnings: اگر… تو، ورنہ",
+    "explain": "اگر… تو sets a condition and its result: اگر آپ محتاط رہیں گے تو محفوظ رہیں گے (if you are careful, you will stay safe). For advice, the اگر part often uses the subjunctive: اگر کوئی تنگ کرے تو بتائیں. ورنہ (otherwise / or else) adds a warning after an instruction: پاس ورڈ مضبوط رکھیں، ورنہ اکاؤنٹ ہیک ہو سکتا ہے. جب تک… نہ means ‘until / unless’: جب تک یقین نہ ہو، لنک نہ کھولیں.",
+    "rows": [
+      [
+        "اگر کوئی اجنبی پیغام بھیجے تو جواب نہ دیں۔",
+        "If a stranger sends a message, do not reply."
+      ],
+      [
+        "اگر آپ پاس ورڈ بتائیں گے تو اکاؤنٹ خطرے میں ہو گا۔",
+        "If you tell your password, your account will be at risk."
+      ],
+      [
+        "سوچ سمجھ کر پوسٹ کریں، ورنہ بعد میں پچھتانا پڑے گا۔",
+        "Think before you post, otherwise you will regret it later."
+      ],
+      [
+        "جب تک یقین نہ ہو، کسی لنک پر کلک نہ کریں۔",
+        "Do not click on any link until you are sure."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اگر کوئی آپ کو تنگ کرے ____ والدین کو بتائیں۔",
+        "opts": [
+          "تو",
+          "ورنہ",
+          "لیکن",
+          "کہ"
+        ],
+        "a": 0,
+        "en": "If someone bullies you, tell your parents."
+      },
+      {
+        "q": "مضبوط پاس ورڈ رکھیں، ____ اکاؤنٹ ہیک ہو سکتا ہے۔",
+        "opts": [
+          "تو",
+          "اگر",
+          "ورنہ",
+          "جب"
+        ],
+        "a": 2,
+        "en": "Keep a strong password, otherwise your account can be hacked."
+      },
+      {
+        "q": "____ آپ مشکوک لنک کھولیں گے تو فون میں وائرس آ سکتا ہے۔",
+        "opts": [
+          "ورنہ",
+          "اگر",
+          "تو",
+          "کیونکہ"
+        ],
+        "a": 1,
+        "en": "If you open a suspicious link, a virus may get into your phone."
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "id": "waste-recycling",
+  "ur": "کچرا اور ری سائیکلنگ",
+  "en": "Waste and Recycling",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پلاسٹک کی ایک تھیلی کو مٹی میں گلنے میں بہت لمبا عرصہ، بلکہ سیکڑوں سال بھی لگ سکتے ہیں، اسی لیے کپڑے کا تھیلا بہتر ہے۔",
+    "en": "Did you know? A plastic bag can take a very long time to break down in soil, even hundreds of years, which is why a cloth bag is better."
+  },
+  "vocab": [
+    {
+      "ur": "کچرا",
+      "en": "rubbish / waste",
+      "ex_ur": "کچرا ہمیشہ کوڑے دان میں ڈالیں۔",
+      "ex_en": "Always put rubbish in the dustbin.",
+      "syn": "کوڑا"
+    },
+    {
+      "ur": "ری سائیکل کرنا",
+      "en": "to recycle",
+      "ex_ur": "پرانے اخبار ری سائیکل کیے جا سکتے ہیں۔",
+      "ex_en": "Old newspapers can be recycled."
+    },
+    {
+      "ur": "کوڑے دان",
+      "en": "dustbin",
+      "ex_ur": "گلی کے کونے پر ایک بڑا کوڑے دان رکھا گیا ہے۔",
+      "ex_en": "A big dustbin has been placed at the corner of the street."
+    },
+    {
+      "ur": "پلاسٹک",
+      "en": "plastic",
+      "ex_ur": "پلاسٹک کی بوتلیں نالیوں کو بند کر دیتی ہیں۔",
+      "ex_en": "Plastic bottles block the drains."
+    },
+    {
+      "ur": "الگ کرنا",
+      "en": "to separate / sort",
+      "ex_ur": "امی کاغذ اور پلاسٹک الگ کرتی ہیں۔",
+      "ex_en": "Mother separates paper and plastic."
+    },
+    {
+      "ur": "کھاد",
+      "en": "compost / fertiliser",
+      "ex_ur": "سبزیوں کے چھلکوں سے کھاد بنتی ہے۔",
+      "ex_en": "Compost is made from vegetable peels."
+    },
+    {
+      "ur": "گلنا",
+      "en": "to rot / decompose",
+      "ex_ur": "پھلوں کے چھلکے جلد گل جاتے ہیں۔",
+      "ex_en": "Fruit peels rot quickly."
+    },
+    {
+      "ur": "ماحول",
+      "en": "environment",
+      "ex_ur": "صاف ماحول صحت کے لیے ضروری ہے۔",
+      "ex_en": "A clean environment is necessary for health."
+    },
+    {
+      "ur": "بلدیہ",
+      "en": "municipality / town council",
+      "ex_ur": "بلدیہ کی گاڑی روز صبح کچرا اٹھاتی ہے۔",
+      "ex_en": "The council truck collects the rubbish every morning."
+    },
+    {
+      "ur": "نالی",
+      "en": "drain",
+      "ex_ur": "بند نالی سے گلی میں پانی کھڑا ہو گیا۔",
+      "ex_en": "Water collected in the street because of a blocked drain."
+    }
+  ],
+  "reading": {
+    "passage": "ہمارے شہروں میں ہر روز بہت بڑی مقدار میں کچرا پیدا ہوتا ہے۔ اس میں سبزیوں کے چھلکے، کاغذ، پلاسٹک کی تھیلیاں اور بوتلیں شامل ہوتی ہیں۔ جب یہ کچرا گلیوں اور نالیوں میں پھینکا جاتا ہے تو نالیاں بند ہو جاتی ہیں اور بیماریاں پھیلتی ہیں۔ اگر ہم گھر میں ہی کچرا الگ الگ کر لیں تو کاغذ اور پلاسٹک کو ری سائیکل کیا جا سکتا ہے اور سبزیوں کے چھلکوں سے کھاد بنائی جا سکتی ہے۔ ہمیں بازار جاتے وقت کپڑے کا تھیلا ساتھ لے جانا چاہیے۔",
+    "questions": [
+      {
+        "q": "نالیاں کیوں بند ہو جاتی ہیں؟",
+        "opts": [
+          "بارش سے",
+          "ان میں کچرا پھینکنے سے",
+          "درختوں سے",
+          "گاڑیوں سے"
+        ],
+        "a": 1
+      },
+      {
+        "q": "سبزیوں کے چھلکوں سے کیا بنایا جا سکتا ہے؟",
+        "opts": [
+          "کاغذ",
+          "پلاسٹک",
+          "کھاد",
+          "بوتلیں"
+        ],
+        "a": 2
+      },
+      {
+        "q": "کن چیزوں کو ری سائیکل کیا جا سکتا ہے؟",
+        "opts": [
+          "سبزیوں کے چھلکوں کو",
+          "کھاد کو",
+          "مٹی کو",
+          "کاغذ اور پلاسٹک کو"
+        ],
+        "a": 3
+      },
+      {
+        "q": "بازار جاتے وقت کیا ساتھ لے جانا چاہیے؟",
+        "opts": [
+          "کپڑے کا تھیلا",
+          "پلاسٹک کی تھیلی",
+          "کوڑے دان",
+          "خالی بوتل"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ڈالیں",
+          "میں",
+          "کچرا",
+          "کوڑے دان"
+        ],
+        "answer": [
+          "کچرا",
+          "کوڑے دان",
+          "میں",
+          "ڈالیں"
+        ],
+        "en": "Put the rubbish in the dustbin."
+      },
+      {
+        "bank": [
+          "چاہیے",
+          "کچرا",
+          "الگ کرنا",
+          "ہمیں"
+        ],
+        "answer": [
+          "ہمیں",
+          "کچرا",
+          "الگ کرنا",
+          "چاہیے"
+        ],
+        "en": "We should separate the rubbish."
+      },
+      {
+        "bank": [
+          "استعمال نہ کریں",
+          "پلاسٹک کی",
+          "تھیلیاں"
+        ],
+        "answer": [
+          "پلاسٹک کی",
+          "تھیلیاں",
+          "استعمال نہ کریں"
+        ],
+        "en": "Do not use plastic bags."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "خالی بوتلوں کو ____ کیا جا سکتا ہے۔",
+        "opts": [
+          "ری سائیکل",
+          "بیمار",
+          "خاموش",
+          "حیران"
+        ],
+        "a": 0,
+        "en": "Empty bottles can be ___."
+      },
+      {
+        "text": "سبزیوں کے چھلکوں سے ____ بنتی ہے۔",
+        "opts": [
+          "سڑک",
+          "کھاد",
+          "بوتل",
+          "تھیلی"
+        ],
+        "a": 1,
+        "en": "___ is made from vegetable peels."
+      },
+      {
+        "text": "شہر سے کچرا اٹھانا ____ کی ذمہ داری ہے۔",
+        "opts": [
+          "عدالت",
+          "یونیورسٹی",
+          "بلدیہ",
+          "ریلوے"
+        ],
+        "a": 2,
+        "en": "Collecting the city's rubbish is the ___'s responsibility."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے گھر میں کچرا کم کرنے کے لیے تین ہدایات لکھیں۔ امر (جیسے ‘ڈالیں’) اور ‘چاہیے’ دونوں استعمال کریں۔",
+      "en": "Write three instructions for reducing waste at home. Use both imperatives (such as ‘ڈالیں’) and ‘چاہیے’."
+    }
+  },
+  "grammar": {
+    "title": "امر اور ‘چاہیے’ — Imperatives and ‘should’",
+    "explain": "Imperatives give instructions. The polite form used on notices ends in ‘-یں’ or ‘-یے’ (ڈالیں، رکھیے); with friends and children use ‘-و’ (ڈالو). Negative commands use نہ or مت: کچرا نہ پھینکیں. For advice or duty use the infinitive + چاہیے, with the person marked by کو (ہمیں، سب کو): ہمیں کچرا الگ کرنا چاہیے. The infinitive agrees with a feminine object (گلی صاف رکھنی چاہیے), and چاہیے becomes چاہییں with a plural object (کاپیاں ری سائیکل کرنی چاہییں).",
+    "rows": [
+      [
+        "کچرا کوڑے دان میں ڈالیں۔",
+        "Put the rubbish in the dustbin."
+      ],
+      [
+        "پلاسٹک کی تھیلیاں استعمال نہ کریں۔",
+        "Do not use plastic bags."
+      ],
+      [
+        "ہمیں کچرا الگ الگ رکھنا چاہیے۔",
+        "We should keep the rubbish separate."
+      ],
+      [
+        "سب کو اپنی گلی صاف رکھنی چاہیے۔",
+        "Everyone should keep their street clean."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ہمیں سڑک پر کچرا نہیں ____۔",
+        "opts": [
+          "پھینکیں",
+          "پھینکو",
+          "پھینکنا چاہیے",
+          "پھینکتا"
+        ],
+        "a": 2,
+        "en": "We should not throw rubbish on the road."
+      },
+      {
+        "q": "براہِ کرم خالی بوتلیں پیلے ڈبے میں ____۔",
+        "opts": [
+          "ڈالیں",
+          "ڈالتا",
+          "ڈالا",
+          "ڈالنی"
+        ],
+        "a": 0,
+        "en": "Please put empty bottles in the yellow bin."
+      },
+      {
+        "q": "ہمیں پرانی کاپیاں ری سائیکل ____ چاہییں۔",
+        "opts": [
+          "کرنا",
+          "کرنے",
+          "کریں",
+          "کرنی"
+        ],
+        "a": 3,
+        "en": "We should recycle old exercise books."
+      }
+    ]
+  }
+}

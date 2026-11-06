@@ -1,0 +1,86 @@
+{
+  "id": "allama-iqbal",
+  "ur": "علامہ اقبال",
+  "en": "Allama Iqbal",
+  "warmup": [
+    {
+      "en": "Iqbal was a great poet.",
+      "bank": [
+        "شاعر",
+        "تھے",
+        "اقبال",
+        "ایک عظیم"
+      ],
+      "answer": [
+        "اقبال",
+        "ایک عظیم",
+        "شاعر",
+        "تھے"
+      ]
+    },
+    {
+      "en": "He was born in Sialkot.",
+      "bank": [
+        "پیدا ہوئے",
+        "وہ",
+        "سیالکوٹ میں"
+      ],
+      "answer": [
+        "وہ",
+        "سیالکوٹ میں",
+        "پیدا ہوئے"
+      ]
+    },
+    {
+      "en": "We celebrate Iqbal Day every year.",
+      "bank": [
+        "یومِ اقبال",
+        "مناتے ہیں",
+        "ہر سال",
+        "ہم"
+      ],
+      "answer": [
+        "ہم",
+        "ہر سال",
+        "یومِ اقبال",
+        "مناتے ہیں"
+      ]
+    },
+    {
+      "en": "His message is for young people.",
+      "bank": [
+        "ہے",
+        "ان کا پیغام",
+        "نوجوانوں کے لیے"
+      ],
+      "answer": [
+        "ان کا پیغام",
+        "نوجوانوں کے لیے",
+        "ہے"
+      ]
+    },
+    {
+      "en": "He studied in Germany too.",
+      "bank": [
+        "تعلیم حاصل کی",
+        "انہوں نے",
+        "جرمنی میں بھی"
+      ],
+      "answer": [
+        "انہوں نے",
+        "جرمنی میں بھی",
+        "تعلیم حاصل کی"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Allama Muhammad Iqbal was born in Sialkot in 1877. He was a bright student, and after studying in Sialkot and Lahore he went to Europe, where he studied at Cambridge and in Germany. Iqbal was not only a poet but also a thinker who wanted his people to stand on their own feet. He wrote in both Urdu and Persian, and his message of hard work, self-respect and unity is still loved today. In 1930, in his famous Allahabad address, he presented the idea of a separate homeland for the Muslims of the subcontinent. Iqbal died in Lahore in 1938 and is buried near the Badshahi Mosque. Every year on 9 November, schools across Pakistan remember him with speeches and poems.",
+    "modelUr": "علامہ محمد اقبال 1877 میں سیالکوٹ میں پیدا ہوئے۔ وہ ایک ذہین طالب علم تھے، اور سیالکوٹ اور لاہور میں تعلیم حاصل کرنے کے بعد یورپ گئے، جہاں انہوں نے کیمبرج اور جرمنی میں تعلیم حاصل کی۔ اقبال نہ صرف ایک شاعر تھے بلکہ ایک ایسے مفکر بھی تھے جو چاہتے تھے کہ ان کی قوم اپنے پاؤں پر کھڑی ہو۔ انہوں نے اردو اور فارسی دونوں زبانوں میں لکھا، اور محنت، خودداری اور اتحاد کا ان کا پیغام آج بھی پسند کیا جاتا ہے۔ 1930 میں اپنے مشہور الہ آباد خطبے میں انہوں نے برصغیر کے مسلمانوں کے لیے ایک علیحدہ وطن کا تصور پیش کیا۔ اقبال 1938 میں لاہور میں فوت ہوئے اور بادشاہی مسجد کے قریب دفن ہیں۔ ہر سال 9 نومبر کو پاکستان بھر کے اسکول تقریروں اور نظموں کے ذریعے انہیں یاد کرتے ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘not only… but also’ کا ترجمہ ‘نہ صرف… بلکہ… بھی’ سے کیا؟",
+      "کیا ‘to stand on their own feet’ کا ترجمہ محاورے ‘اپنے پاؤں پر کھڑا ہونا’ سے کیا؟",
+      "کیا اقبال کے لیے احترام کی جمع (ہوئے، تھے، گئے) استعمال کی؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

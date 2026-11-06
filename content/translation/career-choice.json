@@ -1,0 +1,92 @@
+{
+  "id": "career-choice",
+  "ur": "پیشے کا انتخاب",
+  "en": "Choosing a Career",
+  "warmup": [
+    {
+      "en": "I want to become a teacher.",
+      "bank": [
+        "بننا",
+        "چاہتا ہوں",
+        "میں",
+        "استاد"
+      ],
+      "answer": [
+        "میں",
+        "استاد",
+        "بننا",
+        "چاہتا ہوں"
+      ]
+    },
+    {
+      "en": "She will study medicine.",
+      "bank": [
+        "حاصل کرے گی",
+        "وہ",
+        "تعلیم",
+        "طب کی"
+      ],
+      "answer": [
+        "وہ",
+        "طب کی",
+        "تعلیم",
+        "حاصل کرے گی"
+      ]
+    },
+    {
+      "en": "Ask your teachers for advice.",
+      "bank": [
+        "مشورہ",
+        "لیں",
+        "اپنے",
+        "اساتذہ سے"
+      ],
+      "answer": [
+        "اپنے",
+        "اساتذہ سے",
+        "مشورہ",
+        "لیں"
+      ]
+    },
+    {
+      "en": "Hard work brings success.",
+      "bank": [
+        "لاتی",
+        "محنت",
+        "ہے",
+        "کامیابی"
+      ],
+      "answer": [
+        "محنت",
+        "کامیابی",
+        "لاتی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "We will go to the careers fair tomorrow.",
+      "bank": [
+        "کیریئر میلے میں",
+        "جائیں گے",
+        "کل",
+        "ہم"
+      ],
+      "answer": [
+        "ہم",
+        "کل",
+        "کیریئر میلے میں",
+        "جائیں گے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Choosing a career is not easy, especially at the age of fifteen or sixteen. Many students pick a subject because their friends have chosen it or because their parents want them to. However, a career lasts for many years, so it should match your interests and abilities. If you enjoy solving problems, you might become an engineer; if you like helping people, teaching or nursing could suit you. Before you decide, find out as much as you can. Visit a careers fair, talk to people who already work in that field and ask how many years of study it will take. I intend to spend part of my summer holidays working in an office, because I want to see what the job is really like.",
+    "modelUr": "پیشے کا انتخاب آسان نہیں، خاص طور پر پندرہ سولہ سال کی عمر میں۔ بہت سے طلبہ کوئی مضمون اس لیے چن لیتے ہیں کہ ان کے دوستوں نے وہی چنا ہے یا ان کے والدین ایسا چاہتے ہیں۔ تاہم پیشہ کئی برسوں تک ساتھ رہتا ہے، اس لیے اسے آپ کی دلچسپیوں اور صلاحیتوں کے مطابق ہونا چاہیے۔ اگر آپ کو مسئلے حل کرنے میں مزہ آتا ہے تو شاید آپ انجینئر بنیں؛ اگر آپ کو لوگوں کی مدد کرنا اچھا لگتا ہے تو تدریس یا نرسنگ آپ کے لیے موزوں ہو سکتی ہے۔ فیصلہ کرنے سے پہلے جتنی ہو سکے معلومات حاصل کریں۔ کیریئر میلے میں جائیں، ان لوگوں سے بات کریں جو پہلے ہی اس شعبے میں کام کر رہے ہیں، اور پوچھیں کہ اس کے لیے کتنے سال تعلیم حاصل کرنی ہو گی۔ میرا ارادہ ہے کہ میں گرمیوں کی چھٹیوں کا کچھ حصہ ایک دفتر میں کام کر کے گزاروں، کیونکہ میں دیکھنا چاہتا ہوں کہ یہ کام حقیقت میں کیسا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘I intend to…’ کا ترجمہ ‘میرا ارادہ ہے کہ…’ سے کیا؟",
+      "کیا ‘If you enjoy… you might become…’ کی شرطیہ ساخت (اگر… تو…) درست ہے؟",
+      "کیا ‘how many years of study it will take’ میں مستقبل (ہو گی) استعمال کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

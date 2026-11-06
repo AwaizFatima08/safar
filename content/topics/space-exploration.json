@@ -1,0 +1,260 @@
+{
+  "id": "space-exploration",
+  "ur": "خلا اور پاکستان کا چاند مشن",
+  "en": "Space and Pakistan's Moon Satellite",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ مئی 2024 میں پاکستان کا چھوٹا سیٹلائٹ آئی کیوب قمر چین کے مشن چانگ ای 6 کے ساتھ چاند کی طرف روانہ ہوا۔ یہ پاکستان کا پہلا چاند مشن تھا۔",
+    "en": "Did you know? In May 2024 Pakistan's small satellite iCube-Qamar set off for the Moon with China's Chang'e-6 mission. It was Pakistan's first mission to the Moon."
+  },
+  "vocab": [
+    {
+      "ur": "خلا",
+      "en": "space",
+      "ex_ur": "خلا میں ہوا نہیں ہوتی۔",
+      "ex_en": "There is no air in space."
+    },
+    {
+      "ur": "مصنوعی سیارہ",
+      "en": "satellite",
+      "ex_ur": "مصنوعی سیارہ زمین کے گرد چکر لگاتا ہے۔",
+      "ex_en": "A satellite goes round the Earth.",
+      "syn": "سیٹلائٹ"
+    },
+    {
+      "ur": "مدار",
+      "en": "orbit",
+      "ex_ur": "چاند زمین کے مدار میں گھومتا ہے۔",
+      "ex_en": "The Moon moves in orbit around the Earth."
+    },
+    {
+      "ur": "خلا باز",
+      "en": "astronaut",
+      "ex_ur": "خلا باز خاص لباس پہن کر خلا میں جاتے ہیں۔",
+      "ex_en": "Astronauts wear special suits to go into space."
+    },
+    {
+      "ur": "سیارہ",
+      "en": "planet",
+      "ex_ur": "مریخ کو سرخ سیارہ کہا جاتا ہے۔",
+      "ex_en": "Mars is called the red planet."
+    },
+    {
+      "ur": "دوربین",
+      "en": "telescope",
+      "ex_ur": "ہم نے دوربین سے چاند کے گڑھے دیکھے۔",
+      "ex_en": "We saw the Moon's craters through a telescope."
+    },
+    {
+      "ur": "راکٹ",
+      "en": "rocket",
+      "ex_ur": "راکٹ بہت تیزی سے آسمان کی طرف اڑا۔",
+      "ex_en": "The rocket flew very fast towards the sky."
+    },
+    {
+      "ur": "کائنات",
+      "en": "universe",
+      "ex_ur": "کائنات میں ان گنت ستارے ہیں۔",
+      "ex_en": "There are countless stars in the universe."
+    },
+    {
+      "ur": "خلائی ادارہ",
+      "en": "space agency",
+      "ex_ur": "سپارکو پاکستان کا خلائی ادارہ ہے۔",
+      "ex_en": "SUPARCO is Pakistan's space agency."
+    },
+    {
+      "ur": "سطح",
+      "en": "surface",
+      "ex_ur": "چاند کی سطح پر بہت سے گڑھے ہیں۔",
+      "ex_en": "There are many craters on the surface of the Moon."
+    }
+  ],
+  "reading": {
+    "passage": "انسان ہمیشہ سے چاند اور ستاروں کے بارے میں جاننا چاہتا تھا۔ 1969 میں اپالو 11 مشن کے ذریعے انسان پہلی بار چاند پر اترا۔ اس کے بعد کئی ملکوں نے خلا میں اپنے مصنوعی سیارے بھیجے۔ پاکستان کا خلائی ادارہ سپارکو کہلاتا ہے۔ مئی 2024 میں پاکستان کا چھوٹا سیٹلائٹ آئی کیوب قمر چین کے چانگ ای 6 مشن کے ساتھ چاند کی طرف گیا۔ یہ پاکستان کا پہلا چاند مشن تھا، اور اس سیٹلائٹ نے چاند کی تصویریں بھی زمین پر بھیجیں۔",
+    "questions": [
+      {
+        "q": "انسان پہلی بار چاند پر کب اترا؟",
+        "opts": [
+          "1969 میں",
+          "2024 میں",
+          "1957 میں",
+          "1990 میں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "پاکستان کا خلائی ادارہ کیا کہلاتا ہے؟",
+        "opts": [
+          "اپالو",
+          "چانگ ای",
+          "سپارکو",
+          "قمر"
+        ],
+        "a": 2
+      },
+      {
+        "q": "آئی کیوب قمر کس ملک کے مشن کے ساتھ گیا؟",
+        "opts": [
+          "امریکہ",
+          "روس",
+          "جاپان",
+          "چین"
+        ],
+        "a": 3
+      },
+      {
+        "q": "آئی کیوب قمر نے زمین پر کیا بھیجا؟",
+        "opts": [
+          "چاند کی مٹی",
+          "چاند کی تصویریں",
+          "پانی کے نمونے",
+          "پتھر"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "چکر لگاتا ہے",
+          "سیٹلائٹ",
+          "زمین کے گرد"
+        ],
+        "answer": [
+          "سیٹلائٹ",
+          "زمین کے گرد",
+          "چکر لگاتا ہے"
+        ],
+        "en": "The satellite goes round the Earth."
+      },
+      {
+        "bank": [
+          "خلا میں",
+          "بھیجا جائے گا",
+          "راکٹ",
+          "کل صبح"
+        ],
+        "answer": [
+          "راکٹ",
+          "کل صبح",
+          "خلا میں",
+          "بھیجا جائے گا"
+        ],
+        "en": "The rocket will be sent into space tomorrow morning."
+      },
+      {
+        "bank": [
+          "پہلا پاکستانی سیٹلائٹ",
+          "تھا",
+          "یہ",
+          "چاند کی طرف جانے والا"
+        ],
+        "answer": [
+          "یہ",
+          "چاند کی طرف جانے والا",
+          "پہلا پاکستانی سیٹلائٹ",
+          "تھا"
+        ],
+        "en": "This was the first Pakistani satellite to go towards the Moon."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "زمین سورج کے گرد اپنے ____ میں گھومتی ہے۔",
+        "opts": [
+          "دریا",
+          "مدار",
+          "کمرے",
+          "بازار"
+        ],
+        "a": 1,
+        "en": "The Earth moves round the Sun in its ___."
+      },
+      {
+        "text": "ستاروں کو قریب سے دیکھنے کے لیے ____ استعمال ہوتی ہے۔",
+        "opts": [
+          "قلم",
+          "چھتری",
+          "گھڑی",
+          "دوربین"
+        ],
+        "a": 3,
+        "en": "A ___ is used to see the stars up close."
+      },
+      {
+        "text": "مریخ ایک سرخ رنگ کا ____ ہے۔",
+        "opts": [
+          "پھول",
+          "دریا",
+          "سیارہ",
+          "پہاڑ"
+        ],
+        "a": 2,
+        "en": "Mars is a red ___."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کو خلا میں جانے کا موقع ملے تو آپ وہاں کیا دیکھنا چاہیں گے؟ تین جملے لکھیں۔",
+      "en": "If you had the chance to go into space, what would you like to see there? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مستقبل مجہول اور ‘والا’ — Future passive and ‘wala’",
+    "explain": "Future passive = past participle + جائے گا / جائے گی / جائیں گے: سیٹلائٹ بھیجا جائے گا (the satellite will be sent), تصویریں دکھائی جائیں گی (pictures will be shown). The object becomes the subject, and both the participle and جائے گا agree with it. ‘والا’ after an oblique infinitive (ـنے) means 'the one that…' or 'about to': چاند پر جانے والا مشن (the mission going to the Moon), شو شروع ہونے والا ہے (the show is about to start). والا agrees like an adjective: والا / والی / والے.",
+    "rows": [
+      [
+        "کل ایک نیا سیٹلائٹ خلا میں بھیجا جائے گا۔",
+        "A new satellite will be sent into space tomorrow."
+      ],
+      [
+        "شو میں چاند کی تصویریں دکھائی جائیں گی۔",
+        "Pictures of the Moon will be shown in the show."
+      ],
+      [
+        "یہ چاند پر جانے والا مشن ہے۔",
+        "This is the mission going to the Moon."
+      ],
+      [
+        "شو شروع ہونے والا ہے، جلدی آؤ!",
+        "The show is about to start — come quickly!"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اگلے سال ایک نیا راکٹ ____ جائے گا۔",
+        "opts": [
+          "چھوڑا",
+          "چھوڑی",
+          "چھوڑے",
+          "چھوڑنا"
+        ],
+        "a": 0,
+        "en": "A new rocket will be launched next year."
+      },
+      {
+        "q": "خلا میں جانے ____ لڑکی بہت خوش تھی۔",
+        "opts": [
+          "والا",
+          "والے",
+          "والی",
+          "والیاں"
+        ],
+        "a": 2,
+        "en": "The girl who was going into space was very happy."
+      },
+      {
+        "q": "سائنس میلے میں طلبہ کے ماڈل ____ جائیں گے۔",
+        "opts": [
+          "دکھایا",
+          "دکھائی",
+          "دکھانا",
+          "دکھائے"
+        ],
+        "a": 3,
+        "en": "The students' models will be shown at the science fair."
+      }
+    ]
+  }
+}

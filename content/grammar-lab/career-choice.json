@@ -1,0 +1,116 @@
+{
+  "id": "career-choice",
+  "ur": "میرے مستقبل کے منصوبے",
+  "en": "My Future Plans",
+  "grammarPoint": {
+    "ur": "مستقبل (گا/گی/گے)، ‘چاہنا’ اور ‘ارادہ’",
+    "en": "Future tense, ‘want to’ and ‘intend to’"
+  },
+  "cloze": {
+    "passage": "میں بڑی ہو کر صحافی (1)_____ چاہتی ہوں۔ میرا ارادہ (2)_____ کہ میں یونیورسٹی میں ابلاغیات پڑھوں۔ اگلے سال میں اسکول کے رسالے کی مدیر (3)_____ گی۔ میرے دونوں بھائی بھی کیریئر میلے میں (4)_____ گے۔ ابو کہتے ہیں کہ تم محنت کرو گی تو ضرور کامیاب (5)_____۔",
+    "gaps": [
+      {
+        "opts": [
+          "بننا",
+          "بنی",
+          "بنوں",
+          "بنتی"
+        ],
+        "a": 0,
+        "en": "Infinitive before چاہنا: بننا چاہتی ہوں"
+      },
+      {
+        "opts": [
+          "تھا",
+          "ہے",
+          "ہوں",
+          "ہو"
+        ],
+        "a": 1,
+        "en": "میرا ارادہ ہے کہ… = I intend to…"
+      },
+      {
+        "opts": [
+          "بنا",
+          "بنی",
+          "بنوں",
+          "بننا"
+        ],
+        "a": 2,
+        "en": "Subjunctive + گی for future: بنوں گی"
+      },
+      {
+        "opts": [
+          "جائے",
+          "جاؤ",
+          "گیا",
+          "جائیں"
+        ],
+        "a": 3,
+        "en": "Plural subject (دونوں بھائی) → جائیں گے"
+      },
+      {
+        "opts": [
+          "ہو گی",
+          "ہو گا",
+          "ہوں گے",
+          "ہوئی"
+        ],
+        "a": 0,
+        "en": "تم (feminine, future) → ہو گی"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "میرا ارادہ ہے کہ میں ڈاکٹر بنوں۔",
+      "stem": "میں ڈاکٹر ____ چاہتا ہوں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "بننا"
+      ],
+      "en": "I intend to become a doctor."
+    },
+    {
+      "original": "آج میں دلچسپی ٹیسٹ دے رہی ہوں۔",
+      "stem": "کل میں دلچسپی ٹیسٹ ____ گی۔",
+      "instruction_ur": "مستقبل میں بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the future tense",
+      "answers": [
+        "دوں"
+      ],
+      "en": "Today I am taking the interest test."
+    },
+    {
+      "original": "احمد انجینئر بننا چاہتا ہے۔",
+      "stem": "احمد کا انجینئر بننے ____ ارادہ ہے۔",
+      "instruction_ur": "‘ارادہ’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘ارادہ’ (intention)",
+      "answers": [
+        "کا"
+      ],
+      "en": "Ahmed wants to become an engineer."
+    },
+    {
+      "original": "مجھے کمپیوٹر کا بہت شوق ہے۔",
+      "stem": "مجھے کمپیوٹر میں بہت ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "دلچسپی"
+      ],
+      "en": "I am very keen on computers."
+    },
+    {
+      "original": "میں اگلے سال یونیورسٹی جاؤں گا۔",
+      "stem": "ہم اگلے سال یونیورسٹی ____ گے۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "جائیں"
+      ],
+      "en": "I will go to university next year."
+    }
+  ]
+}

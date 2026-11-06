@@ -1,0 +1,263 @@
+{
+  "id": "smog",
+  "ur": "اسموگ اور فضائی آلودگی",
+  "en": "Smog and Air Pollution",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ سردیوں میں ہوا ٹھنڈی اور ساکن ہو جاتی ہے، اس لیے دھواں اور گرد اوپر نہیں اٹھ پاتے اور زمین کے قریب جمع ہو کر اسموگ بنا دیتے ہیں۔",
+    "en": "Did you know? In winter the air becomes cold and still, so smoke and dust cannot rise; they collect near the ground and form smog."
+  },
+  "vocab": [
+    {
+      "ur": "اسموگ",
+      "en": "smog",
+      "ex_ur": "آج صبح شہر پر گہری اسموگ چھائی ہوئی تھی۔",
+      "ex_en": "There was thick smog over the city this morning."
+    },
+    {
+      "ur": "آلودگی",
+      "en": "pollution",
+      "ex_ur": "فضائی آلودگی صحت کے لیے نقصان دہ ہے۔",
+      "ex_en": "Air pollution is harmful to health."
+    },
+    {
+      "ur": "دھواں",
+      "en": "smoke",
+      "ex_ur": "پرانی بس سے کالا دھواں نکل رہا تھا۔",
+      "ex_en": "Black smoke was coming out of the old bus."
+    },
+    {
+      "ur": "فضا",
+      "en": "air / atmosphere",
+      "ex_ur": "بارش کے بعد فضا صاف ہو گئی۔",
+      "ex_en": "The air became clean after the rain.",
+      "syn": "ہوا"
+    },
+    {
+      "ur": "ماسک",
+      "en": "mask",
+      "ex_ur": "باہر جاتے وقت ماسک ضرور پہنیں۔",
+      "ex_en": "Always wear a mask when you go out."
+    },
+    {
+      "ur": "سانس",
+      "en": "breath",
+      "ex_ur": "دھوئیں میں سانس لینا مشکل ہو جاتا ہے۔",
+      "ex_en": "It becomes hard to breathe in smoke."
+    },
+    {
+      "ur": "بھٹا",
+      "en": "(brick) kiln",
+      "ex_ur": "شہر کے باہر اینٹوں کے کئی بھٹے ہیں۔",
+      "ex_en": "There are several brick kilns outside the city."
+    },
+    {
+      "ur": "فصلوں کی باقیات",
+      "en": "crop remains / stubble",
+      "ex_ur": "فصلوں کی باقیات جلانے سے دھواں پھیلتا ہے۔",
+      "ex_en": "Burning crop remains spreads smoke."
+    },
+    {
+      "ur": "حدِ نگاہ",
+      "en": "visibility",
+      "ex_ur": "دھند میں حدِ نگاہ بہت کم ہو گئی۔",
+      "ex_en": "Visibility became very low in the fog."
+    },
+    {
+      "ur": "احتیاط",
+      "en": "precaution / care",
+      "ex_ur": "اسموگ کے دنوں میں خاص احتیاط کریں۔",
+      "ex_en": "Take special care on smoggy days.",
+      "syn": "پرہیز"
+    }
+  ],
+  "reading": {
+    "passage": "ہر سال سردیوں کے آغاز میں لاہور اور پنجاب کے کئی شہروں پر دھوئیں اور دھند کی ایک موٹی چادر چھا جاتی ہے جسے اسموگ کہتے ہیں۔ اس کی بڑی وجوہات گاڑیوں کا دھواں، اینٹوں کے بھٹے، کارخانے اور فصلوں کی باقیات کو آگ لگانا ہیں۔ چونکہ سردیوں میں ہوا کم چلتی ہے، اس لیے یہ آلودگی زمین کے قریب ٹھہر جاتی ہے۔ اسموگ کی وجہ سے آنکھوں میں جلن، کھانسی اور سانس کی تکلیف ہوتی ہے۔ حدِ نگاہ کم ہونے سے سڑکوں پر حادثات کا خطرہ بھی بڑھ جاتا ہے۔",
+    "questions": [
+      {
+        "q": "اسموگ کس موسم میں زیادہ ہوتی ہے؟",
+        "opts": [
+          "گرمیوں میں",
+          "بارشوں میں",
+          "بہار میں",
+          "سردیوں میں"
+        ],
+        "a": 3
+      },
+      {
+        "q": "اسموگ کی ایک وجہ کیا ہے؟",
+        "opts": [
+          "درخت لگانا",
+          "فصلوں کی باقیات کو آگ لگانا",
+          "بارش ہونا",
+          "سائیکل چلانا"
+        ],
+        "a": 1
+      },
+      {
+        "q": "سردیوں میں آلودگی زمین کے قریب کیوں ٹھہر جاتی ہے؟",
+        "opts": [
+          "کیونکہ ہوا کم چلتی ہے",
+          "کیونکہ دھوپ تیز ہوتی ہے",
+          "کیونکہ بارش زیادہ ہوتی ہے",
+          "کیونکہ گاڑیاں کم ہوتی ہیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "حدِ نگاہ کم ہونے سے کس چیز کا خطرہ بڑھتا ہے؟",
+        "opts": [
+          "سیلاب کا",
+          "زلزلے کا",
+          "حادثات کا",
+          "آگ کا"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پہنیں",
+          "باہر",
+          "ماسک",
+          "جاتے وقت"
+        ],
+        "answer": [
+          "باہر",
+          "جاتے وقت",
+          "ماسک",
+          "پہنیں"
+        ],
+        "en": "Wear a mask when going out."
+      },
+      {
+        "bank": [
+          "آلودہ",
+          "ہے",
+          "فضا",
+          "آج"
+        ],
+        "answer": [
+          "آج",
+          "فضا",
+          "آلودہ",
+          "ہے"
+        ],
+        "en": "The air is polluted today."
+      },
+      {
+        "bank": [
+          "کی وجہ سے",
+          "سانس",
+          "دھوئیں",
+          "پھولتا ہے"
+        ],
+        "answer": [
+          "دھوئیں",
+          "کی وجہ سے",
+          "سانس",
+          "پھولتا ہے"
+        ],
+        "en": "Because of the smoke, people get out of breath."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "اینٹوں کے ____ سے کالا دھواں نکلتا ہے۔",
+        "opts": [
+          "باغوں",
+          "بھٹوں",
+          "دریاؤں",
+          "اسکولوں"
+        ],
+        "a": 1,
+        "en": "Black smoke comes out of brick ___."
+      },
+      {
+        "text": "اسموگ میں ____ کم ہو جاتی ہے، اس لیے گاڑی آہستہ چلائیں۔",
+        "opts": [
+          "حدِ نگاہ",
+          "آواز",
+          "قیمت",
+          "بھوک"
+        ],
+        "a": 0,
+        "en": "In smog ___ drops, so drive slowly."
+      },
+      {
+        "text": "فضائی ____ سے بچوں اور بزرگوں کی صحت زیادہ متاثر ہوتی ہے۔",
+        "opts": [
+          "خوشبو",
+          "تعلیم",
+          "روشنی",
+          "آلودگی"
+        ],
+        "a": 3,
+        "en": "Air ___ affects the health of children and the elderly most."
+      }
+    ],
+    "creative": {
+      "ur": "اسموگ کم کرنے کے لیے آپ اور آپ کے گھر والے کیا کر سکتے ہیں؟ ‘اس لیے’ یا ‘کی وجہ سے’ استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "What can you and your family do to reduce smog? Write three sentences using ‘اس لیے’ or ‘کی وجہ سے’."
+    }
+  },
+  "grammar": {
+    "title": "سبب اور نتیجہ — Cause and effect: کی وجہ سے، اس لیے، چونکہ… اس لیے",
+    "explain": "To give a cause, put کی وجہ سے (because of) after a noun: دھوئیں کی وجہ سے. To join a cause and its result, use اس لیے (so / therefore) before the result: ہوا خراب ہے، اس لیے ماسک پہنیں. In formal writing, start with چونکہ (since) and continue with اس لیے: چونکہ اسموگ زیادہ ہے، اس لیے اسکول بند ہیں. کیونکہ (because) comes before the cause, after the result: ہم باہر نہیں گئے کیونکہ ہوا آلودہ تھی.",
+    "rows": [
+      [
+        "دھوئیں کی وجہ سے آسمان دھندلا ہے۔",
+        "The sky is hazy because of the smoke."
+      ],
+      [
+        "ہوا خراب ہے، اس لیے ماسک پہنیں۔",
+        "The air is bad, so wear a mask."
+      ],
+      [
+        "چونکہ اسموگ بہت زیادہ ہے، اس لیے اسکول بند ہیں۔",
+        "Since the smog is very heavy, schools are closed."
+      ],
+      [
+        "ہم باہر نہیں گئے کیونکہ ہوا آلودہ تھی۔",
+        "We did not go out because the air was polluted."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اسموگ کی ____ سے کئی پروازیں تاخیر کا شکار ہوئیں۔",
+        "opts": [
+          "لیے",
+          "وجہ",
+          "چونکہ",
+          "تاکہ"
+        ],
+        "a": 1,
+        "en": "Several flights were delayed because of the smog."
+      },
+      {
+        "q": "____ ہوا آلودہ ہے، اس لیے کھڑکیاں بند رکھیں۔",
+        "opts": [
+          "اس لیے",
+          "کی وجہ",
+          "تاکہ",
+          "چونکہ"
+        ],
+        "a": 3,
+        "en": "Since the air is polluted, keep the windows closed."
+      },
+      {
+        "q": "سڑک پر دھواں تھا، ____ ڈرائیور نے رفتار کم کر دی۔",
+        "opts": [
+          "اس لیے",
+          "چونکہ",
+          "کی وجہ سے",
+          "کیونکہ"
+        ],
+        "a": 0,
+        "en": "There was smoke on the road, so the driver slowed down."
+      }
+    ]
+  }
+}

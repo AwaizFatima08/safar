@@ -1,0 +1,94 @@
+{
+  "id": "floods-climate",
+  "ur": "2022ء کا سیلاب",
+  "en": "The 2022 Floods",
+  "warmup": [
+    {
+      "en": "The village was flooded.",
+      "bank": [
+        "سیلاب",
+        "آ گیا",
+        "گاؤں",
+        "میں"
+      ],
+      "answer": [
+        "گاؤں",
+        "میں",
+        "سیلاب",
+        "آ گیا"
+      ]
+    },
+    {
+      "en": "Tents were sent to the camp.",
+      "bank": [
+        "بھیجے گئے",
+        "خیمے",
+        "کیمپ",
+        "میں"
+      ],
+      "answer": [
+        "کیمپ",
+        "میں",
+        "خیمے",
+        "بھیجے گئے"
+      ]
+    },
+    {
+      "en": "Many people became homeless.",
+      "bank": [
+        "ہو گئے",
+        "لوگ",
+        "بے گھر",
+        "بہت سے"
+      ],
+      "answer": [
+        "بہت سے",
+        "لوگ",
+        "بے گھر",
+        "ہو گئے"
+      ]
+    },
+    {
+      "en": "We collected donations at school.",
+      "bank": [
+        "جمع کیے",
+        "عطیات",
+        "ہم نے",
+        "اسکول میں"
+      ],
+      "answer": [
+        "ہم نے",
+        "اسکول میں",
+        "عطیات",
+        "جمع کیے"
+      ]
+    },
+    {
+      "en": "Climate change is a serious problem.",
+      "bank": [
+        "سنگین",
+        "ہے",
+        "موسمیاتی تبدیلی",
+        "مسئلہ",
+        "ایک"
+      ],
+      "answer": [
+        "موسمیاتی تبدیلی",
+        "ایک",
+        "سنگین",
+        "مسئلہ",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "In the summer of 2022, Pakistan faced one of the worst floods in its history. Weeks of unusually heavy monsoon rain caused rivers to overflow, and roughly a third of the country was under water. Sindh and Balochistan suffered the most damage. Homes, schools and roads were destroyed, crops were washed away and tens of millions of people were affected. Across the country, students, shopkeepers and volunteers collected food, tents and medicine for the victims, and many schools held special assemblies to raise money. Scientists warn that climate change is making such extreme weather more likely. That is why it is important not only to help people after a disaster, but also to prepare for the future by planting trees, protecting riverbanks and building safer homes.",
+    "modelUr": "2022ء کے موسمِ گرما میں پاکستان کو اپنی تاریخ کے بدترین سیلابوں میں سے ایک کا سامنا کرنا پڑا۔ کئی ہفتوں تک جاری رہنے والی مون سون کی غیر معمولی شدید بارشوں سے دریا بپھر گئے اور ملک کا تقریباً ایک تہائی حصہ پانی میں ڈوب گیا۔ سب سے زیادہ نقصان سندھ اور بلوچستان کو اٹھانا پڑا۔ گھر، اسکول اور سڑکیں تباہ ہو گئیں، فصلیں بہہ گئیں اور کروڑوں لوگ متاثر ہوئے۔ ملک بھر میں طلبہ، دکان داروں اور رضاکاروں نے متاثرین کے لیے کھانا، خیمے اور دوائیں جمع کیں، اور بہت سے اسکولوں نے رقم جمع کرنے کے لیے خصوصی اسمبلیاں منعقد کیں۔ سائنس دان خبردار کرتے ہیں کہ موسمیاتی تبدیلی ایسے شدید موسم کے امکانات بڑھا رہی ہے۔ اسی لیے ضروری ہے کہ ہم آفت کے بعد صرف لوگوں کی مدد ہی نہ کریں بلکہ درخت لگا کر، دریاؤں کے کناروں کی حفاظت کر کے اور محفوظ گھر بنا کر مستقبل کے لیے تیاری بھی کریں۔",
+    "checklist": [
+      "کیا آپ نے ‘were destroyed’ اور ‘were washed away’ جیسے مجہول جملوں کا درست ترجمہ کیا؟",
+      "کیا ‘tens of millions’ کے لیے ‘کروڑوں’ اور ‘roughly a third’ کے لیے ‘تقریباً ایک تہائی’ استعمال کیا؟",
+      "کیا ‘not only… but also’ کا ترجمہ ‘نہ صرف… بلکہ’ یا ‘صرف… ہی نہیں بلکہ’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

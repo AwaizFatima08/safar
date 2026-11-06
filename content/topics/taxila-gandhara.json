@@ -1,0 +1,264 @@
+{
+  "id": "taxila-gandhara",
+  "ur": "ٹیکسلا اور گندھارا",
+  "en": "Taxila and Gandhara",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ٹیکسلا اسلام آباد اور راولپنڈی کے قریب واقع ہے اور یونیسکو کے عالمی ورثے میں شامل ہے۔ قدیم زمانے میں یہ علم کا ایک بڑا مرکز تھا۔",
+    "en": "Did you know? Taxila lies near Islamabad and Rawalpindi and is a UNESCO World Heritage Site. In ancient times it was a great centre of learning."
+  },
+  "vocab": [
+    {
+      "ur": "کھنڈرات",
+      "en": "ruins",
+      "ex_ur": "ہم نے ٹیکسلا کے کھنڈرات میں پرانی دیواریں دیکھیں۔",
+      "ex_en": "We saw old walls among the ruins of Taxila."
+    },
+    {
+      "ur": "قدیم",
+      "en": "ancient",
+      "ex_ur": "ٹیکسلا ایک قدیم شہر ہے۔",
+      "ex_en": "Taxila is an ancient city.",
+      "syn": "پرانا"
+    },
+    {
+      "ur": "مجسمہ",
+      "en": "statue / sculpture",
+      "ex_ur": "عجائب گھر میں پتھر کا ایک بڑا مجسمہ رکھا ہے۔",
+      "ex_en": "A large stone statue is kept in the museum.",
+      "syn": "مورتی"
+    },
+    {
+      "ur": "عجائب گھر",
+      "en": "museum",
+      "ex_ur": "ٹیکسلا عجائب گھر میں بہت سی پرانی چیزیں رکھی ہیں۔",
+      "ex_en": "Many old objects are kept in the Taxila Museum.",
+      "syn": "میوزیم"
+    },
+    {
+      "ur": "عالمی ورثہ",
+      "en": "world heritage",
+      "ex_ur": "ٹیکسلا یونیسکو کے عالمی ورثے میں شامل ہے۔",
+      "ex_en": "Taxila is included in UNESCO's World Heritage."
+    },
+    {
+      "ur": "سنگ تراش",
+      "en": "stone carver / sculptor",
+      "ex_ur": "سنگ تراش نے پتھر کو بڑی مہارت سے تراشا۔",
+      "ex_en": "The sculptor carved the stone with great skill."
+    },
+    {
+      "ur": "کھدائی",
+      "en": "excavation / digging",
+      "ex_ur": "کھدائی کے دوران پرانے سکے ملے۔",
+      "ex_en": "Old coins were found during the excavation."
+    },
+    {
+      "ur": "تہذیب",
+      "en": "civilisation",
+      "ex_ur": "گندھارا ایک قدیم تہذیب تھی۔",
+      "ex_en": "Gandhara was an ancient civilisation."
+    },
+    {
+      "ur": "درس گاہ",
+      "en": "place of learning",
+      "ex_ur": "ٹیکسلا میں قدیم درس گاہوں کے آثار ملے ہیں۔",
+      "ex_en": "Remains of ancient places of learning have been found at Taxila."
+    },
+    {
+      "ur": "نوادرات",
+      "en": "antiquities / artefacts",
+      "ex_ur": "ان نوادرات کو ہاتھ لگانا منع ہے۔",
+      "ex_en": "Touching these artefacts is not allowed."
+    }
+  ],
+  "reading": {
+    "passage": "ٹیکسلا اسلام آباد اور راولپنڈی کے قریب ایک قدیم شہر ہے۔ دو ہزار سال سے بھی زیادہ پہلے یہ علم کا ایک بڑا مرکز تھا جہاں دور دور سے طالب علم پڑھنے آتے تھے۔ یہ علاقہ قدیم گندھارا تہذیب کا حصہ تھا۔ گندھارا کے سنگ تراش پتھر سے نہایت خوبصورت مجسمے بناتے تھے۔ آج ٹیکسلا کے کھنڈرات یونیسکو کے عالمی ورثے میں شامل ہیں۔ ٹیکسلا عجائب گھر میں کھدائی سے ملنے والے سکے، زیورات، برتن اور مجسمے رکھے گئے ہیں۔",
+    "questions": [
+      {
+        "q": "ٹیکسلا کس شہر کے قریب ہے؟",
+        "opts": [
+          "کراچی",
+          "لاہور",
+          "اسلام آباد",
+          "کوئٹہ"
+        ],
+        "a": 2
+      },
+      {
+        "q": "قدیم زمانے میں ٹیکسلا کس چیز کا مرکز تھا؟",
+        "opts": [
+          "علم کا",
+          "کھیلوں کا",
+          "ماہی گیری کا",
+          "فلموں کا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "گندھارا کے سنگ تراش مجسمے کس چیز سے بناتے تھے؟",
+        "opts": [
+          "لکڑی سے",
+          "پلاسٹک سے",
+          "شیشے سے",
+          "پتھر سے"
+        ],
+        "a": 3
+      },
+      {
+        "q": "ٹیکسلا عجائب گھر میں کیا رکھا گیا ہے؟",
+        "opts": [
+          "پرانی گاڑیاں",
+          "کھدائی سے ملنے والی چیزیں",
+          "جدید کمپیوٹر",
+          "جنگلی جانور"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "شہر",
+          "ہے",
+          "ٹیکسلا",
+          "ایک قدیم"
+        ],
+        "answer": [
+          "ٹیکسلا",
+          "ایک قدیم",
+          "شہر",
+          "ہے"
+        ],
+        "en": "Taxila is an ancient city."
+      },
+      {
+        "bank": [
+          "خوبصورت مجسمے",
+          "رکھے ہیں",
+          "عجائب گھر میں",
+          "پتھر کے"
+        ],
+        "answer": [
+          "عجائب گھر میں",
+          "پتھر کے",
+          "خوبصورت مجسمے",
+          "رکھے ہیں"
+        ],
+        "en": "Beautiful stone statues are kept in the museum."
+      },
+      {
+        "bank": [
+          "آتے تھے",
+          "طالب علم",
+          "یہاں",
+          "دور دور سے"
+        ],
+        "answer": [
+          "یہاں",
+          "دور دور سے",
+          "طالب علم",
+          "آتے تھے"
+        ],
+        "en": "Students used to come here from far and wide."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ٹیکسلا کے ____ دیکھ کر ہمیں ماضی کی جھلک ملی۔",
+        "opts": [
+          "کھلونے",
+          "کھنڈرات",
+          "بادل",
+          "پنکھے"
+        ],
+        "a": 1,
+        "en": "Seeing the ___ of Taxila gave us a glimpse of the past."
+      },
+      {
+        "text": "ماہرین نے ____ کے دوران پرانے سکے نکالے۔",
+        "opts": [
+          "کھدائی",
+          "نیند",
+          "بارش",
+          "دعوت"
+        ],
+        "a": 0,
+        "en": "Experts took out old coins during the ___."
+      },
+      {
+        "text": "یہ مجسمہ ایک ماہر ____ نے بنایا تھا۔",
+        "opts": [
+          "درزی",
+          "باورچی",
+          "ڈرائیور",
+          "سنگ تراش"
+        ],
+        "a": 3,
+        "en": "This statue was made by a skilled ___."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کسی قدیم شہر کی سیر کر سکیں تو کون سا شہر چنیں گے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "If you could visit an ancient city, which one would you choose and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "صفت کی مطابقت — Adjective agreement",
+    "explain": "Adjectives ending in ـا agree with the noun in gender and number: پرانا سکہ، پرانے سکے، پرانی مورتی، پرانی مورتیاں. A feminine adjective keeps ـی in the plural (never ـیاں on the adjective). Before a postposition (میں، سے، کا، پر) a masculine ـا adjective becomes ـے even in the singular: پرانے شہر میں. Adjectives that do not end in ـا (قدیم، خوبصورت، مشہور) never change. Participles used as adjectives, like بنا ہوا / بنی ہوئی / بنے ہوئے, follow the same rule.",
+    "rows": [
+      [
+        "یہ پرانا سکہ ہے۔ / یہ پرانے سکے ہیں۔",
+        "This is an old coin. / These are old coins."
+      ],
+      [
+        "عجائب گھر میں پتھر کی بڑی مورتیاں ہیں۔",
+        "There are large stone statues in the museum. (fem. pl. → بڑی)"
+      ],
+      [
+        "ہم پرانے شہر میں گھومے۔",
+        "We walked around the old city. (ـا → ـے before میں)"
+      ],
+      [
+        "قدیم شہر، قدیم عمارتیں، قدیم تہذیب",
+        "ancient city, ancient buildings, ancient civilisation (no change)"
+      ]
+    ],
+    "practice": [
+      {
+        "q": "عجائب گھر میں ____ سکے رکھے ہیں۔",
+        "opts": [
+          "چھوٹا",
+          "چھوٹی",
+          "چھوٹے",
+          "چھوٹیاں"
+        ],
+        "a": 2,
+        "en": "Small coins are kept in the museum."
+      },
+      {
+        "q": "ہم نے پتھر کی ایک ____ مورتی دیکھی۔",
+        "opts": [
+          "اونچا",
+          "اونچی",
+          "اونچے",
+          "اونچیاں"
+        ],
+        "a": 1,
+        "en": "We saw a tall stone statue."
+      },
+      {
+        "q": "گائیڈ نے ____ کمرے میں ہمیں سکے دکھائے۔",
+        "opts": [
+          "پہلا",
+          "پہلی",
+          "پہلوں",
+          "پہلے"
+        ],
+        "a": 3,
+        "en": "In the first room the guide showed us coins."
+      }
+    ]
+  }
+}

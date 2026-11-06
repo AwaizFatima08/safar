@@ -1,0 +1,266 @@
+{
+  "id": "respect-for-elders",
+  "ur": "بزرگوں کا احترام",
+  "en": "Respecting Elders",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ اردو میں بزرگوں سے بات کرتے وقت ‘تم’ کے بجائے ‘آپ’ کہا جاتا ہے، اور ‘جی’ کہہ کر جواب دینا ادب کی علامت سمجھا جاتا ہے۔",
+    "en": "Did you know? In Urdu, elders are addressed as ‘آپ’ rather than ‘تم’, and answering with ‘جی’ is seen as a sign of good manners."
+  },
+  "vocab": [
+    {
+      "ur": "بزرگ",
+      "en": "elder / elderly person",
+      "ex_ur": "ہمارے محلے کے بزرگ ہر صبح مسجد کے پاس بیٹھتے ہیں۔",
+      "ex_en": "The elders of our neighbourhood sit near the mosque every morning."
+    },
+    {
+      "ur": "احترام",
+      "en": "respect",
+      "ex_ur": "ہمیں ہر بزرگ کا احترام کرنا چاہیے۔",
+      "ex_en": "We should respect every elder.",
+      "syn": "عزت"
+    },
+    {
+      "ur": "ادب",
+      "en": "good manners / courtesy",
+      "ex_ur": "بچے نے بڑے ادب سے سلام کیا۔",
+      "ex_en": "The child greeted with great courtesy."
+    },
+    {
+      "ur": "خدمت",
+      "en": "service / looking after",
+      "ex_ur": "وہ اپنی دادی کی خدمت دل سے کرتی ہے۔",
+      "ex_en": "She looks after her grandmother wholeheartedly."
+    },
+    {
+      "ur": "تجربہ",
+      "en": "experience",
+      "ex_ur": "دادا جان کو زندگی کا بہت تجربہ ہے۔",
+      "ex_en": "Grandfather has a lot of life experience."
+    },
+    {
+      "ur": "دعا",
+      "en": "prayer / blessing",
+      "ex_ur": "نانی جان نے مجھے امتحان سے پہلے دعا دی۔",
+      "ex_en": "Grandmother gave me her blessing before the exam."
+    },
+    {
+      "ur": "شفقت",
+      "en": "affection / kindness",
+      "ex_ur": "بزرگ بچوں سے شفقت سے پیش آتے ہیں۔",
+      "ex_en": "Elders treat children with affection.",
+      "syn": "مہربانی"
+    },
+    {
+      "ur": "تنہائی",
+      "en": "loneliness",
+      "ex_ur": "کئی بزرگ تنہائی کی وجہ سے اداس رہتے ہیں۔",
+      "ex_en": "Many elderly people stay sad because of loneliness."
+    },
+    {
+      "ur": "نصیحت",
+      "en": "advice",
+      "ex_ur": "دادا جان کی نصیحت میرے بہت کام آئی۔",
+      "ex_en": "Grandfather's advice was very useful to me.",
+      "syn": "مشورہ"
+    },
+    {
+      "ur": "فرماں بردار",
+      "en": "obedient / dutiful",
+      "ex_ur": "فرماں بردار بچے والدین کی بات مانتے ہیں۔",
+      "ex_en": "Dutiful children listen to their parents."
+    }
+  ],
+  "reading": {
+    "passage": "ہمارے معاشرے میں بزرگوں کا احترام ایک پرانی روایت ہے۔ احمد کے دادا جان ستر برس کے ہیں اور اس کے ساتھ ایک ہی گھر میں رہتے ہیں۔ احمد روز شام کو ان کے پاس بیٹھتا ہے اور ان سے پرانے زمانے کے قصے سنتا ہے۔ جب دادا جان کچھ فرماتے ہیں تو احمد ‘جی’ کہہ کر جواب دیتا ہے۔ اتوار کو وہ انہیں پارک کی سیر کرانے لے جاتا ہے۔ دادا جان کہتے ہیں کہ ان کی سب سے بڑی خوشی یہ ہے کہ گھر والے ان کے ساتھ وقت گزاریں۔",
+    "questions": [
+      {
+        "q": "احمد کے دادا جان کی عمر کتنی ہے؟",
+        "opts": [
+          "ساٹھ برس",
+          "ستر برس",
+          "اسی برس",
+          "پچاس برس"
+        ],
+        "a": 1
+      },
+      {
+        "q": "احمد شام کو دادا جان سے کیا سنتا ہے؟",
+        "opts": [
+          "خبریں",
+          "گانے",
+          "پرانے زمانے کے قصے",
+          "سبق"
+        ],
+        "a": 2
+      },
+      {
+        "q": "احمد دادا جان کو جواب کیسے دیتا ہے؟",
+        "opts": [
+          "‘جی’ کہہ کر",
+          "خاموش رہ کر",
+          "اونچی آواز میں",
+          "ہنس کر"
+        ],
+        "a": 0
+      },
+      {
+        "q": "دادا جان کی سب سے بڑی خوشی کیا ہے؟",
+        "opts": [
+          "نئے کپڑے",
+          "پارک کی سیر",
+          "اچھا کھانا",
+          "گھر والوں کا ان کے ساتھ وقت گزارنا"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "احترام",
+          "بزرگوں",
+          "کریں",
+          "کا"
+        ],
+        "answer": [
+          "بزرگوں",
+          "کا",
+          "احترام",
+          "کریں"
+        ],
+        "en": "Respect your elders."
+      },
+      {
+        "bank": [
+          "تشریف",
+          "دادا جان",
+          "لائے",
+          "گھر"
+        ],
+        "answer": [
+          "دادا جان",
+          "گھر",
+          "تشریف",
+          "لائے"
+        ],
+        "en": "Grandfather came home."
+      },
+      {
+        "bank": [
+          "دعا",
+          "نے",
+          "دی",
+          "نانی جان",
+          "مجھے"
+        ],
+        "answer": [
+          "نانی جان",
+          "نے",
+          "مجھے",
+          "دعا",
+          "دی"
+        ],
+        "en": "Grandmother gave me her blessing."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "بزرگوں کی ____ کرنا ہمارا فرض ہے۔",
+        "opts": [
+          "شکایت",
+          "خدمت",
+          "نقل",
+          "تصویر"
+        ],
+        "a": 1,
+        "en": "Looking after our elders is our ___."
+      },
+      {
+        "text": "بزرگوں کے پاس زندگی کا بہت ____ ہوتا ہے۔",
+        "opts": [
+          "کھیل",
+          "شور",
+          "تجربہ",
+          "غصہ"
+        ],
+        "a": 2,
+        "en": "Elders have a lot of life ___."
+      },
+      {
+        "text": "انہیں تنہائی سے بچانے کے لیے بزرگوں کے ساتھ ____ گزاریں۔",
+        "opts": [
+          "پیسے",
+          "کتابیں",
+          "کپڑے",
+          "وقت"
+        ],
+        "a": 3,
+        "en": "Spend ___ with elders to save them from loneliness."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اپنے گھر کے کسی بزرگ کو خوش کرنے کے لیے کیا کر سکتے ہیں؟ احترام کے صیغے (آپ، تشریف، فرمانا) استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "What can you do to make an elder in your family happy? Write three sentences using respectful forms (آپ, تشریف, فرمانا)."
+    }
+  },
+  "grammar": {
+    "title": "احترام کے صیغے — Respectful forms: آپ، تشریف لانا، فرمانا، جی",
+    "explain": "Urdu shows respect through grammar. Use آپ (not تم) with polite verb endings such as ‘-یے’ or ‘-یں’ (بیٹھیے، کھائیں). For elders, special verbs replace everyday ones: تشریف لانا (to come), تشریف رکھنا (to sit), تشریف لے جانا (to go), فرمانا (to say). Answer with جی or جی ہاں / جی نہیں. Talking about one elder, use the plural pronoun and verb: انہوں نے فرمایا، وہ آ رہے ہیں.",
+    "rows": [
+      [
+        "دادا جان، آپ کب تشریف لائیں گے؟",
+        "Grandfather, when will you come?"
+      ],
+      [
+        "نانی جان نے فرمایا کہ وقت کی قدر کرو۔",
+        "Grandmother said that we should value time."
+      ],
+      [
+        "جی، میں ابھی پانی لاتا ہوں۔",
+        "Yes, I'll bring water right away."
+      ],
+      [
+        "تشریف رکھیے، میں چائے لاتی ہوں۔",
+        "Please have a seat; I'll bring tea."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "دادی جان، ____ کھانا کھا لیجیے۔",
+        "opts": [
+          "تم",
+          "آپ",
+          "تو",
+          "وہ"
+        ],
+        "a": 1,
+        "en": "Grandmother, please have your meal."
+      },
+      {
+        "q": "نانا جان نے ____ کہ صبح جلدی اٹھا کرو۔",
+        "opts": [
+          "فرمایا",
+          "فرمائیں",
+          "فرماتا",
+          "فرمانا"
+        ],
+        "a": 0,
+        "en": "Grandfather said, ‘Get up early in the morning.’"
+      },
+      {
+        "q": "مہمانوں سے کہیں کہ اندر آ کر تشریف ____۔",
+        "opts": [
+          "بیٹھیں",
+          "کریں",
+          "رکھیں",
+          "دیں"
+        ],
+        "a": 2,
+        "en": "Ask the guests to come in and take a seat."
+      }
+    ]
+  }
+}

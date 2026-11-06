@@ -1,0 +1,90 @@
+{
+  "id": "space-exploration",
+  "ur": "خلا کا سفر",
+  "en": "Journey into Space",
+  "warmup": [
+    {
+      "en": "The Moon is very beautiful.",
+      "bank": [
+        "خوبصورت",
+        "چاند",
+        "ہے",
+        "بہت"
+      ],
+      "answer": [
+        "چاند",
+        "بہت",
+        "خوبصورت",
+        "ہے"
+      ]
+    },
+    {
+      "en": "The rocket will be launched tomorrow.",
+      "bank": [
+        "کل",
+        "چھوڑا جائے گا",
+        "راکٹ"
+      ],
+      "answer": [
+        "راکٹ",
+        "کل",
+        "چھوڑا جائے گا"
+      ]
+    },
+    {
+      "en": "I saw the stars through a telescope.",
+      "bank": [
+        "ستارے",
+        "دیکھے",
+        "دوربین سے",
+        "میں نے"
+      ],
+      "answer": [
+        "میں نے",
+        "دوربین سے",
+        "ستارے",
+        "دیکھے"
+      ]
+    },
+    {
+      "en": "This is a satellite going to the Moon.",
+      "bank": [
+        "سیٹلائٹ",
+        "ہے",
+        "یہ",
+        "چاند پر جانے والا"
+      ],
+      "answer": [
+        "یہ",
+        "چاند پر جانے والا",
+        "سیٹلائٹ",
+        "ہے"
+      ]
+    },
+    {
+      "en": "SUPARCO is Pakistan's space agency.",
+      "bank": [
+        "خلائی ادارہ",
+        "ہے",
+        "سپارکو",
+        "پاکستان کا"
+      ],
+      "answer": [
+        "سپارکو",
+        "پاکستان کا",
+        "خلائی ادارہ",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "For thousands of years, people looked at the Moon and wondered what it was like. In 1969, the Apollo 11 mission finally landed humans on its surface, and people all over the world followed the news in amazement. Since then, many countries have sent satellites and spacecraft into space. In May 2024, Pakistan joined this journey when its small satellite, iCube-Qamar, travelled to the Moon on China's Chang'e-6 mission. It was Pakistan's first mission to the Moon, and it sent back pictures of the Moon. Many people across Pakistan felt proud when they saw these images. SUPARCO, Pakistan's space agency, hopes that more missions will be planned in the coming years. Perhaps one day a student who is reading this today will help to build the next satellite.",
+    "modelUr": "ہزاروں سال تک لوگ چاند کو دیکھتے اور سوچتے رہے کہ وہ کیسا ہو گا۔ 1969 میں اپالو 11 مشن نے آخرکار انسانوں کو اس کی سطح پر اتار دیا، اور دنیا بھر کے لوگوں نے یہ خبر حیرت سے سنی۔ تب سے بہت سے ملک خلا میں سیٹلائٹ اور خلائی جہاز بھیج چکے ہیں۔ مئی 2024 میں پاکستان بھی اس سفر میں شامل ہو گیا جب اس کا چھوٹا سیٹلائٹ آئی کیوب قمر چین کے چانگ ای 6 مشن کے ساتھ چاند تک گیا۔ یہ پاکستان کا پہلا چاند مشن تھا، اور اس نے چاند کی تصویریں زمین پر بھیجیں۔ یہ تصویریں دیکھ کر پاکستان بھر میں بہت سے لوگوں نے فخر محسوس کیا۔ پاکستان کا خلائی ادارہ سپارکو امید رکھتا ہے کہ آنے والے برسوں میں مزید مشن تیار کیے جائیں گے۔ شاید ایک دن آج یہ تحریر پڑھنے والا کوئی طالب علم اگلا سیٹلائٹ بنانے میں مدد کرے۔",
+    "checklist": [
+      "کیا آپ نے ‘will be planned’ کا ترجمہ مستقبل مجہول (تیار کیے جائیں گے) سے کیا؟",
+      "کیا ‘a student who is reading this’ کا ترجمہ ‘پڑھنے والا طالب علم’ سے کیا؟",
+      "کیا ناموں (اپالو 11، آئی کیوب قمر، چانگ ای 6، سپارکو) کے ہجے درست ہیں؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

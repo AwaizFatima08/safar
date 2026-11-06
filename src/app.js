@@ -1233,7 +1233,7 @@ function renderHome(){
 
     <div id="homeTabHost"></div>
 
-    <footer class="note">Version 1.1 — 37 topics. More practice will be added over time.</footer>
+    <footer class="note">Version 1.2 — 57 topics. More practice will be added over time.</footer>
   `;
 
   app.querySelectorAll("[data-hometab]").forEach(el=>{

@@ -1,0 +1,118 @@
+{
+  "id": "respect-for-elders",
+  "ur": "ادب سے بات",
+  "en": "Speaking with Respect",
+  "grammarPoint": {
+    "ur": "احترام کے صیغے: آپ، تشریف لانا، فرمانا، جی",
+    "en": "Respectful forms: آپ, تشریف لانا, فرمانا, جی"
+  },
+  "cloze": {
+    "passage": "کل ہمارے گھر چچا جان (1)_____ لائے۔ امی نے کہا: ‘(2)_____ تشریف رکھیے۔’ چچا جان نے (3)_____ کہ وہ صرف ایک گھنٹہ رکیں گے۔ میں نے پوچھا: ‘چائے لاؤں؟’ انہوں نے کہا: ‘(4)_____، ضرور۔’ جاتے ہوئے انہوں نے سب کو (5)_____ دی۔",
+    "gaps": [
+      {
+        "opts": [
+          "آمد",
+          "تشریف",
+          "آنا",
+          "تشریفیں"
+        ],
+        "a": 1,
+        "en": "تشریف لانا = to come (respectful)"
+      },
+      {
+        "opts": [
+          "تم",
+          "تو",
+          "آپ",
+          "ہم"
+        ],
+        "a": 2,
+        "en": "رکھیے is the polite ending used with آپ"
+      },
+      {
+        "opts": [
+          "فرمایا",
+          "فرمائے",
+          "فرماتا",
+          "فرمانا"
+        ],
+        "a": 0,
+        "en": "انہوں نے فرمایا = he said (respectful past)"
+      },
+      {
+        "opts": [
+          "کیوں",
+          "کب",
+          "نہیں",
+          "جی"
+        ],
+        "a": 3,
+        "en": "جی = a polite ‘yes’"
+      },
+      {
+        "opts": [
+          "دعائیں",
+          "دعا",
+          "دعاؤں",
+          "دعاؤ"
+        ],
+        "a": 1,
+        "en": "دعا is feminine singular: دعا دی"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "دادا جان نے کہا کہ محنت کرو۔",
+      "stem": "دادا جان نے ____ کہ محنت کرو۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "فرمایا"
+      ],
+      "en": "Grandfather said, ‘Work hard.’"
+    },
+    {
+      "original": "تم اندر آ جاؤ۔",
+      "stem": "آپ اندر ____ لائیے۔",
+      "instruction_ur": "احترام کا صیغہ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using the respectful form",
+      "answers": [
+        "تشریف"
+      ],
+      "en": "Come inside."
+    },
+    {
+      "original": "ہاں، میں ابھی آتا ہوں۔",
+      "stem": "____، میں ابھی حاضر ہوتا ہوں۔",
+      "instruction_ur": "مؤدبانہ جواب سے جملہ مکمل کریں",
+      "instruction_en": "Complete with a polite reply",
+      "answers": [
+        "جی",
+        "جی ہاں"
+      ],
+      "en": "Yes, I'm coming right away."
+    },
+    {
+      "original": "بیٹھ جاؤ۔",
+      "stem": "تشریف ____۔",
+      "instruction_ur": "‘تشریف’ کے ساتھ مؤدبانہ جملہ مکمل کریں",
+      "instruction_en": "Complete the polite request with ‘تشریف’",
+      "answers": [
+        "رکھیے",
+        "رکھیں"
+      ],
+      "en": "Sit down."
+    },
+    {
+      "original": "دادی جان آئیں تو اس نے مجھے پیار کیا۔",
+      "stem": "دادی جان آئیں تو ____ نے مجھے پیار کیا۔",
+      "instruction_ur": "احترام کے لیے جمع ضمیر لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete using the respectful plural pronoun",
+      "answers": [
+        "انہوں"
+      ],
+      "en": "When Grandmother came, she hugged me."
+    }
+  ]
+}

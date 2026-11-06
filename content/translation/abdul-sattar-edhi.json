@@ -1,0 +1,94 @@
+{
+  "id": "abdul-sattar-edhi",
+  "ur": "عبدالستار ایدھی",
+  "en": "Abdul Sattar Edhi",
+  "warmup": [
+    {
+      "en": "Edhi was born in 1928.",
+      "bank": [
+        "پیدا",
+        "ہوئے",
+        "1928ء میں",
+        "ایدھی"
+      ],
+      "answer": [
+        "ایدھی",
+        "1928ء میں",
+        "پیدا",
+        "ہوئے"
+      ]
+    },
+    {
+      "en": "He used to help the poor.",
+      "bank": [
+        "مدد",
+        "وہ",
+        "کرتے تھے",
+        "غریبوں کی"
+      ],
+      "answer": [
+        "وہ",
+        "غریبوں کی",
+        "مدد",
+        "کرتے تھے"
+      ]
+    },
+    {
+      "en": "The volunteers were working.",
+      "bank": [
+        "تھے",
+        "کر رہے",
+        "رضاکار",
+        "کام"
+      ],
+      "answer": [
+        "رضاکار",
+        "کام",
+        "کر رہے",
+        "تھے"
+      ]
+    },
+    {
+      "en": "The ambulance arrived quickly.",
+      "bank": [
+        "گئی",
+        "جلدی",
+        "ایمبولینس",
+        "پہنچ"
+      ],
+      "answer": [
+        "ایمبولینس",
+        "جلدی",
+        "پہنچ",
+        "گئی"
+      ]
+    },
+    {
+      "en": "He started with a small dispensary.",
+      "bank": [
+        "آغاز",
+        "ڈسپنسری سے",
+        "کیا",
+        "انہوں نے",
+        "ایک چھوٹی"
+      ],
+      "answer": [
+        "انہوں نے",
+        "ایک چھوٹی",
+        "ڈسپنسری سے",
+        "آغاز",
+        "کیا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Abdul Sattar Edhi was born in 1928 and became one of the best-known social workers in Pakistan. He began his work with a small dispensary in Karachi, where poor patients could get medicine and basic care. Over the years, ordinary people trusted him and gave donations, and with their help he built a very large volunteer ambulance service. Whenever there was an accident, his ambulances tried to reach the injured as quickly as possible. Edhi lived a very simple life. He wore plain clothes, ate simple food and spent very little on himself. He died in 2016, but his example still inspires many young people to give their time to help others. His life shows that one person with a kind heart can change the lives of thousands.",
+    "modelUr": "عبدالستار ایدھی 1928ء میں پیدا ہوئے اور پاکستان کے مشہور ترین سماجی کارکنوں میں سے ایک بنے۔ انہوں نے اپنے کام کا آغاز کراچی میں ایک چھوٹی سی ڈسپنسری سے کیا، جہاں غریب مریضوں کو دوا اور بنیادی علاج مل سکتا تھا۔ برسوں کے دوران عام لوگوں نے ان پر بھروسہ کیا اور عطیات دیے، اور ان کی مدد سے انہوں نے رضاکاروں کی ایک بہت بڑی ایمبولینس سروس قائم کی۔ جب بھی کوئی حادثہ ہوتا، ان کی ایمبولینسیں جتنی جلدی ممکن ہو زخمیوں تک پہنچنے کی کوشش کرتی تھیں۔ ایدھی نہایت سادہ زندگی گزارتے تھے۔ وہ سادہ کپڑے پہنتے، سادہ کھانا کھاتے اور اپنی ذات پر بہت کم خرچ کرتے تھے۔ ان کا انتقال 2016ء میں ہوا، لیکن ان کی مثال آج بھی بہت سے نوجوانوں کو دوسروں کی مدد کے لیے اپنا وقت دینے کی ترغیب دیتی ہے۔ ان کی زندگی بتاتی ہے کہ ایک مہربان دل رکھنے والا انسان ہزاروں لوگوں کی زندگیاں بدل سکتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘tried to / wore / ate’ جیسے حصوں کے لیے ماضی عادی (کرتی تھیں، پہنتے تھے) استعمال کیا؟",
+      "کیا ‘one of the best-known’ کا ترجمہ ‘مشہور ترین… میں سے ایک’ سے کیا؟",
+      "کیا تاریخیں (1928ء، 2016ء) اور جگہ کا نام درست لکھا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

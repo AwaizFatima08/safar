@@ -1,0 +1,116 @@
+{
+  "id": "taxila-gandhara",
+  "ur": "پتھر میں چھپی کہانیاں",
+  "en": "Stories in Stone",
+  "grammarPoint": {
+    "ur": "صفت کی مطابقت (پرانا / پرانی / پرانے)",
+    "en": "Adjective agreement"
+  },
+  "cloze": {
+    "passage": "پچھلے ہفتے ہم ٹیکسلا کے (1)_____ عجائب گھر گئے۔ وہاں پتھر کی بہت سی (2)_____ مورتیاں رکھی تھیں۔ ایک کمرے میں (3)_____ سکے اور زیورات تھے۔ گائیڈ نے ہمیں ایک (4)_____ کہانی سنائی۔ واپسی پر ہم (5)_____ شہر کے کھنڈرات میں بھی گھومے۔",
+    "gaps": [
+      {
+        "opts": [
+          "مشہور",
+          "مشہورا",
+          "مشہوری",
+          "مشہورے"
+        ],
+        "a": 0,
+        "en": "مشہور does not end in ـا, so it never changes"
+      },
+      {
+        "opts": [
+          "بڑی",
+          "بڑا",
+          "بڑے",
+          "بڑیاں"
+        ],
+        "a": 0,
+        "en": "مورتیاں is feminine plural → بڑی (no ـیاں on the adjective)"
+      },
+      {
+        "opts": [
+          "سنہرا",
+          "سنہرے",
+          "سنہری",
+          "سنہریوں"
+        ],
+        "a": 1,
+        "en": "سکے is masculine plural → سنہرے"
+      },
+      {
+        "opts": [
+          "دلچسپا",
+          "دلچسپے",
+          "دلچسپی",
+          "دلچسپ"
+        ],
+        "a": 3,
+        "en": "دلچسپ does not change"
+      },
+      {
+        "opts": [
+          "پرانا",
+          "پرانی",
+          "پرانے",
+          "پرانوں"
+        ],
+        "a": 2,
+        "en": "Before کے, masculine شہر → پرانے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ٹیکسلا بہت پرانا شہر ہے۔",
+      "stem": "ٹیکسلا ایک ____ شہر ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "قدیم"
+      ],
+      "en": "Taxila is a very old city."
+    },
+    {
+      "original": "یہ مورتی بہت پرانی ہے۔",
+      "stem": "یہ مورتیاں بہت ____ ہیں۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "پرانی"
+      ],
+      "en": "This statue is very old."
+    },
+    {
+      "original": "وہاں ایک اونچا مجسمہ تھا۔",
+      "stem": "وہاں ایک ____ مورتی تھی۔",
+      "instruction_ur": "مؤنث اسم کے ساتھ صفت بدل کر جملہ مکمل کریں",
+      "instruction_en": "Complete with the adjective agreeing with the feminine noun",
+      "answers": [
+        "اونچی"
+      ],
+      "en": "There was a tall statue there."
+    },
+    {
+      "original": "شہر پرانا ہے۔ ہم اس میں گھومے۔",
+      "stem": "ہم ____ شہر میں گھومے۔",
+      "instruction_ur": "دو جملوں کو ملا کر ایک جملہ مکمل کریں",
+      "instruction_en": "Combine into one sentence",
+      "answers": [
+        "پرانے"
+      ],
+      "en": "The city is old. We walked around in it."
+    },
+    {
+      "original": "ماہرین نے کھدائی میں سکے نکالے۔",
+      "stem": "کھدائی میں سکے نکالے ____۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "گئے"
+      ],
+      "en": "Experts took out coins during the excavation."
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "id": "allama-iqbal",
+  "ur": "شاعرِ مشرق کا پیغام",
+  "en": "The Message of the Poet of the East",
+  "grammarPoint": {
+    "ur": "نہ صرف… بلکہ… بھی",
+    "en": "Not only… but also"
+  },
+  "cloze": {
+    "passage": "علامہ اقبال (1)_____ صرف ایک بڑے شاعر تھے بلکہ ایک مفکر (2)_____ تھے۔ انہوں نے نہ صرف لاہور میں تعلیم حاصل کی (3)_____ کیمبرج اور جرمنی میں بھی پڑھے۔ ان کا پیغام نہ (4)_____ اپنے زمانے کے لیے تھا بلکہ آج کے نوجوانوں کے لیے بھی ہے۔ اسی لیے ہم ہر سال 9 نومبر (5)_____ یومِ اقبال مناتے ہیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "نہ",
+          "نہیں",
+          "مت",
+          "بلکہ"
+        ],
+        "a": 0,
+        "en": "The pattern starts with نہ صرف (not نہیں)"
+      },
+      {
+        "opts": [
+          "ہی",
+          "بھی",
+          "تو",
+          "نہ"
+        ],
+        "a": 1,
+        "en": "بھی follows the second idea"
+      },
+      {
+        "opts": [
+          "لیکن",
+          "اور",
+          "بلکہ",
+          "کیونکہ"
+        ],
+        "a": 2,
+        "en": "بلکہ introduces the second part"
+      },
+      {
+        "opts": [
+          "ہی",
+          "کبھی",
+          "تو",
+          "صرف"
+        ],
+        "a": 3,
+        "en": "نہ صرف is a fixed pair"
+      },
+      {
+        "opts": [
+          "کو",
+          "کا",
+          "سے",
+          "پر"
+        ],
+        "a": 0,
+        "en": "Dates take کو: 9 نومبر کو"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "اقبال شاعر تھے اور فلسفی بھی تھے۔",
+      "stem": "اقبال نہ صرف شاعر تھے ____ فلسفی بھی تھے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "بلکہ"
+      ],
+      "en": "Iqbal was a poet and also a philosopher."
+    },
+    {
+      "original": "انہوں نے اردو میں لکھا۔ انہوں نے فارسی میں بھی لکھا۔",
+      "stem": "انہوں نے نہ صرف اردو میں بلکہ فارسی میں ____ لکھا۔",
+      "instruction_ur": "‘نہ صرف… بلکہ’ سے دو جملوں کو ملا کر جملہ مکمل کریں",
+      "instruction_en": "Join the two sentences using ‘not only… but also’",
+      "answers": [
+        "بھی"
+      ],
+      "en": "He wrote in Urdu. He also wrote in Persian."
+    },
+    {
+      "original": "تقریب میں طلبہ آئے اور اساتذہ بھی آئے۔",
+      "stem": "تقریب میں ____ صرف طلبہ بلکہ اساتذہ بھی آئے۔",
+      "instruction_ur": "‘نہ صرف… بلکہ’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘not only… but also’",
+      "answers": [
+        "نہ"
+      ],
+      "en": "Students came to the event, and teachers came too."
+    },
+    {
+      "original": "اقبال ایک عظیم مفکر تھے۔",
+      "stem": "اقبال ایک عظیم ____ تھے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "فلسفی",
+        "دانشور"
+      ],
+      "en": "Iqbal was a great thinker."
+    },
+    {
+      "original": "ہم ہر سال یومِ اقبال مناتے ہیں۔",
+      "stem": "ہر سال یومِ اقبال منایا ____ ہے۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "جاتا"
+      ],
+      "en": "We celebrate Iqbal Day every year."
+    }
+  ]
+}

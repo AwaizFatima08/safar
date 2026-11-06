@@ -1,0 +1,92 @@
+{
+  "id": "waste-recycling",
+  "ur": "کچرا اور ری سائیکلنگ",
+  "en": "Waste and Recycling",
+  "warmup": [
+    {
+      "en": "Do not throw rubbish in the street.",
+      "bank": [
+        "پھینکیں",
+        "کچرا",
+        "گلی میں",
+        "نہ"
+      ],
+      "answer": [
+        "گلی میں",
+        "کچرا",
+        "نہ",
+        "پھینکیں"
+      ]
+    },
+    {
+      "en": "We should recycle paper.",
+      "bank": [
+        "ری سائیکل",
+        "کرنا چاہیے",
+        "ہمیں",
+        "کاغذ"
+      ],
+      "answer": [
+        "ہمیں",
+        "کاغذ",
+        "ری سائیکل",
+        "کرنا چاہیے"
+      ]
+    },
+    {
+      "en": "Plastic bags block drains.",
+      "bank": [
+        "بند",
+        "نالیاں",
+        "کر دیتی ہیں",
+        "پلاسٹک کی تھیلیاں"
+      ],
+      "answer": [
+        "پلاسٹک کی تھیلیاں",
+        "نالیاں",
+        "بند",
+        "کر دیتی ہیں"
+      ]
+    },
+    {
+      "en": "Take a cloth bag to the market.",
+      "bank": [
+        "لے کر",
+        "جائیں",
+        "بازار",
+        "کپڑے کا تھیلا"
+      ],
+      "answer": [
+        "بازار",
+        "کپڑے کا تھیلا",
+        "لے کر",
+        "جائیں"
+      ]
+    },
+    {
+      "en": "Compost is made from vegetable peels.",
+      "bank": [
+        "کھاد",
+        "بنتی ہے",
+        "سے",
+        "سبزیوں کے چھلکوں"
+      ],
+      "answer": [
+        "سبزیوں کے چھلکوں",
+        "سے",
+        "کھاد",
+        "بنتی ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Our cities produce huge amounts of rubbish every day, and much of it ends up in streets, empty plots and drains. Plastic bags are one of the biggest problems because they do not rot and they block drains, causing flooding when it rains. Burning rubbish is just as harmful, as the smoke pollutes the air we breathe. The good news is that most household waste can be reduced, reused or recycled. Paper, glass, metal and many kinds of plastic can be turned into new products, while fruit and vegetable peels can be made into compost for gardens. If every family separated its rubbish at home and carried a cloth bag when shopping, our neighbourhoods would become cleaner and healthier. Small habits really can make a big difference.",
+    "modelUr": "ہمارے شہر ہر روز بہت بڑی مقدار میں کچرا پیدا کرتے ہیں، اور اس کا زیادہ تر حصہ گلیوں، خالی پلاٹوں اور نالیوں میں جا پہنچتا ہے۔ پلاسٹک کی تھیلیاں سب سے بڑے مسائل میں سے ایک ہیں، کیونکہ یہ گلتی نہیں اور نالیوں کو بند کر دیتی ہیں، جس سے بارش ہونے پر گلیوں میں پانی بھر جاتا ہے۔ کچرا جلانا بھی اتنا ہی نقصان دہ ہے، کیونکہ اس کا دھواں اس ہوا کو آلودہ کرتا ہے جس میں ہم سانس لیتے ہیں۔ اچھی خبر یہ ہے کہ گھر کا زیادہ تر کچرا کم کیا جا سکتا ہے، دوبارہ استعمال کیا جا سکتا ہے یا ری سائیکل کیا جا سکتا ہے۔ کاغذ، شیشے، دھات اور کئی قسم کے پلاسٹک سے نئی چیزیں بنائی جا سکتی ہیں، جبکہ پھلوں اور سبزیوں کے چھلکوں سے باغوں کے لیے کھاد بنائی جا سکتی ہے۔ اگر ہر خاندان گھر میں اپنا کچرا الگ الگ کرے اور خریداری کے وقت کپڑے کا تھیلا ساتھ رکھے تو ہمارے محلے زیادہ صاف اور صحت مند ہو جائیں گے۔ چھوٹی عادتیں واقعی بڑا فرق ڈال سکتی ہیں۔",
+    "checklist": [
+      "کیا آپ نے ‘can be reduced, reused or recycled’ کا ترجمہ مجہول ساخت (کیا جا سکتا ہے) سے کیا؟",
+      "کیا ‘do not rot’ اور ‘compost’ کے لیے موزوں الفاظ (گلتی نہیں، کھاد) استعمال کیے؟",
+      "کیا ‘If every family…’ والے شرطیہ جملے کا ترجمہ ‘اگر… تو’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

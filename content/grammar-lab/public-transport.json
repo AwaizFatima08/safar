@@ -1,0 +1,116 @@
+{
+  "id": "public-transport",
+  "ur": "اسٹیشن سے اسٹیشن تک",
+  "en": "From Station to Station",
+  "grammarPoint": {
+    "ur": "وقت کے اظہار: سے… تک، کے بعد، سے پہلے، ہر… منٹ بعد",
+    "en": "Time expressions: from… until, after, before, every… minutes"
+  },
+  "cloze": {
+    "passage": "ہماری میٹرو صبح چھ بجے (1)_____ رات دس بجے تک چلتی ہے۔ رش کے وقت ہر چار منٹ (2)_____ ایک ٹرین آتی ہے۔ ٹرین آنے سے (3)_____ مسافر پیلی لکیر کے پیچھے کھڑے ہوتے ہیں۔ میں اسکول کی چھٹی (4)_____ بعد اورنج لائن سے گھر جاتا ہوں۔ اس طرح میں شام پانچ بجے (5)_____ اپنا ہوم ورک ختم کر لیتا ہوں۔",
+    "gaps": [
+      {
+        "opts": [
+          "تک",
+          "سے",
+          "بعد",
+          "پہلے"
+        ],
+        "a": 1,
+        "en": "سے… تک = from… to"
+      },
+      {
+        "opts": [
+          "پہلے",
+          "تک",
+          "بعد",
+          "سے"
+        ],
+        "a": 2,
+        "en": "ہر… منٹ بعد = every… minutes"
+      },
+      {
+        "opts": [
+          "پہلے",
+          "بعد",
+          "تک",
+          "ہر"
+        ],
+        "a": 0,
+        "en": "آنے سے پہلے = before (the train) comes"
+      },
+      {
+        "opts": [
+          "سے",
+          "کو",
+          "کا",
+          "کے"
+        ],
+        "a": 3,
+        "en": "کے بعد = after (چھٹی کے بعد)"
+      },
+      {
+        "opts": [
+          "سے",
+          "پہلے",
+          "ہر",
+          "تک"
+        ],
+        "a": 3,
+        "en": "تک = by / until (پانچ بجے تک)"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ہم نے پہلے ٹکٹ خریدا، پھر ٹرین میں بیٹھے۔",
+      "stem": "ٹرین میں بیٹھنے سے ____ ہم نے ٹکٹ خریدا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "پہلے"
+      ],
+      "en": "First we bought a ticket, then we got on the train."
+    },
+    {
+      "original": "ٹرین پانچ پانچ منٹ کے وقفے سے آتی ہے۔",
+      "stem": "ٹرین ہر پانچ منٹ ____ آتی ہے۔",
+      "instruction_ur": "‘ہر… منٹ بعد’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘every… minutes’",
+      "answers": [
+        "بعد"
+      ],
+      "en": "The train comes at five-minute intervals."
+    },
+    {
+      "original": "اسکول ختم ہوا، پھر ہم میٹرو اسٹیشن گئے۔",
+      "stem": "اسکول ختم ہونے کے ____ ہم میٹرو اسٹیشن گئے۔",
+      "instruction_ur": "دو جملوں کو ملا کر ایک جملہ مکمل کریں",
+      "instruction_en": "Combine into one sentence using ‘after’",
+      "answers": [
+        "بعد"
+      ],
+      "en": "School finished; then we went to the metro station."
+    },
+    {
+      "original": "سروس صبح چھ بجے شروع ہوتی ہے اور رات دس بجے بند ہوتی ہے۔",
+      "stem": "سروس صبح چھ بجے سے رات دس بجے ____ چلتی ہے۔",
+      "instruction_ur": "‘سے… تک’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘from… until’",
+      "answers": [
+        "تک"
+      ],
+      "en": "The service starts at 6 a.m. and closes at 10 p.m."
+    },
+    {
+      "original": "اسٹیشن پر بہت بھیڑ تھی۔",
+      "stem": "اسٹیشن پر بہت ____ تھا۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "رش"
+      ],
+      "en": "There was a big crowd at the station."
+    }
+  ]
+}

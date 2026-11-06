@@ -1,0 +1,92 @@
+{
+  "id": "abdus-salam",
+  "ur": "ڈاکٹر عبدالسلام",
+  "en": "Dr Abdus Salam",
+  "warmup": [
+    {
+      "en": "He was a famous scientist.",
+      "bank": [
+        "سائنس دان",
+        "وہ",
+        "تھے",
+        "ایک مشہور"
+      ],
+      "answer": [
+        "وہ",
+        "ایک مشہور",
+        "سائنس دان",
+        "تھے"
+      ]
+    },
+    {
+      "en": "Physics was his favourite subject.",
+      "bank": [
+        "تھا",
+        "پسندیدہ مضمون",
+        "طبیعیات",
+        "ان کا"
+      ],
+      "answer": [
+        "طبیعیات",
+        "ان کا",
+        "پسندیدہ مضمون",
+        "تھا"
+      ]
+    },
+    {
+      "en": "The Sun is bigger than the Moon.",
+      "bank": [
+        "بڑا",
+        "ہے",
+        "چاند سے",
+        "سورج"
+      ],
+      "answer": [
+        "سورج",
+        "چاند سے",
+        "بڑا",
+        "ہے"
+      ]
+    },
+    {
+      "en": "She is the cleverest girl in the class.",
+      "bank": [
+        "لڑکی",
+        "سب سے ذہین",
+        "ہے",
+        "وہ",
+        "جماعت کی"
+      ],
+      "answer": [
+        "وہ",
+        "جماعت کی",
+        "سب سے ذہین",
+        "لڑکی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Scientists do research.",
+      "bank": [
+        "کرتے ہیں",
+        "سائنس دان",
+        "تحقیق"
+      ],
+      "answer": [
+        "سائنس دان",
+        "تحقیق",
+        "کرتے ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Dr Abdus Salam was born in 1926 in Jhang district. From an early age he was one of the brightest students in his school, and mathematics was the subject he loved most. He became a physicist who tried to understand the basic forces of nature with the help of mathematics. In 1979 he won the Nobel Prize in Physics, which made him the first Pakistani to receive a Nobel Prize in science. Dr Salam believed that talented scientists in poorer countries deserved the same chances as those in richer ones. For this reason, he founded a centre for theoretical physics in Trieste, Italy, where scientists from developing countries could work with leading experts. He died in 1996, but his centre is still helping young researchers today.",
+    "modelUr": "ڈاکٹر عبدالسلام 1926 میں ضلع جھنگ میں پیدا ہوئے۔ چھوٹی عمر ہی سے وہ اپنے اسکول کے سب سے ذہین طالب علموں میں سے ایک تھے، اور ریاضی وہ مضمون تھا جو انہیں سب سے زیادہ پسند تھا۔ وہ ایک ماہرِ طبیعیات بنے جنہوں نے ریاضی کی مدد سے قدرت کی بنیادی قوتوں کو سمجھنے کی کوشش کی۔ 1979 میں انہوں نے طبیعیات کا نوبیل انعام جیتا، جس کے بعد وہ سائنس میں نوبیل انعام حاصل کرنے والے پہلے پاکستانی بن گئے۔ ڈاکٹر سلام کا ماننا تھا کہ غریب ملکوں کے باصلاحیت سائنس دان بھی امیر ملکوں کے سائنس دانوں جتنے مواقع کے حق دار ہیں۔ اسی وجہ سے انہوں نے اٹلی کے شہر تریستے میں نظریاتی طبیعیات کا ایک مرکز قائم کیا، جہاں ترقی پذیر ملکوں کے سائنس دان بڑے ماہرین کے ساتھ کام کر سکتے تھے۔ وہ 1996 میں فوت ہوئے، لیکن ان کا مرکز آج بھی نوجوان محققین کی مدد کر رہا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘one of the brightest’ کا ترجمہ ‘سب سے ذہین… میں سے ایک’ کیا؟",
+      "کیا ‘the same chances as’ کا ترجمہ ‘جتنے مواقع’ سے کیا؟",
+      "کیا ‘the subject he loved most’ کا ترجمہ ‘سب سے زیادہ پسند’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

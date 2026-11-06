@@ -1,0 +1,263 @@
+{
+  "id": "ruth-pfau",
+  "ur": "ڈاکٹر روتھ فاؤ",
+  "en": "Dr Ruth Pfau",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ جرمنی سے تعلق رکھنے والی ڈاکٹر روتھ فاؤ 1960ء میں کراچی آئیں اور برسوں تک جذام کے مریضوں کا علاج کرتی رہیں۔",
+    "en": "Did you know? Dr Ruth Pfau, who was from Germany, came to Karachi in 1960 and treated leprosy patients for many years."
+  },
+  "vocab": [
+    {
+      "ur": "جذام",
+      "en": "leprosy",
+      "ex_ur": "جذام ایک قابلِ علاج بیماری ہے۔",
+      "ex_en": "Leprosy is a curable disease.",
+      "syn": "کوڑھ"
+    },
+    {
+      "ur": "مریض",
+      "en": "patient",
+      "ex_ur": "ڈاکٹر نے مریض کا معائنہ کیا۔",
+      "ex_en": "The doctor examined the patient."
+    },
+    {
+      "ur": "علاج",
+      "en": "treatment",
+      "ex_ur": "بروقت علاج سے مریض صحت یاب ہو جاتا ہے۔",
+      "ex_en": "With timely treatment the patient recovers."
+    },
+    {
+      "ur": "مرکز",
+      "en": "centre",
+      "ex_ur": "شہر میں صحت کا ایک نیا مرکز کھلا ہے۔",
+      "ex_en": "A new health centre has opened in the city."
+    },
+    {
+      "ur": "خدمات",
+      "en": "services / contributions",
+      "ex_ur": "ان کی خدمات کو ہمیشہ یاد رکھا جائے گا۔",
+      "ex_en": "Her services will always be remembered."
+    },
+    {
+      "ur": "قابو پانا",
+      "en": "to bring under control",
+      "ex_ur": "برسوں کی محنت سے بیماری پر قابو پایا گیا۔",
+      "ex_en": "The disease was brought under control after years of hard work."
+    },
+    {
+      "ur": "سرکاری اعزاز",
+      "en": "state honours",
+      "ex_ur": "انہیں سرکاری اعزاز کے ساتھ رخصت کیا گیا۔",
+      "ex_en": "She was given a state funeral."
+    },
+    {
+      "ur": "حوصلہ",
+      "en": "courage / morale",
+      "ex_ur": "ڈاکٹر نے مریضوں کا حوصلہ بڑھایا۔",
+      "ex_en": "The doctor raised the patients' morale.",
+      "syn": "ہمت"
+    },
+    {
+      "ur": "غیر ملکی",
+      "en": "foreign / foreigner",
+      "ex_ur": "وہ ایک غیر ملکی ڈاکٹر تھیں۔",
+      "ex_en": "She was a foreign doctor."
+    },
+    {
+      "ur": "غلط فہمی",
+      "en": "misconception / misunderstanding",
+      "ex_ur": "اس بیماری کے بارے میں بہت سی غلط فہمیاں تھیں۔",
+      "ex_en": "There were many misconceptions about this disease."
+    }
+  ],
+  "reading": {
+    "passage": "ڈاکٹر روتھ فاؤ جرمنی کی ایک ڈاکٹر تھیں۔ وہ 1960ء میں کراچی آئیں اور یہاں جذام کے مریضوں کی مدد کا فیصلہ کیا۔ اس زمانے میں لوگ اس بیماری سے ڈرتے تھے اور مریضوں کو اکثر الگ کر دیا جاتا تھا۔ ڈاکٹر فاؤ نے میری ایڈیلیڈ لیپروسی سینٹر کے ذریعے مریضوں کا علاج کیا اور ان کا حوصلہ بڑھایا۔ ان کی اور ان کے ساتھیوں کی محنت سے 1996ء میں پاکستان میں جذام کو قابو میں قرار دیا گیا۔ 2017ء میں ان کا انتقال ہوا اور انہیں سرکاری اعزاز کے ساتھ رخصت کیا گیا۔",
+    "questions": [
+      {
+        "q": "ڈاکٹر روتھ فاؤ کا تعلق کس ملک سے تھا؟",
+        "opts": [
+          "فرانس",
+          "جرمنی",
+          "برطانیہ",
+          "امریکہ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "وہ کراچی کب آئیں؟",
+        "opts": [
+          "1947ء میں",
+          "1996ء میں",
+          "1960ء میں",
+          "2017ء میں"
+        ],
+        "a": 2
+      },
+      {
+        "q": "اس زمانے میں جذام کے مریضوں کے ساتھ اکثر کیا کیا جاتا تھا؟",
+        "opts": [
+          "انہیں الگ کر دیا جاتا تھا",
+          "انہیں انعام دیا جاتا تھا",
+          "انہیں اسکول بھیجا جاتا تھا",
+          "انہیں دعوت دی جاتی تھی"
+        ],
+        "a": 0
+      },
+      {
+        "q": "پاکستان میں جذام کو قابو میں کب قرار دیا گیا؟",
+        "opts": [
+          "1960ء میں",
+          "2017ء میں",
+          "2005ء میں",
+          "1996ء میں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "بیماری",
+          "ہے",
+          "جذام",
+          "ایک قابلِ علاج"
+        ],
+        "answer": [
+          "جذام",
+          "ایک قابلِ علاج",
+          "بیماری",
+          "ہے"
+        ],
+        "en": "Leprosy is a curable disease."
+      },
+      {
+        "bank": [
+          "حوصلہ",
+          "بڑھایا",
+          "مریضوں کا",
+          "ڈاکٹر نے"
+        ],
+        "answer": [
+          "ڈاکٹر نے",
+          "مریضوں کا",
+          "حوصلہ",
+          "بڑھایا"
+        ],
+        "en": "The doctor raised the patients' morale."
+      },
+      {
+        "bank": [
+          "کراچی",
+          "آئیں",
+          "وہ",
+          "1960ء میں"
+        ],
+        "answer": [
+          "وہ",
+          "1960ء میں",
+          "کراچی",
+          "آئیں"
+        ],
+        "en": "She came to Karachi in 1960."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "بروقت ____ سے مریض صحت یاب ہو جاتا ہے۔",
+        "opts": [
+          "کھیل",
+          "علاج",
+          "سفر",
+          "شور"
+        ],
+        "a": 1,
+        "en": "With timely ___ the patient recovers."
+      },
+      {
+        "text": "وہ ایک ____ ڈاکٹر تھیں جو جرمنی سے آئی تھیں۔",
+        "opts": [
+          "غیر ملکی",
+          "مقامی",
+          "پرانی",
+          "چھوٹی"
+        ],
+        "a": 0,
+        "en": "She was a ___ doctor who had come from Germany."
+      },
+      {
+        "text": "برسوں کی محنت سے بیماری پر ____ پایا گیا۔",
+        "opts": [
+          "سبق",
+          "انعام",
+          "قابو",
+          "کام"
+        ],
+        "a": 2,
+        "en": "The disease was brought under ___ after years of hard work."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کسی بیمار شخص کی مدد کرنا چاہیں تو کیا کریں گے؟ تین جملے لکھیں۔",
+      "en": "If you wanted to help someone who is ill, what would you do? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "موصولہ جملے — Relative clauses: جو… وہ، جس نے، جنہوں نے",
+    "explain": "Urdu joins two ideas about the same person or thing with جو (who / which) and a matching وہ (that one): جو محنت کرتا ہے، وہ کامیاب ہوتا ہے. Before a postposition جو changes: جس نے / جس کا / جس کو for singular, جنہوں نے / جن کا / جن کو for plural or respect. The relative clause can also follow the noun: وہ ڈاکٹر جو جرمنی سے آئیں = the doctor who came from Germany.",
+    "rows": [
+      [
+        "جو مریض باقاعدہ علاج کرواتا ہے، وہ صحت یاب ہو جاتا ہے۔",
+        "The patient who has regular treatment recovers."
+      ],
+      [
+        "ڈاکٹر روتھ فاؤ وہ ڈاکٹر تھیں جنہوں نے جذام کے خلاف کام کیا۔",
+        "Dr Ruth Pfau was the doctor who worked against leprosy."
+      ],
+      [
+        "جس نرس نے میری مدد کی، وہ بہت مہربان تھی۔",
+        "The nurse who helped me was very kind."
+      ],
+      [
+        "یہ وہ مرکز ہے جس کا نام سب جانتے ہیں۔",
+        "This is the centre whose name everyone knows."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "____ بچہ محنت کرتا ہے، وہ کامیاب ہوتا ہے۔",
+        "opts": [
+          "جو",
+          "جس",
+          "جن",
+          "جنہوں"
+        ],
+        "a": 0,
+        "en": "The child who works hard succeeds."
+      },
+      {
+        "q": "یہ وہ ڈاکٹر ہیں ____ نے بہت سے مریضوں کا علاج کیا۔",
+        "opts": [
+          "جو",
+          "جنہوں",
+          "جس کا",
+          "وہ"
+        ],
+        "a": 1,
+        "en": "This is the doctor who treated many patients."
+      },
+      {
+        "q": "وہ لڑکی ____ کا بھائی ڈاکٹر ہے، میری دوست ہے۔",
+        "opts": [
+          "جو",
+          "جنہوں",
+          "جس",
+          "وہ"
+        ],
+        "a": 2,
+        "en": "The girl whose brother is a doctor is my friend."
+      }
+    ]
+  }
+}

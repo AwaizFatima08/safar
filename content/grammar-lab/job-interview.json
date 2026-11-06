@@ -1,0 +1,117 @@
+{
+  "id": "job-interview",
+  "ur": "انٹرویو کا دن",
+  "en": "Interview Day",
+  "grammarPoint": {
+    "ur": "مرکب افعال: لینا، دینا، جانا",
+    "en": "Compound verbs with lena, dena, jana"
+  },
+  "cloze": {
+    "passage": "انٹرویو کے دن میں صبح سویرے اٹھ (1)_____۔ میں نے ناشتہ جلدی کر (2)_____ اور گھر سے نکل پڑا۔ دفتر پہنچ کر استقبالیہ پر بیٹھی خاتون نے مجھے انتظار گاہ کا راستہ بتا (3)_____۔ پہلا سوال سن کر میں ذرا گھبرا (4)_____، مگر جلد ہی سنبھل گیا۔ آخر میں انہوں نے کہا کہ وہ نتیجہ ایک ہفتے میں بتا (5)_____ گے۔",
+    "gaps": [
+      {
+        "opts": [
+          "گیا",
+          "لیا",
+          "دیا",
+          "لی"
+        ],
+        "a": 0,
+        "en": "اٹھ جانا has no object and no نے → اٹھ گیا"
+      },
+      {
+        "opts": [
+          "گیا",
+          "لیا",
+          "دی",
+          "گئے"
+        ],
+        "a": 1,
+        "en": "کر لینا with نے; ناشتہ is masculine → کر لیا"
+      },
+      {
+        "opts": [
+          "گیا",
+          "دیا",
+          "لیا",
+          "گئی"
+        ],
+        "a": 1,
+        "en": "Telling someone else → بتا دیا"
+      },
+      {
+        "opts": [
+          "دیا",
+          "لیا",
+          "گیا",
+          "دی"
+        ],
+        "a": 2,
+        "en": "Change of state, no نے → گھبرا گیا"
+      },
+      {
+        "opts": [
+          "جائیں",
+          "لیں",
+          "گئے",
+          "دیں"
+        ],
+        "a": 3,
+        "en": "Telling us (outward) → بتا دیں گے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "مجھے اس کی بات کا مطلب سمجھ میں آ گیا۔",
+      "stem": "میں اس کی بات کا مطلب سمجھ ____۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "گیا",
+        "گئی"
+      ],
+      "en": "I understood what he meant."
+    },
+    {
+      "original": "زارا وقت پر دفتر پہنچی۔",
+      "stem": "زارا وقت پر دفتر پہنچ ____۔",
+      "instruction_ur": "مرکب فعل (جانا) استعمال کر کے جملہ مکمل کریں",
+      "instruction_en": "Complete using a compound verb with جانا",
+      "answers": [
+        "گئی"
+      ],
+      "en": "Zara reached the office on time."
+    },
+    {
+      "original": "انہوں نے مجھے نتیجہ بتایا۔",
+      "stem": "انہوں نے مجھے نتیجہ بتا ____۔",
+      "instruction_ur": "مرکب فعل (دینا) استعمال کر کے جملہ مکمل کریں",
+      "instruction_en": "Complete using a compound verb with دینا",
+      "answers": [
+        "دیا"
+      ],
+      "en": "They told me the result."
+    },
+    {
+      "original": "اس نے پورے بھروسے سے جواب دیا۔",
+      "stem": "اس نے پورے ____ سے جواب دیا۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "اعتماد"
+      ],
+      "en": "She answered with full confidence."
+    },
+    {
+      "original": "امیدوار وقت پر پہنچ گیا۔",
+      "stem": "تمام امیدوار وقت پر پہنچ ____۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "گئے"
+      ],
+      "en": "The candidate arrived on time."
+    }
+  ]
+}

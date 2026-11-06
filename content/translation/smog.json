@@ -1,0 +1,90 @@
+{
+  "id": "smog",
+  "ur": "اسموگ اور فضائی آلودگی",
+  "en": "Smog and Air Pollution",
+  "warmup": [
+    {
+      "en": "Smog increases in winter.",
+      "bank": [
+        "بڑھ",
+        "جاتی ہے",
+        "اسموگ",
+        "سردیوں میں"
+      ],
+      "answer": [
+        "سردیوں میں",
+        "اسموگ",
+        "بڑھ",
+        "جاتی ہے"
+      ]
+    },
+    {
+      "en": "Wear a mask outside.",
+      "bank": [
+        "پہنیں",
+        "باہر",
+        "ماسک"
+      ],
+      "answer": [
+        "باہر",
+        "ماسک",
+        "پہنیں"
+      ]
+    },
+    {
+      "en": "Schools were closed because of the smog.",
+      "bank": [
+        "بند رہے",
+        "اسکول",
+        "اسموگ",
+        "کی وجہ سے"
+      ],
+      "answer": [
+        "اسموگ",
+        "کی وجہ سے",
+        "اسکول",
+        "بند رہے"
+      ]
+    },
+    {
+      "en": "Do not burn rubbish.",
+      "bank": [
+        "جلائیں",
+        "کوڑا",
+        "نہ"
+      ],
+      "answer": [
+        "کوڑا",
+        "نہ",
+        "جلائیں"
+      ]
+    },
+    {
+      "en": "Since the air is polluted, keep the windows closed.",
+      "bank": [
+        "اس لیے",
+        "کھڑکیاں",
+        "چونکہ",
+        "بند رکھیں",
+        "ہوا آلودہ ہے،"
+      ],
+      "answer": [
+        "چونکہ",
+        "ہوا آلودہ ہے،",
+        "اس لیے",
+        "کھڑکیاں",
+        "بند رکھیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Every winter, a thick grey layer of smog covers Lahore and many other cities in Punjab. It forms when smoke from vehicles, factories and brick kilns mixes with fog. The burning of crop remains in the fields after the harvest makes the problem even worse. Because the cold air hardly moves in winter, the pollution stays close to the ground for days. Smog causes burning eyes, coughing and breathing problems, especially for children and elderly people. Doctors advise people to wear masks and avoid exercising outdoors when the air quality is poor. The problem can only be solved if farmers, factory owners, the government and ordinary citizens all play their part. Each of us can help by using public transport more often and never burning rubbish.",
+    "modelUr": "ہر سال سردیوں میں اسموگ کی ایک موٹی سرمئی تہہ لاہور اور پنجاب کے کئی دوسرے شہروں پر چھا جاتی ہے۔ یہ اس وقت بنتی ہے جب گاڑیوں، کارخانوں اور اینٹوں کے بھٹوں کا دھواں دھند میں مل جاتا ہے۔ کٹائی کے بعد کھیتوں میں فصلوں کی باقیات جلانے سے یہ مسئلہ اور بھی بگڑ جاتا ہے۔ چونکہ سردیوں میں ٹھنڈی ہوا مشکل سے حرکت کرتی ہے، اس لیے آلودگی کئی دنوں تک زمین کے قریب ٹھہری رہتی ہے۔ اسموگ کی وجہ سے آنکھوں میں جلن، کھانسی اور سانس کی تکلیف ہوتی ہے، خاص طور پر بچوں اور بزرگوں کو۔ ڈاکٹر مشورہ دیتے ہیں کہ جب ہوا کا معیار خراب ہو تو لوگ ماسک پہنیں اور کھلی جگہ پر ورزش سے پرہیز کریں۔ یہ مسئلہ اسی صورت میں حل ہو سکتا ہے جب کسان، کارخانوں کے مالک، حکومت اور عام شہری سب اپنا اپنا کردار ادا کریں۔ ہم میں سے ہر ایک پبلک ٹرانسپورٹ کا زیادہ استعمال کر کے اور کبھی کوڑا نہ جلا کر مدد کر سکتا ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘Because the cold air hardly moves’ کا ترجمہ ‘چونکہ… اس لیے’ یا ‘کیونکہ’ سے کیا؟",
+      "کیا ‘crop remains’ اور ‘brick kilns’ کے لیے درست اردو الفاظ (فصلوں کی باقیات، اینٹوں کے بھٹے) استعمال کیے؟",
+      "کیا ‘can only be solved if’ کا مفہوم (اسی صورت میں… جب) درست ادا ہوا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

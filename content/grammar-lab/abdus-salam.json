@@ -1,0 +1,118 @@
+{
+  "id": "abdus-salam",
+  "ur": "سب سے بڑا انعام",
+  "en": "The Greatest Prize",
+  "grammarPoint": {
+    "ur": "موازنہ اور تفضیلِ کل (سے زیادہ، سب سے)",
+    "en": "Comparison and superlatives"
+  },
+  "cloze": {
+    "passage": "سائنس میوزیم کی سب (1)_____ دلچسپ گیلری ‘ہمارے سائنس دان’ تھی۔ وہاں کا ماڈل میرے اسکول کے ماڈل (2)_____ کہیں بڑا تھا۔ ڈاکٹر عبدالسلام کا گوشہ دوسرے گوشوں سے (3)_____ مقبول تھا۔ میری بہن مجھ سے دو سال (4)_____ ہے، مگر اسے بھی سائنس بہت پسند ہے۔ یہ ہمارے شہر کا سب سے (5)_____ میوزیم ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "سے",
+          "میں",
+          "کا",
+          "تک"
+        ],
+        "a": 0,
+        "en": "سب سے = the most"
+      },
+      {
+        "opts": [
+          "کو",
+          "سے",
+          "پر",
+          "نے"
+        ],
+        "a": 1,
+        "en": "Comparison uses سے (than)"
+      },
+      {
+        "opts": [
+          "سب",
+          "کم سے کم",
+          "زیادہ",
+          "سب سے"
+        ],
+        "a": 2,
+        "en": "X سے زیادہ = more … than X"
+      },
+      {
+        "opts": [
+          "بڑا",
+          "بڑے",
+          "بڑوں",
+          "بڑی"
+        ],
+        "a": 3,
+        "en": "بہن is feminine → بڑی"
+      },
+      {
+        "opts": [
+          "اچھا",
+          "اچھی",
+          "اچھے",
+          "اچھیں"
+        ],
+        "a": 0,
+        "en": "میوزیم is masculine singular → اچھا"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ان سے پہلے کسی پاکستانی نے سائنس میں نوبیل انعام نہیں جیتا تھا۔",
+      "stem": "وہ سائنس میں نوبیل انعام جیتنے والے ____ پاکستانی تھے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "پہلے"
+      ],
+      "en": "No Pakistani before him had won a Nobel Prize in science."
+    },
+    {
+      "original": "زمین سورج سے چھوٹی ہے۔",
+      "stem": "سورج زمین سے ____ ہے۔",
+      "instruction_ur": "الٹا موازنہ کر کے جملہ مکمل کریں",
+      "instruction_en": "Complete by reversing the comparison",
+      "answers": [
+        "بڑا"
+      ],
+      "en": "The Earth is smaller than the Sun."
+    },
+    {
+      "original": "جماعت میں کوئی طالب علم احمد جتنا ذہین نہیں۔",
+      "stem": "احمد جماعت کا ____ ذہین طالب علم ہے۔",
+      "instruction_ur": "تفضیلِ کل (سب سے) استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using the superlative (سب سے)",
+      "answers": [
+        "سب سے"
+      ],
+      "en": "No student in the class is as bright as Ahmed."
+    },
+    {
+      "original": "سائنس دان نئی چیزوں کی کھوج کرتے ہیں۔",
+      "stem": "سائنس دان نئی چیزوں کی ____ کرتے ہیں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "تلاش",
+        "تحقیق",
+        "جستجو"
+      ],
+      "en": "Scientists search for new things."
+    },
+    {
+      "original": "ڈاکٹر عبدالسلام نے تریستے میں ایک مرکز قائم کیا۔",
+      "stem": "تریستے میں ایک مرکز قائم ____ گیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کیا"
+      ],
+      "en": "Dr Abdus Salam set up a centre in Trieste."
+    }
+  ]
+}

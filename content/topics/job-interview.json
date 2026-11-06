@@ -1,0 +1,261 @@
+{
+  "id": "job-interview",
+  "ur": "انٹرویو کی مہارت",
+  "en": "Interview Skills",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ انٹرویو میں صرف آپ کے جوابات ہی نہیں بلکہ وقت پر پہنچنا، صاف ستھرا لباس اور بات کرنے کا انداز بھی دیکھا جاتا ہے۔",
+    "en": "Did you know? In an interview, it is not only your answers that count: arriving on time, neat clothes and the way you speak are noticed too."
+  },
+  "vocab": [
+    {
+      "ur": "انٹرویو",
+      "en": "interview",
+      "ex_ur": "کل میرا زندگی کا پہلا انٹرویو ہے۔",
+      "ex_en": "Tomorrow is the first interview of my life."
+    },
+    {
+      "ur": "امیدوار",
+      "en": "candidate",
+      "ex_ur": "کمرے کے باہر پانچ امیدوار انتظار کر رہے تھے۔",
+      "ex_en": "Five candidates were waiting outside the room."
+    },
+    {
+      "ur": "اعتماد",
+      "en": "confidence",
+      "ex_ur": "اس نے پورے اعتماد سے جواب دیا۔",
+      "ex_en": "She answered with full confidence.",
+      "syn": "بھروسا"
+    },
+    {
+      "ur": "تیاری",
+      "en": "preparation",
+      "ex_ur": "انٹرویو سے پہلے اچھی تیاری کر لیں۔",
+      "ex_en": "Prepare well before the interview."
+    },
+    {
+      "ur": "لباس",
+      "en": "clothes / dress",
+      "ex_ur": "انٹرویو کے لیے صاف ستھرا لباس پہنیں۔",
+      "ex_en": "Wear neat clothes for the interview."
+    },
+    {
+      "ur": "جھجک",
+      "en": "hesitation / shyness",
+      "ex_ur": "پہلے سوال پر مجھے تھوڑی جھجک محسوس ہوئی۔",
+      "ex_en": "I felt a little hesitant at the first question."
+    },
+    {
+      "ur": "گھبرانا",
+      "en": "to be nervous",
+      "ex_ur": "انٹرویو سے پہلے گھبرانا فطری بات ہے۔",
+      "ex_en": "It is natural to feel nervous before an interview."
+    },
+    {
+      "ur": "انتخاب",
+      "en": "selection",
+      "ex_ur": "انتخاب کا نتیجہ ایک ہفتے میں بتایا جائے گا۔",
+      "ex_en": "The result of the selection will be announced in a week."
+    },
+    {
+      "ur": "وقت کی پابندی",
+      "en": "punctuality",
+      "ex_ur": "وقت کی پابندی ایک اچھی عادت ہے۔",
+      "ex_en": "Punctuality is a good habit."
+    },
+    {
+      "ur": "خوبی",
+      "en": "strength / good quality",
+      "ex_ur": "اپنی سب سے بڑی خوبی کے بارے میں بتائیں۔",
+      "ex_en": "Tell us about your greatest strength.",
+      "syn": "صفت"
+    }
+  ],
+  "reading": {
+    "passage": "زارا کو گرمیوں میں ایک کمپیوٹر سینٹر میں کام کے لیے انٹرویو دینا تھا۔ اس نے ایک دن پہلے ہی اپنے کپڑے استری کر لیے اور ممکنہ سوالوں کے جواب لکھ لیے۔ انٹرویو کے دن وہ پندرہ منٹ پہلے پہنچ گئی۔ پہلے سوال پر اسے تھوڑی جھجک ہوئی، لیکن پھر اس نے گہرا سانس لیا اور اعتماد سے جواب دیا۔ آخر میں اس نے انٹرویو لینے والوں کا شکریہ ادا کیا۔ ایک ہفتے بعد اسے فون آیا کہ اسے منتخب کر لیا گیا ہے۔",
+    "questions": [
+      {
+        "q": "زارا نے انٹرویو سے ایک دن پہلے کیا کیا؟",
+        "opts": [
+          "سیر کو گئی",
+          "دیر تک سوتی رہی",
+          "کپڑے استری کیے اور جواب لکھے",
+          "ٹی وی دیکھتی رہی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "زارا انٹرویو کے لیے کب پہنچی؟",
+        "opts": [
+          "پندرہ منٹ پہلے",
+          "آدھا گھنٹہ دیر سے",
+          "ٹھیک وقت پر",
+          "ایک گھنٹہ پہلے"
+        ],
+        "a": 0
+      },
+      {
+        "q": "جھجک دور کرنے کے لیے زارا نے کیا کیا؟",
+        "opts": [
+          "پانی پیا",
+          "باہر چلی گئی",
+          "خاموش ہو گئی",
+          "گہرا سانس لیا"
+        ],
+        "a": 3
+      },
+      {
+        "q": "زارا کو نتیجہ کب معلوم ہوا؟",
+        "opts": [
+          "اسی دن",
+          "ایک ہفتے بعد",
+          "ایک مہینے بعد",
+          "دو دن بعد"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پہنچ",
+          "گیا",
+          "میں",
+          "وقت پر"
+        ],
+        "answer": [
+          "میں",
+          "وقت پر",
+          "پہنچ",
+          "گیا"
+        ],
+        "en": "I arrived on time."
+      },
+      {
+        "bank": [
+          "دیا",
+          "سمجھا",
+          "اس نے",
+          "سب کچھ"
+        ],
+        "answer": [
+          "اس نے",
+          "سب کچھ",
+          "سمجھا",
+          "دیا"
+        ],
+        "en": "He explained everything."
+      },
+      {
+        "bank": [
+          "دیں",
+          "اعتماد سے",
+          "جواب"
+        ],
+        "answer": [
+          "اعتماد سے",
+          "جواب",
+          "دیں"
+        ],
+        "en": "Answer with confidence."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "انٹرویو سے پہلے اچھی ____ کر لیں۔",
+        "opts": [
+          "نیند",
+          "تیاری",
+          "لڑائی",
+          "شکایت"
+        ],
+        "a": 1,
+        "en": "Make good ___ before the interview."
+      },
+      {
+        "text": "اس نے پورے ____ سے جواب دیا۔",
+        "opts": [
+          "غصے",
+          "ڈر",
+          "اعتماد",
+          "شور"
+        ],
+        "a": 2,
+        "en": "She answered with full ___."
+      },
+      {
+        "text": "کمرے کے باہر پانچ ____ انتظار کر رہے تھے۔",
+        "opts": [
+          "امیدوار",
+          "کتابیں",
+          "کرسیاں",
+          "دروازے"
+        ],
+        "a": 0,
+        "en": "Five ___ were waiting outside the room."
+      }
+    ],
+    "creative": {
+      "ur": "اپنے کسی انٹرویو یا امتحان کے تجربے کے بارے میں تین جملے لکھیں۔ ‘لینا، دینا، جانا’ والے مرکب افعال (جیسے سمجھ گیا، بتا دیا، سوچ لیا) استعمال کریں۔",
+      "en": "Write three sentences about an interview or exam you have had. Use compound verbs with لینا، دینا، جانا (e.g. سمجھ گیا، بتا دیا، سوچ لیا)."
+    }
+  },
+  "grammar": {
+    "title": "مرکب افعال — Compound verbs: لینا، دینا، جانا",
+    "explain": "A compound verb is a main-verb stem + a helper verb that adds a shade of meaning. لینا shows the action is done for oneself or completed by oneself: میں نے سوچ لیا (I made up my mind). دینا shows the action goes outward, towards someone else: اس نے بتا دیا (he told [us]). جانا shows a change of state or completion: وہ سمجھ گئی (she understood), میں پہنچ گیا (I arrived). In the past tense, لینا and دینا take نے; جانا does not.",
+    "rows": [
+      [
+        "میں نے سب سوالوں کے جواب لکھ لیے۔",
+        "I wrote down answers to all the questions (for myself)."
+      ],
+      [
+        "انہوں نے مجھے دفتر کا راستہ بتا دیا۔",
+        "They told me the way to the office."
+      ],
+      [
+        "ہم وقت سے پہلے پہنچ گئے۔",
+        "We arrived before time."
+      ],
+      [
+        "سوال سن کر وہ مسکرا دی۔",
+        "Hearing the question, she smiled."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "میں نے انٹرویو سے پہلے ممکنہ سوال لکھ ____۔",
+        "opts": [
+          "لیے",
+          "گئے",
+          "دیا",
+          "گیا"
+        ],
+        "a": 0,
+        "en": "I wrote down the likely questions before the interview."
+      },
+      {
+        "q": "زارا سوال سنتے ہی سمجھ ____۔",
+        "opts": [
+          "لیا",
+          "دیا",
+          "گئی",
+          "لی"
+        ],
+        "a": 2,
+        "en": "Zara understood the question as soon as she heard it."
+      },
+      {
+        "q": "انٹرویو لینے والے نے مجھے نتیجہ فون پر بتا ____۔",
+        "opts": [
+          "گیا",
+          "دیا",
+          "گئی",
+          "گئے"
+        ],
+        "a": 1,
+        "en": "The interviewer told me the result over the phone."
+      }
+    ]
+  }
+}

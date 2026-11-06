@@ -1,0 +1,117 @@
+{
+  "id": "healthy-eating",
+  "ur": "صحت مند دسترخوان",
+  "en": "A Healthy Table",
+  "grammarPoint": {
+    "ur": "مقدار کے الفاظ: زیادہ، کم، تھوڑا، کافی، بہت سا",
+    "en": "Quantity words: more, less, a little, enough, a lot of"
+  },
+  "cloze": {
+    "passage": "امی نے آج بہت (1)_____ سبزیاں خریدیں۔ انہوں نے سالن میں تیل (2)_____ ڈالا تاکہ کھانا صحت مند رہے۔ میں نے صرف (3)_____ سے چاول لیے کیونکہ مجھے بھوک کم تھی۔ ابو کو مٹھائی پسند ہے، مگر ڈاکٹر نے انہیں (4)_____ میٹھا کھانے سے منع کیا ہے۔ گرمی میں ہم سب (5)_____ پانی پیتے ہیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "سی",
+          "سا",
+          "سے",
+          "سو"
+        ],
+        "a": 0,
+        "en": "سبزیاں is feminine plural → بہت سی"
+      },
+      {
+        "opts": [
+          "تھوڑی",
+          "کم",
+          "بہت سی",
+          "ساری"
+        ],
+        "a": 1,
+        "en": "کم = less; it never changes (تیل is masculine)"
+      },
+      {
+        "opts": [
+          "تھوڑا",
+          "تھوڑی",
+          "تھوڑے",
+          "تھوڑیں"
+        ],
+        "a": 2,
+        "en": "چاول is masculine plural → تھوڑے سے"
+      },
+      {
+        "opts": [
+          "تھوڑی سی",
+          "بہت سی",
+          "ساری",
+          "زیادہ"
+        ],
+        "a": 3,
+        "en": "زیادہ = too much; it never changes"
+      },
+      {
+        "opts": [
+          "کافی",
+          "کم سے",
+          "تھوڑیاں",
+          "بہت سی"
+        ],
+        "a": 0,
+        "en": "کافی = plenty / enough"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "سالن میں تیل زیادہ نہ ڈالیں۔",
+      "stem": "سالن میں تیل ____ ڈالیں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "کم",
+        "تھوڑا"
+      ],
+      "en": "Don't put too much oil in the curry."
+    },
+    {
+      "original": "اس کھانے میں چکنائی بہت کم ہے۔",
+      "stem": "اس کھانے میں چکنائی ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "زیادہ"
+      ],
+      "en": "This food has very little fat."
+    },
+    {
+      "original": "روزانہ مناسب مقدار میں پانی پئیں۔",
+      "stem": "روزانہ ____ پانی پئیں۔",
+      "instruction_ur": "مقدار کا ایک لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with one quantity word",
+      "answers": [
+        "کافی"
+      ],
+      "en": "Drink enough water every day."
+    },
+    {
+      "original": "صحت مند خوراک بہت ضروری ہے۔",
+      "stem": "صحت مند ____ بہت ضروری ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "غذا"
+      ],
+      "en": "Healthy food is very important."
+    },
+    {
+      "original": "دسترخوان پر بہت سا کھانا تھا۔",
+      "stem": "دسترخوان پر بہت ____ پکوان تھے۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "سے"
+      ],
+      "en": "There was a lot of food on the table."
+    }
+  ]
+}

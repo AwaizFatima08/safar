@@ -1,0 +1,119 @@
+{
+  "id": "online-shopping",
+  "ur": "میرا آرڈر کہاں ہے؟",
+  "en": "Where Is My Order?",
+  "grammarPoint": {
+    "ur": "شائستہ شکایت کے انداز اور ‘کے باوجود’",
+    "en": "Polite complaint language and ‘ke baawajood’ (despite)"
+  },
+  "cloze": {
+    "passage": "محترم جناب! مجھے (1)_____ سے کہنا پڑ رہا ہے کہ میرا آرڈر ابھی تک نہیں ملا۔ پوری رقم ادا کرنے کے (2)_____ مجھے کوئی اطلاع نہیں دی گئی۔ میں آپ کی توجہ اس مسئلے کی (3)_____ دلانا چاہتی ہوں۔ براہِ (4)_____ جلد از جلد میرا سامان بھیج دیجیے۔ امید ہے آپ اس معاملے پر فوری توجہ (5)_____۔",
+    "gaps": [
+      {
+        "opts": [
+          "افسوس",
+          "خوشی",
+          "شوق",
+          "مذاق"
+        ],
+        "a": 0,
+        "en": "افسوس سے کہنا پڑ رہا ہے = I regret to say"
+      },
+      {
+        "opts": [
+          "بجائے",
+          "باوجود",
+          "علاوہ",
+          "ساتھ"
+        ],
+        "a": 1,
+        "en": "کے باوجود = despite"
+      },
+      {
+        "opts": [
+          "سامنے",
+          "اوپر",
+          "طرف",
+          "پیچھے"
+        ],
+        "a": 2,
+        "en": "کی طرف توجہ دلانا = to draw attention to"
+      },
+      {
+        "opts": [
+          "کرم",
+          "مہربانی",
+          "شکریہ",
+          "عزت"
+        ],
+        "a": 0,
+        "en": "براہِ کرم = please"
+      },
+      {
+        "opts": [
+          "فرماتا",
+          "فرمایا",
+          "فرماؤ",
+          "فرمائیں گے"
+        ],
+        "a": 3,
+        "en": "Polite future with آپ: توجہ فرمائیں گے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "میں نے پوری رقم ادا کی، پھر بھی سامان نہیں آیا۔",
+      "stem": "پوری رقم ادا کرنے کے ____ سامان نہیں آیا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "باوجود"
+      ],
+      "en": "I paid the full amount, but the goods still did not come."
+    },
+    {
+      "original": "اگرچہ کمپنی نے وعدہ کیا تھا، مگر جوتے نہیں بدلے گئے۔",
+      "stem": "کمپنی کے وعدے کے ____ جوتے نہیں بدلے گئے۔",
+      "instruction_ur": "‘کے باوجود’ استعمال کر کے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘despite’",
+      "answers": [
+        "باوجود"
+      ],
+      "en": "Although the company had promised, the shoes were not exchanged."
+    },
+    {
+      "original": "میرا سامان جلدی بھیجو۔",
+      "stem": "براہِ کرم میرا سامان جلد از جلد بھیج ____۔",
+      "instruction_ur": "شائستہ انداز میں جملہ مکمل کریں",
+      "instruction_en": "Complete in polite language",
+      "answers": [
+        "دیجیے",
+        "دیں",
+        "دیجئے"
+      ],
+      "en": "Send my goods quickly."
+    },
+    {
+      "original": "ہر گاہک کو اپنے حقوق معلوم ہونے چاہییں۔",
+      "stem": "ہر ____ کو اپنے حقوق معلوم ہونے چاہییں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "صارف",
+        "خریدار"
+      ],
+      "en": "Every customer should know their rights."
+    },
+    {
+      "original": "مجھے بہت برا لگا کہ قمیص پھٹی ہوئی نکلی۔",
+      "stem": "مجھے ____ سے کہنا پڑ رہا ہے کہ قمیص پھٹی ہوئی نکلی۔",
+      "instruction_ur": "رسمی شکایت کے انداز میں جملہ مکمل کریں",
+      "instruction_en": "Complete in formal complaint style",
+      "answers": [
+        "افسوس"
+      ],
+      "en": "I was very upset that the shirt turned out to be torn."
+    }
+  ]
+}

@@ -30,10 +30,10 @@ Urdu Safar is a focused practice app for students preparing for Cambridge O Leve
 Instead of another textbook, Urdu Safar turns exam prep into bite-sized, repeatable practice:
 
 VOCABULARY PRACTICE
-Spaced-repetition flashcards covering 370 words across every topic, a mixed word-match quiz, and a 30-idiom drill — the single most requested skill for these exams.
+Spaced-repetition flashcards covering 570 words across every topic, a mixed word-match quiz, and a 30-idiom drill — the single most requested skill for these exams.
 
-37 TOPICS, FULLY WORKED
-Every core topic (Home & Family, School Life, Festivals & Culture, and more) plus 20 new ones in v1.1 — from Mohenjo-daro and the Karakoram Highway to earthquake safety, solar energy and truck art — with vocabulary, reading, writing, and grammar practice at three difficulty levels, plus a cultural note for context.
+57 TOPICS, FULLY WORKED
+Every core topic (Home & Family, School Life, Festivals & Culture, and more) plus 40 newer ones — from Mohenjo-daro and the Karakoram Highway to careers, online shopping, Edhi, smog and space — with vocabulary, reading, writing, and grammar practice at three difficulty levels, plus a cultural note for context.
 
 10 SKILLS, WITH SAMPLE ANSWERS
 Letter-writing, dialogue, and other functional-writing genres with model answers and guided prompts.
@@ -48,7 +48,7 @@ TRANSLATION
 English-to-Urdu sentence-building warm-ups plus full passage translation with a model answer and checklist.
 
 SUMMARY WRITING & EXTENDED WRITING
-Condense a passage to under 100 words, or write an email, report, article, blog post, review or application (150–200 words) covering three set points, with a live word counter — each with a model answer to self-assess against.
+Condense a passage to under 100 words, or write an email, letter, report, article, blog post, speech, diary entry, story, review or application (150–200 words) covering three set points, with a live word counter — each with a model answer to self-assess against.
 
 PROGRESS & MOTIVATION
 Earn gold, silver, and bronze medals as you go. Track your practice on this device's leaderboard, and — if you create a free account — join up to 5 private groups with an invite code to compare medals with classmates, synced across devices. No chat or messaging, just the leaderboard.

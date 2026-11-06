@@ -1,0 +1,263 @@
+{
+  "id": "floods-climate",
+  "ur": "2022ء کا سیلاب اور موسمیاتی تبدیلی",
+  "en": "The 2022 Floods and Climate Change",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ 2022ء کے موسمِ گرما میں مون سون کی غیر معمولی بارشوں سے پاکستان کا تقریباً ایک تہائی حصہ سیلاب کی لپیٹ میں آ گیا تھا۔",
+    "en": "Did you know? In summer 2022, unusually heavy monsoon rains left roughly a third of Pakistan under floodwater."
+  },
+  "vocab": [
+    {
+      "ur": "سیلاب",
+      "en": "flood",
+      "ex_ur": "سیلاب نے کئی گاؤں تباہ کر دیے۔",
+      "ex_en": "The flood destroyed many villages."
+    },
+    {
+      "ur": "مون سون",
+      "en": "monsoon",
+      "ex_ur": "مون سون کی بارشیں جولائی میں شروع ہوتی ہیں۔",
+      "ex_en": "Monsoon rains begin in July."
+    },
+    {
+      "ur": "موسمیاتی تبدیلی",
+      "en": "climate change",
+      "ex_ur": "موسمیاتی تبدیلی پوری دنیا کا مسئلہ ہے۔",
+      "ex_en": "Climate change is a problem for the whole world."
+    },
+    {
+      "ur": "متاثرین",
+      "en": "victims / affected people",
+      "ex_ur": "متاثرین کو صاف پانی کی ضرورت ہے۔",
+      "ex_en": "The affected people need clean water.",
+      "syn": "متاثرہ افراد"
+    },
+    {
+      "ur": "امداد",
+      "en": "aid / relief",
+      "ex_ur": "ملک بھر سے امداد بھیجی گئی۔",
+      "ex_en": "Aid was sent from all over the country.",
+      "syn": "مدد"
+    },
+    {
+      "ur": "بے گھر",
+      "en": "homeless",
+      "ex_ur": "سیلاب کے بعد بہت سے خاندان بے گھر ہو گئے۔",
+      "ex_en": "Many families became homeless after the flood."
+    },
+    {
+      "ur": "فصل",
+      "en": "crop",
+      "ex_ur": "پانی میں کپاس کی فصل بہہ گئی۔",
+      "ex_en": "The cotton crop was washed away by the water."
+    },
+    {
+      "ur": "خیمہ",
+      "en": "tent",
+      "ex_ur": "کیمپ میں سیکڑوں خیمے لگائے گئے۔",
+      "ex_en": "Hundreds of tents were put up in the camp."
+    },
+    {
+      "ur": "عطیہ",
+      "en": "donation",
+      "ex_ur": "طلبہ نے اپنے جیب خرچ سے عطیہ دیا۔",
+      "ex_en": "The students gave a donation from their pocket money."
+    },
+    {
+      "ur": "بحالی",
+      "en": "rehabilitation / recovery",
+      "ex_ur": "متاثرہ علاقوں کی بحالی میں وقت لگے گا۔",
+      "ex_en": "The recovery of the affected areas will take time."
+    }
+  ],
+  "reading": {
+    "passage": "2022ء کے موسمِ گرما میں پاکستان میں مون سون کی غیر معمولی بارشیں ہوئیں۔ دریاؤں میں طغیانی آ گئی اور ملک کا تقریباً ایک تہائی حصہ سیلاب کی لپیٹ میں آ گیا۔ سب سے زیادہ نقصان سندھ اور بلوچستان میں ہوا۔ بے شمار گھر تباہ ہوئے، فصلیں بہہ گئیں اور کروڑوں لوگ متاثر ہوئے۔ ملک بھر سے لوگوں نے متاثرین کے لیے کھانا، خیمے اور دوائیں بھیجیں۔ ماہرین کے مطابق موسمیاتی تبدیلی کی وجہ سے ایسی شدید بارشوں کا خطرہ بڑھ رہا ہے۔",
+    "questions": [
+      {
+        "q": "2022ء کا سیلاب کس موسم میں آیا؟",
+        "opts": [
+          "سردیوں میں",
+          "بہار میں",
+          "گرمیوں میں",
+          "خزاں میں"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ملک کا کتنا حصہ سیلاب کی لپیٹ میں آیا؟",
+        "opts": [
+          "تقریباً ایک تہائی",
+          "آدھا",
+          "پورا",
+          "بہت تھوڑا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "سب سے زیادہ نقصان کن صوبوں میں ہوا؟",
+        "opts": [
+          "پنجاب اور خیبر پختونخوا",
+          "گلگت بلتستان اور پنجاب",
+          "خیبر پختونخوا اور سندھ",
+          "سندھ اور بلوچستان"
+        ],
+        "a": 3
+      },
+      {
+        "q": "ماہرین کے مطابق شدید بارشوں کا خطرہ کیوں بڑھ رہا ہے؟",
+        "opts": [
+          "آبادی کی وجہ سے",
+          "موسمیاتی تبدیلی کی وجہ سے",
+          "سڑکوں کی وجہ سے",
+          "پہاڑوں کی وجہ سے"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "تقسیم",
+          "متاثرین میں",
+          "کیا گیا",
+          "کھانا"
+        ],
+        "answer": [
+          "متاثرین میں",
+          "کھانا",
+          "تقسیم",
+          "کیا گیا"
+        ],
+        "en": "Food was distributed among the victims."
+      },
+      {
+        "bank": [
+          "بہہ",
+          "سیلاب میں",
+          "گئیں",
+          "فصلیں"
+        ],
+        "answer": [
+          "سیلاب میں",
+          "فصلیں",
+          "بہہ",
+          "گئیں"
+        ],
+        "en": "The crops were washed away in the flood."
+      },
+      {
+        "bank": [
+          "لگائے گئے",
+          "کے لیے",
+          "خیمے",
+          "بے گھر لوگوں"
+        ],
+        "answer": [
+          "بے گھر لوگوں",
+          "کے لیے",
+          "خیمے",
+          "لگائے گئے"
+        ],
+        "en": "Tents were put up for homeless people."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "سیلاب کے بعد بہت سے لوگ ____ ہو گئے۔",
+        "opts": [
+          "امیر",
+          "بے گھر",
+          "مشہور",
+          "خاموش"
+        ],
+        "a": 1,
+        "en": "After the flood many people became ___."
+      },
+      {
+        "text": "ہم نے متاثرین کے لیے کپڑے اور کمبل ____ کیے۔",
+        "opts": [
+          "عطیہ",
+          "ضائع",
+          "فروخت",
+          "گم"
+        ],
+        "a": 0,
+        "en": "We ___ clothes and blankets for the victims."
+      },
+      {
+        "text": "سیلاب کے بعد علاقے کی ____ میں کئی سال لگتے ہیں۔",
+        "opts": [
+          "سیر",
+          "تصویر",
+          "بحالی",
+          "تعریف"
+        ],
+        "a": 2,
+        "en": "The ___ of an area after a flood takes several years."
+      }
+    ],
+    "creative": {
+      "ur": "اگر آپ کے علاقے کے قریب سیلاب آ جائے تو آپ متاثرین کی مدد کیسے کریں گے؟ تین جملے لکھیں۔",
+      "en": "If a flood struck near your area, how would you help the victims? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "مجہول — Passive voice: کیا گیا، بھیجے گئے، دیا جائے گا",
+    "explain": "The passive is used when the action matters more than who did it — very common in news and reports. Form it with the past participle of the main verb + جانا in the right tense: تقسیم کیا گیا (was distributed), بھیجے گئے (were sent), دیا جائے گا (will be given), بنایا جا رہا ہے (is being built). Both parts agree with the object: خیمے لگائے گئے، امداد دی گئی. If the object has کو, use the masculine singular: لوگوں کو بچایا گیا.",
+    "rows": [
+      [
+        "متاثرین میں کھانا تقسیم کیا گیا۔",
+        "Food was distributed among the victims."
+      ],
+      [
+        "سیکڑوں خیمے متاثرہ علاقوں میں بھیجے گئے۔",
+        "Hundreds of tents were sent to the affected areas."
+      ],
+      [
+        "امدادی سامان کل روانہ کیا جائے گا۔",
+        "The relief goods will be dispatched tomorrow."
+      ],
+      [
+        "تباہ شدہ اسکولوں کو دوبارہ تعمیر کیا جا رہا ہے۔",
+        "The destroyed schools are being rebuilt."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "سیلاب کے بعد کیمپ میں خیمے ____ گئے۔",
+        "opts": [
+          "لگایا",
+          "لگائے",
+          "لگائی",
+          "لگانا"
+        ],
+        "a": 1,
+        "en": "After the flood, tents were put up in the camp."
+      },
+      {
+        "q": "اسکول میں عطیات جمع ____ جا رہے ہیں۔",
+        "opts": [
+          "کیا",
+          "کی",
+          "کرنا",
+          "کیے"
+        ],
+        "a": 3,
+        "en": "Donations are being collected at school."
+      },
+      {
+        "q": "متاثرین کو صاف پانی ____ جائے گا۔",
+        "opts": [
+          "دیا",
+          "دی",
+          "دیے",
+          "دینا"
+        ],
+        "a": 0,
+        "en": "The victims will be given clean water."
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "id": "healthy-eating",
+  "ur": "پاکستانی کھانے اور صحت بخش غذا",
+  "en": "Pakistani Food and Healthy Eating",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ہمارے روایتی گھریلو کھانوں — دال، سبزی، روٹی، دہی اور موسمی پھل — میں متوازن غذا کے تقریباً سب اجزا موجود ہوتے ہیں۔",
+    "en": "Did you know? Our traditional home food — daal, vegetables, roti, yoghurt and seasonal fruit — contains almost every part of a balanced diet."
+  },
+  "vocab": [
+    {
+      "ur": "غذا",
+      "en": "food / diet",
+      "ex_ur": "متوازن غذا صحت کے لیے ضروری ہے۔",
+      "ex_en": "A balanced diet is necessary for health.",
+      "syn": "خوراک"
+    },
+    {
+      "ur": "متوازن",
+      "en": "balanced",
+      "ex_ur": "ہمیں روزانہ متوازن کھانا کھانا چاہیے۔",
+      "ex_en": "We should eat a balanced meal every day."
+    },
+    {
+      "ur": "چکنائی",
+      "en": "fat / grease",
+      "ex_ur": "پراٹھے میں بہت چکنائی ہوتی ہے۔",
+      "ex_en": "A paratha has a lot of fat."
+    },
+    {
+      "ur": "سبزی",
+      "en": "vegetable",
+      "ex_ur": "روزانہ کوئی نہ کوئی سبزی ضرور کھائیں۔",
+      "ex_en": "Be sure to eat some vegetable every day."
+    },
+    {
+      "ur": "دال",
+      "en": "lentils / daal",
+      "ex_ur": "ماش کی دال میرا پسندیدہ کھانا ہے۔",
+      "ex_en": "Maash daal is my favourite dish."
+    },
+    {
+      "ur": "موسمی پھل",
+      "en": "seasonal fruit",
+      "ex_ur": "موسمی پھل سستے بھی ہوتے ہیں اور مفید بھی۔",
+      "ex_en": "Seasonal fruits are both cheap and good for you."
+    },
+    {
+      "ur": "مصالحہ",
+      "en": "spice",
+      "ex_ur": "بہت زیادہ مصالحے سے پیٹ خراب ہو سکتا ہے۔",
+      "ex_en": "Too much spice can upset the stomach."
+    },
+    {
+      "ur": "وزن",
+      "en": "weight",
+      "ex_ur": "تلی ہوئی چیزیں زیادہ کھانے سے وزن بڑھتا ہے۔",
+      "ex_en": "Eating a lot of fried food increases weight."
+    },
+    {
+      "ur": "توانائی",
+      "en": "energy",
+      "ex_ur": "ناشتہ ہمیں دن بھر کے لیے توانائی دیتا ہے۔",
+      "ex_en": "Breakfast gives us energy for the whole day.",
+      "syn": "طاقت"
+    },
+    {
+      "ur": "پرہیز",
+      "en": "avoiding (certain foods)",
+      "ex_ur": "ڈاکٹر نے ابو کو میٹھے سے پرہیز کا مشورہ دیا۔",
+      "ex_en": "The doctor advised Father to avoid sweet things."
+    }
+  ],
+  "reading": {
+    "passage": "پاکستانی کھانے اپنے ذائقے کی وجہ سے پوری دنیا میں مشہور ہیں۔ بریانی، نہاری، دال چاول اور سبزی روٹی ہمارے گھروں میں عام ہیں۔ لیکن آج کل بہت سے نوجوان روایتی کھانے کے بجائے برگر، پیزا اور کولڈ ڈرنک زیادہ پسند کرتے ہیں۔ ان میں چکنائی اور چینی بہت زیادہ ہوتی ہے۔ ڈاکٹروں کا مشورہ ہے کہ ہم تلی ہوئی چیزیں کم کھائیں اور اپنی غذا میں سبزیاں، دالیں اور موسمی پھل شامل کریں۔ روزانہ کافی پانی پینا بھی ضروری ہے۔",
+    "questions": [
+      {
+        "q": "پاکستانی کھانے کس وجہ سے مشہور ہیں؟",
+        "opts": [
+          "قیمت",
+          "رنگ",
+          "شکل",
+          "ذائقے"
+        ],
+        "a": 3
+      },
+      {
+        "q": "آج کل بہت سے نوجوان کیا زیادہ پسند کرتے ہیں؟",
+        "opts": [
+          "دال چاول",
+          "برگر اور پیزا",
+          "سبزی روٹی",
+          "موسمی پھل"
+        ],
+        "a": 1
+      },
+      {
+        "q": "فاسٹ فوڈ میں کون سی چیزیں بہت زیادہ ہوتی ہیں؟",
+        "opts": [
+          "چکنائی اور چینی",
+          "پانی اور نمک",
+          "سبزیاں",
+          "پھل اور دودھ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "ڈاکٹر کون سی چیزیں کم کھانے کا مشورہ دیتے ہیں؟",
+        "opts": [
+          "سبزیاں",
+          "دالیں",
+          "تلی ہوئی چیزیں",
+          "موسمی پھل"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "پانی",
+          "پینا چاہیے",
+          "ہمیں",
+          "زیادہ"
+        ],
+        "answer": [
+          "ہمیں",
+          "زیادہ",
+          "پانی",
+          "پینا چاہیے"
+        ],
+        "en": "We should drink more water."
+      },
+      {
+        "bank": [
+          "چاول",
+          "لوں گا",
+          "تھوڑے سے",
+          "میں"
+        ],
+        "answer": [
+          "میں",
+          "تھوڑے سے",
+          "چاول",
+          "لوں گا"
+        ],
+        "en": "I will take a little rice."
+      },
+      {
+        "bank": [
+          "کم ہے",
+          "بہت",
+          "اس میں",
+          "چینی"
+        ],
+        "answer": [
+          "اس میں",
+          "چینی",
+          "بہت",
+          "کم ہے"
+        ],
+        "en": "This has very little sugar."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "پراٹھے میں بہت ____ ہوتی ہے۔",
+        "opts": [
+          "چکنائی",
+          "سبزی",
+          "پانی",
+          "دال"
+        ],
+        "a": 0,
+        "en": "A paratha has a lot of ___."
+      },
+      {
+        "text": "ناشتہ ہمیں دن بھر کے لیے ____ دیتا ہے۔",
+        "opts": [
+          "نیند",
+          "توانائی",
+          "تھکن",
+          "بھوک"
+        ],
+        "a": 1,
+        "en": "Breakfast gives us ___ for the whole day."
+      },
+      {
+        "text": "ڈاکٹر نے میٹھے سے ____ کا مشورہ دیا۔",
+        "opts": [
+          "محبت",
+          "دوستی",
+          "پرہیز",
+          "شوق"
+        ],
+        "a": 2,
+        "en": "The doctor advised ___ sweet things."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کا پسندیدہ پاکستانی کھانا کون سا ہے؟ اسے صحت مند بنانے کے لیے کیا کیا جا سکتا ہے؟ ‘زیادہ، کم، تھوڑا، کافی’ استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "What is your favourite Pakistani dish? How could it be made healthier? Write three sentences using ‘more, less, a little, enough’."
+    }
+  },
+  "grammar": {
+    "title": "مقدار کے الفاظ — Quantity words: زیادہ، کم، تھوڑا، کافی، بہت سا",
+    "explain": "Quantity words usually come before the noun. زیادہ (more / a lot), کم (less / little) and کافی (enough / plenty) never change: زیادہ چینی، کم نمک، کافی پانی. تھوڑا (a little) and بہت سا (a lot of) end in ـا, so they agree with the noun: تھوڑا پانی، تھوڑی چینی، تھوڑے چاول; بہت سا کھانا، بہت سی سبزیاں، بہت سے پھل. Add سا / سی / سے after تھوڑا for ‘just a little’: تھوڑی سی چٹنی.",
+    "rows": [
+      [
+        "سالن میں نمک کم ڈالیں۔",
+        "Put less salt in the curry."
+      ],
+      [
+        "مجھے تھوڑی سی چٹنی دے دیں۔",
+        "Please give me a little chutney."
+      ],
+      [
+        "بازار میں بہت سے موسمی پھل آئے ہیں۔",
+        "Lots of seasonal fruits have come to the market."
+      ],
+      [
+        "گرمیوں میں کافی پانی پینا چاہیے۔",
+        "In summer you should drink plenty of water."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "پلیٹ میں ____ سبزیاں ڈال لو۔",
+        "opts": [
+          "بہت سی",
+          "بہت سا",
+          "بہت سے",
+          "بہت سو"
+        ],
+        "a": 0,
+        "en": "Put lots of vegetables on your plate."
+      },
+      {
+        "q": "چائے میں چینی ____ ڈالیں، یہ صحت کے لیے اچھا ہے۔",
+        "opts": [
+          "زیادہ",
+          "بہت سی",
+          "کم",
+          "ساری"
+        ],
+        "a": 2,
+        "en": "Put less sugar in your tea; it is good for health."
+      },
+      {
+        "q": "مجھے صرف ____ سے چاول چاہییں۔",
+        "opts": [
+          "تھوڑا",
+          "تھوڑی",
+          "تھوڑے",
+          "تھوڑیاں"
+        ],
+        "a": 2,
+        "en": "I only want a little rice."
+      }
+    ]
+  }
+}

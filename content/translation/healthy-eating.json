@@ -1,0 +1,90 @@
+{
+  "id": "healthy-eating",
+  "ur": "صحت بخش کھانا",
+  "en": "Healthy Eating",
+  "warmup": [
+    {
+      "en": "Eat more vegetables.",
+      "bank": [
+        "زیادہ",
+        "کھائیں",
+        "سبزیاں"
+      ],
+      "answer": [
+        "سبزیاں",
+        "زیادہ",
+        "کھائیں"
+      ]
+    },
+    {
+      "en": "Put less salt in the food.",
+      "bank": [
+        "کم",
+        "ڈالیں",
+        "نمک",
+        "کھانے میں"
+      ],
+      "answer": [
+        "کھانے میں",
+        "نمک",
+        "کم",
+        "ڈالیں"
+      ]
+    },
+    {
+      "en": "I drank a little lassi.",
+      "bank": [
+        "لسی",
+        "پی",
+        "میں نے",
+        "تھوڑی سی"
+      ],
+      "answer": [
+        "میں نے",
+        "تھوڑی سی",
+        "لسی",
+        "پی"
+      ]
+    },
+    {
+      "en": "Drink plenty of water in summer.",
+      "bank": [
+        "پانی",
+        "پئیں",
+        "کافی",
+        "گرمیوں میں"
+      ],
+      "answer": [
+        "گرمیوں میں",
+        "کافی",
+        "پانی",
+        "پئیں"
+      ]
+    },
+    {
+      "en": "Lots of fruits have come to the market.",
+      "bank": [
+        "پھل",
+        "آئے ہیں",
+        "بازار میں",
+        "بہت سے"
+      ],
+      "answer": [
+        "بازار میں",
+        "بہت سے",
+        "پھل",
+        "آئے ہیں"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Pakistani food is famous for its rich taste, but many of our favourite dishes contain too much oil, salt and sugar. At weddings and parties, people often eat far more than they need. Young people, too, are eating more burgers, chips and fizzy drinks than ever before. Doctors say that this is one reason why problems such as weight gain are now appearing at a young age. The good news is that we do not have to give up our traditional food. We can simply cook with less oil, add a salad to every meal and choose water or lassi instead of fizzy drinks. A plate of daal, vegetables and roti is both tasty and healthy. If we eat slowly and stop before we are completely full, we will feel lighter and more energetic.",
+    "modelUr": "پاکستانی کھانا اپنے بھرپور ذائقے کی وجہ سے مشہور ہے، لیکن ہمارے بہت سے پسندیدہ پکوانوں میں تیل، نمک اور چینی بہت زیادہ ہوتی ہے۔ شادیوں اور دعوتوں میں لوگ اکثر اپنی ضرورت سے کہیں زیادہ کھا لیتے ہیں۔ نوجوان بھی پہلے سے کہیں زیادہ برگر، چپس اور کولڈ ڈرنکس استعمال کر رہے ہیں۔ ڈاکٹروں کا کہنا ہے کہ یہ ایک وجہ ہے کہ وزن بڑھنے جیسے مسائل اب کم عمری میں ہی سامنے آ رہے ہیں۔ اچھی خبر یہ ہے کہ ہمیں اپنا روایتی کھانا چھوڑنے کی ضرورت نہیں۔ ہم بس کم تیل میں کھانا پکا سکتے ہیں، ہر کھانے کے ساتھ سلاد شامل کر سکتے ہیں اور کولڈ ڈرنک کے بجائے پانی یا لسی کا انتخاب کر سکتے ہیں۔ دال، سبزی اور روٹی کی ایک پلیٹ مزیدار بھی ہے اور صحت بخش بھی۔ اگر ہم آہستہ آہستہ کھائیں اور پیٹ پوری طرح بھرنے سے پہلے رک جائیں تو ہم خود کو ہلکا اور زیادہ توانا محسوس کریں گے۔",
+    "checklist": [
+      "کیا آپ نے ‘too much oil, salt and sugar’ کا ترجمہ ‘بہت زیادہ’ سے کیا؟",
+      "کیا ‘far more than they need’ کے لیے ‘ضرورت سے کہیں زیادہ’ جیسی ساخت استعمال کی؟",
+      "کیا ‘cook with less oil’ میں ‘کم تیل’ درست جگہ پر آیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

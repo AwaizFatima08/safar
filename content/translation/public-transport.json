@@ -1,0 +1,88 @@
+{
+  "id": "public-transport",
+  "ur": "میٹرو کا سفر",
+  "en": "A Metro Journey",
+  "warmup": [
+    {
+      "en": "The train is very clean.",
+      "bank": [
+        "صاف",
+        "ہے",
+        "ٹرین",
+        "بہت"
+      ],
+      "answer": [
+        "ٹرین",
+        "بہت",
+        "صاف",
+        "ہے"
+      ]
+    },
+    {
+      "en": "I bought a ticket.",
+      "bank": [
+        "خریدا",
+        "میں نے",
+        "ٹکٹ"
+      ],
+      "answer": [
+        "میں نے",
+        "ٹکٹ",
+        "خریدا"
+      ]
+    },
+    {
+      "en": "The bus comes every five minutes.",
+      "bank": [
+        "آتی ہے",
+        "بس",
+        "ہر پانچ منٹ بعد"
+      ],
+      "answer": [
+        "بس",
+        "ہر پانچ منٹ بعد",
+        "آتی ہے"
+      ]
+    },
+    {
+      "en": "We reached home before evening.",
+      "bank": [
+        "گھر",
+        "پہنچ گئے",
+        "ہم",
+        "شام سے پہلے"
+      ],
+      "answer": [
+        "ہم",
+        "شام سے پہلے",
+        "گھر",
+        "پہنچ گئے"
+      ]
+    },
+    {
+      "en": "The fare is not expensive.",
+      "bank": [
+        "نہیں",
+        "کرایہ",
+        "ہے",
+        "مہنگا"
+      ],
+      "answer": [
+        "کرایہ",
+        "مہنگا",
+        "نہیں",
+        "ہے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Last Saturday my family and I travelled across Lahore on the Orange Line for the first time. We reached the station at ten in the morning and bought our tickets from the counter. Before the train arrived, a guard asked everyone to stand behind the yellow line. The train came exactly on time, and its carriages were cool and clean. From the window we could see the busy roads below, full of cars and rickshaws stuck in traffic. The whole journey took less than forty minutes, while the same trip by car usually takes more than an hour. After the journey, my father said that public transport saves both time and money. I think more people should use it, because it also keeps our city's air cleaner.",
+    "modelUr": "پچھلے ہفتے کو میں اور میرے گھر والوں نے پہلی بار اورنج لائن کے ذریعے لاہور کے ایک سرے سے دوسرے سرے تک سفر کیا۔ ہم صبح دس بجے اسٹیشن پہنچے اور کاؤنٹر سے اپنے ٹکٹ خریدے۔ ٹرین آنے سے پہلے ایک گارڈ نے سب سے کہا کہ پیلی لکیر کے پیچھے کھڑے رہیں۔ ٹرین بالکل وقت پر آئی، اور اس کے ڈبے ٹھنڈے اور صاف تھے۔ کھڑکی سے ہم نیچے مصروف سڑکیں دیکھ سکتے تھے، جو ٹریفک میں پھنسی گاڑیوں اور رکشوں سے بھری ہوئی تھیں۔ پورا سفر چالیس منٹ سے بھی کم میں طے ہوا، جبکہ یہی سفر گاڑی میں عام طور پر ایک گھنٹے سے زیادہ لیتا ہے۔ سفر کے بعد میرے ابو نے کہا کہ عوامی ٹرانسپورٹ سے وقت اور پیسے دونوں بچتے ہیں۔ میرے خیال میں زیادہ لوگوں کو اسے استعمال کرنا چاہیے، کیونکہ اس سے ہمارے شہر کی ہوا بھی صاف رہتی ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘Before the train arrived’ کا ترجمہ ‘ٹرین آنے سے پہلے’ کیا؟",
+      "کیا ‘less than forty minutes’ اور ‘more than an hour’ کا موازنہ درست ہے؟",
+      "کیا ‘After the journey’ کا ترجمہ ‘سفر کے بعد’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

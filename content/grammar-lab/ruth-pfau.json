@@ -1,0 +1,116 @@
+{
+  "id": "ruth-pfau",
+  "ur": "خدمت جو یاد رہے",
+  "en": "Service to Remember",
+  "grammarPoint": {
+    "ur": "موصولہ جملے (جو… وہ، جس نے، جنہوں نے، جن کا)",
+    "en": "Relative clauses"
+  },
+  "cloze": {
+    "passage": "ڈاکٹر روتھ فاؤ وہ ڈاکٹر تھیں (1)_____ جرمنی سے کراچی آئیں۔ (2)_____ مریضوں کا انہوں نے علاج کیا، وہ انہیں ہمیشہ یاد رکھتے ہیں۔ میری ایڈیلیڈ لیپروسی سینٹر وہ ادارہ ہے (3)_____ کے ذریعے انہوں نے کام کیا۔ (4)_____ لوگوں نے ان کے ساتھ کام کیا، انہوں نے بھی بڑی محنت کی۔ جو انسانیت کی خدمت کرتا ہے، (5)_____ ہمیشہ یاد رکھا جاتا ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "جس",
+          "جو",
+          "جن",
+          "جنہوں"
+        ],
+        "a": 1,
+        "en": "جو = who (subject, no postposition after it)"
+      },
+      {
+        "opts": [
+          "جن",
+          "جو",
+          "جس نے",
+          "وہ"
+        ],
+        "a": 0,
+        "en": "جن مریضوں کا = the patients whom (plural before کا)"
+      },
+      {
+        "opts": [
+          "جو",
+          "جن",
+          "وہ",
+          "جس"
+        ],
+        "a": 3,
+        "en": "جس کے ذریعے = through which (singular before کے)"
+      },
+      {
+        "opts": [
+          "جس",
+          "جو",
+          "جن",
+          "جنہوں"
+        ],
+        "a": 2,
+        "en": "جن لوگوں نے = the people who (plural noun + نے)"
+      },
+      {
+        "opts": [
+          "جو",
+          "وہ",
+          "جس",
+          "جن"
+        ],
+        "a": 1,
+        "en": "جو… وہ: the second part starts with وہ"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ڈاکٹر روتھ فاؤ جرمنی سے آئیں۔ وہ جذام کے مریضوں کا علاج کرتی رہیں۔",
+      "stem": "ڈاکٹر روتھ فاؤ، ____ جرمنی سے آئیں، جذام کے مریضوں کا علاج کرتی رہیں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "جو"
+      ],
+      "en": "Dr Ruth Pfau came from Germany. She kept treating leprosy patients."
+    },
+    {
+      "original": "اس نرس نے میری مدد کی۔ وہ بہت مہربان تھی۔",
+      "stem": "____ نرس نے میری مدد کی، وہ بہت مہربان تھی۔",
+      "instruction_ur": "‘جس نے… وہ’ استعمال کرتے ہوئے دونوں جملے ملائیں",
+      "instruction_en": "Combine the two sentences using ‘jis ne… woh’",
+      "answers": [
+        "جس"
+      ],
+      "en": "That nurse helped me. She was very kind."
+    },
+    {
+      "original": "ان لوگوں نے رضاکارانہ کام کیا۔ انہیں انعام ملا۔",
+      "stem": "____ لوگوں نے رضاکارانہ کام کیا، انہیں انعام ملا۔",
+      "instruction_ur": "جمع موصولہ لفظ سے دونوں جملے ملائیں",
+      "instruction_en": "Combine using the plural relative word",
+      "answers": [
+        "جن"
+      ],
+      "en": "Those people did voluntary work. They received a prize."
+    },
+    {
+      "original": "کوڑھ اب ایک قابلِ علاج بیماری ہے۔",
+      "stem": "____ اب ایک قابلِ علاج بیماری ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "جذام"
+      ],
+      "en": "Leprosy is now a curable disease."
+    },
+    {
+      "original": "حکومت نے انہیں سرکاری اعزاز کے ساتھ رخصت کیا۔",
+      "stem": "انہیں سرکاری اعزاز کے ساتھ رخصت ____ گیا۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کیا"
+      ],
+      "en": "The government gave her a state funeral."
+    }
+  ]
+}

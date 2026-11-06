@@ -1,0 +1,120 @@
+{
+  "id": "summer-internship",
+  "ur": "پہلی درخواست",
+  "en": "A First Application",
+  "grammarPoint": {
+    "ur": "رسمی درخواست کے انداز اور ‘چکا ہوں’",
+    "en": "Formal request forms and ‘chuka hoon’ (have already done)"
+  },
+  "cloze": {
+    "passage": "محترم جناب! میں دسویں جماعت کی طالبہ ہوں۔ (1)_____ ہے کہ مجھے آپ کے ادارے میں انٹرن شپ کا موقع دیا جائے۔ میں او لیول کے امتحانات دے (2)_____ ہوں۔ میں اسکول کے رسالے کے لیے کئی مضامین بھی لکھ (3)_____ ہوں۔ براہِ کرم میری درخواست پر غور (4)_____۔ میں آپ کے جواب کی (5)_____ رہوں گی۔",
+    "gaps": [
+      {
+        "opts": [
+          "گزارش",
+          "شکایت",
+          "خبر",
+          "کہانی"
+        ],
+        "a": 0,
+        "en": "گزارش ہے کہ… = I humbly request that…"
+      },
+      {
+        "opts": [
+          "چکی",
+          "چکا",
+          "چکے",
+          "چکیں"
+        ],
+        "a": 0,
+        "en": "The writer is a girl → دے چکی ہوں"
+      },
+      {
+        "opts": [
+          "چکنا",
+          "چکے",
+          "چکی",
+          "چکو"
+        ],
+        "a": 2,
+        "en": "Feminine singular subject → لکھ چکی ہوں"
+      },
+      {
+        "opts": [
+          "کرو",
+          "فرمائیے",
+          "کرتا",
+          "کیا"
+        ],
+        "a": 1,
+        "en": "Polite imperative: غور فرمائیے"
+      },
+      {
+        "opts": [
+          "مشکور",
+          "منتظر",
+          "حیران",
+          "ناراض"
+        ],
+        "a": 1,
+        "en": "منتظر رہنا = to await (formal)"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "میں نے یہ کورس پہلے ہی مکمل کر لیا ہے۔",
+      "stem": "میں یہ کورس پہلے ہی مکمل کر ____ ہوں۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "چکا",
+        "چکی"
+      ],
+      "en": "I have already completed this course."
+    },
+    {
+      "original": "میں چاہتا ہوں کہ آپ میری درخواست پڑھیں۔",
+      "stem": "____ ہے کہ آپ میری درخواست پڑھیں۔",
+      "instruction_ur": "رسمی انداز (‘… ہے کہ’) میں جملہ مکمل کریں",
+      "instruction_en": "Complete in formal style (‘I request that…’)",
+      "answers": [
+        "گزارش",
+        "درخواست",
+        "التماس"
+      ],
+      "en": "I would like you to read my application."
+    },
+    {
+      "original": "اس کام کے لیے کمپیوٹر کا ہنر ضروری ہے۔",
+      "stem": "اس کام کے لیے کمپیوٹر کی ____ ضروری ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "مہارت"
+      ],
+      "en": "Computer skill is necessary for this work."
+    },
+    {
+      "original": "میں دو مقابلوں میں حصہ لے چکی ہوں۔",
+      "stem": "ہم دو مقابلوں میں حصہ لے ____ ہیں۔",
+      "instruction_ur": "جمع بنا کر جملہ مکمل کریں",
+      "instruction_en": "Complete in the plural",
+      "answers": [
+        "چکے"
+      ],
+      "en": "I have already taken part in two competitions."
+    },
+    {
+      "original": "مجھے انٹرن شپ کا موقع دیں۔",
+      "stem": "____ مجھے انٹرن شپ کا موقع دیجیے۔",
+      "instruction_ur": "شائستہ رسمی انداز میں جملہ مکمل کریں",
+      "instruction_en": "Complete as a polite formal request",
+      "answers": [
+        "براہِ کرم",
+        "براہ کرم"
+      ],
+      "en": "Give me the chance of an internship."
+    }
+  ]
+}

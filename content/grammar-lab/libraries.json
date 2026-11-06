@@ -1,0 +1,116 @@
+{
+  "id": "libraries",
+  "ur": "کتاب دوستی",
+  "en": "Friends with Books",
+  "grammarPoint": {
+    "ur": "سببی افعال: پڑھوانا، بنوانا، لکھوانا",
+    "en": "Causative verbs: پڑھوانا, بنوانا, لکھوانا"
+  },
+  "cloze": {
+    "passage": "ہمارے پرنسپل نے اسکول میں نیا کتب خانہ (1)_____۔ انہوں نے شہر کے ایک دکان دار سے نئی الماریاں (2)_____۔ پہلے دن استاد صاحب نے ہم سے ایک کہانی بلند آواز میں (3)_____۔ کتاب دار نے ہم سے رجسٹر میں اپنے نام (4)_____۔ اب ہر ہفتے بچوں سے کتابوں پر تبصرہ بھی (5)_____ جاتا ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "بنوایا",
+          "بنا",
+          "بنتا",
+          "بنوانا"
+        ],
+        "a": 0,
+        "en": "کتب خانہ (masc.) بنوایا = had a library built"
+      },
+      {
+        "opts": [
+          "منگوایا",
+          "منگوائیں",
+          "منگوانا",
+          "منگوائی"
+        ],
+        "a": 1,
+        "en": "الماریاں is feminine plural: منگوائیں = had them brought"
+      },
+      {
+        "opts": [
+          "پڑھوایا",
+          "پڑھوائے",
+          "پڑھوائی",
+          "پڑھوانا"
+        ],
+        "a": 2,
+        "en": "کہانی is feminine singular: پڑھوائی = had (us) read"
+      },
+      {
+        "opts": [
+          "لکھوائی",
+          "لکھوانا",
+          "لکھوائیں",
+          "لکھوائے"
+        ],
+        "a": 3,
+        "en": "نام (plural here) is masculine: لکھوائے"
+      },
+      {
+        "opts": [
+          "لکھوایا",
+          "لکھوائی",
+          "لکھوانا",
+          "لکھوا"
+        ],
+        "a": 0,
+        "en": "Causative passive: تبصرہ لکھوایا جاتا ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "پرنسپل کے کہنے پر مستری نے کتب خانہ بنایا۔",
+      "stem": "پرنسپل نے مستری سے کتب خانہ ____۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "بنوایا"
+      ],
+      "en": "At the principal's request, the builder built the library."
+    },
+    {
+      "original": "استاد کے کہنے پر علی نے نظم پڑھی۔",
+      "stem": "استاد نے علی سے نظم ____۔",
+      "instruction_ur": "سببی فعل استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using a causative verb",
+      "answers": [
+        "پڑھوائی"
+      ],
+      "en": "At the teacher's request, Ali read the poem."
+    },
+    {
+      "original": "میرے کہنے پر کتاب دار نے میرا نام لکھا۔",
+      "stem": "میں نے کتاب دار سے اپنا نام ____۔",
+      "instruction_ur": "سببی فعل استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using a causative verb",
+      "answers": [
+        "لکھوایا"
+      ],
+      "en": "At my request, the librarian wrote my name."
+    },
+    {
+      "original": "یہ کتاب کل تک لوٹا دیں۔",
+      "stem": "یہ کتاب کل تک ____ کر دیں۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "واپس"
+      ],
+      "en": "Return this book by tomorrow."
+    },
+    {
+      "original": "کتاب دار نے مجھے دو کتابیں جاری کیں۔",
+      "stem": "مجھے دو کتابیں جاری ____ گئیں۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "کی"
+      ],
+      "en": "The librarian issued me two books."
+    }
+  ]
+}

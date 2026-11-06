@@ -1,0 +1,94 @@
+{
+  "id": "friendship",
+  "ur": "دوستی",
+  "en": "Friendship",
+  "warmup": [
+    {
+      "en": "A true friend keeps your secret.",
+      "bank": [
+        "راز",
+        "رکھتا ہے",
+        "آپ کا",
+        "سچا دوست"
+      ],
+      "answer": [
+        "سچا دوست",
+        "آپ کا",
+        "راز",
+        "رکھتا ہے"
+      ]
+    },
+    {
+      "en": "He said that he was sorry.",
+      "bank": [
+        "کہ",
+        "شرمندہ ہے",
+        "اس نے",
+        "وہ",
+        "کہا"
+      ],
+      "answer": [
+        "اس نے",
+        "کہا",
+        "کہ",
+        "وہ",
+        "شرمندہ ہے"
+      ]
+    },
+    {
+      "en": "We have been friends since childhood.",
+      "bank": [
+        "دوست",
+        "ہیں",
+        "بچپن سے",
+        "ہم"
+      ],
+      "answer": [
+        "ہم",
+        "بچپن سے",
+        "دوست",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "Jealousy weakens friendship.",
+      "bank": [
+        "کمزور",
+        "حسد",
+        "کرتا ہے",
+        "دوستی کو"
+      ],
+      "answer": [
+        "حسد",
+        "دوستی کو",
+        "کمزور",
+        "کرتا ہے"
+      ]
+    },
+    {
+      "en": "She asked me for advice.",
+      "bank": [
+        "مشورہ",
+        "مانگا",
+        "مجھ سے",
+        "اس نے"
+      ],
+      "answer": [
+        "اس نے",
+        "مجھ سے",
+        "مشورہ",
+        "مانگا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Most of us make our first real friends at school. A good friend is someone who laughs with us on happy days and stays beside us when things go wrong. Friendship is built on trust, so a true friend keeps our secrets and tells us the truth, even when it is hard to hear. Of course, even the closest friends sometimes argue. Many quarrels begin with a small misunderstanding, especially when people chat through messages and cannot hear each other's tone. The best way to solve such a problem is to meet, listen carefully and, if necessary, say sorry. When my friend once told me that I had hurt her feelings, I apologised at once, and our friendship became even stronger.",
+    "modelUr": "ہم میں سے اکثر اپنے پہلے سچے دوست اسکول میں بناتے ہیں۔ اچھا دوست وہ ہوتا ہے جو خوشی کے دنوں میں ہمارے ساتھ ہنستا ہے اور جب حالات بگڑ جائیں تو ہمارے ساتھ کھڑا رہتا ہے۔ دوستی بھروسے پر قائم ہوتی ہے، اس لیے سچا دوست ہمارے راز رکھتا ہے اور ہمیں سچ بتاتا ہے، چاہے وہ سننے میں کڑوا ہی کیوں نہ ہو۔ ظاہر ہے، سب سے قریبی دوست بھی کبھی کبھی جھگڑ پڑتے ہیں۔ بہت سے جھگڑے ایک چھوٹی سی غلط فہمی سے شروع ہوتے ہیں، خاص طور پر جب لوگ پیغامات کے ذریعے بات کرتے ہیں اور ایک دوسرے کا لہجہ نہیں سن سکتے۔ ایسے مسئلے کو حل کرنے کا بہترین طریقہ یہ ہے کہ ملا جائے، غور سے سنا جائے اور ضرورت ہو تو معافی مانگ لی جائے۔ ایک بار جب میری سہیلی نے مجھ سے کہا کہ میں نے اس کا دل دکھایا ہے، تو میں نے فوراً معافی مانگ لی، اور ہماری دوستی پہلے سے بھی زیادہ مضبوط ہو گئی۔",
+    "checklist": [
+      "کیا آپ نے ‘told me that I had hurt her feelings’ کا ترجمہ بالواسطہ بیان (کہا کہ میں نے…) سے کیا؟",
+      "کیا ‘even when it is hard to hear’ کا ترجمہ ‘چاہے… ہی کیوں نہ ہو’ جیسی ساخت سے کیا؟",
+      "کیا ‘tone’ کے لیے ‘لہجہ’ اور ‘misunderstanding’ کے لیے ‘غلط فہمی’ استعمال کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

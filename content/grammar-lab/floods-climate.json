@@ -1,0 +1,117 @@
+{
+  "id": "floods-climate",
+  "ur": "امداد کی کہانی",
+  "en": "A Story of Relief",
+  "grammarPoint": {
+    "ur": "فعل مجہول: کیا گیا، کیا جائے گا، کیا جا رہا ہے",
+    "en": "The passive voice: was done, will be done, is being done"
+  },
+  "cloze": {
+    "passage": "سیلاب کے بعد گاؤں کے لوگوں کو کشتیوں کے ذریعے محفوظ مقام پر (1)_____ گیا۔ وہاں ان کے لیے خیمے (2)_____ گئے۔ ہر خاندان کو روزانہ کھانا (3)_____ جاتا تھا۔ بچوں کے لیے ایک عارضی اسکول بھی (4)_____ گیا۔ اب تباہ شدہ گھروں کو دوبارہ (5)_____ جا رہا ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "پہنچایا",
+          "پہنچائے",
+          "پہنچائی",
+          "پہنچانا"
+        ],
+        "a": 0,
+        "en": "لوگوں کو + passive → masculine singular: پہنچایا گیا"
+      },
+      {
+        "opts": [
+          "لگایا",
+          "لگائی",
+          "لگائے",
+          "لگانا"
+        ],
+        "a": 2,
+        "en": "خیمے is masculine plural: لگائے گئے"
+      },
+      {
+        "opts": [
+          "دی",
+          "دیا",
+          "دیے",
+          "دینا"
+        ],
+        "a": 1,
+        "en": "کھانا is masculine singular: دیا جاتا تھا"
+      },
+      {
+        "opts": [
+          "کھولا",
+          "کھولی",
+          "کھولے",
+          "کھولنا"
+        ],
+        "a": 0,
+        "en": "اسکول is masculine singular: کھولا گیا"
+      },
+      {
+        "opts": [
+          "بنانا",
+          "بنائی",
+          "بنائے",
+          "بنایا"
+        ],
+        "a": 3,
+        "en": "گھروں کو + continuous passive: بنایا جا رہا ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "رضاکاروں نے متاثرین میں کھانا تقسیم کیا۔",
+      "stem": "متاثرین میں کھانا تقسیم ____ گیا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "کیا"
+      ],
+      "en": "The volunteers distributed food among the victims."
+    },
+    {
+      "original": "مزدوروں نے نئے پل بنائے۔",
+      "stem": "نئے پل ____ گئے۔",
+      "instruction_ur": "مجہول ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the passive",
+      "answers": [
+        "بنائے"
+      ],
+      "en": "The workers built new bridges."
+    },
+    {
+      "original": "ہم کل امدادی سامان روانہ کریں گے۔",
+      "stem": "امدادی سامان کل روانہ کیا ____ گا۔",
+      "instruction_ur": "مستقبل مجہول میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the future passive",
+      "answers": [
+        "جائے"
+      ],
+      "en": "We will dispatch the relief goods tomorrow."
+    },
+    {
+      "original": "ڈاکٹر مریضوں کا علاج کر رہے ہیں۔",
+      "stem": "مریضوں کا علاج کیا ____ رہا ہے۔",
+      "instruction_ur": "جاری مجہول میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the continuous passive",
+      "answers": [
+        "جا"
+      ],
+      "en": "The doctors are treating the patients."
+    },
+    {
+      "original": "سیلاب سے متاثرہ لوگوں کو مدد کی ضرورت ہے۔",
+      "stem": "سیلاب ____ کو مدد کی ضرورت ہے۔",
+      "instruction_ur": "ایک لفظ لگا کر جملہ مختصر کریں",
+      "instruction_en": "Shorten the sentence using one word",
+      "answers": [
+        "زدگان",
+        "متاثرین"
+      ],
+      "en": "The people affected by the flood need help."
+    }
+  ]
+}

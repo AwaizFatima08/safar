@@ -1,0 +1,263 @@
+{
+  "id": "time-management",
+  "ur": "وقت کا انتظام",
+  "en": "Time Management",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ بہت سے طلبہ پڑھائی کو چھوٹے حصوں میں بانٹ کر اور درمیان میں مختصر وقفہ لے کر زیادہ بہتر یاد رکھتے ہیں۔",
+    "en": "Did you know? Many students remember more when they split their study into short sessions with brief breaks in between."
+  },
+  "vocab": [
+    {
+      "ur": "وقت",
+      "en": "time",
+      "ex_ur": "وقت کسی کا انتظار نہیں کرتا۔",
+      "ex_en": "Time waits for no one."
+    },
+    {
+      "ur": "منصوبہ بندی",
+      "en": "planning",
+      "ex_ur": "اچھی منصوبہ بندی سے کام آسان ہو جاتا ہے۔",
+      "ex_en": "Good planning makes work easier."
+    },
+    {
+      "ur": "نظام الاوقات",
+      "en": "timetable / schedule",
+      "ex_ur": "میں نے امتحان کے لیے نظام الاوقات بنایا۔",
+      "ex_en": "I made a timetable for the exams.",
+      "syn": "ٹائم ٹیبل"
+    },
+    {
+      "ur": "ترجیح",
+      "en": "priority",
+      "ex_ur": "سب سے اہم کام کو ترجیح دیں۔",
+      "ex_en": "Give priority to the most important task."
+    },
+    {
+      "ur": "ٹال مٹول",
+      "en": "putting things off / procrastination",
+      "ex_ur": "ٹال مٹول کی عادت نقصان دہ ہے۔",
+      "ex_en": "The habit of putting things off is harmful."
+    },
+    {
+      "ur": "پابندی",
+      "en": "punctuality / regularity",
+      "ex_ur": "وقت کی پابندی کامیابی کی کنجی ہے۔",
+      "ex_en": "Punctuality is the key to success."
+    },
+    {
+      "ur": "وقفہ",
+      "en": "break / pause",
+      "ex_ur": "ہر گھنٹے بعد دس منٹ کا وقفہ لیں۔",
+      "ex_en": "Take a ten-minute break after every hour."
+    },
+    {
+      "ur": "ہدف",
+      "en": "target / goal",
+      "ex_ur": "ہر ہفتے کا ایک ہدف مقرر کریں۔",
+      "ex_en": "Set a goal for every week.",
+      "syn": "مقصد"
+    },
+    {
+      "ur": "ضائع کرنا",
+      "en": "to waste",
+      "ex_ur": "موبائل پر وقت ضائع نہ کریں۔",
+      "ex_en": "Don't waste time on your mobile."
+    },
+    {
+      "ur": "نظم و ضبط",
+      "en": "discipline",
+      "ex_ur": "نظم و ضبط کے بغیر کوئی منصوبہ کامیاب نہیں ہوتا۔",
+      "ex_en": "Without discipline no plan succeeds."
+    }
+  ],
+  "reading": {
+    "passage": "وقت ایک قیمتی دولت ہے جو ایک بار گزر جائے تو واپس نہیں آتی۔ کامیاب طلبہ اپنے دن کی منصوبہ بندی کرتے ہیں۔ وہ رات کو سونے سے پہلے اگلے دن کے کاموں کی فہرست بناتے ہیں اور سب سے اہم کام کو ترجیح دیتے ہیں۔ پڑھائی کے دوران ہر گھنٹے بعد مختصر وقفہ لینا دماغ کو تازہ رکھتا ہے۔ ٹال مٹول سب سے بڑا دشمن ہے، کیونکہ ہم کام کو جتنا ٹالتے ہیں، وہ اتنا ہی مشکل لگنے لگتا ہے۔",
+    "questions": [
+      {
+        "q": "کامیاب طلبہ کاموں کی فہرست کب بناتے ہیں؟",
+        "opts": [
+          "صبح ناشتے کے بعد",
+          "اسکول میں",
+          "رات کو سونے سے پہلے",
+          "امتحان کے دن"
+        ],
+        "a": 2
+      },
+      {
+        "q": "وقت کو کیا کہا گیا ہے؟",
+        "opts": [
+          "قیمتی دولت",
+          "بوجھ",
+          "کھیل",
+          "مسئلہ"
+        ],
+        "a": 0
+      },
+      {
+        "q": "دماغ کو تازہ رکھنے کے لیے کیا کرنا چاہیے؟",
+        "opts": [
+          "رات بھر جاگنا",
+          "ٹی وی دیکھنا",
+          "کھانا چھوڑ دینا",
+          "ہر گھنٹے بعد مختصر وقفہ لینا"
+        ],
+        "a": 3
+      },
+      {
+        "q": "سب سے بڑا دشمن کسے کہا گیا ہے؟",
+        "opts": [
+          "کھیل کو",
+          "ٹال مٹول کو",
+          "دوستوں کو",
+          "نیند کو"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "انتظار",
+          "نہیں کرتا",
+          "وقت",
+          "کسی کا"
+        ],
+        "answer": [
+          "وقت",
+          "کسی کا",
+          "انتظار",
+          "نہیں کرتا"
+        ],
+        "en": "Time waits for no one."
+      },
+      {
+        "bank": [
+          "ترجیح",
+          "دیں",
+          "اہم کام کو",
+          "سب سے"
+        ],
+        "answer": [
+          "سب سے",
+          "اہم کام کو",
+          "ترجیح",
+          "دیں"
+        ],
+        "en": "Give priority to the most important task."
+      },
+      {
+        "bank": [
+          "ضائع",
+          "موبائل پر",
+          "نہ کریں",
+          "وقت"
+        ],
+        "answer": [
+          "موبائل پر",
+          "وقت",
+          "ضائع",
+          "نہ کریں"
+        ],
+        "en": "Don't waste time on your mobile."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "وقت کی ____ کامیابی کی کنجی ہے۔",
+        "opts": [
+          "پابندی",
+          "بربادی",
+          "چوری",
+          "قیمت"
+        ],
+        "a": 0,
+        "en": "___ (punctuality) is the key to success."
+      },
+      {
+        "text": "ہر گھنٹے بعد دس منٹ کا ____ لیں۔",
+        "opts": [
+          "امتحان",
+          "وقفہ",
+          "کھانا",
+          "سبق"
+        ],
+        "a": 1,
+        "en": "Take a ten-minute ___ after every hour."
+      },
+      {
+        "text": "اچھی ____ سے کام آسان ہو جاتا ہے۔",
+        "opts": [
+          "نیند",
+          "بارش",
+          "منصوبہ بندی",
+          "کہانی"
+        ],
+        "a": 2,
+        "en": "Good ___ makes work easier."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اپنا وقت بہتر طریقے سے استعمال کرنے کے لیے کون سی تین عادتیں اپنائیں گے؟ تین جملے لکھیں۔",
+      "en": "Which three habits will you adopt to use your time better? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "‘جتنا… اتنا’ اور ترتیب کے الفاظ — ‘The more… the more’ and sequence words",
+    "explain": "جتنا… اتنا links two parts of a sentence: the more (or sooner) one thing happens, the more another follows. جتنا جلد… اتنا ہی بہتر = the sooner…, the better. جتنا and اتنا agree like adjectives: جتنی محنت… اتنی کامیابی (feminine), جتنے زیادہ نمبر… (masculine plural). ہی after اتنا adds emphasis. Sequence words put steps in order: سب سے پہلے (first of all), پھر / اس کے بعد (then / after that), آخر میں (finally).",
+    "rows": [
+      [
+        "جتنا جلد کام شروع کریں گے، اتنا ہی جلد ختم ہو گا۔",
+        "The sooner you start the work, the sooner it will be finished."
+      ],
+      [
+        "جتنی محنت کرو گے، اتنی ہی کامیابی ملے گی۔",
+        "The harder you work, the more success you will get."
+      ],
+      [
+        "سب سے پہلے کاموں کی فہرست بنائیں، پھر انہیں ترتیب دیں۔",
+        "First of all make a list of tasks, then put them in order."
+      ],
+      [
+        "اس کے بعد پڑھائی شروع کریں اور آخر میں دہرائی کریں۔",
+        "After that start studying, and finally revise."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "جتنا زیادہ سوئیں گے، ____ ہی زیادہ وقت ضائع ہو گا۔",
+        "opts": [
+          "اتنا",
+          "جتنا",
+          "کتنا",
+          "ایسا"
+        ],
+        "a": 0,
+        "en": "The more you sleep, the more time will be wasted."
+      },
+      {
+        "q": "____ محنت کرو گے، اتنی ہی کامیابی ملے گی۔",
+        "opts": [
+          "اتنی",
+          "جتنی",
+          "جتنا",
+          "کتنی"
+        ],
+        "a": 1,
+        "en": "The harder you work, the more success you will get."
+      },
+      {
+        "q": "سب سے پہلے فہرست بنائیں، ____ کام شروع کریں۔",
+        "opts": [
+          "آخر",
+          "پھر",
+          "پہلے",
+          "جتنا"
+        ],
+        "a": 1,
+        "en": "First make a list, then start work."
+      }
+    ]
+  }
+}

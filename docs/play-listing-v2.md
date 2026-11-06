@@ -18,10 +18,10 @@ Practise for Cambridge O Level Urdu (Second Language, 3248) and IGCSE Urdu (Fore
 The two Cambridge Urdu qualifications share most of the same core vocabulary, topics and skills, and Urdu Safar practises exactly those. Instead of another textbook, it turns exam prep into bite-sized, repeatable practice.
 
 VOCABULARY & IDIOMS
-Spaced-repetition flashcards covering 370 words across every topic, a mixed word-match quiz, and a drill for the 30 idioms (محاورے) tested in Paper 2.
+Spaced-repetition flashcards covering 570 words across every topic, a mixed word-match quiz, and a drill for the 30 idioms (محاورے) tested in Paper 2.
 
-37 TOPICS, FULLY WORKED
-Every core topic (Home & Family, School Life, Festivals & Culture, and more) plus 20 new ones — from Mohenjo-daro and the Karakoram Highway to earthquake safety, solar energy and truck art — with vocabulary, reading, writing and grammar practice at three difficulty levels, plus a cultural note for context.
+57 TOPICS, FULLY WORKED
+Every core topic (Home & Family, School Life, Festivals & Culture, and more) plus 40 newer ones — from Mohenjo-daro and the Karakoram Highway to careers, online shopping, Edhi, smog and space — with vocabulary, reading, writing and grammar practice at three difficulty levels, plus a cultural note for context.
 
 10 WRITING SKILLS, WITH SAMPLE ANSWERS
 Letter-writing, dialogue and other functional-writing genres with model answers and guided prompts.
@@ -36,7 +36,7 @@ TRANSLATION
 English-to-Urdu sentence-building warm-ups plus full passage translation with a model answer and checklist.
 
 SUMMARY & EXTENDED WRITING
-Condense a passage to under 100 words, or write an email, report, article, blog post, review or application (150–200 words) covering three set points, with a live word counter — each with a model answer to self-assess against.
+Condense a passage to under 100 words, or write an email, letter, report, article, blog post, speech, diary entry, story, review or application (150–200 words) covering three set points, with a live word counter — each with a model answer to self-assess against.
 
 PROGRESS & MOTIVATION
 Earn gold, silver and bronze medals as you go. Track your practice on this device's leaderboard and — with a free account — join up to 5 private groups by invite code to compare medals with classmates, synced across devices. No chat or messaging, just the leaderboard.

@@ -1,0 +1,88 @@
+{
+  "id": "summer-internship",
+  "ur": "گرمیوں کی انٹرن شپ",
+  "en": "Summer Internship",
+  "warmup": [
+    {
+      "en": "I have sent my application.",
+      "bank": [
+        "بھیج",
+        "دی ہے",
+        "اپنی درخواست",
+        "میں نے"
+      ],
+      "answer": [
+        "میں نے",
+        "اپنی درخواست",
+        "بھیج",
+        "دی ہے"
+      ]
+    },
+    {
+      "en": "She has already done an internship.",
+      "bank": [
+        "چکی ہے",
+        "وہ",
+        "کر",
+        "ایک انٹرن شپ"
+      ],
+      "answer": [
+        "وہ",
+        "ایک انٹرن شپ",
+        "کر",
+        "چکی ہے"
+      ]
+    },
+    {
+      "en": "Please give me a chance.",
+      "bank": [
+        "دیجیے",
+        "ایک موقع",
+        "براہِ کرم",
+        "مجھے"
+      ],
+      "answer": [
+        "براہِ کرم",
+        "مجھے",
+        "ایک موقع",
+        "دیجیے"
+      ]
+    },
+    {
+      "en": "The closing date is 31 May.",
+      "bank": [
+        "31 مئی",
+        "ہے",
+        "آخری تاریخ"
+      ],
+      "answer": [
+        "آخری تاریخ",
+        "31 مئی",
+        "ہے"
+      ]
+    },
+    {
+      "en": "We learned teamwork.",
+      "bank": [
+        "سیکھا",
+        "ہم نے",
+        "ٹیم ورک"
+      ],
+      "answer": [
+        "ہم نے",
+        "ٹیم ورک",
+        "سیکھا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Last summer I did a six-week internship at a small design company in Islamabad. I had already designed posters for my school's events, so I applied with a short letter and a few samples of my work. On the first day I was nervous, but my supervisor was very kind. She explained the rules of the office and asked me to arrive on time every day. During the first two weeks I only made small changes to other people's designs. Later I was given my own task: a poster for a children's book fair. When it was printed, I felt very proud. The internship taught me that every job, however small, should be done carefully. At the end, the company gave me a certificate and a letter of recommendation.",
+    "modelUr": "پچھلی گرمیوں میں میں نے اسلام آباد کی ایک چھوٹی ڈیزائن کمپنی میں چھ ہفتے کی انٹرن شپ کی۔ میں پہلے ہی اپنے اسکول کی تقریبات کے لیے پوسٹر بنا چکی تھی، اس لیے میں نے ایک مختصر خط اور اپنے کام کے چند نمونوں کے ساتھ درخواست دی۔ پہلے دن میں گھبرائی ہوئی تھی، مگر میری نگران بہت مہربان تھیں۔ انہوں نے مجھے دفتر کے اصول سمجھائے اور کہا کہ میں روزانہ وقت پر پہنچوں۔ پہلے دو ہفتوں میں میں نے دوسروں کے ڈیزائنوں میں صرف چھوٹی موٹی تبدیلیاں کیں۔ بعد میں مجھے اپنا کام دیا گیا: بچوں کے کتاب میلے کے لیے ایک پوسٹر۔ جب وہ چھپا تو مجھے بہت فخر محسوس ہوا۔ اس انٹرن شپ نے مجھے سکھایا کہ ہر کام، چاہے کتنا ہی چھوٹا ہو، احتیاط سے کرنا چاہیے۔ آخر میں کمپنی نے مجھے ایک سند اور ایک سفارشی خط دیا۔",
+    "checklist": [
+      "کیا آپ نے ‘I had already designed’ کا ترجمہ ‘بنا چکی تھی’ سے کیا؟",
+      "کیا ‘I was given my own task’ کو مجہول ساخت (مجھے… دیا گیا) میں لکھا؟",
+      "کیا ‘however small’ کا ترجمہ ‘چاہے کتنا ہی چھوٹا ہو’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

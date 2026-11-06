@@ -1,0 +1,267 @@
+{
+  "id": "career-choice",
+  "ur": "پیشے کا انتخاب",
+  "en": "Choosing a Career",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ ماہرین مشورہ دیتے ہیں کہ پیشہ چنتے وقت تین چیزیں دیکھیں: اپنی دلچسپی، اپنی صلاحیت اور اس کام کے مستقبل میں مواقع۔",
+    "en": "Did you know? Experts advise looking at three things when choosing a career: your interest, your ability and the future opportunities in that work."
+  },
+  "vocab": [
+    {
+      "ur": "پیشہ",
+      "en": "profession / career",
+      "ex_ur": "تدریس ایک معزز پیشہ ہے۔",
+      "ex_en": "Teaching is a respected profession.",
+      "syn": "شعبہ"
+    },
+    {
+      "ur": "دلچسپی",
+      "en": "interest",
+      "ex_ur": "مجھے سائنس میں بہت دلچسپی ہے۔",
+      "ex_en": "I am very interested in science.",
+      "syn": "شوق"
+    },
+    {
+      "ur": "صلاحیت",
+      "en": "ability",
+      "ex_ur": "ہر طالب علم میں کوئی نہ کوئی صلاحیت ہوتی ہے۔",
+      "ex_en": "Every student has some ability or other.",
+      "syn": "قابلیت"
+    },
+    {
+      "ur": "ارادہ",
+      "en": "intention / plan",
+      "ex_ur": "میرا انجینئر بننے کا ارادہ ہے۔",
+      "ex_en": "I intend to become an engineer."
+    },
+    {
+      "ur": "مشورہ",
+      "en": "advice",
+      "ex_ur": "پیشہ چننے سے پہلے اساتذہ سے مشورہ کریں۔",
+      "ex_en": "Ask your teachers for advice before choosing a career."
+    },
+    {
+      "ur": "مستقبل",
+      "en": "future",
+      "ex_ur": "ہر نوجوان اپنے مستقبل کے بارے میں سوچتا ہے۔",
+      "ex_en": "Every young person thinks about their future."
+    },
+    {
+      "ur": "ہنر",
+      "en": "skill",
+      "ex_ur": "ہنر مند لوگوں کو آسانی سے کام مل جاتا ہے۔",
+      "ex_en": "Skilled people find work easily."
+    },
+    {
+      "ur": "تجربہ",
+      "en": "experience",
+      "ex_ur": "اس کام کے لیے تھوڑا تجربہ ضروری ہے۔",
+      "ex_en": "Some experience is needed for this job."
+    },
+    {
+      "ur": "محنت",
+      "en": "hard work",
+      "ex_ur": "محنت کے بغیر کامیابی نہیں ملتی۔",
+      "ex_en": "Success does not come without hard work."
+    },
+    {
+      "ur": "ملازمت",
+      "en": "job / employment",
+      "ex_ur": "میرے بڑے بھائی کو بینک میں ملازمت مل گئی۔",
+      "ex_en": "My elder brother got a job in a bank.",
+      "syn": "نوکری"
+    }
+  ],
+  "reading": {
+    "passage": "ثنا دسویں جماعت کی طالبہ ہے۔ اسے کمپیوٹر میں بہت دلچسپی ہے اور اس کا ارادہ ہے کہ وہ سافٹ ویئر انجینئر بنے۔ پچھلے ہفتے اس کے اسکول میں کیریئر میلہ لگا جہاں مختلف پیشوں کے ماہرین آئے۔ ایک کونسلر نے طلبہ کو مشورہ دیا کہ پیشہ چنتے وقت صرف تنخواہ کو نہ دیکھیں بلکہ اپنی دلچسپی اور صلاحیت کو بھی پہچانیں۔ ثنا نے فیصلہ کیا کہ وہ اگلی گرمیوں میں کمپیوٹر کا ایک مختصر کورس کرے گی۔",
+    "questions": [
+      {
+        "q": "ثنا کس جماعت میں پڑھتی ہے؟",
+        "opts": [
+          "نویں",
+          "دسویں",
+          "گیارہویں",
+          "آٹھویں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "ثنا کیا بننا چاہتی ہے؟",
+        "opts": [
+          "ڈاکٹر",
+          "استاد",
+          "پائلٹ",
+          "سافٹ ویئر انجینئر"
+        ],
+        "a": 3
+      },
+      {
+        "q": "کونسلر نے طلبہ کو کیا مشورہ دیا؟",
+        "opts": [
+          "دلچسپی اور صلاحیت کو بھی پہچانیں",
+          "صرف تنخواہ کو دیکھیں",
+          "کوئی پیشہ نہ چنیں",
+          "دوستوں کی نقل کریں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "ثنا اگلی گرمیوں میں کیا کرے گی؟",
+        "opts": [
+          "سیر کرے گی",
+          "نوکری کرے گی",
+          "کمپیوٹر کا کورس کرے گی",
+          "کتاب لکھے گی"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ارادہ",
+          "ہے",
+          "میرا",
+          "بننے کا",
+          "ڈاکٹر"
+        ],
+        "answer": [
+          "میرا",
+          "ڈاکٹر",
+          "بننے کا",
+          "ارادہ",
+          "ہے"
+        ],
+        "en": "I intend to become a doctor."
+      },
+      {
+        "bank": [
+          "چاہتی ہوں",
+          "استاد",
+          "میں",
+          "بننا"
+        ],
+        "answer": [
+          "میں",
+          "استاد",
+          "بننا",
+          "چاہتی ہوں"
+        ],
+        "en": "I want to become a teacher."
+      },
+      {
+        "bank": [
+          "ملتی",
+          "ہے",
+          "کامیابی",
+          "محنت سے"
+        ],
+        "answer": [
+          "محنت سے",
+          "کامیابی",
+          "ملتی",
+          "ہے"
+        ],
+        "en": "Success comes from hard work."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "پیشہ چننے سے پہلے اساتذہ سے ____ کریں۔",
+        "opts": [
+          "مشورہ",
+          "لڑائی",
+          "مذاق",
+          "شکایت"
+        ],
+        "a": 0,
+        "en": "Ask your teachers for ___ before choosing a career."
+      },
+      {
+        "text": "مجھے سائنس میں بہت ____ ہے۔",
+        "opts": [
+          "غصہ",
+          "دلچسپی",
+          "تھکن",
+          "ڈر"
+        ],
+        "a": 1,
+        "en": "I have a lot of ___ in science."
+      },
+      {
+        "text": "____ کے بغیر کامیابی نہیں ملتی۔",
+        "opts": [
+          "آرام",
+          "نیند",
+          "محنت",
+          "کھیل"
+        ],
+        "a": 2,
+        "en": "Success does not come without hard ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ بڑے ہو کر کیا بننا چاہتے ہیں اور کیوں؟ ‘چاہتا/چاہتی ہوں’ اور ‘ارادہ’ استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "What do you want to become when you grow up, and why? Write three sentences using ‘want to’ and ‘intention’."
+    }
+  },
+  "grammar": {
+    "title": "مستقبل اور ارادہ — Future and intention: گا/گی/گے، چاہتا ہوں، ارادہ ہے",
+    "explain": "The future tense adds گا / گی / گے to the subjunctive verb: میں پڑھوں گا (I will study, boy), میں پڑھوں گی (girl), ہم پڑھیں گے (we will study). To talk about wishes, use the infinitive + چاہنا: میں ڈاکٹر بننا چاہتا ہوں / چاہتی ہوں. For a firm plan, use ارادہ: میرا ارادہ ہے کہ میں… or میرا انجینئر بننے کا ارادہ ہے (note the oblique بننے کا before ارادہ).",
+    "rows": [
+      [
+        "میں بڑا ہو کر پائلٹ بنوں گا۔",
+        "When I grow up I will become a pilot."
+      ],
+      [
+        "زینب استاد بننا چاہتی ہے۔",
+        "Zainab wants to become a teacher."
+      ],
+      [
+        "میرا ارادہ ہے کہ میں میڈیکل کالج میں داخلہ لوں۔",
+        "I intend to get admission to a medical college."
+      ],
+      [
+        "ہم اگلے سال کیریئر میلے میں ضرور جائیں گے۔",
+        "We will definitely go to the careers fair next year."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "میں اگلے سال کمپیوٹر کا کورس ____۔",
+        "opts": [
+          "کروں گی",
+          "کرتی تھی",
+          "کیا",
+          "کر رہی تھی"
+        ],
+        "a": 0,
+        "en": "I will do a computer course next year."
+      },
+      {
+        "q": "احمد انجینئر ____ چاہتا ہے۔",
+        "opts": [
+          "بنے",
+          "بننا",
+          "بنا",
+          "بنتا"
+        ],
+        "a": 1,
+        "en": "Ahmed wants to become an engineer."
+      },
+      {
+        "q": "میرا وکیل بننے ____ ارادہ ہے۔",
+        "opts": [
+          "کی",
+          "کے",
+          "کا",
+          "کو"
+        ],
+        "a": 2,
+        "en": "I intend to become a lawyer."
+      }
+    ]
+  }
+}

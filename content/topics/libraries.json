@@ -1,0 +1,264 @@
+{
+  "id": "libraries",
+  "ur": "کتب خانے اور مطالعہ",
+  "en": "Libraries and Reading",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ آج کل بہت سے کتب خانے صرف کتابیں رکھنے کی جگہ نہیں رہے؛ ان میں کمپیوٹر، اخبارات اور بچوں کے لیے کہانی سنانے کے پروگرام بھی ہوتے ہیں۔",
+    "en": "Did you know? Many libraries today are more than places to keep books; they also offer computers, newspapers and storytelling sessions for children."
+  },
+  "vocab": [
+    {
+      "ur": "کتب خانہ",
+      "en": "library",
+      "ex_ur": "ہمارے محلے میں ایک نیا کتب خانہ کھلا ہے۔",
+      "ex_en": "A new library has opened in our neighbourhood.",
+      "syn": "لائبریری"
+    },
+    {
+      "ur": "رکنیت",
+      "en": "membership",
+      "ex_ur": "میں نے کتب خانے کی رکنیت حاصل کر لی ہے۔",
+      "ex_en": "I have got library membership."
+    },
+    {
+      "ur": "مطالعہ",
+      "en": "reading / study",
+      "ex_ur": "روزانہ مطالعہ ذہن کو تیز کرتا ہے۔",
+      "ex_en": "Reading every day sharpens the mind."
+    },
+    {
+      "ur": "کتاب دار",
+      "en": "librarian",
+      "ex_ur": "کتاب دار نے مجھے سائنس کی ایک اچھی کتاب بتائی۔",
+      "ex_en": "The librarian suggested a good science book to me.",
+      "syn": "لائبریرین"
+    },
+    {
+      "ur": "جاری کرنا",
+      "en": "to issue (a book)",
+      "ex_ur": "یہ کتاب دو ہفتوں کے لیے جاری کی گئی ہے۔",
+      "ex_en": "This book has been issued for two weeks."
+    },
+    {
+      "ur": "واپس کرنا",
+      "en": "to return",
+      "ex_ur": "کتاب وقت پر واپس کرنا نہ بھولیں۔",
+      "ex_en": "Don't forget to return the book on time.",
+      "syn": "لوٹانا"
+    },
+    {
+      "ur": "جرمانہ",
+      "en": "fine (penalty)",
+      "ex_ur": "دیر سے کتاب لوٹانے پر جرمانہ دینا پڑا۔",
+      "ex_en": "I had to pay a fine for returning the book late."
+    },
+    {
+      "ur": "علم",
+      "en": "knowledge",
+      "ex_ur": "کتابیں علم کا خزانہ ہیں۔",
+      "ex_en": "Books are a treasure of knowledge."
+    },
+    {
+      "ur": "رسالہ",
+      "en": "magazine",
+      "ex_ur": "مجھے بچوں کا ماہانہ رسالہ بہت پسند ہے۔",
+      "ex_en": "I really like the monthly children's magazine."
+    },
+    {
+      "ur": "خاموشی",
+      "en": "silence",
+      "ex_ur": "مطالعہ ہال میں مکمل خاموشی ہوتی ہے۔",
+      "ex_en": "There is complete silence in the reading hall."
+    }
+  ],
+  "reading": {
+    "passage": "علم حاصل کرنے کا بہترین ذریعہ کتاب ہے، اور کتب خانہ وہ جگہ ہے جہاں ہزاروں کتابیں ایک ہی چھت کے نیچے مل جاتی ہیں۔ سارہ ہر جمعرات کو اپنے محلے کے کتب خانے جاتی ہے۔ وہاں کا کتاب دار اسے دو ہفتوں کے لیے دو کتابیں جاری کرتا ہے۔ اگر وہ وقت پر کتاب واپس نہ کرے تو اسے جرمانہ دینا پڑتا ہے۔ سارہ کو کہانیوں کے علاوہ سائنس کے رسالے بھی پسند ہیں۔ وہ کہتی ہے کہ کتب خانے کی خاموشی میں پڑھنے کا مزہ ہی کچھ اور ہے۔",
+    "questions": [
+      {
+        "q": "سارہ کتب خانے کس دن جاتی ہے؟",
+        "opts": [
+          "پیر",
+          "جمعرات",
+          "اتوار",
+          "ہفتہ"
+        ],
+        "a": 1
+      },
+      {
+        "q": "کتاب دار سارہ کو ایک وقت میں کتنی کتابیں جاری کرتا ہے؟",
+        "opts": [
+          "ایک",
+          "تین",
+          "چار",
+          "دو"
+        ],
+        "a": 3
+      },
+      {
+        "q": "کتاب وقت پر واپس نہ کرنے پر کیا ہوتا ہے؟",
+        "opts": [
+          "جرمانہ دینا پڑتا ہے",
+          "رکنیت ختم ہو جاتی ہے",
+          "نئی کتاب ملتی ہے",
+          "کچھ نہیں ہوتا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "سارہ کو کہانیوں کے علاوہ کیا پسند ہے؟",
+        "opts": [
+          "اخبار",
+          "نقشے",
+          "سائنس کے رسالے",
+          "شاعری"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "جاری",
+          "کتاب",
+          "کیجیے",
+          "یہ"
+        ],
+        "answer": [
+          "یہ",
+          "کتاب",
+          "جاری",
+          "کیجیے"
+        ],
+        "en": "Please issue this book."
+      },
+      {
+        "bank": [
+          "واپس",
+          "کتاب",
+          "وقت پر",
+          "کریں"
+        ],
+        "answer": [
+          "کتاب",
+          "وقت پر",
+          "واپس",
+          "کریں"
+        ],
+        "en": "Return the book on time."
+      },
+      {
+        "bank": [
+          "خاموشی",
+          "میں",
+          "رکھیں",
+          "کتب خانے"
+        ],
+        "answer": [
+          "کتب خانے",
+          "میں",
+          "خاموشی",
+          "رکھیں"
+        ],
+        "en": "Keep silent in the library."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "کتب خانے کی ____ کے لیے فارم بھریں۔",
+        "opts": [
+          "رکنیت",
+          "چھٹی",
+          "سزا",
+          "دعوت"
+        ],
+        "a": 0,
+        "en": "Fill in the form for library ___."
+      },
+      {
+        "text": "دیر سے کتاب واپس کرنے پر ____ ہوتا ہے۔",
+        "opts": [
+          "انعام",
+          "جرمانہ",
+          "میلہ",
+          "مقابلہ"
+        ],
+        "a": 1,
+        "en": "There is a ___ for returning a book late."
+      },
+      {
+        "text": "مطالعے سے ہمارے ____ میں اضافہ ہوتا ہے۔",
+        "opts": [
+          "شور",
+          "وزن",
+          "علم",
+          "غصے"
+        ],
+        "a": 2,
+        "en": "Reading increases our ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کو کس قسم کی کتابیں پڑھنا پسند ہے اور کیوں؟ تین جملے لکھیں۔",
+      "en": "What kind of books do you like to read, and why? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "سببی افعال — Causative verbs: پڑھوانا، بنوانا، لکھوانا",
+    "explain": "Urdu makes a causative verb by adding -وانا to the root: پڑھنا (to read) → پڑھوانا (to get someone to read), بننا/بنانا (to make) → بنوانا (to have something made), لکھنا → لکھوانا (to have something written / to dictate). The person who actually does the work is marked with سے: استاد نے مجھ سے کہانی پڑھوائی. In the past tense the verb agrees with the object: کہانی پڑھوائی، کتب خانہ بنوایا، نام لکھوائے.",
+    "rows": [
+      [
+        "استاد نے مجھ سے کہانی پڑھوائی۔",
+        "The teacher had me read the story."
+      ],
+      [
+        "پرنسپل نے نیا کتب خانہ بنوایا۔",
+        "The principal had a new library built."
+      ],
+      [
+        "میں نے کتاب دار سے رجسٹر میں اپنا نام لکھوایا۔",
+        "I had the librarian write my name in the register."
+      ],
+      [
+        "ہم نے پرانی کتابوں کی نئی جلدیں بنوائیں۔",
+        "We had new covers made for the old books."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "امی نے درزی سے نیا یونیفارم ____۔",
+        "opts": [
+          "بنا",
+          "بنتا",
+          "بنوایا",
+          "بنانا"
+        ],
+        "a": 2,
+        "en": "Mother had a new uniform made by the tailor."
+      },
+      {
+        "q": "استاد صاحب نے بچوں سے سبق ____۔",
+        "opts": [
+          "پڑھوایا",
+          "پڑھنا",
+          "پڑھتے",
+          "پڑھیں"
+        ],
+        "a": 0,
+        "en": "The teacher had the children read the lesson."
+      },
+      {
+        "q": "میں نے کتاب دار سے کتاب کا نمبر ____۔",
+        "opts": [
+          "لکھنا",
+          "لکھتی",
+          "لکھیں",
+          "لکھوایا"
+        ],
+        "a": 3,
+        "en": "I had the librarian write down the book's number."
+      }
+    ]
+  }
+}

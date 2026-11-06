@@ -1,0 +1,258 @@
+{
+  "id": "public-transport",
+  "ur": "میٹرو بس اور اورنج لائن",
+  "en": "Metro Bus and Orange Line",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ لاہور میں میٹرو بس 2013 میں اور اورنج لائن میٹرو ٹرین 2020 میں چلنا شروع ہوئی۔ دونوں اپنے الگ راستوں پر چلتی ہیں، اس لیے ٹریفک میں نہیں پھنستیں۔",
+    "en": "Did you know? In Lahore, the Metro Bus started running in 2013 and the Orange Line metro train in 2020. Both run on their own separate routes, so they do not get stuck in traffic."
+  },
+  "vocab": [
+    {
+      "ur": "مسافر",
+      "en": "passenger / traveller",
+      "ex_ur": "اسٹیشن پر بہت سے مسافر ٹرین کا انتظار کر رہے تھے۔",
+      "ex_en": "Many passengers were waiting for the train at the station."
+    },
+    {
+      "ur": "کرایہ",
+      "en": "fare",
+      "ex_ur": "میٹرو بس کا کرایہ زیادہ نہیں ہے۔",
+      "ex_en": "The Metro Bus fare is not high."
+    },
+    {
+      "ur": "منزل",
+      "en": "destination",
+      "ex_ur": "ہم آدھے گھنٹے میں اپنی منزل پر پہنچ گئے۔",
+      "ex_en": "We reached our destination in half an hour."
+    },
+    {
+      "ur": "روانگی",
+      "en": "departure",
+      "ex_ur": "ٹرین کی روانگی کا وقت صبح آٹھ بجے ہے۔",
+      "ex_en": "The train's departure time is eight in the morning."
+    },
+    {
+      "ur": "رش",
+      "en": "rush / crowd",
+      "ex_ur": "صبح کے وقت سڑکوں پر بہت رش ہوتا ہے۔",
+      "ex_en": "There is a lot of rush on the roads in the morning.",
+      "syn": "بھیڑ"
+    },
+    {
+      "ur": "سہولت",
+      "en": "facility / convenience",
+      "ex_ur": "اسٹیشن پر بزرگوں کے لیے لفٹ کی سہولت موجود ہے۔",
+      "ex_en": "There is a lift facility for the elderly at the station."
+    },
+    {
+      "ur": "قطار",
+      "en": "queue / line",
+      "ex_ur": "ہم ٹکٹ کے لیے قطار میں کھڑے ہو گئے۔",
+      "ex_en": "We stood in the queue for tickets."
+    },
+    {
+      "ur": "ماحول دوست",
+      "en": "environment-friendly",
+      "ex_ur": "بجلی سے چلنے والی ٹرین ماحول دوست ہے۔",
+      "ex_en": "A train that runs on electricity is environment-friendly."
+    },
+    {
+      "ur": "فاصلہ",
+      "en": "distance",
+      "ex_ur": "میرے گھر سے اسٹیشن کا فاصلہ زیادہ نہیں ہے۔",
+      "ex_en": "The distance from my house to the station is not great."
+    },
+    {
+      "ur": "عوامی ٹرانسپورٹ",
+      "en": "public transport",
+      "ex_ur": "عوامی ٹرانسپورٹ سے وقت اور پیسے دونوں بچتے ہیں۔",
+      "ex_en": "Public transport saves both time and money."
+    }
+  ],
+  "reading": {
+    "passage": "لاہور جیسے بڑے شہر میں روزانہ لاکھوں لوگ سفر کرتے ہیں۔ پہلے لوگ زیادہ تر ویگنوں، رکشوں اور اپنی گاڑیوں میں سفر کرتے تھے، جس سے سڑکوں پر بہت رش ہوتا تھا۔ 2013 میں میٹرو بس شروع ہوئی جو سڑک کے بیچ اپنے الگ راستے پر چلتی ہے۔ پھر 2020 میں اورنج لائن میٹرو ٹرین آئی، جس کا زیادہ تر راستہ اونچے پل پر بنا ہے۔ اب طلبہ اور دفتر جانے والے لوگ کم کرائے میں جلدی اپنی منزل تک پہنچ جاتے ہیں۔ اورنج لائن کے ڈبے ایئر کنڈیشنڈ ہیں، اس لیے گرمی میں بھی سفر آرام دہ رہتا ہے۔",
+    "questions": [
+      {
+        "q": "میٹرو بس کب شروع ہوئی؟",
+        "opts": [
+          "2020 میں",
+          "2013 میں",
+          "2010 میں",
+          "2018 میں"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اورنج لائن کا زیادہ تر راستہ کہاں بنا ہے؟",
+        "opts": [
+          "زمین کے نیچے",
+          "دریا کے کنارے",
+          "اونچے پل پر",
+          "کھیتوں میں"
+        ],
+        "a": 2
+      },
+      {
+        "q": "پہلے سڑکوں پر بہت رش کیوں ہوتا تھا؟",
+        "opts": [
+          "لوگ ویگنوں، رکشوں اور اپنی گاڑیوں میں سفر کرتے تھے",
+          "سڑکیں بند رہتی تھیں",
+          "بارش بہت ہوتی تھی",
+          "ٹرینیں بہت تیز چلتی تھیں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "گرمی میں اورنج لائن کا سفر آرام دہ کیوں رہتا ہے؟",
+        "opts": [
+          "ٹرین آہستہ چلتی ہے",
+          "کھڑکیاں کھلی رہتی ہیں",
+          "ٹرین صرف رات کو چلتی ہے",
+          "ڈبے ایئر کنڈیشنڈ ہیں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "چلتی ہے",
+          "میٹرو بس",
+          "اپنے الگ راستے پر"
+        ],
+        "answer": [
+          "میٹرو بس",
+          "اپنے الگ راستے پر",
+          "چلتی ہے"
+        ],
+        "en": "The Metro Bus runs on its own separate route."
+      },
+      {
+        "bank": [
+          "اسٹیشن",
+          "پہنچے",
+          "ہم",
+          "صبح آٹھ بجے"
+        ],
+        "answer": [
+          "ہم",
+          "صبح آٹھ بجے",
+          "اسٹیشن",
+          "پہنچے"
+        ],
+        "en": "We reached the station at eight in the morning."
+      },
+      {
+        "bank": [
+          "ہر پانچ منٹ بعد",
+          "آتی ہے",
+          "ٹرین"
+        ],
+        "answer": [
+          "ٹرین",
+          "ہر پانچ منٹ بعد",
+          "آتی ہے"
+        ],
+        "en": "The train comes every five minutes."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ٹکٹ کے لیے ____ میں کھڑے ہوں۔",
+        "opts": [
+          "کرایہ",
+          "منزل",
+          "قطار",
+          "پل"
+        ],
+        "a": 2,
+        "en": "Stand in the ___ for the ticket."
+      },
+      {
+        "text": "میٹرو کا ____ بہت مناسب ہے۔",
+        "opts": [
+          "کھڑکی",
+          "کرایہ",
+          "قطار",
+          "منزل"
+        ],
+        "a": 1,
+        "en": "The metro ___ is very reasonable."
+      },
+      {
+        "text": "صبح دفتر کے وقت اسٹیشن پر بہت ____ ہوتا ہے۔",
+        "opts": [
+          "قطار",
+          "منزل",
+          "سہولت",
+          "رش"
+        ],
+        "a": 3,
+        "en": "At office time in the morning there is a lot of ___ at the station."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اپنے شہر کی عوامی ٹرانسپورٹ کو بہتر بنانے کے لیے کیا کریں گے؟ تین جملے لکھیں۔",
+      "en": "What would you do to improve public transport in your city? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "وقت کے اظہار — Time expressions",
+    "explain": "Use سے… تک for 'from… to/until': صبح 6 بجے سے رات 10 بجے تک. کے بعد means 'after' and سے پہلے means 'before': ناشتے کے بعد، شام سے پہلے. With a verb, use the oblique infinitive (ـنے): پہنچنے کے بعد، جانے سے پہلے. ہر… منٹ بعد means 'every… minutes': ہر پانچ منٹ بعد. تک on its own means 'until' or 'by': شام تک.",
+    "rows": [
+      [
+        "میٹرو صبح 6 بجے سے رات 10 بجے تک چلتی ہے۔",
+        "The metro runs from 6 a.m. to 10 p.m."
+      ],
+      [
+        "اسکول کے بعد ہم اسٹیشن گئے۔",
+        "After school we went to the station."
+      ],
+      [
+        "ٹرین آنے سے پہلے لکیر کے پیچھے کھڑے ہوں۔",
+        "Stand behind the line before the train arrives."
+      ],
+      [
+        "رش کے اوقات میں ہر چار منٹ بعد بس آتی ہے۔",
+        "In rush hours a bus comes every four minutes."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ٹکٹ لینے کے ____ ہم پلیٹ فارم پر گئے۔",
+        "opts": [
+          "بعد",
+          "تک",
+          "سے",
+          "ہر"
+        ],
+        "a": 0,
+        "en": "After buying the ticket we went to the platform."
+      },
+      {
+        "q": "یہ سروس صبح سات بجے سے رات نو بجے ____ چلتی ہے۔",
+        "opts": [
+          "بعد",
+          "پہلے",
+          "تک",
+          "ہر"
+        ],
+        "a": 2,
+        "en": "This service runs from 7 a.m. to 9 p.m."
+      },
+      {
+        "q": "ٹرین میں سوار ہونے سے ____ اترنے والوں کو راستہ دیں۔",
+        "opts": [
+          "بعد",
+          "تک",
+          "ہر",
+          "پہلے"
+        ],
+        "a": 3,
+        "en": "Before boarding the train, make way for those getting off."
+      }
+    ]
+  }
+}

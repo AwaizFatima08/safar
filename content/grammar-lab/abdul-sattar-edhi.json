@@ -1,0 +1,116 @@
+{
+  "id": "abdul-sattar-edhi",
+  "ur": "خدمت کی راہ",
+  "en": "The Path of Service",
+  "grammarPoint": {
+    "ur": "ماضی عادی اور ماضی استمراری (کرتے تھے، کر رہے تھے)",
+    "en": "Past habitual and past continuous"
+  },
+  "cloze": {
+    "passage": "ایدھی سادہ کپڑے (1)_____ تھے۔ وہ غریب مریضوں کی مدد (2)_____ تھے۔ کل شام جب ہم ٹرسٹ پہنچے تو رضاکار راشن کے تھیلے بھر (3)_____ تھے۔ کچھ لڑکیاں بچوں کو (4)_____ رہی تھیں۔ میرے دادا بھی ہر جمعے کو ضرورت مندوں میں کھانا (5)_____ تھے۔",
+    "gaps": [
+      {
+        "opts": [
+          "پہنتا",
+          "پہنتے",
+          "پہنتی",
+          "پہنیں"
+        ],
+        "a": 1,
+        "en": "Respect uses the plural: ایدھی پہنتے تھے (used to wear)"
+      },
+      {
+        "opts": [
+          "کرتے",
+          "کرتا",
+          "کرتی",
+          "کریں"
+        ],
+        "a": 0,
+        "en": "Past habitual: مدد کرتے تھے (used to help)"
+      },
+      {
+        "opts": [
+          "رہے",
+          "رہا",
+          "رہی",
+          "رہیں"
+        ],
+        "a": 0,
+        "en": "Past continuous, masculine plural: بھر رہے تھے"
+      },
+      {
+        "opts": [
+          "پڑھاتا",
+          "پڑھاتی",
+          "پڑھا",
+          "پڑھتے"
+        ],
+        "a": 2,
+        "en": "Past continuous uses the bare stem: پڑھا رہی تھیں"
+      },
+      {
+        "opts": [
+          "بانٹتی",
+          "بانٹتے",
+          "بانٹا",
+          "بانٹ"
+        ],
+        "a": 1,
+        "en": "دادا takes the respectful plural: بانٹتے تھے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "ایدھی کی عادت تھی کہ وہ سادہ کھانا کھاتے تھے۔",
+      "stem": "ایدھی سادہ کھانا کھایا ____ تھے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "کرتے"
+      ],
+      "en": "It was Edhi's habit to eat simple food."
+    },
+    {
+      "original": "جب میں پہنچا تو رضاکار تھیلے بھرنے میں مصروف تھے۔",
+      "stem": "جب میں پہنچا تو رضاکار تھیلے بھر ____ تھے۔",
+      "instruction_ur": "ماضی استمراری میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the past continuous",
+      "answers": [
+        "رہے"
+      ],
+      "en": "When I arrived, the volunteers were busy filling bags."
+    },
+    {
+      "original": "لوگوں نے ٹرسٹ کو چندہ دیا۔",
+      "stem": "لوگوں نے ٹرسٹ کو ____ دیا۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "عطیہ"
+      ],
+      "en": "People gave the trust a donation."
+    },
+    {
+      "original": "وہ لڑکی بچوں کو پڑھاتی ہے۔",
+      "stem": "وہ لڑکی پہلے بچوں کو ____ تھی۔",
+      "instruction_ur": "ماضی عادی میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the past habitual",
+      "answers": [
+        "پڑھاتی"
+      ],
+      "en": "That girl teaches the children. → That girl used to teach the children."
+    },
+    {
+      "original": "یہ لڑکا ہر ہفتے اسپتال جاتا تھا۔",
+      "stem": "یہ لڑکیاں ہر ہفتے اسپتال ____ تھیں۔",
+      "instruction_ur": "جمع مؤنث فاعل کے ساتھ جملہ مکمل کریں",
+      "instruction_en": "Complete with a feminine plural subject",
+      "answers": [
+        "جاتی"
+      ],
+      "en": "This boy used to go to the hospital every week. → These girls used to go…"
+    }
+  ]
+}

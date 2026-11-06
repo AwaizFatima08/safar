@@ -1,0 +1,264 @@
+{
+  "id": "summer-internship",
+  "ur": "گرمیوں کی انٹرن شپ",
+  "en": "Summer Internship",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ انٹرن شپ میں طلبہ چند ہفتوں کے لیے کسی ادارے میں کام کر کے عملی تجربہ حاصل کرتے ہیں، اور بہت سے ادارے بعد میں ملازمت دیتے وقت اس تجربے کو اہمیت دیتے ہیں۔",
+    "en": "Did you know? In an internship, students work at an organisation for a few weeks to gain practical experience, and many employers value that experience later when hiring."
+  },
+  "vocab": [
+    {
+      "ur": "انٹرن شپ",
+      "en": "internship",
+      "ex_ur": "میں نے پچھلی گرمیوں میں ایک بینک میں انٹرن شپ کی۔",
+      "ex_en": "Last summer I did an internship at a bank."
+    },
+    {
+      "ur": "درخواست",
+      "en": "application / request",
+      "ex_ur": "میں نے انٹرن شپ کے لیے درخواست بھیج دی ہے۔",
+      "ex_en": "I have sent my application for the internship.",
+      "syn": "گزارش"
+    },
+    {
+      "ur": "ادارہ",
+      "en": "organisation / institution",
+      "ex_ur": "یہ ادارہ طلبہ کو مفت تربیت دیتا ہے۔",
+      "ex_en": "This organisation gives students free training."
+    },
+    {
+      "ur": "تربیت",
+      "en": "training",
+      "ex_ur": "پہلے ہفتے ہمیں کمپیوٹر کی تربیت دی گئی۔",
+      "ex_en": "In the first week we were given computer training."
+    },
+    {
+      "ur": "عملی تجربہ",
+      "en": "practical experience",
+      "ex_ur": "انٹرن شپ سے عملی تجربہ حاصل ہوتا ہے۔",
+      "ex_en": "An internship gives practical experience."
+    },
+    {
+      "ur": "اہلیت",
+      "en": "eligibility / qualification",
+      "ex_ur": "اس انٹرن شپ کے لیے کم از کم اہلیت نویں جماعت پاس ہے۔",
+      "ex_en": "The minimum qualification for this internship is passing Class 9."
+    },
+    {
+      "ur": "سند",
+      "en": "certificate",
+      "ex_ur": "انٹرن شپ کے آخر میں سند دی جائے گی۔",
+      "ex_en": "A certificate will be given at the end of the internship.",
+      "syn": "سرٹیفکیٹ"
+    },
+    {
+      "ur": "مہارت",
+      "en": "skill / expertise",
+      "ex_ur": "اس کام میں کمپیوٹر کی مہارت ضروری ہے۔",
+      "ex_en": "Computer skills are necessary for this work.",
+      "syn": "ہنر"
+    },
+    {
+      "ur": "ذمہ داری",
+      "en": "responsibility",
+      "ex_ur": "مجھے دفتر کی فائلیں ترتیب دینے کی ذمہ داری ملی۔",
+      "ex_en": "I was given the responsibility of arranging the office files."
+    },
+    {
+      "ur": "آخری تاریخ",
+      "en": "deadline / closing date",
+      "ex_ur": "درخواست جمع کرانے کی آخری تاریخ 31 مئی ہے۔",
+      "ex_en": "The closing date for applications is 31 May."
+    }
+  ],
+  "reading": {
+    "passage": "بلال نے حال ہی میں او لیول کے امتحان دیے ہیں۔ وہ گرمیوں کی چھٹیاں ضائع نہیں کرنا چاہتا تھا، اس لیے اس نے ‘روشن ٹیک’ نامی ایک کمپنی میں چھ ہفتے کی انٹرن شپ کے لیے درخواست دی۔ وہ پہلے بھی اسکول کی ویب سائٹ بنانے میں مدد کر چکا ہے۔ انٹرویو کے بعد اسے منتخب کر لیا گیا۔ پہلے ہفتے اسے تربیت دی گئی اور پھر اسے ایک چھوٹی ٹیم کے ساتھ کام کرنے کی ذمہ داری ملی۔ بلال کا کہنا ہے کہ ان چھ ہفتوں میں اس نے وقت کی پابندی اور مل جل کر کام کرنا سیکھا۔",
+    "questions": [
+      {
+        "q": "بلال کی انٹرن شپ کتنے ہفتے کی تھی؟",
+        "opts": [
+          "چار",
+          "چھ",
+          "آٹھ",
+          "دو"
+        ],
+        "a": 1
+      },
+      {
+        "q": "بلال پہلے کیا کام کر چکا ہے؟",
+        "opts": [
+          "اسکول کی ویب سائٹ بنانے میں مدد",
+          "ایک دکان چلانا",
+          "اخبار میں لکھنا",
+          "بچوں کو پڑھانا"
+        ],
+        "a": 0
+      },
+      {
+        "q": "پہلے ہفتے بلال کے ساتھ کیا ہوا؟",
+        "opts": [
+          "اسے چھٹی ملی",
+          "اسے انعام ملا",
+          "اسے واپس بھیج دیا گیا",
+          "اسے تربیت دی گئی"
+        ],
+        "a": 3
+      },
+      {
+        "q": "بلال نے انٹرن شپ سے کیا سیکھا؟",
+        "opts": [
+          "کھانا پکانا",
+          "گاڑی چلانا",
+          "وقت کی پابندی اور مل جل کر کام کرنا",
+          "تیرنا"
+        ],
+        "a": 2
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "دی ہے",
+          "میں نے",
+          "بھیج",
+          "درخواست"
+        ],
+        "answer": [
+          "میں نے",
+          "درخواست",
+          "بھیج",
+          "دی ہے"
+        ],
+        "en": "I have sent the application."
+      },
+      {
+        "bank": [
+          "کر چکا ہوں",
+          "پہلے",
+          "میں",
+          "یہ کام"
+        ],
+        "answer": [
+          "میں",
+          "یہ کام",
+          "پہلے",
+          "کر چکا ہوں"
+        ],
+        "en": "I have done this work before."
+      },
+      {
+        "bank": [
+          "موقع",
+          "دیں",
+          "براہِ کرم",
+          "مجھے"
+        ],
+        "answer": [
+          "براہِ کرم",
+          "مجھے",
+          "موقع",
+          "دیں"
+        ],
+        "en": "Please give me a chance."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "درخواست جمع کرانے کی آخری ____ 31 مئی ہے۔",
+        "opts": [
+          "تاریخ",
+          "کتاب",
+          "سڑک",
+          "کھڑکی"
+        ],
+        "a": 0,
+        "en": "The closing ___ for applications is 31 May."
+      },
+      {
+        "text": "انٹرن شپ کے آخر میں ____ دی جائے گی۔",
+        "opts": [
+          "چھٹی",
+          "سند",
+          "سزا",
+          "دعوت"
+        ],
+        "a": 1,
+        "en": "A ___ will be given at the end of the internship."
+      },
+      {
+        "text": "انٹرن شپ سے عملی ____ حاصل ہوتا ہے۔",
+        "opts": [
+          "کھانا",
+          "درد",
+          "تجربہ",
+          "سفر"
+        ],
+        "a": 2,
+        "en": "An internship gives practical ___."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کس ادارے میں انٹرن شپ کرنا چاہیں گے اور کیوں؟ ‘میں … چکا/چکی ہوں’ استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "Where would you like to do an internship, and why? Write three sentences using ‘I have already…’."
+    }
+  },
+  "grammar": {
+    "title": "رسمی درخواست اور ‘چکا ہوں’ — Formal requests and ‘have already done’",
+    "explain": "Formal requests use polite forms: براہِ کرم / مہربانی فرما کر (please), گزارش ہے کہ… (I request that…), and the polite imperative ending ـیے (دیجیے، فرمائیے). To show past experience, add چکنا to the verb stem: میں یہ کام کر چکا ہوں / کر چکی ہوں (I have already done this work), ہم حصہ لے چکے ہیں. چکا / چکی / چکے agrees with the subject, and the sentence never takes نے.",
+    "rows": [
+      [
+        "گزارش ہے کہ مجھے انٹرن شپ کا موقع دیا جائے۔",
+        "I request that I be given the chance of an internship."
+      ],
+      [
+        "براہِ کرم میری درخواست پر غور فرمائیے۔",
+        "Please consider my application."
+      ],
+      [
+        "میں اسکول کی ویب سائٹ پر کام کر چکی ہوں۔",
+        "I have already worked on the school website."
+      ],
+      [
+        "ہم دو تقریری مقابلوں میں حصہ لے چکے ہیں۔",
+        "We have already taken part in two speech competitions."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "میں پہلے بھی رضاکار کے طور پر کام کر ____ ہوں۔",
+        "opts": [
+          "چکا",
+          "چکے",
+          "چکنا",
+          "چکو"
+        ],
+        "a": 0,
+        "en": "I have worked as a volunteer before."
+      },
+      {
+        "q": "____ مجھے اپنی کمپنی میں انٹرن شپ کا موقع دیجیے۔",
+        "opts": [
+          "ہرگز",
+          "براہِ کرم",
+          "شاید",
+          "کبھی"
+        ],
+        "a": 1,
+        "en": "Please give me the chance of an internship at your company."
+      },
+      {
+        "q": "زینب یہ کورس مکمل کر ____ ہے۔",
+        "opts": [
+          "چکا",
+          "چکے",
+          "چکی",
+          "چکیں"
+        ],
+        "a": 2,
+        "en": "Zainab has already completed this course."
+      }
+    ]
+  }
+}

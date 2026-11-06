@@ -1,0 +1,264 @@
+{
+  "id": "friendship",
+  "ur": "دوستی",
+  "en": "Friendship",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ اردو میں کہا جاتا ہے: ‘دوست وہ جو مصیبت میں کام آئے’، یعنی سچا دوست مشکل وقت میں پہچانا جاتا ہے۔",
+    "en": "Did you know? An Urdu saying goes ‘a friend is one who helps in trouble’ — a true friend is recognised in hard times."
+  },
+  "vocab": [
+    {
+      "ur": "دوستی",
+      "en": "friendship",
+      "ex_ur": "ہماری دوستی بچپن سے ہے۔",
+      "ex_en": "We have been friends since childhood."
+    },
+    {
+      "ur": "وفادار",
+      "en": "loyal",
+      "ex_ur": "وفادار دوست کبھی ساتھ نہیں چھوڑتا۔",
+      "ex_en": "A loyal friend never leaves your side.",
+      "syn": "باوفا"
+    },
+    {
+      "ur": "بھروسہ",
+      "en": "trust",
+      "ex_ur": "دوستی بھروسے پر قائم ہوتی ہے۔",
+      "ex_en": "Friendship is built on trust.",
+      "syn": "اعتماد"
+    },
+    {
+      "ur": "غلط فہمی",
+      "en": "misunderstanding",
+      "ex_ur": "ایک غلط فہمی نے دونوں کو دور کر دیا۔",
+      "ex_en": "A misunderstanding drove the two apart."
+    },
+    {
+      "ur": "معافی مانگنا",
+      "en": "to apologise",
+      "ex_ur": "غلطی ہو جائے تو معافی مانگ لیں۔",
+      "ex_en": "If you make a mistake, apologise."
+    },
+    {
+      "ur": "ساتھ دینا",
+      "en": "to stand by / support",
+      "ex_ur": "اس نے مشکل وقت میں میرا ساتھ دیا۔",
+      "ex_en": "He stood by me in hard times."
+    },
+    {
+      "ur": "حسد",
+      "en": "jealousy / envy",
+      "ex_ur": "حسد دوستی کو کمزور کر دیتا ہے۔",
+      "ex_en": "Jealousy weakens friendship."
+    },
+    {
+      "ur": "راز",
+      "en": "secret",
+      "ex_ur": "سچا دوست آپ کا راز کسی کو نہیں بتاتا۔",
+      "ex_en": "A true friend does not tell your secret to anyone."
+    },
+    {
+      "ur": "مشورہ",
+      "en": "advice",
+      "ex_ur": "میں نے اپنی سہیلی سے مشورہ لیا۔",
+      "ex_en": "I asked my friend for advice."
+    },
+    {
+      "ur": "خلوص",
+      "en": "sincerity",
+      "ex_ur": "دوستی میں خلوص سب سے اہم ہے۔",
+      "ex_en": "Sincerity matters most in friendship.",
+      "syn": "اخلاص"
+    }
+  ],
+  "reading": {
+    "passage": "دوستی ایک خوبصورت رشتہ ہے جو خون کا نہیں بلکہ دل کا ہوتا ہے۔ سچا دوست وہ ہے جو صرف خوشی میں نہیں، مشکل وقت میں بھی ساتھ دے۔ وہ ہماری غلطی پر ہمیں پیار سے سمجھاتا ہے اور ہمارا راز کسی کو نہیں بتاتا۔ دوستی بھروسے پر قائم ہوتی ہے، اس لیے جھوٹ اور حسد اسے کمزور کر دیتے ہیں۔ اگر کوئی غلط فہمی ہو جائے تو بات چیت سے اسے دور کرنا چاہیے، اور غلطی ہو تو معافی مانگنے میں دیر نہیں کرنی چاہیے۔",
+    "questions": [
+      {
+        "q": "دوستی کو کس چیز کا رشتہ کہا گیا ہے؟",
+        "opts": [
+          "خون کا",
+          "دولت کا",
+          "دل کا",
+          "پڑوس کا"
+        ],
+        "a": 2
+      },
+      {
+        "q": "سچا دوست ہماری غلطی پر کیا کرتا ہے؟",
+        "opts": [
+          "پیار سے سمجھاتا ہے",
+          "ناراض ہو جاتا ہے",
+          "سب کو بتا دیتا ہے",
+          "ہنستا ہے"
+        ],
+        "a": 0
+      },
+      {
+        "q": "دوستی کو کون سی چیزیں کمزور کرتی ہیں؟",
+        "opts": [
+          "بات چیت اور ہنسی",
+          "کھیل اور پڑھائی",
+          "تحفے اور دعوتیں",
+          "جھوٹ اور حسد"
+        ],
+        "a": 3
+      },
+      {
+        "q": "غلط فہمی کیسے دور کرنی چاہیے؟",
+        "opts": [
+          "خاموش رہ کر",
+          "بات چیت سے",
+          "لڑائی سے",
+          "دوست بدل کر"
+        ],
+        "a": 1
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "ساتھ",
+          "دیتا ہے",
+          "سچا دوست",
+          "مشکل وقت میں"
+        ],
+        "answer": [
+          "سچا دوست",
+          "مشکل وقت میں",
+          "ساتھ",
+          "دیتا ہے"
+        ],
+        "en": "A true friend stands by you in hard times."
+      },
+      {
+        "bank": [
+          "قائم",
+          "دوستی",
+          "ہوتی ہے",
+          "بھروسے پر"
+        ],
+        "answer": [
+          "دوستی",
+          "بھروسے پر",
+          "قائم",
+          "ہوتی ہے"
+        ],
+        "en": "Friendship is built on trust."
+      },
+      {
+        "bank": [
+          "معافی",
+          "مانگ لیں",
+          "تو",
+          "غلطی ہو جائے"
+        ],
+        "answer": [
+          "غلطی ہو جائے",
+          "تو",
+          "معافی",
+          "مانگ لیں"
+        ],
+        "en": "If you make a mistake, apologise."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "____ دوستی کو کمزور کر دیتا ہے۔",
+        "opts": [
+          "خلوص",
+          "حسد",
+          "بھروسہ",
+          "مشورہ"
+        ],
+        "a": 1,
+        "en": "___ weakens friendship."
+      },
+      {
+        "text": "سچا دوست آپ کا ____ کسی کو نہیں بتاتا۔",
+        "opts": [
+          "راز",
+          "نام",
+          "گھر",
+          "سبق"
+        ],
+        "a": 0,
+        "en": "A true friend does not tell your ___ to anyone."
+      },
+      {
+        "text": "ایک ____ نے دونوں دوستوں کو دور کر دیا۔",
+        "opts": [
+          "تحفے",
+          "مسکراہٹ",
+          "غلط فہمی",
+          "دعوت"
+        ],
+        "a": 2,
+        "en": "A ___ drove the two friends apart."
+      }
+    ],
+    "creative": {
+      "ur": "آپ کے خیال میں ایک سچے دوست کی تین خوبیاں کیا ہیں؟ تین جملے لکھیں۔",
+      "en": "In your opinion, what are three qualities of a true friend? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "بالواسطہ بیان — Reported speech: اس نے کہا کہ…",
+    "explain": "Direct speech quotes the exact words: علی نے کہا، ‘میں تمہارا دوست ہوں۔’ In reported (indirect) speech we put کہ after the reporting verb and change the pronouns to fit the person reporting: علی نے کہا کہ وہ میرا دوست ہے. Urdu usually keeps the tense of the original words (ہے stays ہے). Questions become …نے پوچھا کہ کیا…, and commands become …نے کہا کہ میں… کروں / …سے کہا کہ وہ… کرے (subjunctive).",
+    "rows": [
+      [
+        "علی نے کہا، ‘میں تمہارا دوست ہوں۔’",
+        "Ali said, ‘I am your friend.’ (direct)"
+      ],
+      [
+        "علی نے کہا کہ وہ میرا دوست ہے۔",
+        "Ali said that he was my friend. (reported)"
+      ],
+      [
+        "سارہ نے پوچھا کہ کیا میں ناراض ہوں۔",
+        "Sara asked whether I was upset."
+      ],
+      [
+        "امی نے مجھ سے کہا کہ میں اپنے دوست سے معافی مانگوں۔",
+        "Mum told me to apologise to my friend."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "احمد نے کہا ____ وہ کل آئے گا۔",
+        "opts": [
+          "کہ",
+          "تو",
+          "اور",
+          "جو"
+        ],
+        "a": 0,
+        "en": "Ahmed said that he would come tomorrow."
+      },
+      {
+        "q": "زینب نے کہا، ‘میں خوش ہوں۔’ ← زینب نے کہا کہ ____ خوش ہے۔",
+        "opts": [
+          "میں",
+          "وہ",
+          "تم",
+          "ہم"
+        ],
+        "a": 1,
+        "en": "Zainab said that she was happy."
+      },
+      {
+        "q": "استاد نے پوچھا ____ ہم نے کام مکمل کر لیا ہے۔",
+        "opts": [
+          "کیوں کہ",
+          "جب کہ",
+          "کہ کیا",
+          "تاکہ"
+        ],
+        "a": 2,
+        "en": "The teacher asked whether we had finished the work."
+      }
+    ]
+  }
+}

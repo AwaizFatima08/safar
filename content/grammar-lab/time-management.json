@@ -1,0 +1,117 @@
+{
+  "id": "time-management",
+  "ur": "وقت کی قدر",
+  "en": "Valuing Time",
+  "grammarPoint": {
+    "ur": "‘جتنا… اتنا’ اور ترتیب کے الفاظ (سب سے پہلے، پھر، آخر میں)",
+    "en": "‘The more… the more’ and sequence words"
+  },
+  "cloze": {
+    "passage": "(1)_____ جلد ہم امتحان کی تیاری شروع کریں، (2)_____ ہی کم دباؤ ہوتا ہے۔ سب سے (3)_____ نصاب کی فہرست بنائیں۔ (4)_____ روزانہ ایک باب پڑھیں۔ (5)_____ میں پرانے پرچے حل کریں۔",
+    "gaps": [
+      {
+        "opts": [
+          "جتنا",
+          "اتنا",
+          "کتنا",
+          "جیسا"
+        ],
+        "a": 0,
+        "en": "جتنا جلد… = the sooner…"
+      },
+      {
+        "opts": [
+          "جتنا",
+          "کتنا",
+          "اتنا",
+          "جیسا"
+        ],
+        "a": 2,
+        "en": "…اتنا ہی = …the more / the less (pairs with جتنا)"
+      },
+      {
+        "opts": [
+          "پہلے",
+          "بعد",
+          "آخر",
+          "پھر"
+        ],
+        "a": 0,
+        "en": "سب سے پہلے = first of all"
+      },
+      {
+        "opts": [
+          "آخر",
+          "پھر",
+          "پہلے",
+          "جتنا"
+        ],
+        "a": 1,
+        "en": "پھر = then (the next step)"
+      },
+      {
+        "opts": [
+          "شروع",
+          "پہلے",
+          "آخر",
+          "دوران"
+        ],
+        "a": 2,
+        "en": "آخر میں = finally"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "اگر ہم جلدی کام شروع کریں گے تو جلدی ختم ہو گا۔",
+      "stem": "جتنا جلدی کام شروع کریں گے، ____ ہی جلدی ختم ہو گا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "اتنا"
+      ],
+      "en": "If we start the work early, it will finish early."
+    },
+    {
+      "original": "ہم نے پہلے فہرست بنائی، اس کے بعد کام شروع کیا۔",
+      "stem": "فہرست بنانے کے ____ ہم نے کام شروع کیا۔",
+      "instruction_ur": "‘کے بعد’ استعمال کرتے ہوئے ایک جملہ مکمل کریں",
+      "instruction_en": "Complete as one sentence using ‘after’",
+      "answers": [
+        "بعد"
+      ],
+      "en": "First we made a list, then we started work."
+    },
+    {
+      "original": "ہمیں ٹائم ٹیبل کے مطابق پڑھنا چاہیے۔",
+      "stem": "ہمیں ____ کے مطابق پڑھنا چاہیے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "نظام الاوقات"
+      ],
+      "en": "We should study according to the timetable."
+    },
+    {
+      "original": "علی وقت ضائع کرتا ہے۔",
+      "stem": "علی وقت کی ____ نہیں کرتا۔",
+      "instruction_ur": "متضاد مفہوم والا لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using the opposite idea",
+      "answers": [
+        "قدر"
+      ],
+      "en": "Ali wastes time."
+    },
+    {
+      "original": "تم زیادہ محنت کرو گے تو زیادہ نمبر ملیں گے۔",
+      "stem": "____ زیادہ محنت کرو گے، اتنے ہی زیادہ نمبر ملیں گے۔",
+      "instruction_ur": "‘جتنا… اتنا’ کی ساخت میں جملہ مکمل کریں",
+      "instruction_en": "Complete using the ‘the more… the more’ structure",
+      "answers": [
+        "جتنی",
+        "جتنا"
+      ],
+      "en": "If you work harder, you will get more marks."
+    }
+  ]
+}

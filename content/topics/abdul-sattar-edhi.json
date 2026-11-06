@@ -1,0 +1,264 @@
+{
+  "id": "abdul-sattar-edhi",
+  "ur": "عبدالستار ایدھی",
+  "en": "Abdul Sattar Edhi",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ عبدالستار ایدھی نے کراچی میں ایک چھوٹی سی ڈسپنسری سے کام شروع کیا تھا، جو آگے چل کر پاکستان کی ایک بہت بڑی رضاکار ایمبولینس سروس بن گئی۔",
+    "en": "Did you know? Abdul Sattar Edhi began his work with a small dispensary in Karachi, which later grew into a very large volunteer ambulance service for Pakistan."
+  },
+  "vocab": [
+    {
+      "ur": "خدمتِ خلق",
+      "en": "service to humanity",
+      "ex_ur": "ایدھی نے اپنی زندگی خدمتِ خلق کے لیے وقف کر دی۔",
+      "ex_en": "Edhi devoted his life to serving humanity."
+    },
+    {
+      "ur": "رضاکار",
+      "en": "volunteer",
+      "ex_ur": "رضاکار بغیر معاوضے کے کام کرتے ہیں۔",
+      "ex_en": "Volunteers work without payment."
+    },
+    {
+      "ur": "ڈسپنسری",
+      "en": "dispensary / small clinic",
+      "ex_ur": "انہوں نے کراچی میں ایک چھوٹی ڈسپنسری کھولی۔",
+      "ex_en": "He opened a small dispensary in Karachi."
+    },
+    {
+      "ur": "ایمبولینس",
+      "en": "ambulance",
+      "ex_ur": "ایمبولینس زخمیوں کو اسپتال لے گئی۔",
+      "ex_en": "The ambulance took the injured to hospital."
+    },
+    {
+      "ur": "سادگی",
+      "en": "simplicity",
+      "ex_ur": "ایدھی سادگی سے زندگی گزارتے تھے۔",
+      "ex_en": "Edhi lived a simple life."
+    },
+    {
+      "ur": "بے سہارا",
+      "en": "helpless / destitute",
+      "ex_ur": "وہ بے سہارا لوگوں کی مدد کرتے تھے۔",
+      "ex_en": "He used to help destitute people.",
+      "syn": "بے آسرا"
+    },
+    {
+      "ur": "عطیہ",
+      "en": "donation",
+      "ex_ur": "لوگوں نے فلاحی ادارے کو دل کھول کر عطیات دیے۔",
+      "ex_en": "People gave generous donations to the welfare organisation.",
+      "syn": "چندہ"
+    },
+    {
+      "ur": "ہمدردی",
+      "en": "compassion / sympathy",
+      "ex_ur": "دوسروں کے دکھ میں ہمدردی دکھائیں۔",
+      "ex_en": "Show compassion when others are in pain."
+    },
+    {
+      "ur": "مثال",
+      "en": "example",
+      "ex_ur": "ایدھی ہمارے لیے ایک روشن مثال ہیں۔",
+      "ex_en": "Edhi is a shining example for us."
+    },
+    {
+      "ur": "مستحق",
+      "en": "deserving / in need",
+      "ex_ur": "راشن مستحق گھرانوں میں بانٹا گیا۔",
+      "ex_en": "The rations were distributed to families in need.",
+      "syn": "ضرورت مند"
+    }
+  ],
+  "reading": {
+    "passage": "عبدالستار ایدھی 1928ء میں پیدا ہوئے۔ انہوں نے کراچی میں ایک چھوٹی سی ڈسپنسری سے اپنے کام کا آغاز کیا۔ وہ بیماروں، زخمیوں اور بے سہارا لوگوں کی مدد کرتے تھے۔ آہستہ آہستہ ان کا کام پھیلتا گیا اور انہوں نے رضاکاروں کی مدد سے ایک بہت بڑی ایمبولینس سروس قائم کی۔ ایدھی بہت سادگی سے رہتے تھے۔ وہ سادہ کپڑے پہنتے اور سادہ کھانا کھاتے تھے۔ ان کا انتقال 2016ء میں ہوا، مگر ان کی خدمات آج بھی یاد کی جاتی ہیں۔",
+    "questions": [
+      {
+        "q": "ایدھی کس سال پیدا ہوئے؟",
+        "opts": [
+          "1947ء",
+          "1928ء",
+          "1960ء",
+          "2016ء"
+        ],
+        "a": 1
+      },
+      {
+        "q": "انہوں نے کام کا آغاز کس چیز سے کیا؟",
+        "opts": [
+          "ایک بڑے اسپتال سے",
+          "ایک اسکول سے",
+          "ایک چھوٹی سی ڈسپنسری سے",
+          "ایک دکان سے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "ایدھی کس طرح زندگی گزارتے تھے؟",
+        "opts": [
+          "سادگی سے",
+          "شان و شوکت سے",
+          "غصے سے",
+          "تنہائی میں"
+        ],
+        "a": 0
+      },
+      {
+        "q": "ایدھی کا انتقال کب ہوا؟",
+        "opts": [
+          "1928ء میں",
+          "1996ء میں",
+          "2005ء میں",
+          "2016ء میں"
+        ],
+        "a": 3
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "رہتے",
+          "تھے",
+          "ایدھی",
+          "سادگی سے"
+        ],
+        "answer": [
+          "ایدھی",
+          "سادگی سے",
+          "رہتے",
+          "تھے"
+        ],
+        "en": "Edhi lived simply."
+      },
+      {
+        "bank": [
+          "کام",
+          "رضاکار",
+          "کرتے ہیں",
+          "بغیر معاوضے کے"
+        ],
+        "answer": [
+          "رضاکار",
+          "بغیر معاوضے کے",
+          "کام",
+          "کرتے ہیں"
+        ],
+        "en": "Volunteers work without payment."
+      },
+      {
+        "bank": [
+          "مدد",
+          "کرتے تھے",
+          "بے سہارا لوگوں کی",
+          "وہ"
+        ],
+        "answer": [
+          "وہ",
+          "بے سہارا لوگوں کی",
+          "مدد",
+          "کرتے تھے"
+        ],
+        "en": "He used to help destitute people."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "ایمبولینس زخمیوں کو ____ لے گئی۔",
+        "opts": [
+          "بازار",
+          "اسپتال",
+          "اسکول",
+          "پارک"
+        ],
+        "a": 1,
+        "en": "The ambulance took the injured to ___."
+      },
+      {
+        "text": "ایدھی ہمارے لیے ایک روشن ____ ہیں۔",
+        "opts": [
+          "مثال",
+          "رات",
+          "سڑک",
+          "کتاب"
+        ],
+        "a": 0,
+        "en": "Edhi is a shining ___ for us."
+      },
+      {
+        "text": "لوگوں نے دل کھول کر ____ دیے۔",
+        "opts": [
+          "سوال",
+          "جواب",
+          "عطیات",
+          "امتحان"
+        ],
+        "a": 2,
+        "en": "People gave ___ generously."
+      }
+    ],
+    "creative": {
+      "ur": "آپ اپنے محلے میں دوسروں کی خدمت کے لیے کون سے تین کام کر سکتے ہیں؟ تین جملے لکھیں۔",
+      "en": "What three things could you do to serve others in your neighbourhood? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "ماضی عادی اور ماضی استمراری — Past habitual and past continuous: کرتے تھے، کر رہے تھے",
+    "explain": "For something that happened regularly in the past (a habit), use the verb stem + تا / تے / تی + تھا / تھے / تھی: وہ مدد کرتے تھے (he used to help). For something in progress at a moment in the past, use the stem + رہا / رہے / رہی + تھا / تھے / تھی: وہ تھیلے بھر رہے تھے (they were filling bags). Both agree with the subject in gender and number, and respect uses the plural: ایدھی سادگی سے رہتے تھے. The pattern past form + کرتے تھے also shows a habit: وہ پیدل جایا کرتے تھے.",
+    "rows": [
+      [
+        "ایدھی سادہ کپڑے پہنتے تھے۔",
+        "Edhi used to wear plain clothes."
+      ],
+      [
+        "رضاکار رات کو بھی کام کرتے تھے۔",
+        "The volunteers used to work at night too."
+      ],
+      [
+        "جب میں پہنچی تو وہ کھانا بانٹ رہی تھی۔",
+        "When I arrived, she was distributing food."
+      ],
+      [
+        "ہم صفائی کر رہے تھے کہ بارش شروع ہو گئی۔",
+        "We were cleaning when the rain started."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "ایدھی بے سہارا لوگوں کی مدد ____ تھے۔",
+        "opts": [
+          "کرتے",
+          "کرتا",
+          "کرتی",
+          "کریں"
+        ],
+        "a": 0,
+        "en": "Edhi used to help destitute people."
+      },
+      {
+        "q": "جب فون آیا تو ہم ڈبے ____ رہے تھے۔",
+        "opts": [
+          "بھرتے",
+          "بھر",
+          "بھرا",
+          "بھریں"
+        ],
+        "a": 1,
+        "en": "When the phone rang, we were filling boxes."
+      },
+      {
+        "q": "بچپن میں میری بہن اسکول پیدل ____ تھی۔",
+        "opts": [
+          "جاتا",
+          "جاتے",
+          "جاتی",
+          "جانا"
+        ],
+        "a": 2,
+        "en": "As a child, my sister used to walk to school."
+      }
+    ]
+  }
+}

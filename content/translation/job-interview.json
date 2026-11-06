@@ -1,0 +1,88 @@
+{
+  "id": "job-interview",
+  "ur": "انٹرویو کی تیاری",
+  "en": "Preparing for an Interview",
+  "warmup": [
+    {
+      "en": "I arrived on time.",
+      "bank": [
+        "پہنچ گیا",
+        "میں",
+        "وقت پر"
+      ],
+      "answer": [
+        "میں",
+        "وقت پر",
+        "پہنچ گیا"
+      ]
+    },
+    {
+      "en": "Switch off your phone.",
+      "bank": [
+        "بند",
+        "کر دیں",
+        "اپنا",
+        "فون"
+      ],
+      "answer": [
+        "اپنا",
+        "فون",
+        "بند",
+        "کر دیں"
+      ]
+    },
+    {
+      "en": "She understood the question.",
+      "bank": [
+        "گئی",
+        "سوال",
+        "وہ",
+        "سمجھ"
+      ],
+      "answer": [
+        "وہ",
+        "سوال",
+        "سمجھ",
+        "گئی"
+      ]
+    },
+    {
+      "en": "Wear neat clothes.",
+      "bank": [
+        "پہنیں",
+        "صاف ستھرا",
+        "لباس"
+      ],
+      "answer": [
+        "صاف ستھرا",
+        "لباس",
+        "پہنیں"
+      ]
+    },
+    {
+      "en": "He answered with confidence.",
+      "bank": [
+        "جواب",
+        "دیا",
+        "اعتماد سے",
+        "اس نے"
+      ],
+      "answer": [
+        "اس نے",
+        "اعتماد سے",
+        "جواب",
+        "دیا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Yesterday I had my first interview, for a place on the school's student council. I had written down some likely questions the night before and practised my answers with my elder sister. In the morning I got up early, ironed my uniform and reached the principal's office ten minutes early. Three teachers were sitting behind a table. When they asked me to introduce myself, I was nervous at first, but I took a deep breath and spoke slowly. One teacher asked what my greatest weakness was. I told them honestly that I sometimes leave work until the last minute, but that I now keep a planner. At the end I thanked them and left the room. I do not know the result yet, but I feel that I did my best.",
+    "modelUr": "کل میرا پہلا انٹرویو تھا، اسکول کی اسٹوڈنٹ کونسل میں جگہ کے لیے۔ میں نے ایک رات پہلے کچھ ممکنہ سوال لکھ لیے تھے اور اپنی بڑی بہن کے ساتھ جوابات کی مشق کر لی تھی۔ صبح میں جلدی اٹھ گیا، اپنی یونیفارم استری کی اور دس منٹ پہلے پرنسپل کے دفتر پہنچ گیا۔ تین اساتذہ ایک میز کے پیچھے بیٹھے تھے۔ جب انہوں نے مجھ سے اپنا تعارف کرانے کو کہا تو پہلے میں گھبرا گیا، لیکن میں نے گہرا سانس لیا اور آہستہ آہستہ بولا۔ ایک استاد نے پوچھا کہ میری سب سے بڑی کمزوری کیا ہے۔ میں نے انہیں ایمانداری سے بتا دیا کہ میں کبھی کبھی کام آخری لمحے تک چھوڑ دیتا ہوں، لیکن اب میں ایک پلانر رکھتا ہوں۔ آخر میں میں نے ان کا شکریہ ادا کیا اور کمرے سے باہر آ گیا۔ مجھے ابھی نتیجہ معلوم نہیں، لیکن مجھے لگتا ہے کہ میں نے اپنی پوری کوشش کی۔",
+    "checklist": [
+      "کیا آپ نے ‘had written down’ کا ترجمہ ‘لکھ لیے تھے’ (مرکب فعل + ماضی بعید) سے کیا؟",
+      "کیا ‘got up’، ‘reached’ اور ‘was nervous’ کے لیے ‘جانا’ والے مرکب افعال (اٹھ گیا، پہنچ گیا، گھبرا گیا) استعمال کیے؟",
+      "کیا ‘told them honestly’ کا ترجمہ ‘ایمانداری سے بتا دیا’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

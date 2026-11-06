@@ -1,0 +1,262 @@
+{
+  "id": "online-shopping",
+  "ur": "آن لائن خریداری اور صارف کے حقوق",
+  "en": "Online Shopping and Consumer Rights",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ پاکستان میں آن لائن خریداری کرنے والے بہت سے لوگ ‘کیش آن ڈیلیوری’ چنتے ہیں، یعنی سامان ہاتھ میں آنے پر رقم ادا کرتے ہیں۔",
+    "en": "Did you know? Many online shoppers in Pakistan choose ‘cash on delivery’, paying only when the goods are in their hands."
+  },
+  "vocab": [
+    {
+      "ur": "خریداری",
+      "en": "shopping",
+      "ex_ur": "امی کو آن لائن خریداری بہت پسند ہے۔",
+      "ex_en": "Mother really likes online shopping."
+    },
+    {
+      "ur": "صارف",
+      "en": "consumer",
+      "ex_ur": "ہر صارف کو معیاری چیز ملنی چاہیے۔",
+      "ex_en": "Every consumer should get a good-quality product.",
+      "syn": "خریدار"
+    },
+    {
+      "ur": "حق",
+      "en": "right",
+      "ex_ur": "خراب چیز واپس کرنا صارف کا حق ہے۔",
+      "ex_en": "Returning a faulty item is the consumer's right."
+    },
+    {
+      "ur": "شکایت",
+      "en": "complaint",
+      "ex_ur": "میں نے کمپنی کو ای میل پر شکایت بھیجی۔",
+      "ex_en": "I sent the company a complaint by email."
+    },
+    {
+      "ur": "واپسی",
+      "en": "return",
+      "ex_ur": "اس دکان کی واپسی کی پالیسی بہت آسان ہے۔",
+      "ex_en": "This shop's returns policy is very simple."
+    },
+    {
+      "ur": "رقم کی واپسی",
+      "en": "refund",
+      "ex_ur": "سات دن میں رقم کی واپسی ہو جائے گی۔",
+      "ex_en": "The refund will be made within seven days."
+    },
+    {
+      "ur": "معیار",
+      "en": "quality",
+      "ex_ur": "ان جوتوں کا معیار بہت اچھا ہے۔",
+      "ex_en": "The quality of these shoes is very good."
+    },
+    {
+      "ur": "ترسیل",
+      "en": "delivery",
+      "ex_ur": "سامان کی ترسیل تین دن میں ہو گی۔",
+      "ex_en": "The goods will be delivered in three days.",
+      "syn": "ڈیلیوری"
+    },
+    {
+      "ur": "رسید",
+      "en": "receipt",
+      "ex_ur": "خریداری کی رسید سنبھال کر رکھیں۔",
+      "ex_en": "Keep the receipt of your purchase safe."
+    },
+    {
+      "ur": "دھوکا",
+      "en": "fraud / deception",
+      "ex_ur": "جعلی ویب سائٹس سے دھوکا ہو سکتا ہے۔",
+      "ex_en": "You can be cheated by fake websites.",
+      "syn": "فریب"
+    }
+  ],
+  "reading": {
+    "passage": "عمران نے ایک ویب سائٹ سے اپنے لیے کرکٹ کے جوتے منگوائے۔ تصویر میں جوتے بہت خوبصورت لگ رہے تھے۔ تین دن بعد جب پارسل آیا تو جوتوں کا رنگ مختلف تھا اور ان کا سائز بھی چھوٹا تھا۔ عمران بہت مایوس ہوا، لیکن اس کے ابو نے اسے بتایا کہ خراب یا غلط چیز واپس کرنا صارف کا حق ہے۔ عمران نے رسید سنبھالی اور کمپنی کو شکایت کی ای میل لکھی۔ ایک ہفتے کے اندر اسے نئے جوتے مل گئے۔",
+    "questions": [
+      {
+        "q": "عمران نے کیا منگوایا تھا؟",
+        "opts": [
+          "کرکٹ کا بلا",
+          "کرکٹ کے جوتے",
+          "ایک کتاب",
+          "ایک موبائل"
+        ],
+        "a": 1
+      },
+      {
+        "q": "پارسل کتنے دن بعد آیا؟",
+        "opts": [
+          "ایک دن",
+          "دو دن",
+          "تین دن",
+          "ایک ہفتے"
+        ],
+        "a": 2
+      },
+      {
+        "q": "جوتوں میں کیا خرابی تھی؟",
+        "opts": [
+          "وہ پھٹے ہوئے تھے",
+          "وہ بہت مہنگے تھے",
+          "وہ پرانے تھے",
+          "رنگ مختلف اور سائز چھوٹا تھا"
+        ],
+        "a": 3
+      },
+      {
+        "q": "عمران نے شکایت کیسے کی؟",
+        "opts": [
+          "ای میل لکھ کر",
+          "دکان پر جا کر",
+          "خط لکھ کر",
+          "فون کر کے"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "واپس",
+          "چاہتا ہوں",
+          "اپنی رقم",
+          "میں"
+        ],
+        "answer": [
+          "میں",
+          "اپنی رقم",
+          "واپس",
+          "چاہتا ہوں"
+        ],
+        "en": "I want my money back."
+      },
+      {
+        "bank": [
+          "رکھیں",
+          "رسید",
+          "سنبھال کر"
+        ],
+        "answer": [
+          "رسید",
+          "سنبھال کر",
+          "رکھیں"
+        ],
+        "en": "Keep the receipt safe."
+      },
+      {
+        "bank": [
+          "سامان",
+          "نہیں آیا",
+          "باوجود",
+          "وعدے کے"
+        ],
+        "answer": [
+          "وعدے کے",
+          "باوجود",
+          "سامان",
+          "نہیں آیا"
+        ],
+        "en": "Despite the promise, the goods did not arrive."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "میں نے کمپنی کو ای میل پر ____ بھیجی۔",
+        "opts": [
+          "تحفہ",
+          "شکایت",
+          "مٹھائی",
+          "کھانا"
+        ],
+        "a": 1,
+        "en": "I sent the company a ___ by email."
+      },
+      {
+        "text": "سامان کی ____ تین دن میں ہو گی۔",
+        "opts": [
+          "ترسیل",
+          "بارش",
+          "نیند",
+          "کہانی"
+        ],
+        "a": 0,
+        "en": "The ___ of the goods will take three days."
+      },
+      {
+        "text": "خراب چیز واپس کرنا صارف کا ____ ہے۔",
+        "opts": [
+          "شوق",
+          "کھیل",
+          "حق",
+          "ڈر"
+        ],
+        "a": 2,
+        "en": "Returning a faulty item is the consumer's ___."
+      }
+    ],
+    "creative": {
+      "ur": "کیا آپ نے یا آپ کے گھر والوں نے کبھی آن لائن خریداری کی ہے؟ تجربہ کیسا رہا؟ ‘کے باوجود’ استعمال کرتے ہوئے تین جملے لکھیں۔",
+      "en": "Have you or your family ever shopped online? How was it? Write three sentences using ‘despite’."
+    }
+  },
+  "grammar": {
+    "title": "شائستہ شکایت اور ‘کے باوجود’ — Polite complaints and ‘despite’",
+    "explain": "A complaint should be firm but polite. Useful phrases: مجھے افسوس سے کہنا پڑ رہا ہے کہ… (I regret to say that…), میں آپ کی توجہ… کی طرف دلانا چاہتا / چاہتی ہوں (I wish to draw your attention to…), براہِ کرم جلد از جلد… (please… as soon as possible), امید ہے آپ… فرمائیں گے. کے باوجود means ‘despite / in spite of’. It follows a noun or an oblique infinitive: وعدے کے باوجود (despite the promise), ادائیگی کرنے کے باوجود (despite paying). The second half of the sentence shows the unexpected result, often with نہیں.",
+    "rows": [
+      [
+        "مجھے افسوس سے کہنا پڑ رہا ہے کہ آرڈر ابھی تک نہیں ملا۔",
+        "I regret to say that the order has still not arrived."
+      ],
+      [
+        "ادائیگی کرنے کے باوجود مجھے رسید نہیں ملی۔",
+        "Despite paying, I have not received a receipt."
+      ],
+      [
+        "بار بار فون کرنے کے باوجود کسی نے جواب نہیں دیا۔",
+        "Despite calling again and again, nobody answered."
+      ],
+      [
+        "براہِ کرم جلد از جلد میری رقم واپس کر دیجیے۔",
+        "Please return my money as soon as possible."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "وعدے کے ____ سامان وقت پر نہیں پہنچا۔",
+        "opts": [
+          "باوجود",
+          "بجائے",
+          "ساتھ",
+          "لیے"
+        ],
+        "a": 0,
+        "en": "Despite the promise, the goods did not arrive on time."
+      },
+      {
+        "q": "مجھے ____ سے کہنا پڑ رہا ہے کہ قمیص پھٹی ہوئی تھی۔",
+        "opts": [
+          "خوشی",
+          "افسوس",
+          "شوق",
+          "مذاق"
+        ],
+        "a": 1,
+        "en": "I regret to say that the shirt was torn."
+      },
+      {
+        "q": "تین ای میلز بھیجنے کے باوجود مجھے کوئی جواب ____ ملا۔",
+        "opts": [
+          "ضرور",
+          "ابھی",
+          "نہیں",
+          "پھر"
+        ],
+        "a": 2,
+        "en": "Despite sending three emails, I have received no reply."
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "id": "respect-for-elders",
+  "ur": "بزرگوں کا احترام",
+  "en": "Respecting Elders",
+  "warmup": [
+    {
+      "en": "Please have a seat.",
+      "bank": [
+        "تشریف",
+        "رکھیے",
+        "آپ"
+      ],
+      "answer": [
+        "آپ",
+        "تشریف",
+        "رکھیے"
+      ]
+    },
+    {
+      "en": "Grandmother came yesterday.",
+      "bank": [
+        "لائیں",
+        "کل",
+        "نانی جان",
+        "تشریف"
+      ],
+      "answer": [
+        "نانی جان",
+        "کل",
+        "تشریف",
+        "لائیں"
+      ]
+    },
+    {
+      "en": "We should respect our elders.",
+      "bank": [
+        "احترام",
+        "ہمیں",
+        "کرنا چاہیے",
+        "کا",
+        "بزرگوں"
+      ],
+      "answer": [
+        "ہمیں",
+        "بزرگوں",
+        "کا",
+        "احترام",
+        "کرنا چاہیے"
+      ]
+    },
+    {
+      "en": "Yes, I will help you.",
+      "bank": [
+        "مدد",
+        "جی،",
+        "کروں گا",
+        "میں",
+        "آپ کی"
+      ],
+      "answer": [
+        "جی،",
+        "میں",
+        "آپ کی",
+        "مدد",
+        "کروں گا"
+      ]
+    },
+    {
+      "en": "The teacher said that we should read every day.",
+      "bank": [
+        "فرمایا",
+        "روز پڑھا کرو",
+        "استاد صاحب",
+        "کہ",
+        "نے"
+      ],
+      "answer": [
+        "استاد صاحب",
+        "نے",
+        "فرمایا",
+        "کہ",
+        "روز پڑھا کرو"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "In our culture, respect for elders is taught from childhood. Children are told to greet their grandparents first, to speak to them politely and never to raise their voice in front of them. Elders have seen many ups and downs in life, so their advice is valuable. However, many old people today feel lonely because their children are busy with work or live far away. Young people can make a big difference by spending a little time with them every day, listening to their stories and helping them with small tasks such as using a mobile phone. When we treat our elders with love and respect, we also set an example for the next generation, who will one day treat us in the same way.",
+    "modelUr": "ہماری ثقافت میں بزرگوں کا احترام بچپن ہی سے سکھایا جاتا ہے۔ بچوں سے کہا جاتا ہے کہ وہ اپنے دادا دادی اور نانا نانی کو پہلے سلام کریں، ان سے ادب سے بات کریں اور ان کے سامنے کبھی اونچی آواز میں نہ بولیں۔ بزرگوں نے زندگی میں بہت سے اتار چڑھاؤ دیکھے ہوتے ہیں، اس لیے ان کا مشورہ قیمتی ہوتا ہے۔ تاہم آج بہت سے بزرگ تنہائی محسوس کرتے ہیں کیونکہ ان کے بچے کام میں مصروف ہیں یا دور رہتے ہیں۔ نوجوان روز تھوڑا سا وقت ان کے ساتھ گزار کر، ان کے قصے سن کر اور موبائل فون کے استعمال جیسے چھوٹے کاموں میں ان کی مدد کر کے بڑا فرق ڈال سکتے ہیں۔ جب ہم اپنے بزرگوں سے محبت اور عزت سے پیش آتے ہیں تو ہم آنے والی نسل کے لیے بھی ایک مثال قائم کرتے ہیں، جو ایک دن ہمارے ساتھ بھی ایسا ہی سلوک کرے گی۔",
+    "checklist": [
+      "کیا آپ نے ‘is taught’ اور ‘are told’ کا ترجمہ مجہول ساخت (سکھایا جاتا ہے، کہا جاتا ہے) سے کیا؟",
+      "کیا ‘grandparents’ کے لیے دادا دادی / نانا نانی جیسے موزوں الفاظ استعمال کیے؟",
+      "کیا ‘ups and downs’ کا محاوراتی ترجمہ (اتار چڑھاؤ) کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

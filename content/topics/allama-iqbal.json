@@ -1,0 +1,262 @@
+{
+  "id": "allama-iqbal",
+  "ur": "علامہ محمد اقبال",
+  "en": "Allama Iqbal",
+  "factoid": {
+    "ur": "کیا آپ جانتے ہیں؟ علامہ اقبال 9 نومبر 1877 کو سیالکوٹ میں پیدا ہوئے۔ انہیں ‘شاعرِ مشرق’ کہا جاتا ہے، اور ان کا مزار لاہور میں بادشاہی مسجد کے قریب ہے۔",
+    "en": "Did you know? Allama Iqbal was born in Sialkot on 9 November 1877. He is called the ‘Poet of the East’, and his tomb is near the Badshahi Mosque in Lahore."
+  },
+  "vocab": [
+    {
+      "ur": "شاعرِ مشرق",
+      "en": "Poet of the East",
+      "ex_ur": "علامہ اقبال کو شاعرِ مشرق کہا جاتا ہے۔",
+      "ex_en": "Allama Iqbal is called the Poet of the East."
+    },
+    {
+      "ur": "فلسفی",
+      "en": "philosopher",
+      "ex_ur": "اقبال شاعر ہونے کے ساتھ ساتھ ایک بڑے فلسفی بھی تھے۔",
+      "ex_en": "As well as being a poet, Iqbal was also a great philosopher.",
+      "syn": "مفکر"
+    },
+    {
+      "ur": "خودی",
+      "en": "selfhood / self-respect",
+      "ex_ur": "اقبال نے نوجوانوں کو خودی کا سبق دیا۔",
+      "ex_en": "Iqbal taught young people the lesson of self-respect."
+    },
+    {
+      "ur": "پیغام",
+      "en": "message",
+      "ex_ur": "ان کا پیغام محنت اور امید کا پیغام ہے۔",
+      "ex_en": "His message is a message of hard work and hope."
+    },
+    {
+      "ur": "علیحدہ وطن",
+      "en": "separate homeland",
+      "ex_ur": "اقبال نے مسلمانوں کے لیے ایک علیحدہ وطن کا تصور پیش کیا۔",
+      "ex_en": "Iqbal presented the idea of a separate homeland for Muslims.",
+      "syn": "الگ ملک"
+    },
+    {
+      "ur": "خطبہ",
+      "en": "address / formal speech",
+      "ex_ur": "1930 میں اقبال نے الہ آباد میں ایک مشہور خطبہ دیا۔",
+      "ex_en": "In 1930 Iqbal gave a famous address in Allahabad."
+    },
+    {
+      "ur": "مزار",
+      "en": "tomb / mausoleum",
+      "ex_ur": "اقبال کا مزار بادشاہی مسجد کے قریب ہے۔",
+      "ex_en": "Iqbal's tomb is near the Badshahi Mosque.",
+      "syn": "مقبرہ"
+    },
+    {
+      "ur": "قوم",
+      "en": "nation / people",
+      "ex_ur": "اقبال اپنی قوم کو ترقی کرتے دیکھنا چاہتے تھے۔",
+      "ex_en": "Iqbal wanted to see his people make progress."
+    },
+    {
+      "ur": "نوجوان",
+      "en": "young people / youth",
+      "ex_ur": "اقبال کو نوجوانوں سے بہت امیدیں تھیں۔",
+      "ex_en": "Iqbal had great hopes for young people."
+    },
+    {
+      "ur": "اعلیٰ تعلیم",
+      "en": "higher education",
+      "ex_ur": "اقبال اعلیٰ تعلیم کے لیے انگلستان اور جرمنی گئے۔",
+      "ex_en": "Iqbal went to England and Germany for higher education."
+    }
+  ],
+  "reading": {
+    "passage": "علامہ محمد اقبال 1877 میں سیالکوٹ میں پیدا ہوئے۔ انہوں نے ابتدائی تعلیم سیالکوٹ میں اور پھر لاہور میں حاصل کی۔ اس کے بعد وہ اعلیٰ تعلیم کے لیے کیمبرج اور جرمنی گئے۔ اقبال نے اردو اور فارسی دونوں زبانوں میں لکھا اور اپنی قوم کو محنت، خودداری اور اتحاد کا پیغام دیا۔ 1930 میں الہ آباد کے خطبے میں انہوں نے مسلمانوں کے لیے ایک علیحدہ وطن کا تصور پیش کیا۔ وہ 1938 میں لاہور میں فوت ہوئے، یعنی پاکستان بننے سے نو سال پہلے۔",
+    "questions": [
+      {
+        "q": "علامہ اقبال کہاں پیدا ہوئے؟",
+        "opts": [
+          "لاہور",
+          "سیالکوٹ",
+          "کیمبرج",
+          "الہ آباد"
+        ],
+        "a": 1
+      },
+      {
+        "q": "اقبال نے کن دو زبانوں میں لکھا؟",
+        "opts": [
+          "عربی اور ترکی",
+          "جرمن اور فرانسیسی",
+          "اردو اور فارسی",
+          "پنجابی اور سندھی"
+        ],
+        "a": 2
+      },
+      {
+        "q": "1930 کے خطبے میں اقبال نے کیا پیش کیا؟",
+        "opts": [
+          "ایک نئی کتاب",
+          "ایک نئے اسکول کا منصوبہ",
+          "ایک نیا رسالہ",
+          "علیحدہ وطن کا تصور"
+        ],
+        "a": 3
+      },
+      {
+        "q": "اقبال پاکستان بننے سے کتنے سال پہلے فوت ہوئے؟",
+        "opts": [
+          "نو سال",
+          "پانچ سال",
+          "بیس سال",
+          "دو سال"
+        ],
+        "a": 0
+      }
+    ]
+  },
+  "writing": {
+    "build": [
+      {
+        "bank": [
+          "کہلاتے ہیں",
+          "اقبال",
+          "شاعرِ مشرق"
+        ],
+        "answer": [
+          "اقبال",
+          "شاعرِ مشرق",
+          "کہلاتے ہیں"
+        ],
+        "en": "Iqbal is called the Poet of the East."
+      },
+      {
+        "bank": [
+          "خودی کا",
+          "سبق دیا",
+          "اقبال نے",
+          "نوجوانوں کو"
+        ],
+        "answer": [
+          "اقبال نے",
+          "نوجوانوں کو",
+          "خودی کا",
+          "سبق دیا"
+        ],
+        "en": "Iqbal taught young people the lesson of self-respect."
+      },
+      {
+        "bank": [
+          "قریب",
+          "ہے",
+          "ان کا مزار",
+          "بادشاہی مسجد کے"
+        ],
+        "answer": [
+          "ان کا مزار",
+          "بادشاہی مسجد کے",
+          "قریب",
+          "ہے"
+        ],
+        "en": "His tomb is near the Badshahi Mosque."
+      }
+    ],
+    "blanks": [
+      {
+        "text": "اقبال 1877 میں ____ میں پیدا ہوئے۔",
+        "opts": [
+          "کراچی",
+          "سیالکوٹ",
+          "پشاور",
+          "کوئٹہ"
+        ],
+        "a": 1,
+        "en": "Iqbal was born in ___ in 1877."
+      },
+      {
+        "text": "اقبال کو نوجوانوں سے بہت ____ تھیں۔",
+        "opts": [
+          "دیواریں",
+          "سڑکیں",
+          "امیدیں",
+          "گھڑیاں"
+        ],
+        "a": 2,
+        "en": "Iqbal had great ___ for young people."
+      },
+      {
+        "text": "1930 میں اقبال نے الہ آباد میں ایک مشہور ____ دیا۔",
+        "opts": [
+          "مزار",
+          "کھیل",
+          "دریا",
+          "خطبہ"
+        ],
+        "a": 3,
+        "en": "In 1930 Iqbal gave a famous ___ in Allahabad."
+      }
+    ],
+    "creative": {
+      "ur": "اقبال کے پیغام کی کون سی بات آپ اپنی زندگی میں اپنانا چاہیں گے؟ تین جملے لکھیں۔",
+      "en": "Which part of Iqbal's message would you like to follow in your own life? Write three sentences."
+    }
+  },
+  "grammar": {
+    "title": "نہ صرف… بلکہ — Not only… but also",
+    "explain": "نہ صرف… بلکہ… بھی joins two ideas and puts weight on the second: اقبال نہ صرف شاعر تھے بلکہ فلسفی بھی تھے. Put نہ صرف just before the first idea and بلکہ before the second; بھی usually follows the second idea. The pattern works with nouns, places and verbs: انہوں نے نہ صرف لکھا بلکہ تقریریں بھی کیں. Do not add نہیں — نہ صرف already contains the 'not'.",
+    "rows": [
+      [
+        "اقبال نہ صرف شاعر تھے بلکہ فلسفی بھی تھے۔",
+        "Iqbal was not only a poet but also a philosopher."
+      ],
+      [
+        "انہوں نے نہ صرف اردو میں بلکہ فارسی میں بھی لکھا۔",
+        "He wrote not only in Urdu but also in Persian."
+      ],
+      [
+        "وہ نہ صرف لاہور میں بلکہ کیمبرج اور جرمنی میں بھی پڑھے۔",
+        "He studied not only in Lahore but also in Cambridge and Germany."
+      ],
+      [
+        "اقبال کا پیغام نہ صرف بڑوں کے لیے بلکہ بچوں کے لیے بھی ہے۔",
+        "Iqbal's message is not only for adults but also for children."
+      ]
+    ],
+    "practice": [
+      {
+        "q": "اقبال نہ صرف شاعر تھے ____ ایک بڑے مفکر بھی تھے۔",
+        "opts": [
+          "بلکہ",
+          "کیونکہ",
+          "یا",
+          "جب"
+        ],
+        "a": 0,
+        "en": "Iqbal was not only a poet but also a great thinker."
+      },
+      {
+        "q": "طلبہ نے ____ تقریریں کیں بلکہ نظمیں بھی پڑھیں۔",
+        "opts": [
+          "صرف نہ",
+          "نہ صرف",
+          "بلکہ",
+          "بھی"
+        ],
+        "a": 1,
+        "en": "The students not only gave speeches but also recited poems."
+      },
+      {
+        "q": "یومِ اقبال پر نہ صرف طلبہ بلکہ والدین ____ آئے۔",
+        "opts": [
+          "نہیں",
+          "تو",
+          "بھی",
+          "ہی"
+        ],
+        "a": 2,
+        "en": "On Iqbal Day not only the students but also the parents came."
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "social-media-safety",
+  "ur": "سوچ کر کلک کریں",
+  "en": "Think Before You Click",
+  "grammarPoint": {
+    "ur": "شرطیہ جملے اور تنبیہ (اگر… تو، ورنہ، جب تک… نہ)",
+    "en": "Conditionals and warnings"
+  },
+  "cloze": {
+    "passage": "(1)_____ آپ اپنا پاس ورڈ کسی کو بتائیں گے تو آپ کا اکاؤنٹ خطرے میں پڑ جائے گا۔ اگر کوئی اجنبی پیغام بھیجے (2)_____ جواب نہ دیں۔ پوسٹ کرنے سے پہلے سوچیں، (3)_____ بعد میں پچھتانا پڑ سکتا ہے۔ جب (4)_____ یقین نہ ہو، کوئی لنک نہ کھولیں۔ اگر کوئی آپ کو تنگ (5)_____ تو والدین کو بتائیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "اگر",
+          "ورنہ",
+          "تو",
+          "جب"
+        ],
+        "a": 0,
+        "en": "اگر… تو = if… then"
+      },
+      {
+        "opts": [
+          "اگر",
+          "تو",
+          "ورنہ",
+          "کہ"
+        ],
+        "a": 1,
+        "en": "تو introduces the result after an اگر clause"
+      },
+      {
+        "opts": [
+          "تو",
+          "اگر",
+          "ورنہ",
+          "کیونکہ"
+        ],
+        "a": 2,
+        "en": "ورنہ = otherwise (a warning)"
+      },
+      {
+        "opts": [
+          "سے",
+          "تک",
+          "پر",
+          "میں"
+        ],
+        "a": 1,
+        "en": "جب تک… نہ = until / unless"
+      },
+      {
+        "opts": [
+          "کرتا",
+          "کرے",
+          "کیا",
+          "کرنا"
+        ],
+        "a": 1,
+        "en": "Subjunctive after اگر in advice: تنگ کرے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "مضبوط پاس ورڈ رکھیں، ورنہ اکاؤنٹ ہیک ہو سکتا ہے۔",
+      "stem": "اگر مضبوط پاس ورڈ نہیں رکھیں گے ____ اکاؤنٹ ہیک ہو سکتا ہے۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "تو"
+      ],
+      "en": "Keep a strong password, otherwise your account can be hacked."
+    },
+    {
+      "original": "اگر آپ احتیاط نہیں کریں گے تو دھوکا کھائیں گے۔",
+      "stem": "احتیاط کریں، ____ دھوکا کھائیں گے۔",
+      "instruction_ur": "‘ورنہ’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘otherwise’",
+      "answers": [
+        "ورنہ"
+      ],
+      "en": "If you are not careful, you will be tricked."
+    },
+    {
+      "original": "یہ اکاؤنٹ نقلی ہے۔",
+      "stem": "یہ اکاؤنٹ ____ ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "جعلی"
+      ],
+      "en": "This account is fake."
+    },
+    {
+      "original": "اگر کوئی آپ کو تنگ کرتا ہے تو اسے بلاک کر دیں۔",
+      "stem": "اگر کوئی آپ کو تنگ ____ تو اسے بلاک کر دیں۔",
+      "instruction_ur": "‘اگر’ کے بعد فعل کی مناسب شکل لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with the subjunctive verb after ‘agar’",
+      "answers": [
+        "کرے"
+      ],
+      "en": "If someone bullies you, block them."
+    },
+    {
+      "original": "یہ ویب سائٹ محفوظ ہے۔",
+      "stem": "یہ ویب سائٹ ____ نہیں ہے۔",
+      "instruction_ur": "متضاد لفظ لگا کر منفی جملہ مکمل کریں",
+      "instruction_en": "Complete as a negative using an antonym",
+      "answers": [
+        "غیر محفوظ",
+        "خطرناک"
+      ],
+      "en": "This website is safe."
+    }
+  ]
+}

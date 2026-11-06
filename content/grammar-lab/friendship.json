@@ -1,0 +1,117 @@
+{
+  "id": "friendship",
+  "ur": "دوست نے کہا کہ…",
+  "en": "My Friend Said That…",
+  "grammarPoint": {
+    "ur": "بالواسطہ بیان (اس نے کہا کہ…، پوچھا کہ کیا…)",
+    "en": "Reported speech"
+  },
+  "cloze": {
+    "passage": "کل حمزہ نے مجھ سے (1)_____ کہ وہ مجھ سے ناراض ہے۔ میں نے پوچھا (2)_____ میں نے کوئی غلطی کی ہے۔ اس نے بتایا کہ میں نے (3)_____ کا راز دوسروں کو بتا دیا تھا۔ میں نے کہا کہ (4)_____ بہت شرمندہ ہوں۔ اس نے مسکرا کر کہا کہ وہ مجھے معاف (5)_____ ہے۔",
+    "gaps": [
+      {
+        "opts": [
+          "کہا",
+          "پوچھا",
+          "سنا",
+          "دیکھا"
+        ],
+        "a": 0,
+        "en": "کہا کہ = said that (a statement, not a question)"
+      },
+      {
+        "opts": [
+          "تاکہ",
+          "کہ کیا",
+          "جب کہ",
+          "کیونکہ"
+        ],
+        "a": 1,
+        "en": "پوچھا کہ کیا = asked whether"
+      },
+      {
+        "opts": [
+          "میرے",
+          "تمہارے",
+          "ہمارے",
+          "اس"
+        ],
+        "a": 3,
+        "en": "Hamza's ‘my secret’ becomes اس کا راز when I report it"
+      },
+      {
+        "opts": [
+          "وہ",
+          "میں",
+          "تم",
+          "آپ"
+        ],
+        "a": 1,
+        "en": "Reporting my own words, I keep میں"
+      },
+      {
+        "opts": [
+          "کرتا",
+          "کرتی",
+          "کرتے",
+          "کرنا"
+        ],
+        "a": 0,
+        "en": "حمزہ is masculine singular: معاف کرتا ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "سارہ نے کہا، ‘میں کل اسکول نہیں آؤں گی۔’",
+      "stem": "سارہ نے کہا کہ ____ کل اسکول نہیں آئے گی۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "وہ"
+      ],
+      "en": "Sara said, ‘I will not come to school tomorrow.’"
+    },
+    {
+      "original": "علی نے مجھ سے پوچھا، ‘کیا تم میرے ساتھ کھیلو گے؟’",
+      "stem": "علی نے مجھ سے پوچھا کہ کیا ____ اس کے ساتھ کھیلوں گا۔",
+      "instruction_ur": "بالواسطہ سوال میں جملہ مکمل کریں",
+      "instruction_en": "Complete as a reported question",
+      "answers": [
+        "میں"
+      ],
+      "en": "Ali asked me, ‘Will you play with me?’"
+    },
+    {
+      "original": "امی نے کہا، ‘اپنے دوست سے معافی مانگو۔’",
+      "stem": "امی نے مجھ سے کہا کہ میں اپنے دوست سے معافی ____۔",
+      "instruction_ur": "بالواسطہ حکم میں جملہ مکمل کریں",
+      "instruction_en": "Complete as a reported command",
+      "answers": [
+        "مانگوں"
+      ],
+      "en": "Mum said, ‘Apologise to your friend.’"
+    },
+    {
+      "original": "دوستی میں اعتماد سب سے ضروری ہے۔",
+      "stem": "دوستی میں ____ سب سے ضروری ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "بھروسہ",
+        "یقین"
+      ],
+      "en": "Trust is the most important thing in friendship."
+    },
+    {
+      "original": "فاطمہ نے کہا، ‘میرا دوست وفادار ہے۔’",
+      "stem": "فاطمہ نے کہا کہ ____ دوست وفادار ہے۔",
+      "instruction_ur": "بالواسطہ بیان میں جملہ مکمل کریں",
+      "instruction_en": "Complete in reported speech",
+      "answers": [
+        "اس کا"
+      ],
+      "en": "Fatima said, ‘My friend is loyal.’"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "taxila-gandhara",
+  "ur": "ٹیکسلا کی سیر",
+  "en": "A Visit to Taxila",
+  "warmup": [
+    {
+      "en": "Taxila is an ancient city.",
+      "bank": [
+        "شہر",
+        "ہے",
+        "ٹیکسلا",
+        "ایک قدیم"
+      ],
+      "answer": [
+        "ٹیکسلا",
+        "ایک قدیم",
+        "شہر",
+        "ہے"
+      ]
+    },
+    {
+      "en": "We saw old coins.",
+      "bank": [
+        "سکے",
+        "ہم نے",
+        "دیکھے",
+        "پرانے"
+      ],
+      "answer": [
+        "ہم نے",
+        "پرانے",
+        "سکے",
+        "دیکھے"
+      ]
+    },
+    {
+      "en": "The statues are beautiful.",
+      "bank": [
+        "ہیں",
+        "مجسمے",
+        "خوبصورت"
+      ],
+      "answer": [
+        "مجسمے",
+        "خوبصورت",
+        "ہیں"
+      ]
+    },
+    {
+      "en": "The museum is near Islamabad.",
+      "bank": [
+        "قریب",
+        "ہے",
+        "عجائب گھر",
+        "اسلام آباد کے"
+      ],
+      "answer": [
+        "عجائب گھر",
+        "اسلام آباد کے",
+        "قریب",
+        "ہے"
+      ]
+    },
+    {
+      "en": "Students used to come here from far away.",
+      "bank": [
+        "یہاں",
+        "آتے تھے",
+        "طالب علم",
+        "دور دور سے"
+      ],
+      "answer": [
+        "طالب علم",
+        "دور دور سے",
+        "یہاں",
+        "آتے تھے"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Last month our history class visited Taxila, an ancient city near Islamabad and Rawalpindi. More than two thousand years ago, it was a great centre of learning where students came from distant lands. Today its ruins are a UNESCO World Heritage Site. We began at the Taxila Museum, where the main hall is full of stone sculptures from Gandhara. I was amazed by how fine the folds of the clothes looked, as if the stone were soft cloth. In another gallery we saw old coins, gold jewellery and simple clay pots that people once used every day. Our guide reminded us that these treasures belong to all of us, so we must never touch or damage them. It was a day I will never forget.",
+    "modelUr": "پچھلے مہینے ہماری تاریخ کی جماعت نے ٹیکسلا کی سیر کی، جو اسلام آباد اور راولپنڈی کے قریب ایک قدیم شہر ہے۔ دو ہزار سال سے بھی زیادہ پہلے یہ علم کا ایک بڑا مرکز تھا جہاں دور دراز علاقوں سے طالب علم آتے تھے۔ آج اس کے کھنڈرات یونیسکو کے عالمی ورثے میں شامل ہیں۔ ہم نے اپنی سیر ٹیکسلا عجائب گھر سے شروع کی، جہاں کا مرکزی ہال گندھارا کے پتھر کے مجسموں سے بھرا ہوا ہے۔ میں حیران رہ گیا کہ کپڑوں کی تہیں کتنی باریک نظر آتی تھیں، جیسے پتھر نہیں بلکہ نرم کپڑا ہو۔ ایک اور گیلری میں ہم نے پرانے سکے، سونے کے زیورات اور مٹی کے سادہ برتن دیکھے جو لوگ کبھی روزانہ استعمال کرتے تھے۔ ہمارے گائیڈ نے یاد دلایا کہ یہ خزانے ہم سب کے ہیں، اس لیے ہمیں انہیں کبھی چھونا یا نقصان نہیں پہنچانا چاہیے۔ وہ دن میں کبھی نہیں بھولوں گا۔",
+    "checklist": [
+      "کیا صفات کی مطابقت درست ہے (پرانے سکے، سادہ برتن، باریک تہیں)؟",
+      "کیا ‘More than two thousand years ago’ کا ترجمہ ‘دو ہزار سال سے بھی زیادہ پہلے’ کیا؟",
+      "کیا ‘as if the stone were soft cloth’ کا ترجمہ ‘جیسے… ہو’ سے کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "online-shopping",
+  "ur": "آن لائن خریداری",
+  "en": "Online Shopping",
+  "warmup": [
+    {
+      "en": "I want to return this shirt.",
+      "bank": [
+        "واپس کرنا",
+        "میں",
+        "چاہتا ہوں",
+        "یہ قمیص"
+      ],
+      "answer": [
+        "میں",
+        "یہ قمیص",
+        "واپس کرنا",
+        "چاہتا ہوں"
+      ]
+    },
+    {
+      "en": "Despite the promise, the parcel did not come.",
+      "bank": [
+        "آیا",
+        "نہیں",
+        "پارسل",
+        "وعدے کے باوجود"
+      ],
+      "answer": [
+        "وعدے کے باوجود",
+        "پارسل",
+        "نہیں",
+        "آیا"
+      ]
+    },
+    {
+      "en": "Please return my money.",
+      "bank": [
+        "واپس",
+        "کر دیجیے",
+        "میری رقم",
+        "براہِ کرم"
+      ],
+      "answer": [
+        "براہِ کرم",
+        "میری رقم",
+        "واپس",
+        "کر دیجیے"
+      ]
+    },
+    {
+      "en": "Read the returns policy.",
+      "bank": [
+        "پڑھیں",
+        "پالیسی",
+        "واپسی کی"
+      ],
+      "answer": [
+        "واپسی کی",
+        "پالیسی",
+        "پڑھیں"
+      ]
+    },
+    {
+      "en": "The colour was different.",
+      "bank": [
+        "تھا",
+        "رنگ",
+        "مختلف"
+      ],
+      "answer": [
+        "رنگ",
+        "مختلف",
+        "تھا"
+      ]
+    }
+  ],
+  "passage": {
+    "en": "Online shopping has made life easier for many families in Pakistan. With a few clicks, you can order clothes, books or even groceries and have them delivered to your door. However, buyers should be careful. Last month my cousin ordered a school bag from a social media page. In the picture it looked strong and stylish, but the bag that arrived was made of cheap plastic and its zip broke on the first day. Despite sending several messages, she received no reply, and the page later disappeared. Before you buy anything online, read the shop's returns policy and check what other customers have said. Choose cash on delivery if possible, and keep a record of your order. Remember that, as a consumer, you have the right to receive what you paid for.",
+    "modelUr": "آن لائن خریداری نے پاکستان میں بہت سے خاندانوں کی زندگی آسان بنا دی ہے۔ چند کلکس سے آپ کپڑے، کتابیں یا سودا سلف تک منگوا سکتے ہیں اور یہ چیزیں آپ کے دروازے تک پہنچا دی جاتی ہیں۔ تاہم خریداروں کو محتاط رہنا چاہیے۔ پچھلے مہینے میری کزن نے سوشل میڈیا کے ایک صفحے سے اسکول بیگ منگوایا۔ تصویر میں وہ مضبوط اور خوبصورت لگ رہا تھا، لیکن جو بیگ آیا وہ سستے پلاسٹک کا بنا ہوا تھا اور اس کی زِپ پہلے ہی دن ٹوٹ گئی۔ کئی پیغامات بھیجنے کے باوجود اسے کوئی جواب نہیں ملا، اور بعد میں وہ صفحہ ہی غائب ہو گیا۔ آن لائن کچھ بھی خریدنے سے پہلے دکان کی واپسی کی پالیسی پڑھیں اور دیکھیں کہ دوسرے گاہکوں نے کیا کہا ہے۔ اگر ممکن ہو تو کیش آن ڈیلیوری کا انتخاب کریں اور اپنے آرڈر کا ریکارڈ رکھیں۔ یاد رکھیں کہ ایک صارف کی حیثیت سے آپ کا حق ہے کہ آپ کو وہی چیز ملے جس کی آپ نے قیمت ادا کی ہے۔",
+    "checklist": [
+      "کیا آپ نے ‘Despite sending several messages’ کا ترجمہ ‘کئی پیغامات بھیجنے کے باوجود’ سے کیا؟",
+      "کیا ‘have them delivered’ کو مجہول یا مرکب فعل (پہنچا دی جاتی ہیں) سے ادا کیا؟",
+      "کیا ‘as a consumer’ کا ترجمہ ‘صارف کی حیثیت سے’ کیا؟",
+      "کیا ترجمہ رواں اور مکمل ہے؟"
+    ]
+  }
+}

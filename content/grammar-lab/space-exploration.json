@@ -1,0 +1,116 @@
+{
+  "id": "space-exploration",
+  "ur": "چاند کی طرف سفر",
+  "en": "Journey to the Moon",
+  "grammarPoint": {
+    "ur": "مستقبل مجہول (بھیجا جائے گا) اور ‘والا’",
+    "en": "Future passive and ‘wala’"
+  },
+  "cloze": {
+    "passage": "اگلے ہفتے ہمارے اسکول میں خلا پر ایک نمائش لگائی (1)_____ گی۔ اس میں راکٹوں کے ماڈل (2)_____ جائیں گے۔ چاند پر جانے (3)_____ مشنوں کی تصویریں بھی ہوں گی۔ نمائش میں حصہ لینے (4)_____ ہر طالبہ کو سرٹیفکیٹ دیا جائے گا۔ نمائش شروع ہونے والی (5)_____، اس لیے سب تیاری کر رہے ہیں۔",
+    "gaps": [
+      {
+        "opts": [
+          "جائے",
+          "جاتی",
+          "جائیں",
+          "گئی"
+        ],
+        "a": 0,
+        "en": "Future passive: لگائی جائے گی"
+      },
+      {
+        "opts": [
+          "رکھا",
+          "رکھی",
+          "رکھے",
+          "رکھنا"
+        ],
+        "a": 2,
+        "en": "ماڈل is masculine plural → رکھے جائیں گے"
+      },
+      {
+        "opts": [
+          "والا",
+          "والے",
+          "والی",
+          "والیاں"
+        ],
+        "a": 1,
+        "en": "مشنوں is oblique plural → والے"
+      },
+      {
+        "opts": [
+          "والا",
+          "والے",
+          "والیوں",
+          "والی"
+        ],
+        "a": 3,
+        "en": "طالبہ is feminine → والی"
+      },
+      {
+        "opts": [
+          "ہے",
+          "تھا",
+          "ہیں",
+          "ہو"
+        ],
+        "a": 0,
+        "en": "‘About to’: شروع ہونے والی ہے"
+      }
+    ]
+  },
+  "transformation": [
+    {
+      "original": "سائنس دان کل ایک نیا سیٹلائٹ خلا میں بھیجیں گے۔",
+      "stem": "کل ایک نیا سیٹلائٹ خلا میں بھیجا ____ گا۔",
+      "instruction_ur": "دوسرا جملہ مکمل کریں، مفہوم نہ بدلے",
+      "instruction_en": "Complete the second sentence without changing the meaning",
+      "answers": [
+        "جائے"
+      ],
+      "en": "Scientists will send a new satellite into space tomorrow."
+    },
+    {
+      "original": "یہ مشن چاند پر جائے گا۔",
+      "stem": "یہ چاند پر جانے ____ مشن ہے۔",
+      "instruction_ur": "‘والا’ استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘wala’",
+      "answers": [
+        "والا"
+      ],
+      "en": "This mission will go to the Moon."
+    },
+    {
+      "original": "شو بس شروع ہونے کو ہے۔",
+      "stem": "شو بس شروع ہونے ____ ہے۔",
+      "instruction_ur": "‘والا’ (کچھ ہی دیر میں) استعمال کرتے ہوئے جملہ مکمل کریں",
+      "instruction_en": "Complete using ‘wala’ (about to)",
+      "answers": [
+        "والا"
+      ],
+      "en": "The show is just about to start."
+    },
+    {
+      "original": "طلبہ شو میں چاند کی تصویریں دیکھیں گے۔",
+      "stem": "شو میں طلبہ کو چاند کی تصویریں ____ جائیں گی۔",
+      "instruction_ur": "مستقبل مجہول میں جملہ مکمل کریں",
+      "instruction_en": "Complete in the future passive",
+      "answers": [
+        "دکھائی"
+      ],
+      "en": "The students will see pictures of the Moon in the show."
+    },
+    {
+      "original": "مصنوعی سیارہ زمین کے گرد گھومتا ہے۔",
+      "stem": "____ زمین کے گرد گھومتا ہے۔",
+      "instruction_ur": "مترادف لفظ لگا کر جملہ مکمل کریں",
+      "instruction_en": "Complete with a synonym",
+      "answers": [
+        "سیٹلائٹ"
+      ],
+      "en": "A satellite goes round the Earth."
+    }
+  ]
+}
