@@ -60,5 +60,5 @@ Space: iCube-Qamar went to the Moon on China's Chang'e-6 mission in May 2024.
 ## Release
 
 versionCode 7, versionName 1.2, minSdk 24, signed with the existing release
-keystore. Tested on the Samsung A12. Upload is the user's step. Gradle builds go
+keystore. Upload is the user's step. Gradle builds go
 through `jobq` (see ~/.claude/heavy-jobs.md).
