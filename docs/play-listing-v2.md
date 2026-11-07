@@ -1,4 +1,4 @@
-# Play Store Listing v2 — Urdu Safar (7 Oct 2026; description updated for v1.1 on 9 Oct 2026)
+# Play Store Listing v2 — Urdu Safar (7 Oct 2026; description updated for v1.2 and sent to Play on 7 Nov 2026)
 
 Why: 116 impressions and a 33% visitor→install rate in the last 28 days; not in the top 20 for
 "o level urdu" or "igcse urdu" even though no other app targets these exams. The live description

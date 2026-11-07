@@ -62,3 +62,10 @@ Space: iCube-Qamar went to the Moon on China's Chang'e-6 mission in May 2024.
 versionCode 7, versionName 1.2, minSdk 24, signed with the existing release
 keystore. Upload is the user's step. Gradle builds go
 through `jobq` (see ~/.claude/heavy-jobs.md).
+
+2026-11-07: the user uploaded the AAB. Claude added the release notes, set a full
+rollout (100%, all countries) and updated the store listing's full description to
+the 57-topic text in docs/play-listing-v2.md. The icon and feature graphic were
+labelled as AI-made, because they use Gemini artwork; the screenshots were not
+labelled. Both changes were sent for Google review. The phone test on the Samsung
+was not done before submission.
