@@ -67,5 +67,6 @@ through `jobq` (see ~/.claude/heavy-jobs.md).
 rollout (100%, all countries) and updated the store listing's full description to
 the 57-topic text in docs/play-listing-v2.md. The icon and feature graphic were
 labelled as AI-made, because they use Gemini artwork; the screenshots were not
-labelled. Both changes were sent for Google review. The phone test on the Samsung
+labelled. Both changes were sent for Google review (submission 5) and were PUBLISHED
+the same day. The phone test on the Samsung
 was not done before submission.
